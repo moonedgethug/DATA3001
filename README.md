@@ -68,10 +68,8 @@ The first direction has a broader regional and distributional focus. The second 
 
 ## Current Decision State
 
-Both directions remain under consideration. The final choice will be made after the group compares:
+The group is currently leaning towards **Where Things End Up**.
 
-- research interest;
-- data availability in the selected region;
-- technical feasibility;
-- validation requirements; and
-- the amount of work that can be completed during the term.
+The tentative study region is **Florida–Bahamas**, with the larger **Gulf Stream** region also being considered as an alternative.
+
+The final region will be selected after comparing data availability and feasibility.
