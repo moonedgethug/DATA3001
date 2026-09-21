@@ -70,8 +70,6 @@ The first direction has a broader regional and distributional focus. The second 
 
 The group is currently leaning towards **Where Things End Up**.
 
-The tentative study region is **Florida–Bahamas**, with the larger **Gulf Stream** region also being considered as an alternative.
+The project will first focus on the **Florida–Bahamas** region and then extend the analysis to the broader **Gulf Stream** region.
 
-The final region will be selected after comparing data availability and feasibility.
-
-Conduct a **spatial transition coverage check** for the Florida–Bahamas region. The purpose is to directly assess the key feasibility question for our project: **if we later select a starting point A within Region R, are there enough historical drifter trajectories in the surrounding area to support a reliable destination-likelihood map?**
+We will first conduct a **spatial transition coverage check** for Florida–Bahamas to assess whether there are enough historical drifter trajectories to support reliable destination-likelihood maps. The same framework can then be extended to the broader Gulf Stream region.
