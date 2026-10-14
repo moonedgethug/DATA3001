@@ -1,0 +1,10 @@
+{
+  "acquisition_integrity": "accepted baseline, manifests refreshed",
+  "core_preprocessing": "accepted architecture audit; reason attribution corrected without current eligibility change",
+  "regional_wet_areas_and_release_weights": "prepared and verified",
+  "lag_independent_ID_support": "prepared and verified; lag selection deferred to modelling",
+  "depth_stratification": "complete; primary mixture policy pending DEPTH-01",
+  "365_seasonal_evidence": "sparse; zero-case folds explicitly not evaluable",
+  "prediction_accuracy": "not evaluated",
+  "allowed_next_work": "architecture resolves DEPTH-01 and authorizes the model stage; use 1-degree annual/seasonal core and common-target 7/30-day validation, retaining 365-day analysis"
+}

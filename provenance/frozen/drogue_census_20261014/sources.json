@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "observed-hour-states",
+      "title": "全部下载轨迹的 drogue 状态数量",
+      "queries": [
+        {
+          "id": "full-cohort-census",
+          "source": {
+            "label": "Frozen NOAA GDP hourly cohort",
+            "files": [
+              {
+                "label": "hourly_subset_v2.01.1.zarr"
+              },
+              {
+                "label": "trajectory_context.parquet"
+              },
+              {
+                "label": "cleaned per-ID Parquet files"
+              },
+              {
+                "label": "audit.py"
+              },
+              {
+                "label": "result.json"
+              }
+            ],
+            "filters": [
+              "All acquired drifter IDs",
+              "All retained hourly records",
+              "Train, validation and locked-test splits",
+              "No spatial clipping or imputed states"
+            ],
+            "executedAt": "2026-10-14T03:18:46.170549+00:00",
+            "metricDefinitions": [
+              {
+                "label": "Confirmed observed-hour regime",
+                "definition": "State is confirmed only when the source flag agrees with a finite positive loss date outside its timestamp precision guard. Counts concern individual observed hours, not fixed-state forecast intervals."
+              }
+            ],
+            "caveats": [
+              "IDs with any drogued, undrogued or unresolved hour overlap.",
+              "The preserved raw flag has no nulls; contract-defined uncertainty also depends on loss-date interpretation.",
+              "The snapshot contains acquired trajectories, not the complete global GDP database."
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "Full-cohort reconciliation",
+                "detail": "All 3,741 native IDs and every per-ID record count match. Native source-flag totals match the preserved flags. All 39,107,061 regime values match the documented rule; the Data Contract checksum is unchanged."
+              }
+            ]
+          },
+          "reportingPeriod": "1990-07-06 20:00 UTC to 2022-10-31 00:00 UTC",
+          "capturedAt": "2026-10-14T03:18:46.170549+00:00",
+          "columns": [
+            {
+              "field": "state",
+              "label": "合同确认状态"
+            },
+            {
+              "field": "rows",
+              "label": "小时记录数"
+            },
+            {
+              "field": "percent",
+              "label": "占全部记录（%）"
+            },
+            {
+              "field": "IDs",
+              "label": "涉及 ID（可重叠）"
+            }
+          ],
+          "rows": [
+            {
+              "state": "drogued",
+              "rows": 18892169,
+              "percent": 48.3088,
+              "IDs": 3410
+            },
+            {
+              "state": "undrogued",
+              "rows": 19376937,
+              "percent": 49.5484,
+              "IDs": 3375
+            },
+            {
+              "state": "unknown",
+              "rows": 837955,
+              "percent": 2.1427,
+              "IDs": 3249
+            }
+          ],
+          "methods": [
+            {
+              "language": "python",
+              "code": "\"\"\"Read-only census of frozen hourly drogue states; writes separate audit evidence.\n\nThis counts observations and IDs. It does not infer missing states, change\neligibility, read forecast endpoints, or fit any model.\n\"\"\"\nfrom collections import Counter, defaultdict\nfrom datetime import datetime, timezone\nfrom pathlib import Path\nimport csv\nimport hashlib\nimport json\nimport time\n\nimport numpy as np\nimport pyarrow.parquet as pq\nimport zarr\n\nOUT = Path(__file__).resolve().parent\nBASE = OUT.parent\nraw = zarr.open_group(str(BASE.parent / 'raw/hourly_subset_v2.01.1.zarr'), mode='r')\nraw_ids = np.asarray(raw['id'][:], dtype=np.int64)\nraw_sizes = np.asarray(raw['rowsize'][:], dtype=np.int64)\nexpected_rows = dict(zip(raw_ids.tolist(), raw_sizes.tolist()))\ncontext = pq.read_table(BASE / 'metadata/trajectory_context.parquet').to_pandas()\nassert context.id.is_unique\nmeta = context.set_index('id').to_dict('index')\nfiles = sorted((BASE / 'cleaned').glob('*.parquet')) + sorted((BASE / 'restricted_test/cleaned').glob('*.parquet'))\nassert len(files) == len(raw_ids) == len(meta)\nassert len({int(p.stem) for p in files}) == len(files)\nassert {int(p.stem) for p in files} == set(expected_rows) == set(meta)\n\nstates = {1: 'drogued', 0: 'undrogued', -1: 'unknown'}\nmask_names = {\n    1: 'drogued_only', 2: 'undrogued_only', 3: 'drogued_and_undrogued_without_unknown',\n    4: 'unknown_only', 5: 'drogued_and_unknown', 6: 'undrogued_and_unknown',\n    7: 'drogued_and_undrogued_and_unknown',\n}\ntotals = Counter()\nraw_flags = Counter()\nid_sets = {name: set() for name in states.values()}\ngroups = Counter({name: 0 for name in mask_names.values()})\nreason_rows = Counter()\nreason_ids = defaultdict(set)\nby_split = defaultdict(Counter)\nr_rows = Counter()\nr_ids = {name: set() for name in states.values()}\nrecords = []\nsource_manifest = []\nstarted = time.monotonic()\nminimum, maximum = np.inf, -np.inf\n\nfor number, path in enumerate(files, 1):\n    ident = int(path.stem)\n    loss = float(meta[ident]['drogue_lost_date'])\n    split = str(meta[ident]['split'])\n    table = pq.read_table(path, columns=['time', 'drogue_status', 'regime', 'in_R', 'analytical_row'])\n    t = table['time'].to_numpy()\n    flag = table['drogue_status'].to_numpy()\n    regime = table['regime'].to_numpy()\n    in_r = table['in_R'].to_numpy()\n    analytical = table['analytical_row'].to_numpy()\n    assert len(t) == expected_rows[ident], (ident, len(t), expected_rows[ident])\n    assert set(np.unique(regime)).issubset(states), (ident, np.unique(regime))\n    if np.isfinite(t).any():\n        minimum = min(minimum, float(np.nanmin(t)))\n        maximum = max(maximum, float(np.nanmax(t)))\n\n    # Independently evaluate the documented finite-positive loss-date rule.\n    reproduced = np.full(len(t), -1, dtype=np.int8)\n    reason = np.full(len(t), '', dtype=object)\n    if not np.isfinite(loss):\n        loss_kind = 'nonfinite_loss_date'\n        reason[:] = loss_kind\n    elif loss == 0:\n        loss_kind = 'zero_loss_date'\n        reason[:] = loss_kind\n    elif loss < 0:\n        loss_kind = 'negative_loss_date'\n        reason[:] = loss_kind\n    else:\n        loss_kind = 'finite_positive_loss_date'\n        guard = abs(float(np.spacing(np.float32(loss)))) / 2\n        before = t < loss - guard\n        after = t >= loss + guard\n        reproduced[before & (flag == 1)] = 1\n        reproduced[after & (flag == 0)] = 0\n        reason[(~np.isfinite(t))] = 'invalid_observation_time'\n        unknown = reproduced == -1\n        unassigned = unknown & (reason == '')\n        reason[unassigned & ~np.isin(flag, [0, 1])] = 'unrecognized_source_flag'\n        unassigned = unknown & (reason == '')\n        reason[unassigned & ~(before | after)] = 'float32_loss_time_guard'\n        reason[unknown & (reason == '')] = 'source_flag_loss_date_conflict'\n    assert np.array_equal(regime, reproduced), ident\n    assert np.array_equal(reason != '', regime == -1), ident\n\n    counts = {name: int(np.count_nonzero(regime == value)) for value, name in states.items()}\n    mask = 0\n    for value, name in states.items():\n        if counts[name]:\n            id_sets[name].add(ident)\n            mask |= {1: 1, 0: 2, -1: 4}[value]\n        totals[name] += counts[name]\n        by_split[split][name] += counts[name]\n        nr = int(np.count_nonzero(in_r & (regime == value)))\n        r_rows[name] += nr\n        if nr:\n            r_ids[name].add(ident)\n    assert mask in mask_names\n    groups[mask_names[mask]] += 1\n    totals['rows'] += len(t)\n    totals['nonanalytical_rows'] += int(np.count_nonzero(~analytical))\n    by_split[split]['IDs'] += 1\n    by_split[split]['rows'] += len(t)\n    for value, count in zip(*np.unique(flag, return_counts=True)):\n        raw_flags[str(int(value))] += int(count)\n    this_reasons = {}\n    for value, count in zip(*np.unique(reason[reason != ''], return_counts=True)):\n        reason_rows[str(value)] += int(count)\n        reason_ids[str(value)].add(ident)\n        this_reasons[str(value)] = int(count)\n    records.append({'id': ident, 'split': split, 'hourly_records': len(t), **counts,\n                    'source_drogued_rows': int(np.count_nonzero(flag == 1)),\n                    'source_undrogued_rows': int(np.count_nonzero(flag == 0)),\n                    'state_pattern': mask_names[mask], 'loss_date_kind': loss_kind,\n                    'unknown_reasons': json.dumps(this_reasons, sort_keys=True)})\n    source_manifest.append({'file': str(path.relative_to(BASE)), 'rows': len(t),\n                            'bytes': path.stat().st_size, 'mtime_ns': path.stat().st_mtime_ns})\n    if number % 750 == 0:\n        print(json.dumps({'progress_IDs': number, 'rows_counted': totals['rows'],\n                          'elapsed_seconds': round(time.monotonic() - started, 1)}), flush=True)\n\nbaseline = json.loads((BASE / 'audit/preparation_verification.json').read_text())\nnative_flags = np.asarray(raw['drogue_status'][:])\nnative_flag_counts = {str(int(value)): int(count) for value, count in zip(*np.unique(native_flags, return_counts=True))}\nassert native_flag_counts == dict(raw_flags)\ndel native_flags\nassert totals['rows'] == int(raw_sizes.sum()) == baseline['source_rows']\nassert sum(totals[name] for name in states.values()) == totals['rows']\nassert totals['unknown'] == baseline['counts']['unknown_regime_rows']\nassert sum(reason_rows.values()) == totals['unknown']\nassert sum(groups.values()) == len(raw_ids)\nassert totals['nonanalytical_rows'] == 0\nauthority = BASE.parents[2] / 'outputs/01a09d9c-2168-7d51-8b63-87eb559bf139/data_contract_v1.0.xlsx'\nauthority_sha = hashlib.sha256(authority.read_bytes()).hexdigest()\nassert authority_sha == '6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446'\nreport = {\n    'executed_at_utc': datetime.now(timezone.utc).isoformat(),\n    'scope': 'All acquired IDs and all retained hourly records, including all splits and full trajectories outside R/D.',\n    'authority_sha256': authority_sha,\n    'total_IDs': len(raw_ids), 'total_hourly_records': totals['rows'],\n    'state_rows': {name: {'rows': totals[name], 'percent_of_all_rows': 100 * totals[name] / totals['rows'],\n                        'distinct_IDs_with_any': len(id_sets[name])} for name in states.values()},\n    'exclusive_ID_patterns': dict(groups),\n    'source_drogue_status_value_counts': dict(raw_flags),\n    'priority_whole_unknown_IDs_by_split': {split: sum(row['split'] == split and row['state_pattern'] == 'unknown_only' for row in records) for split in ('train', 'validation', 'test')},\n    'priority_whole_unknown_hourly_records': sum(row['unknown'] for row in records if row['state_pattern'] == 'unknown_only'),\n    'priority_raw_flags_by_loss_kind': {kind: {\n        'IDs': sum(row['loss_date_kind'] == kind and row['state_pattern'] == 'unknown_only' for row in records),\n        'raw_drogued_rows': sum(row['source_drogued_rows'] for row in records if row['loss_date_kind'] == kind and row['state_pattern'] == 'unknown_only'),\n        'raw_undrogued_rows': sum(row['source_undrogued_rows'] for row in records if row['loss_date_kind'] == kind and row['state_pattern'] == 'unknown_only')}\n        for kind in ('nonfinite_loss_date', 'zero_loss_date')},\n    'unknown_reasons': {name: {'rows': reason_rows[name], 'distinct_IDs': len(reason_ids[name])}\n                        for name in sorted(reason_rows)},\n    'by_split': {name: dict(value) for name, value in sorted(by_split.items())},\n    'R_observation_state_rows': {name: {'rows': r_rows[name], 'distinct_IDs': len(r_ids[name])}\n                                for name in states.values()},\n    'data_start_UTC': datetime.fromtimestamp(minimum, timezone.utc).isoformat(),\n    'data_end_UTC': datetime.fromtimestamp(maximum, timezone.utc).isoformat(),\n    'checks': {'native_ID_inventory_equal': True, 'native_per_ID_row_counts_equal': True,\n               'native_source_flag_counts_equal': True,\n               'all_row_regimes_independently_reconciled': True,\n               'exclusive_ID_patterns_sum_to_total': True,\n               'unknown_reason_rows_sum_to_unknown': True,\n               'baseline_unknown_count_equal': True, 'contract_hash_unchanged': True,\n               'nonanalytical_rows': totals['nonanalytical_rows']},\n    'qualifications': [\n        'ID counts with any state overlap; exclusive ID patterns do not overlap.',\n        'A raw 0/1 source flag is not equivalent to a metadata-confirmed regime.',\n        'Unknown includes unresolved metadata, source/date conflict and loss-time precision guards.',\n        'Observation-state counts are not fixed-regime interval eligibility counts.',\n        'No missing state was inferred and no original data or contract was modified.',\n        'Locked-test records were counted only for this descriptive census; forecast ledgers and scores were not read.',\n    ],\n    'elapsed_seconds': round(time.monotonic() - started, 2),\n}\nwith (OUT / 'per_ID_census.csv').open('w', newline='') as handle:\n    writer = csv.DictWriter(handle, fieldnames=list(records[0]))\n    writer.writeheader()\n    writer.writerows(sorted(records, key=lambda row: row['id']))\nwith (OUT / 'priority_unknown_IDs.csv').open('w', newline='') as handle:\n    writer = csv.DictWriter(handle, fieldnames=list(records[0]))\n    writer.writeheader()\n    writer.writerows(sorted((row for row in records if row['state_pattern'] == 'unknown_only'), key=lambda row: row['id']))\n(OUT / 'result.json').write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\\n')\n(OUT / 'input_inventory.json').write_text(json.dumps(source_manifest, indent=2) + '\\n')\nprint(json.dumps(report, indent=2, ensure_ascii=False))\n"
+            }
+          ],
+          "preview": {
+            "kind": "aggregate",
+            "note": "Complete acquired cohort, grouped by confirmed observation state.",
+            "totalRows": 39107061
+          }
+        }
+      ]
+    },
+    {
+      "id": "unresolved-state-reasons",
+      "title": "无法确认状态的具体原因",
+      "queries": [
+        {
+          "id": "unknown-reasons",
+          "source": {
+            "label": "Frozen NOAA GDP hourly cohort",
+            "files": [
+              {
+                "label": "hourly_subset_v2.01.1.zarr"
+              },
+              {
+                "label": "trajectory_context.parquet"
+              },
+              {
+                "label": "cleaned per-ID Parquet files"
+              },
+              {
+                "label": "audit.py"
+              },
+              {
+                "label": "result.json"
+              }
+            ],
+            "filters": [
+              "All acquired drifter IDs",
+              "All retained hourly records",
+              "Train, validation and locked-test splits",
+              "No spatial clipping or imputed states"
+            ],
+            "executedAt": "2026-10-14T03:18:46.170549+00:00",
+            "metricDefinitions": [
+              {
+                "label": "Reason an observed-hour state is unresolved",
+                "definition": "Unresolved hours are partitioned into unproven NaN loss-date interpretation, zero loss-date convention and the finite-positive loss-date timestamp precision guard."
+              }
+            ],
+            "caveats": [
+              "The 3,137 precision-guard hours belong to 3,137 otherwise partly known drifters and do not constitute whole-trajectory missing states.",
+              "The 112 wholly unresolved IDs account for 834,818 hours. Raw source flags do not establish their physical state under the current contract."
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "Unknown-hour reconciliation",
+                "detail": "339,263 NaN-loss-date hours + 495,555 zero-loss-date hours + 3,137 precision-guard hours = 837,955, matching the previous frozen preparation receipt."
+              }
+            ]
+          },
+          "columns": [
+            {
+              "field": "reason",
+              "label": "原因"
+            },
+            {
+              "field": "rows",
+              "label": "小时记录数"
+            },
+            {
+              "field": "IDs",
+              "label": "涉及 ID"
+            }
+          ],
+          "rows": [
+            {
+              "reason": "float32_loss_time_guard",
+              "rows": 3137,
+              "IDs": 3137
+            },
+            {
+              "reason": "nonfinite_loss_date",
+              "rows": 339263,
+              "IDs": 44
+            },
+            {
+              "reason": "zero_loss_date",
+              "rows": 495555,
+              "IDs": 68
+            }
+          ],
+          "preview": {
+            "kind": "aggregate",
+            "note": "All unresolved hours, partitioned by reason.",
+            "totalRows": 837955
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-12T05:29:54.624817+00:00",
+  "all_passed": true,
+  "results": [
+    {
+      "split": "development",
+      "groups": 2346210,
+      "candidates_eligible_outside_returns_IDs_unchanged": true,
+      "secondary_predicates_and_exclusion_reasons_recomputed": true
+    },
+    {
+      "split": "test",
+      "groups": 1009410,
+      "candidates_eligible_outside_returns_IDs_unchanged": true,
+      "secondary_predicates_and_exclusion_reasons_recomputed": true
+    }
+  ],
+  "research_target_or_eligibility_changed": false
+}

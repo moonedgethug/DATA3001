@@ -1,0 +1,33 @@
+{
+  "as_of_local_date": "2026-10-13",
+  "timezone": "Australia/Sydney",
+  "source_data_cutoff_UTC": "2022-10-31T00:00:00Z",
+  "reviewed_query_count": 7,
+  "all_bound_evidence_hashes_verified": true,
+  "horizon_support_values_reconciled": true,
+  "report_build": "passed canonical authored-content verification",
+  "rendered_checks": {
+    "desktop_width": 855,
+    "mobile_width": 390,
+    "uncaught_errors_observed": 0,
+    "four_tables_loaded": true,
+    "source_overview_and_data_preview_checked": true,
+    "page_horizontal_overflow": false,
+    "wide_tables_scroll_internally": true,
+    "complete_authoring_indicator_confirmed": true
+  },
+  "original_preparation_manifest_75_files_unchanged": true,
+  "accuracy_claims": "unperformed predictive validation is explicit; support counts are not accuracy",
+  "remaining_research_questions": [
+    "DEPTH-01 primary depth/hardware policy",
+    "365-day sparse seasonal evidence"
+  ],
+  "artifact_sha256": {
+    "src/data.json": "b7d7056dd7fdd914bc7465ff234c1a0bef407ce88c7df8e9cd8faff10b31bf48",
+    "src/content/report/ReportContent.jsx": "0f0084f8675451a1ca2a117799b28120ea61a6a9ea3979a9c411251237a0166e",
+    "STAGE_REPORT_20261013.md": "726d43f446c061734278bc7e2c3375445bf9933429398bb7b0a894e41f326057",
+    "dist/index.html": "f96482c2d212c2f011bf1444face70a6faa70526d88c19f9facd7e4e22fa3a78",
+    "dist/data-app-build.json": "727bc2dac689c410531c4d790c285f71dc7a63281c3ebe42a982df7969606881"
+  },
+  "preview_url": "http://127.0.0.1:4186/?view=1"
+}

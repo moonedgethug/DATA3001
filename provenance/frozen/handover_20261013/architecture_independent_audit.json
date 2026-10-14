@@ -1,0 +1,434 @@
+{
+  "scope": "Read-only source-to-cleaned integrity and development label/support audit; no model fitting or test-label tuning",
+  "failures": [],
+  "source_cleaned_counts": {
+    "IDs": 3741,
+    "rows": 39107061,
+    "source_values_compared": 782141220,
+    "missing_SST_position_kept": 1366330,
+    "negative_position_uncertainty": 1521,
+    "timestamp_gap_intervals": 13276,
+    "missing_expected_hours": 730371
+  },
+  "R_fixed_drogued_from_actual_ledgers": [
+    {
+      "split": "train",
+      "horizon_days": 7,
+      "target": "endpoint",
+      "candidates": 249125,
+      "eligible": 140548,
+      "eligible_IDs": 202,
+      "outside": 0
+    },
+    {
+      "split": "train",
+      "horizon_days": 7,
+      "target": "stopped",
+      "candidates": 249125,
+      "eligible": 138603,
+      "eligible_IDs": 200,
+      "outside": 0
+    },
+    {
+      "split": "train",
+      "horizon_days": 30,
+      "target": "endpoint",
+      "candidates": 249125,
+      "eligible": 123533,
+      "eligible_IDs": 180,
+      "outside": 0
+    },
+    {
+      "split": "train",
+      "horizon_days": 30,
+      "target": "stopped",
+      "candidates": 249125,
+      "eligible": 116532,
+      "eligible_IDs": 170,
+      "outside": 0
+    },
+    {
+      "split": "train",
+      "horizon_days": 365,
+      "target": "endpoint",
+      "candidates": 249125,
+      "eligible": 10722,
+      "eligible_IDs": 18,
+      "outside": 0
+    },
+    {
+      "split": "train",
+      "horizon_days": 365,
+      "target": "stopped",
+      "candidates": 249125,
+      "eligible": 8668,
+      "eligible_IDs": 12,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 7,
+      "target": "endpoint",
+      "candidates": 68983,
+      "eligible": 36071,
+      "eligible_IDs": 48,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 7,
+      "target": "stopped",
+      "candidates": 68983,
+      "eligible": 35614,
+      "eligible_IDs": 48,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 30,
+      "target": "endpoint",
+      "candidates": 68983,
+      "eligible": 30281,
+      "eligible_IDs": 44,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 30,
+      "target": "stopped",
+      "candidates": 68983,
+      "eligible": 28025,
+      "eligible_IDs": 41,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 365,
+      "target": "endpoint",
+      "candidates": 68983,
+      "eligible": 1513,
+      "eligible_IDs": 4,
+      "outside": 0
+    },
+    {
+      "split": "validation",
+      "horizon_days": 365,
+      "target": "stopped",
+      "candidates": 68983,
+      "eligible": 1145,
+      "eligible_IDs": 3,
+      "outside": 0
+    }
+  ],
+  "combined_DEV_365_seasonal_IDs": [
+    {
+      "target": "endpoint",
+      "season": 0,
+      "eligible": 818,
+      "eligible_IDs": 5
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "eligible": 2400,
+      "eligible_IDs": 7
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "eligible": 6419,
+      "eligible_IDs": 15
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "eligible": 2598,
+      "eligible_IDs": 6
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "eligible": 635,
+      "eligible_IDs": 4
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "eligible": 1109,
+      "eligible_IDs": 3
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "eligible": 5636,
+      "eligible_IDs": 11
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "eligible": 2433,
+      "eligible_IDs": 5
+    }
+  ],
+  "DEV_365_grouped_fold_support": [
+    {
+      "target": "endpoint",
+      "season": 0,
+      "development_fold": 0,
+      "eligible_IDs": 2,
+      "eligible": 185
+    },
+    {
+      "target": "endpoint",
+      "season": 0,
+      "development_fold": 3,
+      "eligible_IDs": 2,
+      "eligible": 201
+    },
+    {
+      "target": "endpoint",
+      "season": 0,
+      "development_fold": 4,
+      "eligible_IDs": 1,
+      "eligible": 432
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "development_fold": 1,
+      "eligible_IDs": 1,
+      "eligible": 203
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "development_fold": 2,
+      "eligible_IDs": 3,
+      "eligible": 1047
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "development_fold": 3,
+      "eligible_IDs": 1,
+      "eligible": 196
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "development_fold": 4,
+      "eligible_IDs": 2,
+      "eligible": 954
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "development_fold": 0,
+      "eligible_IDs": 2,
+      "eligible": 1490
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "development_fold": 1,
+      "eligible_IDs": 3,
+      "eligible": 1199
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "development_fold": 2,
+      "eligible_IDs": 4,
+      "eligible": 994
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "development_fold": 3,
+      "eligible_IDs": 1,
+      "eligible": 1252
+    },
+    {
+      "target": "endpoint",
+      "season": 2,
+      "development_fold": 4,
+      "eligible_IDs": 5,
+      "eligible": 1484
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "development_fold": 0,
+      "eligible_IDs": 1,
+      "eligible": 1454
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "development_fold": 1,
+      "eligible_IDs": 3,
+      "eligible": 404
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "development_fold": 4,
+      "eligible_IDs": 2,
+      "eligible": 740
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "development_fold": 0,
+      "eligible_IDs": 2,
+      "eligible": 185
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "development_fold": 3,
+      "eligible_IDs": 1,
+      "eligible": 18
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "development_fold": 4,
+      "eligible_IDs": 1,
+      "eligible": 432
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "development_fold": 2,
+      "eligible_IDs": 1,
+      "eligible": 155
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "development_fold": 4,
+      "eligible_IDs": 2,
+      "eligible": 954
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "development_fold": 0,
+      "eligible_IDs": 2,
+      "eligible": 1490
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "development_fold": 1,
+      "eligible_IDs": 2,
+      "eligible": 1039
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "development_fold": 2,
+      "eligible_IDs": 2,
+      "eligible": 553
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "development_fold": 3,
+      "eligible_IDs": 1,
+      "eligible": 1252
+    },
+    {
+      "target": "stopped",
+      "season": 2,
+      "development_fold": 4,
+      "eligible_IDs": 4,
+      "eligible": 1302
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "development_fold": 0,
+      "eligible_IDs": 1,
+      "eligible": 1454
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "development_fold": 1,
+      "eligible_IDs": 2,
+      "eligible": 239
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "development_fold": 4,
+      "eligible_IDs": 2,
+      "eligible": 740
+    }
+  ],
+  "empty_DEV_year_validation_folds": [
+    {
+      "target": "endpoint",
+      "season": 0,
+      "fold": 1
+    },
+    {
+      "target": "endpoint",
+      "season": 0,
+      "fold": 2
+    },
+    {
+      "target": "endpoint",
+      "season": 1,
+      "fold": 0
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "fold": 2
+    },
+    {
+      "target": "endpoint",
+      "season": 3,
+      "fold": 3
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "fold": 1
+    },
+    {
+      "target": "stopped",
+      "season": 0,
+      "fold": 2
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "fold": 0
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "fold": 1
+    },
+    {
+      "target": "stopped",
+      "season": 1,
+      "fold": 3
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "fold": 2
+    },
+    {
+      "target": "stopped",
+      "season": 3,
+      "fold": 3
+    }
+  ],
+  "elapsed_seconds": 34.241301291040145
+}

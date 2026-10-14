@@ -1,0 +1,44 @@
+{
+  "examples": [
+    {
+      "id": 7706157,
+      "scenario": "drogued",
+      "origin_source_obs": 73881,
+      "origin_UTC": "1990-09-06 05:00:00+00:00",
+      "first_exit_source_obs": 73902,
+      "first_exit_UTC": "1990-09-07 02:00:00+00:00",
+      "track_last_UTC": "1991-01-09 19:00:00+00:00",
+      "target_UTC": "1990-10-06 05:00:00+00:00",
+      "stopped": "eligible_outside",
+      "endpoint_reason": "missing_target_timestamp",
+      "contiguous_path_independently_checked": true
+    },
+    {
+      "id": 7706158,
+      "scenario": "drogued",
+      "origin_source_obs": 78033,
+      "origin_UTC": "1990-08-28 15:00:00+00:00",
+      "first_exit_source_obs": 78438,
+      "first_exit_UTC": "1990-09-14 12:00:00+00:00",
+      "track_last_UTC": "1991-01-01 16:00:00+00:00",
+      "target_UTC": "1990-09-27 15:00:00+00:00",
+      "stopped": "eligible_outside",
+      "endpoint_reason": "missing_target_timestamp",
+      "contiguous_path_independently_checked": true
+    },
+    {
+      "id": 9414736,
+      "scenario": "drogued",
+      "origin_source_obs": 511598,
+      "origin_UTC": "1996-01-22 00:00:00+00:00",
+      "first_exit_source_obs": 511698,
+      "first_exit_UTC": "1996-01-26 04:00:00+00:00",
+      "track_last_UTC": "1997-02-20 20:00:00+00:00",
+      "target_UTC": "1996-02-21 00:00:00+00:00",
+      "stopped": "eligible_outside",
+      "endpoint_reason": "unknown_regime",
+      "contiguous_path_independently_checked": true
+    }
+  ],
+  "test_IDs_used": 0
+}

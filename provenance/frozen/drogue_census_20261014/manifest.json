@@ -1,0 +1,10 @@
+{
+  "sources.json": "4c2f8ad8ce789fab082ecc0b9f4cd6a8bab62bdb0c85e9727557890589c18ef2",
+  "audit.ipynb": "62f957f19545e42b473960e7db724ee707837e37d1d51674ad1431efe64c717b",
+  "audit.py": "55ffd946255633f8d6f42fb9eea8fde5c73703a6dfc43cb29acecba842a983c1",
+  "result.json": "3788051dba9190e9789d9d67070c85a7ded2142397739e61922018a7aac08912",
+  "per_ID_census.csv": "d1e38508fe304a0b7dba76fafc86a764fb31ccdab0cd3f6e106fcdc798fc0923",
+  "AUDIT.md": "a6e506231be0566e0ccac3ea6edf2d946e23255687474669caf62eb299277468",
+  "input_inventory.json": "af8f6dc89d326879c3a5fd542d8ff569e3f9c17c973a039a65ea8c0c1e043185",
+  "priority_unknown_IDs.csv": "7faffbfb4135ad843f3616b9877245ec4752fc5768428a3a8dc59ad2bcc53bf9"
+}

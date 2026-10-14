@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "five_full_track_cleaning_regressions": [
+    {
+      "id": 9825497,
+      "rows": 399,
+      "all_columns_exactly_equal": true
+    },
+    {
+      "id": 43869,
+      "rows": 37264,
+      "all_columns_exactly_equal": true
+    },
+    {
+      "id": 17503,
+      "rows": 17250,
+      "all_columns_exactly_equal": true
+    },
+    {
+      "id": 55353,
+      "rows": 21636,
+      "all_columns_exactly_equal": true
+    },
+    {
+      "id": 23120,
+      "rows": 14165,
+      "all_columns_exactly_equal": true
+    }
+  ],
+  "qualified_early_exit_regressions": [
+    {
+      "id": 7706157,
+      "365_day_endpoint_reason": 3,
+      "365_day_stopped_reason": 0,
+      "stopped_outside": true,
+      "depth_policy_not_selected": true
+    },
+    {
+      "id": 7706158,
+      "365_day_endpoint_reason": 3,
+      "365_day_stopped_reason": 0,
+      "stopped_outside": true,
+      "depth_policy_not_selected": true
+    }
+  ],
+  "new_environment_source_files_SHA256_verified": 9536,
+  "forecast_accuracy_evaluated": false,
+  "elapsed_seconds": 1.9154895839747041
+}

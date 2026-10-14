@@ -1,0 +1,69 @@
+"""Read-only project inspection and explicit, separate derived-data runs."""
+import argparse
+import json
+import os
+from pathlib import Path
+from data3001.paths import project_paths, file_sha256
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root', type=Path, help='Project checkout containing configs/assets.json')
+    commands = parser.add_subparsers(dest='command', required=True)
+    commands.add_parser('inspect', help='Read the catalog without opening large data')
+    commands.add_parser('verify-migration', help='Read-only original-byte and semantic identity audit')
+    pairs = commands.add_parser('pair', help='Generate independent endpoint/stopped labels; stdout by default')
+    pairs.add_argument('--id', type=int, required=True)
+    pairs.add_argument('--days', type=int, required=True)
+    pairs.add_argument('--scenario', choices=['drogued','undrogued','pooled'], default='drogued')
+    pairs.add_argument('--population', choices=['R','D'], default='R')
+    pairs.add_argument('--tolerance', type=int, choices=[0,1,2,3,6], default=0)
+    pairs.add_argument('--run-id', help='Save derived labels in a new, non-overwritable results run')
+    args = parser.parse_args()
+    if args.root:
+        os.environ['DATA3001_PROJECT_ROOT'] = str(args.root)
+        project_paths.cache_clear()
+    paths = project_paths()
+    if args.command == 'inspect':
+        print(json.dumps({'research_contract_version':paths.catalog['research_contract_version'],
+                          'status':paths.catalog.get('current_data_status'),
+                          'assets':{key:{'path':value['path'],'role':value.get('role'),'split':value.get('split')}
+                                    for key,value in paths.catalog['assets'].items()}},indent=2))
+    elif args.command == 'verify-migration':
+        from data3001.migration import verify_all
+        report = verify_all()
+        print(json.dumps(report,indent=2,default=str))
+        if not report['passed']:
+            raise SystemExit(1)
+    else:
+        if not 1 <= args.days <= 365:
+            parser.error('--days must be an integer from 1 through 365')
+        from data3001.preprocessing.prep_io import Source, parquet, code_hash
+        from data3001.preprocessing.prep_pairs import load_track, origin_indices, generate
+        source = Source()
+        if source.cohort.loc[args.id,'split'] == 'test':
+            parser.error('Final-test trajectories remain locked for this development entry point')
+        frame, track, events = load_track(source,args.id)
+        origins = origin_indices(frame,track,args.population)
+        labels = generate(frame,track,events,args.id,origins,args.days,args.scenario,args.tolerance)
+        summary = {'id':args.id,'split':source.cohort.loc[args.id,'split'],
+                   'days':args.days,'scenario':args.scenario,'population':args.population,
+                   'tolerance_hours':args.tolerance,'candidates':len(origins),
+                   'eligible':{name:int((label.reason_code==0).sum())
+                               for name,label in zip(['endpoint','stopped'],labels)},
+                   'forecast_accuracy_evaluated':False}
+        if args.run_id:
+            config = {**summary, 'contract_sha256':paths.catalog['contract_sha256'],
+                      'source_snapshot_sha256':file_sha256(paths.asset('source_snapshot')),
+                      'source_track_sha256':file_sha256(paths.asset('development_cleaned') / f'{args.id}.parquet'),
+                      'code_sha256':code_hash(),
+                      'environment_lock_sha256':file_sha256(paths.root/'configs/requirements.lock.txt')}
+            run = paths.create_run(args.run_id,config)
+            for name,label in zip(['endpoint','stopped'],labels):
+                parquet(label,run['results']/(name+'.parquet'))
+            summary['run_id'] = args.run_id
+        print(json.dumps(summary,indent=2))
+
+
+if __name__ == '__main__':
+    main()

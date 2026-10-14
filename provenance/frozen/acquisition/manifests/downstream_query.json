@@ -1,0 +1,42 @@
+{
+  "asset": "https://noaa-oar-hourly-gdp-pds.s3.amazonaws.com/latest/gdp-v2.01.1.zarr/",
+  "method": "Complete scan of lon/lat from the pinned hourly asset",
+  "source_coordinates_scanned": 197214787,
+  "source_chunks_scanned": 512,
+  "coordinate_rule": "Finite lon/lat, longitude normalized to [-180,180), polygon boundary included",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.0,
+          15.0
+        ],
+        [
+          -3.0,
+          60.0
+        ],
+        [
+          -86.0,
+          60.0
+        ],
+        [
+          -86.0,
+          15.0
+        ],
+        [
+          -3.0,
+          15.0
+        ]
+      ]
+    ]
+  },
+  "ids_found": 3741,
+  "split_counts": {
+    "train": 2674,
+    "validation": 550,
+    "test": 517
+  },
+  "completed_utc": "2026-10-11T23:42:20.581697+00:00",
+  "id_selection_does_not_use_six_hourly_data": true
+}

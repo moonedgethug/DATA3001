@@ -1,0 +1,5 @@
+{
+  "region_counts_nested": true,
+  "cell_counts_nested": true,
+  "drogued_counts_bounded": true
+}

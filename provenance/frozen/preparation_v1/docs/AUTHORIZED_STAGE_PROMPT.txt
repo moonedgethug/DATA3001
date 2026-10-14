@@ -1,0 +1,546 @@
+You are responsible for implementing the data preparation stage of our UNSW DATA3001 “Where Things End Up” project.
+
+Your objective is to transform the downloaded official hourly drifter product into traceable, reproducible data that correctly implements our final Data Contract and supports subsequent modelling. Success means preserving the research definitions and producing auditable evidence—not merely reducing missing values or creating readable files.
+
+All project artifacts must be in English. Discussion with me may be in Chinese.
+
+## 1. Authority, scope and existing work
+
+The sole authoritative research specification is:
+
+`/Users/moonedgethug/Documents/UNSW/DATA3001/outputs/01a09d9c-2168-7d51-8b63-87eb559bf139/data_contract_v1.0.xlsx`
+
+Its currently verified SHA-256 is:
+
+`6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`
+
+Read all 31 aspects, including their decisions, explanations and implementation requirements. Verify the current file and hash before implementation. If it has changed, identify the changes rather than assuming this prompt describes the newer version.
+
+The Chinese workbook is a communication aid. The Markdown contract, proposal, README, earlier preprocessing spreadsheet, screening figures and previous conversations are supporting or historical material. They cannot override the authoritative Excel.
+
+Create a crosswalk covering all 31 contract aspects. For each aspect, identify:
+
+- The rule that applies to this stage.
+- The corresponding configuration, implementation and output.
+- Its verification evidence.
+- Its status: implemented, pending, deferred to modelling, or blocked by a specified unresolved question.
+
+Work within:
+
+`/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing`
+
+Inspect the existing scripts, tests, manifests, metadata, geometry and progress records before writing replacements. Resume completed work and preserve its receipts.
+
+This stage authorizes reversible preprocessing, diagnostic analysis, meaningful verification and data-readiness reporting. Do not fit the transport prediction models, change the contract, edit the proposal, perform Git operations, publish artifacts, or send messages to other people or chats.
+
+Do not restart acquisition or launch a broad new download simply because an existing script supports it. Some acquisition entry points can write or fetch data when initialized; inspect their behavior before running them.
+
+## 2. Verify the downloaded cohort and source snapshot
+
+Read at least these existing records, using the workspace above as their base directory:
+
+- `manifests/authority.json`
+- `manifests/source_snapshot.json`
+- `manifests/global_id_split.csv`
+- `manifests/R_ids.csv`
+- `manifests/acquired_ids.csv`
+- `manifests/downstream_ids.csv`
+- `metadata/object_inventory.json`
+- `metadata/variable_dictionary.json`
+- `audit/acquisition_verification.json`
+- `geometry/release_R.geojson`
+- `geometry/acquisition_envelope.geojson`
+
+The current acquisition receipt reports:
+
+| Cohort | IDs | Hourly estimates |
+|---|---:|---:|
+| Acquired complete available trajectories | 3,741 | 39,107,061 |
+| Drifters visiting R | 463 | Recompute the relevant subset counts |
+| Acquired drifters without an R visit | 3,278 | Retain for downstream support |
+
+The R cohort contains 323 training IDs, 73 validation IDs and 67 locked test IDs. Verify these against the manifests. Treat discrepancies as investigation items rather than silently changing the cohort.
+
+The pinned source is the NOAA GDP hourly v2.01.1 asset recorded in the snapshot manifest. Preserve the actual asset URL, DOI, release attributes, retrieval receipts, object checksums and measured temporal coverage. A URL containing `latest` is not an immutable version guarantee.
+
+Distinguish global source coverage from the actual coverage of the downloaded cohort. If public release prose, stored attributes and measured timestamps disagree, record all three and use the verified asset timestamps for maturity calculations.
+
+The earlier six-hour screening product is a different snapshot. Do not use its counts as a required hourly cohort size, use its IDs as a formal whitelist, or insert its records into this hourly dataset.
+
+Acquisition verification is evidence of acquisition integrity. It is not evidence that formal cleaning, seasonal support or one-year prediction accuracy has been established.
+
+## 3. Preserve the research target and regional sequence
+
+Our first formal analysis focuses on the Southern Gulf Stream pilot R.
+
+R is the existing Gulf Stream Corridor polygon intersected with:
+
+- Longitude: −82° to −73°.
+- Latitude: 30° to 35.5°.
+
+The rectangle alone is not R. Use the frozen polygon and its checksum. Determine membership using actual positions and the documented boundary-inclusive rule.
+
+The existing acquisition envelope, approximately −86° to −3° longitude and 15° to 60° latitude, is a retrieval envelope. It is not the final transport domain D.
+
+Select D through the procedure prescribed by the contract:
+
+1. Use development trajectories from R, including observed intermediate paths through day 365.
+2. Examine downstream development support, boundary sensitivity and observed exits and returns.
+3. Compare documented candidate domains and their computational cost.
+4. Freeze the selected geometry and boundary semantics before final testing.
+
+Retain the full required trajectories of selected IDs. Do not spatially trim records to R and thereby remove future destinations.
+
+Use downstream drifters that visit D even if they never visit R. Keep R-source and D-source origin populations distinguishable.
+
+Later regional expansion remains a separate, validated stage. Ocean continuity does not prove that an estimated transition row transfers accurately to an unobserved cell.
+
+Our required output range remains **integer days 1–365**, with exact elapsed-time definitions. It does not mean arbitrary-hour forecast output.
+
+The core represents historical drifter-based transport under declared scenarios. Do not describe it as a validated universal simulator of oil, containers, vessels or people.
+
+## 4. Establish data layers and decision traceability
+
+Maintain separate layers:
+
+1. Immutable downloaded source objects, source values and original metadata.
+2. Cleaned hourly records retaining original values and field-specific annotations.
+3. Candidate-origin, endpoint-pair and path-event ledgers.
+4. Support summaries and reproducible modelling inputs.
+5. Optional reconstructed estimates, clearly separated from source-supported data.
+
+Every derived record must retain a stable source reference, including the snapshot and original trajectory/observation indices where available.
+
+Keep original source flags separate from derived flags. Do not replace them with one universal `valid` column.
+
+At minimum, represent:
+
+- Position usability.
+- Velocity usability.
+- SST usability by component.
+- Uncertainty usability by field.
+- Metadata/regime interpretation.
+- Timestamp and path completeness.
+- Geometry/state-mapping status.
+- Eligibility for each target, horizon and scenario.
+
+For every consequential rule, maintain a rule register containing:
+
+- Rule ID and contract aspect.
+- Input fields and units.
+- Exact predicate, action and affected use.
+- Authority: official source fact, fixed contract rule, engineering choice, or hypothesis.
+- Evidence reference.
+- Configuration and implementation version.
+- Counts affected, with representative cases.
+- Remaining uncertainty and sensitivity checks.
+
+Maintain reproducible run records: input hashes, configuration, software versions, code revision/hash, timestamps, counts, checkpoints and output hashes.
+
+Corrections to derived calculations must leave original values untouched. Preserve conflicting and excluded records with reasons.
+
+## 5. Resolve field semantics before cleaning
+
+Build a source-specific dictionary for every field used by preprocessing. Include:
+
+- Source name, dimensions and type.
+- Units, calendar and coordinate convention.
+- Fill values and special codes.
+- QC flag meanings and release-specific corrections.
+- Whether the field is an estimate, anomaly, uncertainty or metadata.
+- Intended analytical uses.
+- Missing, invalid and unresolved-semantics handling.
+
+Verify conventions from the frozen metadata and authoritative documentation. Useful primary references include:
+
+- [NOAA GDP hourly data and release notes](https://www.aoml.noaa.gov/phod/gdp/hourly_data.php)
+- [Hourly position and velocity methods](https://doi.org/10.1002/2016JC011716)
+- [Hourly SST methods and usage guidance](https://www.nature.com/articles/s41597-022-01670-2.pdf)
+
+Release-specific corrections take precedence over superseded descriptions. Record the relevant passage or implementation reference for each adopted source rule.
+
+Do not assume:
+
+- Every zero is missing.
+- Every negative value is invalid.
+- Every nonzero QC flag is bad.
+- Every finite uncertainty is valid.
+- Every field uses the same QC convention.
+- An hourly product consists entirely of independent, directly measured hourly fixes.
+
+If a convention remains unresolved, isolate the affected use and record the question. Continue unaffected work rather than guessing or discarding the whole record.
+
+## 6. Apply explicit missing-value and structural rules
+
+### Identifiers and timestamps
+
+Use the official GDP ID, not an interchangeable WMO identifier. Preserve integer precision; never pass identifiers through floating-point conversion.
+
+Use canonical positive decimal ID strings where strings are required.
+
+Decode timestamps using the source units and calendar. Store unambiguous UTC times. Do not round irregular timestamps onto the hour to manufacture regularity.
+
+A missing or undecodable timestamp remains traceable through its source key, but cannot provide a dated origin, season or transition endpoint. Do not invent its time.
+
+Sort records within each ID and report non-increasing times and duplicate keys.
+
+For duplicate `(ID, timestamp)` keys:
+
+- Preserve every source record.
+- Collapse exact duplicates only in the cleaned analytical view, retaining all source references.
+- Quarantine conflicting duplicates unless an authoritative priority rule resolves them.
+- Do not average conflicting positions or select an arbitrary record.
+
+### Positions
+
+Decode documented fills and validate the native coordinate convention before longitude normalization. For example, an invalid longitude such as `9999` must not become a legal coordinate through modulo arithmetic.
+
+Keep normalized coordinates as derived fields. Reject nonfinite or demonstrably invalid coordinates from position-dependent uses; retain their source records.
+
+A coastline mismatch is a separate geometry issue, not automatic proof of an erroneous position or beaching.
+
+### Velocity
+
+Missing `u` or `v` does not automatically invalidate a position pair.
+
+Retain legitimate zero velocities and negative vector components.
+
+If calculating coordinate-based displacement, use actual elapsed time and a documented geodesic method. Label it as interval-averaged net displacement velocity, distinct from the official hourly velocity estimate.
+
+Do not require reconstructed velocity as a prerequisite for position-based transitions.
+
+### Temperature
+
+Missing or unusable SST does not automatically invalidate an otherwise usable position or core transition.
+
+For this product, verify and implement the recommended total/non-diurnal SST quality policy using flags 4/5 and the documented −2 to 50°C range; use the separate diurnal-component policy, including the v2.01 correction. Keep temperature rejection separate from position rejection. Flag 4 does not mean its uncertainty should be replaced with zero.
+
+Distinguish absolute temperature from temperature anomalies: subtract 273.15 when converting absolute Kelvin SST to Celsius; do not subtract it from an SST anomaly. Negative anomalies may be legitimate. Bind these rules to the [SST paper](https://www.nature.com/articles/s41597-022-01670-2.pdf) and [release corrections](https://www.aoml.noaa.gov/phod/gdp/hourly_data.php).
+
+### Uncertainty and metadata
+
+Missing uncertainty is not zero uncertainty.
+
+For suspicious negative uncertainty values, verify whether they are documented special codes or unresolved source anomalies. Do not take absolute values or invalidate positions solely because the associated uncertainty needs investigation.
+
+Preserve location type, hardware type, drogue depth, experiment/deployment information, death codes and other relevant metadata.
+
+Never interpret a death code, missing transmission or final recorded position as physical exit or confirmed beaching without the required evidence.
+
+## 7. Investigate extreme speeds and jumps through multiple evidence sources
+
+An extreme-speed or jump flag is a request for investigation, not an automatic deletion rule.
+
+Use this diagnostic sequence:
+
+1. **Source and calculation checks:** original values, units, timestamp decoding, actual elapsed time, duplicate keys, fill decoding and longitude normalization.
+2. **Within-track checks:** previous/current/next positions, velocities, reversals, isolated spikes and temporal consistency.
+3. **Measurement context:** location type, uncertainty, original sampling indicators and regime metadata.
+4. **Contemporaneous peer checks:** comparable observations from other drifter IDs.
+5. **Bounded spatial/temporal extension:** nearby wet-connected locations, with changing comparability explicitly recorded.
+6. **Evidence-based disposition:** retain with flags, correct a derived calculation, invalidate an affected field, or mark a particular use unresolved.
+
+Official velocities and coordinate-derived velocities are related processed quantities. Agreement is useful corroboration; it is not independent proof. Their disagreement may reflect different temporal averaging.
+
+Do not impose one universal ocean-speed ceiling or remove fast-current observations because they disagree with a regional mean.
+
+Statistical thresholds must have a recorded source or an explicitly declared development-only screening rationale. Screening thresholds may prioritize review; they must not silently become deletion thresholds.
+
+### Peer comparison specification
+
+Use cells to retrieve candidates, then compare actual spatial distances and time differences.
+
+Start with these engineering candidate windows:
+
+| Stage | Radius | Time difference |
+|---|---:|---:|
+| 1 | 25 km | ±3 hours |
+| 2 | 50 km | ±6 hours |
+| 3 | 100 km | ±12 hours |
+
+These are diagnostic candidates, not established physical correlation scales or imputation permissions. Evaluate their usefulness on development data.
+
+For point-level reference statistics, select one closest comparable observation per other ID. Use a deterministic ordering: absolute time difference, spatial distance, earlier timestamp, then stable source key. Preserve the broader reference tracks for temporal plots.
+
+Report reference IDs, distances, time offsets, regimes, measurement context and selection rules.
+
+Use vector statistics and circular direction comparisons. Do not average headings arithmetically or force distinct branches into one common velocity.
+
+Consider wet connectivity, coastal barriers, fronts, differing regimes and available depth/hardware information. Nearby observations are not automatically exchangeable.
+
+If contemporaneous peers are unavailable, record `peer_unavailable`. Same-season historical observations may provide a labelled background comparison, but cannot verify the missing state of that particular event.
+
+Do not keep expanding a search until it produces a desired answer. Peer disagreement, absence of peers and historical rarity alone are insufficient grounds for deletion.
+
+## 8. Use correlation and reconstruction without creating false evidence
+
+We want to exploit useful spatial and temporal relationships efficiently. Separate three activities:
+
+### A. Recover authentic source information
+
+Check whether an apparent missing record is a retrieval/export defect.
+
+Recover it only from the same frozen source asset, with verified provenance and updated receipts. A different product or release is not a silent replacement.
+
+### B. Diagnose and annotate
+
+Use the drifter’s own trajectory, comparable other drifters and documented metadata to assess plausibility and missingness mechanisms.
+
+These checks can improve flags and explain uncertainty. They do not automatically create an observed position.
+
+### C. Experimentally reconstruct
+
+If justified after the core audit, run a bounded reconstruction diagnostic in a separate data layer.
+
+For every estimate, record:
+
+- Method and configuration.
+- Input/reference IDs and timestamps.
+- Information availability.
+- Whether both sides of the gap were used.
+- Estimated value or distribution.
+- Uncertainty and competing plausible paths.
+- Validation status and source linkage.
+
+Validate using withheld known development records, realistic gap patterns and whole-ID separation. Examine displacement error, uncertainty coverage, cell assignment and exit-event errors across gap lengths, regimes and coastal/branch conditions.
+
+Using both sides of a gap is retrospective reconstruction; do not represent it as causal forecasting.
+
+A masking experiment does not prove validity for genuine missing events whose missingness mechanism differs.
+
+Reconstructed records must not:
+
+- Overwrite source values.
+- Become primary observed endpoints or first-exit evidence.
+- Increase independent drifter counts.
+- Validate a model against its own reconstructed labels.
+- Manufacture constant-regime status or complete paths.
+- Enter the primary transition counts without an explicit, versioned architecture decision.
+
+Possible future use as imputed features or training augmentation must specify a different validated protocol. Reconstruction is not a compulsory dependency for the core position-based preparation.
+
+## 9. Freeze splits and prevent information leakage
+
+Preserve the existing global whole-ID split manifest across every region, horizon and regime.
+
+Its implemented rule is:
+
+- ASCII string: `20261004:<canonical positive decimal GDP ID>`.
+- Full SHA-256 digest interpreted as an unsigned integer.
+- Training below 70% of the digest range.
+- Validation from 70% to below 85%.
+- Test from 85% upward.
+
+Use exact integer comparisons rather than avoidable floating-point approximations.
+
+The auxiliary Markdown describes a different hash construction. Record this discrepancy and preserve the existing frozen manifest. Do not silently regenerate splits, rebalance seasonal support or move IDs to improve one-year validation.
+
+For learned QC references, peer distributions, reconstruction methods and threshold calibration:
+
+- Use training IDs as references.
+- Exclude the target ID from independent peer references.
+- Refit references within the training portion of each grouped validation fold.
+- Do not use locked test outcomes to select rules.
+
+Retrospective within-track checks may examine an ID’s own later observations for label/QC purposes. Mark them as retrospective and keep them separate from forecast-time features.
+
+If validation support is weak, prepare the contract’s grouped five-fold development procedure. Keep the final test unchanged.
+
+Fixed, source-based cleaning may be applied to test records after rules are frozen. Keep test outcome/support products separated and unavailable for tuning R, D, thresholds, reconstruction or illustrative examples.
+
+## 10. Implement origins, horizons and distinct eligibility ledgers
+
+Use every QC-valid hourly location as a candidate origin.
+
+For R-source analyses, require actual membership in R. For downstream operator preparation, separately identify candidates in D.
+
+Do not require cell-boundary entry. Do not make first entry, daily thinning, equal-ID weighting or 365-day survival the primary sampling rule.
+
+The main estimator uses equal-weight eligible pairs. Preserve ID, visit and dependence information for later whole-ID inference.
+
+Use timestamp arithmetic:
+
+`target_time = origin_time + horizon_days × 24 hours`
+
+Prepare mandatory 7-, 30- and 365-day labels, 90/180-day support, and the required integer-day coverage through 365. Prepare pair inputs for lag candidates 1/3/5/7 days and possible integer-day remainder kernels.
+
+Main endpoint matching is exact. Sensitivities use ±1/2/3 hours; ±6 hours is diagnostic. Select the closest QC-valid endpoint, breaking equal-time-distance ties toward the earlier timestamp. Save nominal horizon, realized duration and signed error.
+
+Do not assume that a 0.5-hour tolerance adds information to a genuinely hourly source.
+
+For fixed-regime tolerance sensitivities, confirm the declared regime over the nominal interval and through the selected endpoint if it occurs later. Record the interval used. Endpoint tolerance must not repair missing intermediate hours for main path-event labels.
+
+### Endpoint occupancy
+
+Require a usable origin, usable matched endpoint and confirmed scenario eligibility through the relevant interval.
+
+An intervening position gap does not automatically invalidate the endpoint pair if regime constancy remains independently confirmable.
+
+Do not infer constant regime merely because the observed flags on either side of a gap match.
+
+### Stopped-first-exit target
+
+Require every expected QC-valid hourly position and the declared regime through:
+
+`min(horizon, first validly established observed exit)`
+
+Scan the required interval chronologically.
+
+- A gap or unusable position before exit makes the path classification unresolved.
+- An observed exit after such a gap does not retrospectively establish an eligible first exit.
+- A complete eligible path to an observed exit establishes the absorbing outside outcome for subsequent horizons.
+- Later return, termination, missing endpoints, regime changes or source cutoff do not erase that already established stopped outcome.
+- Without an established exit, require the complete eligible path through the horizon.
+
+This is first exit observed on the hourly grid, not exact physical first exit between observations.
+
+Keep endpoint occupancy and stopped/path ledgers distinct. Comparisons between models must use the same target and eligible cases.
+
+### Missingness, censoring and outcome reasons
+
+Separate:
+
+- Invalid/unresolved origin.
+- Invalid/unresolved endpoint.
+- Missing target timestamp.
+- Administrative immaturity.
+- Track termination.
+- Unknown or switching regime.
+- Incomplete path.
+- Observed physical-domain exit.
+- Geometry/state-mapping uncertainty.
+
+Administrative immaturity means the requested target exceeds the source cutoff; termination within available source time is different.
+
+Calculate eligibility predicates first. Then apply a published deterministic primary-reason precedence for count reconciliation, retaining all secondary flags. Known eligible stopped exit takes precedence over later immaturity or termination.
+
+Missing outcomes are not observed destinations. Do not count unknown future positions as physical outside or as observed transitions to the model’s unresolved-support state.
+
+## 11. Handle drogue scenarios, grid, seasons and coastline explicitly
+
+Decode drogue status from source-native flags, loss-date conventions and relevant hardware metadata.
+
+Do not assume that a zero or NaN loss date has one universal meaning. Resolve source conventions; retain unresolved cases and exclude them only from uses requiring confirmed state.
+
+Maintain:
+
+- Primary fixed drogued scenario.
+- Separate fixed undrogued scenario.
+- Pooled historical-mixture reference.
+- Unknown and switching annotations.
+
+The regimes are transport proxies, not universal object labels. Future loss dates may establish retrospective scenario eligibility; they are not operational forecast features.
+
+Start with the contract’s 1° grid, anchored at −180° longitude and −90° latitude, with half-open intervals and normalized longitude. Prepare aligned 0.5° support diagnostics without automatically promoting that resolution.
+
+Use a versioned GSHHG water mask. Save cell indices, wet areas, geometry checksums and any disconnected-water-component treatment.
+
+Specify how boundary-intersecting cells map to states. R/D membership uses the actual coordinate, not the cell centre. Where a position cannot be reliably mapped to an admissible wet state, retain a separate mapping uncertainty; do not snap it to water or recode it as outside.
+
+A straight segment between endpoints crossing land is not, by itself, grounds to reject the pair.
+
+Assign DJF/MAM/JJA/SON from UTC departure timestamps. Preserve actual dates for later calendar-aware propagation. A whole-year prediction must not retain the starting season for every step.
+
+Define visits as maximal consecutive observed runs in one cell, breaking at timestamp gaps or re-entry. Preserve unsmoothed assignments as the primary rule; boundary jitter diagnostics do not redefine origins.
+
+## 12. Produce support evidence for the actual research questions
+
+Report development support by:
+
+`cell × departure season × regime × horizon × target`
+
+Include:
+
+- Candidate origins and eligible pairs.
+- Eligible complete-path/stopped labels separately.
+- Unique IDs, visits and drifter-days.
+- Endpoint/path availability with explicit denominators.
+- Administrative and other attrition.
+- Destination diversity.
+- Dominant-ID share.
+- Year and experiment/deployment concentration.
+- Geometry and regime uncertainty.
+- Outside outcomes and observed returns.
+- SST availability for any proposed temperature-conditioned extension.
+
+Unique IDs overlap across seasons, cells and horizons. Do not sum those counts as independent trajectories.
+
+Compare 1° and aligned 0.5° support using the same definitions. Assess long-horizon support early, especially seasonal fixed-drogued 365-day cases.
+
+Do not certify quality from a regional total, invent a universal minimum sample size, or present many overlapping hourly windows as independent evidence.
+
+Describe missingness and selection: estimates from available constant-regime pairs do not identify every missing or terminated trajectory’s destination.
+
+Prepare inputs for common-target evaluation, annual/seasonal pooling, whole-ID uncertainty and later transfer validation. Data preparation cannot establish predictive accuracy.
+
+If a required horizon or season has inadequate evidence, report the limitation and its consequences. Do not quietly substitute another regime, move R, change the target or describe generated daily distributions as validated predictions.
+
+## 13. Execute efficiently and test consequential semantics
+
+Use chunked/lazy access, compressed partitions and per-ID processing.
+
+Avoid a dense cross-product of every acquired observation and 365 horizons. Use reproducible on-demand pair generation, streamed aggregates and compact eligibility summaries.
+
+Profile memory, disk use and runtime on a small development prototype before scaling. Checkpoint completed partitions and verify that resumed runs do not duplicate outputs.
+
+Proceed in this order:
+
+1. Verify authority, receipts, splits and existing implementation.
+2. Resolve field conventions and build the rule register.
+3. Test cleaning and label semantics on representative development cases.
+4. Process full required R-development trajectories.
+5. Process downstream development data needed for candidate D and support.
+6. Freeze D and implementation settings through the contracted selection procedure.
+7. Generate ledgers and support summaries.
+8. Apply frozen rules to separated test data and verify technical invariants.
+9. Deliver the reproducible data package and readiness report.
+
+Use meaningful regression checks, including these previously identified cases; verify their source records rather than trusting the descriptions:
+
+- ID 9825497, 1998-08-09 07:00 UTC: missing SST must not alone invalidate position.
+- ID 43869: extreme absolute SST values must affect temperature use separately from position use.
+- ID 17503, 2000-06-26 00:00 UTC: negative diurnal anomaly must not be treated as negative absolute temperature.
+- ID 55353, 2007-07-03 03:00 UTC: suspicious negative position uncertainty requires separate interpretation.
+- ID 23120, 2002-03-10 00:00–15:00 UTC: 15 elapsed hours, 14 absent hourly timestamps; about 20.607 km displacement implies about 0.382 m/s, not a one-hour speed. Source `gap` and missing timestamp hours are different quantities.
+
+Also verify:
+
+- Known early exit followed by death still permits later stopped-outside labels.
+- A gap before observed exit prevents eligible first-exit classification.
+- An endpoint pair may remain eligible through an intermediate position gap.
+- Zero velocity is retained.
+- Missing uncertainty is not converted to zero.
+- Duplicate handling preserves provenance.
+- Boundary membership and grid indexing are deterministic.
+- Endpoint ties follow the declared rule.
+- Held-out IDs never enter fitted reference statistics.
+- Candidate counts reconcile exactly.
+
+Do not treat existing boundary tests as proof that the complete pipeline implements every contract rule.
+
+## 14. Deliverables, acceptance and change control
+
+Deliver:
+
+1. Verified snapshot/source receipts and cohort reconciliation.
+2. Source dictionary, QC rule register and unresolved-convention log.
+3. Flagged hourly trajectories with immutable source linkage.
+4. Frozen R/D/grid/water-mask definitions and state index.
+5. Separate origin, endpoint and path-event ledgers with reproducible generation.
+6. Development support tables, figures, attrition summaries and modelling handover.
+7. Contract crosswalk, execution configuration, verification results and reproducibility instructions.
+
+The readiness report must distinguish:
+
+- Acquisition and structural integrity.
+- Correct implementation of cleaning and eligibility.
+- Observational support for each research requirement.
+- Predictive validation still to be performed.
+
+Accept the preparation stage only when provenance and splits remain intact, every relevant candidate is accounted for, missingness and exit are separated, field conventions are resolved or explicitly isolated, and support limitations are reported.
+
+Routine source-backed decoding, reversible implementation and contract-prescribed empirical selection may proceed without repeated confirmation.
+
+Changes to research targets, R, split assignments, primary eligibility, boundary semantics, source-product mixing or use of reconstructed primary labels require a documented architecture decision and versioned protocol. Pause only the dependent work and continue unaffected tasks.
+
+Begin by reporting the actual current state and the first executable batch. Then implement this preparation stage, preserving concise progress updates and evidence. Do not claim completion merely because files load, missing values decrease, or tests unrelated to the research definitions pass.

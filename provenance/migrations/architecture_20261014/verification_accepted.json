@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "inventory": {
+    "passed": true,
+    "checked_entries": 78343,
+    "verified_file_bytes": 16150474468,
+    "mismatches": []
+  },
+  "scientific_equivalence": {
+    "passed": true,
+    "functions_checked": 33,
+    "comparisons": [
+      {
+        "module": "prep_core",
+        "function": "coordinates",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "velocity_ok",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "uncertainty_ok",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "sst_ok",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "duplicates",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "regimes",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "cells",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "visits",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "displacement",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "next_index",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "event_bounds",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "_regime",
+        "equal": true
+      },
+      {
+        "module": "prep_core",
+        "function": "labels",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "canonical_id",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "split_id",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "grid_cell",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "closest_endpoint",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "classify",
+        "equal": true
+      },
+      {
+        "module": "rules",
+        "function": "copy_spans",
+        "equal": true
+      },
+      {
+        "module": "prep_run",
+        "function": "clean_track",
+        "equal": true
+      },
+      {
+        "module": "prep_pairs",
+        "function": "origin_indices",
+        "equal": true
+      },
+      {
+        "module": "prep_pairs",
+        "function": "generate",
+        "equal": true
+      },
+      {
+        "module": "prep_geometry",
+        "function": "water_ok",
+        "equal": true
+      },
+      {
+        "module": "prep_geometry",
+        "function": "domain_cell_ranges",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "polygon_area_km2",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "region_area_fields",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "release_weights",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "depth_stratum",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "support_summary",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "batched_summary",
+        "equal": true
+      },
+      {
+        "module": "prep_handover",
+        "function": "position_census",
+        "equal": true
+      },
+      {
+        "module": "prep_peers",
+        "function": "screen_score",
+        "equal": true
+      },
+      {
+        "module": "prep_support",
+        "function": "part",
+        "equal": true
+      }
+    ],
+    "mismatches": []
+  },
+  "assets": {
+    "passed": true,
+    "catalog_assets_checked": 51,
+    "source": {
+      "utc": "2026-10-14T06:03:44.568017+00:00",
+      "IDs": 3741,
+      "rows": 39107061,
+      "R_IDs": 463,
+      "R_rows": 6243277,
+      "split_counts": {
+        "train": 2674,
+        "validation": 550,
+        "test": 517
+      },
+      "R_split_counts": {
+        "train": 323,
+        "validation": 73,
+        "test": 67
+      },
+      "bound_files_verified": 12,
+      "whole_global_ID_split_verified": 19396,
+      "source_snapshot_sha": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46"
+    },
+    "augmented_index_preserves_baseline_columns": true,
+    "baseline_and_current_lag_schemas_distinct": true,
+    "forecast_accuracy_evaluated": false,
+    "depth_policy": "DEPTH-01 remains pending",
+    "annual_seasonal_limits": "retained; migration does not add evidence"
+  },
+  "inventory_sha256": "af2694cdfd569e9f7c2aae775f0d696cc14a544302f4e42f15c062de98249fd7",
+  "elapsed_seconds": 26.54938724997919,
+  "scope": "architecture and asset identity; no preprocessing rerun or prediction evaluation"
+}

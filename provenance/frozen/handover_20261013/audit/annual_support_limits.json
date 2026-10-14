@@ -1,0 +1,103 @@
+{
+  "cell_season_summary": [
+    {
+      "split": "train",
+      "target": "endpoint",
+      "cell_season_with_candidates": 145,
+      "zero_eligible_IDs": 45,
+      "one_eligible_ID": 42,
+      "supported_dominant_ID_share_median": 0.8556416881998278
+    },
+    {
+      "split": "train",
+      "target": "stopped",
+      "cell_season_with_candidates": 145,
+      "zero_eligible_IDs": 55,
+      "one_eligible_ID": 45,
+      "supported_dominant_ID_share_median": 0.9772727272727273
+    },
+    {
+      "split": "validation",
+      "target": "endpoint",
+      "cell_season_with_candidates": 139,
+      "zero_eligible_IDs": 110,
+      "one_eligible_ID": 16,
+      "supported_dominant_ID_share_median": 1.0
+    },
+    {
+      "split": "validation",
+      "target": "stopped",
+      "cell_season_with_candidates": 139,
+      "zero_eligible_IDs": 123,
+      "one_eligible_ID": 5,
+      "supported_dominant_ID_share_median": 0.7912371134020619
+    }
+  ],
+  "empty_365_drogued_folds": [
+    {
+      "target": "endpoint",
+      "departure_season": "MAM",
+      "development_fold": 0
+    },
+    {
+      "target": "stopped",
+      "departure_season": "MAM",
+      "development_fold": 0
+    },
+    {
+      "target": "endpoint",
+      "departure_season": "DJF",
+      "development_fold": 1
+    },
+    {
+      "target": "stopped",
+      "departure_season": "DJF",
+      "development_fold": 1
+    },
+    {
+      "target": "stopped",
+      "departure_season": "MAM",
+      "development_fold": 1
+    },
+    {
+      "target": "endpoint",
+      "departure_season": "DJF",
+      "development_fold": 2
+    },
+    {
+      "target": "stopped",
+      "departure_season": "DJF",
+      "development_fold": 2
+    },
+    {
+      "target": "endpoint",
+      "departure_season": "SON",
+      "development_fold": 2
+    },
+    {
+      "target": "stopped",
+      "departure_season": "SON",
+      "development_fold": 2
+    },
+    {
+      "target": "stopped",
+      "departure_season": "MAM",
+      "development_fold": 3
+    },
+    {
+      "target": "endpoint",
+      "departure_season": "SON",
+      "development_fold": 3
+    },
+    {
+      "target": "stopped",
+      "departure_season": "SON",
+      "development_fold": 3
+    }
+  ],
+  "evaluation_policy": "zero cases => not_evaluable, never score zero; preserve annual baseline and declared seasonal shrinkage; no prediction evaluated",
+  "independent_audit_counts_reconciled": true,
+  "no_split_change": true,
+  "test_used": false,
+  "elapsed_seconds": 2.091769666993059
+}

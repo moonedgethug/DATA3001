@@ -1,0 +1,72 @@
+test_catalog_development_alias_cannot_expose_resolved_test_file (test_write_boundaries.WriteBoundaries.test_catalog_development_alias_cannot_expose_resolved_test_file) ... FAIL
+test_competing_writers_publish_exactly_one_complete_artifact (test_write_boundaries.WriteBoundaries.test_competing_writers_publish_exactly_one_complete_artifact) ... FAIL
+test_json_temporary_symlink_cannot_overwrite_frozen_input (test_write_boundaries.WriteBoundaries.test_json_temporary_symlink_cannot_overwrite_frozen_input) ... FAIL
+test_old_temporary_regular_file_is_not_truncated_or_consumed (test_write_boundaries.WriteBoundaries.test_old_temporary_regular_file_is_not_truncated_or_consumed) ... FAIL
+test_parquet_temporary_symlink_cannot_overwrite_frozen_input (test_write_boundaries.WriteBoundaries.test_parquet_temporary_symlink_cannot_overwrite_frozen_input) ... FAIL
+test_provenance_parent_symlink_cannot_create_run_in_frozen_data (test_write_boundaries.WriteBoundaries.test_provenance_parent_symlink_cannot_create_run_in_frozen_data) ... FAIL
+test_results_parent_symlink_is_rejected_before_any_run_creation (test_write_boundaries.WriteBoundaries.test_results_parent_symlink_is_rejected_before_any_run_creation) ... FAIL
+
+======================================================================
+FAIL: test_catalog_development_alias_cannot_expose_resolved_test_file (test_write_boundaries.WriteBoundaries.test_catalog_development_alias_cannot_expose_resolved_test_file)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 31, in test_catalog_development_alias_cannot_expose_resolved_test_file
+    with self.assertRaises(PermissionError):self.paths.asset('alias')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PermissionError not raised
+
+======================================================================
+FAIL: test_competing_writers_publish_exactly_one_complete_artifact (test_write_boundaries.WriteBoundaries.test_competing_writers_publish_exactly_one_complete_artifact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 48, in test_competing_writers_publish_exactly_one_complete_artifact
+    self.assertTrue(hasattr(self.paths,'publish'),'Exclusive artifact publication is missing')
+AssertionError: False is not true : Exclusive artifact publication is missing
+
+======================================================================
+FAIL: test_json_temporary_symlink_cannot_overwrite_frozen_input (test_write_boundaries.WriteBoundaries.test_json_temporary_symlink_cannot_overwrite_frozen_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 37, in test_json_temporary_symlink_cannot_overwrite_frozen_input
+    self.assertEqual((self.root/'data/frozen.bin').read_bytes(),b'untouched')
+AssertionError: b'{\n  "x": 1\n}' != b'untouched'
+
+======================================================================
+FAIL: test_old_temporary_regular_file_is_not_truncated_or_consumed (test_write_boundaries.WriteBoundaries.test_old_temporary_regular_file_is_not_truncated_or_consumed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 45, in test_old_temporary_regular_file_is_not_truncated_or_consumed
+    self.assertTrue(old.exists());self.assertEqual(old.read_bytes(),b'other-writer')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_parquet_temporary_symlink_cannot_overwrite_frozen_input (test_write_boundaries.WriteBoundaries.test_parquet_temporary_symlink_cannot_overwrite_frozen_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 41, in test_parquet_temporary_symlink_cannot_overwrite_frozen_input
+    self.assertEqual((self.root/'data/frozen.bin').read_bytes(),b'untouched')
+AssertionError: b'PAR1\x15\x04\x15\x10\x15"L\x15\x02\x15\x0[1861 chars]PAR1' != b'untouched'
+
+======================================================================
+FAIL: test_provenance_parent_symlink_cannot_create_run_in_frozen_data (test_write_boundaries.WriteBoundaries.test_provenance_parent_symlink_cannot_create_run_in_frozen_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 22, in test_provenance_parent_symlink_cannot_create_run_in_frozen_data
+    with self.assertRaises(PermissionError):self.paths.create_run('escape',{})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PermissionError not raised
+
+======================================================================
+FAIL: test_results_parent_symlink_is_rejected_before_any_run_creation (test_write_boundaries.WriteBoundaries.test_results_parent_symlink_is_rejected_before_any_run_creation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_write_boundaries.py", line 26, in test_results_parent_symlink_is_rejected_before_any_run_creation
+    with self.assertRaises(PermissionError):self.paths.create_run('escape',{})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PermissionError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.031s
+
+FAILED (failures=7)

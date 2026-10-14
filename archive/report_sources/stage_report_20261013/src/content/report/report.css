@@ -1,0 +1,14 @@
+.stage-report { display:flex; flex-direction:column; gap:26px; }
+.stage-report .report-hero h1 { margin:0 0 12px; font-size:clamp(32px,4vw,44px); line-height:1.16; letter-spacing:-.035em; }
+.stage-report .report-deck { color:var(--muted-foreground); margin:0; }
+.stage-report .report-section { margin:0; }
+.stage-table-scroll { overflow-x:auto; width:100%; }
+.stage-table { width:100%; border-collapse:collapse; font-size:13px; line-height:1.5; }
+.stage-table caption { text-align:left; font-size:15px; font-weight:650; padding-bottom:12px; }
+.stage-table th { text-align:left; font-weight:650; padding:10px 12px; border-bottom:2px solid var(--border,#d9dde3); }
+.stage-table td { padding:11px 12px; vertical-align:top; border-bottom:1px solid var(--border,#d9dde3); }
+.stage-table .numeric { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.stage-table-scroll:focus-visible { outline:2px solid var(--ring,#4679b9); }
+.stage-scope { border-top:1px solid var(--border,#d9dde3); padding-top:18px; font-size:13px; color:var(--muted-foreground); }
+.stage-report { width:100%; max-width:820px; margin:0 auto; padding:36px; box-sizing:border-box; }
+@media (max-width:600px) { .stage-report { padding:26px 20px; } }

@@ -1,0 +1,30 @@
+{
+  "DEPTH-01": {
+    "status": "awaiting architecture policy",
+    "contract_aspects": [
+      8,
+      16,
+      19,
+      23,
+      31
+    ],
+    "required_decision": [
+      "primary recorded-depth/hardware mixture",
+      "missing/nonpositive depth treatment",
+      "sensitivity cohorts and common-target evaluation"
+    ],
+    "evidence": "audit/depth_findings.json and support/depth_*",
+    "current_disposition": "retain all records and prior eligibility; no physical equivalence asserted"
+  },
+  "DEPTH-00-SOURCE": {
+    "status": "source convention unresolved",
+    "field": "DrogueCenterDepth",
+    "recorded_value": 0.0,
+    "source_IDs": [
+      7706157,
+      7706158
+    ],
+    "usable_drogued_D_origins": 3022,
+    "disposition": "nonpositive_depth_unresolved; no recoding or deletion"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "observed_coordinate_extrema_lon_lat": [
+    -80.93445190188413,
+    20.785770416259766,
+    -8.114190101623535,
+    54.71529504217468
+  ],
+  "observed_one_degree_cells": 1278,
+  "candidates": [
+    {
+      "padding_degrees": 0,
+      "bounds_lon_lat": [
+        -81.0,
+        20.0,
+        -8.0,
+        55.0
+      ],
+      "purpose": "nested development acquisition candidate; no claim of optimal model boundary"
+    },
+    {
+      "padding_degrees": 2,
+      "bounds_lon_lat": [
+        -83.0,
+        18.0,
+        -6.0,
+        57.0
+      ],
+      "purpose": "nested development acquisition candidate; no claim of optimal model boundary"
+    },
+    {
+      "padding_degrees": 5,
+      "bounds_lon_lat": [
+        -86.0,
+        15.0,
+        -3.0,
+        60.0
+      ],
+      "purpose": "nested development acquisition candidate; no claim of optimal model boundary"
+    }
+  ],
+  "acquired_envelope_padding": 5,
+  "selection_reason": "A conservative outer acquisition envelope enables subsequent nested boundary/support comparisons without consulting test endpoints. Padding is an engineering retrieval allowance, not an estimated transport confidence bound.",
+  "fixed_regime_eligibility_used": false,
+  "positions_with_gaps": "Retained for conservative acquisition; does not make first-exit labels valid",
+  "test_IDs_used": 0,
+  "R_IDs_withheld": 67,
+  "development_IDs": 396,
+  "split_manifest_sha256": "1ebfe3eca9a53379aa627f5b610586bbf18148ce0b782bceac5b9a5302f66800",
+  "elapsed_seconds": 1.61,
+  "final_D_frozen": false
+}

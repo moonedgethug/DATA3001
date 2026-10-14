@@ -1,0 +1,15 @@
+{
+  "retrieved_date": "2026-09-26",
+  "layer": "BOEM/BSEE OCS Drilling Platforms",
+  "layer_url": "https://gis.boem.gov/arcgis/rest/services/BOEM_BSEE/GOA_Layers/MapServer/0",
+  "where": "REMOVAL_DATE IS NULL",
+  "geometry_envelope": [
+    -92.5,
+    25.0,
+    -85.0,
+    30.0
+  ],
+  "spatial_relationship": "esriSpatialRelIntersects",
+  "feature_count": 1108,
+  "scope_note": "Federal Outer Continental Shelf platforms only; state-water facilities are outside the stated layer scope."
+}

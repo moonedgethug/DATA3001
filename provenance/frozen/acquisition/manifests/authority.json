@@ -1,0 +1,7 @@
+{
+  "authoritative_contract": "/Users/moonedgethug/Documents/UNSW/DATA3001/outputs/01a09d9c-2168-7d51-8b63-87eb559bf139/data_contract_v1.0.xlsx",
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "contract_version": "v1.0",
+  "execution_instruction_date": "2026-10-12 Australia/Sydney",
+  "execution_scope": "Official hourly acquisition; pilot schema, resource and label checks; expanded retrieval in the same asset. No model fitting or final test evaluation."
+}

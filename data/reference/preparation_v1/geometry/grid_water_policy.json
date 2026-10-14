@@ -1,0 +1,24 @@
+{
+  "grid_origin": [
+    -180,
+    -90
+  ],
+  "resolutions": [
+    1,
+    0.5
+  ],
+  "interval": "half-open; latitude +90 not mapped",
+  "D_membership": "actual point, polygon boundary included; cell centres never decide R/D membership",
+  "boundary_cells": "include north/east half-open cells touching inclusive D boundary, including boundary-only intersections; state wet area is full geographical-cell wet area, not the clipped D area",
+  "water_source": "GSHHG 2.3.7 high-resolution L1",
+  "water": "complement of L1 land; enclosed lakes not part of ocean scenario",
+  "coastal_boundary": "uncertain mapping, retained source; never snapped or relabelled physical outside",
+  "components": "retain all wet components with count and total area in each cell; state remains geographical cell, connectivity is not inferred from common cell",
+  "area_method": "WGS84 geodesic polygon area; no spherical equal-area approximation",
+  "special_states": {
+    "outside": "eligible observed first exit / eligible outside endpoint, target specific",
+    "unresolved_support": "reserved for modelling missing operator rows; absent outcomes never transitions"
+  },
+  "land_wkb_sha256": "4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0",
+  "archive_sha256": "8dbbe7e071e77e9e75f2d639239099ebca8d5c16d6a07df8169729d49f15cf41"
+}

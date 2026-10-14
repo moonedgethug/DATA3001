@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-12T04:57:58.675395+00:00",
+  "threshold_source": "preparation/config/diagnostic_screening.json, frozen train-only",
+  "threshold_refitted_on_test": false,
+  "eligibility_or_source_values_changed": false,
+  "peer_or_predictive_test_evaluation": "not performed; technical screening flags only"
+}

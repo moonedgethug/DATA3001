@@ -1,0 +1,48 @@
+{
+  "frozen_UTC": "2026-10-12T04:47:41.693527+00:00",
+  "status": "frozen before first preparation processing of test records",
+  "test_outcomes_used_for_settings": 0,
+  "research_target": "finite stopped-domain plus separate endpoint occupancy references; integer days1..365",
+  "selected_D_bounds": [
+    -81,
+    20,
+    -8,
+    55
+  ],
+  "primary_grid_degrees": 1,
+  "output_boundary_meaning": "observed first exit absorbing for stopped target; endpoint target permits returns",
+  "365_support_limits": "development validation fixed-drogued stopped target has zero eligible DJF and MAM origins; grouped fivefold inputs prepared, no prediction fitted",
+  "files_sha256": {
+    "preparation/config/preparation.json": "4c72b146b4e5ed26ce4498dcc97e7b1324d9e68f137dde8c77f87e80c9cc8ad8",
+    "preparation/config/diagnostic_screening.json": "38b9780842ca43a5fd9052262317b562a057c7214144afabddd46bf510c5683a",
+    "preparation/config/grouped_validation.json": "cc2cd1deb8e3de14e67802eff63301172c08c8f1c30310a4b1ad77d2237663aa",
+    "preparation/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+    "preparation/geometry/grid_water_policy.json": "ce251c4499f1690fdd439582c21aa88859b84d5c9f80c51132f5fa4f3770de46",
+    "preparation/geometry/state_index.parquet": "6cc9a8a3b6f965a8f4f1209d362c6ac203aac86e3d7f2d2ddecf5cc43fbd7453",
+    "geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+    "preparation/metadata/preprocessing_dictionary.json": "9767ef2c3291ee8e323e6629ac16fe398950648eff90b085d2e353bb5c46250d",
+    "preparation/metadata/unresolved_questions.json": "594f26e7c1211e601d92a7280dd03599ddef6aecd08b7526795cd78f020b3a9d",
+    "preparation/audit/domain_selection.json": "6b699ab1c79a923a7cfe75faf3d97e1256b4126bf06e13250e4e3c77770b255f",
+    "preparation/audit/source_case_regressions.json": "69cf78f93bfbf2cbb9412711ae7d3c05648233c9cb3db28db4b6e4157818f694",
+    "preparation/audit/semantic_tests.log": "887c9bc8b4746d519df6feec86aa00259cb6d57931b59cf0eb9242265e58b121",
+    "preparation/audit/source_values_reverified.json": "7f59bd846137d78ea7fe2c2ea72978984840f82ada64390cb4009a4fe8e66b98",
+    "preparation/audit/support_reconciliation.json": "0ae29461fd568a13a0df341510af64faa47e1a13e1b3181cd0d49811025fdf09",
+    "scripts/prep_support.py": "ae4b380869854e7a2c658eae72040760f0629cca091335c3df046fd5192f03d7",
+    "scripts/prep_core.py": "d5721ef495abba286d1c4d403510ca6a229a1cb7989ec2db06e2a06020a67879",
+    "scripts/prep_run.py": "89f1d536543bd1c5fedfc29a43b9bb0983ff3108ac6407e8c261386da4730dde",
+    "scripts/prep_geometry.py": "03861ee24b9f9d3f2b4a3a460b0fb5f0b34b75a9c3139ad41a998e9b7bf84cc0",
+    "scripts/prep_io.py": "803329593c82acc663e1cbd3fe76abf8a61c412f5995245d2d0a741d747e5156",
+    "scripts/prep_pairs.py": "5d3e06e1672d3a583c985ea7c36d0b1773a6f21322e0bd6f24b80863851f595d",
+    "scripts/prep_peers.py": "9d174957e15a8a474e01295071d6f183e6afe839f851e8d61dc24e5eb4d9d67b"
+  },
+  "unresolved_uses_isolated": [
+    "NaN loss-date fixed-regime uses",
+    "negative uncertainty uses",
+    "upstream gap instrument interpretation"
+  ],
+  "source_clean_geometry_version": {
+    "path": "preparation/metadata/code_revisions/prep_geometry_clean_version.py",
+    "sha256": "22bd365332036e86c0fd2304905bac1d87d39268a99cddc121b497d664112f7e",
+    "later_change": "exact tiled cell-water area calculation; mask/point rule unchanged"
+  }
+}

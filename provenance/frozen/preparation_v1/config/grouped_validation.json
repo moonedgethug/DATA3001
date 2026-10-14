@@ -1,0 +1,9 @@
+{
+  "folds": 5,
+  "development_only": true,
+  "fold_assignment": "full SHA256 uint256 of ASCII 20261004:grouped-fivefold:<GDP_ID> modulo 5",
+  "frozen_global_split_unchanged": true,
+  "file_sha256": "5cc3791ec80e4b89e4a3bd9e8e78b1405ac495afb3e68950ff3b1c0c713cc6db",
+  "procedure": "If grouped development validation is adopted, hold out complete fold IDs. Refit QC peer/threshold/reconstruction references within permitted training IDs excluding held-out fold and target ID. Then refit models within fold. No score/model run here.",
+  "global_screening_flags": "Retrospective diagnostics only. They neither change primary eligibility nor serve as forecast/CV features. Do not reuse their reference statistics for held-out-fold fitting."
+}

@@ -1,0 +1,13 @@
+test_catalog_path_cannot_escape_project (test_architecture.Architecture.test_catalog_path_cannot_escape_project) ... ok
+test_frozen_write_is_rejected_before_existing_bytes_change (test_architecture.Architecture.test_frozen_write_is_rejected_before_existing_bytes_change) ... ok
+test_legacy_mapping_restricts_test_partitions (test_architecture.Architecture.test_legacy_mapping_restricts_test_partitions) ... ok
+test_modified_source_fails_checksum (test_architecture.Architecture.test_modified_source_fails_checksum) ... ok
+test_resolves_asset_independently_of_current_directory (test_architecture.Architecture.test_resolves_asset_independently_of_current_directory) ... ok
+test_run_collision_preserves_existing_results (test_architecture.Architecture.test_run_collision_preserves_existing_results) ... ok
+test_run_id_cannot_escape_run_namespace (test_architecture.Architecture.test_run_id_cannot_escape_run_namespace) ... ok
+test_test_labels_are_denied_by_default (test_architecture.Architecture.test_test_labels_are_denied_by_default) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+OK

@@ -1,0 +1,26 @@
+test_help_is_available_from_another_working_directory (test_cli.CLI.test_help_is_available_from_another_working_directory) ... FAIL
+test_inspection_does_not_create_a_run_or_open_missing_large_data (test_cli.CLI.test_inspection_does_not_create_a_run_or_open_missing_large_data) ... FAIL
+
+======================================================================
+FAIL: test_help_is_available_from_another_working_directory (test_cli.CLI.test_help_is_available_from_another_working_directory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_cli.py", line 14, in test_help_is_available_from_another_working_directory
+    self.assertEqual(r.returncode,0,r.stderr)
+AssertionError: 1 != 0 : /Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/bin/python: No module named data3001.__main__; 'data3001' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_inspection_does_not_create_a_run_or_open_missing_large_data (test_cli.CLI.test_inspection_does_not_create_a_run_or_open_missing_large_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_cli.py", line 20, in test_inspection_does_not_create_a_run_or_open_missing_large_data
+    self.assertEqual(r.returncode,0,r.stderr);self.assertEqual(json.loads(r.stdout)['research_contract_version'],'1.0')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : /Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/bin/python: No module named data3001.__main__; 'data3001' is a package and cannot be directly executed
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.026s
+
+FAILED (failures=2)

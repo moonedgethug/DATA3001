@@ -1,0 +1,1400 @@
+{
+  "BuoyTypeManufacturer": {
+    "source_name": "BuoyTypeManufacturer",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type manufacturer",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "BuoyTypeSensorArray": {
+    "source_name": "BuoyTypeSensorArray",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type sensor array",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "CurrentProgram": {
+    "source_name": "CurrentProgram",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i4",
+    "units": "-",
+    "calendar": null,
+    "fill": -1,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Current Program",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DeployingCountry": {
+    "source_name": "DeployingCountry",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deploying country",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DeployingShip": {
+    "source_name": "DeployingShip",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Name of deployment ship",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DeploymentComments": {
+    "source_name": "DeploymentComments",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i2",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment comments",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DeploymentStatus": {
+    "source_name": "DeploymentStatus",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment status",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DragAreaAboveDrogue": {
+    "source_name": "DragAreaAboveDrogue",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "m^2",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area above drogue.",
+      "units": "m^2"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DragAreaOfDrogue": {
+    "source_name": "DragAreaOfDrogue",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "m^2",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area drogue.",
+      "units": "m^2"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DragAreaRatio": {
+    "source_name": "DragAreaRatio",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "m",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area ratio",
+      "units": "m"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DrogueBallast": {
+    "source_name": "DrogueBallast",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "kg",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Weight of the drogue's ballast.",
+      "units": "kg"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DrogueCenterDepth": {
+    "source_name": "DrogueCenterDepth",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "m",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Average depth of the drogue.",
+      "units": "m"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DrogueDetectSensor": {
+    "source_name": "DrogueDetectSensor",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drogue detection sensor",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DrogueLength": {
+    "source_name": "DrogueLength",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "m",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Length of drogue.",
+      "units": "m"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "DrogueType": {
+    "source_name": "DrogueType",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S7",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "drogue_type": "Drogue Type",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "FloatDiameter": {
+    "source_name": "FloatDiameter",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "cm",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Diameter of surface floater",
+      "units": "cm"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "ManufactureMonth": {
+    "source_name": "ManufactureMonth",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i2",
+    "units": "-",
+    "calendar": null,
+    "fill": -1,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture month",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "ManufactureSensorType": {
+    "source_name": "ManufactureSensorType",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture Sensor Type",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "ManufactureVoltage": {
+    "source_name": "ManufactureVoltage",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i2",
+    "units": "V",
+    "calendar": null,
+    "fill": -1,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture voltage",
+      "units": "V"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "PurchaserFunding": {
+    "source_name": "PurchaserFunding",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Purchaser funding",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "SensorUpgrade": {
+    "source_name": "SensorUpgrade",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Sensor upgrade",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "SubsfcFloatPresence": {
+    "source_name": "SubsfcFloatPresence",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "dtype": "bool",
+      "long_name": "Subsurface Float Presence",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "Transmissions": {
+    "source_name": "Transmissions",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S20",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Transmissions",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "WMO": {
+    "source_name": "WMO",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i4",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "World Meteorological Organization buoy identification number",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "deploy_date": {
+    "source_name": "deploy_date",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "seconds since 1970-01-01 00:00:00",
+    "calendar": "standard (CF default)",
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment date and time",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "deploy_lat": {
+    "source_name": "deploy_lat",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_north",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment latitude",
+      "units": "degrees_north"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "deploy_lon": {
+    "source_name": "deploy_lon",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_east",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment longitude",
+      "units": "degrees_east"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "drogue_lost_date": {
+    "source_name": "drogue_lost_date",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "seconds since 1970-01-01 00:00:00",
+    "calendar": "standard (CF default)",
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Date and time of drogue loss",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retrospective scenario eligibility",
+    "handling": "zero unknown; positive with source flag agreement and float32 precision guard; NaN conversion origin unresolved fixed-use isolation",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "drogue_status": {
+    "source_name": "drogue_status",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "dtype": "bool",
+      "flag_meanings": "drogued, undrogued",
+      "flag_values": "1,0",
+      "long_name": "Status indicating the presence of the drogue",
+      "units": "-"
+    },
+    "kind": "source_flag",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "end_date": {
+    "source_name": "end_date",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "seconds since 1970-01-01 00:00:00",
+    "calendar": "standard (CF default)",
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good date and time derived by DAC quality control",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "end_lat": {
+    "source_name": "end_lat",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_north",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good latitude derived by DAC quality control",
+      "units": "degrees_north"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "end_lon": {
+    "source_name": "end_lon",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_east",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good longitude derived by DAC quality control",
+      "units": "degrees_east"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_lat": {
+    "source_name": "err_lat",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_north",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in latitude",
+      "units": "degrees_north"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_lon": {
+    "source_name": "err_lon",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_east",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in longitude",
+      "units": "degrees_east"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_sst": {
+    "source_name": "err_sst",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface sea water temperature estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted sea water temperature",
+      "units": "Kelvin"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_sst1": {
+    "source_name": "err_sst1",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface non-diurnal sea water temperature estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted non-diurnal sea water temperature",
+      "units": "Kelvin"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_sst2": {
+    "source_name": "err_sst2",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface diurnal sea water temperature anomaly estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted diurnal sea water temperature anomaly",
+      "units": "Kelvin"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_ve": {
+    "source_name": "err_ve",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "m/s",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in eastward velocity",
+      "units": "m/s"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "err_vn": {
+    "source_name": "err_vn",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "m/s",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in northward velocity",
+      "units": "m/s"
+    },
+    "kind": "uncertainty",
+    "uses": "measurement uncertainty context",
+    "handling": "finite nonnegative usable; missing not zero; negative unresolved and isolated from uncertainty use",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "expno": {
+    "source_name": "expno",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i4",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Experiment number",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "flg_sst": {
+    "source_name": "flg_sst",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted sea water temperature quality flag",
+      "units": "-"
+    },
+    "kind": "source_flag",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "flg_sst1": {
+    "source_name": "flg_sst1",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted non-diurnal sea water temperature quality flag",
+      "units": "-"
+    },
+    "kind": "source_flag",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "flg_sst2": {
+    "source_name": "flg_sst2",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted diurnal sea water temperature anomaly quality flag",
+      "units": "-"
+    },
+    "kind": "source_flag",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "gap": {
+    "source_name": "gap",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "s",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Time interval between previous and next location",
+      "units": "s"
+    },
+    "kind": "processed_estimate",
+    "uses": "original sampling context",
+    "handling": "preserve documented seconds; not absent-hour count; ambiguous upstream units not used to reconstruct timestamps",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "id": {
+    "source_name": "id",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i8",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "long_name": "Global Drifter Program Buoy ID",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "lat": {
+    "source_name": "lat",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f8",
+    "units": "degrees_north",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Latitude",
+      "units": "degrees_north"
+    },
+    "kind": "processed_estimate",
+    "uses": "position and geometry",
+    "handling": "finite and native valid range BEFORE derived wrap; position exclusion only, raw retained",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "location_type": {
+    "source_name": "location_type",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "comments": "0 (Argos), 1 (GPS)",
+      "coordinates": "id",
+      "dtype": "bool",
+      "long_name": "Satellite-based location system",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "lon": {
+    "source_name": "lon",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f8",
+    "units": "degrees_east",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Longitude",
+      "units": "degrees_east"
+    },
+    "kind": "processed_estimate",
+    "uses": "position and geometry",
+    "handling": "finite and native valid range BEFORE derived wrap; position exclusion only, raw retained",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "rowsize": {
+    "source_name": "rowsize",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<i4",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Number of observations per trajectory",
+      "sample_dimension": "obs",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "sst": {
+    "source_name": "sst",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface sea water temperature from drifting buoy measurements. It is the sum of the fitted near-surface non-diurnal sea water temperature and fitted diurnal sea water temperature anomaly. Discrepancies may occur because of rounding.",
+      "coordinates": "time",
+      "long_name": "Fitted sea water temperature",
+      "units": "Kelvin"
+    },
+    "kind": "processed_estimate",
+    "uses": "optional temperature conditioning",
+    "handling": "absolute Kelvin -> C subtract 273.15; flags 4/5 AND -2..50 C; independent of position",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "sst1": {
+    "source_name": "sst1",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface non-diurnal sea water temperature from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Fitted non-diurnal sea water temperature",
+      "units": "Kelvin"
+    },
+    "kind": "processed_estimate",
+    "uses": "optional temperature conditioning",
+    "handling": "absolute Kelvin -> C subtract 273.15; flags 4/5 AND -2..50 C; independent of position",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "sst2": {
+    "source_name": "sst2",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "Kelvin",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface diurnal sea water temperature anomaly from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Fitted diurnal sea water temperature anomaly",
+      "units": "Kelvin"
+    },
+    "kind": "temperature_anomaly",
+    "uses": "optional diurnal description",
+    "handling": "anomaly unchanged; negative permitted; flag 5 only",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "start_date": {
+    "source_name": "start_date",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "seconds since 1970-01-01 00:00:00",
+    "calendar": "standard (CF default)",
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "First good date and time derived by DAC quality control",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "start_lat": {
+    "source_name": "start_lat",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_north",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good latitude derived by DAC quality control",
+      "units": "degrees_north"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "start_lon": {
+    "source_name": "start_lon",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "<f4",
+    "units": "degrees_east",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "First good longitude derived by DAC quality control",
+      "units": "degrees_east"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "time": {
+    "source_name": "time",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f8",
+    "units": "seconds since 1970-01-01 00:00:00",
+    "calendar": "standard (CF default)",
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "long_name": "Time",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "kind": "processed_estimate",
+    "uses": "UTC origin/endpoint/path/season",
+    "handling": "epoch seconds decoded without rounding, CF absent calendar uses standard Gregorian; missing undecodable rows excluded dated uses only",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "typebuoy": {
+    "source_name": "typebuoy",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|S10",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type (see https://www.aoml.noaa.gov/phod/dac/dirall.html)",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "typedeath": {
+    "source_name": "typedeath",
+    "dimensions": [
+      "traj"
+    ],
+    "dtype": "|i1",
+    "units": "-",
+    "calendar": null,
+    "fill": null,
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "comments": "0 (buoy still alive), 1 (buoy ran aground), 2 (picked up by vessel), 3 (stop transmitting), 4 (sporadic transmissions), 5 (bad batteries), 6 (inactive status)",
+      "coordinates": "id",
+      "long_name": "Type of death",
+      "units": "-"
+    },
+    "kind": "trajectory_metadata",
+    "uses": "retained source context",
+    "handling": "Preserve unchanged; missing context not invented.",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "ve": {
+    "source_name": "ve",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "m/s",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Eastward velocity",
+      "units": "m/s"
+    },
+    "kind": "processed_estimate",
+    "uses": "retrospective vector QC/description",
+    "handling": "finite components, negative/zero allowed; no velocity prerequisite for position pairs",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  },
+  "vn": {
+    "source_name": "vn",
+    "dimensions": [
+      "obs"
+    ],
+    "dtype": "<f4",
+    "units": "m/s",
+    "calendar": null,
+    "fill": "NaN",
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Northward velocity",
+      "units": "m/s"
+    },
+    "kind": "processed_estimate",
+    "uses": "retrospective vector QC/description",
+    "handling": "finite components, negative/zero allowed; no velocity prerequisite for position pairs",
+    "authority": "frozen metadata primary for values; NOAA release notes, SST paper and hourly metadata for conventions; current ERDDAP supplies documentation only, no records",
+    "release_corrections": "v2.01.1 GPS=True/Argos=False; v2.01 SST flag-1 finite uncertainty fix; diurnal flag 2 means other combinations, not none"
+  }
+}

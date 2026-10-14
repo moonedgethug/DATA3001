@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-12T15:23:24.250352+00:00",
+  "verified": {
+    "utc": "2026-10-12T15:23:24.246691+00:00",
+    "IDs": 3741,
+    "rows": 39107061,
+    "R_IDs": 463,
+    "R_rows": 6243277,
+    "split_counts": {
+      "train": 2674,
+      "validation": 550,
+      "test": 517
+    },
+    "R_split_counts": {
+      "train": 323,
+      "validation": 73,
+      "test": 67
+    },
+    "bound_files_verified": 12,
+    "whole_global_ID_split_verified": 19396,
+    "source_snapshot_sha": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46"
+  },
+  "parent_freeze_sha256": "d550b8b51dcb143719f013899c621c7b98f4cf4769e4dc03227fe436b2d52c5f",
+  "parent_frozen_files": {
+    "preparation/config/preparation.json": "4c72b146b4e5ed26ce4498dcc97e7b1324d9e68f137dde8c77f87e80c9cc8ad8",
+    "preparation/config/diagnostic_screening.json": "38b9780842ca43a5fd9052262317b562a057c7214144afabddd46bf510c5683a",
+    "preparation/config/grouped_validation.json": "cc2cd1deb8e3de14e67802eff63301172c08c8f1c30310a4b1ad77d2237663aa",
+    "preparation/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+    "preparation/geometry/grid_water_policy.json": "f1062a05028c4f73656f4cd5d60d63a0e9a6bcc4764bc47099f7291d7180c525",
+    "preparation/geometry/state_index.parquet": "ebfd13d08309679a5278b7fc9824d4cb2fa1c0b8d4807c161ca5666ea30d55e5",
+    "geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+    "preparation/metadata/preprocessing_dictionary.json": "9767ef2c3291ee8e323e6629ac16fe398950648eff90b085d2e353bb5c46250d",
+    "preparation/metadata/unresolved_questions.json": "594f26e7c1211e601d92a7280dd03599ddef6aecd08b7526795cd78f020b3a9d",
+    "preparation/audit/domain_selection.json": "6b699ab1c79a923a7cfe75faf3d97e1256b4126bf06e13250e4e3c77770b255f",
+    "preparation/audit/source_case_regressions.json": "69cf78f93bfbf2cbb9412711ae7d3c05648233c9cb3db28db4b6e4157818f694",
+    "preparation/audit/semantic_tests.log": "887c9bc8b4746d519df6feec86aa00259cb6d57931b59cf0eb9242265e58b121",
+    "preparation/audit/source_values_reverified.json": "7f59bd846137d78ea7fe2c2ea72978984840f82ada64390cb4009a4fe8e66b98",
+    "scripts/prep_support.py": "485c01fed47f637506ac9646d50e2c00f1690e5a5a72df9d5df5b3dbf5117dfa",
+    "scripts/prep_core.py": "dad247a1638f31ff3720e6335d405d33cd720ccb8e0f4573126963c3320bd982",
+    "scripts/prep_run.py": "89f1d536543bd1c5fedfc29a43b9bb0983ff3108ac6407e8c261386da4730dde",
+    "scripts/prep_geometry.py": "8cc1ab48f8dbf12c1a8058794dc71cc58810f7e90c9393ccf954e358b3b2b497",
+    "scripts/prep_io.py": "803329593c82acc663e1cbd3fe76abf8a61c412f5995245d2d0a741d747e5156",
+    "scripts/prep_pairs.py": "5d3e06e1672d3a583c985ea7c36d0b1773a6f21322e0bd6f24b80863851f595d",
+    "scripts/prep_peers.py": "9d174957e15a8a474e01295071d6f183e6afe839f851e8d61dc24e5eb4d9d67b",
+    "preparation/audit/semantic_tests_boundary_fix.log": "53cdc20b024a62fb6934fb144e1230174f10d2a033ae3efdc62df2c0fc0ce419",
+    "preparation/audit/independent_predicates_green_final.log": "2276086bc31290118f9bde4e9ef1f60eded149fd06bc5bbc6201abfcbf27599f",
+    "preparation/metadata/eligibility_codes.json": "243667a2c8d70deb8e1eba25569ec37e084477dc7d707642884176a6f9bd8bec",
+    "preparation/audit/final_semantic_tests.log": "3a0a3697fd48284ae35dbd2af0970cdc7b369518578307a6ee6ec7fd52a4ed06"
+  },
+  "architecture_audit_sha256": "2e443092fd7c1027579bcc3f68749f90e01a4b16acefb760aa2b0ac07dc0d764",
+  "authority": "Authoritative Excel remains unchanged; pasted architecture findings supply remediation requirements."
+}

@@ -1,0 +1,15 @@
+{
+  "reader": "xarray",
+  "reader_version": "2025.3.1",
+  "dimensions": {
+    "traj": 3741,
+    "obs": 39107061
+  },
+  "variables": 62,
+  "first_ids": [
+    7706157,
+    7706158,
+    9012758
+  ],
+  "opened_successfully": true
+}

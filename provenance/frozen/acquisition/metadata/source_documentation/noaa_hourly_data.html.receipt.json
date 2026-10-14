@@ -1,0 +1,5 @@
+{
+  "url": "https://www.aoml.noaa.gov/phod/gdp/hourly_data.php",
+  "sha256": "07187e8706d06485af16ceb6b35c76a122d910dcd8a0dc4757ddd79011165b16",
+  "role": "Reference documentation only; trajectory metadata comes exclusively from the frozen hourly asset."
+}

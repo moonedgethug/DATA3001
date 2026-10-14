@@ -1,0 +1,16 @@
+Obtaining file:///Users/moonedgethug/Documents/UNSW/DATA3001/work_place
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: data3001-transport
+  Building editable for data3001-transport (pyproject.toml): started
+  Building editable for data3001-transport (pyproject.toml): finished with status 'done'
+  Created wheel for data3001-transport: filename=data3001_transport-0.1.0-0.editable-py3-none-any.whl size=1445 sha256=74736420072cf5d6b0de8ba1b61c6aaed92f9bdde4605c69d6b90b8235a2121f
+  Stored in directory: /private/var/folders/74/vn4444390yz228_dvf81xjkh0000gn/T/pip-ephem-wheel-cache-csxkbxb7/wheels/28/00/73/6f376acde3bcd4771888cd37773616ea4f50ac3f460d5508d5
+Successfully built data3001-transport
+Installing collected packages: data3001-transport
+Successfully installed data3001-transport-0.1.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: /Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/bin/python -m pip install --upgrade pip

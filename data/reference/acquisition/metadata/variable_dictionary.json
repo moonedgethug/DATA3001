@@ -1,0 +1,1820 @@
+{
+  "BuoyTypeManufacturer": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type manufacturer",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "BuoyTypeSensorArray": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type sensor array",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "CurrentProgram": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Current Program",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i4",
+      "fill_value": -1,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DeployingCountry": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deploying country",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DeployingShip": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Name of deployment ship",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DeploymentComments": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment comments",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i2",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DeploymentStatus": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment status",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DragAreaAboveDrogue": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area above drogue.",
+      "units": "m^2"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DragAreaOfDrogue": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area drogue.",
+      "units": "m^2"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DragAreaRatio": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drag area ratio",
+      "units": "m"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DrogueBallast": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Weight of the drogue's ballast.",
+      "units": "kg"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DrogueCenterDepth": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Average depth of the drogue.",
+      "units": "m"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DrogueDetectSensor": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Drogue detection sensor",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DrogueLength": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Length of drogue.",
+      "units": "m"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "DrogueType": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "drogue_type": "Drogue Type",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S7",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "FloatDiameter": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Diameter of surface floater",
+      "units": "cm"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "ManufactureMonth": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture month",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i2",
+      "fill_value": -1,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "ManufactureSensorType": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture Sensor Type",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "ManufactureVoltage": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Manufacture voltage",
+      "units": "V"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i2",
+      "fill_value": -1,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "PurchaserFunding": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Purchaser funding",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "SensorUpgrade": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Sensor upgrade",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "SubsfcFloatPresence": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "dtype": "bool",
+      "long_name": "Subsurface Float Presence",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "Transmissions": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Transmissions",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        9698
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S20",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "WMO": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "World Meteorological Organization buoy identification number",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i4",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "deploy_date": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment date and time",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "deploy_lat": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment latitude",
+      "units": "degrees_north"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "deploy_lon": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Deployment longitude",
+      "units": "degrees_east"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "drogue_lost_date": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Date and time of drogue loss",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "drogue_status": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "dtype": "bool",
+      "flag_meanings": "drogued, undrogued",
+      "flag_values": "1,0",
+      "long_name": "Status indicating the presence of the drogue",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        1540741
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "end_date": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good date and time derived by DAC quality control",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "end_lat": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good latitude derived by DAC quality control",
+      "units": "degrees_north"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "end_lon": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good longitude derived by DAC quality control",
+      "units": "degrees_east"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_lat": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in latitude",
+      "units": "degrees_north"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_lon": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in longitude",
+      "units": "degrees_east"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_sst": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface sea water temperature estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted sea water temperature",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_sst1": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface non-diurnal sea water temperature estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted non-diurnal sea water temperature",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_sst2": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated one standard error of near-surface diurnal sea water temperature anomaly estimate from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Standard uncertainty of fitted diurnal sea water temperature anomaly",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_ve": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in eastward velocity",
+      "units": "m/s"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "err_vn": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "95% confidence interval in northward velocity",
+      "units": "m/s"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "expno": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Experiment number",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i4",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "flg_sst": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted sea water temperature quality flag",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        1540741
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "flg_sst1": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted non-diurnal sea water temperature quality flag",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        1540741
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "flg_sst2": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "flag_meanings": "no-estimate, no-uncertainty-estimate, estimate-not-in-range-uncertainty-not-in-range, estimate-not-in-range-uncertainty-in-range estimate-in-range-uncertainty-not-in-range, estimate-in-range-uncertainty-in-range",
+      "flag_values": "0, 1, 2, 3, 4, 5",
+      "long_name": "Fitted diurnal sea water temperature anomaly quality flag",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        1540741
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "gap": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Time interval between previous and next location",
+      "units": "s"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "id": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "long_name": "Global Drifter Program Buoy ID",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i8",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "lat": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Latitude",
+      "units": "degrees_north"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f8",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "location_type": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "comments": "0 (Argos), 1 (GPS)",
+      "coordinates": "id",
+      "dtype": "bool",
+      "long_name": "Satellite-based location system",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "lon": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Longitude",
+      "units": "degrees_east"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f8",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "rowsize": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Number of observations per trajectory",
+      "sample_dimension": "obs",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<i4",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "sst": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface sea water temperature from drifting buoy measurements. It is the sum of the fitted near-surface non-diurnal sea water temperature and fitted diurnal sea water temperature anomaly. Discrepancies may occur because of rounding.",
+      "coordinates": "time",
+      "long_name": "Fitted sea water temperature",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "sst1": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface non-diurnal sea water temperature from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Fitted non-diurnal sea water temperature",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "sst2": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "comments": "Estimated near-surface diurnal sea water temperature anomaly from drifting buoy measurements",
+      "coordinates": "time",
+      "long_name": "Fitted diurnal sea water temperature anomaly",
+      "units": "Kelvin"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "start_date": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "First good date and time derived by DAC quality control",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "start_lat": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Last good latitude derived by DAC quality control",
+      "units": "degrees_north"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "start_lon": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "First good longitude derived by DAC quality control",
+      "units": "degrees_east"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "time": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "long_name": "Time",
+      "units": "seconds since 1970-01-01 00:00:00"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f8",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "typebuoy": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "coordinates": "id",
+      "long_name": "Buoy type (see https://www.aoml.noaa.gov/phod/dac/dirall.html)",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|S10",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "typedeath": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "traj"
+      ],
+      "comments": "0 (buoy still alive), 1 (buoy ran aground), 2 (picked up by vessel), 3 (stop transmitting), 4 (sporadic transmissions), 5 (bad batteries), 6 (inactive status)",
+      "coordinates": "id",
+      "long_name": "Type of death",
+      "units": "-"
+    },
+    "storage": {
+      "chunks": [
+        19396
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "|i1",
+      "fill_value": null,
+      "filters": null,
+      "order": "C",
+      "shape": [
+        19396
+      ],
+      "zarr_format": 2
+    }
+  },
+  "ve": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Eastward velocity",
+      "units": "m/s"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  },
+  "vn": {
+    "attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "obs"
+      ],
+      "coordinates": "time",
+      "long_name": "Northward velocity",
+      "units": "m/s"
+    },
+    "storage": {
+      "chunks": [
+        385186
+      ],
+      "compressor": {
+        "blocksize": 0,
+        "clevel": 5,
+        "cname": "lz4",
+        "id": "blosc",
+        "shuffle": 1
+      },
+      "dtype": "<f4",
+      "fill_value": "NaN",
+      "filters": null,
+      "order": "C",
+      "shape": [
+        197214787
+      ],
+      "zarr_format": 2
+    }
+  }
+}

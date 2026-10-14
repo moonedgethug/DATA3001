@@ -1,0 +1,8 @@
+{
+  "downloaded_latitude_range": [
+    -18.77132281082376,
+    89.10962677001953
+  ],
+  "Antarctic_L5_L6_required_by_selected_positions": false,
+  "mask_main": "GSHHG L1 ocean/land for selected Atlantic study; no Antarctic ice mapping claim"
+}

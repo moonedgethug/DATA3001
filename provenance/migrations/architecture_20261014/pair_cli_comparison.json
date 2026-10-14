@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "comparisons": [
+    {
+      "target": "endpoint",
+      "rows": 399,
+      "preexisting_fields_exactly_equal": true
+    },
+    {
+      "target": "stopped",
+      "rows": 399,
+      "preexisting_fields_exactly_equal": true
+    }
+  ],
+  "forecast_accuracy_evaluated": false
+}

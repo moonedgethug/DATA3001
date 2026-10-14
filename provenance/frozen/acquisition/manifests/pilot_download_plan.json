@@ -1,0 +1,41 @@
+{
+  "asset": "https://noaa-oar-hourly-gdp-pds.s3.amazonaws.com/latest/gdp-v2.01.1.zarr/",
+  "ids": [
+    "101550",
+    "101551",
+    "101557",
+    "101605",
+    "101722",
+    "101907",
+    "101908",
+    "101912"
+  ],
+  "variables": [
+    "drogue_status",
+    "err_lat",
+    "err_lon",
+    "err_sst",
+    "err_sst1",
+    "err_sst2",
+    "err_ve",
+    "err_vn",
+    "flg_sst",
+    "flg_sst1",
+    "flg_sst2",
+    "gap",
+    "lat",
+    "lon",
+    "sst",
+    "sst1",
+    "sst2",
+    "time",
+    "ve",
+    "vn"
+  ],
+  "selection": "Full source trajectory for every selected ID, without time/spatial clipping",
+  "required_chunks": 96,
+  "additional_chunks": 86,
+  "additional_source_bytes": 68594903,
+  "metadata_sha256": "d842845fec19aa271306c9a98ac964c631cd556d34cbf782d4eb624045687934",
+  "split_manifest_sha256": "1ebfe3eca9a53379aa627f5b610586bbf18148ce0b782bceac5b9a5302f66800"
+}

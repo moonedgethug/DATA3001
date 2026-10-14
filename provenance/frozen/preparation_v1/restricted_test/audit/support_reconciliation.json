@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-12T05:25:05.013141+00:00",
+  "support_rows": 1009410,
+  "all_candidate_cells_reconciled": true,
+  "ID_overlap": "Do not sum unique IDs across cells/seasons/horizons. R seasonal ID table computes distinct unions.",
+  "test_in_development_reference": 0,
+  "candidate_definition": "All QC-valid position/time origins in actual R or D, including unresolved mapping/regime, before scenario eligibility.",
+  "denominator": "candidates within each split/population/grid/cell/season/scenario/horizon/target",
+  "availability": "eligible/candidates; overlapping windows are not independent samples",
+  "zero_eligible_cells": 357688
+}

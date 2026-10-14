@@ -1,0 +1,24 @@
+{
+  "official_speed_m_s": 2.265576513364784,
+  "interval_net_speed_m_s": 2.478095495935818,
+  "quantile": 0.9999,
+  "training_rows": 27928168,
+  "authority": "engineering development-only review prioritization; no physical deletion ceiling",
+  "reference_split": "train only",
+  "references_exclude_target_ID": "peer statistics explicitly exclude target ID",
+  "action": "retain every source observation and all primary eligibility; annotate review evidence",
+  "windows_km_hours": [
+    [
+      25,
+      3
+    ],
+    [
+      50,
+      6
+    ],
+    [
+      100,
+      12
+    ]
+  ]
+}

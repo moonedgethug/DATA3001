@@ -1,0 +1,72 @@
+{
+  "candidates": [
+    {
+      "candidate": 0,
+      "padding_degrees": 0,
+      "bounds": [
+        -81.0,
+        20.0,
+        -8.0,
+        55.0
+      ],
+      "grid_cells_1deg": 2555,
+      "development_IDs": 2542,
+      "downstream_only_IDs": 2146,
+      "D_origins": 25223354,
+      "observed_adjacent_exits": 2004,
+      "observed_adjacent_returns": 2175,
+      "R_365_intermediate_positions": 2518385,
+      "R_365_intermediate_outside": 0
+    },
+    {
+      "candidate": 1,
+      "padding_degrees": 2,
+      "bounds": [
+        -83.0,
+        18.0,
+        -6.0,
+        57.0
+      ],
+      "grid_cells_1deg": 3003,
+      "development_IDs": 2786,
+      "downstream_only_IDs": 2390,
+      "D_origins": 27011165,
+      "observed_adjacent_exits": 1915,
+      "observed_adjacent_returns": 2123,
+      "R_365_intermediate_positions": 2518385,
+      "R_365_intermediate_outside": 0
+    },
+    {
+      "candidate": 2,
+      "padding_degrees": 5,
+      "bounds": [
+        -86.0,
+        15.0,
+        -3.0,
+        60.0
+      ],
+      "grid_cells_1deg": 3735,
+      "development_IDs": 3224,
+      "downstream_only_IDs": 2828,
+      "D_origins": 29637959,
+      "observed_adjacent_exits": 2341,
+      "observed_adjacent_returns": 2451,
+      "R_365_intermediate_positions": 2518385,
+      "R_365_intermediate_outside": 0
+    }
+  ],
+  "selected_candidate": 0,
+  "selected_bounds": [
+    -81.0,
+    20.0,
+    -8.0,
+    55.0
+  ],
+  "selection_target": "finite stopped-domain product",
+  "test_IDs_used": 0,
+  "elapsed_seconds": 21.67963529098779,
+  "anchor_evidence": "All development R intermediate positions and therefore observed anchor endpoints covered; see support and candidate maps.",
+  "predictive_boundary_stability": "Deferred to modelling; zero observed R-window exits does not prove unrestricted one-year coverage.",
+  "downstream_exits_and_returns": "Descriptive consecutive-hour crossings; not all are fixed-regime eligible events.",
+  "geometry_sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8"
+}

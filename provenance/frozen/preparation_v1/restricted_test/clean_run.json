@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T04:48:11.515592+00:00",
+  "IDs": 517,
+  "rows": 5163769,
+  "elapsed_seconds": 29.440926042036153,
+  "peak_RSS_bytes": 606519296,
+  "source_min_epoch": 672224400.0,
+  "source_max_epoch": 1667174400.0,
+  "signature": "{\"clean_code\": \"89f1d536543bd1c5fedfc29a43b9bb0983ff3108ac6407e8c261386da4730dde\", \"core_code\": \"d5721ef495abba286d1c4d403510ca6a229a1cb7989ec2db06e2a06020a67879\", \"geometry_code\": \"03861ee24b9f9d3f2b4a3a460b0fb5f0b34b75a9c3139ad41a998e9b7bf84cc0\", \"input_snapshot\": \"7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46\", \"mask_h\": \"4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0\", \"mask_i\": \"386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73\", \"policy\": \"positive documented loss + source agreement; zero/NaN unknown; high/intermediate coast disagreement isolated\"}"
+}

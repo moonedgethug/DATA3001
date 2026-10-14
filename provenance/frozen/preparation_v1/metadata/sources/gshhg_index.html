@@ -1,0 +1,138 @@
+<title>GSHHG - A Global Self-consistent, Hierarchical, High-resolution Geography Database</title>
+<body bgcolor="#ffffff">
+<center><h1>GSHHG</h1>
+<h2>A Global Self-consistent, Hierarchical, High-resolution Geography Database</h2></center>
+<HR><P>
+<center><img src="gshhg.png"><p>
+<h3>Version 2.3.7 Released June 15, 2017</h3>
+<P>GSHHG is developed and maintained by<p>
+Paul Wessel, SOEST, University of Hawai'i, Honolulu, HI.<br>
+Walter H. F. Smith, NOAA Geosciences Lab, National Ocean Service, Silver Spring, MD.
+</center><P>
+We present a high-resolution geography data set amalgamated from three data 
+bases in the public domain:
+<OL>
+<LI><A HREF="http://shoreline.noaa.gov/data/datasheets/wvs.html"> World Vector Shorelines</a> (<B>WVS</B>).</LI>
+<LI><A HREF="http://www.evl.uic.edu/pape/data/WDB"> CIA World Data Bank II</a> (<B>WDBII</B>).</LI>
+<LI><A HREF="http://nsidc.org/data/atlas/"> Atlas of the Cryosphere</a> (<B>AC</B>).</LI>
+</OL>
+The <B>WVS</B> is our basis for shorelines except for Antarctica while the <B>WDBII</B> is the basis for lakes, although there are
+instances where differences in coastline representations necessitated adding <B>WDBII</B> islands to GSHHG.
+The <B>WDBII</B> source also provides all political borders and rivers.  The addition of <B>AC</B> since 2.3.0 allows us to offer
+two choices for Antarctica coastlines: Ice-front or Grounding line.  These are encoded as levels 5 and 6, respectively
+and users of GSHHG can choose which set to use.  GSHHG data have undergone extensive processing and should be free of 
+internal inconsistencies such as erratic points and crossing segments. The shorelines are 
+constructed entirely from hierarchically arranged closed polygons.  A modified version of
+GSHHG is used by <a href="http://gmt.soest.hawaii.edu">GMT</a>, the Generic Mapping Tools.
+Starting with version 2.2.2, GSHHG has been released under the
+<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank"> GNU Lesser General Public License.</a><BR>
+The shoreline polygon data can be used to 
+simplify data searches and data selections, to study the statistical characteristics of 
+shorelines and land-masses, or for custom applications requiring basic geography data.
+For convenience, the shoreline polygons and rivers/borders line data sets are distributed in two file formats:
+<OL>
+	<LI><B>ESRI shapefiles</B>.  This format is probably the most useful
+		for users of GSHHG.  Note that due to limitations of most (all?) GIS software
+		and Google Earth, a handful of polygons straddling the Dateline (chief among them the
+		Antarctic polar cap polygon) have been split into east and west components.
+	<LI><B>Native binary files</B>.  No polygon dateline-splitting has occurred.
+		Software to read these files are distributed
+		as part of the gshhg supplement to GMT.  Developers can use the descriptions
+		of the gshhg format (in gshhg.[ch]) to deal with these data in their own programs.</LI>
+</OL>
+<P>
+Notes:
+<OL>
+	<LI>GMT uses a special netCDF-formatted version of these data that have been tiled to improve
+	efficiency of map making.  Normally, this flavor of GSHHG is offered as an installation option when GMT is 
+	installed; however, you can also obtain it below.  We discourage anyone from using the netCDF version
+	for custom programming applications [due to complexity and lack of documentation, mostly].</LI>
+	<LI>GSHHG used to be called GSHHS (Global Self-consistent, Hierarchical, High-resolution Shorelines)
+	but since rivers and political boundaries were also included we changed it to GSHHG starting with
+	version 2.2.1.
+	<LI>The netCDF version of GSHHG used to be distributed as a part of GMT but as of GMT 4.5.9 the GSHHG is a separate
+	package.  This means when GMT is updated and there are no changes to GSHHG you do not
+	need to reinstall GSHHG. Likewise, GMT 4 and GMT 5 installations can now share a single GSHHG installation.
+	<LI>Older GMT releases such as 4.5.x and 5.1.0 (and earlier) can use the new GSHHG 2.3.7 release but will only see the improved ice-front Antarctica
+		coastline.  Versions 5.2.0 and later include new options to handle decisions related
+		to the various Antarctica choices available in GSHHG since 2.3.0.
+</OL>
+</P>
+The geography data come in five resolutions:
+<OL>
+	<LI><B>f</B>ull resolution: Original (full) data resolution.</LI>
+	<LI><B>h</B>igh resolution: About 80 % reduction in size and quality.</LI>
+	<LI><B>i</B>ntermediate resolution: Another ~80 % reduction.</LI>
+	<LI><B>l</B>ow resolution: Another ~80 % reduction.</LI>
+	<LI><B>c</B>rude resolution: Another ~80 % reduction.</LI>
+</OL>
+Unlike the shoreline polygons at all resolutions,
+the lower resolution rivers are not guaranteed to be free of intersections.<BR>
+Shorelines are furthermore organized into 6 hierarchical levels:
+<OL>
+	<LI>L1: boundary between land and ocean, except Antarctica.</LI>
+	<LI>L2: boundary between lake and land.</LI>
+	<LI>L3: boundary between island-in-lake and lake.</LI>
+	<LI>L4: boundary between pond-in-island and island.</LI>
+	<LI>L5: boundary between Antarctica ice and ocean.</LI>
+	<LI>L6: boundary between Antarctica grounding-line and ocean.</LI>
+</OL>
+Rivers are organized into 10 classification levels:
+<OL>
+	<LI>L0: Double-lined rivers (river-lakes).</LI>
+	<LI>L1: Permanent major rivers.</LI>
+	<LI>L2: Additional major rivers.</LI>
+	<LI>L3: Additional rivers.</LI>
+	<LI>L4: Minor rivers.</LI>
+	<LI>L5: Intermittent rivers - major.</LI>
+	<LI>L6: Intermittent rivers - additional.</LI>
+	<LI>L7: Intermittent rivers - minor.</LI>
+	<LI>L8: Major canals.</LI>
+	<LI>L9: Minor canals.</LI>
+	<LI>L10: Irrigation canals.</LI>
+</OL>
+Finally, borders are organized into three levels:
+<OL>
+	<LI>L1: National boundaries.</LI>
+	<LI>L2: State boundaries within the Americas.</LI>
+	<LI>L3: Marine boundaries.</LI>
+</OL>
+<HR><P>
+<H2> Published information about GSHHG
+</H2>
+The early processing and assembly of the shoreline data is described in<p>
+Wessel, P., and W. H. F. Smith, A Global Self-consistent, Hierarchical, High-resolution
+Shoreline Database, <I>J. Geophys. Res., 101</I>, 8741-8743, 1996 [<a href="Wessel+Smith_1996_JGR.pdf">PDF</a>].
+<HR><P>
+<H2> Availability of GSHHG data</H2>
+The latest data files for version 2.3.7 were released on
+June 15, 2017; details on the changes are described in the <a href="README.TXT">README</a> file.
+The data set can be accessed below as well as 
+from the <A HREF="http://www.ngdc.noaa.gov/mgg/shorelines/" target="blank">National Centers for Environmental Information</A> [NCEI (formerly NGDC)],
+Boulder, Colorado.  Note that the gshhg software is a <a href="http://gmt.soest.hawaii.edu">GMT</a> supplement so
+if you have installed GMT you already have the gshhg software.
+For GMT 4.5.x or GMT 5.*, you may download one of these files via ftp or http [these may also be available from various package managers]:
+<OL>
+	<LI><b>FTP:</b> <a href="ftp://ftp.soest.hawaii.edu/gshhg/gshhg-gmt-2.3.7.tar.gz"> GSHHG coastlines, rivers, and borders for GMT in netCDF 4 format (gzipped tar archive).</a></LI>
+	<LI><b>HTTP:</b> <a href="http://www.soest.hawaii.edu/pwessel/gshhg/gshhg-gmt-2.3.7.tar.gz"> GSHHG coastlines, rivers, and borders for GMT in netCDF 4 format (gzipped tar archive).</a></LI>
+</OL>
+
+For ESRI shapefiles of shoreline polygons, rivers, and borders you can choose to get via ftp or http:
+<UL>
+	<LI><b>FTP:</b> <a href="ftp://ftp.soest.hawaii.edu/gshhg/gshhg-shp-2.3.7.zip"> GSHHG coastlines, political borders and rivers in shapefile format (zip archive)</a></LI>
+	<LI><b>HTTP:</b> <a href="http://www.soest.hawaii.edu/pwessel/gshhg/gshhg-shp-2.3.7.zip"> GSHHG coastlines, political borders and rivers in shapefile format (zip archive)</a></LI>
+</UL>
+For native binary files of shoreline polygons, rivers, and borders you may download via ftp or http:
+<UL>
+	<LI><b>FTP:</b> <a href="ftp://ftp.soest.hawaii.edu/gshhg/gshhg-bin-2.3.7.zip"> GSHHG coastlines, rivers, and borders in native binary format (zip archive)</a></LI>
+	<LI><b>HTTP:</b> <a href="http://www.soest.hawaii.edu/pwessel/gshhg/gshhg-bin-2.3.7.zip"> GSHHG coastlines, rivers, and borders in native binary format (zip archive)</a></LI>
+</UL>
+The latter requires GMT's gshhg supplement or your own custom programs to access the data.
+The native binary shoreline data can also be converted into a GRASS GIS database with
+<a href="http://grass.osgeo.org/wiki/GRASS_AddOns#v.in.gshhs">v.in.gshhs</a>, a GRASS
+add-on by Markus Metz.  
+<BR>
+A related product is a global netCDF grid with distances to the nearest GSHHG shoreline in km (with negative distances in the oceans).  This is a 1x1 arc minute grid based on GSHHS version 2.3.7 and can be obtained here: <a href="ftp://ftp.soest.hawaii.edu/gshhg/dist_to_GSHHG_v2.3.7_1m.nc"> dist_to_GSHHG_v2.3.7_1m.nc</a> [Note: it is 441 Mb].
+<HR>
+<I>Last update July 23, 2018 by Paul Wessel</I>
+</HTML>

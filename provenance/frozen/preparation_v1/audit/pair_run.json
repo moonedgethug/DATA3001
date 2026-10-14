@@ -1,0 +1,31 @@
+{
+  "signature": {
+    "code_sha256": "6dfb48a136b47b4aa39e68c6b1a2dd4b26834724d7491bcb821484ebdd21dec7",
+    "config_sha256": "4c72b146b4e5ed26ce4498dcc97e7b1324d9e68f137dde8c77f87e80c9cc8ad8",
+    "D_sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+    "input_snapshot": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46"
+  },
+  "utc": "2026-10-12T04:29:37.139094+00:00",
+  "IDs": 3,
+  "rows": [
+    {
+      "id": 9825497,
+      "D_origins": 399,
+      "R_origins": 399,
+      "source_rows": 399
+    },
+    {
+      "id": 17503,
+      "D_origins": 11519,
+      "R_origins": 116,
+      "source_rows": 17250
+    },
+    {
+      "id": 23120,
+      "D_origins": 14165,
+      "R_origins": 451,
+      "source_rows": 14165
+    }
+  ],
+  "elapsed_seconds": 4.496275375015102
+}

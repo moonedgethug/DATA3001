@@ -1,0 +1,12 @@
+{
+  "all_passed": true,
+  "days": 365,
+  "source_IDs": [
+    17503,
+    23120,
+    55353
+  ],
+  "all_scenarios": true,
+  "nominal_window_when_no_eligible_exit": true,
+  "code_sha256": "4c2863083d02e5a9170520c74f3ca1b09d2fced3b1d9d735f062d5bd52fccd37"
+}

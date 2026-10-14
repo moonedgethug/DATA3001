@@ -1,0 +1,160 @@
+{
+  "utc": "2026-10-12T05:39:10.290474+00:00",
+  "removed_refs": [
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_7_undrogued.parquet",
+      "old_recorded_hash": "db38d8efa2679f4557bcd9348a27301010bd731e14cc636822aa170815bb528f"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_365_undrogued.parquet",
+      "old_recorded_hash": "8658dced44ea9ab92955d58e0940093f4822c5fbde7d1e21ef849ce2f66bfb73"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_365_drogued.parquet",
+      "old_recorded_hash": "368f59ddfffb3f64e3944223b2316414d76e901ec701041e9043da97452e31a8"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_7_drogued.parquet",
+      "old_recorded_hash": "5552a3d9773150171e1fdc5b60eb301db8785a5ffb4171060509539b6a1c1d7f"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_90_pooled.parquet",
+      "old_recorded_hash": "105162db2fcd9f095aad3a69b79016c79dd79fb1a7590f3f45dab325c9351053"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_180_undrogued.parquet",
+      "old_recorded_hash": "a1f736ddd2442781562803c0c6237b7a06a9bd37a05756f9a6c84c1f2135f14e"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_30_drogued.parquet",
+      "old_recorded_hash": "bea77ebcc69ca32bcc5e39589a7168d2aed40d5cfe4d1a1af5d38ee6536aedc4"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_30_undrogued.parquet",
+      "old_recorded_hash": "a7f980012c5e5e3157745db703714af4f44474ba3b9458f641b7c535769b8cf4"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_365_pooled.parquet",
+      "old_recorded_hash": "7c0dc7fbb185f8ad118ceb5102dbeb4f4b0ee8d41094535a1c0d33c037e8c73a"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_90_drogued.parquet",
+      "old_recorded_hash": "4003a20d7511f5dda247f5cfba699f0aa38abfcd2c934f54b4812bd555d09c73"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_90_undrogued.parquet",
+      "old_recorded_hash": "075617dace238988b58e3103ee1be821507c00ea054f28d5a77aa9d4475d5fe5"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_7_pooled.parquet",
+      "old_recorded_hash": "c48262157658651753f3c75e43cb454a3aa68900d1cbb246283a0e2f3135cbcc"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_180_pooled.parquet",
+      "old_recorded_hash": "5e7c0e5e6b6c6f740d59218ec8aadc5f0c777cfa335aae5bad3f26736d01bcc0"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_30_pooled.parquet",
+      "old_recorded_hash": "a821ad729ef91cd6faf83d4c5064419a10b27a04d3cc1741008afba8b70b1693"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/stopped/107647_180_drogued.parquet",
+      "old_recorded_hash": "83999c709ae597488fcd979d0c560fcb4250c5e4e8104cd892b18a5ed09681a5"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_7_undrogued.parquet",
+      "old_recorded_hash": "5a7e0c3b74127017848041b9e12269cf8d826083501d776833f5774a1cfa2ba9"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_365_undrogued.parquet",
+      "old_recorded_hash": "f51dd244163eb7e7a0dae4232c4b6e196f34a443c5b2c85b2b1ff3c2eb17866d"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_365_drogued.parquet",
+      "old_recorded_hash": "05b4b05d881583c87027d4710c220195af3eb76336bb02d394676c53955a349e"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_7_drogued.parquet",
+      "old_recorded_hash": "068d2dc7a2bef4fbb81d1eefa1e7deb44b2d0cd4a6b0dcfaab71f8e59cf38557"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_90_pooled.parquet",
+      "old_recorded_hash": "3939acbd6642a86b8be06aaad6eb4873d29c1a4b96473cdb978fbb9612e67e4d"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_180_undrogued.parquet",
+      "old_recorded_hash": "e408ac61507334e478701023ffc808ba1131b7290d77f5ab79807d7ae13c31ed"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_30_drogued.parquet",
+      "old_recorded_hash": "2045534b02b445c185260d6c6ac36ebf3f425ca3c68b25b74f86fd8ea29e168b"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_30_undrogued.parquet",
+      "old_recorded_hash": "d25125b3f29ad17ba21355145955383cc536053c4489fb3d3eb9430431f1a813"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_365_pooled.parquet",
+      "old_recorded_hash": "e61ece5cf77a19c2fa09da277d446317c028ee6f9559fe54e2c4ca905d24f4f0"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_90_drogued.parquet",
+      "old_recorded_hash": "da8b19b41eb7256d38df6aa154ee91134790cfe5b5b818b74654823d6253f82b"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_90_undrogued.parquet",
+      "old_recorded_hash": "966a142944e75ac00548305c8d0f4c987df7de7da107a35612e23ff870179f08"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_7_pooled.parquet",
+      "old_recorded_hash": "3fe617b20987d743f636f15433f5b0bf27093c04c942879ab7683502147b0f9d"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_180_pooled.parquet",
+      "old_recorded_hash": "662db3a5668da94a2f0cc709a367169c403fc78a446cb4f4b0fbd71e78ae7a93"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_30_pooled.parquet",
+      "old_recorded_hash": "90c3d603aba4b5198a69ab433f3b3807f7726e2af00035a25e15a32a5f31bb99"
+    },
+    {
+      "owner_ID": 7647,
+      "foreign_file": "ledgers/endpoint/107647_180_drogued.parquet",
+      "old_recorded_hash": "849fd833ef7a904915a05843d78b7887428507974291662febab5b4ccd0abc35"
+    }
+  ],
+  "count": 30,
+  "scientific_inputs_outputs_changed": false,
+  "historical_data_generation_code": "metadata/code_revisions/prep_support_label_version.py",
+  "new_checkpoint_code_sha256": "7e3ed281aba253470f28a9010c7ff4e5dd278c01d2b445d90b3109fe458b3dad",
+  "all_old_checkpoints_preserved": "metadata/checkpoint_revisions/"
+}

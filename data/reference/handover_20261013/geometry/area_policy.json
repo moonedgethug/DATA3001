@@ -1,0 +1,31 @@
+{
+  "units": "km2",
+  "region_water": "cell intersection region intersection complement of GSHHG high L1",
+  "whole_R_prior": "weight proportional to wet_area_in_R within each resolution; empirical historical origin prior remains within each cell",
+  "zero_area_contact": "boundary included for point membership; zero area mass for line/point contact",
+  "unsupported_cells": "retain release mass; model must preserve unresolved-support mass",
+  "full_cell_area": "baseline wet_area_km2 retained for full-cell density; never whole-R release weight",
+  "area_method": "WGS84 geodesic polygon areas with correctly oriented exterior/holes; degree-coordinate straight edges represented by geodesic vertex edges",
+  "partition_area_note": "R/D partition totals may differ slightly across grids and from a whole-polygon geodesic area due to boundary segmentation; each resolution normalizes its own partition",
+  "summaries": [
+    {
+      "resolution": 1.0,
+      "cells": 2664,
+      "R_intersecting_cells": 54,
+      "R_boundary_only_cells": 13,
+      "whole_cell_wet_area_for_R_intersections_km2": 508201.93234084523,
+      "R_wet_area_km2": 334501.773286766,
+      "D_wet_area_km2": 21235026.488270573
+    },
+    {
+      "resolution": 0.5,
+      "cells": 10437,
+      "R_intersecting_cells": 180,
+      "R_boundary_only_cells": 36,
+      "whole_cell_wet_area_for_R_intersections_km2": 433101.75303852145,
+      "R_wet_area_km2": 334503.06041809794,
+      "D_wet_area_km2": 21235085.763409138
+    }
+  ],
+  "elapsed_seconds": 12.87837108306121
+}

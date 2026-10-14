@@ -1,0 +1,8 @@
+/.venv/
+/raw/
+/metadata/trajectory_metadata.npz
+/metadata/object_inventory.json
+/manifests/downloaded_objects.jsonl
+/audit/*.log
+__pycache__/
+*.part

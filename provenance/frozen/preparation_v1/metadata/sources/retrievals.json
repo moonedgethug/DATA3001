@@ -1,0 +1,47 @@
+[
+  {
+    "path": "hourly_metadata.html",
+    "url": "https://erddap.aoml.noaa.gov/gdp/erddap/info/drifter_hourly_qc/index.htmlTable",
+    "final_url": "https://erddap.aoml.noaa.gov/gdp/erddap/info/drifter_hourly_qc/index.htmlTable",
+    "bytes": 42644,
+    "sha256": "19ee29983ee0a8c4adbab8f92d817513f0a835de0e5d101e60885a384cb1830a",
+    "utc": "2026-10-12T04:15:47.468252+00:00",
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "path": "gshhg_readme.txt",
+    "url": "https://www.soest.hawaii.edu/pwessel/gshhg/README.TXT",
+    "final_url": "https://www.soest.hawaii.edu/pwessel/gshhg/README.TXT",
+    "bytes": 15063,
+    "sha256": "a45418ad0a89256965ee157b2f3323185cb81e5fe534fc62812b04d526bc21fc",
+    "utc": "2026-10-12T04:15:48.984768+00:00",
+    "content_type": "text/plain; charset=UTF-8"
+  },
+  {
+    "path": "gshhg_index.html",
+    "url": "https://www.soest.hawaii.edu/pwessel/gshhg/",
+    "final_url": "https://www.soest.hawaii.edu/pwessel/gshhg/",
+    "bytes": 8853,
+    "sha256": "f080d552ba89fa041bd6b9a2f1eb5d115bd705733597a4b79bfac1c7a0dfcfda",
+    "utc": "2026-10-12T04:15:49.765466+00:00",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "path": "sst_paper.html",
+    "url": "https://www.nature.com/articles/s41597-022-01670-2",
+    "final_url": "https://www.nature.com/articles/s41597-022-01670-2",
+    "bytes": 491151,
+    "sha256": "7d1f2f031a52977ad8fb9cf98b7e1eeb3e74ccf1f551563ff6c415f683d85de7",
+    "utc": "2026-10-12T04:15:52.132954+00:00",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "sst_paper.pdf",
+    "url": "https://www.nature.com/articles/s41597-022-01670-2.pdf",
+    "final_url": "https://www.nature.com/articles/s41597-022-01670-2.pdf",
+    "bytes": 4738173,
+    "sha256": "deba5fa30e8ca12f6f312e9ecb18f1c388ca77e1f356d441b6677324be4a2998",
+    "utc": "2026-10-12T04:16:17.598629+00:00",
+    "content_type": "application/pdf"
+  }
+]

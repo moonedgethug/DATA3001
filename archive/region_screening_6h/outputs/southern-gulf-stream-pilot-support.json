@@ -1,0 +1,89 @@
+{
+  "metric": "Unique drifter IDs with at least one finite origin in cell intersect R and a finite endpoint exactly 30 days later",
+  "origin_sampling": "Any qualifying six-hour origin; not first-entry-only",
+  "endpoint_may_leave_R": true,
+  "pooled": [
+    "departure seasons",
+    "drogue states"
+  ],
+  "status": "Preliminary endpoint-availability screening; not formal hourly support or a forecast",
+  "source_version": "May 2025",
+  "source_coverage": "1979-02-15 to 2025-06-12",
+  "dataset_doi": "10.25921/7ntx-z961",
+  "regional_counts": {
+    "visiting_R": 621,
+    "7_day_endpoint": 605,
+    "30_day_endpoint": 561
+  },
+  "cells_csv_sha256": "0abbfa40e11b622ad22a7e8373471b6c8d336973552c164733afe5ee2b05b9c6",
+  "summary_csv_sha256": "f2711baae2e2f4d8f1e753a78dee47edbeddb481a363f99117a86c7d9ea80c01",
+  "coastline_shp_sha256": "8689e6932b8e370e2ca4587cf3ba21e460b1235db37b6ed3c172c35b4a6088de",
+  "coastline_role": "Natural Earth 1:110m context only; not the formal GSHHG wet mask",
+  "R_coordinates": [
+    [
+      -80.0,
+      32.0
+    ],
+    [
+      -77.375,
+      35.5
+    ],
+    [
+      -73.0,
+      35.5
+    ],
+    [
+      -73.0,
+      31.333333333333332
+    ],
+    [
+      -75.0,
+      30.0
+    ],
+    [
+      -81.0,
+      30.0
+    ],
+    [
+      -80.0,
+      32.0
+    ]
+  ],
+  "shared_positive_colour_range": [
+    1,
+    369
+  ],
+  "crs": "EPSG:4326; longitude then latitude",
+  "grid_anchor": [
+    -180,
+    -90
+  ],
+  "software": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "shapely": "2.1.2",
+    "pyshp": "3.1.6"
+  },
+  "panels": [
+    {
+      "resolution_degrees": 1.0,
+      "observed_cells": 38,
+      "median_over_observed_cells": 133.5,
+      "repeated_rendered_cells": 0,
+      "positive_endpoint_cells": 37,
+      "observed_cells_without_endpoint": 1,
+      "no_screened_origin_cells": 3
+    },
+    {
+      "resolution_degrees": 0.5,
+      "observed_cells": 137,
+      "median_over_observed_cells": 84,
+      "repeated_rendered_cells": 0,
+      "positive_endpoint_cells": 136,
+      "observed_cells_without_endpoint": 1,
+      "no_screened_origin_cells": 7
+    }
+  ],
+  "figure_sha256": "035931668d9fbae7c856f97308398a441e5179664353de1dc512e1a92c13d0df"
+}

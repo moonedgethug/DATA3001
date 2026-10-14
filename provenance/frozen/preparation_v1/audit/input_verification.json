@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-12T04:21:20.357140+00:00",
+  "IDs": 3741,
+  "rows": 39107061,
+  "R_IDs": 463,
+  "R_rows": 6243277,
+  "split_counts": {
+    "train": 2674,
+    "validation": 550,
+    "test": 517
+  },
+  "R_split_counts": {
+    "train": 323,
+    "validation": 73,
+    "test": 67
+  },
+  "bound_files_verified": 12,
+  "whole_global_ID_split_verified": 19396,
+  "source_snapshot_sha": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46"
+}

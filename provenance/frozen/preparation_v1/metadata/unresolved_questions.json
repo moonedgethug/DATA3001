@@ -1,0 +1,29 @@
+[
+  {
+    "id": "U01",
+    "question": "Did every NaN drogue loss date in this frozen conversion arise specifically from still-attached fill, or can generic missing dates also produce NaN?",
+    "evidence": "hourly metadata says FillValue=still attached; CloudDrift decode_date maps BOTH special fill and existing NaN to NaN",
+    "action": "retain source native status, derive unknown and exclude only fixed regime; pooled retained",
+    "blocks": "fixed-regime use for NaN-loss IDs only"
+  },
+  {
+    "id": "U02",
+    "question": "Are negative position/velocity uncertainty values documented special codes or source anomalies?",
+    "evidence": "ID 55353 err_lat=-9.999990463; frozen dictionary specifies NaN fill without negative code",
+    "action": "negative uncertainty unresolved; no abs and no position rejection",
+    "blocks": "uncertainty-dependent inference only"
+  },
+  {
+    "id": "U03",
+    "question": "Does frozen source gap carry a release-specific undocumented upstream scale?",
+    "evidence": "frozen units seconds; original sampling quantity differs from observed absent-hour duration",
+    "action": "retain native gap with native units; never use it to manufacture hourly observations or elapsed-time velocity",
+    "blocks": "gap-based instrument interpretation only"
+  },
+  {
+    "id": "U04",
+    "question": "Has the finite-domain predictive boundary sensitivity stabilized?",
+    "action": "deliver explicitly stopped-domain preparation; downstream exits/returns and observational support audited; model map stability deferred",
+    "blocks": "claim of unrestricted occupancy or predictive boundary stability only"
+  }
+]

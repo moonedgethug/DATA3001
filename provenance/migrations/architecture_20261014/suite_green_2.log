@@ -1,0 +1,57 @@
+test_catalog_path_cannot_escape_project (test_architecture.Architecture.test_catalog_path_cannot_escape_project) ... ok
+test_frozen_write_is_rejected_before_existing_bytes_change (test_architecture.Architecture.test_frozen_write_is_rejected_before_existing_bytes_change) ... ok
+test_legacy_mapping_restricts_test_partitions (test_architecture.Architecture.test_legacy_mapping_restricts_test_partitions) ... ok
+test_missing_registered_directory_does_not_prevent_imports (test_architecture.Architecture.test_missing_registered_directory_does_not_prevent_imports) ... ok
+test_modified_source_fails_checksum (test_architecture.Architecture.test_modified_source_fails_checksum) ... ok
+test_resolves_asset_independently_of_current_directory (test_architecture.Architecture.test_resolves_asset_independently_of_current_directory) ... ok
+test_run_collision_preserves_existing_results (test_architecture.Architecture.test_run_collision_preserves_existing_results) ... ok
+test_run_id_cannot_escape_run_namespace (test_architecture.Architecture.test_run_id_cannot_escape_run_namespace) ... ok
+test_test_labels_are_denied_by_default (test_architecture.Architecture.test_test_labels_are_denied_by_default) ... ok
+test_annual_IDs_and_concentration_use_ID_union (test_handover.Handover.test_annual_IDs_and_concentration_use_ID_union) ... ok
+test_batched_days_preserve_annual_ID_unions (test_handover.Handover.test_batched_days_preserve_annual_ID_unions) ... ok
+test_boundary_contact_has_zero_release_area (test_handover.Handover.test_boundary_contact_has_zero_release_area) ... ok
+test_lag_view_keeps_targets_separate (test_handover.Handover.test_lag_view_keeps_targets_separate) ... ok
+test_land_only_region_overlap_has_no_water_release (test_handover.Handover.test_land_only_region_overlap_has_no_water_release) ... ok
+test_polygon_hole_is_subtracted_from_area (test_handover.Handover.test_polygon_hole_is_subtracted_from_area) ... ok
+test_position_census_checks_native_values_separately (test_handover.Handover.test_position_census_checks_native_values_separately) ... ok
+test_recorded_depth_is_not_inferred_from_hardware (test_handover.Handover.test_recorded_depth_is_not_inferred_from_hardware) ... ok
+test_zero_eligible_IDs_have_undefined_concentration (test_handover.Handover.test_zero_eligible_IDs_have_undefined_concentration) ... ok
+test_zero_total_or_negative_release_area_is_rejected (test_handover.Handover.test_zero_total_or_negative_release_area_is_rejected) ... ok
+test_changed_bytes_are_reported_without_rewriting_receipt (test_migration.Migration.test_changed_bytes_are_reported_without_rewriting_receipt) ... ok
+test_missing_file_and_changed_symlink_fail_verification (test_migration.Migration.test_missing_file_and_changed_symlink_fail_verification) ... ok
+test_early_exit_absorbs_later_death_cutoff_and_loss (test_preparation.Preparation.test_early_exit_absorbs_later_death_cutoff_and_loss) ... ok
+test_elapsed_geodesic (test_preparation.Preparation.test_elapsed_geodesic) ... ok
+test_endpoint_gap_requires_independent_regime (test_preparation.Preparation.test_endpoint_gap_requires_independent_regime) ... ok
+test_exact_and_conflicting_duplicates (test_preparation.Preparation.test_exact_and_conflicting_duplicates) ... ok
+test_gap_before_exit (test_preparation.Preparation.test_gap_before_exit) ... ok
+test_geometry_only_path_failure (test_preparation.Preparation.test_geometry_only_path_failure) ... ok
+test_grid_and_visits_break_gap (test_preparation.Preparation.test_grid_and_visits_break_gap) ... ok
+test_inclusive_domain_boundary_has_half_open_grid_state (test_preparation.Preparation.test_inclusive_domain_boundary_has_half_open_grid_state) ... ok
+test_invalid_endpoint_with_geometry_not_outside (test_preparation.Preparation.test_invalid_endpoint_with_geometry_not_outside) ... ok
+test_invalid_origin_does_not_add_geometry_secondary_flag (test_preparation.Preparation.test_invalid_origin_does_not_add_geometry_secondary_flag) ... ok
+test_invalid_source_position_is_not_geometry_failure (test_preparation.Preparation.test_invalid_source_position_is_not_geometry_failure) ... ok
+test_missing_crosscheck_does_not_suppress_review (test_preparation.Preparation.test_missing_crosscheck_does_not_suppress_review) ... ok
+test_native_before_wrap (test_preparation.Preparation.test_native_before_wrap) ... ok
+test_random_tracks_against_chronological_scalar_reference (test_preparation.Preparation.test_random_tracks_against_chronological_scalar_reference) ... ok
+test_separate_temperature_velocity_uncertainty (test_preparation.Preparation.test_separate_temperature_velocity_uncertainty) ... ok
+test_similar_ID_cannot_become_checkpoint_owner (test_preparation.Preparation.test_similar_ID_cannot_become_checkpoint_owner) ... ok
+test_source_and_geometry_path_predicates_are_independent (test_preparation.Preparation.test_source_and_geometry_path_predicates_are_independent) ... ok
+test_source_failure_after_qualified_exit_does_not_cancel_it (test_preparation.Preparation.test_source_failure_after_qualified_exit_does_not_cancel_it) ... ok
+test_tie_and_late_tolerance_regime (test_preparation.Preparation.test_tie_and_late_tolerance_regime) ... ok
+test_tolerance_cannot_confirm_nominal_loss_precision_guard (test_preparation.Preparation.test_tolerance_cannot_confirm_nominal_loss_precision_guard) ... ok
+test_unknown_and_switching_predicates_both_retained (test_preparation.Preparation.test_unknown_and_switching_predicates_both_retained) ... ok
+test_unknown_pooled_retained (test_preparation.Preparation.test_unknown_pooled_retained) ... ok
+test_chunk_spans_preserve_adjacent_trajectory_rows (test_rules.ContractRules.test_chunk_spans_preserve_adjacent_trajectory_rows) ... ok
+test_endpoint_can_survive_intermediate_gap (test_rules.ContractRules.test_endpoint_can_survive_intermediate_gap) ... ok
+test_equal_distance_endpoint_tie_chooses_earlier (test_rules.ContractRules.test_equal_distance_endpoint_tie_chooses_earlier) ... ok
+test_existing_id_assignments_survive_added_ids_and_reordering (test_rules.ContractRules.test_existing_id_assignments_survive_added_ids_and_reordering) ... ok
+test_exit_before_death_remains_stopped_outside (test_rules.ContractRules.test_exit_before_death_remains_stopped_outside) ... ok
+test_gap_before_exit_does_not_prove_stopped_outside (test_rules.ContractRules.test_gap_before_exit_does_not_prove_stopped_outside) ... ok
+test_grid_wrap_and_half_open_boundaries (test_rules.ContractRules.test_grid_wrap_and_half_open_boundaries) ... ok
+test_later_drogue_loss_and_return_do_not_undo_exit (test_rules.ContractRules.test_later_drogue_loss_and_return_do_not_undo_exit) ... ok
+test_unknown_state_is_never_a_fixed_regime (test_rules.ContractRules.test_unknown_state_is_never_a_fixed_regime) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.436s
+
+OK

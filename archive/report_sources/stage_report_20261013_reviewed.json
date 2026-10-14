@@ -1,0 +1,563 @@
+{
+  "surface": "report",
+  "title": "Data preparation is audited; modelling and depth policy are next",
+  "generatedAt": "2026-10-13T11:12:55.201312+00:00",
+  "buildStatus": "creating",
+  "status": "reviewed",
+  "filters": [],
+  "report": {
+    "title": "Data preparation is audited; modelling and depth policy are next",
+    "asOf": "2026-10-13",
+    "subtitle": "UNSW DATA3001 \u00b7 Where Things End Up \u00b7 Stage report"
+  },
+  "queries": {
+    "completed_tasks": {
+      "rows": [
+        {
+          "task": "Acquisition and provenance",
+          "state": "Completed",
+          "details": "Pinned NOAA hourly v2.01.1; full available trajectories and all original metadata retained."
+        },
+        {
+          "task": "Cleaning and annotations",
+          "state": "Completed",
+          "details": "Field-specific QC; SST, uncertainty, speed, timestamp gaps, mapping and regime annotations remain separate."
+        },
+        {
+          "task": "Origins and target labels",
+          "state": "Completed",
+          "details": "All eligible hourly origins; separate endpoint and stopped-first-exit ledgers; exact UTC durations and tolerance sensitivities."
+        },
+        {
+          "task": "Geometry and release weights",
+          "state": "Completed",
+          "details": "Frozen R/D, primary 1\u00b0 and aligned 0.5\u00b0 diagnostics; water inside R/D and whole-R unit-mass weights."
+        },
+        {
+          "task": "Support and dependence evidence",
+          "state": "Completed",
+          "details": "ID unions, concentration, season/fold coverage; short lag/remainders and anchor support."
+        },
+        {
+          "task": "Architecture audit correction",
+          "state": "Completed",
+          "details": "Source-position and pure geometry failures separated; no current snapshot eligibility change."
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 completed tasks evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/readiness_gate.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/remediation_20261013/readiness_gate.json, preparation/remediation_20261013/audit/verification.json"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Implemented preparation tasks; completion does not mean predictive validation."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Completed Tasks",
+            "definition": "Implemented preparation tasks; completion does not mean predictive validation.",
+            "componentIds": [
+              "completed-work"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/readiness_gate.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/readiness_gate.json": "ddc897007ff126ff15e8c2582bad4f872a7651186f745d04f82a3420f6450f82",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json": "0b60d628a8bb3a9059cfb6c8449e9eca341ecc94344fad5a1552d5fe4477560d"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Implemented preparation tasks; completion does not mean predictive validation."
+        }
+      ]
+    },
+    "cohort": {
+      "rows": [
+        {
+          "cohort": "All acquired trajectories",
+          "IDs": 3741,
+          "sourceHourlyRecords": 39107061,
+          "trainIDs": 2674,
+          "validationIDs": 550,
+          "lockedTestIDs": 517
+        },
+        {
+          "cohort": "R-visiting trajectories (subset of all)",
+          "IDs": 463,
+          "sourceHourlyRecords": 6243277,
+          "trainIDs": 323,
+          "validationIDs": 73,
+          "lockedTestIDs": 67
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 cohort evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/remediation_20261013/audit/verification.json, preparation/READINESS_REPORT.md"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Counts are complete source trajectories. R-visiting trajectories are a subset; their 6,243,277 source rows include positions outside R. All cohort and R-cohort rows must not be added."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Cohort",
+            "definition": "Counts are complete source trajectories. R-visiting trajectories are a subset; their 6,243,277 source rows include positions outside R. All cohort and R-cohort rows must not be added.",
+            "componentIds": [
+              "cohort-table",
+              "data-overview"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json": "0b60d628a8bb3a9059cfb6c8449e9eca341ecc94344fad5a1552d5fe4477560d",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md": "d22a5e8ab18123ae90cbc6a3e8d5ebba913f70413c48fb923ceb7d967d83b19a"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Counts are complete source trajectories. R-visiting trajectories are a subset; their 6,243,277 source rows include positions outside R. All cohort and R-cohort rows must not be added."
+        }
+      ]
+    },
+    "regions": {
+      "rows": [
+        {
+          "region": "R: Southern Gulf Stream release pilot",
+          "definition": "Frozen corridor polygon intersected with 30\u201335.5\u00b0N, 82\u201373\u00b0W; rectangle alone is not R",
+          "wetAreaKm2": 334501.773286766
+        },
+        {
+          "region": "D: downstream transport domain",
+          "definition": "81\u20138\u00b0W, 20\u201355\u00b0N; boundary-inclusive finite stopped-domain product",
+          "wetAreaKm2": 21235026.488270573
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 regions evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/geometry/transport_D.geojson",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/geometry/release_R.geojson",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/geometry/area_policy.json"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/geometry/transport_D.geojson, geometry/release_R.geojson, preparation/remediation_20261013/geometry/area_policy.json"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Actual polygon membership, CRS84 longitude/latitude, boundary included. Areas are water inside the region, computed from 1-degree partitions in km\u00b2."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Regions",
+            "definition": "Actual polygon membership, CRS84 longitude/latitude, boundary included. Areas are water inside the region, computed from 1-degree partitions in km\u00b2.",
+            "componentIds": [
+              "region-overview"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/geometry/transport_D.geojson",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/geometry/release_R.geojson",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/geometry/area_policy.json"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/geometry/area_policy.json": "da31536b7872131788cefc4a6e4e9d692169d0e56c7dfd2c74b681c7b3a5bf26"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Actual polygon membership, CRS84 longitude/latitude, boundary included. Areas are water inside the region, computed from 1-degree partitions in km\u00b2."
+        }
+      ]
+    },
+    "quality": {
+      "rows": [
+        {
+          "item": "Raw observation preservation",
+          "result": "All 20 fields match the frozen snapshot across 39,107,061 rows",
+          "status": "Verified baseline"
+        },
+        {
+          "item": "Missing SST",
+          "result": "1,366,330 rows retain usable positions",
+          "status": "Separate field flag"
+        },
+        {
+          "item": "Negative position uncertainty",
+          "result": "1,521 rows retained; uncertainty use isolated",
+          "status": "Source interpretation unresolved"
+        },
+        {
+          "item": "Absent expected timestamps",
+          "result": "730,371 hours across 13,276 intervals; not physical exits",
+          "status": "Explicit path incompleteness"
+        },
+        {
+          "item": "Geometry mapping",
+          "result": "24,966 rows flagged; no water snapping or inferred beaching",
+          "status": "Affected use isolated"
+        },
+        {
+          "item": "Regression and handover checks",
+          "result": "41 tests; 9,676 consumed input-file hashes and count reconciliation",
+          "status": "Passed"
+        },
+        {
+          "item": "Prediction accuracy",
+          "result": "No model fit, predictive score or bootstrap result",
+          "status": "Not evaluated"
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 quality evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/audit/preparation_verification.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/semantic_green.log",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/audit/preparation_verification.json, preparation/remediation_20261013/audit/verification.json, preparation/remediation_20261013/semantic_green.log, preparation/READINESS_REPORT.md"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Verified structural/source integrity and field-specific annotations. Full source preservation is baseline evidence; label semantics also use regressions/samples. No predictive accuracy score is provided."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Quality",
+            "definition": "Verified structural/source integrity and field-specific annotations. Full source preservation is baseline evidence; label semantics also use regressions/samples. No predictive accuracy score is provided.",
+            "componentIds": [
+              "quality-table"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/audit/preparation_verification.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/semantic_green.log",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/audit/preparation_verification.json": "5de39632b06cec0fee2d6f6c54199b9e777238318ce372e35e2f46f10aadbf92",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/verification.json": "0b60d628a8bb3a9059cfb6c8449e9eca341ecc94344fad5a1552d5fe4477560d",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/semantic_green.log": "94239c3137f9475cb9f9b4ead0f4d0756659c579778e9651787b06fffd99fb17",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md": "d22a5e8ab18123ae90cbc6a3e8d5ebba913f70413c48fb923ceb7d967d83b19a"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Verified structural/source integrity and field-specific annotations. Full source preservation is baseline evidence; label semantics also use regressions/samples. No predictive accuracy score is provided."
+        }
+      ]
+    },
+    "R_anchor_support": {
+      "rows": [
+        {
+          "horizonDays": 7,
+          "target": "endpoint",
+          "trainPairs": 140548,
+          "trainIDs": 202,
+          "validationPairs": 36071,
+          "validationIDs": 48
+        },
+        {
+          "horizonDays": 7,
+          "target": "stopped",
+          "trainPairs": 138603,
+          "trainIDs": 200,
+          "validationPairs": 35614,
+          "validationIDs": 48
+        },
+        {
+          "horizonDays": 30,
+          "target": "endpoint",
+          "trainPairs": 123533,
+          "trainIDs": 180,
+          "validationPairs": 30281,
+          "validationIDs": 44
+        },
+        {
+          "horizonDays": 30,
+          "target": "stopped",
+          "trainPairs": 116532,
+          "trainIDs": 170,
+          "validationPairs": 28025,
+          "validationIDs": 41
+        },
+        {
+          "horizonDays": 365,
+          "target": "endpoint",
+          "trainPairs": 10722,
+          "trainIDs": 18,
+          "validationPairs": 1513,
+          "validationIDs": 4
+        },
+        {
+          "horizonDays": 365,
+          "target": "stopped",
+          "trainPairs": 8668,
+          "trainIDs": 12,
+          "validationPairs": 1145,
+          "validationIDs": 3
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 R anchor support evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/support/R_anchor_support.parquet"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/remediation_20261013/support/R_anchor_support.parquet"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "R-source fixed-drogued, exact endpoint/stopped labels. Pair counts are eligible overlapping hourly origins; ID counts are distinct unions within each split, horizon and target. IDs overlap across horizons. No depth-policy filter has been adopted."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "R Anchor Support",
+            "definition": "R-source fixed-drogued, exact endpoint/stopped labels. Pair counts are eligible overlapping hourly origins; ID counts are distinct unions within each split, horizon and target. IDs overlap across horizons. No depth-policy filter has been adopted.",
+            "componentIds": [
+              "anchor-table",
+              "supported-research"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/support/R_anchor_support.parquet"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/support/R_anchor_support.parquet": "344411b7a2d11eefb78cdeb11771d7caf5c44d4e9ea73cd2e8ca5ae01c40e979"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "R-source fixed-drogued, exact endpoint/stopped labels. Pair counts are eligible overlapping hourly origins; ID counts are distinct unions within each split, horizon and target. IDs overlap across horizons. No depth-policy filter has been adopted."
+        }
+      ]
+    },
+    "limits": {
+      "rows": [
+        {
+          "constraint": "365-day train stopped cell-season support",
+          "evidence": "145 combinations: 55 with no eligible ID; 45 with one; median dominant-ID share 97.73%.",
+          "implication": "Retain annual/seasonal analysis; label unavailable groups and wide evidence limitations."
+        },
+        {
+          "constraint": "365-day validation and grouped folds",
+          "evidence": "Validation DJF has no endpoint/stopped labels; MAM has no stopped labels. Five-fold stopped coverage has two empty DJF, three MAM and two SON folds.",
+          "implication": "Empty folds are not evaluable; repeated bootstrap does not add independent trajectories."
+        },
+        {
+          "constraint": "Drogue depth/hardware",
+          "evidence": "17 development IDs / 41,879 usable drogued D origins at 10 m or missing depth; two additional zero-depth IDs / 3,022 origins. None of these usable origins lie in R.",
+          "implication": "Architecture must decide primary mixture and sensitivities before changing model cohort."
+        },
+        {
+          "constraint": "Finite-domain interpretation",
+          "evidence": "D covers observed R-development paths through 365 days; predictive boundary-map stability is not established.",
+          "implication": "Keep stopped and unrestricted endpoint targets distinct; do not promise universal object/region transfer."
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 limits evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/annual_support_limits.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/depth_findings.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/remediation_20261013/audit/annual_support_limits.json, preparation/remediation_20261013/audit/depth_findings.json, preparation/READINESS_REPORT.md"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Observed support limitations, not accuracy percentages; depth-origin counts describe instantaneous regime/mapping, distinct from interval eligibility."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Limits",
+            "definition": "Observed support limitations, not accuracy percentages; depth-origin counts describe instantaneous regime/mapping, distinct from interval eligibility.",
+            "componentIds": [
+              "limitations"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/annual_support_limits.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/depth_findings.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/annual_support_limits.json": "3ced400e96fa2a413254767f95d7efa8c9cd8a31b95c974acfd65d88b4f32d1e",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/audit/depth_findings.json": "8283d18ceb6d9bff54243f985a07c0d040567dec6dfb8299b8292d86b2504488",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/READINESS_REPORT.md": "d22a5e8ab18123ae90cbc6a3e8d5ebba913f70413c48fb923ceb7d967d83b19a"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Observed support limitations, not accuracy percentages; depth-origin counts describe instantaneous regime/mapping, distinct from interval eligibility."
+        }
+      ]
+    },
+    "next_steps": {
+      "rows": [
+        {
+          "order": 1,
+          "action": "Resolve depth policy",
+          "deliverable": "Versioned allowed primary depth/hardware cohort and sensitivity policy; retain all source records."
+        },
+        {
+          "order": 2,
+          "action": "Fit the 1\u00b0 interpretable core in the modelling stage",
+          "deliverable": "Annual and seasonal empirical operators; compare lag 1/3/5/7 and exact remainder kernels; persistence/climatology and direct references."
+        },
+        {
+          "order": 3,
+          "action": "Validate probability distributions at 7/30 days",
+          "deliverable": "Common-target log loss/Brier, calibration and outside/unresolved mass; development selection and whole-ID uncertainty; final test after settings are locked."
+        },
+        {
+          "order": 4,
+          "action": "Retain 365-day analysis with limits",
+          "deliverable": "Annual baseline and seasonal shrinkage; explicit non-evaluable groups; no survivor-only training or split rebalancing."
+        },
+        {
+          "order": 5,
+          "action": "Consider refinement only after the core evidence",
+          "deliverable": "0.5\u00b0 comparison and regional transfer if development validation supports them; optional challengers thereafter."
+        }
+      ],
+      "source": {
+        "label": "Reviewed DATA3001 next steps evidence",
+        "kind": "local-file-review",
+        "sourceFiles": [
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/metadata/contract_aspects.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/configuration.json",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/unresolved_questions_addendum.json"
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Read existing preparation evidence",
+            "detail": "Source documents/records: preparation/metadata/contract_aspects.json, preparation/remediation_20261013/configuration.json, preparation/remediation_20261013/unresolved_questions_addendum.json"
+          },
+          {
+            "title": "Scope and transformation",
+            "detail": "Contract-prescribed next-stage plan and explicit unresolved architecture policy; no model has been fitted and no dates/owners promised."
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Next Steps",
+            "definition": "Contract-prescribed next-stage plan and explicit unresolved architecture policy; no model has been fitted and no dates/owners promised.",
+            "componentIds": [
+              "next-plan"
+            ],
+            "sourceLineage": [
+              {
+                "files": [
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/metadata/contract_aspects.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/configuration.json",
+                  "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/unresolved_questions_addendum.json"
+                ]
+              }
+            ]
+          }
+        ],
+        "verified": true,
+        "filesSha256": {
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/metadata/contract_aspects.json": "f58518d41233d2a1a3ef098dcdbc8250ac14999736cf8581615a729fd6fa0f3d",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/configuration.json": "520d698f181bff67faad6171729b6fef89208bfa2a4ae95961d2157f427ea3b5",
+          "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/data_preprocessing/preparation/remediation_20261013/unresolved_questions_addendum.json": "c5207730e8755026d358745757f962fb1a36bb6d98dbcc5fe49345e64cd1296f"
+        }
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Contract-prescribed next-stage plan and explicit unresolved architecture policy; no model has been fitted and no dates/owners promised."
+        }
+      ]
+    }
+  }
+}

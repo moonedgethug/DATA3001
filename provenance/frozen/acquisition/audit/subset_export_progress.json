@@ -1,0 +1,606 @@
+{
+  "completed_fields": [
+    {
+      "variable": "BuoyTypeManufacturer",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "5db3a0cb61c2bd8fbcc6436b917e65190f22cf8853368702ab5b21b8c9c6110b",
+      "exported_value_sha256": "5db3a0cb61c2bd8fbcc6436b917e65190f22cf8853368702ab5b21b8c9c6110b"
+    },
+    {
+      "variable": "BuoyTypeSensorArray",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "9892e116e48d8ce4c8d3f799e812c0fa30bd91ac911ef0d21c3f3e3ac1ebb9ef",
+      "exported_value_sha256": "9892e116e48d8ce4c8d3f799e812c0fa30bd91ac911ef0d21c3f3e3ac1ebb9ef"
+    },
+    {
+      "variable": "CurrentProgram",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i4",
+      "source_selected_value_sha256": "1af49263e6871939fb5388bc298731dd7159efdd76ce8746c1e528cadde0ecc5",
+      "exported_value_sha256": "1af49263e6871939fb5388bc298731dd7159efdd76ce8746c1e528cadde0ecc5"
+    },
+    {
+      "variable": "DeployingCountry",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "43010656e1e4f26161824b8aab830eba674a190e56f5b0fc3ca459489d117076",
+      "exported_value_sha256": "43010656e1e4f26161824b8aab830eba674a190e56f5b0fc3ca459489d117076"
+    },
+    {
+      "variable": "DeployingShip",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "23ad40dc9bc3e14d7afa7a87eee53d685dc63491feb03accf2cc22a74dea145e",
+      "exported_value_sha256": "23ad40dc9bc3e14d7afa7a87eee53d685dc63491feb03accf2cc22a74dea145e"
+    },
+    {
+      "variable": "DeploymentComments",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i2",
+      "source_selected_value_sha256": "1d614fee83dd40cacbb686ac9050461c82a8cd5e4dcf1edf23ff1550fa46b63c",
+      "exported_value_sha256": "1d614fee83dd40cacbb686ac9050461c82a8cd5e4dcf1edf23ff1550fa46b63c"
+    },
+    {
+      "variable": "DeploymentStatus",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "a3d555255d27a8a5340a569756c41ade78b91b59f4d02a0f79a8589888f22270",
+      "exported_value_sha256": "a3d555255d27a8a5340a569756c41ade78b91b59f4d02a0f79a8589888f22270"
+    },
+    {
+      "variable": "DragAreaAboveDrogue",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "5256cbc61f245ba01454d55c62015f93bed3265d8a6be23b7305e74f174ad690",
+      "exported_value_sha256": "5256cbc61f245ba01454d55c62015f93bed3265d8a6be23b7305e74f174ad690"
+    },
+    {
+      "variable": "DragAreaOfDrogue",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "bcccc1330002bd60927d4ff152db45d72d962c3e38f31ded701207fdd35440d5",
+      "exported_value_sha256": "bcccc1330002bd60927d4ff152db45d72d962c3e38f31ded701207fdd35440d5"
+    },
+    {
+      "variable": "DragAreaRatio",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "034277bdd18e98fd6b9bb91f8e5958c74616c228f3ddd691ae35e5afdd4268ba",
+      "exported_value_sha256": "034277bdd18e98fd6b9bb91f8e5958c74616c228f3ddd691ae35e5afdd4268ba"
+    },
+    {
+      "variable": "DrogueBallast",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "12ef576b2262fed78d2f9db4157077a765e419b96e00d3d35c5e02ca9e587374",
+      "exported_value_sha256": "12ef576b2262fed78d2f9db4157077a765e419b96e00d3d35c5e02ca9e587374"
+    },
+    {
+      "variable": "DrogueCenterDepth",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "8437ffe8dbb78c23fbeb0165da2e8a521f1514c5eeb02b71fb79c2bf7141dc3a",
+      "exported_value_sha256": "8437ffe8dbb78c23fbeb0165da2e8a521f1514c5eeb02b71fb79c2bf7141dc3a"
+    },
+    {
+      "variable": "DrogueDetectSensor",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "6aebc0d85dfa4e14dd9cf7d7bf5e7fad3a8d163d9e5f11c612339ffaddbf42ae",
+      "exported_value_sha256": "6aebc0d85dfa4e14dd9cf7d7bf5e7fad3a8d163d9e5f11c612339ffaddbf42ae"
+    },
+    {
+      "variable": "DrogueLength",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "05164b13bad13fef2e2480d2b5e2080c541682b2ca538081b2015cc712d299e1",
+      "exported_value_sha256": "05164b13bad13fef2e2480d2b5e2080c541682b2ca538081b2015cc712d299e1"
+    },
+    {
+      "variable": "DrogueType",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S7",
+      "source_selected_value_sha256": "7d1b31c138e728bfafc435c45814022d69e280ec6f5c47479d81edaf5f8e79e7",
+      "exported_value_sha256": "7d1b31c138e728bfafc435c45814022d69e280ec6f5c47479d81edaf5f8e79e7"
+    },
+    {
+      "variable": "FloatDiameter",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "d81c58ab93c074999af5305d848e4ba257b8437d342cd29fcf6e62e198cfcef6",
+      "exported_value_sha256": "d81c58ab93c074999af5305d848e4ba257b8437d342cd29fcf6e62e198cfcef6"
+    },
+    {
+      "variable": "ManufactureMonth",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i2",
+      "source_selected_value_sha256": "00a719ddc63543885238f6347ecc51d5ad8e23962450e6109094174439c73a80",
+      "exported_value_sha256": "00a719ddc63543885238f6347ecc51d5ad8e23962450e6109094174439c73a80"
+    },
+    {
+      "variable": "ManufactureSensorType",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "9892e116e48d8ce4c8d3f799e812c0fa30bd91ac911ef0d21c3f3e3ac1ebb9ef",
+      "exported_value_sha256": "9892e116e48d8ce4c8d3f799e812c0fa30bd91ac911ef0d21c3f3e3ac1ebb9ef"
+    },
+    {
+      "variable": "ManufactureVoltage",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i2",
+      "source_selected_value_sha256": "5407cb5d7cf1119814ea11e6d02b562e560137ce68aba605257ec1e80493ece2",
+      "exported_value_sha256": "5407cb5d7cf1119814ea11e6d02b562e560137ce68aba605257ec1e80493ece2"
+    },
+    {
+      "variable": "PurchaserFunding",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "04b7d0554d3619ad7e73f43375885d185e81e5f7918cf88c356ff9cf6d29ce1a",
+      "exported_value_sha256": "04b7d0554d3619ad7e73f43375885d185e81e5f7918cf88c356ff9cf6d29ce1a"
+    },
+    {
+      "variable": "SensorUpgrade",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "0881251fdbfb06f1e353624103cae9d3d44a958e2d03a30c29a0a0deaad530e9",
+      "exported_value_sha256": "0881251fdbfb06f1e353624103cae9d3d44a958e2d03a30c29a0a0deaad530e9"
+    },
+    {
+      "variable": "SubsfcFloatPresence",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "973a122e462751546e8279b3e6687b92c9769e0cd1f534d760d35be2a786c6dd",
+      "exported_value_sha256": "973a122e462751546e8279b3e6687b92c9769e0cd1f534d760d35be2a786c6dd"
+    },
+    {
+      "variable": "Transmissions",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S20",
+      "source_selected_value_sha256": "31dd8cc4115b876b511a53fe7dbc515b9661306f64a1a03c800258e3724d9fcb",
+      "exported_value_sha256": "31dd8cc4115b876b511a53fe7dbc515b9661306f64a1a03c800258e3724d9fcb"
+    },
+    {
+      "variable": "WMO",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i4",
+      "source_selected_value_sha256": "46187ba8bb21fb090088d00b54ce3d6521fb9c8d5052b443f8ec6f8f9a738b49",
+      "exported_value_sha256": "46187ba8bb21fb090088d00b54ce3d6521fb9c8d5052b443f8ec6f8f9a738b49"
+    },
+    {
+      "variable": "deploy_date",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "0cd9c204825d298615ade5f50b2a4b6a78f9497c96be435b80a7dea43cc8abd8",
+      "exported_value_sha256": "0cd9c204825d298615ade5f50b2a4b6a78f9497c96be435b80a7dea43cc8abd8"
+    },
+    {
+      "variable": "deploy_lat",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "a6ef079d3a954543758834552e98d84216e1241d957c2c55cba9623c604aac3a",
+      "exported_value_sha256": "a6ef079d3a954543758834552e98d84216e1241d957c2c55cba9623c604aac3a"
+    },
+    {
+      "variable": "deploy_lon",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "5a37251c9d17b7903782fbdb5869e41f50b2ec999e7179fb6ebcd11ef25f676e",
+      "exported_value_sha256": "5a37251c9d17b7903782fbdb5869e41f50b2ec999e7179fb6ebcd11ef25f676e"
+    },
+    {
+      "variable": "drogue_lost_date",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "fec1797e780b8dfbcb0f35f7af7d2b7282d1d48c8e2522d9c8d42ee6ad97695a",
+      "exported_value_sha256": "fec1797e780b8dfbcb0f35f7af7d2b7282d1d48c8e2522d9c8d42ee6ad97695a"
+    },
+    {
+      "variable": "drogue_status",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "122d107fdc02f716ed7ec188546303f04bd24e3901ab443e0294856f26903717",
+      "exported_value_sha256": "122d107fdc02f716ed7ec188546303f04bd24e3901ab443e0294856f26903717"
+    },
+    {
+      "variable": "end_date",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "3588f6164a77841584ae5397b7257d9d62933e1aa6c76d287a0d2d65a043caf2",
+      "exported_value_sha256": "3588f6164a77841584ae5397b7257d9d62933e1aa6c76d287a0d2d65a043caf2"
+    },
+    {
+      "variable": "end_lat",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "64295fa564e97b1107d1048259d6591105802085c6e57f02f0560c3337a781e9",
+      "exported_value_sha256": "64295fa564e97b1107d1048259d6591105802085c6e57f02f0560c3337a781e9"
+    },
+    {
+      "variable": "end_lon",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "2a1a2da910ea70fc9bd314ebf21373841ef974f0f5b4ec9ec69df8695ffa3564",
+      "exported_value_sha256": "2a1a2da910ea70fc9bd314ebf21373841ef974f0f5b4ec9ec69df8695ffa3564"
+    },
+    {
+      "variable": "err_lat",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "0c7393007885f473ab818e2c87257f0a3b489c276e59a958ac289d11bfb72715",
+      "exported_value_sha256": "0c7393007885f473ab818e2c87257f0a3b489c276e59a958ac289d11bfb72715"
+    },
+    {
+      "variable": "err_lon",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "9f21b6a58d9fe9f2d5bac1f9c224c7f40da63b681d806ebf6006abdd314e8e6e",
+      "exported_value_sha256": "9f21b6a58d9fe9f2d5bac1f9c224c7f40da63b681d806ebf6006abdd314e8e6e"
+    },
+    {
+      "variable": "err_sst",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "a52e22aedee6bd8cfbd791fdb390056db15c56f8be4838d6286d2549759dd90d",
+      "exported_value_sha256": "a52e22aedee6bd8cfbd791fdb390056db15c56f8be4838d6286d2549759dd90d"
+    },
+    {
+      "variable": "err_sst1",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "7dca603829829aa14f68a28bbf4a7a233e5f9838d2b4af2985f08f8409d49d8a",
+      "exported_value_sha256": "7dca603829829aa14f68a28bbf4a7a233e5f9838d2b4af2985f08f8409d49d8a"
+    },
+    {
+      "variable": "err_sst2",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "20d0e0faf70afd5c7d534d409f7e438911a34808d8186b865bdd7f286e977a7b",
+      "exported_value_sha256": "20d0e0faf70afd5c7d534d409f7e438911a34808d8186b865bdd7f286e977a7b"
+    },
+    {
+      "variable": "err_ve",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "82f823eb72fe4303fd1ef8573de3171ccd4cc823af4234c1707394ccca3a09f2",
+      "exported_value_sha256": "82f823eb72fe4303fd1ef8573de3171ccd4cc823af4234c1707394ccca3a09f2"
+    },
+    {
+      "variable": "err_vn",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "8459ee48ccab27ae6599ae9829fcb7681edff00e944c1e2e07fddaedb21acd50",
+      "exported_value_sha256": "8459ee48ccab27ae6599ae9829fcb7681edff00e944c1e2e07fddaedb21acd50"
+    },
+    {
+      "variable": "expno",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i4",
+      "source_selected_value_sha256": "a7481a0866cdb1d8bff200f810f689c5cfcde4594529ab5fc683b1fc1b2c1cb6",
+      "exported_value_sha256": "a7481a0866cdb1d8bff200f810f689c5cfcde4594529ab5fc683b1fc1b2c1cb6"
+    },
+    {
+      "variable": "flg_sst",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "3b4a20a1282a99f508314f6bc213d405b96db98d187f7e685eba7a848f3bcf05",
+      "exported_value_sha256": "3b4a20a1282a99f508314f6bc213d405b96db98d187f7e685eba7a848f3bcf05"
+    },
+    {
+      "variable": "flg_sst1",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "32a16a93b700de87d55cd8018821fe722acdaf303c49ba96f1f85b724bbf9f2e",
+      "exported_value_sha256": "32a16a93b700de87d55cd8018821fe722acdaf303c49ba96f1f85b724bbf9f2e"
+    },
+    {
+      "variable": "flg_sst2",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "48ab4e6a96e148220d3c354e06bb3abe42baf005b3b12e80a904f5c81116b672",
+      "exported_value_sha256": "48ab4e6a96e148220d3c354e06bb3abe42baf005b3b12e80a904f5c81116b672"
+    },
+    {
+      "variable": "gap",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "3bb1a71709d9d2db08c945c14c7d4141dd81a3da95f8171cff56478a9a8c3938",
+      "exported_value_sha256": "3bb1a71709d9d2db08c945c14c7d4141dd81a3da95f8171cff56478a9a8c3938"
+    },
+    {
+      "variable": "id",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i8",
+      "source_selected_value_sha256": "555e0c9a1bc8a875eceffbaedd49616619993ed5b0d4c8935e2c9ec5f8435f04",
+      "exported_value_sha256": "555e0c9a1bc8a875eceffbaedd49616619993ed5b0d4c8935e2c9ec5f8435f04"
+    },
+    {
+      "variable": "lat",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f8",
+      "source_selected_value_sha256": "109bc12e5b6e296ef614f04fbbcfa19857af379e94bbf9ac905a1e7924fae609",
+      "exported_value_sha256": "109bc12e5b6e296ef614f04fbbcfa19857af379e94bbf9ac905a1e7924fae609"
+    },
+    {
+      "variable": "location_type",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "0cef9c96952e2ca4217a3623f8b4317df7c9c06b6b7953287662319719c685ae",
+      "exported_value_sha256": "0cef9c96952e2ca4217a3623f8b4317df7c9c06b6b7953287662319719c685ae"
+    },
+    {
+      "variable": "lon",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f8",
+      "source_selected_value_sha256": "cf7fa824ca1cf9a39d860280cdc191cd0bd24439a1ccf1f05a93d8ee4f54d80d",
+      "exported_value_sha256": "cf7fa824ca1cf9a39d860280cdc191cd0bd24439a1ccf1f05a93d8ee4f54d80d"
+    },
+    {
+      "variable": "rowsize",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<i4",
+      "source_selected_value_sha256": "6e99d8df1fc15fe2f6a661667971fe810c8b0fd9650a19ab72eeebdd74f27a58",
+      "exported_value_sha256": "6e99d8df1fc15fe2f6a661667971fe810c8b0fd9650a19ab72eeebdd74f27a58"
+    },
+    {
+      "variable": "sst",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "768a3fb6c66908f1222c34f032da8a2cb30f77a8aa5f51ffcb5655f56fa95ae6",
+      "exported_value_sha256": "768a3fb6c66908f1222c34f032da8a2cb30f77a8aa5f51ffcb5655f56fa95ae6"
+    },
+    {
+      "variable": "sst1",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "5b814f78f989f507ce626f230205d7bbc3c801ef8cb7930f469c15fd33156af7",
+      "exported_value_sha256": "5b814f78f989f507ce626f230205d7bbc3c801ef8cb7930f469c15fd33156af7"
+    },
+    {
+      "variable": "sst2",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "f6f92892c2320c64291c56579b4cb49ae9ce4772a35c1b4900ab0d244320b59c",
+      "exported_value_sha256": "f6f92892c2320c64291c56579b4cb49ae9ce4772a35c1b4900ab0d244320b59c"
+    },
+    {
+      "variable": "start_date",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "7fba3a13d1cdcbd9d62857c3221269aadd7b81f2a2f72e576dd5bf6a578b027a",
+      "exported_value_sha256": "7fba3a13d1cdcbd9d62857c3221269aadd7b81f2a2f72e576dd5bf6a578b027a"
+    },
+    {
+      "variable": "start_lat",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "22b29e4c393eb2940d9b3c6276da947d04548df46f9256e860e8103581c8eef5",
+      "exported_value_sha256": "22b29e4c393eb2940d9b3c6276da947d04548df46f9256e860e8103581c8eef5"
+    },
+    {
+      "variable": "start_lon",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "5358ce9349ecb1f486eb30c489e1d5975a53668fbd65a872685609fc0bd3c9a8",
+      "exported_value_sha256": "5358ce9349ecb1f486eb30c489e1d5975a53668fbd65a872685609fc0bd3c9a8"
+    },
+    {
+      "variable": "time",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f8",
+      "source_selected_value_sha256": "088ec47d004989de370cb81f54c64504f7e5cb3e3022e309f819b20020bf6091",
+      "exported_value_sha256": "088ec47d004989de370cb81f54c64504f7e5cb3e3022e309f819b20020bf6091"
+    },
+    {
+      "variable": "typebuoy",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|S10",
+      "source_selected_value_sha256": "c8fac9517066e118ddc29e6fdf528fd13cb572c1d5b36b74125958e444483b7c",
+      "exported_value_sha256": "c8fac9517066e118ddc29e6fdf528fd13cb572c1d5b36b74125958e444483b7c"
+    },
+    {
+      "variable": "typedeath",
+      "dimensions": [
+        "traj"
+      ],
+      "values": 3741,
+      "dtype": "|i1",
+      "source_selected_value_sha256": "b99c62c1093ec4df266689934bf49ced900f15bb682481d18993ef035c6f6620",
+      "exported_value_sha256": "b99c62c1093ec4df266689934bf49ced900f15bb682481d18993ef035c6f6620"
+    },
+    {
+      "variable": "ve",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "9b84c9940a30e6b814b49f38607ad4cc66d8c0abf2c043880b8e6f30f06112f1",
+      "exported_value_sha256": "9b84c9940a30e6b814b49f38607ad4cc66d8c0abf2c043880b8e6f30f06112f1"
+    },
+    {
+      "variable": "vn",
+      "dimensions": [
+        "obs"
+      ],
+      "values": 39107061,
+      "dtype": "<f4",
+      "source_selected_value_sha256": "50ad61083b5f59b89cea1a286f456ee3cf8b85ee635e5286541d0cb41f931fff",
+      "exported_value_sha256": "50ad61083b5f59b89cea1a286f456ee3cf8b85ee635e5286541d0cb41f931fff"
+    }
+  ],
+  "total_fields": 60,
+  "elapsed_seconds": 121.04
+}

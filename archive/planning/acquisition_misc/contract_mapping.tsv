@@ -1,0 +1,11 @@
+contract_aspect	fields	decision_or_check	boundary_case	audit_output
+01 R	lon,lat,corridor vertices	CRS84; included polygon boundary; hourly asset membership	point on R boundary; point inside rectangle but outside corridor	geometry/release_R.geojson; manifests/R_query.json
+10 splits	id	canonical positive integer; SHA256 seed 20261004; immutable assignment	new D ID never changes existing split	manifests/global_id_split.csv
+21 snapshot	global attrs; object keys; ETags; sizes; checksums	v2.01.1 asset frozen per object	mutable remote replacement must fail conditional GET	metadata/object_inventory.json; manifests/downloaded_objects.jsonl
+22 acquisition	id,rowsize,obs offsets,all observation fields	complete source trajectory; no spatial/time truncation	later D origin after initial R+365 remains available	manifests/*_download_plan.json
+23 QC	lon,lat,time,source uncertainty,SST flags,gap	retain all raw values; position eligibility separate from SST	missing SST with valid position stays usable	audit/pilot_trajectory_profile.csv
+08/09/11 target eligibility	time,position validity,drogue_status,drogue_lost_date,domain membership	endpoint versus stopped labels separate	known exit before later disappearance gives stopped outside only	tests/test_rules.py; audit/pilot_label_examples.csv
+04/05/24/25 durations	time; origin/end timestamps	match exact seconds; candidate lags 1/3/5/7; remainder 1..6; direct anchors	7-day composition plus 1-day remainder reaches 365 exactly	audit/pilot_trajectory_profile.csv
+06/07 geometry/time	lon,lat,time	1-degree half-open grid anchored -180,-90; aligned 0.5; UTC departure seasons	180 longitude wraps to -180	tests/test_rules.py; future formal state/season ledger
+02 D	only train/validation paths from R; additional D IDs	candidate acquisition geometry from development paths; no test endpoint selection	test endpoints never used to size D	geometry/acquisition_envelope.geojson; future D audit
+16 support	id,split,origin,eligibility,reason	separate train/validation/test counts; no universal support cutoff	many hourly pairs do not equal independent drifters	future cell-season-regime-horizon support audit

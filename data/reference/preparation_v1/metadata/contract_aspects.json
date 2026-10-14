@@ -1,0 +1,188 @@
+[
+  {
+    "aspect": "01 Pilot Region (R)",
+    "decision": "Retain the Southern Gulf Stream pilot. R is the existing Gulf Stream Corridor polygon intersected with the window 30.0\u201335.5\u00b0N, 82\u201373\u00b0W. The rectangle alone is not R. Florida\u2013Bahamas, the northern Gulf and the wider US East Coast remain later application regions.",
+    "evidence": "R defines permitted initial releases. The current choice follows the team's agreed pilot and preliminary six-hour screening. It is not proof of adequate hourly, seasonal or 365-day support. Preserve the corridor vertices from the existing screening definition rather than redraw an approximate map. [S01, S02; project decision]",
+    "acceptance": "Serialize R as GeoJSON, record coordinate order, CRS, inclusion of its polygon boundary and a checksum. Use point-in-polygon membership. Recompute all support on the frozen hourly snapshot. If support fails, document a versioned change before modelling rather than silently move R."
+  },
+  {
+    "aspect": "02 Transport Domain (D)",
+    "decision": "Choose D using development trajectories from R through day 365, including intermediate paths and downstream training support. Retrieve additional drifters that visit D even if they never visit R. Freeze D before final testing. Include an explicit outside state and an unresolved-support state.",
+    "evidence": "A release region is smaller than a transport domain. R-only training cannot estimate downstream rows after probability leaves R. Endpoint coverage alone misses exit and return. A finite historical domain cannot guarantee unrestricted one-year transport. [S01, S05\u2013S07; project selection rule]",
+    "acceptance": "Compare nested development domains, outside mass, observed return mass, anchor maps and laptop cost. Expand D until maps stabilize or retain a clearly labelled stopped-domain product. Do not tune D using final-test endpoints. Record every candidate geometry, support map and boundary sensitivity."
+  },
+  {
+    "aspect": "03 Origin Sampling Rule",
+    "decision": "Use every QC-valid hourly location as a candidate origin for fixed-duration transitions. Estimate the main operator from equal-weight valid origin\u2013endpoint pairs. First entry into R is a separate demonstration cohort. Cell-boundary entry is not required for a transition origin.",
+    "evidence": "The main estimator describes transitions from the within-cell locations and times actually sampled by GDP. First-entry-only sampling creates a boundary-conditioned target. Equal pairs are not independent evidence and do not represent a uniform release population. Weighting and thinning change the sampled target. [S06, S07; estimand decision]",
+    "acceptance": "Keep all candidates and their eligibility outcomes. Store cell, visit and drifter identifiers. Compare daily thinning and equal-drifter/visit weighting as separately labelled sensitivity analyses. Use whole-drifter inference. Never claim that AI labels remove serial dependence or sampling bias."
+  },
+  {
+    "aspect": "04 Forecast Horizons",
+    "decision": "Provide distributions for integer days 1\u2013365. Validate 7, 30 and 365 days as mandatory primary horizons. Audit and evaluate 90 and 180 days as intermediate anchors where eligible endpoints exist. A year means exactly 365 \u00d7 24 hours.",
+    "evidence": "The uploaded project explicitly includes a week, a month and a year. One-year analysis must be attempted and reported even if precision is poor. Software output at every day does not prove accuracy at every day. Different horizons need their own eligible samples. [S01; project decision]",
+    "acceptance": "Generate separate horizon ledgers and direct endpoint references. Report independent drifter support and uncertainty at every anchor, including an explicit insufficiency finding if needed. Do not restrict short-horizon learning to 365-day survivors. Assess intermediate outputs as generated or validated, as appropriate."
+  },
+  {
+    "aspect": "05 Time Tolerance",
+    "decision": "Use exact target timestamps in the main hourly analysis. Run endpoint-match sensitivities at \u00b11, \u00b12 and \u00b13 hours. Use \u00b16 hours only as a gap diagnostic. A tolerance of 0.5 hour is relevant only if the selected source genuinely has sub-hour timestamps.",
+    "evidence": "Tolerance repairs endpoint matching; it does not increase spatial or temporal information. A regular hourly product usually offers no extra endpoint at a half-hour setting. A wider window changes the effective horizon and may add different cases. [S02, S03; engineering rule]",
+    "acceptance": "Select the closest QC-valid endpoint within the active window, breaking equal-distance ties toward the earlier time. Save signed time error and the matching rule. Compare tolerances on matched cases and disclose added cases separately. Use timestamp arithmetic, never fixed row-index offsets."
+  },
+  {
+    "aspect": "06 Grid Convention",
+    "decision": "Start with a longitude\u2013latitude grid of 1\u00b0. Anchor it at 180\u00b0W, 90\u00b0S and use half-open intervals with longitude normalized to [\u2212180\u00b0, 180\u00b0). Align the 0.5\u00b0 refinement to the same origin. Keep physical cell areas and wet areas explicit.",
+    "evidence": "Coarse cells generally pool more evidence, but neither 1\u00b0 nor 0.5\u00b0 is automatically optimal. Refinement changes statistical support, coastal topology and categorical scores. Unequal area matters for density maps and release priors. [S05\u2013S07, S10; project decision]",
+    "acceptance": "Freeze indexing and wet masks before model comparison. Compare resolutions on identical held-out origins and common outcome partitions. Refine only after the core runs successfully and development validation supports the added detail. Re-audit all cell-season-regime support after refinement."
+  },
+  {
+    "aspect": "07 Seasons and Time Conditioning",
+    "decision": "Build an annual baseline and DJF, MAM, JJA and SON departure-season operators using UTC. During propagation, advance the actual date and update the applicable operator. Compare unpooled seasons with shrinkage toward the corresponding annual regime model.",
+    "evidence": "Seasonal structure is a plausible, testable conditioning choice. Four separate samples can be sparse; retaining the starting season for a whole year is incorrect. An Indian Ocean seasonal precedent supports the architecture, not these exact Atlantic bins or an Atlantic effect size. [S07; project hypothesis]",
+    "acceptance": "Audit every season. Select one global shrinkage weight per regime/lag from 0, 0.25, 0.5, 0.75 and 1 using development validation. Record intervals crossing season boundaries. Monthly or sine/cosine day-of-year conditioning is a later challenger if four-season results justify it."
+  },
+  {
+    "aspect": "08 Drogue Rule",
+    "decision": "Use constant-regime trajectory intervals. The primary scenario uses drogued intervals as a near-15 m water-following proxy. Analyse undrogued intervals separately as a wind-slip-sensitive transport proxy. Keep a pooled historical-mixture baseline. Exclude unknown or switching intervals only from fixed-regime estimates.",
+    "evidence": "Fixed-regime interval analysis is defensible for a transport scenario. It does not assume that an actual drifter's future hardware status is known. Undrogued data are useful, but the two regimes are neither universal object labels nor proven physical bounds. [S02, S07, S13]",
+    "acceptance": "Decode loss dates and unknown conventions from frozen metadata. For endpoint occupancy require unchanged status through h; for the stopped target require it only through min(h, first observed exit). Later loss after exit does not invalidate that absorbing outcome. Keep switching tracks. Actual hardware-state forecasting is a different-target extension."
+  },
+  {
+    "aspect": "09 Domain Exit and Censoring",
+    "decision": "Separate observed outside-D motion, first exit, later re-entry, unknown disappearance, administrative immaturity and fixed-regime ineligibility. The minimal finite-domain operator has an absorbing first-exit state and predicts a stopped process. It must not be presented as unrestricted endpoint occupancy when return is possible.",
+    "evidence": "Instrument termination is not proof of physical exit or beaching. An absorbing state loses the ability to represent later return. Boundary handling therefore changes the target being predicted. Missing future labels are not an estimated transport destination. [S05, S08; target definition]",
+    "acceptance": "Keep endpoint-occupancy and first-exit ledgers distinct. A QC-valid hourly path through first exit makes later stopped labels outside, even after return or subsequent track termination. Missing hours before classification make that path unknown. This is first exit observed hourly, not exact inter-hour exit. Never renormalize away outside or unresolved mass."
+  },
+  {
+    "aspect": "10 Data Splits",
+    "decision": "Assign complete drifter IDs globally across R and D to approximately 70% train, 15% validation and 15% locked test. Use the same ID manifest for all horizons, regimes and models. Add chronological and spatial stress tests after the primary experiment.",
+    "evidence": "Observation-level random splitting leaks correlated segments of one trajectory. ID separation is necessary but does not remove shared deployment conditions. Ratios and seed are reproducibility choices, not scientifically optimal constants. Time and regional tests answer different generalization questions. [S11, S16]",
+    "acceptance": "Use seed 20261004 and a specified stable SHA-256 ID assignment. Save the manifest before tuning. If validation support is weak, use five grouped folds within the 85% development pool, keeping test IDs untouched. For temporal tests purge crossing labels through 365 days. Exclude entire IDs crossing a spatial holdout from training."
+  },
+  {
+    "aspect": "11 Valid Origin\u2013Endpoint Pair",
+    "decision": "Define eligibility by origin, horizon, tolerance, scenario and target. Endpoint occupancy requires a valid matched endpoint and unchanged regime through h. For a stopped target, a complete QC-valid hourly path through min(h, first observed exit) suffices; after known exit, no h endpoint or later regime status is required.",
+    "evidence": "Endpoint eligibility differs from path-event eligibility. An endpoint pair may be valid despite an intervening gap, while first exit is then uncertain. Valid-30-day pairs are not universally a subset of valid-7-day pairs. Changing drogue is scenario ineligibility rather than bad data. [S02, S03; design rule]",
+    "acceptance": "Require every expected hourly position through the relevant stopping time for main first-exit/hitting labels. Gaps make path labels unresolved, although endpoint-only labels may remain valid. Known exit overrides later administrative immaturity for the stopped target. Reconcile outcomes and match cases across models. Never fill missing targets with the last location."
+  },
+  {
+    "aspect": "12 Retention and Weighting",
+    "decision": "Keep immutable source data and all cleaned hourly observations with flags. Use equal valid pairs for the main observed-origin estimator. Treat thinning, per-drifter, per-day and per-visit weights as alternative target definitions, not mandatory corrections to a universally wrong estimator.",
+    "evidence": "Long residence produces many records, which is consistent with occupancy sampling but differs from equal-release or equal-drifter sampling. Correlation affects uncertainty. Choosing weights merely because their score improves can silently change the research question. [S06, S07, S16; estimand decision]",
+    "acceptance": "Publish pair counts alongside unique IDs and dependence diagnostics. Describe the population represented by every sensitivity estimate. When comparing estimates with different priors, use an explicitly shared release/validation target or present results separately. Never equate rows with independent sample size."
+  },
+  {
+    "aspect": "13 Velocity, Direction and Dispersion",
+    "decision": "Use official hourly eastward/northward velocity for retrospective description and QC. Summarize vector distributions by cell, season and regime. Coordinate differences are a cross-check. Do not make velocity reconstruction or a stochastic velocity model a prerequisite for estimating endpoint transitions.",
+    "evidence": "A probability matrix can be estimated directly from paired positions. Mean velocity alone loses branch structure. Velocity covariance has units m\u00b2/s\u00b2 and is not diffusivity in m\u00b2/s. An SDE needs a defensible temporal closure and, where relevant, spatial diffusivity terms. [S03, S14]",
+    "acceptance": "Store velocity units, uncertainty and gap flags. Use circular/vector treatment for direction. Flag extreme speeds rather than automatically remove fast-current observations. Build stochastic advection only as a justified challenger after estimating its memory and diffusivity assumptions."
+  },
+  {
+    "aspect": "14 Boundaries and Cell Visits",
+    "decision": "Assign cells at observed hourly timestamps. Define a visit as a maximal consecutive observed run in one cell, breaking at missing-time gaps or re-entry. Keep unsmoothed assignments as the main rule. Record boundary-adjacent reversals and uncertain crossing intervals.",
+    "evidence": "A cell entry time lies between the last observation in the previous cell and the first in the next. It is not automatically the latter timestamp or an exactly known crossing. Position uncertainty may create jitter, but real short reversals also occur. [S02, S03, S15; geometry rule]",
+    "acceptance": "Retain visit diagnostics without using them to force transition origins. Test a documented hysteresis rule only as sensitivity if jitter is material. Use a versioned GSHHG wet mask and check disconnected wet pieces inside cells. Do not discard a pair merely because its straight endpoint segment crosses land."
+  },
+  {
+    "aspect": "15 Model Families and Order",
+    "decision": "Core: annual and seasonal empirical transport operators, with direct 7/30/365-day conditional endpoint references. Compare persistence and destination climatology baselines. First optional challenger: a continuous-space probabilistic mixture-density network. Stochastic advection is a later diagnostic, not a compulsory parallel build.",
+    "evidence": "The core directly delivers the iterable operator required by the project. Published GDP work supports a probabilistic neural challenger but does not establish superiority for this seasonal pilot or laptop budget. A compulsory second simulation pipeline adds untested closure assumptions. [S01, S05\u2013S07, S09]",
+    "acceptance": "Complete the interpretable core and common evaluation first. Admit MDN, environmental conditioning or ensembles only with held-out gain, calibrated uncertainty and feasible computation. Keep direct endpoint references separate from the short-lag propagation model. Report unsuccessful challengers without retuning against test outcomes."
+  },
+  {
+    "aspect": "16 Support and Quality Audit",
+    "decision": "Report support by cell \u00d7 departure season \u00d7 regime \u00d7 horizon: candidate origins, unique IDs, visits, drifter-days, valid pairs, availability, destination diversity and dominant-ID share. Recompute formal counts from hourly data. Do not assert one universal minimum count or effective sample size.",
+    "evidence": "The number of independent trajectories, their diversity and endpoint availability matter more than nominal rows. Effective sample size depends on a particular statistic and dependence model. Preliminary six-hour counts and first-entry summaries cannot certify hourly seasonal rows. [S02, S05; audit decision]",
+    "acceptance": "Produce 1\u00b0 and aligned 0.5\u00b0 support maps. Count IDs uniquely within each reporting unit and disclose overlap across units. Report administrative versus other losses separately. Use held-out scores, cluster uncertainty and learning curves to identify supported versus unresolved states."
+  },
+  {
+    "aspect": "17 Evaluation and Acceptance",
+    "decision": "Use common-1\u00b0 log loss and Brier score on identical cases for complete distributions. Preserve all incomplete outputs and zero-probability failures. For unresolved-support mass, report probability/loss bounds, failure coverage and an explicitly labelled algorithmic failure-penalized Brier score. Assess probability-region coverage and outside-state calibration.",
+    "evidence": "Raw log loss is not comparable across different category partitions. Calibration and concentration measure different properties. Omitting unseen destinations makes a model appear stronger than it is. Closer average positions are not enough to verify a probability distribution. [S10; evaluation decision]",
+    "acceptance": "Aggregate fine predictions to the common grid. Report paired whole-ID uncertainty. Do not renormalize unresolved mass. For observed j, log-loss bounds are \u2212log(p_j + unresolved_mass) to \u2212log(p_j). If all candidates have infinite raw loss, select by declared Brier/calibration fallback and report its trigger. Lock selection before the final test."
+  },
+  {
+    "aspect": "18 Object Scope and Significance",
+    "decision": "Deliver a reusable historical drifter-based transport prior relevant to pollution pathways, debris searches and rescue planning. Keep object type outside the validated core. Provide an extension interface for windage, buoyancy, immersion, shape, waves and weathering when supported by additional data.",
+    "evidence": "A transferable software interface is feasible. Universally accurate prediction of oil, containers and people from GDP alone is not established. Mass alone does not determine drift. Drogued and undrogued comparisons demonstrate regime sensitivity without proving object-specific equivalence. [S07, S13]",
+    "acceptance": "Label applications as motivations or illustrative scenarios. Distinguish ocean-cell occupancy, entering a coastal zone and confirmed beaching. Do not call the core an operational spill or rescue forecast. Object calibration and forcing would require a separate validated experiment."
+  },
+  {
+    "aspect": "19 Evidence and Decision Status",
+    "decision": "Freeze v1.0 as the implementation protocol. Distinguish verified source facts, fixed study rules, hypotheses and settings selected by the declared development procedure. The document replaces conflicting technical rules in the earlier audit workbook. It does not certify empirical accuracy or global optimality.",
+    "evidence": "Literature establishes precedents and known risks, not the best parameter values for unprocessed regional data. A finite audit cannot prove that no superior method exists. Fixing reproducible selection rules provides a defensible endpoint to planning. [S01\u2013S16; evidence policy]",
+    "acceptance": "Keep the old workbook as history. Record selected values in a configuration manifest with data, geometry and split hashes. Version any target, eligibility, boundary or evaluation change before renewed testing. Proposal and README remain historical snapshots until a separate update."
+  },
+  {
+    "aspect": "20 Prediction Target and Release Prior",
+    "decision": "Estimate historical destination distributions conditional on origin cell, departure date/season, declared transport regime and usable observation intervals. A selected cell is the finest core release location. Its subcell prior follows eligible historical origins, not an exactly known point or a uniform area prior.",
+    "evidence": "A gridded conditional operator averages over locations and histories inside a cell. Calling it an exact-point forecast overstates its resolution. Complete-pair estimates also condition on observability; they do not identify outcomes for all missing or terminated trajectories. [S06, S07; target decision]",
+    "acceptance": "Every output carries target, regime, grid, prior, boundary semantics, snapshot and validation status. A whole-R release assigns unit total mass proportional to wet area across cells, while explicitly retaining the empirical within-cell prior. Exact-point or uniform-subcell prediction requires a separately evaluated model."
+  },
+  {
+    "aspect": "21 Snapshot and Provenance",
+    "decision": "Use the official NOAA GDP hourly product and its documented metadata as the core source. Freeze the exact accessed asset, release, time range and checksum. Documented v2.01.1 is a starting candidate, not an assumption that every live endpoint currently serves that release.",
+    "evidence": "Different releases, hourly versus six-hour products and revised live trajectories can produce different counts. The official page documents corrections and a v2.01 time span ending in 2022. Earlier project screening used a different six-hour snapshot. [S02\u2013S04]",
+    "acceptance": "Save source URL/DOI, access date, version attributes, dataset cutoff, ID list, query, units, flags, checksums and software versions. If a server offers only mutable data, preserve retrieved immutable subsets and metadata. Cite the dataset and relevant processing papers."
+  },
+  {
+    "aspect": "22 Data Access and Laptop Storage",
+    "decision": "Use official ERDDAP or cloud access with lazy/chunked retrieval. Discover relevant IDs spatially, then retrieve full required trajectory intervals, not only rows inside R. Store cleaned/pair data in partitioned local files and operators in sparse form where beneficial.",
+    "evidence": "Spatially clipping a download to R discards precisely the future locations needed for Where Things End Up. A global hourly table need not be materialized in laptop memory. CloudDrift supports ragged trajectory subsetting, but does not replace source-version control. [S02, S12]",
+    "acceptance": "Profile a small download for memory, disk and runtime before expansion. Record chunking and retries. Keep raw data immutable and out of ordinary Git commits. Store manifests, methods and small figures in the repository. Retrieve downstream D training IDs, including IDs without an R visit."
+  },
+  {
+    "aspect": "23 QC, Missing Fields and Schema",
+    "decision": "Apply source-specific units, fill values and QC rules. Enforce unique drifter/time keys and sorted UTC timestamps. Retain source flags and derived flags separately. Missing SST alone does not invalidate an otherwise valid position pair for the core model.",
+    "evidence": "QC flag meanings vary by variable and product version. One universal rule such as dropping every nonzero flag would be unsupported. Hourly estimates are processed values and may span poor original sampling. Rapid motion and branch changes are not automatically data errors. [S02\u2013S04]",
+    "acceptance": "Create a metadata dictionary before cleaning. Quarantine conflicting duplicate keys. Preserve uncertainty, location type, experiment, death and drogue metadata. Add jump, gap and geometry flags with recorded reasons. Log exclusions by rule, region, season and regime."
+  },
+  {
+    "aspect": "24 Lag and Memory Diagnostics",
+    "decision": "Prototype a one-day kernel and compare lags of 1, 3, 5 and 7 days on the 1\u00b0 grid. These are engineering candidates. Select grid and lag jointly using direct-versus-composed distributions, held-out scores, boundary artifacts and memory diagnostics.",
+    "evidence": "Hourly input does not imply an hourly Markov operator is better. Coarse states may retain subcell position, incoming-direction and residence-time memory. Smaller lags can amplify numerical dispersion. A successful diagnostic at one short horizon does not prove one-year Markov validity. [S05, S07]",
+    "acceptance": "Compare direct 2\u03c4/3\u03c4 kernels with calendar-aware composition and test retained history. If memory or long-horizon bias is material, test incoming-direction/state augmentation or a probabilistic continuous model before increasing complexity. Choose from development evidence and retain simpler settings when gains are unclear."
+  },
+  {
+    "aspect": "25 Exact-Duration Propagation",
+    "decision": "For horizon h and selected integer-day lag \u03c4, propagate q full steps and one estimated remainder kernel r, where h = q\u03c4 + r and 0 \u2264 r < \u03c4. Advance UTC calendar time after every step. Estimate required remainder kernels from corresponding hourly position pairs.",
+    "evidence": "Repeated seven-day or thirty-day steps do not end exactly at 365 days. Remainder composition preserves elapsed time but may expose short-lag memory. Fractional matrix powers and a matrix logarithm do not automatically define a valid stochastic transport process. [S05; exact-time arithmetic]",
+    "acceptance": "Verify timestamps and nonnegative unit-sum probabilities. Compare direct and composed predictions at exact anchors and available remainder horizons. If a remainder is unsupported, return an unvalidated/unsupported label rather than round h. Do not interpret all generated daily outputs as individually validated."
+  },
+  {
+    "aspect": "26 Information and Annotation Rules",
+    "decision": "Use authoritative metadata and deterministic derived labels for cell, season, gaps, visits and regime. Keep retrospective variables distinct from variables available at forecast time. Origin SST conditioning is an optional tested extension. Do not use future observed SST or future drogue loss as an operational feature.",
+    "evidence": "Hourly velocity and temperature estimates can use information around the timestamp. This is acceptable for retrospective climatology but does not prove real-time causality. AI assistance cannot create missing physical measurements or reveal future labels. Spatial and seasonal kernels can encode multiple currents without naming each one. [S02\u2013S04]",
+    "acceptance": "Maintain feature provenance and an availability-time field. Label AI suggestions as hypotheses until checked. Avoid conditioning only on complete-SST cases without an attrition audit. Future environmental forcing, if added, needs a separate forecast source and validation; never hold initial temperature fixed for a year by assumption."
+  },
+  {
+    "aspect": "27 Operator Estimation and Regularization",
+    "decision": "Count eligible origin\u2013destination transitions and normalize rows. Compare raw annual/seasonal rows with declared seasonal pooling and weak regularization. Never invent a stationary self-loop for an unobserved row. Use an available annual same-regime fallback, otherwise transfer mass to unresolved support.",
+    "evidence": "Sparse rows and unseen destinations create unstable or zero probabilities. Pooling can reduce variance but may erase real structure. Positive smoothing can also introduce artificial pathways. Unsupported states are epistemic uncertainty, not an observed physical exit. [S05\u2013S07, S10]",
+    "acceptance": "Validate annual-shrinkage weight and optional destination-prior mixing \u03b5 in {0, 0.0001, 0.001, 0.01}. Build the prior from training data, respect wet connectivity and report its mass separately. Keep raw zero-probability failures visible. Do not impose a nearest-neighbour restriction or a rigid current direction."
+  },
+  {
+    "aspect": "28 Uncertainty and Dependence",
+    "decision": "Use whole-drifter cluster resampling for transition estimation and paired validation/test score intervals. Start with 200 replicates for development and 500 for final summaries, checking stability across seeds. Add deployment/experiment or year-block sensitivity where group structure is available.",
+    "evidence": "Nearby hourly windows overlap and are correlated. Resampling individual rows creates falsely narrow intervals. Separate transport spread, parameter uncertainty, measurement/interpolation uncertainty and structural error. More bootstrap replicates cannot repair sparse independent support. [S03, S16; engineering defaults]",
+    "acceptance": "Cache per-ID sufficient transition counts for efficient resampling. Refit seasonal pooling within the resampling protocol or declare selected settings fixed. Report whether intervals include training-fit uncertainty, held-out sampling uncertainty or both. Use learning curves and sensitivity checks alongside intervals."
+  },
+  {
+    "aspect": "29 Regional Transfer and Adaptation",
+    "decision": "Expand in stages from R to supported adjacent Atlantic cells, then Florida\u2013Bahamas/northern Gulf and the broader East Coast when data permit. Re-estimate supported local rows and evaluate any parameter-sharing model. A learned empirical row cannot be assumed accurate in an unobserved new cell.",
+    "evidence": "A portable modelling method differs from a numerically portable transition matrix. Sparse regions can share regularization or representations, but different branches, seasons and coast geometry require evidence. Complexity-first is not a demonstrated easier route. [S05, S09; project hypothesis]",
+    "acceptance": "Use contiguous spatial stress tests with complete-ID exclusions. Compare zero-local-data output, pooled fallback and locally adapted estimates on held-out new-region IDs. Plot learning curves at declared fractions of local development IDs. Keep unresolved regions visible and require common-horizon, common-target validation."
+  },
+  {
+    "aspect": "30 Whole-Region and Coastal Outputs",
+    "decision": "Deliver selected-cell release maps and a whole-R unit-mass release experiment, with occupancy, density, retention and export summaries. For external inflow into R, run a separately declared D-source experiment. Distinguish endpoint presence from ever entering a zone and first exit.",
+    "evidence": "The lecture asks where R gathers material and where it loses it. Releases only inside R cannot establish which external locations feed R. Probability mass per cell and probability density per wet area have different meanings. Nearshore occupancy is not confirmed beaching or damage. [S01, S07; output definition]",
+    "acceptance": "Choose illustrative cells using development support and branch structure, not attractive test results. Use shared map scales, wet-area definitions and visible outside/unresolved totals. Confirm probability sums, label release priors and publish the reusable operator, state index and propagation instructions."
+  },
+  {
+    "aspect": "31 Execution and Change Control",
+    "decision": "Begin formal work with the frozen source/metadata manifest and QC/support audit. Then build the 1\u00b0 annual and seasonal core, exact-time evaluation and 365-day analysis. Add refinements only after the relevant development checks. All team members may overlap technically with clear review ownership.",
+    "evidence": "The contract fixes the question and method before model experimentation. Implementation evidence must replace planning claims. A failed gate is a result to diagnose, not permission to change targets or inspect the final test repeatedly. This controls scope within the course timeline. [S01; project governance]",
+    "acceptance": "The project team consists of Junxi Xiao, Han Wang, Ming Yue and Yi Cheng Zhang. Junxi coordinates target/configuration; Han Wang and Ming Yue implement and cross-check data/model work; Yi Cheng Zhang leads significance and text. The four members will agree the allocation of support maps, visualization and verification. Record issues, selected settings and deviations. Update the contract version when the estimand, splits, eligibility or domain semantics change."
+  }
+]

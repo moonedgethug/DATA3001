@@ -1,0 +1,101 @@
+test_catalog_path_cannot_escape_project (test_architecture.Architecture.test_catalog_path_cannot_escape_project) ... FAIL
+test_frozen_write_is_rejected_before_existing_bytes_change (test_architecture.Architecture.test_frozen_write_is_rejected_before_existing_bytes_change) ... FAIL
+test_legacy_mapping_restricts_test_partitions (test_architecture.Architecture.test_legacy_mapping_restricts_test_partitions) ... FAIL
+test_modified_source_fails_checksum (test_architecture.Architecture.test_modified_source_fails_checksum) ... FAIL
+test_resolves_asset_independently_of_current_directory (test_architecture.Architecture.test_resolves_asset_independently_of_current_directory) ... FAIL
+test_run_collision_preserves_existing_results (test_architecture.Architecture.test_run_collision_preserves_existing_results) ... FAIL
+test_run_id_cannot_escape_run_namespace (test_architecture.Architecture.test_run_id_cannot_escape_run_namespace) ... FAIL
+test_test_labels_are_denied_by_default (test_architecture.Architecture.test_test_labels_are_denied_by_default) ... FAIL
+
+======================================================================
+FAIL: test_catalog_path_cannot_escape_project (test_architecture.Architecture.test_catalog_path_cannot_escape_project)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 33, in test_catalog_path_cannot_escape_project
+    with self.assertRaises(ValueError):self.api().ProjectPaths(self.root).asset('native')
+                                       ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_frozen_write_is_rejected_before_existing_bytes_change (test_architecture.Architecture.test_frozen_write_is_rejected_before_existing_bytes_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 39, in test_frozen_write_is_rejected_before_existing_bytes_change
+    p=self.api().ProjectPaths(self.root)
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_legacy_mapping_restricts_test_partitions (test_architecture.Architecture.test_legacy_mapping_restricts_test_partitions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 36, in test_legacy_mapping_restricts_test_partitions
+    p=self.api().ProjectPaths(self.root)
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_modified_source_fails_checksum (test_architecture.Architecture.test_modified_source_fails_checksum)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 25, in test_modified_source_fails_checksum
+    p=self.api().ProjectPaths(self.root);(self.root/'data/a.bin').write_bytes(b'changed')
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_resolves_asset_independently_of_current_directory (test_architecture.Architecture.test_resolves_asset_independently_of_current_directory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 23, in test_resolves_asset_independently_of_current_directory
+    p=self.api().ProjectPaths(self.root);self.assertEqual(p.asset('native').read_bytes(),b'original')
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_run_collision_preserves_existing_results (test_architecture.Architecture.test_run_collision_preserves_existing_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 43, in test_run_collision_preserves_existing_results
+    p=self.api().ProjectPaths(self.root);run=p.create_run('trial',{'lag_days':7});(run['results']/'score.txt').write_text('first')
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_run_id_cannot_escape_run_namespace (test_architecture.Architecture.test_run_id_cannot_escape_run_namespace)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 47, in test_run_id_cannot_escape_run_namespace
+    with self.assertRaises(ValueError):self.api().ProjectPaths(self.root).create_run('../bad',{})
+                                       ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+======================================================================
+FAIL: test_test_labels_are_denied_by_default (test_architecture.Architecture.test_test_labels_are_denied_by_default)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 28, in test_test_labels_are_denied_by_default
+    p=self.api().ProjectPaths(self.root)
+      ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 20, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.paths'),'Portable asset boundary is missing')
+AssertionError: unexpectedly None : Portable asset boundary is missing
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+FAILED (failures=8)

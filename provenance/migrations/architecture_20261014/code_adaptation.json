@@ -1,0 +1,157 @@
+[
+  {
+    "module": "pilot_audit",
+    "stage": "acquisition",
+    "archived_source_sha256": "0ebf1b406f9c336e8af8b91048c7bcec4a2f3159558067bb3d37fc3a8f765b80",
+    "frozen_actions": [
+      "main"
+    ]
+  },
+  {
+    "module": "prep_support",
+    "stage": "preprocessing",
+    "archived_source_sha256": "485c01fed47f637506ac9646d50e2c00f1690e5a5a72df9d5df5b3dbf5117dfa",
+    "frozen_actions": [
+      "aggregate",
+      "process"
+    ]
+  },
+  {
+    "module": "prep_core",
+    "stage": "preprocessing",
+    "archived_source_sha256": "1536ad11869e52cdb7501fc199ae5cf80f01b8e7941015b3fc4ce8b4b193ab57",
+    "frozen_actions": []
+  },
+  {
+    "module": "downstream_acquisition",
+    "stage": "acquisition",
+    "archived_source_sha256": "bb5ee2a5891a5738c0b93abe2fcdcd72c3b0a2a775c4398309c7a7bf819597f1",
+    "frozen_actions": [
+      "main"
+    ]
+  },
+  {
+    "module": "prep_run",
+    "stage": "preprocessing",
+    "archived_source_sha256": "89f1d536543bd1c5fedfc29a43b9bb0983ff3108ac6407e8c261386da4730dde",
+    "frozen_actions": [
+      "clean",
+      "prototype"
+    ]
+  },
+  {
+    "module": "prep_geometry",
+    "stage": "preprocessing",
+    "archived_source_sha256": "8cc1ab48f8dbf12c1a8058794dc71cc58810f7e90c9393ccf954e358b3b2b497",
+    "frozen_actions": [
+      "audit_domains",
+      "state_index"
+    ]
+  },
+  {
+    "module": "verify_acquisition",
+    "stage": "acquisition",
+    "archived_source_sha256": "8a0b222eff439337fdc926b61a3c2b534bdc4ce296d860dd11be8aab7aae8d43",
+    "frozen_actions": [
+      "main"
+    ]
+  },
+  {
+    "module": "rules",
+    "stage": "acquisition",
+    "archived_source_sha256": "d32e46cf3cb1287240449f3d35802a138e501dd0976b7be9f1e392dc28fa165b",
+    "frozen_actions": []
+  },
+  {
+    "module": "prep_report",
+    "stage": "preprocessing",
+    "archived_source_sha256": "71ff2cccbfa0877980a8dbf35ae53b9e0c6bcf0a623b11e3d480020130f945c7",
+    "frozen_actions": [
+      "figures",
+      "report"
+    ]
+  },
+  {
+    "module": "prep_boundary_diagnostics",
+    "stage": "preprocessing",
+    "archived_source_sha256": "2240153005a90a0d8c907955d1d451f0da0738ab4d0de94ba6472c2a798065b9",
+    "frozen_actions": [
+      "run"
+    ]
+  },
+  {
+    "module": "verify_handover",
+    "stage": "preprocessing",
+    "archived_source_sha256": "e5f31d316d1394f88b362d0b4b7bd84ad1a4c54591ba70ca7ab136d002d5fa62",
+    "frozen_actions": [
+      "verify"
+    ]
+  },
+  {
+    "module": "acquire_hourly",
+    "stage": "acquisition",
+    "archived_source_sha256": "c436197e72ebb1d7f10db031181658b57a8c159de53e7143ae29e53cbbd8ba4a",
+    "frozen_actions": [
+      "__init__",
+      "discover",
+      "freeze_geometry",
+      "get",
+      "json_save",
+      "main",
+      "metadata",
+      "retrieve"
+    ]
+  },
+  {
+    "module": "prep_verify",
+    "stage": "preprocessing",
+    "archived_source_sha256": "a761edae1eae0ca3df45dc6c1d482ce292eb52abcb14f2f5dc9ba4a765a3bb5a",
+    "frozen_actions": [
+      "verify"
+    ]
+  },
+  {
+    "module": "prep_handover",
+    "stage": "preprocessing",
+    "archived_source_sha256": "cecc7749a297e6da322f68a11055b27512c93825cf7308b742c89ac814943e47",
+    "frozen_actions": [
+      "areas",
+      "coverage",
+      "depths",
+      "lags",
+      "main",
+      "source_reason"
+    ]
+  },
+  {
+    "module": "prep_io",
+    "stage": "preprocessing",
+    "archived_source_sha256": "803329593c82acc663e1cbd3fe76abf8a61c412f5995245d2d0a741d747e5156",
+    "frozen_actions": []
+  },
+  {
+    "module": "prep_pairs",
+    "stage": "preprocessing",
+    "archived_source_sha256": "0174abd54a1bc3fd7e2ab562d4753da525ea6092ae10634ac6419d4b62a2faf1",
+    "frozen_actions": [
+      "compact",
+      "main"
+    ]
+  },
+  {
+    "module": "prep_peers",
+    "stage": "preprocessing",
+    "archived_source_sha256": "9d174957e15a8a474e01295071d6f183e6afe839f851e8d61dc24e5eb4d9d67b",
+    "frozen_actions": [
+      "diagnose"
+    ]
+  },
+  {
+    "module": "export_subset",
+    "stage": "acquisition",
+    "archived_source_sha256": "1b1048f5825262fe390cabe372ca38e170bc2cfcd391bd80db6f3306e5d70c44",
+    "frozen_actions": [
+      "main"
+    ]
+  }
+]

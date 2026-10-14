@@ -1,0 +1,24 @@
+test_catalog_path_cannot_escape_project (test_architecture.Architecture.test_catalog_path_cannot_escape_project) ... ok
+test_frozen_write_is_rejected_before_existing_bytes_change (test_architecture.Architecture.test_frozen_write_is_rejected_before_existing_bytes_change) ... ok
+test_historical_alias_cannot_bypass_test_partition_lock (test_architecture.Architecture.test_historical_alias_cannot_bypass_test_partition_lock) ... FAIL
+test_legacy_mapping_restricts_test_partitions (test_architecture.Architecture.test_legacy_mapping_restricts_test_partitions) ... ok
+test_missing_registered_directory_does_not_prevent_imports (test_architecture.Architecture.test_missing_registered_directory_does_not_prevent_imports) ... ok
+test_modified_source_fails_checksum (test_architecture.Architecture.test_modified_source_fails_checksum) ... ok
+test_resolves_asset_independently_of_current_directory (test_architecture.Architecture.test_resolves_asset_independently_of_current_directory) ... ok
+test_run_collision_preserves_existing_results (test_architecture.Architecture.test_run_collision_preserves_existing_results) ... ok
+test_run_id_cannot_escape_run_namespace (test_architecture.Architecture.test_run_id_cannot_escape_run_namespace) ... ok
+test_test_labels_are_denied_by_default (test_architecture.Architecture.test_test_labels_are_denied_by_default) ... ok
+
+======================================================================
+FAIL: test_historical_alias_cannot_bypass_test_partition_lock (test_architecture.Architecture.test_historical_alias_cannot_bypass_test_partition_lock)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_architecture.py", line 47, in test_historical_alias_cannot_bypass_test_partition_lock
+    with self.assertRaises(PermissionError):p.legacy('preparation/audit/old_test_support.parquet')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PermissionError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.013s
+
+FAILED (failures=1)

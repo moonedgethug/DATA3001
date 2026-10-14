@@ -1,0 +1,128 @@
+{
+  "executed_at_utc": "2026-10-14T03:18:46.170549+00:00",
+  "scope": "All acquired IDs and all retained hourly records, including all splits and full trajectories outside R/D.",
+  "authority_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "total_IDs": 3741,
+  "total_hourly_records": 39107061,
+  "state_rows": {
+    "drogued": {
+      "rows": 18892169,
+      "percent_of_all_rows": 48.30884376609124,
+      "distinct_IDs_with_any": 3410
+    },
+    "undrogued": {
+      "rows": 19376937,
+      "percent_of_all_rows": 49.54843576713678,
+      "distinct_IDs_with_any": 3375
+    },
+    "unknown": {
+      "rows": 837955,
+      "percent_of_all_rows": 2.1427204667719724,
+      "distinct_IDs_with_any": 3249
+    }
+  },
+  "exclusive_ID_patterns": {
+    "drogued_only": 200,
+    "undrogued_only": 210,
+    "drogued_and_undrogued_without_unknown": 82,
+    "unknown_only": 112,
+    "drogued_and_unknown": 54,
+    "undrogued_and_unknown": 9,
+    "drogued_and_undrogued_and_unknown": 3074
+  },
+  "source_drogue_status_value_counts": {
+    "0": 19875575,
+    "1": 19231486
+  },
+  "priority_whole_unknown_IDs_by_split": {
+    "train": 85,
+    "validation": 19,
+    "test": 8
+  },
+  "priority_whole_unknown_hourly_records": 834818,
+  "priority_raw_flags_by_loss_kind": {
+    "nonfinite_loss_date": {
+      "IDs": 44,
+      "raw_drogued_rows": 339263,
+      "raw_undrogued_rows": 0
+    },
+    "zero_loss_date": {
+      "IDs": 68,
+      "raw_drogued_rows": 0,
+      "raw_undrogued_rows": 495555
+    }
+  },
+  "unknown_reasons": {
+    "float32_loss_time_guard": {
+      "rows": 3137,
+      "distinct_IDs": 3137
+    },
+    "nonfinite_loss_date": {
+      "rows": 339263,
+      "distinct_IDs": 44
+    },
+    "zero_loss_date": {
+      "rows": 495555,
+      "distinct_IDs": 68
+    }
+  },
+  "by_split": {
+    "test": {
+      "drogued": 2575094,
+      "undrogued": 2532469,
+      "unknown": 56206,
+      "IDs": 517,
+      "rows": 5163769
+    },
+    "train": {
+      "drogued": 13412439,
+      "undrogued": 13838092,
+      "unknown": 677637,
+      "IDs": 2674,
+      "rows": 27928168
+    },
+    "validation": {
+      "drogued": 2904636,
+      "undrogued": 3006376,
+      "unknown": 104112,
+      "IDs": 550,
+      "rows": 6015124
+    }
+  },
+  "R_observation_state_rows": {
+    "drogued": {
+      "rows": 221611,
+      "distinct_IDs": 299
+    },
+    "undrogued": {
+      "rows": 151998,
+      "distinct_IDs": 215
+    },
+    "unknown": {
+      "rows": 7622,
+      "distinct_IDs": 62
+    }
+  },
+  "data_start_UTC": "1990-07-06T20:00:00+00:00",
+  "data_end_UTC": "2022-10-31T00:00:00+00:00",
+  "checks": {
+    "native_ID_inventory_equal": true,
+    "native_per_ID_row_counts_equal": true,
+    "native_source_flag_counts_equal": true,
+    "all_row_regimes_independently_reconciled": true,
+    "exclusive_ID_patterns_sum_to_total": true,
+    "unknown_reason_rows_sum_to_unknown": true,
+    "baseline_unknown_count_equal": true,
+    "contract_hash_unchanged": true,
+    "nonanalytical_rows": 0
+  },
+  "qualifications": [
+    "ID counts with any state overlap; exclusive ID patterns do not overlap.",
+    "A raw 0/1 source flag is not equivalent to a metadata-confirmed regime.",
+    "Unknown includes unresolved metadata, source/date conflict and loss-time precision guards.",
+    "Observation-state counts are not fixed-regime interval eligibility counts.",
+    "No missing state was inferred and no original data or contract was modified.",
+    "Locked-test records were counted only for this descriptive census; forecast ledgers and scores were not read."
+  ],
+  "elapsed_seconds": 6.37
+}

@@ -1,0 +1,15 @@
+{
+  "id": 9825497,
+  "split": "train",
+  "days": 7,
+  "scenario": "drogued",
+  "population": "R",
+  "tolerance_hours": 0,
+  "candidates": 399,
+  "eligible": {
+    "endpoint": 0,
+    "stopped": 0
+  },
+  "forecast_accuracy_evaluated": false,
+  "run_id": "migration-smoke-20261014"
+}

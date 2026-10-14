@@ -1,0 +1,29 @@
+test_changed_bytes_are_reported_without_rewriting_receipt (test_migration.Migration.test_changed_bytes_are_reported_without_rewriting_receipt) ... FAIL
+test_missing_file_and_changed_symlink_fail_verification (test_migration.Migration.test_missing_file_and_changed_symlink_fail_verification) ... FAIL
+
+======================================================================
+FAIL: test_changed_bytes_are_reported_without_rewriting_receipt (test_migration.Migration.test_changed_bytes_are_reported_without_rewriting_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_migration.py", line 17, in test_changed_bytes_are_reported_without_rewriting_receipt
+    result=self.api()(r,entries)
+           ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_migration.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.migration'),'Read-only migration verifier is missing')
+AssertionError: unexpectedly None : Read-only migration verifier is missing
+
+======================================================================
+FAIL: test_missing_file_and_changed_symlink_fail_verification (test_migration.Migration.test_missing_file_and_changed_symlink_fail_verification)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_migration.py", line 23, in test_missing_file_and_changed_symlink_fail_verification
+    result=self.api()(r,entries)
+           ^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_migration.py", line 10, in api
+    self.assertIsNotNone(importlib.util.find_spec('data3001.migration'),'Read-only migration verifier is missing')
+AssertionError: unexpectedly None : Read-only migration verifier is missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (failures=2)

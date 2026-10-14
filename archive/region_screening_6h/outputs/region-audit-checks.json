@@ -1,0 +1,10 @@
+{
+  "source_trajectory_rows": 28728,
+  "source_distinct_ids": 28728,
+  "source_observation_rows": 48887074,
+  "ragged_lengths_match": true,
+  "region_counts_nested": true,
+  "drogued_counts_bounded": true,
+  "grid_counts_nested": true,
+  "grid_drogued_counts_bounded": true
+}

@@ -1,0 +1,9 @@
+{
+  "migration_id": "architecture_20261014",
+  "baseline_sha256": "5babda3e0f737ab4ea6ebfe9294461b6829498b7e2a74975eeee47bdbb49c727",
+  "initial_path_map_sha256": "4f6675a779949debfb1e187185809f68565a215f86a64f8ee0513bb7c24facc0",
+  "accepted_path_map_sha256": "af2694cdfd569e9f7c2aae775f0d696cc14a544302f4e42f15c062de98249fd7",
+  "verified_original_entries": 78343,
+  "verified_original_file_bytes": 16150474468,
+  "full_inventory_local_only": true
+}

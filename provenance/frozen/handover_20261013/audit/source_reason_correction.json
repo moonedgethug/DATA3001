@@ -1,0 +1,34 @@
+{
+  "source_position_technical_census": {
+    "rows": 39107061,
+    "bad_positions": 0,
+    "native_invalid": 0
+  },
+  "development_IDs_compared": [
+    9825497,
+    17503,
+    22165,
+    23059,
+    7647,
+    7773,
+    27062,
+    27061,
+    33188,
+    23067,
+    23118,
+    23120,
+    28514,
+    28538,
+    27032,
+    7706157,
+    7706158
+  ],
+  "old_new_label_calls": 306,
+  "target_eligibility_cases_compared": 435528,
+  "all_preexisting_label_fields_equal": true,
+  "effect_on_existing_snapshot_eligibility": "none: all native/source positions usable; old and corrected predicates coincide in this condition",
+  "new_fields": "independent source-position/geometry event times and per-target boolean annotations; no new primary eligibility rule",
+  "test_access": "position and native-coordinate technical census only; no test labels used in settings or illustrations",
+  "historical_schema": "existing event/label partitions are unchanged; current generator computes bounds from cleaned records and emits new annotations",
+  "elapsed_seconds": 3.518354458035901
+}

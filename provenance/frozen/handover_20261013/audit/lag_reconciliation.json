@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "target": "endpoint",
+      "groups_reconciled": 587736
+    },
+    {
+      "target": "stopped",
+      "groups_reconciled": 587736
+    }
+  ],
+  "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    14,
+    15,
+    21
+  ],
+  "annual_ID_policy": "distinct eligible ID union after aggregating per ID across seasons",
+  "target_policy": "separate endpoint/stopped; all counts are overlapping hourly origins",
+  "legacy_layout": "baseline lag_support is wide; this versioned lag_support is long with explicit target",
+  "settings_selected": false,
+  "elapsed_seconds": 45.28296108299401
+}

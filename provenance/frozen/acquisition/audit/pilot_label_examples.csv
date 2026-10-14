@@ -1,0 +1,25 @@
+id,origin_epoch_seconds,horizon_days,illustration_only_domain,regime,endpoint_result,stopped_result
+101550,1340686800.0,7,R; not a final D,source state at origin held fixed for this retrospective check,inside,inside
+101550,1340686800.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101550,1340686800.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101551,1337173200.0,7,R; not a final D,source state at origin held fixed for this retrospective check,inside,inside
+101551,1337173200.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101551,1337173200.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101557,1348520400.0,7,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101557,1348520400.0,30,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101557,1348520400.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101605,1359493200.0,7,R; not a final D,source state at origin held fixed for this retrospective check,inside,inside
+101605,1359493200.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101605,1359493200.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101722,1378936800.0,7,R; not a final D,source state at origin held fixed for this retrospective check,inside,inside
+101722,1378936800.0,30,R; not a final D,source state at origin held fixed for this retrospective check,inside,outside
+101722,1378936800.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101907,1337756400.0,7,R; not a final D,source state at origin held fixed for this retrospective check,inside,inside
+101907,1337756400.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101907,1337756400.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101908,1346500800.0,7,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101908,1346500800.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101908,1346500800.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside
+101912,1329364800.0,7,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101912,1329364800.0,30,R; not a final D,source state at origin held fixed for this retrospective check,outside,outside
+101912,1329364800.0,365,R; not a final D,source state at origin held fixed for this retrospective check,missing_endpoint,outside

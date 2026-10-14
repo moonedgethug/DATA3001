@@ -1,0 +1,49 @@
+{
+  "primary": {
+    "0": "eligible",
+    "1": "origin_invalid",
+    "2": "administrative_immaturity",
+    "3": "track_termination",
+    "4": "unknown_regime",
+    "5": "fixed_scenario_mismatch_or_switching",
+    "6": "incomplete_path",
+    "7": "missing_target_timestamp",
+    "8": "endpoint_position_invalid",
+    "9": "geometry_uncertain"
+  },
+  "secondary_bitmask": {
+    "1": "origin_invalid",
+    "2": "administrative_immaturity",
+    "4": "track_termination",
+    "8": "unknown_regime",
+    "16": "fixed_scenario_mismatch_or_switching",
+    "32": "missing_target_timestamp",
+    "64": "endpoint_position_invalid",
+    "128": "incomplete_path",
+    "256": "geometry_uncertain"
+  },
+  "endpoint_precedence": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    8,
+    7,
+    0
+  ],
+  "stopped_precedence": [
+    "known_eligible_exit",
+    1,
+    4,
+    5,
+    9,
+    6,
+    2,
+    3,
+    7,
+    0
+  ],
+  "reason_5_detail": "known opposite regime at origin OR recorded loss crossing the interval; distinct from unknown, both can coexist as secondary evidence"
+}

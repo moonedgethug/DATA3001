@@ -1,0 +1,173 @@
+{
+  "supplied_10m_or_missing_depth_finding": {
+    "IDs": 17,
+    "usable_drogued_D_origins": 41879,
+    "IDs_detail": [
+      {
+        "id": 12731,
+        "split": "train",
+        "depth_stratum": "missing_depth",
+        "raw_depth_m": null,
+        "typebuoy": "SVPBS",
+        "eligible": 3660.0
+      },
+      {
+        "id": 9012758,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2916.0
+      },
+      {
+        "id": 9012759,
+        "split": "validation",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2907.0
+      },
+      {
+        "id": 9122734,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2981.0
+      },
+      {
+        "id": 9122735,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2967.0
+      },
+      {
+        "id": 9423760,
+        "split": "validation",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2426.0
+      },
+      {
+        "id": 9423798,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2796.0
+      },
+      {
+        "id": 9624892,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "Unknown",
+        "eligible": 3415.0
+      },
+      {
+        "id": 9624916,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 387.0
+      },
+      {
+        "id": 9624921,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 3357.0
+      },
+      {
+        "id": 9624936,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 4.0
+      },
+      {
+        "id": 9624937,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 2351.0
+      },
+      {
+        "id": 9814572,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 3855.0
+      },
+      {
+        "id": 9815125,
+        "split": "validation",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 3865.0
+      },
+      {
+        "id": 9815126,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 513.0
+      },
+      {
+        "id": 9815341,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 3391.0
+      },
+      {
+        "id": 9823730,
+        "split": "train",
+        "depth_stratum": "recorded_10m",
+        "raw_depth_m": 10.0,
+        "typebuoy": "SVP",
+        "eligible": 88.0
+      }
+    ]
+  },
+  "additional_nonpositive_depth": {
+    "IDs": 2,
+    "usable_drogued_D_origins": 3022,
+    "IDs_detail": [
+      {
+        "id": 7706157,
+        "split": "train",
+        "depth_stratum": "nonpositive_or_nonfinite_depth_unresolved",
+        "raw_depth_m": 0.0,
+        "typebuoy": "SVP",
+        "eligible": 1400.0
+      },
+      {
+        "id": 7706158,
+        "split": "train",
+        "depth_stratum": "nonpositive_or_nonfinite_depth_unresolved",
+        "raw_depth_m": 0.0,
+        "typebuoy": "SVP",
+        "eligible": 1622.0
+      }
+    ]
+  },
+  "non15m_or_unresolved_R_drogued_origins": 0,
+  "depth_policy_status": "DEPTH-01 pending explicit architecture policy; all data and existing primary labels retained",
+  "metadata_authority": "native DrogueCenterDepth in metres, fill NaN; source dictionary does not resolve zero as a physical immersion or standard depth",
+  "hardware_policy": "native typebuoy and location_type retained; physical equivalence not asserted",
+  "eligibility_note": "origin regime/mapping counts differ from constant-regime interval eligibility in anchor/lag tables",
+  "test_used": false,
+  "elapsed_seconds": 26.473772541969083
+}

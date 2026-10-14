@@ -1,0 +1,63 @@
+{
+  "acquisition_status": "PASS",
+  "verified_UTC": "2026-10-11T23:53:14.509337+00:00",
+  "source_version": "2.01.1",
+  "source_IDs": 19396,
+  "source_observations": 197214787,
+  "acquired_IDs": 3741,
+  "acquired_observations": 39107061,
+  "R_IDs": 463,
+  "downstream_only_IDs": 3278,
+  "split_counts": {
+    "train": 2674,
+    "validation": 550,
+    "test": 517
+  },
+  "R_split_counts": {
+    "train": 323,
+    "validation": 73,
+    "test": 67
+  },
+  "corpus_start_UTC": "1987-10-02T13:00:00+00:00",
+  "corpus_cutoff_UTC": "2022-10-31T00:00:00+00:00",
+  "source_fields_retained": 60,
+  "source_objects_SHA256_verified": 8075,
+  "raw_source_bytes": 7682121306,
+  "local_subset_bytes": 1679322670,
+  "completeness_counts_reconciled": true,
+  "subset_value_hashes_rechecked": true,
+  "duplicate_timestamps": 0,
+  "nonincreasing_time_steps": 0,
+  "nonhourly_time_steps": 13276,
+  "position_time_invalid_rows_retained": 0,
+  "missing_SST_position_valid_rows_retained": 1366330,
+  "unknown_source_drogue_flags": 0,
+  "geometry_selection_test_IDs_used": 0,
+  "final_D_frozen": false,
+  "formal_cleaning_complete": false,
+  "formal_support_audit_complete": false,
+  "model_fitting_or_final_test_evaluation_performed": false,
+  "processing_code_SHA256": {
+    "acquire_hourly.py": "c436197e72ebb1d7f10db031181658b57a8c159de53e7143ae29e53cbbd8ba4a",
+    "downstream_acquisition.py": "bb5ee2a5891a5738c0b93abe2fcdcd72c3b0a2a775c4398309c7a7bf819597f1",
+    "export_subset.py": "1b1048f5825262fe390cabe372ca38e170bc2cfcd391bd80db6f3306e5d70c44",
+    "pilot_audit.py": "0ebf1b406f9c336e8af8b91048c7bcec4a2f3159558067bb3d37fc3a8f765b80",
+    "rules.py": "d32e46cf3cb1287240449f3d35802a138e501dd0976b7be9f1e392dc28fa165b",
+    "verify_acquisition.py": "8a0b222eff439337fdc926b61a3c2b534bdc4ce296d860dd11be8aab7aae8d43"
+  },
+  "bound_file_SHA256": {
+    "manifests/authority.json": "3e22463d586d3f701f74aae0b3334bd45461f602fbbd4aeb5bfb33e3cc31f2fd",
+    "manifests/source_snapshot.json": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46",
+    "manifests/global_id_split.csv": "1ebfe3eca9a53379aa627f5b610586bbf18148ce0b782bceac5b9a5302f66800",
+    "manifests/acquired_ids.csv": "ae950b47720234d521ea29446cebc2991c5bb1ae58fa2f7a80951a73de02230f",
+    "geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+    "geometry/acquisition_envelope.geojson": "1fe9e2546fba57a37366f1c595df429f9577e83a0d425d0112330c4dabc88cbe",
+    "metadata/object_inventory.json": "a9f34a1e0f857fc591aec59e21702aaf6a5c87ceb4de0a7118e847d0881dd315",
+    "metadata/variable_dictionary.json": "8fc2187605c9fe9d1b1817c1b1df52749b9d646b53016a5308d037461f771b5f",
+    "metadata/environment_lock.txt": "f5ccb7e35776fe5d543cef60cecc9ddad047c96891459bec790cd7d752de7b1f",
+    "metadata/trajectory_metadata.npz": "ccac0c760d5daca318bdeaa20ff0ffe50a55e985064f7ab1c2b418a427e6330a",
+    "tests/test_rules.py": "c9ffde9f4acf6364409b58df99e5397d6d6b0b6f039025ec723fed083e4cfc4d",
+    "audit/standard_reader_check.json": "92253c3c2c2ebca32debc8e69cb7e2d37ebe84dadf5c63f75d1c515824122fb1"
+  },
+  "elapsed_seconds": 28.24
+}

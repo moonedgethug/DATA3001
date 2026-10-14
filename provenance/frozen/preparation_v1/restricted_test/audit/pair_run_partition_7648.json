@@ -1,0 +1,1561 @@
+{
+  "signature": {
+    "code_sha256": "4c2863083d02e5a9170520c74f3ca1b09d2fced3b1d9d735f062d5bd52fccd37",
+    "config_sha256": "4c72b146b4e5ed26ce4498dcc97e7b1324d9e68f137dde8c77f87e80c9cc8ad8",
+    "D_sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+    "input_snapshot": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46"
+  },
+  "utc": "2026-10-12T05:10:58.405578+00:00",
+  "IDs": 258,
+  "rows": [
+    {
+      "id": 7648,
+      "D_origins": 11478,
+      "R_origins": 4052,
+      "source_rows": 11478
+    },
+    {
+      "id": 55120,
+      "D_origins": 28018,
+      "R_origins": 185,
+      "source_rows": 28018
+    },
+    {
+      "id": 55355,
+      "D_origins": 22816,
+      "R_origins": 883,
+      "source_rows": 22816
+    },
+    {
+      "id": 59857,
+      "D_origins": 1554,
+      "R_origins": 1003,
+      "source_rows": 1554
+    },
+    {
+      "id": 57924,
+      "D_origins": 26363,
+      "R_origins": 224,
+      "source_rows": 26940
+    },
+    {
+      "id": 44036,
+      "D_origins": 19562,
+      "R_origins": 1087,
+      "source_rows": 26236
+    },
+    {
+      "id": 62237,
+      "D_origins": 1804,
+      "R_origins": 447,
+      "source_rows": 1804
+    },
+    {
+      "id": 62889,
+      "D_origins": 18548,
+      "R_origins": 892,
+      "source_rows": 27853
+    },
+    {
+      "id": 98944,
+      "D_origins": 6553,
+      "R_origins": 1689,
+      "source_rows": 6589
+    },
+    {
+      "id": 40294,
+      "D_origins": 14005,
+      "R_origins": 600,
+      "source_rows": 14156
+    },
+    {
+      "id": 82447,
+      "D_origins": 9601,
+      "R_origins": 183,
+      "source_rows": 9601
+    },
+    {
+      "id": 93003,
+      "D_origins": 16552,
+      "R_origins": 1990,
+      "source_rows": 16552
+    },
+    {
+      "id": 39890,
+      "D_origins": 5320,
+      "R_origins": 322,
+      "source_rows": 5320
+    },
+    {
+      "id": 98975,
+      "D_origins": 484,
+      "R_origins": 220,
+      "source_rows": 484
+    },
+    {
+      "id": 101569,
+      "D_origins": 5400,
+      "R_origins": 303,
+      "source_rows": 5400
+    },
+    {
+      "id": 107588,
+      "D_origins": 3834,
+      "R_origins": 253,
+      "source_rows": 3834
+    },
+    {
+      "id": 70328,
+      "D_origins": 2461,
+      "R_origins": 398,
+      "source_rows": 5807
+    },
+    {
+      "id": 122600,
+      "D_origins": 5977,
+      "R_origins": 1061,
+      "source_rows": 5977
+    },
+    {
+      "id": 122552,
+      "D_origins": 38359,
+      "R_origins": 597,
+      "source_rows": 38359
+    },
+    {
+      "id": 101718,
+      "D_origins": 8343,
+      "R_origins": 223,
+      "source_rows": 8343
+    },
+    {
+      "id": 122672,
+      "D_origins": 253,
+      "R_origins": 135,
+      "source_rows": 253
+    },
+    {
+      "id": 109437,
+      "D_origins": 6681,
+      "R_origins": 374,
+      "source_rows": 6681
+    },
+    {
+      "id": 139079,
+      "D_origins": 2386,
+      "R_origins": 302,
+      "source_rows": 2386
+    },
+    {
+      "id": 145522,
+      "D_origins": 2510,
+      "R_origins": 334,
+      "source_rows": 4644
+    },
+    {
+      "id": 300234063992880,
+      "D_origins": 7783,
+      "R_origins": 2810,
+      "source_rows": 7783
+    },
+    {
+      "id": 300234063225620,
+      "D_origins": 6351,
+      "R_origins": 566,
+      "source_rows": 6351
+    },
+    {
+      "id": 300234063251240,
+      "D_origins": 6840,
+      "R_origins": 158,
+      "source_rows": 9416
+    },
+    {
+      "id": 300234064017030,
+      "D_origins": 19211,
+      "R_origins": 178,
+      "source_rows": 22540
+    },
+    {
+      "id": 300234064014420,
+      "D_origins": 40638,
+      "R_origins": 79,
+      "source_rows": 40638
+    },
+    {
+      "id": 300234066615910,
+      "D_origins": 33214,
+      "R_origins": 2149,
+      "source_rows": 39368
+    },
+    {
+      "id": 300234065317890,
+      "D_origins": 12104,
+      "R_origins": 114,
+      "source_rows": 12104
+    },
+    {
+      "id": 300234066619950,
+      "D_origins": 17899,
+      "R_origins": 543,
+      "source_rows": 21053
+    },
+    {
+      "id": 300234066312460,
+      "D_origins": 55,
+      "R_origins": 55,
+      "source_rows": 55
+    },
+    {
+      "id": 300234066439880,
+      "D_origins": 29592,
+      "R_origins": 595,
+      "source_rows": 29777
+    },
+    {
+      "id": 300234067547710,
+      "D_origins": 21170,
+      "R_origins": 3334,
+      "source_rows": 21170
+    },
+    {
+      "id": 300234063940330,
+      "D_origins": 3458,
+      "R_origins": 625,
+      "source_rows": 3458
+    },
+    {
+      "id": 300234066797720,
+      "D_origins": 13817,
+      "R_origins": 220,
+      "source_rows": 16622
+    },
+    {
+      "id": 9301361,
+      "D_origins": 194,
+      "R_origins": 0,
+      "source_rows": 194
+    },
+    {
+      "id": 9423752,
+      "D_origins": 3250,
+      "R_origins": 0,
+      "source_rows": 3250
+    },
+    {
+      "id": 9505793,
+      "D_origins": 10566,
+      "R_origins": 0,
+      "source_rows": 10566
+    },
+    {
+      "id": 9627933,
+      "D_origins": 5569,
+      "R_origins": 0,
+      "source_rows": 5569
+    },
+    {
+      "id": 9524065,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1954
+    },
+    {
+      "id": 9627931,
+      "D_origins": 4015,
+      "R_origins": 0,
+      "source_rows": 6252
+    },
+    {
+      "id": 9808259,
+      "D_origins": 8808,
+      "R_origins": 0,
+      "source_rows": 8808
+    },
+    {
+      "id": 9706570,
+      "D_origins": 5766,
+      "R_origins": 0,
+      "source_rows": 5766
+    },
+    {
+      "id": 9817802,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1228
+    },
+    {
+      "id": 9624974,
+      "D_origins": 14489,
+      "R_origins": 0,
+      "source_rows": 14489
+    },
+    {
+      "id": 29868,
+      "D_origins": 347,
+      "R_origins": 0,
+      "source_rows": 14980
+    },
+    {
+      "id": 27923,
+      "D_origins": 7289,
+      "R_origins": 0,
+      "source_rows": 7289
+    },
+    {
+      "id": 22648,
+      "D_origins": 10780,
+      "R_origins": 0,
+      "source_rows": 16867
+    },
+    {
+      "id": 17574,
+      "D_origins": 10091,
+      "R_origins": 0,
+      "source_rows": 10091
+    },
+    {
+      "id": 34231,
+      "D_origins": 16559,
+      "R_origins": 0,
+      "source_rows": 23360
+    },
+    {
+      "id": 12151,
+      "D_origins": 9384,
+      "R_origins": 0,
+      "source_rows": 13911
+    },
+    {
+      "id": 19906,
+      "D_origins": 3185,
+      "R_origins": 0,
+      "source_rows": 3185
+    },
+    {
+      "id": 21329,
+      "D_origins": 19442,
+      "R_origins": 0,
+      "source_rows": 19442
+    },
+    {
+      "id": 2239207,
+      "D_origins": 835,
+      "R_origins": 0,
+      "source_rows": 835
+    },
+    {
+      "id": 2442656,
+      "D_origins": 1100,
+      "R_origins": 0,
+      "source_rows": 2213
+    },
+    {
+      "id": 2447641,
+      "D_origins": 321,
+      "R_origins": 0,
+      "source_rows": 4869
+    },
+    {
+      "id": 43582,
+      "D_origins": 3551,
+      "R_origins": 0,
+      "source_rows": 3551
+    },
+    {
+      "id": 54744,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 14876
+    },
+    {
+      "id": 52183,
+      "D_origins": 15848,
+      "R_origins": 0,
+      "source_rows": 15848
+    },
+    {
+      "id": 52248,
+      "D_origins": 11606,
+      "R_origins": 0,
+      "source_rows": 11606
+    },
+    {
+      "id": 55109,
+      "D_origins": 3392,
+      "R_origins": 0,
+      "source_rows": 3392
+    },
+    {
+      "id": 43588,
+      "D_origins": 32482,
+      "R_origins": 0,
+      "source_rows": 32482
+    },
+    {
+      "id": 54623,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 9412
+    },
+    {
+      "id": 54979,
+      "D_origins": 1815,
+      "R_origins": 0,
+      "source_rows": 1815
+    },
+    {
+      "id": 55124,
+      "D_origins": 3407,
+      "R_origins": 0,
+      "source_rows": 3407
+    },
+    {
+      "id": 54214,
+      "D_origins": 3501,
+      "R_origins": 0,
+      "source_rows": 12435
+    },
+    {
+      "id": 54177,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 3680
+    },
+    {
+      "id": 54683,
+      "D_origins": 946,
+      "R_origins": 0,
+      "source_rows": 946
+    },
+    {
+      "id": 60334,
+      "D_origins": 23686,
+      "R_origins": 0,
+      "source_rows": 23686
+    },
+    {
+      "id": 66733,
+      "D_origins": 668,
+      "R_origins": 0,
+      "source_rows": 12306
+    },
+    {
+      "id": 63851,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 9163
+    },
+    {
+      "id": 72059,
+      "D_origins": 12118,
+      "R_origins": 0,
+      "source_rows": 12118
+    },
+    {
+      "id": 72100,
+      "D_origins": 9451,
+      "R_origins": 0,
+      "source_rows": 10876
+    },
+    {
+      "id": 72113,
+      "D_origins": 14957,
+      "R_origins": 0,
+      "source_rows": 14957
+    },
+    {
+      "id": 72121,
+      "D_origins": 14992,
+      "R_origins": 0,
+      "source_rows": 14992
+    },
+    {
+      "id": 72066,
+      "D_origins": 290,
+      "R_origins": 0,
+      "source_rows": 290
+    },
+    {
+      "id": 57922,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 177
+    },
+    {
+      "id": 65686,
+      "D_origins": 1517,
+      "R_origins": 0,
+      "source_rows": 1517
+    },
+    {
+      "id": 66737,
+      "D_origins": 6730,
+      "R_origins": 0,
+      "source_rows": 7238
+    },
+    {
+      "id": 62249,
+      "D_origins": 54,
+      "R_origins": 0,
+      "source_rows": 13326
+    },
+    {
+      "id": 62878,
+      "D_origins": 7861,
+      "R_origins": 0,
+      "source_rows": 14260
+    },
+    {
+      "id": 70832,
+      "D_origins": 30417,
+      "R_origins": 0,
+      "source_rows": 30417
+    },
+    {
+      "id": 71186,
+      "D_origins": 6920,
+      "R_origins": 0,
+      "source_rows": 6920
+    },
+    {
+      "id": 71191,
+      "D_origins": 5880,
+      "R_origins": 0,
+      "source_rows": 5880
+    },
+    {
+      "id": 72024,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1080
+    },
+    {
+      "id": 71101,
+      "D_origins": 1252,
+      "R_origins": 0,
+      "source_rows": 1252
+    },
+    {
+      "id": 71459,
+      "D_origins": 6561,
+      "R_origins": 0,
+      "source_rows": 8394
+    },
+    {
+      "id": 78948,
+      "D_origins": 79,
+      "R_origins": 0,
+      "source_rows": 79
+    },
+    {
+      "id": 81796,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1502
+    },
+    {
+      "id": 78769,
+      "D_origins": 3943,
+      "R_origins": 0,
+      "source_rows": 3943
+    },
+    {
+      "id": 79261,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 11241
+    },
+    {
+      "id": 83394,
+      "D_origins": 24452,
+      "R_origins": 0,
+      "source_rows": 24452
+    },
+    {
+      "id": 83398,
+      "D_origins": 18156,
+      "R_origins": 0,
+      "source_rows": 18156
+    },
+    {
+      "id": 71847,
+      "D_origins": 6539,
+      "R_origins": 0,
+      "source_rows": 6954
+    },
+    {
+      "id": 75150,
+      "D_origins": 16437,
+      "R_origins": 0,
+      "source_rows": 24924
+    },
+    {
+      "id": 79064,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1164
+    },
+    {
+      "id": 88610,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10996
+    },
+    {
+      "id": 83480,
+      "D_origins": 5556,
+      "R_origins": 0,
+      "source_rows": 5556
+    },
+    {
+      "id": 81929,
+      "D_origins": 6838,
+      "R_origins": 0,
+      "source_rows": 6838
+    },
+    {
+      "id": 71024,
+      "D_origins": 19459,
+      "R_origins": 0,
+      "source_rows": 19459
+    },
+    {
+      "id": 92023,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10167
+    },
+    {
+      "id": 93017,
+      "D_origins": 9107,
+      "R_origins": 0,
+      "source_rows": 9107
+    },
+    {
+      "id": 90221,
+      "D_origins": 5054,
+      "R_origins": 0,
+      "source_rows": 5956
+    },
+    {
+      "id": 90522,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 17822
+    },
+    {
+      "id": 90236,
+      "D_origins": 3379,
+      "R_origins": 0,
+      "source_rows": 4103
+    },
+    {
+      "id": 89820,
+      "D_origins": 4068,
+      "R_origins": 0,
+      "source_rows": 4068
+    },
+    {
+      "id": 92893,
+      "D_origins": 6455,
+      "R_origins": 0,
+      "source_rows": 6455
+    },
+    {
+      "id": 92959,
+      "D_origins": 8667,
+      "R_origins": 0,
+      "source_rows": 12481
+    },
+    {
+      "id": 92963,
+      "D_origins": 8379,
+      "R_origins": 0,
+      "source_rows": 8379
+    },
+    {
+      "id": 92873,
+      "D_origins": 14094,
+      "R_origins": 0,
+      "source_rows": 14094
+    },
+    {
+      "id": 92883,
+      "D_origins": 3037,
+      "R_origins": 0,
+      "source_rows": 3037
+    },
+    {
+      "id": 89896,
+      "D_origins": 1104,
+      "R_origins": 0,
+      "source_rows": 1104
+    },
+    {
+      "id": 37411,
+      "D_origins": 4663,
+      "R_origins": 0,
+      "source_rows": 5238
+    },
+    {
+      "id": 37224,
+      "D_origins": 717,
+      "R_origins": 0,
+      "source_rows": 717
+    },
+    {
+      "id": 39234,
+      "D_origins": 9115,
+      "R_origins": 0,
+      "source_rows": 9115
+    },
+    {
+      "id": 39221,
+      "D_origins": 5798,
+      "R_origins": 0,
+      "source_rows": 5798
+    },
+    {
+      "id": 103802,
+      "D_origins": 6312,
+      "R_origins": 0,
+      "source_rows": 6563
+    },
+    {
+      "id": 102593,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 833
+    },
+    {
+      "id": 102571,
+      "D_origins": 1195,
+      "R_origins": 0,
+      "source_rows": 1576
+    },
+    {
+      "id": 43665,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 3506
+    },
+    {
+      "id": 300034012483130,
+      "D_origins": 1606,
+      "R_origins": 0,
+      "source_rows": 1606
+    },
+    {
+      "id": 106223,
+      "D_origins": 2752,
+      "R_origins": 0,
+      "source_rows": 2752
+    },
+    {
+      "id": 44107,
+      "D_origins": 1621,
+      "R_origins": 0,
+      "source_rows": 1621
+    },
+    {
+      "id": 106548,
+      "D_origins": 881,
+      "R_origins": 0,
+      "source_rows": 881
+    },
+    {
+      "id": 101818,
+      "D_origins": 3915,
+      "R_origins": 0,
+      "source_rows": 3915
+    },
+    {
+      "id": 101988,
+      "D_origins": 4348,
+      "R_origins": 0,
+      "source_rows": 4348
+    },
+    {
+      "id": 37389,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 4878
+    },
+    {
+      "id": 107627,
+      "D_origins": 3499,
+      "R_origins": 0,
+      "source_rows": 3499
+    },
+    {
+      "id": 300034012294040,
+      "D_origins": 7628,
+      "R_origins": 0,
+      "source_rows": 7628
+    },
+    {
+      "id": 101574,
+      "D_origins": 3877,
+      "R_origins": 0,
+      "source_rows": 3877
+    },
+    {
+      "id": 101619,
+      "D_origins": 3184,
+      "R_origins": 0,
+      "source_rows": 3184
+    },
+    {
+      "id": 37663,
+      "D_origins": 7815,
+      "R_origins": 0,
+      "source_rows": 7815
+    },
+    {
+      "id": 118404,
+      "D_origins": 25829,
+      "R_origins": 0,
+      "source_rows": 25829
+    },
+    {
+      "id": 36726,
+      "D_origins": 4581,
+      "R_origins": 0,
+      "source_rows": 5353
+    },
+    {
+      "id": 114838,
+      "D_origins": 7026,
+      "R_origins": 0,
+      "source_rows": 7026
+    },
+    {
+      "id": 113984,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 277
+    },
+    {
+      "id": 36373,
+      "D_origins": 3553,
+      "R_origins": 0,
+      "source_rows": 3553
+    },
+    {
+      "id": 36272,
+      "D_origins": 5461,
+      "R_origins": 0,
+      "source_rows": 5461
+    },
+    {
+      "id": 118502,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10018
+    },
+    {
+      "id": 300234011795230,
+      "D_origins": 7574,
+      "R_origins": 0,
+      "source_rows": 13060
+    },
+    {
+      "id": 122566,
+      "D_origins": 31527,
+      "R_origins": 0,
+      "source_rows": 31527
+    },
+    {
+      "id": 114956,
+      "D_origins": 16151,
+      "R_origins": 0,
+      "source_rows": 16151
+    },
+    {
+      "id": 116386,
+      "D_origins": 167,
+      "R_origins": 0,
+      "source_rows": 7412
+    },
+    {
+      "id": 116258,
+      "D_origins": 1596,
+      "R_origins": 0,
+      "source_rows": 1596
+    },
+    {
+      "id": 122571,
+      "D_origins": 40557,
+      "R_origins": 0,
+      "source_rows": 40557
+    },
+    {
+      "id": 122653,
+      "D_origins": 23897,
+      "R_origins": 0,
+      "source_rows": 23897
+    },
+    {
+      "id": 300234060648350,
+      "D_origins": 9921,
+      "R_origins": 0,
+      "source_rows": 9921
+    },
+    {
+      "id": 300234060218680,
+      "D_origins": 10863,
+      "R_origins": 0,
+      "source_rows": 19286
+    },
+    {
+      "id": 134983,
+      "D_origins": 1363,
+      "R_origins": 0,
+      "source_rows": 1363
+    },
+    {
+      "id": 134982,
+      "D_origins": 1001,
+      "R_origins": 0,
+      "source_rows": 1001
+    },
+    {
+      "id": 122640,
+      "D_origins": 14481,
+      "R_origins": 0,
+      "source_rows": 14481
+    },
+    {
+      "id": 109041,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 791
+    },
+    {
+      "id": 300234060219900,
+      "D_origins": 1463,
+      "R_origins": 0,
+      "source_rows": 1463
+    },
+    {
+      "id": 122699,
+      "D_origins": 26995,
+      "R_origins": 0,
+      "source_rows": 27017
+    },
+    {
+      "id": 300234011595650,
+      "D_origins": 4928,
+      "R_origins": 0,
+      "source_rows": 20960
+    },
+    {
+      "id": 300234061511850,
+      "D_origins": 3638,
+      "R_origins": 0,
+      "source_rows": 40452
+    },
+    {
+      "id": 300234061618040,
+      "D_origins": 755,
+      "R_origins": 0,
+      "source_rows": 12077
+    },
+    {
+      "id": 300234011162640,
+      "D_origins": 7731,
+      "R_origins": 0,
+      "source_rows": 7731
+    },
+    {
+      "id": 139285,
+      "D_origins": 4695,
+      "R_origins": 0,
+      "source_rows": 4695
+    },
+    {
+      "id": 127004,
+      "D_origins": 4534,
+      "R_origins": 0,
+      "source_rows": 11324
+    },
+    {
+      "id": 132503,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1310
+    },
+    {
+      "id": 300234062326360,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 2933
+    },
+    {
+      "id": 300234061568540,
+      "D_origins": 9893,
+      "R_origins": 0,
+      "source_rows": 9893
+    },
+    {
+      "id": 139769,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 1255
+    },
+    {
+      "id": 300234062834780,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 189
+    },
+    {
+      "id": 300234063717610,
+      "D_origins": 1268,
+      "R_origins": 0,
+      "source_rows": 1268
+    },
+    {
+      "id": 109066,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 748
+    },
+    {
+      "id": 300234061471430,
+      "D_origins": 7189,
+      "R_origins": 0,
+      "source_rows": 7189
+    },
+    {
+      "id": 122694,
+      "D_origins": 347,
+      "R_origins": 0,
+      "source_rows": 347
+    },
+    {
+      "id": 300234063122380,
+      "D_origins": 59,
+      "R_origins": 0,
+      "source_rows": 6486
+    },
+    {
+      "id": 300234062950270,
+      "D_origins": 31689,
+      "R_origins": 0,
+      "source_rows": 31689
+    },
+    {
+      "id": 300234062951270,
+      "D_origins": 4680,
+      "R_origins": 0,
+      "source_rows": 4680
+    },
+    {
+      "id": 300234063357020,
+      "D_origins": 8615,
+      "R_origins": 0,
+      "source_rows": 8615
+    },
+    {
+      "id": 300234011091800,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 7045
+    },
+    {
+      "id": 300234063446180,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10430
+    },
+    {
+      "id": 300234064501650,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 16587
+    },
+    {
+      "id": 300234063252990,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 2739
+    },
+    {
+      "id": 300234064509680,
+      "D_origins": 21466,
+      "R_origins": 0,
+      "source_rows": 21466
+    },
+    {
+      "id": 300234064501710,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 7754
+    },
+    {
+      "id": 300234063947970,
+      "D_origins": 34315,
+      "R_origins": 0,
+      "source_rows": 34315
+    },
+    {
+      "id": 300234064502810,
+      "D_origins": 24122,
+      "R_origins": 0,
+      "source_rows": 24122
+    },
+    {
+      "id": 300234063940960,
+      "D_origins": 1166,
+      "R_origins": 0,
+      "source_rows": 1166
+    },
+    {
+      "id": 300234064870090,
+      "D_origins": 2858,
+      "R_origins": 0,
+      "source_rows": 9908
+    },
+    {
+      "id": 300234063941890,
+      "D_origins": 2158,
+      "R_origins": 0,
+      "source_rows": 2158
+    },
+    {
+      "id": 300234065511680,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 17912
+    },
+    {
+      "id": 300234065511570,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 39003
+    },
+    {
+      "id": 300234065511810,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 7341
+    },
+    {
+      "id": 300234063350010,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10880
+    },
+    {
+      "id": 300234060322940,
+      "D_origins": 6143,
+      "R_origins": 0,
+      "source_rows": 6143
+    },
+    {
+      "id": 300234063940880,
+      "D_origins": 5928,
+      "R_origins": 0,
+      "source_rows": 5928
+    },
+    {
+      "id": 300234063942700,
+      "D_origins": 2484,
+      "R_origins": 0,
+      "source_rows": 2484
+    },
+    {
+      "id": 300234065704760,
+      "D_origins": 5220,
+      "R_origins": 0,
+      "source_rows": 5220
+    },
+    {
+      "id": 300234067118280,
+      "D_origins": 22365,
+      "R_origins": 0,
+      "source_rows": 31632
+    },
+    {
+      "id": 300234066317000,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 293
+    },
+    {
+      "id": 300234066318460,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 789
+    },
+    {
+      "id": 300234066318480,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 177
+    },
+    {
+      "id": 300234065514680,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 428
+    },
+    {
+      "id": 300234067201570,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 19547
+    },
+    {
+      "id": 300234066218840,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 5746
+    },
+    {
+      "id": 300234065719080,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 19306
+    },
+    {
+      "id": 300234066312040,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 7212
+    },
+    {
+      "id": 300234066411990,
+      "D_origins": 3988,
+      "R_origins": 0,
+      "source_rows": 3988
+    },
+    {
+      "id": 300234066219790,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 13331
+    },
+    {
+      "id": 300234066533040,
+      "D_origins": 20584,
+      "R_origins": 0,
+      "source_rows": 29233
+    },
+    {
+      "id": 300234066413940,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 3316
+    },
+    {
+      "id": 300234065713220,
+      "D_origins": 9099,
+      "R_origins": 0,
+      "source_rows": 9099
+    },
+    {
+      "id": 300234067112250,
+      "D_origins": 11421,
+      "R_origins": 0,
+      "source_rows": 26815
+    },
+    {
+      "id": 300234066713640,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 8773
+    },
+    {
+      "id": 300234066416930,
+      "D_origins": 18815,
+      "R_origins": 0,
+      "source_rows": 25468
+    },
+    {
+      "id": 300234066516010,
+      "D_origins": 13637,
+      "R_origins": 0,
+      "source_rows": 16753
+    },
+    {
+      "id": 300234066511010,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 6489
+    },
+    {
+      "id": 300234066519020,
+      "D_origins": 1001,
+      "R_origins": 0,
+      "source_rows": 5306
+    },
+    {
+      "id": 300234066029240,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 4483
+    },
+    {
+      "id": 300234068053710,
+      "D_origins": 2002,
+      "R_origins": 0,
+      "source_rows": 2002
+    },
+    {
+      "id": 300234068053200,
+      "D_origins": 31,
+      "R_origins": 0,
+      "source_rows": 863
+    },
+    {
+      "id": 300234066716020,
+      "D_origins": 8397,
+      "R_origins": 0,
+      "source_rows": 11002
+    },
+    {
+      "id": 300234066316010,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 5743
+    },
+    {
+      "id": 300234068244470,
+      "D_origins": 4761,
+      "R_origins": 0,
+      "source_rows": 8354
+    },
+    {
+      "id": 300234068243550,
+      "D_origins": 6758,
+      "R_origins": 0,
+      "source_rows": 11118
+    },
+    {
+      "id": 300234068244850,
+      "D_origins": 4904,
+      "R_origins": 0,
+      "source_rows": 8076
+    },
+    {
+      "id": 300234066437250,
+      "D_origins": 13245,
+      "R_origins": 0,
+      "source_rows": 14416
+    },
+    {
+      "id": 300234066438360,
+      "D_origins": 118,
+      "R_origins": 0,
+      "source_rows": 19985
+    },
+    {
+      "id": 300234066316060,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 4499
+    },
+    {
+      "id": 300234068342280,
+      "D_origins": 14035,
+      "R_origins": 0,
+      "source_rows": 17959
+    },
+    {
+      "id": 300234068342220,
+      "D_origins": 14910,
+      "R_origins": 0,
+      "source_rows": 19157
+    },
+    {
+      "id": 300234068343280,
+      "D_origins": 14601,
+      "R_origins": 0,
+      "source_rows": 19155
+    },
+    {
+      "id": 300234068342190,
+      "D_origins": 7367,
+      "R_origins": 0,
+      "source_rows": 11942
+    },
+    {
+      "id": 300234068342970,
+      "D_origins": 2915,
+      "R_origins": 0,
+      "source_rows": 6355
+    },
+    {
+      "id": 300234067877180,
+      "D_origins": 18807,
+      "R_origins": 0,
+      "source_rows": 18977
+    },
+    {
+      "id": 300234066315050,
+      "D_origins": 4156,
+      "R_origins": 0,
+      "source_rows": 4156
+    },
+    {
+      "id": 300234065845460,
+      "D_origins": 12325,
+      "R_origins": 0,
+      "source_rows": 16784
+    },
+    {
+      "id": 300234067975260,
+      "D_origins": 16768,
+      "R_origins": 0,
+      "source_rows": 16768
+    },
+    {
+      "id": 300234068445270,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 3347
+    },
+    {
+      "id": 300234066216870,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 12504
+    },
+    {
+      "id": 300234066214700,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 5325
+    },
+    {
+      "id": 300234068445860,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 12117
+    },
+    {
+      "id": 300534061071630,
+      "D_origins": 13745,
+      "R_origins": 0,
+      "source_rows": 13745
+    },
+    {
+      "id": 300234068540220,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 11380
+    },
+    {
+      "id": 300234066216690,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 9890
+    },
+    {
+      "id": 300234068448770,
+      "D_origins": 748,
+      "R_origins": 0,
+      "source_rows": 11618
+    },
+    {
+      "id": 300234066891100,
+      "D_origins": 12164,
+      "R_origins": 0,
+      "source_rows": 13222
+    },
+    {
+      "id": 300234068245840,
+      "D_origins": 6107,
+      "R_origins": 0,
+      "source_rows": 12779
+    },
+    {
+      "id": 300234068442000,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 5113
+    },
+    {
+      "id": 300234068344310,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 63
+    },
+    {
+      "id": 300534061173380,
+      "D_origins": 2164,
+      "R_origins": 0,
+      "source_rows": 2718
+    },
+    {
+      "id": 300534061654100,
+      "D_origins": 2187,
+      "R_origins": 0,
+      "source_rows": 3039
+    },
+    {
+      "id": 300234068347820,
+      "D_origins": 3479,
+      "R_origins": 0,
+      "source_rows": 8279
+    },
+    {
+      "id": 300234067977310,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 10198
+    },
+    {
+      "id": 300234066212580,
+      "D_origins": 1907,
+      "R_origins": 0,
+      "source_rows": 10040
+    },
+    {
+      "id": 300234068345210,
+      "D_origins": 110,
+      "R_origins": 0,
+      "source_rows": 9016
+    },
+    {
+      "id": 300534061294910,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 6102
+    },
+    {
+      "id": 300534061655130,
+      "D_origins": 3348,
+      "R_origins": 0,
+      "source_rows": 3711
+    },
+    {
+      "id": 300234066437900,
+      "D_origins": 2255,
+      "R_origins": 0,
+      "source_rows": 7834
+    },
+    {
+      "id": 300534062035040,
+      "D_origins": 2840,
+      "R_origins": 0,
+      "source_rows": 2840
+    },
+    {
+      "id": 300534062030020,
+      "D_origins": 0,
+      "R_origins": 0,
+      "source_rows": 2174
+    },
+    {
+      "id": 300534061656080,
+      "D_origins": 2002,
+      "R_origins": 0,
+      "source_rows": 2002
+    }
+  ],
+  "elapsed_seconds": 241.19661629199982
+}

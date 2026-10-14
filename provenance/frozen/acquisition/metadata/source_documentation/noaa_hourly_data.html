@@ -1,0 +1,747 @@
+<!DOCTYPE html><html style="height:100%;">
+<head>
+<TITLE>PhOD - Global Drifter Program</TITLE>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="../bin/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../bin/css/phod-homepage.css">
+<link rel="stylesheet" type="text/css" href="../bin/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="../bin/css/phod-homepage-ext.css">
+<link rel="stylesheet" type="text/css" href="../phod_template/phod-template.css">
+<link rel="stylesheet" type="text/css" href="../bin/slick-1.6.0/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="../bin/slick-1.6.0/slick/slick-theme.css">
+<script src="../bin/js/jquery-2.1.4.min.js"></script>
+<script src="../bin/js/imageMapResizer.min.js"></script>
+<script src="../bin/js/bootstrap.js"></script>
+<script src="../bin/js/func.js"></script>
+<script src="../phod_template/phod-template.js"></script>
+<script type="text/javascript" src="../bin/slick-1.6.0/slick/slick.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43827026-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-43827026-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)
+<https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f)>;
+})(window,document,'script','dataLayer','GTM-P3F4WX3');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43827026-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-43827026-1');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f) <https://www.googletagmanager.com/gtm.js?id=%27+i+dl;f.parentNode.insertBefore(j,f)>;
+})(window,document,'script','dataLayer','GTM-P3F4WX3');</script>
+<!-- End Google Tag Manager -->
+
+<style>
+#hd_map-layer {
+background-color: #FFFFFF;
+padding-bottom: 70px;
+}
+#hd_intro-layer {
+background-color: #00A5A5;
+}
+#hd_acknowledging-layer {
+background-color: #FFFFFF;
+}
+</style>
+<style>
+    .hline-bottom-short {
+        border-bottom:3px solid #3385AD;
+        width:35%;
+        align:center;
+    }
+</style>
+
+<style>
+.indent {
+width:75%;
+align:center;
+}
+.index-width {
+width:75%
+}
+.index-citation-width {
+width:75%
+}
+</style>
+<style>
+    #gdp-hourly-img img {
+        height: auto;
+        width: 100%;
+        padding-bottom: 20px;
+        margin-left:2.5%
+    }
+    #youtube-img img, {
+        width: 55%;
+    }
+</style>
+
+<script async type='text/javascript' id='_fed_an_ua_tag' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&amp;subagency=NOAA'></script></head>
+
+<body style="height:96%;font-family:'Merriweather Light', 'Times New Roman', serif;" id="body-content">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3F4WX3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Shows fixed header -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3F4WX3"
+height="0" width="0"
+style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<style>
+.tm-menu > ul > li > a {
+  padding: 5px;
+  color: #C7D7FF;
+  padding-left: 7px;
+}
+#tm-navbar-menu {
+  border-top: none;
+  box-shadow: none;
+  font-size: 17px;
+}
+.tm-navbar-search {
+  margin-left: 8px;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  .tm-navbar-search {
+    margin-left: 0px;
+  }
+}
+</style>
+<header id="tm-header-fixed">
+  <nav class="tm-nav-box" style="border:0px;">
+    <div id="tm-header-navbar">
+      <div class="tm-section-boxed">
+        <div id="top-row" class="">
+          <div class="col-sm-2 tm-header-title-logo">
+            <a href="http://www.noaa.gov/" alt="N.O.A.A web site"><img src="../bin/images/noaa_icon.png" style="height:92px;" alt="N.O.A.A web site"></img></a>
+          </div>
+          <div class="col-sm-8">
+            <div class="row tm-header-top">
+              <h3>National Oceanic and Atmospheric Administration</h3>
+            </div>
+            <div class="row tm-header-top">
+              <h3>Atlantic Oceanographic and Meteorological Laboratory</h3>
+            </div>
+            <div class="row tm-header-top">
+              <h4>Physical Oceanography Division (PhOD)</h4>
+            </div>
+          </div>
+          <div class="col-sm-2 tm-header-title-logo">
+            <a href="http://www.aoml.noaa.gov/" alt="A.O.M.L web site"><img src="../bin/images/aoml_icon.png" style="height:103px;" alt="A.O.M.L web site"></img></a>
+          </div>
+        </div>
+      </div>
+      <div class="row tm-section-boxed tm-section-header">
+        <div class="col-lg-2" id="tm-logos">
+          <a href="http://www.noaa.gov/" alt="N.O.A.A"><img src="../bin/images/noaa_icon.png" style="height:50px;" alt="N.O.A.A"></img></a>
+          <a href="http://www.aoml.noaa.gov/" alt="A.O.M.L"><img src="../bin/images/aoml_icon.png" style="height:57px;" alt="A.O.M.L"></img></a>
+        </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tm-navbar-menu"  id="navbar-menu-collapse-button">
+          <div id="tm-navbar-menu-word">
+            <b>Menu</b>
+          </div>
+          <div style="padding-left: 10px">
+            <span class="icon-bar tm-collapse-menu-icon-bars"></span>
+            <span class="icon-bar tm-collapse-menu-icon-bars"></span>
+            <span class="icon-bar tm-collapse-menu-icon-bars"></span>
+          </div>
+        </button>
+        <div class="col-lg-10 tm-menu collapse navbar-collapse" id="tm-navbar-menu">
+<ul class="nav navbar-nav" style="padding-left:inherit;">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle tm-menu-btn" data-toggle="dropdown" role="button" style="background-color:#014A7D;">
+      NOAA
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu tm-dropdown-menu-bg-color tm-dropdown-menu-font">
+      <li><a href="http://www.noaa.gov/">National Oceanic and <br />Atmospheric Administration (NOAA)</a></li>
+      <li><a href="http://research.noaa.gov/">NOAA Oceanic and <br />Atmospheric Research (OAR)</a></li>
+      <li><a href="http://www.aoml.noaa.gov/">Atlantic Oceanographic and <br />Meteorological Laboratory (AOML)</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="http://www.noaa.gov/our-mission-and-vision">NOAA&#39;S MISSION</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="http://cimas.rsmas.miami.edu/">Cooperative Institute for <br />Marine and Atmospheric Studies (CIMAS)</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle tm-menu-btn" data-toggle="dropdown" role="button" style="background-color:#014A7D;">
+      Our Division
+    <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu tm-dropdown-menu-bg-color tm-dropdown-menu-font">
+      <li><a href="../whoweare.php">Who We Are</a></li>
+      <li><a href="../highlights/index.php">Research Highlights</a></li>
+      <li><a href="../docs.php">Publications</a></li>
+      <li><a href="../news/index.php">News</a></li>
+      <li><a href="../videos/index.php">Videos</a></li>
+      <li><a href="../past_seminars.php">Seminars</a></li>
+      <li><a href="../docs/PhOD_programs.pdf">Project Report</a></li>
+      <li><a href="../staff.php">PhOD Staff</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="background-color:#014A7D;">
+      Research
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu tm-dropdown-menu-bg-color tm-dropdown-menu-font">
+      <li><a href="../research/index.php">Research Projects</a></li>
+      <li><a href="../data.php">Satellite Ocean Monitoring</a></li>
+      <li><a href="../instrument_development/index.php">Instrument Development</a></li>
+      <li><a href="../dhos/index.php">Gulf of America Monitoring</a></li>
+      <li><a href="../sfp/index.php">Ecosystem Monitoring</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle tm-menu-btn" data-toggle="dropdown" role="button" style="background-color:#014A7D;">
+      Ocean Observations
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu tm-dropdown-menu-bg-color tm-dropdown-menu-font">
+      <li><a href="../soto/index.php">State Of The Ocean Observing System</a></li>
+      <li><a href="../goos/xbt_network/">XBT Network</a></li>
+      <li><a href="../argo/index.php">Argo Center</a></li>
+      <li><a href="../gdp/">Global Drifter Program</a></li>
+      <li><a href="../pne/index.php">PIRATA Northeast Extension</a></li>
+      <li><a href="../wbts/">Western Boundary Time Series</a></li>
+      <li><a href="../goos/gliders/index.php">NOAA Hurricane Gliders</a></li>
+      <li><a href="../tsg/">Thermosalinograph</a></li>
+      <li><a href="../research/moc/samoc/">South Atlantic Meridional <br />Overturning Circulation (SAMOC)</a></li>
+      <li><a href="../SAMOC_international/">SAMOC International</a></li>
+      <li><a href="../sargassum_inundation_report/">Sargassum Inundation Report</a></li>
+      <li><a href="../float_traj/">Subsurface Float Trajectories</a></li>
+      <li><a href="../gom/">Gulf of America</a></li>
+    </ul>
+  </li>
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle menu-btn" data-toggle="dropdown" role="button" style="background-color:#014A7D;">
+	  Global Drifter Program
+	  <b class="caret"></b>
+	</a>
+        <ul class="dropdown-menu dropdown-menu-bg-color dropdown-menu-font">
+
+        <li role="separator" class="divider"></li>
+        <li><a href=../gdp/index.php>GDP Home</a>
+         </li>
+
+         <li role="separator" class="divider"></li>
+         <li class="dropdown-submenu">
+           <a tabindex="-1" href="#">Information</a>
+             <ul class="dropdown-menu dropdown-menu-bg-color">
+               	<li><a tabindex="-1" href=../gdp/objectives.php>Program Objectives
+        </a></li>
+	<li><a tabindex="-1" href=../gdp/science.php>Scientific Goals
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/operational_partners.php>Operational Partners
+        </a></li>
+    <li><a tabindex="-1" target="_blank" href=../gdp/images/Baro_Upgrade_Brochure.pdf>Barometer Upgrade Program
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/outreach.php>Outreach Activities
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/deployment_instructions.php>Drifter Deployment <br> Instructions
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/manufacturers.php>Drifter Manufacturers
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/bib/bibliography_chronological.php>Drifter Bibliography
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/docs.php>Documents
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/faq.php>FAQ's
+        </a></li>
+             </ul>
+         </li>
+
+         <li role="separator" class="divider"></li>
+         <li class="dropdown-submenu">
+           <a tabindex="-1" href="/phod/gdp/data.php">Data</a>
+             <ul class="dropdown-menu dropdown-menu-bg-color">
+                   <li><a tabindex="-1" href=../gdp/real-time_data.php>Real-Time Data
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/hourly_data.php>Hourly Interpolated Dataset
+        </a></li>
+	<li><a tabindex="-1" href=../gdp/interpolated/data/all.php>Six-Hourly Interpolated Database
+        </a></li>
+    <li class="dropdown-submenu">
+        <a tabindex="-1" href=https://www.aoml.noaa.gov/phod/gdp/erddap/index.php>ERDDAP&trade;</a>
+          <ul class="dropdown-menu dropdown-menu-bg-color">
+                    <li><a tabindex="-1" href=../gdp/erddap/metrics/index.php>Metrics Dashboard
+        </a></li>
+
+           </ul>
+    </li>
+    <li><a tabindex="-1" href=../gdp/data_faq.php>Data FAQ's
+        </a></li>
+             </ul>
+         </li>
+
+         <li role="separator" class="divider"></li>
+         <li class="dropdown-submenu">
+           <a tabindex="-1" href="#">MetaData</a>
+             <ul class="dropdown-menu dropdown-menu-bg-color">
+                   <li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/dac/deployed.html>Drifter Deployment Log
+        </a></li>
+
+    <li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/dac/dirall.html>Quality Controlled Drifter Metadata
+        </a></li>
+
+    <li><a tabindex="-1" href=../dac/drifter_deaths.html>Drifter Death/Aground Probabilities
+        </a></li>
+
+    <li class="dropdown-submenu">
+<a tabindex="-1" href=http://www.aoml.noaa.gov/phod/dac/Drifter_Specifications.html>Drifter Specification Metadata</a>
+       <ul class="dropdown-menu dropdown-menu-bg-color">
+                 <li><a tabindex="-1" href=../dac/Drifter_Specifications.html>HTML
+        </a></li>
+	<li><a tabindex="-1" href=https://www.aoml.noaa.gov/ftp/pub/phod/pazos/deplog/Drifter_Specifications.csv>CSV
+        </a></li>
+       </ul>
+    </li>
+
+    <li class="dropdown-submenu">
+      <a tabindex="-1" href=http://www.aoml.noaa.gov/phod/dac/Barometer_Metadata.html>Barometer Specification Metadata</a>
+       <ul class="dropdown-menu dropdown-menu-bg-color">
+                 <li><a tabindex="-1" href=../dac/Barometer_Metadata.html>HTML
+        </a></li>
+	<li><a tabindex="-1" href=https://www.aoml.noaa.gov/ftp/phod/pazos/deplog/Barometer_Metadata.csv>CSV
+        </a></li>
+       </ul>
+    </li>
+
+    <li class="dropdown-submenu">
+      <a tabindex="-1" href=http://www.aoml.noaa.gov/phod/dac/Drogue_Specifications.html>Drogue Specification Metadata</a>
+       <ul class="dropdown-menu dropdown-menu-bg-color">
+                 <li><a tabindex="-1" href=../dac/Drogue_Specifications.html>HTML
+        </a></li>
+	<li><a tabindex="-1" href=https://www.aoml.noaa.gov/ftp/pub/phod/pazos/deplog/Drogue_Specifications.csv>CSV
+        </a></li>
+       </ul>
+    </li>
+             </ul>
+         </li>
+
+         <li role="separator" class="divider"></li>
+         <li class="dropdown-submenu">
+           <a tabindex="-1" href="#">Products & Maps</a>
+             <ul class="dropdown-menu dropdown-menu-bg-color">
+               
+    <li class="dropdown-submenu">
+	  <a tabindex="-1" href="#">Maps</a>
+       <ul class="dropdown-menu dropdown-menu-bg-color">
+             <li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/graphics/dacdata/globpop_countries.gif>Array Map - Partners
+        </a></li>
+	<li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/graphics/dacdata/globpop.gif>Array Map - Drifter Types
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/ge_array.php>Array Map - Google Earth
+        </a></li>
+    <li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/graphics/dacdata/droguestatus.gif>Array Map - Drogue Status
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/images/eval_array.png>Array Evaluation
+        </a></li>
+
+    <li><a tabindex="-1" href=http://www.aoml.noaa.gov/phod/graphics/dacdata/forecast90d.gif>90 Day Forecast
+        </a></li>
+    <li><a tabindex="-1" href=../gdp/maps_reports_archive.php>Maps & Reports Archive
+        </a></li>
+    <li class="dropdown-submenu">
+        <a tabindex="-1" href=../gdp/value_maps.php>Deployment Value Maps
+          <ul class="dropdown-menu dropdown-menu-bg-color">
+                 <li><a tabindex="-1" href=../gdp/value_maps.php>Value Maps Home
+        </a></li>
+	<li><a tabindex="-1" href=../dac/Globe.jpeg>Globe
+        </a></li>
+    <li><a tabindex="-1" href=../dac/Arctic.jpeg>Arctic
+        </a></li>
+    <li><a tabindex="-1" href=../dac/NorthAtlantic.jpeg>North Atlantic
+        </a></li>
+    <li><a tabindex="-1" href=../dac/TropicalAtlantic.jpeg>Tropical Atlantic
+        </a></li>
+    <li><a tabindex="-1" href=../dac/SouthAtlantic.jpeg>South Atlantic
+        </a></li>
+    <li><a tabindex="-1" href=../dac/Indian.jpeg>Indian
+        </a></li>
+    <li><a tabindex="-1" href=../dac/NorthPacific.jpeg>North Pacific
+        </a></li>
+    <li><a tabindex="-1" href=../dac/EquatorialPacific.jpeg>Equatorial Pacific
+        </a></li>
+    <li><a tabindex="-1" href=../dac/SouthPacific.jpeg>South Pacific
+        </a></li>
+            </ul>
+
+
+
+
+
+       </ul>
+    </li>
+    <li><a tabindex="-1" href=../gdp/animations.php>Animations
+    </a></li>
+    <li><a tabindex="-1" href=../gdp/derived_pathways.php>Drifter-derived Pathways
+    </a></li>
+    <li><a tabindex="-1" href="http://www.aoml.noaa.gov/phod/gdp/loopers.php">Looper Trajectories
+    </a></li>
+    </li>
+    <li><a tabindex="-1" href=../gdp/mean_velocity.php>Mean Velocity Climatology
+       </a></li>
+    <li><a tabindex="-1" href="http://www.aoml.noaa.gov/phod/gdp/weeklyupdate.php">Weekly Status Array Update
+    </a></li>
+    </li>
+    <li><a tabindex="-1" href=../gdp/deployment_submission.php>Deployment <br> Submission Form
+        </a></li>
+             </ul>
+         </li>
+
+         <li role="separator" class="divider"></li>
+         <li><a href=../gdp/contacts.php>Contact</a></li>
+	</ul>
+</li>
+  <div style="float:left;padding:5px;">
+    <div class="tm-menu-search-bar" onKeyPress="return checkSubmit(event)">
+      <form name="search-text" id="search-text" method="post" action="../search_phod.php">
+        <input id="query1" name="query1" placeholder="quick search ..." type="text" class="tm-navbar-input tm-navbar-search">
+      </form>
+    </div>
+    <div class="tm-menu-search-bar">
+      <form name="search-select" id="search-select" method="post" action="../search_phod.php">
+        <select class="tm-navbar-input" id="query2" name="query2" onchange="this.form.submit()" style="margin-left:10px;padding:6px;-webkit-appearance:none;-moz-appearance:none;appearance:none;">
+          <option value="">Popular topics...</option>
+          <option value="Florida Current">Florida Current</option>
+          <option value="Meridional Overturning Circulation">Meridional Overturning Circulation</option>
+          <option value="Satellite Altimetry">Satellite Altimetry</option>
+          <option value="Argo">Argo</option>
+          <option value="Drifters">Drifters</option>
+          <option value="PIRATA Array">PIRATA Array</option>
+          <option value="ENSO">ENSO</option>
+          <option value="Climate change">Climate Change</option>
+          <option value="Hurricanes">Hurricanes</option>
+          <option value="Modelling">Modelling</option>
+          <option value="XBT">XBT</option>
+          <option value="TIWs">TIWs</option>
+          <option value="gliders">NOAA Hurricane Gliders</option>
+          <option value="Monitoring the Gulf of America Conditions">Monitoring the Gulf of America Conditions</option>
+          <option value="Gulf of America Regional Satellite Products">Gulf of America Regional Satellite Products</option>
+        </select>
+      </form>
+    </div>
+  </div>
+</ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Shows blue row -->
+<div class="clearfix phod-home-layer" id="common_background-color1">
+<div class="container">
+<div class="row common12_level-row-padding">
+</div>
+</div>
+</div>
+
+<!-- Hourly Data -->
+<p></p>
+<div class="clearfix phod-home-layer">
+    <div class="container index-width">
+        <div class="phod-home-layer-title-even hline-bottom">
+            <h2 style="text-align:center;">Hourly Drifter Data</h2>
+        </div>
+        <div>
+            <div class="layer-box-video slick-slider-info-blurb">
+                <div class="layer-box-video slick-slider-info-blurb">
+                    <p><br></p>
+                    <center>
+                    <h3>Hourly location, current velocity, and temperature estimated from Global Drifter Program drifters world-wide
+                    </center>
+                    <p><br></p>
+                    <center>
+                    <div id="gdp-hourly-img">
+                        <a target="_blank" href="https://www.aoml.noaa.gov/phod/gdp/images/gdp-hourly.png">
+                        <img src="https://www.aoml.noaa.gov/phod/gdp/images/gdp-hourly.png"></a>
+                    </div>
+                    <div div class="container index-citation-width">
+                        <font size="2.5">
+                        <p><b>Figure caption:</b>Position and SST comparison between the GDP 6-hourly and hourly products for a single drifter. 
+                        The python code to produce this figure is freely available on a <a target="_blank" href="https://github.com/Cloud-Drift/gdp-get-started">
+                            github repository</a> as part of the <a target="_blank" href="https://github.com/Cloud-Drift">Clouddrift project</a>.
+                        </p>
+                    </div>
+                    </center>
+                    <p><br></p>
+                </div>
+                <div align="justify">
+                    <font size="4">
+                    <p></p>
+                    <p style="display:inline;">This dataset includes hourly sea surface temperature and current estimates using data collected by 
+                        satellite-tracked surface drifting buoys ("drifters") of the NOAA Global Drifter Program. The Drifter Data Assembly Center (DAC) 
+                        at NOAA’s Atlantic Oceanographic and Meteorological Laboratory (AOML) has applied quality control procedures and processing 
+                        to edit these observational data and obtain estimates at regular hourly intervals. The data include positions (latitude and 
+                        longitude), sea surface temperatures (total, diurnal, and non-diurnal components) and velocities (eastward, northward) with 
+                        accompanying uncertainty estimates. Metadata include identification numbers, experiment number, start location and time, end 
+                        location and time, drogue loss date, death code, manufacturer, and drifter type.
+                    </p>
+                    <p><br></p>
+                </div>
+                <div align="justify">
+                    <font size="4">
+                    <p></p>
+                    <p style="display:inline;">Two papers describe how these dataset were derived: 
+                    </p><br>
+                    <p style="display:inline;"><a target="_blank" href="https://www.aoml.noaa.gov/phod/gdp/papers/Elipot_et_al-2016.pdf">Elipot et al. 2016</a> 
+                        (for position and velocity) and </p><br>
+                    <p style="display:inline;"><a target="_blank" href="https://www.nature.com/articles/s41597-022-01670-2">Elipot et al. 2022</a> 
+                        (for sea surface temperature). </p>
+                    <p></br></p>
+                    <p style="display:inline;">Please see below for release notes, how to access data, and how to cite this dataset.</p>
+                    <!--<p><br></p>
+                    <center>
+                    <a target="_blank" href="https://www.aoml.noaa.gov/phod/gdp/images/figure17.jpg">
+                    <img src="https://www.aoml.noaa.gov/phod/gdp/images/figure17.jpg" height="475" width="350">
+                    </a>
+                    <div div class="container index-citation-width">
+                        <font size="2.5">
+                        <p><b>Figure caption:</b> Adapted from Elipot et al. (2022): Top panel: Spatial distribution of total SST estimates of dataset version 2.00 
+                            expressed as a density per (50 km)2 in half- degree spatial bins. Bottom panel: temporal distributions of position and velocity, 
+                            total SST (sm), and diurnal SST (sD) estimates in 10-day bins from 03-Oct-1987 13:00:00 to 30-Jun-2020 23:00:00.
+                        </p>
+                    </div>-->
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shows blue row -->
+<div class="clearfix phod-home-layer">
+    <div class="container hline-bottom-short">
+    </div>
+</div>
+
+<div class="clearfix phod-home-layer">
+        <div class="container index-width">
+            <center>
+                <h3><b><u>Data Access</u></b></h3>
+            </center>
+            <div align="justify">
+                <font size="4">
+                <p><br></p>
+                <p><b>Hourly Data via GDP ERDDAP</b></p>
+                <ul>
+                    <li>Advanced queries, like getting data in a desired format (i.e., ASCII, NetCDF, Matlab, etc.), 
+                        selecting specific drifters, isolating drifter data within a particular time period and/or region are made possible using the 
+                        <a target="_blank" href="https://erddap.aoml.noaa.gov/gdp/erddap/tabledap/drifter_hourly_qc.html"> AOML Hourly GDP ERDDAP</a>.
+                            For written instructions how to navigate the ERDDAP server, establish machine to machine (m2m) requests, and customize your data request, 
+                            reference the <a target="_blank" href="https://www.aoml.noaa.gov/phod/gdp/images/ERDDAP_Hourly_Interpolated_Data.pdf"> 
+                            Hourly Interplated Data Request Instructions</a>. For additional resources and step-by-step guidance, visit the <a target="_blank" 
+                            href="https://youtu.be/nf1l267870g?feature=shared">AOML GDP ERDDAP Tutorial</a> on <a target="_blank" href="https://youtu.be/nf1l267870g?feature=shared"> 
+                        <img src="https://www.aoml.noaa.gov/phod/gdp/images/youtube_thumb.jpeg"></a></li>
+
+                        <p></p>
+                    <li>To plot and view quality controlled interpolated data from a specific drifter or a batch of drifters spanning a
+                        particular time period and/or region, visit the <a target="_blank" 
+                        href="https://erddap.aoml.noaa.gov/gdp/erddap/tabledap/drifter_hourly_qc.graph"> Hourly Interpolated Data Graphing 
+                        ERDDAP</a> and follow the <a target="_blank" 
+                        href="http://www.aoml.noaa.gov/phod/gdp/images/ERDDAP_Interpolated_Graphing.pdf"> Hourly Interpolated Data Graphing 
+                        Instructions</a>, or visit the <a target="_blank" href="https://youtu.be/nf1l267870g?feature=shared">AOML GDP ERDDAP Tutorial</a> 
+                        on YouTube.</li>
+                    <!--li>For more advanced queries, like getting data in a desired format (i.e., ASCII, NetCDF, Matlab, etc.), selecting specific drifters, isolating drifter data within a particular time period and/or region, follow these <a target="_blank" href="http://www.aoml.noaa.gov/phod/gdp/images/ERDDAP_Interpolated_Data.pdf"> Interpolated Data Request Instructions</a> and enter the parameters of interest at the <a target="_blank" href="http://osmc.noaa.gov/erddap/tabledap/gdp_interpolated_drifter.html"> OSMC Interpolated Data ERDDAP</a> server.</li>
+                        <p></p>
+                    <li>To plot and view quality controlled interpolated data from a specific drifter or a batch of drifters spanning a particular time period and/or region, follow these <a target="_blank" href="http://www.aoml.noaa.gov/phod/gdp/images/ERDDAP_Interpolated_Graphing.pdf"> Interpolated Data Graphing Instructions</a> and enter the parameters of interest at the <a target="_blank" href="http://osmc.noaa.gov/erddap/tabledap/gdp_interpolated_drifter.graph"> OSMC Interpolated Data Graphing ERDDAP</a> server.</li-->
+                </ul>
+                <p><br></p>
+                <p><b>Hourly Data via NOAA NCEI</b></p>
+                <ul>
+                    <li>The hourly dataset is officially available from NOAA NCEI at <a target="_blank" 
+                    href="https://doi.org/10.25921/x46c-3620"> https://doi.org/10.25921/x46c-3620</a>. After accessing this page, 
+                    click on the "Granule Search" to be directed to a new page where you will be able to select your download option (FTP or HTTPS).
+                    Alternatively, click on this <a target="_blank" href="https://www.ncei.noaa.gov/data/oceans/archive/arc0199/0248584/2.2/data/0-data/gdp_hourly.nc"> link</a>
+                    to download the latest NetCDF file directly.</li>
+                </ul>
+                <p><br></p>
+                <p><b>Hourly Data via Amazon Web Services (AWS)</b></p>
+                <ul>
+                    <li>In partnership with Dr. Shane Elipot (Univ. of Miami) and NOAA’s Open Data Dissemination Project, the 
+                        hourly drifter dataset is available on the <a target="_blank" href="https://registry.opendata.aws/noaa-oar-hourly-gdp/">
+                        Registry of Open Data on the AWS cloud</a> as a S3 bucket.</li>
+                    <li>After accessing this page, on the right side, under "Explore", click on the "Browse Bucket" <a target="_blank" 
+                        href="https://noaa-oar-hourly-gdp-pds.s3.amazonaws.com/index.html">link</a>. The dataset can be downloaded from this bucket
+                        in various format (NetCDF, zarr, parquet, etc.) but it can also be opened "lazily" without downloading the data for cloud access
+                        and computing. An example of how to do this with python and xarray is provided in this <a target="_blank" 
+                        href="https://github.com/Cloud-Drift/gdp-get-started"> Jupyter notebook on Github</a>.</li>
+                </ul>
+                <p><br></p>
+                <p><b>Alternative ways of accessing earlier dataset version/releases:</b></p>
+                <ul>
+                    <li>The previous versions (releases) of the dataset are also available in various formats 
+                    (Matlab and NetCDF) at <a target="_blank" href="ftp://ftp.aoml.noaa.gov/phod/pub/buoydata/hourly_product/"> 
+                    ftp://ftp.aoml.noaa.gov/phod/pub/buoydata/hourly_product/</a>.</li>
+                </ul>
+                <p><br></p>
+                <p><b>Data Resource:</b></p>
+                <ul>
+                    <li>In order to get you started with this hourly dataset, utilize this <a target="_blank" 
+                    href="https://github.com/Cloud-Drift/gdp-get-started">Jupyter Notebook on GitHub</a> that shows a couple of simple examples 
+                    on how to use these data. These tools are courtesy of <a href="mailto:selipot@miami.edu">Shane Elipot's</a> <a target="_blank" 
+                        href="https://cloud-drift.github.io/clouddrift/">CloudDrift</a> project.</li>
+                </ul>
+                </font>
+            </div>
+        </div>
+    </div>
+</div>
+<p></p>
+<p></p>
+
+<!-- Shows blue row -->
+<div class="clearfix phod-home-layer">
+    <div class="container hline-bottom-short">
+    </div>
+</div>
+
+<div class="clearfix phod-home-layer">
+        <div class="container index-width">
+            <center>
+                <h3><b><u>Citations</u></b></h3>
+            </center>
+            <div align="justify">
+                <font size="4">
+                <p style="display:inline;">When using this dataset in your studies or publications, please use the following citation:
+                </p>
+                <p><br></p>
+                <p style="display:inline;"><a table="_blank" href="https://doi.org/10.25921/x46c-3620">Elipot, Shane; Sykulski, Adam; 
+                    Lumpkin, Rick; Centurioni, Luca; Pazos, Mayra (2022). <i>Hourly location, current velocity, and temperature collected 
+                    from Global Drifter Program drifters world-wide</a>.</i>[indicate subset used]. NOAA National Centers for Environmental 
+                    Information. Dataset. https://doi.org/10.25921/x46c-3620. Accessed [date].
+                </p>
+                <p><br></p>
+                <p style="display:inline;">Additionally, we would be very grateful if you could cite the papers describing how the dataset were derived. 
+                    If you use the dataset of position and velocity, please cite: 
+                </p>
+                <p><br></p>
+                <p style="display:inline;"><a table="_blank" href="https://dx.doi.org/10.1002/2016JC011716">Elipot, S., R. Lumpkin, 
+                    R. C. Perez, J. M. Lilly, J. J. Early, and A. M. Sykulski (2016), <i>A global surface drifter dataset at hourly resolution</i>,  
+                    J. Geophys. Res. Oceans, 121, doi:10.1002/2016JC011716</a>.
+                </p>
+                <p><br></p>
+                <p style="display:inline;">And if you use the dataset of sea surface temperature, please cite:
+                </p>
+                <p><br></p>
+                <p style="display:inline;"><a table="_blank" href="https://dx.doi.org/10.1038/s41597-022-01670-2"> Elipot, S., A. Sykulski, 
+                    R. Lumpkin, L. Centurioni, and M. Pazos (2022), <i>A Dataset of Hourly Sea Surface Temperature From Drifting Buoys</i>, 
+                    Scientific Data, 9, 567, doi:10.1038/s41597-022-01670-2</a>.
+                </p>
+                <p></p>
+                </font>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shows blue row -->
+<div class="clearfix phod-home-layer">
+    <div class="container hline-bottom-short">
+    </div>
+</div>
+
+<div class="clearfix phod-home-layer">
+        <div class="container index-width">
+            <center>
+                <h3><b><u>Release Notes</u></b></h3>
+            </center>
+            <div align="justify">
+                <font size="4">
+                <p><br></p>
+                <p><b>Release notes for version 2.01.1</b>
+                <ul>
+                    <li>This release corrects the data variable “location_type” which was erroneously set to “True" for all drifters in version 2.01. 
+                        The “location_type” is a boolean variable that is “True" if a drifter’s position is tracked by GPS and “False" if is tracked 
+                        by Argos. All other data variables remain unchanged.</li>
+                </ul></br>
+                <p><b>Release notes for version 2.01, September 2023:</b>
+                <ul>
+                    <li>Adds new position, velocity, and SST-related variable estimates to previous version 2.00.</li>
+                    <li>This version adds data from drifters that were still alive at the cut-off date of v2.00 (30-Jun-2020 23:00:00) and data from 
+                        recently released individual drifters that generated data after that date. This version now includes 197,214,787 estimates of 
+                        position and velocity derived following the method described in Elipot et al. 2016 and SST (and related variables) from the 
+                        methods described in Elipot et al. 2022. The new dataset spans 03-Oct-1987 13:00:00 to October 31 2022 23:00:00. </li>
+                    <li>Please note that because of the methods employed to process the data of each drifter trajectory, the variable estimates in 
+                        v2.01 for the living drifters at the previous cut-off date will differ slightly from the estimates in v2.00.</li>
+                    <li>Some new variables have been added: start_date, start_lon, and start_lat that indicate the date and time and longitude and 
+                        latitude of the first good observational data point as determined by the quality-control procedure of the GDP DAC at AOML. 
+                        Note that these data differ from the deploy_date, deploy_lon, and deploy_lat data that correspond to the coordinates recorded 
+                        at sea by the operator who deployed the drifter. In addition, the start_* variables do not necessarily correspond to the 
+                        first estimated hourly data point for each drifter.</li>
+                    <li>An issue with the flagging of SST estimates was discovered in v2.00 and is now fixed in v2.01. As  explained in 
+                        Elipot et al. 2022, a quality flag 1 indicates that the estimation of the SST uncertainty variables has failed and therefore 
+                        that the uncertainty variables (err_sst, err_sst1, err_sst2) should exhibit a _FillValue. Yet, in version 2.00, less than 0.18% 
+                        of the SST estimates with quality flag 1 did exhibit finite uncertainty estimates and therefore were flagged incorrectly. Version 
+                        2.01 corrects this flagging error. The careful reader of Elipot et al. (2022) might ignore the part of the caption of Figure 
+                        7 where it is written that “The two populations […] are flagged with quality flag 1”. That is incorrect: these two populations 
+                        can have any of the flags 3, 4, and 5.</li>
+                    <li>In Elipot et al. 2022, the flagging scheme for diurnal SST is based on the fulfillment of three criteria, denoted (1), (2), 
+                        and (3). As written in the paper, a quality flag 2 should indicate that “none [of these criteria] are fulfilled”. This is 
+                        incorrect and a quality flag 2 actually indicates that “the three criteria are not all fulfilled”. It other words, quality 
+                        flag 5 indicates that criteria (1), (2), and (3) are fulfilled, quality flag 4 indicates that criteria (1) and (2) are fulfilled 
+                        but not (3), quality flag 3 indicates that criteria (1) is fulfilled but neither are (2) and (3), and quality flag 2 indicates 
+                        all other five combinations of fulfillment of the three criteria, including that none are fulfilled.</li>
+                </ul><br>
+                <p></p>
+                <p></p>
+                <p><b>Release notes for earlier versions can be found <a href="https://www.aoml.noaa.gov/phod/gdp/hourly_data_release_notes.php"> here</a>.</b>
+                <p><br></p>
+                </font>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shows blue row -->
+<div class="clearfix phod-home-layer" id="common_background-color1">
+</div>
+
+<!-- Shows footer -->
+<div class="clearfix" id="footer-layer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 col-sm-offset-1">
+        <ul>
+        </ul>
+        <ul>
+          <li><a href="http://www.noaa.gov/privacy.html">Privacy Policy</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://www.noaa.gov/disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

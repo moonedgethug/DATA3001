@@ -1,0 +1,15 @@
+{
+  "id": 9825497,
+  "split": "train",
+  "days": 7,
+  "scenario": "pooled",
+  "population": "R",
+  "tolerance_hours": 0,
+  "candidates": 399,
+  "eligible": {
+    "endpoint": 231,
+    "stopped": 231
+  },
+  "forecast_accuracy_evaluated": false,
+  "run_id": "migration-smoke-pooled-20261014"
+}
