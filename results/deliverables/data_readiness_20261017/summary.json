@@ -1,0 +1,740 @@
+{
+  "passed": true,
+  "dataset_release": "per-drifter-cleaned-20261017-v7",
+  "dataset_manifest_sha256": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "development_R_IDs": 396,
+  "qualified_position_origins": 318061,
+  "final_test_accessed": false,
+  "fitted_model": false,
+  "forecast_accuracy_evaluated": false,
+  "overall_support": [
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 308312,
+      "independent_IDs": 387
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 303288,
+      "independent_IDs": 385
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 178082,
+      "independent_IDs": 253
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 175652,
+      "independent_IDs": 251
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 122123,
+      "independent_IDs": 157
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 119671,
+      "independent_IDs": 157
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 287004,
+      "independent_IDs": 358
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 268998,
+      "independent_IDs": 337
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 155188,
+      "independent_IDs": 226
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 145821,
+      "independent_IDs": 213
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 116505,
+      "independent_IDs": 142
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 109148,
+      "independent_IDs": 133
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 116068,
+      "independent_IDs": 154
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 91265,
+      "independent_IDs": 106
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 12372,
+      "independent_IDs": 23
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 9827,
+      "independent_IDs": 15
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": "all",
+      "eligible_pairs": 55521,
+      "independent_IDs": 73
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": "all",
+      "eligible_pairs": 42913,
+      "independent_IDs": 53
+    }
+  ],
+  "seasonal_support": [
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 72314,
+      "independent_IDs": 147
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 52327,
+      "independent_IDs": 125
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 86405,
+      "independent_IDs": 160
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 97266,
+      "independent_IDs": 179
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 71493,
+      "independent_IDs": 145
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 49814,
+      "independent_IDs": 122
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 85406,
+      "independent_IDs": 159
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 96575,
+      "independent_IDs": 179
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 33374,
+      "independent_IDs": 81
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 24464,
+      "independent_IDs": 74
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 66206,
+      "independent_IDs": 105
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 54038,
+      "independent_IDs": 109
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 32735,
+      "independent_IDs": 79
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 23698,
+      "independent_IDs": 71
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 65567,
+      "independent_IDs": 105
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 53652,
+      "independent_IDs": 109
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 37210,
+      "independent_IDs": 67
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 26299,
+      "independent_IDs": 57
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 18448,
+      "independent_IDs": 57
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 40166,
+      "independent_IDs": 76
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 37159,
+      "independent_IDs": 67
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 24552,
+      "independent_IDs": 56
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 18088,
+      "independent_IDs": 56
+    },
+    {
+      "horizon_days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 39872,
+      "independent_IDs": 76
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 63020,
+      "independent_IDs": 135
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 50184,
+      "independent_IDs": 115
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 83266,
+      "independent_IDs": 153
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 90534,
+      "independent_IDs": 164
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 59936,
+      "independent_IDs": 123
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 42766,
+      "independent_IDs": 104
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 78839,
+      "independent_IDs": 147
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 87457,
+      "independent_IDs": 162
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 23561,
+      "independent_IDs": 68
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 21440,
+      "independent_IDs": 63
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 62298,
+      "independent_IDs": 99
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 47889,
+      "independent_IDs": 97
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 22134,
+      "independent_IDs": 65
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 17747,
+      "independent_IDs": 54
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 59314,
+      "independent_IDs": 95
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 46626,
+      "independent_IDs": 96
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 36480,
+      "independent_IDs": 66
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 25679,
+      "independent_IDs": 52
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 17485,
+      "independent_IDs": 51
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 36861,
+      "independent_IDs": 69
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 35462,
+      "independent_IDs": 60
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 22135,
+      "independent_IDs": 48
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 16493,
+      "independent_IDs": 48
+    },
+    {
+      "horizon_days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 35058,
+      "independent_IDs": 68
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 28193,
+      "independent_IDs": 57
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 18702,
+      "independent_IDs": 48
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 34873,
+      "independent_IDs": 62
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 34300,
+      "independent_IDs": 73
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 22724,
+      "independent_IDs": 38
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 12345,
+      "independent_IDs": 30
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 28557,
+      "independent_IDs": 48
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 27639,
+      "independent_IDs": 57
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 818,
+      "independent_IDs": 5
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 2409,
+      "independent_IDs": 7
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 6430,
+      "independent_IDs": 15
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 2715,
+      "independent_IDs": 7
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 635,
+      "independent_IDs": 4
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 1109,
+      "independent_IDs": 3
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 5636,
+      "independent_IDs": 11
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 2447,
+      "independent_IDs": 5
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 0,
+      "eligible_pairs": 19848,
+      "independent_IDs": 36
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 1,
+      "eligible_pairs": 8512,
+      "independent_IDs": 20
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 2,
+      "eligible_pairs": 8903,
+      "independent_IDs": 19
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "season": 3,
+      "eligible_pairs": 18258,
+      "independent_IDs": 41
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 0,
+      "eligible_pairs": 17414,
+      "independent_IDs": 25
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 1,
+      "eligible_pairs": 5668,
+      "independent_IDs": 14
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 2,
+      "eligible_pairs": 6791,
+      "independent_IDs": 16
+    },
+    {
+      "horizon_days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "season": 3,
+      "eligible_pairs": 13040,
+      "independent_IDs": 32
+    }
+  ],
+  "limitations": [
+    "Counts establish eligible observations, not forecast accuracy.",
+    "Overlapping hourly origins are dependent; independent ID counts are reported.",
+    "Depth policy DEPTH-01 and the model-stage validation protocol remain to be settled."
+  ]
+}

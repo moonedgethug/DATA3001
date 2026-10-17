@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "representative_development_IDs": [
+    139080,
+    9825497,
+    17503
+  ],
+  "horizons": [
+    7,
+    30,
+    365
+  ],
+  "scenarios": [
+    "pooled",
+    "drogued",
+    "undrogued"
+  ],
+  "endpoint_and_stopped_label_rows_compared": 156024,
+  "labels_columns_and_values_exactly_unchanged": true,
+  "normal_reader_columns": 62,
+  "no_deleted_fields_reintroduced": true,
+  "final_test_guard_unchanged": true,
+  "no_test_scoring_or_training": true
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "release": "per-drifter-20261016-v1",
+  "archived_files_preserved": 52383,
+  "archived_bytes_preserved": 15560595003,
+  "IDs": 3741,
+  "rows": 39107061,
+  "fields_per_ID": 130,
+  "native_source_fields_preserved": 62,
+  "current_prepared_fields_preserved": 67,
+  "pools": {
+    "train": 3224,
+    "test": 517
+  },
+  "regime_counts": {
+    "-1": 496247,
+    "0": 19342607,
+    "1": 19268207
+  },
+  "unknown_reasons": {
+    "uncertain_from_start": 495555,
+    "beyond_attached_evidence": 683,
+    "unresolved_boundary": 9
+  },
+  "all_hourly_values_and_metadata_independently_equal": true,
+  "all_original_missingness_preserved": true,
+  "paired_label_fingerprints_equal": 300,
+  "scientific_rules_unchanged": true,
+  "source_contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "forecast_accuracy_evaluated": false,
+  "old_support_tables": "retained as historical; not silently promoted to current",
+  "elapsed_seconds": 272.48280600004364
+}

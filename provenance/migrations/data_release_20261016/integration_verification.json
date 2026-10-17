@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "catalog_assets_checked": 66,
+  "development_IDs": 3224,
+  "final_test_IDs": 517,
+  "R_development_IDs": 396,
+  "R_final_test_IDs": 67,
+  "smoke_ID": 22165,
+  "smoke_shape": [
+    2317,
+    130
+  ],
+  "smoke_candidates": 458,
+  "smoke_endpoint_eligible": 290,
+  "smoke_stopped_eligible": 290,
+  "release_aware_receipt_verified": true,
+  "default_final_test_read_refused": true,
+  "contract_hash_unchanged": true
+}

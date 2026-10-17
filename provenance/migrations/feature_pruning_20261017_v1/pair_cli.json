@@ -1,0 +1,14 @@
+{
+  "id": 139080,
+  "split": "validation",
+  "days": 7,
+  "scenario": "drogued",
+  "population": "R",
+  "tolerance_hours": 0,
+  "candidates": 8153,
+  "eligible": {
+    "endpoint": 2042,
+    "stopped": 2042
+  },
+  "forecast_accuracy_evaluated": false
+}

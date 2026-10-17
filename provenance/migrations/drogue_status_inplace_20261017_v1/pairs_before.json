@@ -1,0 +1,1631 @@
+{
+  "IDs": [
+    17503,
+    22165,
+    300234068242460,
+    9423788,
+    132499
+  ],
+  "records": [
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "395bc9c68a226080c439f561e0bb5fb577df97309964e48dc307731014d96b5a"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "223a23f43a4a2247173a6663a17c0a42ca8dca319487817bde61c827b8da0134"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "9f5988b4ee49d7ed1452d773b57405e0052ea2b5e5f9bd0d3fc9b18603cc3c16"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "eba3867acd4168906c2b30d82302270615bb7058903f96b5536838dac1bdf7a7"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "8fa1777a5874fe03766727bdfe79525d6c42c5702f970eaee230170d9152109b"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "1493c421733fe6fe7b308a10cf428d0f47b669bc7224ebe370dc94e879990080"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "0f6b2e70b933b23afe41c8eb84a5560593562032fb1d1758db33be0c2285d731"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "61c336da9cdf82120aec87b5851a63b789dff9b8f8374a6d6fefcd7663d6d5ce"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "7563ff43dbcb490126a4074e06dc9b5d2ba228df92bc95e9a07d52e64457b09d"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "a0b5021ac98b5c9ef20b085cf809ca343dd0973eff3e35613f429c77f76e6727"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "f00ea0d7431def0c4ec88534c75c25122f7916cb4b424a5f9c6c5760e936971b"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "500a56917f5bbadb54735891dc7c94f78458e814591be5fd7e4b9b5d05171cf4"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "e665852add5163216cf5fcafbd0a1798a7d7a0e037f6409b9a16801289957020"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "f1e6852d8abc5ff5c8e1e8af9192b27b2cf8e1d3cdeda1d5e1dc7088586c18b4"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "af8ddf8e77f1b3cc0c4645101136398f108947d573341f1decc8a232161036b2"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "26d861449bc453af6414da5d9f686032152a79ec33a893209a4098e415b5752d"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 116,
+      "sha256": "89184b6ecd17af6a96b24ee34dc44e087886517155f0cdb053d55f8db57594c5"
+    },
+    {
+      "id": 17503,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 116,
+      "sha256": "4d697a85021c7e52042946e75cd6c17af7aad009da6a579d2240409b80694b41"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "ddc98108867c1fe1303cada82bcd93d3c85e1d82d96f002d2111396609e9274e"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "8e2650a049e80714012e1ddd66b43349b178f7e98d6c6234ec435a1e80ec923f"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "0fd68d1a83e3a39b4d79e4ceed8e3edbaae8dfb56bf33d5f6f92d2f246713f61"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "3321a8bbbc446c1916293bc20f9d4140bc003b1c9e346ec1c82b0929020ad1e4"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "db1f286958facb78ca849bd83e011ae971725b05c2419aa6db78bcb5ba34e8c4"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "f6b56251b77783c7db7f5b39bd578f15e411ece64fd31fd3d1dc7c76743f05ec"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "28aaf68f4063823cb5d6197fdd7f89be0306c6c42f488427f8c596400ffd3a0e"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "6eafe29c44ed437f922c972599e7e1f1752cde0bfe1668cfddc05af2b058ee25"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "c43c174fade2f4819a7f7035e13c222ea66257412ec9bd0f333fb16ac9293213"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "5e0a79c07c3594b536c0041b027a837842284c6700e23dfe837e80284af2526f"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "f3587960e9c6c8b3d298da16f249d4afc47a0e06582b47cd720e7d9f2d6d7755"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "199a552a1633a3d8900311adfc026824f6c29808a128c709d6dd03022c91ac81"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "ad6360235c3723f06ae50a13a7cff4d277003661e379174d04e7d606c3961978"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "a5e4466df13640c1f202216429523d449e6b27dae7145c2b01b1bf8771a353f1"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "a943fafc48278b5a00abad5a3b57bc3aeb3d6274539e618c7dedfdde3e3fecd6"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "b67342488212eda4857f95a84b91318cbad2c8110a94f8f7ea8b288089f7b439"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11519,
+      "sha256": "3b5aab79cd752badac7eb5b66d2bbb8fcdc9db7049b06cd780991099508160a9"
+    },
+    {
+      "id": 17503,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11519,
+      "sha256": "8cb7a41d60a01db21202bc1f42e54a102baff4086f9f0d5e1b09d42cd7e8c332"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "74f9cac7549975c96361367461b59f141fc3cc7fc0071f2c62a7695fadd2ca95"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "34e5490bba766bcbcd90fb340edc22da46e6ed806e9e7ef504f4a664d46be29f"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "96505c2105ecff083e26a23abaeb69b745b155f5bb1d815b87fd51b234ec7d7d"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "e935eff04fa49696adf6f69fea5fbb936664d1905b6678432fa3167a651720a6"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "6f1e495b1bf71ed6c161cdceae35d8304e8c177e4542f5311f373f991622d5c1"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "195d9fb83f01fd34a86b99c4b394d9cbdd2f6af859a03d541adbd1a67f752628"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "0409b491a020a2b41b4e1dbe34662eb779f540aaeb34979a78618075ea921ac2"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "a2b98c21df3ea98d88736591e4c243fb6d6929a2c6a6ee54c0337a7d50fc3f09"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "1e1d0cbbd0e15137deb04c4458dcbab27ccd2b717f1ccd7976b8f15bef2f9f2b"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "adf5c0fbf0c0832119e54e8792058ac8de0229435aba8c32c08a95e3bdbe4ace"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "d5a4cf924528de769576799c606c81d2cf9b9d3af5d74f8271ec4be154663339"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "582d425c59ad588534291af9b364530ead69d42d6efda35caf2c15f6da0a8ad6"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "58f93de7267df3fab7af37d72d24dfc736ee3ea7164b27eb283be8ffd3dff040"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "5955b4ee1a99df2d02a9a88f8ee9a10138d84fb4e8e8552ac52e5c9a684c6243"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "f4b9a83d0f2c60977681a649b5839c90f422ada485d6c0f63b960c9b1e6c15e0"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "d0af6346530597b60290b6a82c8b144c6eeaed7db62fd072d28ef8d7223ad146"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 458,
+      "sha256": "ae2d90f42bd2c7b962f4a3f146ac9dbac3bb7b84c907f206701943f12fefde0a"
+    },
+    {
+      "id": 22165,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 458,
+      "sha256": "903cf4e3e598a1fe90d0d0e84b641a96370b5117be035897a54e03f5a3ac35df"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "615cd2692b2d3e1447a1317aa9819be8ff4382de72b6576c475af287a0d444c4"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "e74201e2aceeea59fa8908d470d1c4d981d3ac1780e3fd11e806a61e691c5814"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "c4eec054f91dbe53d2093d7e47d83302c272013d72a4250d3469c4d37f18e39b"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "98b843caa2eeebb9492a79a36e61f9d6341c16819717426936a84135de1d0474"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "bfa44d732f8d1ddc7bc27513dbde365712eb56a7f0d0f5ec54747accbbc8ca65"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "c85684958e129d451db5c7036346d630d55eceb141b2681c8a4c7e580fd1426c"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "eaeef43df742737016226bd703b5b113ffd47864640bf6fb331da84a13dfcd3d"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "ce10e098e1c242a456c23ca9f3fdd6446706d17447668cb0257e8c3e47c12598"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "79d5ee7205460131c70f259f9ccf4808d7b8f926cd6ee67df5cbd508c62407dd"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "c59386760cdfbde03e2a20a73072b843d744aad7d9c8202ecf05cf9127800975"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "8a35004013588ebe42c0dfc4765d17d1b108d80d23e5fc39670e6a6d8e99d056"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "0b23068f8b66d9f37803356ac7157dd979f93e04b9e89ca5d391f6cbe9574a6d"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "461a6cf9b8a16ae15da49b198dab41c4a3b5d09c6ae6c618364d2a22bb3ebf70"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "5aad9bd2fdde7328b301720181c73a13ee725bd530225b51f1f1cdc983d6c8bf"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "c7ddd929e9648cbf0fbc1e88143494b7833bbecaf1259808375d718f9f387187"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "0f3ebc4436b244b8fae8c49ff6fac0de35de7bbad3997781991415362ca7a3ed"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 594,
+      "sha256": "ecd4340170333cdcc1a0993ea56f538a07f0c78ccc369162b6a487eebd908f56"
+    },
+    {
+      "id": 22165,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 594,
+      "sha256": "b49b9b07a784f09d09f558091f5a5be2f45d210f8218988501a52d03fa29f05b"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "e2162f91f3848fc1e63f90b12aaef0b742c4e5992e2a65d7cd562ef0a580149d"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "29d97dc45e41d573684f7a6e6ca4f7f2a396685a5d9d19cbdebd1f091bef3d0f"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "959979f6bc96fba315a702a0ff9551f8ea2d9c1952775b9bc4632d236172df57"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "cb8db9bb516324c26b2ef60924029b3221a5d1ab2be1b7a9e62307a178c15ee3"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "d7bf6a87bab17c98d212e1521bd37f1bf79ef5780690137cbe0b35b198a9918c"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "aeb4fbe297400abeed84d12cdde33a100feba2c554eef44d465baa0c92ba0de7"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "ab87cbc075e10e8cd1f82ec4cb4728538f203a08737e6c42cd18c2e901c450bf"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "86a869b2f8d62e03040d59339c09a8898f59e96d89e62b290998da4572e09e59"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "4474028f3d3071b284c5041ea2229b42cf76bc503b413441b7ed9e0f63f50f54"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "c843dec433b77b99b79c5be9508a6fe6e2e29e08bcb785c3b1c8fc20aea8d8a0"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "6d9ffb969a5be36561a7a0739c38fb4bfb58c690ae0148eaf06dd172632f4d39"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "a5e0bbf2b326772bc3f6c6e6c2ef679fb504b3139b568d8547c50c5ae2bd50bd"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "adf780da042d47402a4899f8c8855a43a63d192925b28c7679b0dc454f9ca1b7"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "2c6192509144ab264b0dd79b0e51ed38a018b122908c549c11e16692c55dd8d0"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "f3d88e83d8e579c1347f8de3acfadb036fab4ea025ee0f4091bf9002789a75e3"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "5f205909be9e2e1b16e579dfa36da2bffca1578b543f897f18302d91287e29c7"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 11348,
+      "sha256": "33831388d85f9a9dd68d901d56a91353d181767ea8409e980e17e8f28c25e80a"
+    },
+    {
+      "id": 300234068242460,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 11348,
+      "sha256": "11751ebd95e5b985d642514ade23872855dff0c8c81bfae528eab82f66392697"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 9423788,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "52abb42a801cc2bffdd25bf652eb372bd3729ebe296e3d8d8d6aaa18da0c8cdb"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "3e95128eb55a8d0b3c25f7e8374194e21e0d762b5a6128d296e7fdf5507983b8"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "c0379e1e124e82ac2843269aad85c01b658ee843c1eb9416738a50b09ddf7ea0"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "b3648ad2e3ba0a35639b526eed8b33ad69c615304295b469ec89d03045199c09"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "a10170a5f1fb1134c690df49cdb86c79fa166995de4bb0ef95a8ec52213bfb51"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "62cbb02891569539f4324b9359f4c3e25aefe6a77c7fecbfd8936432227c8a3e"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "8b1029ecda0e64a147f5f416a0605e8ec9ce790225cadfc135312fd0ef2f38c4"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "ee7c0defbd614310ba50403af6c0dba6f4f70403b5a5301f2f22145ca27c1490"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "799bf54ea75f8312de3154904bb6bde912bfb3fc517e3150c198a34a3d960a0c"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "99eea591a44da232bb713477bfd30ffa7b4994c33f3c58afc0cc7b0f752ec360"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "8a43f83300c80bb4586450e03b5634f54d1e3e56af1f804dcdc6a306a198be45"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "1808602eca38c2c7fd402bce7d8a6fd2e0d6165f9d1f4ec546fd2159edc8c156"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "da79a062aaf0374ca4c560424265dba2aea294b66202c191bd0ad3d8b61417d2"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "f0fe3fd35d6cea29324baad75b5fe6e2debab3cf3be529311cc339de9da5d34b"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "1c425a2a129c05e39ae38a8eaf43f22275f3b3b0b909778064a101ccdcbc3a5b"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "4259d1ec5e9849af6a8732a1fd35821c221c612ecfb6842203950fe2fb8af35c"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 4136,
+      "sha256": "12bd6fcfd8524a801940c7c5aa13124e872143047e48e691ad097c7d09cd89cf"
+    },
+    {
+      "id": 9423788,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 4136,
+      "sha256": "59e139fda471f42dbff0d3df39314c6166a29f13766918191acc24a05b2d3591"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "R",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 7,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 30,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "drogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "undrogued",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "endpoint",
+      "rows": 0,
+      "sha256": "7604a79635c31f736d7bd1f9671eeeb7f25af1d6b6a2e4bd4efaedf9e5aff1cd"
+    },
+    {
+      "id": 132499,
+      "population": "D",
+      "days": 365,
+      "scenario": "pooled",
+      "target": "stopped",
+      "rows": 0,
+      "sha256": "aecbe1c6ebd487ceeb12752365ad56a08bb50ee63ee1fb1855d3fe8c5d6ca837"
+    }
+  ]
+}

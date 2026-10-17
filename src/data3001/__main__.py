@@ -11,7 +11,7 @@ def main():
     parser.add_argument('--root', type=Path, help='Project checkout containing configs/assets.json')
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('inspect', help='Read the catalog without opening large data')
-    commands.add_parser('verify-migration', help='Read-only original-byte and semantic identity audit')
+    commands.add_parser('verify-migration', help='Read-only full audit of the active layout, retained bytes and labels')
     pairs = commands.add_parser('pair', help='Generate independent endpoint/stopped labels; stdout by default')
     pairs.add_argument('--id', type=int, required=True)
     pairs.add_argument('--days', type=int, required=True)
@@ -53,11 +53,25 @@ def main():
                                for name,label in zip(['endpoint','stopped'],labels)},
                    'forecast_accuracy_evaluated':False}
         if args.run_id:
+            from data3001.preprocessing.drogue_correction import prepared_track_path
             config = {**summary, 'contract_sha256':paths.catalog['contract_sha256'],
                       'source_snapshot_sha256':file_sha256(paths.asset('source_snapshot')),
-                      'source_track_sha256':file_sha256(paths.asset('development_cleaned') / f'{args.id}.parquet'),
+                      'source_track_sha256':file_sha256(prepared_track_path(args.id,source.cohort.loc[args.id,'split'])),
                       'code_sha256':code_hash(),
                       'environment_lock_sha256':file_sha256(paths.root/'configs/requirements.lock.txt')}
+            if 'current_dataset_manifest' in paths.catalog['assets']:
+                from data3001.dataset import manifest
+                config['dataset_release_version'] = manifest()['version']
+                config['dataset_manifest_sha256'] = file_sha256(paths.asset('current_dataset_manifest',verify=True))
+                config['recovery_cutoff_policy'] = 'typedeath=2: time <= numeric official end_date; recovery is censoring'
+                config['recovery_cutoff_code_sha256'] = file_sha256(paths.root/'src/data3001/model_input_cleaning.py')
+            if 'preparation_correction_version' in track:
+                config['preparation_correction_version']=track['preparation_correction_version']
+                correction_asset=track.get('preparation_correction_asset','official_drogue_correction')
+                config['correction_manifest_sha256']=file_sha256(paths.asset(correction_asset))
+                if correction_asset=='official_drogue_boundary':
+                    overlay_asset='drogue_boundary_test' if source.cohort.loc[args.id,'split']=='test' else 'drogue_boundary_development'
+                    config['regime_overlay_sha256']=file_sha256(paths.asset(overlay_asset))
             run = paths.create_run(args.run_id,config)
             for name,label in zip(['endpoint','stopped'],labels):
                 parquet(label,run['results']/(name+'.parquet'))

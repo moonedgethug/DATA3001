@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v2",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 130,
+  "changed_ID_files": 159,
+  "removed_recovery_rows": 7868,
+  "retained_values_types_and_metadata_equal": true,
+  "unchanged_file_hashes_preserved": true,
+  "original_changed_files_archived": true,
+  "whole_ID_pool_assignments_unchanged": true,
+  "forecast_accuracy_evaluated": false
+}

@@ -1,0 +1,3591 @@
+{
+  "policy": "seven_hardware_fields_missing_invalid_to_null_preserve_zero",
+  "fields": [
+    "DragAreaAboveDrogue",
+    "DragAreaOfDrogue",
+    "DragAreaRatio",
+    "DrogueBallast",
+    "DrogueCenterDepth",
+    "DrogueLength",
+    "FloatDiameter"
+  ],
+  "parent_manifest_path": "archive/hardware_NA_20261017_v1/configs/dataset_manifest.json",
+  "parent_manifest_sha256": "197d8d67546f6223f229233b08676683c384c9dc5e6bb8830570ae667e69dbb1",
+  "parent_schema_path": "archive/hardware_NA_20261017_v1/configs/dataset_schema.json",
+  "parent_schema_sha256": "d136c341cdce38078a15f36232f464cfd65bc99ca37f39ba476789f7f6bbce70",
+  "changed_files": {
+    "7706157": {
+      "id": "7706157",
+      "path": "data/train/7706157.parquet",
+      "rows": 4314,
+      "sha256": "9c2b59661835b0b71a6515f4a777106d690b600fd1d0e3033b280905b7f01d01",
+      "new_numeric_NA_cells": 21570,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 4314,
+        "DragAreaOfDrogue": 4314,
+        "DragAreaRatio": 4314,
+        "DrogueBallast": 4314,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 4314
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/7706157.parquet"
+    },
+    "7706158": {
+      "id": "7706158",
+      "path": "data/train/7706158.parquet",
+      "rows": 4192,
+      "sha256": "edc703a596f13d256e852e07d310565d29f11443fad04ec9e25660f3d80504b6",
+      "new_numeric_NA_cells": 20960,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 4192,
+        "DragAreaOfDrogue": 4192,
+        "DragAreaRatio": 4192,
+        "DrogueBallast": 4192,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 4192
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/7706158.parquet"
+    },
+    "9012758": {
+      "id": "9012758",
+      "path": "data/train/9012758.parquet",
+      "rows": 2929,
+      "sha256": "c2430f1026f2327e06cbdc0fbf3c121032069bf1b2602631a38ea674ccdcf665",
+      "new_numeric_NA_cells": 11716,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2929,
+        "DragAreaOfDrogue": 2929,
+        "DragAreaRatio": 2929,
+        "DrogueBallast": 2929,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9012758.parquet"
+    },
+    "9012759": {
+      "id": "9012759",
+      "path": "data/train/9012759.parquet",
+      "rows": 2928,
+      "sha256": "e2214f074abdd0c95d2f51ff080d2ddf55586984a88dbc49b93fb09e156b64fb",
+      "new_numeric_NA_cells": 11712,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2928,
+        "DragAreaOfDrogue": 2928,
+        "DragAreaRatio": 2928,
+        "DrogueBallast": 2928,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9012759.parquet"
+    },
+    "9122732": {
+      "id": "9122732",
+      "path": "data/test/9122732.parquet",
+      "rows": 2978,
+      "sha256": "b4759b3d497883ad57feef8bfd52680ea9e550733dffb293672a2017b1dbeade",
+      "new_numeric_NA_cells": 11912,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2978,
+        "DragAreaOfDrogue": 2978,
+        "DragAreaRatio": 2978,
+        "DrogueBallast": 2978,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/9122732.parquet"
+    },
+    "9122734": {
+      "id": "9122734",
+      "path": "data/train/9122734.parquet",
+      "rows": 2994,
+      "sha256": "d026f853db7d343dced437d5e238ed11efe1dd1d0fa6b6a5e7c674c52c811139",
+      "new_numeric_NA_cells": 11976,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2994,
+        "DragAreaOfDrogue": 2994,
+        "DragAreaRatio": 2994,
+        "DrogueBallast": 2994,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9122734.parquet"
+    },
+    "9122735": {
+      "id": "9122735",
+      "path": "data/train/9122735.parquet",
+      "rows": 2977,
+      "sha256": "7a293f21601ce22b2085859b3e421afcc21313dd581c48c71dd862b8682f52a0",
+      "new_numeric_NA_cells": 11908,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2977,
+        "DragAreaOfDrogue": 2977,
+        "DragAreaRatio": 2977,
+        "DrogueBallast": 2977,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9122735.parquet"
+    },
+    "9301354": {
+      "id": "9301354",
+      "path": "data/train/9301354.parquet",
+      "rows": 7870,
+      "sha256": "3073e32889deb6527e22329f360247b725f5f01834ff730baeb192b1593444b4",
+      "new_numeric_NA_cells": 7870,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7870,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9301354.parquet"
+    },
+    "9301361": {
+      "id": "9301361",
+      "path": "data/test/9301361.parquet",
+      "rows": 194,
+      "sha256": "53759394dce0b1469dacecc04a0b0c140886e8d4e0e27229ac2670fc1a1a6809",
+      "new_numeric_NA_cells": 194,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 194,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/9301361.parquet"
+    },
+    "9616891": {
+      "id": "9616891",
+      "path": "data/train/9616891.parquet",
+      "rows": 2419,
+      "sha256": "e9c8562056160d180c05aba97945276859e97d89db4015796d98c011c8426171",
+      "new_numeric_NA_cells": 9676,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2419,
+        "DragAreaOfDrogue": 2419,
+        "DragAreaRatio": 2419,
+        "DrogueBallast": 2419,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616891.parquet"
+    },
+    "9616899": {
+      "id": "9616899",
+      "path": "data/train/9616899.parquet",
+      "rows": 2418,
+      "sha256": "d77ed374ce2946d188123c314b8d9758670b1435156d375638e6074d92fb0b83",
+      "new_numeric_NA_cells": 9672,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2418,
+        "DragAreaOfDrogue": 2418,
+        "DragAreaRatio": 2418,
+        "DrogueBallast": 2418,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616899.parquet"
+    },
+    "9616887": {
+      "id": "9616887",
+      "path": "data/train/9616887.parquet",
+      "rows": 2646,
+      "sha256": "2c356d6e69f49e98382198eaec8e27e94f396f1b979f16a391d85a58e88cf4f4",
+      "new_numeric_NA_cells": 10584,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2646,
+        "DragAreaOfDrogue": 2646,
+        "DragAreaRatio": 2646,
+        "DrogueBallast": 2646,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616887.parquet"
+    },
+    "9616905": {
+      "id": "9616905",
+      "path": "data/train/9616905.parquet",
+      "rows": 2304,
+      "sha256": "bdb349e1e08e4330b51d834e4477358509a8efb0207a9280fcea3f3ab6d1d38a",
+      "new_numeric_NA_cells": 9216,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2304,
+        "DragAreaOfDrogue": 2304,
+        "DragAreaRatio": 2304,
+        "DrogueBallast": 2304,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616905.parquet"
+    },
+    "9616894": {
+      "id": "9616894",
+      "path": "data/train/9616894.parquet",
+      "rows": 99,
+      "sha256": "12640a4e4d117daa747c9fe64acb2154fd26028853ac2f7f804b7ab07a6b083c",
+      "new_numeric_NA_cells": 396,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 99,
+        "DragAreaOfDrogue": 99,
+        "DragAreaRatio": 99,
+        "DrogueBallast": 99,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616894.parquet"
+    },
+    "9616890": {
+      "id": "9616890",
+      "path": "data/train/9616890.parquet",
+      "rows": 2590,
+      "sha256": "3a140b66fedbd397f13688576b25d58a79496ae7d38fd520131c983e97330114",
+      "new_numeric_NA_cells": 10360,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2590,
+        "DragAreaOfDrogue": 2590,
+        "DragAreaRatio": 2590,
+        "DrogueBallast": 2590,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616890.parquet"
+    },
+    "9616896": {
+      "id": "9616896",
+      "path": "data/train/9616896.parquet",
+      "rows": 2314,
+      "sha256": "110f5a7c263a64e23e42ee74f27e37c487e35ff338ca21c07b9264c4ad7a026d",
+      "new_numeric_NA_cells": 9256,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2314,
+        "DragAreaOfDrogue": 2314,
+        "DragAreaRatio": 2314,
+        "DrogueBallast": 2314,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616896.parquet"
+    },
+    "9616881": {
+      "id": "9616881",
+      "path": "data/train/9616881.parquet",
+      "rows": 2190,
+      "sha256": "0d5a20e538cffcd2205fde5eede3f11549724a27be5df58c8f7f0e32e88cebb3",
+      "new_numeric_NA_cells": 8760,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2190,
+        "DragAreaOfDrogue": 2190,
+        "DragAreaRatio": 2190,
+        "DrogueBallast": 2190,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616881.parquet"
+    },
+    "9616886": {
+      "id": "9616886",
+      "path": "data/train/9616886.parquet",
+      "rows": 2254,
+      "sha256": "a7e21ce3c842b9847a35def944cc037b67a40c94008ea0ad5af31f3da64a86e7",
+      "new_numeric_NA_cells": 9016,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2254,
+        "DragAreaOfDrogue": 2254,
+        "DragAreaRatio": 2254,
+        "DrogueBallast": 2254,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616886.parquet"
+    },
+    "9616895": {
+      "id": "9616895",
+      "path": "data/train/9616895.parquet",
+      "rows": 2623,
+      "sha256": "09be8b909e32050b7bee987da5bbdd272f2639670533b7ede75c9992f8cf617d",
+      "new_numeric_NA_cells": 10492,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2623,
+        "DragAreaOfDrogue": 2623,
+        "DragAreaRatio": 2623,
+        "DrogueBallast": 2623,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616895.parquet"
+    },
+    "9616883": {
+      "id": "9616883",
+      "path": "data/train/9616883.parquet",
+      "rows": 1220,
+      "sha256": "64c81d76d39aece22345987b9f7ae913c368d821d8f931190f1245c0b3fae131",
+      "new_numeric_NA_cells": 4880,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 1220,
+        "DragAreaOfDrogue": 1220,
+        "DragAreaRatio": 1220,
+        "DrogueBallast": 1220,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616883.parquet"
+    },
+    "9616907": {
+      "id": "9616907",
+      "path": "data/test/9616907.parquet",
+      "rows": 2086,
+      "sha256": "6ed54c59295f4679480043397cbfeb9da03a7dd52643e7c4711f2b5d7e694179",
+      "new_numeric_NA_cells": 8344,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2086,
+        "DragAreaOfDrogue": 2086,
+        "DragAreaRatio": 2086,
+        "DrogueBallast": 2086,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/9616907.parquet"
+    },
+    "9616911": {
+      "id": "9616911",
+      "path": "data/train/9616911.parquet",
+      "rows": 1085,
+      "sha256": "66ddc4f242aefdbad9c8a0092567724cc7f390aaa891fc66a08e8a108d338201",
+      "new_numeric_NA_cells": 4340,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 1085,
+        "DragAreaOfDrogue": 1085,
+        "DragAreaRatio": 1085,
+        "DrogueBallast": 1085,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616911.parquet"
+    },
+    "9524065": {
+      "id": "9524065",
+      "path": "data/test/9524065.parquet",
+      "rows": 1954,
+      "sha256": "70d105fe7d6ffe3eac76d10a477acc4937001f124f7cc67856b793a02c414e32",
+      "new_numeric_NA_cells": 7816,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 1954,
+        "DragAreaOfDrogue": 1954,
+        "DragAreaRatio": 1954,
+        "DrogueBallast": 1954,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/9524065.parquet"
+    },
+    "9616908": {
+      "id": "9616908",
+      "path": "data/test/9616908.parquet",
+      "rows": 1719,
+      "sha256": "b42015107dedb79599973268cc07964096d7b012e3510dc9fda9a5117c0159ba",
+      "new_numeric_NA_cells": 6876,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 1719,
+        "DragAreaOfDrogue": 1719,
+        "DragAreaRatio": 1719,
+        "DrogueBallast": 1719,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/9616908.parquet"
+    },
+    "9616898": {
+      "id": "9616898",
+      "path": "data/train/9616898.parquet",
+      "rows": 2012,
+      "sha256": "0a11fcd1a2f2002f594bd15ca91ad36df6c540dcc8549b330b7b27acaeeef2d6",
+      "new_numeric_NA_cells": 8048,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2012,
+        "DragAreaOfDrogue": 2012,
+        "DragAreaRatio": 2012,
+        "DrogueBallast": 2012,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616898.parquet"
+    },
+    "9616902": {
+      "id": "9616902",
+      "path": "data/train/9616902.parquet",
+      "rows": 2126,
+      "sha256": "966fe190273c8cd089833ef78d8ec4aedd1a1841a919c9202472afe548dcd597",
+      "new_numeric_NA_cells": 8504,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 2126,
+        "DragAreaOfDrogue": 2126,
+        "DragAreaRatio": 2126,
+        "DrogueBallast": 2126,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/9616902.parquet"
+    },
+    "12730": {
+      "id": "12730",
+      "path": "data/train/12730.parquet",
+      "rows": 5589,
+      "sha256": "310c82780c0328105956ba288612831fd8c7da7c37b8191821af5ab90587af77",
+      "new_numeric_NA_cells": 39123,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 5589,
+        "DragAreaOfDrogue": 5589,
+        "DragAreaRatio": 5589,
+        "DrogueBallast": 5589,
+        "DrogueCenterDepth": 5589,
+        "DrogueLength": 5589,
+        "FloatDiameter": 5589
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/12730.parquet"
+    },
+    "12731": {
+      "id": "12731",
+      "path": "data/train/12731.parquet",
+      "rows": 7849,
+      "sha256": "99b9768931f1aefc79a24ae533cd4ce777df8904d8e4412c595899df63beec1e",
+      "new_numeric_NA_cells": 54943,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7849,
+        "DragAreaOfDrogue": 7849,
+        "DragAreaRatio": 7849,
+        "DrogueBallast": 7849,
+        "DrogueCenterDepth": 7849,
+        "DrogueLength": 7849,
+        "FloatDiameter": 7849
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/12731.parquet"
+    },
+    "23619": {
+      "id": "23619",
+      "path": "data/train/23619.parquet",
+      "rows": 3331,
+      "sha256": "3bd657e12b3bb7b5ea7e155f9ebb3457a4016b729d615c7de6fd050efa685268",
+      "new_numeric_NA_cells": 23317,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 3331,
+        "DragAreaOfDrogue": 3331,
+        "DragAreaRatio": 3331,
+        "DrogueBallast": 3331,
+        "DrogueCenterDepth": 3331,
+        "DrogueLength": 3331,
+        "FloatDiameter": 3331
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/23619.parquet"
+    },
+    "2342793": {
+      "id": "2342793",
+      "path": "data/train/2342793.parquet",
+      "rows": 8657,
+      "sha256": "7027ca1f2b988461b9215d2218171a9fa045750a5da4e398c70f82d0b80f9f66",
+      "new_numeric_NA_cells": 8657,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 8657,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/2342793.parquet"
+    },
+    "2342795": {
+      "id": "2342795",
+      "path": "data/train/2342795.parquet",
+      "rows": 7601,
+      "sha256": "a1062f0ecd36ef0b529e6db6e0446b9642153c59fbdb5daba9938ba8d2f9e5a3",
+      "new_numeric_NA_cells": 7601,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7601,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/2342795.parquet"
+    },
+    "2342791": {
+      "id": "2342791",
+      "path": "data/train/2342791.parquet",
+      "rows": 17809,
+      "sha256": "9745461c087baa01d3a1f4a9b4c3ce18cf9950dad068273f4971d957188e0f74",
+      "new_numeric_NA_cells": 17809,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 17809,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/2342791.parquet"
+    },
+    "42790": {
+      "id": "42790",
+      "path": "data/train/42790.parquet",
+      "rows": 43769,
+      "sha256": "06912e814f7e768c33af5b574b772867b0a231b0f4125a6f0a7a51a58dfb8b2f",
+      "new_numeric_NA_cells": 43769,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 43769,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/42790.parquet"
+    },
+    "42792": {
+      "id": "42792",
+      "path": "data/train/42792.parquet",
+      "rows": 5509,
+      "sha256": "51bac65eb4ff3887cc80f54f2c65d1ca9fc103d36e98395a45120299f8e7083d",
+      "new_numeric_NA_cells": 5509,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5509,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/42792.parquet"
+    },
+    "42794": {
+      "id": "42794",
+      "path": "data/train/42794.parquet",
+      "rows": 14423,
+      "sha256": "9082123f0300424fdde72b726acbc4c7bc1a1adb8c0c4b6f616e783adb136e50",
+      "new_numeric_NA_cells": 14423,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14423,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/42794.parquet"
+    },
+    "42789": {
+      "id": "42789",
+      "path": "data/train/42789.parquet",
+      "rows": 5475,
+      "sha256": "928733612bf9bf7759d786f81fcc2d498a140b8fce7f5969f5725522a3f2b797",
+      "new_numeric_NA_cells": 5475,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5475,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/42789.parquet"
+    },
+    "2613": {
+      "id": "2613",
+      "path": "data/train/2613.parquet",
+      "rows": 3170,
+      "sha256": "33eb3ae26967dba51e4ec93e1491d25c3d4a4ea87b524eca17a689a3e383922c",
+      "new_numeric_NA_cells": 3170,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 3170,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/2613.parquet"
+    },
+    "66733": {
+      "id": "66733",
+      "path": "data/test/66733.parquet",
+      "rows": 12306,
+      "sha256": "5f65e344eb5ce31cbdf67b4b4aa4a6dd25daf5151a22aea607cf47f019b0072e",
+      "new_numeric_NA_cells": 49224,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 12306,
+        "DragAreaOfDrogue": 12306,
+        "DragAreaRatio": 12306,
+        "DrogueBallast": 12306,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/66733.parquet"
+    },
+    "66734": {
+      "id": "66734",
+      "path": "data/train/66734.parquet",
+      "rows": 4108,
+      "sha256": "d5781019ec03596d440c9fab77c4373915121967cef41d47902154320620c4e4",
+      "new_numeric_NA_cells": 16432,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 4108,
+        "DragAreaOfDrogue": 4108,
+        "DragAreaRatio": 4108,
+        "DrogueBallast": 4108,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66734.parquet"
+    },
+    "66735": {
+      "id": "66735",
+      "path": "data/train/66735.parquet",
+      "rows": 8352,
+      "sha256": "130738b120f4477db8faf72a1bfc0357b695f7199bb97839085630543ff84fba",
+      "new_numeric_NA_cells": 33408,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 8352,
+        "DragAreaOfDrogue": 8352,
+        "DragAreaRatio": 8352,
+        "DrogueBallast": 8352,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66735.parquet"
+    },
+    "66738": {
+      "id": "66738",
+      "path": "data/train/66738.parquet",
+      "rows": 8917,
+      "sha256": "991a21677f2de31587ea4b66e876085d64262e46c1abc6b30363b4d0e147907c",
+      "new_numeric_NA_cells": 35668,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 8917,
+        "DragAreaOfDrogue": 8917,
+        "DragAreaRatio": 8917,
+        "DrogueBallast": 8917,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66738.parquet"
+    },
+    "66709": {
+      "id": "66709",
+      "path": "data/train/66709.parquet",
+      "rows": 7014,
+      "sha256": "0ad2566a92d59c0947c37fa275a9554fdb7467d050c83348182af34f373dd6f2",
+      "new_numeric_NA_cells": 28056,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7014,
+        "DragAreaOfDrogue": 7014,
+        "DragAreaRatio": 7014,
+        "DrogueBallast": 7014,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66709.parquet"
+    },
+    "66719": {
+      "id": "66719",
+      "path": "data/train/66719.parquet",
+      "rows": 6090,
+      "sha256": "a2bc086f0bcf9af36e89481e7261900e1a5aa78fd160a71d078b1f0e4e359e6c",
+      "new_numeric_NA_cells": 24360,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6090,
+        "DragAreaOfDrogue": 6090,
+        "DragAreaRatio": 6090,
+        "DrogueBallast": 6090,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66719.parquet"
+    },
+    "66720": {
+      "id": "66720",
+      "path": "data/train/66720.parquet",
+      "rows": 6651,
+      "sha256": "bb47188b454247bad3c68a75380b04461328da3dd47251cf3bdca0df70426d38",
+      "new_numeric_NA_cells": 26604,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6651,
+        "DragAreaOfDrogue": 6651,
+        "DragAreaRatio": 6651,
+        "DrogueBallast": 6651,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66720.parquet"
+    },
+    "66721": {
+      "id": "66721",
+      "path": "data/train/66721.parquet",
+      "rows": 9124,
+      "sha256": "7e802d4c21298c43b937d06f1ced9874998f7dddc0edd89f1129440dba866eca",
+      "new_numeric_NA_cells": 36496,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9124,
+        "DragAreaOfDrogue": 9124,
+        "DragAreaRatio": 9124,
+        "DrogueBallast": 9124,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66721.parquet"
+    },
+    "66736": {
+      "id": "66736",
+      "path": "data/test/66736.parquet",
+      "rows": 7761,
+      "sha256": "524d7af941d3cce0c83435398f334f2c211e20244ee7ce6fba1332eb0752d079",
+      "new_numeric_NA_cells": 31044,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7761,
+        "DragAreaOfDrogue": 7761,
+        "DragAreaRatio": 7761,
+        "DrogueBallast": 7761,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/66736.parquet"
+    },
+    "66726": {
+      "id": "66726",
+      "path": "data/train/66726.parquet",
+      "rows": 9571,
+      "sha256": "f7fce74e8f0cba948f23d47c3a08ca05591b669dda6afe571ed473745fabc5f5",
+      "new_numeric_NA_cells": 38284,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9571,
+        "DragAreaOfDrogue": 9571,
+        "DragAreaRatio": 9571,
+        "DrogueBallast": 9571,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66726.parquet"
+    },
+    "66731": {
+      "id": "66731",
+      "path": "data/train/66731.parquet",
+      "rows": 12095,
+      "sha256": "72ea557667129b031b0c42594009fea20ca0588cb44b3f02cc659c264b361608",
+      "new_numeric_NA_cells": 48380,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 12095,
+        "DragAreaOfDrogue": 12095,
+        "DragAreaRatio": 12095,
+        "DrogueBallast": 12095,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66731.parquet"
+    },
+    "66711": {
+      "id": "66711",
+      "path": "data/train/66711.parquet",
+      "rows": 6893,
+      "sha256": "05d17f991482ed3419f894d7f4aa17d789341395173162d98fbaf6c63985cd18",
+      "new_numeric_NA_cells": 27572,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6893,
+        "DragAreaOfDrogue": 6893,
+        "DragAreaRatio": 6893,
+        "DrogueBallast": 6893,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66711.parquet"
+    },
+    "66712": {
+      "id": "66712",
+      "path": "data/train/66712.parquet",
+      "rows": 6928,
+      "sha256": "55a87cefb00951fa2a22cf79bdd4207ceeb6367f3b2fb56ee36efec0f2c9e760",
+      "new_numeric_NA_cells": 27712,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6928,
+        "DragAreaOfDrogue": 6928,
+        "DragAreaRatio": 6928,
+        "DrogueBallast": 6928,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66712.parquet"
+    },
+    "66714": {
+      "id": "66714",
+      "path": "data/train/66714.parquet",
+      "rows": 8441,
+      "sha256": "fc42a6956d83eb27f2c187dc0a0fb87e3d86a4072785fa40b2ecbc59df0e55f8",
+      "new_numeric_NA_cells": 33764,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 8441,
+        "DragAreaOfDrogue": 8441,
+        "DragAreaRatio": 8441,
+        "DrogueBallast": 8441,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66714.parquet"
+    },
+    "66715": {
+      "id": "66715",
+      "path": "data/test/66715.parquet",
+      "rows": 9656,
+      "sha256": "523c26b2fa365a46d4af6bab0702c7b195a42a5b9b57dc5b81173e9f69164650",
+      "new_numeric_NA_cells": 38624,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9656,
+        "DragAreaOfDrogue": 9656,
+        "DragAreaRatio": 9656,
+        "DrogueBallast": 9656,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/66715.parquet"
+    },
+    "66716": {
+      "id": "66716",
+      "path": "data/train/66716.parquet",
+      "rows": 10644,
+      "sha256": "3be0e7121101b807cd52e70bf286f479b806003208fc78bc3cd4d64d224c0e46",
+      "new_numeric_NA_cells": 42576,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10644,
+        "DragAreaOfDrogue": 10644,
+        "DragAreaRatio": 10644,
+        "DrogueBallast": 10644,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66716.parquet"
+    },
+    "66725": {
+      "id": "66725",
+      "path": "data/train/66725.parquet",
+      "rows": 9800,
+      "sha256": "6f23e6ebe7bf54f1b0033d9c2b0bdea1cc00513a9313dff66da3cd5ad22fd24b",
+      "new_numeric_NA_cells": 39200,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9800,
+        "DragAreaOfDrogue": 9800,
+        "DragAreaRatio": 9800,
+        "DrogueBallast": 9800,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66725.parquet"
+    },
+    "66728": {
+      "id": "66728",
+      "path": "data/train/66728.parquet",
+      "rows": 13283,
+      "sha256": "a221f966311603020335ecc0e0348a71a0e8ca22849b8246e53ff32fe5691053",
+      "new_numeric_NA_cells": 53132,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 13283,
+        "DragAreaOfDrogue": 13283,
+        "DragAreaRatio": 13283,
+        "DrogueBallast": 13283,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66728.parquet"
+    },
+    "66724": {
+      "id": "66724",
+      "path": "data/train/66724.parquet",
+      "rows": 7789,
+      "sha256": "e431b7a731f70f0b0452f3e17d8a20e4f14e037649aab9d797e2b07726a917c6",
+      "new_numeric_NA_cells": 31156,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7789,
+        "DragAreaOfDrogue": 7789,
+        "DragAreaRatio": 7789,
+        "DrogueBallast": 7789,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66724.parquet"
+    },
+    "66723": {
+      "id": "66723",
+      "path": "data/train/66723.parquet",
+      "rows": 11379,
+      "sha256": "66353ac7224c68780960c1768fa55ff1bca39a9f1280e235bc471f407aa4b79e",
+      "new_numeric_NA_cells": 45516,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11379,
+        "DragAreaOfDrogue": 11379,
+        "DragAreaRatio": 11379,
+        "DrogueBallast": 11379,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66723.parquet"
+    },
+    "66729": {
+      "id": "66729",
+      "path": "data/train/66729.parquet",
+      "rows": 13887,
+      "sha256": "48387d2e66a69befc1e13f80ffee044d76c6d23e32aabbcf0c0dac1e3deb0346",
+      "new_numeric_NA_cells": 55548,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 13887,
+        "DragAreaOfDrogue": 13887,
+        "DragAreaRatio": 13887,
+        "DrogueBallast": 13887,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66729.parquet"
+    },
+    "66722": {
+      "id": "66722",
+      "path": "data/train/66722.parquet",
+      "rows": 9686,
+      "sha256": "c113791af25609805d5437b1c90a44facbe1b2ba3aae6bd25bfda9ccd0725760",
+      "new_numeric_NA_cells": 38744,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9686,
+        "DragAreaOfDrogue": 9686,
+        "DragAreaRatio": 9686,
+        "DrogueBallast": 9686,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66722.parquet"
+    },
+    "66730": {
+      "id": "66730",
+      "path": "data/train/66730.parquet",
+      "rows": 11590,
+      "sha256": "a03b58cf6c9f4a4ddac2289c04f23b47268b81c0931149ad32af5c667b862696",
+      "new_numeric_NA_cells": 46360,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11590,
+        "DragAreaOfDrogue": 11590,
+        "DragAreaRatio": 11590,
+        "DrogueBallast": 11590,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66730.parquet"
+    },
+    "66727": {
+      "id": "66727",
+      "path": "data/test/66727.parquet",
+      "rows": 12654,
+      "sha256": "5d9ab238d8a5d7e1076e21d79324416c6016d3ee296b5fccb19ebf1a46e32696",
+      "new_numeric_NA_cells": 50616,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 12654,
+        "DragAreaOfDrogue": 12654,
+        "DragAreaRatio": 12654,
+        "DrogueBallast": 12654,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/66727.parquet"
+    },
+    "66732": {
+      "id": "66732",
+      "path": "data/train/66732.parquet",
+      "rows": 11421,
+      "sha256": "38754ffe42e3001800ad604d72028b3d84dc8b6d8a890a4fdc54fe60df801380",
+      "new_numeric_NA_cells": 45684,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11421,
+        "DragAreaOfDrogue": 11421,
+        "DragAreaRatio": 11421,
+        "DrogueBallast": 11421,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/66732.parquet"
+    },
+    "66737": {
+      "id": "66737",
+      "path": "data/test/66737.parquet",
+      "rows": 7238,
+      "sha256": "e3fe1aa7d28f45f64009d8118d5f7f927b436766573f9a7c2dd8286251873a20",
+      "new_numeric_NA_cells": 28952,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7238,
+        "DragAreaOfDrogue": 7238,
+        "DragAreaRatio": 7238,
+        "DrogueBallast": 7238,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/66737.parquet"
+    },
+    "88646": {
+      "id": "88646",
+      "path": "data/train/88646.parquet",
+      "rows": 12021,
+      "sha256": "5fcb3907d53702e28136781c953f1ecd65db944aea3d469f3ef6cb2a213f0c50",
+      "new_numeric_NA_cells": 36063,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 12021,
+        "DragAreaOfDrogue": 12021,
+        "DragAreaRatio": 12021,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88646.parquet"
+    },
+    "88642": {
+      "id": "88642",
+      "path": "data/train/88642.parquet",
+      "rows": 11035,
+      "sha256": "cf5284c03aff1f6eec30fcec03cf5678785ec3887390857b5ee03559e6278ed7",
+      "new_numeric_NA_cells": 33105,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11035,
+        "DragAreaOfDrogue": 11035,
+        "DragAreaRatio": 11035,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88642.parquet"
+    },
+    "88624": {
+      "id": "88624",
+      "path": "data/train/88624.parquet",
+      "rows": 11089,
+      "sha256": "f1bde912e4e4efc28e36f7571502dbc4000fbb836246602c89deabd41c97b9b4",
+      "new_numeric_NA_cells": 33267,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11089,
+        "DragAreaOfDrogue": 11089,
+        "DragAreaRatio": 11089,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88624.parquet"
+    },
+    "88627": {
+      "id": "88627",
+      "path": "data/train/88627.parquet",
+      "rows": 6259,
+      "sha256": "54f57dd776daf68ae7c78dd23e317da08725905d56c6a230682d011ac322f633",
+      "new_numeric_NA_cells": 18777,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6259,
+        "DragAreaOfDrogue": 6259,
+        "DragAreaRatio": 6259,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88627.parquet"
+    },
+    "88638": {
+      "id": "88638",
+      "path": "data/test/88638.parquet",
+      "rows": 6796,
+      "sha256": "779a54df181e404f331773eba1a1681acfd3bcef81dc3f3b78da4b0d6aff23fe",
+      "new_numeric_NA_cells": 20388,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6796,
+        "DragAreaOfDrogue": 6796,
+        "DragAreaRatio": 6796,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/88638.parquet"
+    },
+    "88628": {
+      "id": "88628",
+      "path": "data/train/88628.parquet",
+      "rows": 10737,
+      "sha256": "9322aeb67479bf53f6643b4cb42442b3ef4fc8109d765a25273b66a64a1f6922",
+      "new_numeric_NA_cells": 32211,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10737,
+        "DragAreaOfDrogue": 10737,
+        "DragAreaRatio": 10737,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88628.parquet"
+    },
+    "88591": {
+      "id": "88591",
+      "path": "data/train/88591.parquet",
+      "rows": 1213,
+      "sha256": "5048051a5eb40586ef22685d25fbae69b982b8f322ca4b0757c6a964f871118d",
+      "new_numeric_NA_cells": 3639,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 1213,
+        "DragAreaOfDrogue": 1213,
+        "DragAreaRatio": 1213,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88591.parquet"
+    },
+    "88593": {
+      "id": "88593",
+      "path": "data/train/88593.parquet",
+      "rows": 6843,
+      "sha256": "75e2c23b396be506d68a664c4d166c64477402371d44544aae0158eb45ea1846",
+      "new_numeric_NA_cells": 20529,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6843,
+        "DragAreaOfDrogue": 6843,
+        "DragAreaRatio": 6843,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88593.parquet"
+    },
+    "88549": {
+      "id": "88549",
+      "path": "data/train/88549.parquet",
+      "rows": 5587,
+      "sha256": "df3861a87747f3dfd265032664d18d5cad90678a7b6fe06fbb89290505b60afd",
+      "new_numeric_NA_cells": 16761,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 5587,
+        "DragAreaOfDrogue": 5587,
+        "DragAreaRatio": 5587,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88549.parquet"
+    },
+    "88555": {
+      "id": "88555",
+      "path": "data/train/88555.parquet",
+      "rows": 14658,
+      "sha256": "4818824467e10496dd6c4bf1ff60e5cb435ea85a2be5778624e6e122eb6960b3",
+      "new_numeric_NA_cells": 43974,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 14658,
+        "DragAreaOfDrogue": 14658,
+        "DragAreaRatio": 14658,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88555.parquet"
+    },
+    "88576": {
+      "id": "88576",
+      "path": "data/train/88576.parquet",
+      "rows": 9837,
+      "sha256": "0c06ed71739d4c41782ea902299ea07ca51a2f338529c7c017af037c4ad85fa5",
+      "new_numeric_NA_cells": 29511,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9837,
+        "DragAreaOfDrogue": 9837,
+        "DragAreaRatio": 9837,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88576.parquet"
+    },
+    "88557": {
+      "id": "88557",
+      "path": "data/train/88557.parquet",
+      "rows": 10225,
+      "sha256": "7724dad60d6736e53a729c59acc2fdfe19f489e46b8c4b89f1aa5751dab06c70",
+      "new_numeric_NA_cells": 30675,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10225,
+        "DragAreaOfDrogue": 10225,
+        "DragAreaRatio": 10225,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88557.parquet"
+    },
+    "88563": {
+      "id": "88563",
+      "path": "data/train/88563.parquet",
+      "rows": 13272,
+      "sha256": "969b7d470caf6476196bbbbffd8a4e86bc120cf3d5df30fa0d2baa28fde43c36",
+      "new_numeric_NA_cells": 39816,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 13272,
+        "DragAreaOfDrogue": 13272,
+        "DragAreaRatio": 13272,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88563.parquet"
+    },
+    "88610": {
+      "id": "88610",
+      "path": "data/test/88610.parquet",
+      "rows": 10996,
+      "sha256": "f79031290ebb5a2e673c7de68d623f3275a686992f5a461dee90b14641063cab",
+      "new_numeric_NA_cells": 32988,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10996,
+        "DragAreaOfDrogue": 10996,
+        "DragAreaRatio": 10996,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/88610.parquet"
+    },
+    "88635": {
+      "id": "88635",
+      "path": "data/train/88635.parquet",
+      "rows": 9426,
+      "sha256": "403407009fb29fbfd1cdc3f2d8ecacf46cd6bb1fd1f8cb95d5ca899253a2fbf6",
+      "new_numeric_NA_cells": 28278,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9426,
+        "DragAreaOfDrogue": 9426,
+        "DragAreaRatio": 9426,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88635.parquet"
+    },
+    "88613": {
+      "id": "88613",
+      "path": "data/train/88613.parquet",
+      "rows": 6398,
+      "sha256": "ba959e309376f9965876caf5948e874617ec98152c2822efccbe75290f845cd1",
+      "new_numeric_NA_cells": 19194,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 6398,
+        "DragAreaOfDrogue": 6398,
+        "DragAreaRatio": 6398,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88613.parquet"
+    },
+    "88645": {
+      "id": "88645",
+      "path": "data/train/88645.parquet",
+      "rows": 9290,
+      "sha256": "28b7628bff4e5e7482112cbbdbe1458970235061a49d4d2cacd184cab9f07338",
+      "new_numeric_NA_cells": 27870,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9290,
+        "DragAreaOfDrogue": 9290,
+        "DragAreaRatio": 9290,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88645.parquet"
+    },
+    "88647": {
+      "id": "88647",
+      "path": "data/train/88647.parquet",
+      "rows": 13487,
+      "sha256": "c9f6f522ebdb7749f167a86c6b878bf6ebdc5d77d8b82fa38721ddcf95718083",
+      "new_numeric_NA_cells": 40461,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 13487,
+        "DragAreaOfDrogue": 13487,
+        "DragAreaRatio": 13487,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88647.parquet"
+    },
+    "88607": {
+      "id": "88607",
+      "path": "data/train/88607.parquet",
+      "rows": 403,
+      "sha256": "d963e45cec566a9e17e178d68d2513374a788caa163a052bf9283104dcd8e581",
+      "new_numeric_NA_cells": 1209,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 403,
+        "DragAreaOfDrogue": 403,
+        "DragAreaRatio": 403,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88607.parquet"
+    },
+    "88608": {
+      "id": "88608",
+      "path": "data/train/88608.parquet",
+      "rows": 409,
+      "sha256": "8421dbad06fea758cf359202b40c1ca91899ff65abd8d904cfcff8ff004c59a6",
+      "new_numeric_NA_cells": 1227,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 409,
+        "DragAreaOfDrogue": 409,
+        "DragAreaRatio": 409,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88608.parquet"
+    },
+    "88639": {
+      "id": "88639",
+      "path": "data/train/88639.parquet",
+      "rows": 7830,
+      "sha256": "54367732a4434b1061905c032f08043da252b2199d487e55f1e4dbc70011be3f",
+      "new_numeric_NA_cells": 23490,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7830,
+        "DragAreaOfDrogue": 7830,
+        "DragAreaRatio": 7830,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88639.parquet"
+    },
+    "88595": {
+      "id": "88595",
+      "path": "data/test/88595.parquet",
+      "rows": 11224,
+      "sha256": "e8b907dcccc41d55eceedbef2bef2b769d2439b0d0f4b740eea5c11b1bec3ad4",
+      "new_numeric_NA_cells": 33672,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11224,
+        "DragAreaOfDrogue": 11224,
+        "DragAreaRatio": 11224,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/88595.parquet"
+    },
+    "88605": {
+      "id": "88605",
+      "path": "data/train/88605.parquet",
+      "rows": 7453,
+      "sha256": "f6790eb7d75cd7da2dc6c2bfa4c5d89115318820ff893ef226cd80018b2fb7d2",
+      "new_numeric_NA_cells": 22359,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7453,
+        "DragAreaOfDrogue": 7453,
+        "DragAreaRatio": 7453,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88605.parquet"
+    },
+    "88565": {
+      "id": "88565",
+      "path": "data/train/88565.parquet",
+      "rows": 9883,
+      "sha256": "6d8bbf3bb5deab112ef1312cc7496510d7fd805981e0e72755d2117a4629f40a",
+      "new_numeric_NA_cells": 29649,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9883,
+        "DragAreaOfDrogue": 9883,
+        "DragAreaRatio": 9883,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88565.parquet"
+    },
+    "88623": {
+      "id": "88623",
+      "path": "data/train/88623.parquet",
+      "rows": 10908,
+      "sha256": "68b07bba38ab90014a4a0fb41b85c847e70c287f15af9c9b2c2f34d2eb577baf",
+      "new_numeric_NA_cells": 32724,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10908,
+        "DragAreaOfDrogue": 10908,
+        "DragAreaRatio": 10908,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88623.parquet"
+    },
+    "88534": {
+      "id": "88534",
+      "path": "data/train/88534.parquet",
+      "rows": 16943,
+      "sha256": "b073999700ca55bd7234da7a8c2a2ac6e71b3fcc390514f85ae52a7e74a99ee3",
+      "new_numeric_NA_cells": 50829,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 16943,
+        "DragAreaOfDrogue": 16943,
+        "DragAreaRatio": 16943,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88534.parquet"
+    },
+    "88562": {
+      "id": "88562",
+      "path": "data/train/88562.parquet",
+      "rows": 10870,
+      "sha256": "c2cf5547399866c1eefcb36718b4ee3169fd5fed85776b85ddc60c5ac062ace4",
+      "new_numeric_NA_cells": 32610,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10870,
+        "DragAreaOfDrogue": 10870,
+        "DragAreaRatio": 10870,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88562.parquet"
+    },
+    "88589": {
+      "id": "88589",
+      "path": "data/train/88589.parquet",
+      "rows": 7600,
+      "sha256": "261390fc0c711a94d358a9d031be3a295cfa5a6dd11f8215f1b0da844f4e771c",
+      "new_numeric_NA_cells": 22800,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7600,
+        "DragAreaOfDrogue": 7600,
+        "DragAreaRatio": 7600,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88589.parquet"
+    },
+    "88533": {
+      "id": "88533",
+      "path": "data/train/88533.parquet",
+      "rows": 3313,
+      "sha256": "f86632d8289747e2713ec04d6f891057646bb7271f4e3a7340612306d302d7d3",
+      "new_numeric_NA_cells": 9939,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 3313,
+        "DragAreaOfDrogue": 3313,
+        "DragAreaRatio": 3313,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88533.parquet"
+    },
+    "88582": {
+      "id": "88582",
+      "path": "data/train/88582.parquet",
+      "rows": 10431,
+      "sha256": "08d4050d949f514c1919492a91a75d99efb5c7da5e7e983997cf656fbd0f594e",
+      "new_numeric_NA_cells": 31293,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10431,
+        "DragAreaOfDrogue": 10431,
+        "DragAreaRatio": 10431,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88582.parquet"
+    },
+    "88532": {
+      "id": "88532",
+      "path": "data/test/88532.parquet",
+      "rows": 18401,
+      "sha256": "37b34a56d2913f54b5d9b27d4f2a0ca217411270cd281620c7459fbea241daa0",
+      "new_numeric_NA_cells": 55203,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 18401,
+        "DragAreaOfDrogue": 18401,
+        "DragAreaRatio": 18401,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/88532.parquet"
+    },
+    "88590": {
+      "id": "88590",
+      "path": "data/train/88590.parquet",
+      "rows": 12761,
+      "sha256": "e25e6e530e7a3fd0b0ed20c38d73372350758cc7dcbafe0becda3ac24a5e9fa3",
+      "new_numeric_NA_cells": 38283,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 12761,
+        "DragAreaOfDrogue": 12761,
+        "DragAreaRatio": 12761,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88590.parquet"
+    },
+    "88547": {
+      "id": "88547",
+      "path": "data/train/88547.parquet",
+      "rows": 10096,
+      "sha256": "f0b656bc19ee37ebae8c342a4483f4d5e73040659f742339714b63496b56cb37",
+      "new_numeric_NA_cells": 30288,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10096,
+        "DragAreaOfDrogue": 10096,
+        "DragAreaRatio": 10096,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88547.parquet"
+    },
+    "88579": {
+      "id": "88579",
+      "path": "data/train/88579.parquet",
+      "rows": 11250,
+      "sha256": "59164548c751cafa3ead7d9f0b932b3c69c0abf878678daa172a1dc55cf13285",
+      "new_numeric_NA_cells": 33750,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 11250,
+        "DragAreaOfDrogue": 11250,
+        "DragAreaRatio": 11250,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88579.parquet"
+    },
+    "88538": {
+      "id": "88538",
+      "path": "data/train/88538.parquet",
+      "rows": 3957,
+      "sha256": "8119c7e05e063a11fb253fdf4978e4fec3215c4f24103eff90b84eb2a24e0e2d",
+      "new_numeric_NA_cells": 11871,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 3957,
+        "DragAreaOfDrogue": 3957,
+        "DragAreaRatio": 3957,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88538.parquet"
+    },
+    "88574": {
+      "id": "88574",
+      "path": "data/train/88574.parquet",
+      "rows": 7403,
+      "sha256": "ef710e6f0743403f16b2eaab3d0c765d4c1fb5db0f767c496584279d2d86f60b",
+      "new_numeric_NA_cells": 22209,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7403,
+        "DragAreaOfDrogue": 7403,
+        "DragAreaRatio": 7403,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88574.parquet"
+    },
+    "88669": {
+      "id": "88669",
+      "path": "data/train/88669.parquet",
+      "rows": 5520,
+      "sha256": "821157fd0f232541303dc0a79076dba538201f5f6e49c432ce5c60629dd761d0",
+      "new_numeric_NA_cells": 16560,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 5520,
+        "DragAreaOfDrogue": 5520,
+        "DragAreaRatio": 5520,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88669.parquet"
+    },
+    "88663": {
+      "id": "88663",
+      "path": "data/train/88663.parquet",
+      "rows": 10925,
+      "sha256": "5f459a00bf2c5a624c0decb6856c88e180a58c914f39a2105bc78de82488d036",
+      "new_numeric_NA_cells": 32775,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 10925,
+        "DragAreaOfDrogue": 10925,
+        "DragAreaRatio": 10925,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88663.parquet"
+    },
+    "88653": {
+      "id": "88653",
+      "path": "data/train/88653.parquet",
+      "rows": 9020,
+      "sha256": "d23c1a0d0c83e3c886882989ee3b454ed7c70a5e30efcf0f98734229ccd65e71",
+      "new_numeric_NA_cells": 27060,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 9020,
+        "DragAreaOfDrogue": 9020,
+        "DragAreaRatio": 9020,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88653.parquet"
+    },
+    "88673": {
+      "id": "88673",
+      "path": "data/train/88673.parquet",
+      "rows": 7443,
+      "sha256": "8f880a4be711a8f55314a7f9a81939d3d8bd99043b57d945b0e5738148dcb28f",
+      "new_numeric_NA_cells": 22329,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 7443,
+        "DragAreaOfDrogue": 7443,
+        "DragAreaRatio": 7443,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/88673.parquet"
+    },
+    "61844": {
+      "id": "61844",
+      "path": "data/train/61844.parquet",
+      "rows": 980,
+      "sha256": "85b894a09706d3a81a80d7f9e53a2ce08c3b28487c749352201b09e0b03a3839",
+      "new_numeric_NA_cells": 3920,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 980,
+        "DragAreaOfDrogue": 980,
+        "DragAreaRatio": 980,
+        "DrogueBallast": 980,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/61844.parquet"
+    },
+    "36606": {
+      "id": "36606",
+      "path": "data/train/36606.parquet",
+      "rows": 18831,
+      "sha256": "88a91f628f87af6e19198aad7dd6fb23054b1c78b49b7249e3f0fb031bfc8c80",
+      "new_numeric_NA_cells": 18831,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 18831,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36606.parquet"
+    },
+    "36609": {
+      "id": "36609",
+      "path": "data/train/36609.parquet",
+      "rows": 7763,
+      "sha256": "f9240d95b58d538fa7917e99abca702af61ef975d1d440e6b82efa6ab947cc38",
+      "new_numeric_NA_cells": 7763,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7763,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36609.parquet"
+    },
+    "37755": {
+      "id": "37755",
+      "path": "data/train/37755.parquet",
+      "rows": 7892,
+      "sha256": "75cd9b667594b064062f37ba458a75486b53b4f3df8fc825675381525fb21cb9",
+      "new_numeric_NA_cells": 7892,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7892,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37755.parquet"
+    },
+    "37753": {
+      "id": "37753",
+      "path": "data/train/37753.parquet",
+      "rows": 7857,
+      "sha256": "2ef04c120df7ecf92ddab437329f48d0d0a7ccf0910482489b8ce462cd628704",
+      "new_numeric_NA_cells": 7857,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7857,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37753.parquet"
+    },
+    "37754": {
+      "id": "37754",
+      "path": "data/test/37754.parquet",
+      "rows": 7698,
+      "sha256": "00049760cf2ae1cbfe845f046c7cf6d0c6f5625a956efd55e07a83c6002e799e",
+      "new_numeric_NA_cells": 7698,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7698,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/37754.parquet"
+    },
+    "37752": {
+      "id": "37752",
+      "path": "data/train/37752.parquet",
+      "rows": 12301,
+      "sha256": "e110e2dbbd8b94beea14c216d27a6a17daea9203e5d9da7f23a55cd892a50339",
+      "new_numeric_NA_cells": 12301,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12301,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37752.parquet"
+    },
+    "37702": {
+      "id": "37702",
+      "path": "data/train/37702.parquet",
+      "rows": 10201,
+      "sha256": "aed205337949345050b5419c57dbff6ba0c57c9b52546c1f27bd37d395008bf2",
+      "new_numeric_NA_cells": 10201,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10201,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37702.parquet"
+    },
+    "37663": {
+      "id": "37663",
+      "path": "data/test/37663.parquet",
+      "rows": 7815,
+      "sha256": "eedcdd0670cc3bde4b72932c712eb43544ff6dffbf7986bb0d2703a893f60ba5",
+      "new_numeric_NA_cells": 7815,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7815,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/37663.parquet"
+    },
+    "114634": {
+      "id": "114634",
+      "path": "data/train/114634.parquet",
+      "rows": 10690,
+      "sha256": "f069221934d8318f209fcdb44370dc5d69dae03852024f468b96f37034b16031",
+      "new_numeric_NA_cells": 10690,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10690,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114634.parquet"
+    },
+    "110279": {
+      "id": "110279",
+      "path": "data/train/110279.parquet",
+      "rows": 2732,
+      "sha256": "5b55843be616d490e0259dbb9db124ecbececa65b22c85963a437e85365c7f63",
+      "new_numeric_NA_cells": 2732,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 2732,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/110279.parquet"
+    },
+    "109451": {
+      "id": "109451",
+      "path": "data/test/109451.parquet",
+      "rows": 8365,
+      "sha256": "b4f16ccfe568af1519d2f975d59c6d519b73b5278418c4fa1ddb6a8bee84a88c",
+      "new_numeric_NA_cells": 8365,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 8365,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/109451.parquet"
+    },
+    "114632": {
+      "id": "114632",
+      "path": "data/train/114632.parquet",
+      "rows": 11460,
+      "sha256": "75398b60f71ae2e0ab4efdaed921bd4d8beafab9a77931a7014ec1c39e59a58b",
+      "new_numeric_NA_cells": 11460,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 11460,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114632.parquet"
+    },
+    "114638": {
+      "id": "114638",
+      "path": "data/train/114638.parquet",
+      "rows": 10797,
+      "sha256": "b6a75f30f30dfb3ec7e5348fdb220cc83d6f6d46c5b2c5bcba4b2b30f10f7d8e",
+      "new_numeric_NA_cells": 10797,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10797,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114638.parquet"
+    },
+    "36648": {
+      "id": "36648",
+      "path": "data/train/36648.parquet",
+      "rows": 7425,
+      "sha256": "ff82eaf60674cc68409425bc83a3c1336bf57208da3fa28dc9f6f3248cc50989",
+      "new_numeric_NA_cells": 7425,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7425,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36648.parquet"
+    },
+    "36300": {
+      "id": "36300",
+      "path": "data/train/36300.parquet",
+      "rows": 7050,
+      "sha256": "9ed5a753a9f1d6d3e013829a24c3a63e87a75595f9107e3dfcc99f0524107865",
+      "new_numeric_NA_cells": 7050,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7050,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36300.parquet"
+    },
+    "36301": {
+      "id": "36301",
+      "path": "data/train/36301.parquet",
+      "rows": 6643,
+      "sha256": "648f20707443b7f3b814840258674b5f6b42c5503adcd772986d9c1c7def0349",
+      "new_numeric_NA_cells": 6643,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6643,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36301.parquet"
+    },
+    "37661": {
+      "id": "37661",
+      "path": "data/train/37661.parquet",
+      "rows": 5145,
+      "sha256": "94a4632a22100c2e39e59358da010f57c237db998cff34b83053a215e1e687db",
+      "new_numeric_NA_cells": 5145,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5145,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37661.parquet"
+    },
+    "37662": {
+      "id": "37662",
+      "path": "data/train/37662.parquet",
+      "rows": 5546,
+      "sha256": "9339455c4cfef093f1003f28f94bc809aebda76efbb09751dd51bfe5750d5257",
+      "new_numeric_NA_cells": 5546,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5546,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37662.parquet"
+    },
+    "36322": {
+      "id": "36322",
+      "path": "data/train/36322.parquet",
+      "rows": 3878,
+      "sha256": "98f358d9d5c98b2fa237c455e291f7b17b28e6c721d598058cd8da08e7fbee1a",
+      "new_numeric_NA_cells": 3878,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 3878,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36322.parquet"
+    },
+    "37658": {
+      "id": "37658",
+      "path": "data/test/37658.parquet",
+      "rows": 5701,
+      "sha256": "3a8897f8e3a336a937b1158daab791e910c0de6232417127266ef5db376b763c",
+      "new_numeric_NA_cells": 5701,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5701,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/37658.parquet"
+    },
+    "36654": {
+      "id": "36654",
+      "path": "data/train/36654.parquet",
+      "rows": 6263,
+      "sha256": "5fbcc85212a09cf4186d567a081e118339f23413b7a6b8672299f75633cea118",
+      "new_numeric_NA_cells": 6263,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6263,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36654.parquet"
+    },
+    "36653": {
+      "id": "36653",
+      "path": "data/train/36653.parquet",
+      "rows": 8853,
+      "sha256": "2635a80a805c19e3aaa6a13720168cf5d35e04409aab4e4d5048da3d219c5ad0",
+      "new_numeric_NA_cells": 8853,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 8853,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36653.parquet"
+    },
+    "36658": {
+      "id": "36658",
+      "path": "data/train/36658.parquet",
+      "rows": 6364,
+      "sha256": "19cd71a73dadb9dbd527b034ea4a200e50c749e26005c01b010480e153c1df03",
+      "new_numeric_NA_cells": 6364,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6364,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36658.parquet"
+    },
+    "36718": {
+      "id": "36718",
+      "path": "data/train/36718.parquet",
+      "rows": 6621,
+      "sha256": "15f9fb027b48823b1fabb9f118264c7aaebfcd1ce1b55a6a69bcf89dcea6c502",
+      "new_numeric_NA_cells": 6621,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6621,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36718.parquet"
+    },
+    "36659": {
+      "id": "36659",
+      "path": "data/train/36659.parquet",
+      "rows": 10367,
+      "sha256": "3c81b7c7a70d4dbf16aafda29a35041880f351a9d6357c2f0c6f449dcc77688b",
+      "new_numeric_NA_cells": 10367,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10367,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36659.parquet"
+    },
+    "36719": {
+      "id": "36719",
+      "path": "data/train/36719.parquet",
+      "rows": 7344,
+      "sha256": "439ed2e75e36136dc2cc11c8287ebde66b77649722bfacab05f468abf951d4b7",
+      "new_numeric_NA_cells": 7344,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7344,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36719.parquet"
+    },
+    "36726": {
+      "id": "36726",
+      "path": "data/test/36726.parquet",
+      "rows": 5353,
+      "sha256": "2fca2ba2712a5837463fba1c5f9b167e11d4a2bf35ff7b5edd869f45f963974c",
+      "new_numeric_NA_cells": 5353,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5353,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36726.parquet"
+    },
+    "36727": {
+      "id": "36727",
+      "path": "data/test/36727.parquet",
+      "rows": 5519,
+      "sha256": "3fbdaff65f5205acbbd7e5d5dd78218b5601fe4be40420ad1bb1ae8d6e9e4dfd",
+      "new_numeric_NA_cells": 5519,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5519,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36727.parquet"
+    },
+    "36632": {
+      "id": "36632",
+      "path": "data/train/36632.parquet",
+      "rows": 6593,
+      "sha256": "08c5082c1be18c534a5aaa1c7e60134fa309409db2006bd8f74042a1359d206c",
+      "new_numeric_NA_cells": 6593,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6593,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36632.parquet"
+    },
+    "37300": {
+      "id": "37300",
+      "path": "data/train/37300.parquet",
+      "rows": 7599,
+      "sha256": "e58d3804047bcdf53d5b7ebe43d8fd971f3fe663a175bf2995449dbd4a759db3",
+      "new_numeric_NA_cells": 7599,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7599,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/37300.parquet"
+    },
+    "36472": {
+      "id": "36472",
+      "path": "data/train/36472.parquet",
+      "rows": 7254,
+      "sha256": "e00944c86cabdb66b6304bd27089a11662972def8d1384303b6c8c43dc2dd684",
+      "new_numeric_NA_cells": 7254,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 7254,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36472.parquet"
+    },
+    "36326": {
+      "id": "36326",
+      "path": "data/train/36326.parquet",
+      "rows": 6711,
+      "sha256": "d3a8c10687ca82104b0258371aad938708fc9b9cdc67617d6c7fc952bf73ecaf",
+      "new_numeric_NA_cells": 6711,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6711,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36326.parquet"
+    },
+    "36433": {
+      "id": "36433",
+      "path": "data/test/36433.parquet",
+      "rows": 5392,
+      "sha256": "16f1b17b8e29724aa066cf380b34b4347b288fffe6e029fc22c256517243364c",
+      "new_numeric_NA_cells": 5392,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5392,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36433.parquet"
+    },
+    "36430": {
+      "id": "36430",
+      "path": "data/train/36430.parquet",
+      "rows": 4086,
+      "sha256": "90add6e14d53d5181caab29b68487734b312628f790bcc29efb5b8fab3e407de",
+      "new_numeric_NA_cells": 4086,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 4086,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36430.parquet"
+    },
+    "36373": {
+      "id": "36373",
+      "path": "data/test/36373.parquet",
+      "rows": 3553,
+      "sha256": "2ebdf20fb195ec84dc59bcc9d7ee6e0e39753ff7b6b871f515c86ae67db000fd",
+      "new_numeric_NA_cells": 3553,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 3553,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36373.parquet"
+    },
+    "36244": {
+      "id": "36244",
+      "path": "data/train/36244.parquet",
+      "rows": 5567,
+      "sha256": "8b8abfc51259f6df677003c9888b204f8dcf92e578b42bd4d8efb2491399c904",
+      "new_numeric_NA_cells": 5567,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5567,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36244.parquet"
+    },
+    "36245": {
+      "id": "36245",
+      "path": "data/train/36245.parquet",
+      "rows": 5251,
+      "sha256": "e001b34ca9f61abb9a5db63d55d9bacf493f0873c64caf7545f883e6d906a0bb",
+      "new_numeric_NA_cells": 5251,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5251,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36245.parquet"
+    },
+    "36243": {
+      "id": "36243",
+      "path": "data/train/36243.parquet",
+      "rows": 4868,
+      "sha256": "efaa3d6e175052951fc79bea464003e77dc94f6d93698fe33042c284d8963df0",
+      "new_numeric_NA_cells": 4868,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 4868,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36243.parquet"
+    },
+    "36323": {
+      "id": "36323",
+      "path": "data/test/36323.parquet",
+      "rows": 4407,
+      "sha256": "6db600619907ec813c5f12e3db065ea6e9bb46dd0e73217a76b10bff3e903658",
+      "new_numeric_NA_cells": 4407,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 4407,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36323.parquet"
+    },
+    "36363": {
+      "id": "36363",
+      "path": "data/train/36363.parquet",
+      "rows": 5938,
+      "sha256": "cbe1b0ad178b9dcf0399582ca226bf252a7370bd0ce70e4a5148754cb7929e8b",
+      "new_numeric_NA_cells": 5938,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5938,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36363.parquet"
+    },
+    "36255": {
+      "id": "36255",
+      "path": "data/train/36255.parquet",
+      "rows": 701,
+      "sha256": "51f05690f0079e6120c49e400622ee5fd48d19a784aae1bb21df0671627e5320",
+      "new_numeric_NA_cells": 701,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 701,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36255.parquet"
+    },
+    "36296": {
+      "id": "36296",
+      "path": "data/train/36296.parquet",
+      "rows": 6222,
+      "sha256": "bd2a51de22c18ef5e08a7957aefc851fbbfb4593e6ada1af23d676f2ed21b535",
+      "new_numeric_NA_cells": 6222,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 6222,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36296.parquet"
+    },
+    "36272": {
+      "id": "36272",
+      "path": "data/test/36272.parquet",
+      "rows": 5461,
+      "sha256": "65585dbe4e4025bc287e16bf71b43368a435a89d08fab6e32e9937e2f586d20e",
+      "new_numeric_NA_cells": 5461,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5461,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/36272.parquet"
+    },
+    "114955": {
+      "id": "114955",
+      "path": "data/train/114955.parquet",
+      "rows": 14786,
+      "sha256": "e075dd24e72798eedd9a35f84e2f95651cdb1e2e3e5463f1bcbccd6e84c92fbd",
+      "new_numeric_NA_cells": 14786,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14786,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114955.parquet"
+    },
+    "114905": {
+      "id": "114905",
+      "path": "data/train/114905.parquet",
+      "rows": 9671,
+      "sha256": "bc155fb169fda4bb5ae35a6e3a750ccd914624b2514d30ea3aeb20aaefeeeca4",
+      "new_numeric_NA_cells": 9671,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 9671,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114905.parquet"
+    },
+    "114906": {
+      "id": "114906",
+      "path": "data/train/114906.parquet",
+      "rows": 12057,
+      "sha256": "69a69165ea62b6f03d656d083c6587be0e7d865698e1ee27a9eccc83c58f625c",
+      "new_numeric_NA_cells": 12057,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12057,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114906.parquet"
+    },
+    "114814": {
+      "id": "114814",
+      "path": "data/train/114814.parquet",
+      "rows": 10360,
+      "sha256": "0614bf670600f3e70a084ec2e9c4643ce8d88a06c55254bfb20239d0ecd87080",
+      "new_numeric_NA_cells": 10360,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10360,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114814.parquet"
+    },
+    "114911": {
+      "id": "114911",
+      "path": "data/train/114911.parquet",
+      "rows": 12465,
+      "sha256": "40fa083828b741f188df033694a85ce2c76b8d6c766a7c40f0feebce73815e1c",
+      "new_numeric_NA_cells": 12465,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12465,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114911.parquet"
+    },
+    "114952": {
+      "id": "114952",
+      "path": "data/train/114952.parquet",
+      "rows": 13959,
+      "sha256": "99abde9cefecc611b02073c89a4d33909d3ff4f1c9d4d180b6c69cbecf25cdd7",
+      "new_numeric_NA_cells": 13959,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13959,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114952.parquet"
+    },
+    "114817": {
+      "id": "114817",
+      "path": "data/train/114817.parquet",
+      "rows": 15281,
+      "sha256": "42f9b3b33b4950e735e2a078e1977eab138ff60c33b030db82a3f651beada434",
+      "new_numeric_NA_cells": 15281,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 15281,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114817.parquet"
+    },
+    "114902": {
+      "id": "114902",
+      "path": "data/train/114902.parquet",
+      "rows": 13757,
+      "sha256": "d1f0f4369e6f6a4aca74b0dda7c342d4d331ebecc5363745abdcf8a400d26124",
+      "new_numeric_NA_cells": 13757,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13757,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114902.parquet"
+    },
+    "114908": {
+      "id": "114908",
+      "path": "data/train/114908.parquet",
+      "rows": 13436,
+      "sha256": "a38fa05ce0c199b33b1ced59c139043a1e07a89d48790eaad036e8bfbc6c905e",
+      "new_numeric_NA_cells": 13436,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13436,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114908.parquet"
+    },
+    "114822": {
+      "id": "114822",
+      "path": "data/train/114822.parquet",
+      "rows": 11822,
+      "sha256": "26ea94c83d0528c7e457e181034768cffc67ea83fb0548df7fa67c7087130930",
+      "new_numeric_NA_cells": 11822,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 11822,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114822.parquet"
+    },
+    "114907": {
+      "id": "114907",
+      "path": "data/train/114907.parquet",
+      "rows": 12705,
+      "sha256": "62365a6b19eb6e03ae6d099e9c3500f025e7dfbcf6964d4956d5c2d711b6a785",
+      "new_numeric_NA_cells": 12705,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12705,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114907.parquet"
+    },
+    "114995": {
+      "id": "114995",
+      "path": "data/train/114995.parquet",
+      "rows": 13538,
+      "sha256": "283c59c25cc9b9c58de6bb570f75ad7a5203dfbf444c7ef5b7407b856541bb6d",
+      "new_numeric_NA_cells": 13538,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13538,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114995.parquet"
+    },
+    "114816": {
+      "id": "114816",
+      "path": "data/train/114816.parquet",
+      "rows": 16403,
+      "sha256": "b847627d8aab1e43aca0bd56bf90b1b30365f68ae44783a974588eb17a0b37a9",
+      "new_numeric_NA_cells": 16403,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 16403,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114816.parquet"
+    },
+    "114958": {
+      "id": "114958",
+      "path": "data/train/114958.parquet",
+      "rows": 13815,
+      "sha256": "c4966a7c64d2e28e35d9d866bbd85f4a64e8380695a4fb12634430a164ab8cc0",
+      "new_numeric_NA_cells": 13815,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13815,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114958.parquet"
+    },
+    "114996": {
+      "id": "114996",
+      "path": "data/train/114996.parquet",
+      "rows": 15501,
+      "sha256": "bb34bd462848e4583470f9f143fcfefd6d58eb36f73c07812fb4f0cd203f7abd",
+      "new_numeric_NA_cells": 15501,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 15501,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114996.parquet"
+    },
+    "114903": {
+      "id": "114903",
+      "path": "data/train/114903.parquet",
+      "rows": 16818,
+      "sha256": "72a9622542ef2d5cded536c3d1f9e1bebae347f40ed2f8494a58e64511220f12",
+      "new_numeric_NA_cells": 16818,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 16818,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114903.parquet"
+    },
+    "114992": {
+      "id": "114992",
+      "path": "data/test/114992.parquet",
+      "rows": 17803,
+      "sha256": "164cffc4968e51cb8811d64eca08b2f7bf53342d992b96f617dc67f52a69209f",
+      "new_numeric_NA_cells": 17803,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 17803,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/114992.parquet"
+    },
+    "114904": {
+      "id": "114904",
+      "path": "data/train/114904.parquet",
+      "rows": 14899,
+      "sha256": "a502a65c8961b80546f99e0889b92dd2fb68f8cb98c0bf0fbfb0fa18922c70a9",
+      "new_numeric_NA_cells": 14899,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14899,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114904.parquet"
+    },
+    "114909": {
+      "id": "114909",
+      "path": "data/train/114909.parquet",
+      "rows": 13317,
+      "sha256": "bb3bb0fa2a0a637f55bdffd07b330e7575ba22d0f85d45af8769d38f78b615fc",
+      "new_numeric_NA_cells": 13317,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13317,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114909.parquet"
+    },
+    "114821": {
+      "id": "114821",
+      "path": "data/train/114821.parquet",
+      "rows": 14287,
+      "sha256": "d405e6d35fa2d5d43b2e11e8682fcf9d7313c159f3a25a9afd7147b0758f2a82",
+      "new_numeric_NA_cells": 14287,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14287,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114821.parquet"
+    },
+    "114961": {
+      "id": "114961",
+      "path": "data/train/114961.parquet",
+      "rows": 14769,
+      "sha256": "76f7d1e46e2b7eb28c73f4a7653b48c6e8585aa97ea18dc7a7869bb97fbabe73",
+      "new_numeric_NA_cells": 14769,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14769,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114961.parquet"
+    },
+    "114959": {
+      "id": "114959",
+      "path": "data/train/114959.parquet",
+      "rows": 16500,
+      "sha256": "ec0f02bf9d9374c71221660c69a0a7d62f790f48b325123bc428bbc01b441654",
+      "new_numeric_NA_cells": 16500,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 16500,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114959.parquet"
+    },
+    "114954": {
+      "id": "114954",
+      "path": "data/train/114954.parquet",
+      "rows": 14696,
+      "sha256": "03e4d8b66959080b3bedaf17dff67837ceeb7825b1bc04ad5c23f2126d7290cb",
+      "new_numeric_NA_cells": 14696,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14696,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114954.parquet"
+    },
+    "114815": {
+      "id": "114815",
+      "path": "data/train/114815.parquet",
+      "rows": 14987,
+      "sha256": "65f613b1afc494e588c14624b176e9e87f8eab4af32a09e9652c5cf7fec811d6",
+      "new_numeric_NA_cells": 14987,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14987,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114815.parquet"
+    },
+    "114960": {
+      "id": "114960",
+      "path": "data/train/114960.parquet",
+      "rows": 12580,
+      "sha256": "a0f56c600cd5435fc387095ae746b8c5bb93d926c41adba917977b623cb54b50",
+      "new_numeric_NA_cells": 12580,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12580,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114960.parquet"
+    },
+    "114993": {
+      "id": "114993",
+      "path": "data/train/114993.parquet",
+      "rows": 13463,
+      "sha256": "2240b2f6ab2759f6f26ab2fc3c995647292e560214b9e12fe4a017f1c2f0578d",
+      "new_numeric_NA_cells": 13463,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13463,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114993.parquet"
+    },
+    "114820": {
+      "id": "114820",
+      "path": "data/train/114820.parquet",
+      "rows": 14058,
+      "sha256": "649e942a9e89c6f5c76216a3753f7ad02c742d00c5dffcce030e2af3fac23fa3",
+      "new_numeric_NA_cells": 14058,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14058,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114820.parquet"
+    },
+    "114818": {
+      "id": "114818",
+      "path": "data/train/114818.parquet",
+      "rows": 15779,
+      "sha256": "be5642582733e9a09e368c691d267ee638d9672d02d479f699d4561a44c0d890",
+      "new_numeric_NA_cells": 15779,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 15779,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114818.parquet"
+    },
+    "114953": {
+      "id": "114953",
+      "path": "data/train/114953.parquet",
+      "rows": 10464,
+      "sha256": "5f6b82551a20e403264c46c46ffeb6979e98fbc16f9295e7d7e5df99212ddb3f",
+      "new_numeric_NA_cells": 10464,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 10464,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114953.parquet"
+    },
+    "114635": {
+      "id": "114635",
+      "path": "data/train/114635.parquet",
+      "rows": 11741,
+      "sha256": "0f406980ce52f8bbc1bd3b74ad07c575b87a681305aa892ab8e974ebb4da9488",
+      "new_numeric_NA_cells": 11741,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 11741,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114635.parquet"
+    },
+    "114910": {
+      "id": "114910",
+      "path": "data/train/114910.parquet",
+      "rows": 15686,
+      "sha256": "c9e08d9f58fb48f1851eb866680a1cbf00e5e2dc0e8ec0206af5ab63e1cd5cda",
+      "new_numeric_NA_cells": 15686,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 15686,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114910.parquet"
+    },
+    "114957": {
+      "id": "114957",
+      "path": "data/train/114957.parquet",
+      "rows": 20503,
+      "sha256": "47a78acb32f419da86a3f3930a96227cfdb1253a5696dc9d9d6567f73e810f2f",
+      "new_numeric_NA_cells": 20503,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 20503,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114957.parquet"
+    },
+    "114819": {
+      "id": "114819",
+      "path": "data/train/114819.parquet",
+      "rows": 12187,
+      "sha256": "b706373e1f25c8ac42f89c1e662ae4833bba17cda44de5df26d6471ccbb82388",
+      "new_numeric_NA_cells": 12187,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12187,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114819.parquet"
+    },
+    "114994": {
+      "id": "114994",
+      "path": "data/train/114994.parquet",
+      "rows": 17023,
+      "sha256": "4edb2f3b15ea925a2518046a09c18ffa3569b3a7be0fa13ae0dd0c0137e05a94",
+      "new_numeric_NA_cells": 17023,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 17023,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114994.parquet"
+    },
+    "114813": {
+      "id": "114813",
+      "path": "data/train/114813.parquet",
+      "rows": 14846,
+      "sha256": "091337a011f86b78acc8ba23c3bc90cd6b4f16de27d28c3ff31da82cfb684990",
+      "new_numeric_NA_cells": 14846,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14846,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114813.parquet"
+    },
+    "115000": {
+      "id": "115000",
+      "path": "data/train/115000.parquet",
+      "rows": 14815,
+      "sha256": "7dfbf56a2bddcb5bf02615f8b7c9a5966621c9efdd53fd48fb54c123695ab053",
+      "new_numeric_NA_cells": 14815,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14815,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/115000.parquet"
+    },
+    "115001": {
+      "id": "115001",
+      "path": "data/train/115001.parquet",
+      "rows": 14958,
+      "sha256": "98ca3bfdb0cb8d0030212cd0e93cbdb92a706f666863dfe720c2bcbce991bc88",
+      "new_numeric_NA_cells": 14958,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 14958,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/115001.parquet"
+    },
+    "114999": {
+      "id": "114999",
+      "path": "data/train/114999.parquet",
+      "rows": 13741,
+      "sha256": "3ee51b338105f37a9015ae04ab84a2384d732035b793f0da56d513cdcf0dfbca",
+      "new_numeric_NA_cells": 13741,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 13741,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114999.parquet"
+    },
+    "114956": {
+      "id": "114956",
+      "path": "data/test/114956.parquet",
+      "rows": 16151,
+      "sha256": "d96ce9362aa8118c9321988f3beb20cc6a504b41e135d6717592c72252e7df2f",
+      "new_numeric_NA_cells": 16151,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 16151,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/114956.parquet"
+    },
+    "114997": {
+      "id": "114997",
+      "path": "data/train/114997.parquet",
+      "rows": 12414,
+      "sha256": "2c9d1050e8a0c5f2d47a7a0295cfe6b166171caa4e3d889f7a133ac3d764f597",
+      "new_numeric_NA_cells": 12414,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 12414,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114997.parquet"
+    },
+    "114998": {
+      "id": "114998",
+      "path": "data/train/114998.parquet",
+      "rows": 16516,
+      "sha256": "e6b21d80a32770bb075c7fbebec76d02bc69dc91792b802dcd3ba97a7979e669",
+      "new_numeric_NA_cells": 16516,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 16516,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/114998.parquet"
+    },
+    "300234060725400": {
+      "id": "300234060725400",
+      "path": "data/train/300234060725400.parquet",
+      "rows": 5461,
+      "sha256": "233bc0a095dd2e0db8d991d3351696190191e4ff3f3ff95f42c700c1814b1ec5",
+      "new_numeric_NA_cells": 5461,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5461,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300234060725400.parquet"
+    },
+    "36470": {
+      "id": "36470",
+      "path": "data/train/36470.parquet",
+      "rows": 4277,
+      "sha256": "bb7d49d13093909ad198204d23692895894c1f8256d0163d41fe2e8ad134de4e",
+      "new_numeric_NA_cells": 4277,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 4277,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36470.parquet"
+    },
+    "36469": {
+      "id": "36469",
+      "path": "data/train/36469.parquet",
+      "rows": 4450,
+      "sha256": "68abf09db555fc42fb9eb79e623a052f192ac976f15c68c2606ddd61650fb1ce",
+      "new_numeric_NA_cells": 4450,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 4450,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36469.parquet"
+    },
+    "36471": {
+      "id": "36471",
+      "path": "data/train/36471.parquet",
+      "rows": 3966,
+      "sha256": "03c609c8c409fb8ef21c8e7354472ba4de9b45a63221155883e7ddfa4b22c3cb",
+      "new_numeric_NA_cells": 3966,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 3966,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/36471.parquet"
+    },
+    "300234068344210": {
+      "id": "300234068344210",
+      "path": "data/test/300234068344210.parquet",
+      "rows": 4632,
+      "sha256": "d3564ffaa0c4a86f100c30abe78d9855d5262510b0fa32dcc3aa06ef9669d673",
+      "new_numeric_NA_cells": 13896,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 4632,
+        "DragAreaRatio": 4632,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 4632,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/300234068344210.parquet"
+    },
+    "300234068344270": {
+      "id": "300234068344270",
+      "path": "data/train/300234068344270.parquet",
+      "rows": 5300,
+      "sha256": "0eb4605d9cfe87dae7d692b2666cf79b81f3a5d4ac433e66eae4052746fa57be",
+      "new_numeric_NA_cells": 15900,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 5300,
+        "DragAreaRatio": 5300,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 5300,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300234068344270.parquet"
+    },
+    "300234068344230": {
+      "id": "300234068344230",
+      "path": "data/train/300234068344230.parquet",
+      "rows": 4667,
+      "sha256": "3018e6a06433ca13189c9db8c5684dc7ea9c6479eefd18e728f28891ee096770",
+      "new_numeric_NA_cells": 14001,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 4667,
+        "DragAreaRatio": 4667,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 4667,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300234068344230.parquet"
+    },
+    "300534061608600": {
+      "id": "300534061608600",
+      "path": "data/train/300534061608600.parquet",
+      "rows": 5605,
+      "sha256": "7b64ab47b4157a9d02adcefc5b6d0a39e20c4a17739dba82fede8b8dd821b5de",
+      "new_numeric_NA_cells": 5605,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5605,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061608600.parquet"
+    },
+    "300534061608630": {
+      "id": "300534061608630",
+      "path": "data/train/300534061608630.parquet",
+      "rows": 5466,
+      "sha256": "a3f39da9325bef0f0ea1523902a7afa447fd8f293777ff6ff4ab12b004bd40f0",
+      "new_numeric_NA_cells": 5466,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5466,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061608630.parquet"
+    },
+    "300534061607610": {
+      "id": "300534061607610",
+      "path": "data/train/300534061607610.parquet",
+      "rows": 5502,
+      "sha256": "d16971ac2d519bcfcbade12f1a369136e932c36f061f26b44f55584ab631601b",
+      "new_numeric_NA_cells": 5502,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5502,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061607610.parquet"
+    },
+    "300534061607630": {
+      "id": "300534061607630",
+      "path": "data/train/300534061607630.parquet",
+      "rows": 5475,
+      "sha256": "01c754ec5896a8a541ff69573c1b3297fb535c874170f90be89418c5066b9f9c",
+      "new_numeric_NA_cells": 5475,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 5475,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061607630.parquet"
+    },
+    "300234068344280": {
+      "id": "300234068344280",
+      "path": "data/train/300234068344280.parquet",
+      "rows": 2757,
+      "sha256": "8eb2f90d26a2b4d0191880311307979a3dfaf2023d1f3f49c529ac201325902a",
+      "new_numeric_NA_cells": 8271,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 2757,
+        "DragAreaRatio": 2757,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 2757,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300234068344280.parquet"
+    },
+    "300234068344400": {
+      "id": "300234068344400",
+      "path": "data/test/300234068344400.parquet",
+      "rows": 104,
+      "sha256": "b0238d1ec500f293fc971e441871db03f43ad2e1560e9c74af77941ba4634cc6",
+      "new_numeric_NA_cells": 312,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 104,
+        "DragAreaRatio": 104,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 104,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/300234068344400.parquet"
+    },
+    "300234068344310": {
+      "id": "300234068344310",
+      "path": "data/test/300234068344310.parquet",
+      "rows": 63,
+      "sha256": "10860ac90a680e8eb1772fbab0f4d6394c75f8ac71cfdfbe039e0fbb302c65c2",
+      "new_numeric_NA_cells": 189,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 63,
+        "DragAreaRatio": 63,
+        "DrogueBallast": 0,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 63,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/test/300234068344310.parquet"
+    },
+    "300534060254940": {
+      "id": "300534060254940",
+      "path": "data/train/300534060254940.parquet",
+      "rows": 935,
+      "sha256": "eeedc48d261c6f56ea26c339b81655e105d1ca409e1575955450e78766cf80ef",
+      "new_numeric_NA_cells": 935,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 935,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534060254940.parquet"
+    },
+    "300534061800610": {
+      "id": "300534061800610",
+      "path": "data/train/300534061800610.parquet",
+      "rows": 598,
+      "sha256": "db8e0347805d1e7ec4d27ddb2c45577d25bb35b924b641fb2f6d84b68b1fa855",
+      "new_numeric_NA_cells": 598,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 598,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061800610.parquet"
+    },
+    "300534060252390": {
+      "id": "300534060252390",
+      "path": "data/train/300534060252390.parquet",
+      "rows": 1686,
+      "sha256": "e06ffc7164ab328455a19e7d18bc18b98da819faa22387278f25fa11336b88dc",
+      "new_numeric_NA_cells": 1686,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 1686,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534060252390.parquet"
+    },
+    "300534061800640": {
+      "id": "300534061800640",
+      "path": "data/train/300534061800640.parquet",
+      "rows": 1989,
+      "sha256": "0d19323e3f7995ad1ba1b572dcd72502cb342bf2aa7953f76d2bfd43da8413d5",
+      "new_numeric_NA_cells": 1989,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 1989,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061800640.parquet"
+    },
+    "300534061708520": {
+      "id": "300534061708520",
+      "path": "data/train/300534061708520.parquet",
+      "rows": 1138,
+      "sha256": "ed3db2ac4af823d6ab95eebf5543f5483e2bc4057dc202e72d8f50e6ebc33c0f",
+      "new_numeric_NA_cells": 1138,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 1138,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061708520.parquet"
+    },
+    "300534060254280": {
+      "id": "300534060254280",
+      "path": "data/train/300534060254280.parquet",
+      "rows": 2990,
+      "sha256": "ceddc29968b394436f27acb0a19077ca80cd7aa3205cd2314bd017a392fd7823",
+      "new_numeric_NA_cells": 2990,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 2990,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534060254280.parquet"
+    },
+    "300534060255020": {
+      "id": "300534060255020",
+      "path": "data/train/300534060255020.parquet",
+      "rows": 1374,
+      "sha256": "1adf48b7e86e6cedf83afd3f0913dda7554520deeb09e5a4c97d3db8fada1fcd",
+      "new_numeric_NA_cells": 1374,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 0,
+        "DragAreaOfDrogue": 0,
+        "DragAreaRatio": 0,
+        "DrogueBallast": 1374,
+        "DrogueCenterDepth": 0,
+        "DrogueLength": 0,
+        "FloatDiameter": 0
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534060255020.parquet"
+    },
+    "300534061551860": {
+      "id": "300534061551860",
+      "path": "data/train/300534061551860.parquet",
+      "rows": 994,
+      "sha256": "d42acd110f0b21bc3bbd89941acba63f9279007a8264d7862360a3ce2008c95e",
+      "new_numeric_NA_cells": 6958,
+      "new_numeric_NA_by_field": {
+        "DragAreaAboveDrogue": 994,
+        "DragAreaOfDrogue": 994,
+        "DragAreaRatio": 994,
+        "DrogueBallast": 994,
+        "DrogueCenterDepth": 994,
+        "DrogueLength": 994,
+        "FloatDiameter": 994
+      },
+      "backup_path": "archive/hardware_NA_20261017_v1/data/train/300534061551860.parquet"
+    }
+  },
+  "new_numeric_NA_cells": 3533591,
+  "existing_zero_codes_preserved": true,
+  "new_feature_columns": []
+}

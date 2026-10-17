@@ -1,0 +1,23 @@
+{
+  "changed_rows": 37641,
+  "restored_original_unknown": 3128,
+  "old_unknown_to_D": 2945,
+  "old_unknown_to_U": 183,
+  "old_U_to_D": 33830,
+  "old_U_to_unknown": 683,
+  "old_D_to_unknown": 0,
+  "old_D_to_U": 0,
+  "cohort_IDs": 3137,
+  "decisions": {
+    "nominal_loss": 2008,
+    "attached_at_end": 1120,
+    "hold_unknown": 9
+  },
+  "boundary_new_regimes": {
+    "1.0": 2945,
+    "0.0": 183,
+    "-1.0": 9
+  },
+  "forecast_accuracy_evaluated": false,
+  "old_support_aggregates_refreshed": false
+}

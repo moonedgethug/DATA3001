@@ -10,14 +10,14 @@ The Data Contract governs scientific definitions. This document governs file own
 | `docs/` | One current guide per stage and controlled contract copies |
 | `src/data3001/` | Shared Python logic and explicit I/O boundaries |
 | `configs/` | Asset/version locations and pinned environment; no alternative scientific authority |
-| `data/` | Native/processed scientific assets, metadata, reference geometry and immutable splits |
+| `data/train/`, `data/test/` | One complete current Parquet per ID; no logs, geometry or sidecar files |
 | `results/runs/<run_id>/` | New derived outputs, models, metrics and figures |
 | `results/deliverables/` | Versioned proposal/poster/report copies, with draft status preserved |
 | `tests/` | Scientific semantic tests and architecture boundary tests |
 | `provenance/frozen/` | Exact original code, receipts, configurations and checkpoints |
 | `provenance/runs/<run_id>/` | Run parameters, inputs, code/environment identity and logs |
 | `provenance/migrations/` | Layout change evidence, path mapping and recovery journal |
-| `archive/` | Superseded plans, six-hour screening, old environment and complete report sources |
+| `archive/` | Complete previous data tree, superseded plans, six-hour screening and report sources |
 
 Add modelling/prediction/evaluation modules when real work starts. Exploration notebooks, if needed, call shared package functions rather than carry competing implementations. Do not introduce a second workflow framework or regenerate data just to accommodate a directory change.
 
@@ -25,9 +25,11 @@ Add modelling/prediction/evaluation modules when real work starts. Exploration n
 
 `configs/assets.json` selects assets by stable logical name. Each entry identifies its version/role, split and file checksum or full directory inventory. Baseline/addendum tables stay separate. `configs/legacy_paths.json` resolves original acquisition-relative paths to their new locations; it does not edit old receipts.
 
+The current layout is **per-drifter-cleaned-1.5**, release **per-drifter-cleaned-20261017-v7**, with 62 existing fields per ID. [The data guide](data_layout.md) is the reading entry point. `configs/dataset_manifest.json` pins each ID file; the index and schema are separate lightweight configuration assets. Canonical readers use `data3001.dataset`, check the manifest/file identity and deny final-test access by default. Geometry, source snapshots and historical split manifests are registered archive assets. They do not belong inside the two active data directories.
+
 `data3001.paths` is the only root/asset resolver. New code calls `asset_path()` or `project_paths().asset()`. The preserved modules use `legacy_path()` at their adapted I/O boundaries. These return ordinary `Path` objects, not virtual directory proxies. Do not add ad-hoc `sys.path` insertion or machine-specific paths to active configs.
 
-`DATA3001_PROJECT_ROOT` can select another checkout. `DATA3001_DATA_ROOT` can locate the same verified scientific data tree elsewhere; it changes location, not version or research scope. A machine override must still pass the applicable asset checks.
+`DATA3001_PROJECT_ROOT` can select another checkout. `DATA3001_DATA_ROOT` can locate the same verified active `train/` and `test/` tree elsewhere. Archived assets remain relative to the project root. These settings change location, not version or research scope; a machine override must still pass asset checks.
 
 ## Environment
 
@@ -47,7 +49,7 @@ Pins preserve the current research environment. Do not upgrade scientific librar
 
 ## Runs and frozen inputs
 
-Use a unique run ID; both the results and provenance directories must be absent before creating it. The run receipt records parameters and input/code/environment identities. Derived pair runs record the actual source snapshot and cleaned-track hashes. Future modelling must additionally record features, training/validation IDs, fitted preprocessing, metrics and model artifacts; those are not yet implemented or claimed.
+Use a unique run ID; both the results and provenance directories must be absent before creating it. The run receipt records parameters and input/code/environment identities. Derived pair runs record the actual source snapshot, canonical track hash and dataset release/manifest identity, alongside applicable correction evidence. Future modelling must additionally record features, training/validation IDs, fitted preprocessing, metrics and model artifacts; those are not yet implemented or claimed.
 
 Frozen raw/processed data and historical receipts cannot be overwritten by the shared output helpers. Legacy actions that would rewrite frozen preparation, masks, summaries, source downloads or verification receipts are guarded. Their implementations remain preserved for reference; starting a new processing version requires configuring and auditing that new output contract. Scientific pure functions and read-only label generation remain available.
 
@@ -72,7 +74,11 @@ The complete data/provenance bundle must accompany a scientific handover. The or
 
 ## Migration acceptance and retained identity
 
-Migration ID: **architecture_20261014**. See [plan](../provenance/migrations/architecture_20261014/plan.md), [ledger](../provenance/migrations/architecture_20261014/progress.md) and [first acceptance](../provenance/migrations/architecture_20261014/verification.json).
+The latest data migration is **feature_pruning_20261017_v1**. Its [report](../provenance/migrations/feature_pruning_20261017_v1/REPORT.md) and [verification](../provenance/migrations/feature_pruning_20261017_v1/verification.json) document the approved 67-column removal, preserved values and unchanged pair labels. `verify-migration` dispatches to that full current release audit. The earlier **data_release_20261016** [acceptance](../provenance/migrations/data_release_20261016/acceptance.md), [full verification](../provenance/migrations/data_release_20261016/full_verification.json), original inventory and move journal remain historical evidence for the lossless consolidation and official corrections.
+
+The previous data root is retained at `archive/data_before_release_20261016/`; migration configuration/code/guide backups are under `provenance/migrations/data_release_20261016/before/`. These backups and the full data remain local. No deletion or Git publication is part of this operation.
+
+The earlier migration **architecture_20261014** remains historical: [plan](../provenance/migrations/architecture_20261014/plan.md), [ledger](../provenance/migrations/architecture_20261014/progress.md) and [first acceptance](../provenance/migrations/architecture_20261014/verification.json).
 
 The full local `baseline.json` and `path_map.json` inventories are retained in the migration directory but excluded from Git. The independent complete backup is at `../.migration_backups/architecture_20261014/work_place` relative to the repository. Both external contract originals and `../submission_proposal/proposal_final.docx` were backed up separately; published copies retain their original bytes. The original external authority files remain in place.
 
@@ -87,6 +93,10 @@ Original checkpoints stay bound to their old code signatures. The adapted live c
 ## Recovery procedure
 
 Do not run recovery while acquisition, preparation or modelling is writing to this checkout.
+
+For the current data consolidation, preserve the active `data/` and current configuration/code in a separate recovery directory first. Verify the archived old tree against `original_data_inventory.jsonl`; rename that old tree back to `data/` only when the destination is absent, then restore matching files from this migration's `before/` backup. The two renames are recorded in `moves.jsonl`. Keep the preserved consolidated tree and all receipts. Never rerun `build.py` or `activate.py` over an already activated release. Recheck the corresponding catalog, whole-ID assignments and scientific tests before resuming work.
+
+The following steps describe recovery of the **earlier architecture migration**, not a shortcut for undoing later research changes.
 
 For a single interrupted move, use the `before`/`after` entries in `move_journal.jsonl` and the per-file old/new map. Verify the affected bytes against the independent backup before returning them to their original location. Never overwrite a later research result to restore an earlier path.
 

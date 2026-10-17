@@ -1,0 +1,41 @@
+test_metadata_describes_only_current_columns_without_erasing_source_evidence (test_feature_pruning.FeaturePruning.test_metadata_describes_only_current_columns_without_erasing_source_evidence) ... FAIL
+test_projection_preserves_retained_values_nulls_order_types_and_attributes (test_feature_pruning.FeaturePruning.test_projection_preserves_retained_values_nulls_order_types_and_attributes) ... FAIL
+test_protected_uncertainties_and_unexpected_names_are_rejected (test_feature_pruning.FeaturePruning.test_protected_uncertainties_and_unexpected_names_are_rejected) ... FAIL
+
+======================================================================
+FAIL: test_metadata_describes_only_current_columns_without_erasing_source_evidence (test_feature_pruning.FeaturePruning.test_metadata_describes_only_current_columns_without_erasing_source_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 51, in test_metadata_describes_only_current_columns_without_erasing_source_evidence
+    m = self.module(); out = m.prune_table(self.source(), ['in_R', 'WMO'])
+        ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec('data3001.feature_pruning'),
+AssertionError: unexpectedly None : Approved feature projection is not implemented
+
+======================================================================
+FAIL: test_projection_preserves_retained_values_nulls_order_types_and_attributes (test_feature_pruning.FeaturePruning.test_projection_preserves_retained_values_nulls_order_types_and_attributes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 40, in test_projection_preserves_retained_values_nulls_order_types_and_attributes
+    m = self.module(); old = self.source(); out = m.prune_table(old, ['in_R', 'WMO'])
+        ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec('data3001.feature_pruning'),
+AssertionError: unexpectedly None : Approved feature projection is not implemented
+
+======================================================================
+FAIL: test_protected_uncertainties_and_unexpected_names_are_rejected (test_feature_pruning.FeaturePruning.test_protected_uncertainties_and_unexpected_names_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 62, in test_protected_uncertainties_and_unexpected_names_are_rejected
+    m = self.module()
+        ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_feature_pruning.py", line 14, in module
+    self.assertIsNotNone(importlib.util.find_spec('data3001.feature_pruning'),
+AssertionError: unexpectedly None : Approved feature projection is not implemented
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=3)

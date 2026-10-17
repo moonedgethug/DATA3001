@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v5",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 129,
+  "drogue_status_exactly_equals_parent_regime": true,
+  "regime_absent_from_active_files": true,
+  "drogue_status_counts": {
+    "-1": 496150,
+    "0": 19335559,
+    "1": 19267484
+  },
+  "native_binary_status_values_updated": 532150,
+  "other_128_columns_values_types_and_nulls_unchanged": true,
+  "all_record_keys_and_order_unchanged": true,
+  "drogue_lost_date_unchanged": true,
+  "whole_ID_pool_assignments_unchanged": true,
+  "SST_NA_unchanged": 16059,
+  "SST_NA_in_R_unchanged": 47,
+  "new_feature_columns": [],
+  "recovery_tails_still_absent": true,
+  "contract_unchanged": true,
+  "forecast_accuracy_evaluated": false
+}

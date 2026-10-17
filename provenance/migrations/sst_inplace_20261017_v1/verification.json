@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v3",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 130,
+  "temperature_column": "sst",
+  "added_data_columns": [],
+  "sst_use_K_absent_from_active_files": true,
+  "sst_exactly_matches_approved_values": true,
+  "other_129_fields_values_types_and_nulls_unchanged": true,
+  "whole_ID_pool_assignments_unchanged": true,
+  "contract_unchanged": true,
+  "missing_total_SST": 5547,
+  "changed_SST_values": 1369138,
+  "filled_missing_SST": 1354245,
+  "corrected_finite_SST": 14893,
+  "set_unaccepted_SST_to_NA": 0,
+  "recovery_tails_still_absent": true,
+  "forecast_accuracy_evaluated": false
+}

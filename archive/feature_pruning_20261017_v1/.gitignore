@@ -1,0 +1,46 @@
+# Local environments, caches and interrupted outputs
+/.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.part
+*.tmp
+node_modules/
+
+# Versioned scientific data are distributed with checksums, outside Git.
+/data/raw/
+/data/processed/
+/data/restricted_test/
+/data/train/
+/data/test/
+/data/reference/**/gshhg*.wkb
+/data/reference/acquisition/metadata/trajectory_metadata.npz
+
+# Retained runtime history and complete migration inventories
+/archive/environment/
+/archive/runtime_cache/
+/archive/poster_build_v0.1/
+/provenance/frozen/**/checkpoints/
+/provenance/frozen/**/checkpoint_revisions/
+/provenance/migrations/*/baseline.json
+/provenance/migrations/*/path_map.json
+
+# Experiments are immutable local runs; promote selected summaries explicitly.
+/results/runs/
+/provenance/runs/
+
+# Diagnostic datasets and retained OS/runtime artefacts stay local.
+/data/reference/**/diagnostics/
+/archive/data_before_release_20261016/raw/
+/archive/data_before_release_20261016/processed/
+/archive/data_before_release_20261016/restricted_test/
+/archive/data_before_release_20261016/reference/**/gshhg*.wkb
+/archive/data_before_release_20261016/reference/acquisition/metadata/trajectory_metadata.npz
+/archive/data_before_release_20261016/reference/**/diagnostics/
+/provenance/migrations/data_release_20261016/before/
+/provenance/migrations/data_release_20261016/staged_data/
+/provenance/migrations/data_release_20261016/build_log.jsonl
+/archive/filesystem_metadata/
+/provenance/frozen/**/*.log
+/provenance/migrations/*/path_map_*.json
+*.egg-info/

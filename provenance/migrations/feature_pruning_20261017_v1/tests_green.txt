@@ -1,0 +1,8 @@
+test_metadata_describes_only_current_columns_without_erasing_source_evidence (test_feature_pruning.FeaturePruning.test_metadata_describes_only_current_columns_without_erasing_source_evidence) ... ok
+test_projection_preserves_retained_values_nulls_order_types_and_attributes (test_feature_pruning.FeaturePruning.test_projection_preserves_retained_values_nulls_order_types_and_attributes) ... ok
+test_protected_uncertainties_and_unexpected_names_are_rejected (test_feature_pruning.FeaturePruning.test_protected_uncertainties_and_unexpected_names_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.136s
+
+OK

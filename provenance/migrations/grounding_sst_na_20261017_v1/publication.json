@@ -1,0 +1,13 @@
+{
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 130,
+  "changed_ID_files": 822,
+  "new_SST_NA": 10512,
+  "new_SST_NA_in_R": 47,
+  "previous_SST_NA": 5547,
+  "total_SST_NA": 16059,
+  "post_last_good_grounding_rows": 16059,
+  "post_last_good_grounding_IDs": 822,
+  "post_last_good_grounding_rows_in_R": 47
+}

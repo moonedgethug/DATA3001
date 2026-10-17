@@ -8,20 +8,48 @@ from shapely.geometry import shape
 from data3001.preprocessing import prep_core as c
 from data3001.preprocessing.prep_io import BASE, OUT, Source, parquet, save_json, sha, now
 from data3001.preprocessing.prep_run import directory
+from data3001.preprocessing.drogue_correction import prepared_track_path, official_attached_evidence
+from data3001.preprocessing.drogue_boundary import read_prepared_track
 CUTOFF=float(json.loads((legacy_path('metadata/corpus_time_coverage.json')).read_text())['end_epoch_seconds'])
 
 def load_track(s,id):
-    split=s.cohort.loc[id,'split'];df=pd.read_parquet(directory(split,allow_test=s.allow_test)/f'{id}.parquet')
-    df=df[df.analytical_row].reset_index(drop=True)
+    from data3001.drogue_storage import cleaned_drogue_values
+    from data3001.feature_pruning import qualification_arrays
+    split=s.cohort.loc[id,'split'];df,boundary=read_prepared_track(id,split,allow_test=s.allow_test)
+    if df.attrs.get('data3001'):
+        from data3001.model_input_cleaning import exclude_recovery_tail
+        df=exclude_recovery_tail(df)
+    qualification=qualification_arrays(id,df,
+        ['analytical_row','position_ok','mapping_ok','in_R','visit_cell_1'],allow_test=s.allow_test)
+    usable=qualification['analytical_row']
+    df=df.iloc[np.flatnonzero(usable)].reset_index(drop=True)
+    qualification={key:value[usable] for key,value in qualification.items()}
     dom=shape(json.loads((legacy_path('preparation', 'geometry/transport_D.geojson')).read_text())['features'][0]['geometry'])
-    inside=sh.intersects_xy(dom,df.lon_normalized.to_numpy(),df.lat.to_numpy())&df.position_ok.to_numpy()
-    loss=float(s.g['drogue_lost_date'][s.index[id]])
-    a={'time':df.time.to_numpy(),'position_ok':df.position_ok.to_numpy(),'mapping_ok':df.mapping_ok.to_numpy(),
-       'inside_D':inside,'regime':df.regime.to_numpy(),'lon':df.lon_normalized.to_numpy(),'lat':df.lat.to_numpy(),'loss':loss}
+    inside=sh.intersects_xy(dom,df.lon_normalized.to_numpy(),df.lat.to_numpy())&qualification['position_ok']
+    release_context=df.attrs.get('data3001')
+    loss=float(df.drogue_lost_date.iloc[0]) if release_context else float(s.g['drogue_lost_date'][s.index[id]])
+    a={'time':df.time.to_numpy(),'position_ok':qualification['position_ok'],'mapping_ok':qualification['mapping_ok'],
+       'in_R':qualification['in_R'],'visit_cell_1':qualification['visit_cell_1'],
+       'inside_D':inside,'regime':cleaned_drogue_values(df),'lon':df.lon_normalized.to_numpy(),'lat':df.lat.to_numpy(),'loss':loss}
+    proof=release_context.get('attached_record') if release_context else official_attached_evidence(id,split,allow_test=s.allow_test)
+    if proof is not None:
+        if not np.isnan(loss):raise ValueError('Official fill correction requires the unchanged native NaN')
+        a.update(loss_status_source='official_fill_attached',
+                 official_attached_through_epoch=proof['attached_through_epoch'],
+                 preparation_correction_version='official-drogue-attached-44-v1')
+    if boundary is not None:
+        if loss!=boundary['native_loss_epoch']:raise ValueError('Native boundary metadata changed')
+        a.update(loss_status_source='official_boundary_refinement',
+                 official_regime_decision=boundary['decision'],
+                 official_loss_epoch=boundary.get('official_loss_epoch'),
+                 official_attached_through_epoch=boundary.get('attached_through_epoch'),
+                 preparation_correction_version='official-drogue-boundary-v1',
+                 preparation_correction_asset='official_drogue_boundary')
     return df,a,c.event_bounds(a)
 
 def origin_indices(df,a,population):
-    return np.flatnonzero(a['position_ok']&(df.in_R.to_numpy() if population=='R' else a['inside_D']))
+    in_R=a['in_R'] if 'in_R' in a else df.in_R.to_numpy()
+    return np.flatnonzero(a['position_ok']&(in_R if population=='R' else a['inside_D']))
 
 def generate(df,a,events,id,origins,days,scenario,tolerance=0):
     if not 1<=days<=365 or int(days)!=days:raise ValueError('Integer days 1–365 required')
@@ -31,7 +59,8 @@ def generate(df,a,events,id,origins,days,scenario,tolerance=0):
             'origin_time_UTC':origin.time_UTC.to_numpy(),'target_epoch':a['time'][origins]+days*86400,
             'horizon_days':np.repeat(days,len(origins)),'scenario':np.repeat(scenario,len(origins)),
             'tolerance_hours':np.repeat(tolerance,len(origins)),'origin_cell_1':origin.cell_1.to_numpy(),
-            'departure_season':origin.season.to_numpy(),'origin_visit_1':origin.visit_cell_1.to_numpy()}
+            'departure_season':origin.season.to_numpy(),
+            'origin_visit_1':a['visit_cell_1'][origins] if 'visit_cell_1' in a else origin.visit_cell_1.to_numpy()}
     out=[]
     for target,x in [('endpoint',e),('stopped',p)]:
         ix=x['endpoint_index'];safe=np.clip(ix,0,len(df)-1)

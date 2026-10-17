@@ -1,0 +1,11 @@
+{
+  "rows": 39099193,
+  "changed_SST_values": 1369138,
+  "filled_missing_SST": 1354245,
+  "corrected_finite_SST": 14893,
+  "set_unaccepted_SST_to_NA": 0,
+  "remaining_NA": 5547,
+  "release": "per-drifter-cleaned-20261017-v3",
+  "IDs": 3741,
+  "fields_per_ID": 130
+}

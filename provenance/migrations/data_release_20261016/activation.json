@@ -1,0 +1,9 @@
+{
+  "activated": true,
+  "archive": "archive/data_before_release_20261016",
+  "catalog_sha256": "eeecd1f2e37b6177cbd2237a20d95fd98b8125316278ce187b6c87bb8bf23ccd",
+  "legacy_map_sha256": "005e3dbe4d4e564259b714348078d2913196f268e92df5b297fe6cdd13e14426",
+  "original_files_deleted": 0,
+  "train_IDs": 3224,
+  "test_IDs": 517
+}

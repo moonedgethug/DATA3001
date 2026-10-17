@@ -1,0 +1,15 @@
+{
+  "IDs": 68,
+  "hourly_records": 495555,
+  "original_hourly_zero_IDs": 68,
+  "current_directory_unknown_IDs": 68,
+  "historical_manual_date_equals_first_good_IDs": 68,
+  "source_confirmed_observed_drogued_then_undrogued_intervals": 0,
+  "recovered_reliable_transition_timestamps": 0,
+  "state_values_changed": false,
+  "interpretation": "Identifiable drifters with an unresolved regime history. Historical dates exist but do not establish an observed before/after transition and are superseded by the standard directory for current metadata authority.",
+  "historical_source": "https://www.aoml.noaa.gov/ftp/phod/lumpkin/droguedetect/2013_06_30_drogueoff.dat",
+  "current_source": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+  "source_priority": "README_final.TXT directs users to the standard directory for the most updated assessment.",
+  "table_sha256": "8ba9b060b0d914ee0f4b3be428a5561cc3c2d1456745f5b2edd7c0d9e21eba30"
+}

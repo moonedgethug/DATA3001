@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v4",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 130,
+  "changed_ID_files": 822,
+  "new_SST_NA": 10512,
+  "new_SST_NA_in_R": 47,
+  "post_last_good_grounding_rows": 16059,
+  "post_last_good_grounding_rows_in_R": 47,
+  "total_SST_NA": 16059,
+  "total_SST_NA_in_R": 47,
+  "all_selected_SST_are_numeric_NA": true,
+  "SST_elsewhere_unchanged": true,
+  "other_129_fields_and_all_schema_metadata_unchanged": true,
+  "whole_ID_pool_assignments_unchanged": true,
+  "added_feature_columns": [],
+  "recovery_tails_still_absent": true,
+  "contract_unchanged": true,
+  "exact_grounding_hour_inferred": false,
+  "forecast_accuracy_evaluated": false
+}

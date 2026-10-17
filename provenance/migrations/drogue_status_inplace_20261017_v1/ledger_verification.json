@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rows": 532150,
+  "unique_keys": true,
+  "per_ID_counts_match_receipt": true,
+  "paired_outputs_unchanged": 180
+}

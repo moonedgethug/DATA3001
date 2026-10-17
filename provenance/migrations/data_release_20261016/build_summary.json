@@ -1,0 +1,26 @@
+{
+  "IDs": 3741,
+  "rows": 39107061,
+  "fields": 130,
+  "source_fields_retained": 62,
+  "prepared_fields_retained": 67,
+  "regime_counts": {
+    "-1": 496247,
+    "0": 19342607,
+    "1": 19268207
+  },
+  "paired_label_fingerprints": 300,
+  "paired_example_IDs": [
+    7648,
+    17503,
+    22165,
+    23059,
+    26856,
+    39609,
+    39610,
+    47577,
+    60350,
+    300234067548160
+  ],
+  "elapsed_seconds": 220.2450052080676
+}

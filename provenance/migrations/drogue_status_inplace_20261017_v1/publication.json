@@ -1,0 +1,14 @@
+{
+  "version": "per-drifter-cleaned-20261017-v5",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 129,
+  "removed_column": "regime",
+  "state_counts": {
+    "-1": 496150,
+    "0": 19335559,
+    "1": 19267484
+  },
+  "native_values_changed": 532150,
+  "new_feature_columns": []
+}

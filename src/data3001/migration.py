@@ -112,6 +112,27 @@ def verify_current_assets():
 
 def verify_all():
     paths = project_paths()
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.5':
+        from data3001.feature_pruning import verify_feature_release
+        return verify_feature_release(progress=lambda message:print(message,flush=True))
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.4':
+        from data3001.hardware_missing import verify_hardware_release
+        return verify_hardware_release(progress=lambda message:print(message,flush=True))
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.3':
+        from data3001.drogue_storage import verify_drogue_release
+        return verify_drogue_release(progress=lambda message:print(message,flush=True))
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.2':
+        from data3001.grounding_sst import verify_grounding_sst_release
+        return verify_grounding_sst_release(progress=lambda message:print(message,flush=True))
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.1':
+        from data3001.sst_storage import verify_sst_release
+        return verify_sst_release(progress=lambda message:print(message,flush=True))
+    if paths.catalog.get('layout_version') == 'per-drifter-cleaned-1.0':
+        from data3001.recovery_storage import verify_cleaned_release
+        return verify_cleaned_release()
+    if paths.catalog.get('layout_version') == 'per-drifter-1.0':
+        from data3001.release_verification import verify_release
+        return verify_release()
     started = time.monotonic()
     inventory_path = paths.root / 'provenance/migrations/architecture_20261014/path_map.json'
     inventory = json.loads(inventory_path.read_text())

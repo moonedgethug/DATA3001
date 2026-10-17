@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v6",
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields_per_ID": 129,
+  "changed_ID_files": 210,
+  "normalized_NaN_cells": 3533591,
+  "null_cells_by_field": {
+    "DragAreaAboveDrogue": 682604,
+    "DragAreaOfDrogue": 700127,
+    "DragAreaRatio": 700127,
+    "DrogueBallast": 1371415,
+    "DrogueCenterDepth": 17763,
+    "DrogueLength": 35286,
+    "FloatDiameter": 26269
+  },
+  "missing_IDs_by_field": {
+    "DragAreaAboveDrogue": 95,
+    "DragAreaOfDrogue": 101,
+    "DragAreaRatio": 101,
+    "DrogueBallast": 164,
+    "DrogueCenterDepth": 4,
+    "DrogueLength": 10,
+    "FloatDiameter": 6
+  },
+  "preserved_zero_cells_by_field": {
+    "DragAreaAboveDrogue": 0,
+    "DragAreaOfDrogue": 385334,
+    "DragAreaRatio": 385334,
+    "DrogueBallast": 370099,
+    "DrogueCenterDepth": 329040,
+    "DrogueLength": 393840,
+    "FloatDiameter": 0
+  },
+  "other_122_columns_unchanged": true,
+  "finite_hardware_values_unchanged": true,
+  "all_schema_metadata_unchanged": true,
+  "all_rows_keys_order_and_pools_unchanged": true,
+  "new_feature_columns": [],
+  "drogue_status_and_SST_unchanged": true,
+  "contract_unchanged": true,
+  "forecast_accuracy_evaluated": false
+}

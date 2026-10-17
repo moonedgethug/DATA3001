@@ -11,6 +11,8 @@ node_modules/
 /data/raw/
 /data/processed/
 /data/restricted_test/
+/data/train/
+/data/test/
 /data/reference/**/gshhg*.wkb
 /data/reference/acquisition/metadata/trajectory_metadata.npz
 
@@ -29,7 +31,36 @@ node_modules/
 
 # Diagnostic datasets and retained OS/runtime artefacts stay local.
 /data/reference/**/diagnostics/
+/archive/data_before_release_20261016/raw/
+/archive/data_before_release_20261016/processed/
+/archive/data_before_release_20261016/restricted_test/
+/archive/data_before_release_20261016/reference/**/gshhg*.wkb
+/archive/data_before_release_20261016/reference/acquisition/metadata/trajectory_metadata.npz
+/archive/data_before_release_20261016/reference/**/diagnostics/
+/provenance/migrations/data_release_20261016/before/
+/provenance/migrations/data_release_20261016/staged_data/
+/provenance/migrations/data_release_20261016/build_log.jsonl
 /archive/filesystem_metadata/
 /provenance/frozen/**/*.log
 /provenance/migrations/*/path_map_*.json
 *.egg-info/
+
+# Approved feature projection: full local parents and transient staged data.
+/archive/feature_pruning_20261017_v1/development/
+/archive/feature_pruning_20261017_v1/restricted_test/
+/provenance/migrations/feature_pruning_20261017_v1/staged/
+/provenance/migrations/feature_pruning_20261017_v1/baseline_labels.parquet
+
+# Complete cleaning backups and routine per-ID journals remain local.
+/archive/*/data/
+/archive/recovery_tail_removal_20261017_v1/train/
+/archive/recovery_tail_removal_20261017_v1/test/
+/archive/recovery_tail_removal_20261017_v1/staged/
+/provenance/migrations/*/staged/
+/provenance/migrations/*/changes/
+/provenance/migrations/*/staging.jsonl
+/provenance/migrations/*/activation.jsonl
+/provenance/migrations/*/next_*
+/provenance/migrations/data_release_20261016/original_data_inventory.jsonl
+/provenance/migrations/data_release_20261016/moves.jsonl
+/.chart-data-*/

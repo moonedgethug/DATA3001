@@ -1,0 +1,8 @@
+{
+  "historical_pending": 2584,
+  "historical_pending_in_R": 213,
+  "now_excluded_by_grounding_cutoff": 2,
+  "now_excluded_by_grounding_cutoff_in_R": 0,
+  "remaining_active_temperature_reviews": 2582,
+  "remaining_active_temperature_reviews_in_R": 213
+}

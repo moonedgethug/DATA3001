@@ -1,0 +1,19 @@
+{
+  "IDs": [
+    139080,
+    9825497,
+    17503
+  ],
+  "horizons": [
+    7,
+    30,
+    365
+  ],
+  "scenarios": [
+    "pooled",
+    "drogued",
+    "undrogued"
+  ],
+  "rows": 156024,
+  "sha256": "6b673f132b4f10568979d69c115c205ca43b562adc9a1cb59f2d9f743ca3e58e"
+}

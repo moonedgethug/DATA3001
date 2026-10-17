@@ -9,3 +9,5 @@ tests/** text eol=lf
 configs/** text eol=lf
 docs/architecture.md text eol=lf
 docs/preprocessing.md text eol=lf
+# Preserve the audited CSV bytes used by release acceptance receipts.
+configs/feature_review.csv -text

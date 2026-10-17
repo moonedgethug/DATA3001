@@ -95,6 +95,25 @@ def _regime(a,origins,end,scenario,events):
     want=1 if scenario=='drogued' else 0
     loss=a['loss'];t=a['time'];ext=np.r_[t,np.inf]
     unknown=(a['regime'][origins]<0)|(ext[events['next_unknown_index'][origins]]<=end)
+    if np.isfinite(loss) and loss>0 and a.get('loss_status_source')=='official_boundary_refinement':
+        decision=a['official_regime_decision']
+        switch=(a['regime'][origins]>=0)&(a['regime'][origins]!=want)
+        if decision=='attached_at_end':
+            through=float(a['official_attached_through_epoch'])
+            unknown |= ~np.isfinite(through)|(end>through)
+        elif decision=='nominal_loss':
+            nominal=float(a['official_loss_epoch'])
+            if not np.isfinite(nominal) or nominal<=0:raise ValueError('Invalid official interval time')
+            switch |= (t[origins]<nominal)&(end>=nominal)
+        else:raise ValueError('Unresolved boundary evidence cannot alter interval rules')
+        return unknown,switch
+    # Only a source-audited per-ID correction supplies this provenance marker.
+    # Keep the native NaN; evidence is bounded by the retained historical track.
+    if np.isnan(loss) and a.get('loss_status_source')=='official_fill_attached':
+        through=float(a['official_attached_through_epoch'])
+        unknown |= ~np.isfinite(through)|(end>through)
+        switch=(a['regime'][origins]>=0)&(a['regime'][origins]!=want)
+        return unknown,switch
     if not np.isfinite(loss) or loss<=0:unknown[:]=True;return unknown,z
     eps=abs(float(np.spacing(np.float32(loss))))/2
     unknown |= (end>=loss-eps)&(end<loss+eps)

@@ -28,6 +28,12 @@ class ProjectPaths:
             raise ValueError('Unsupported asset catalog schema')
         self._legacy = None
 
+    def _test_partition(self,path:Path)->bool:
+        if (path.is_relative_to(self.data_root/'test') or
+            path.is_relative_to(self.data_root/'restricted_test')):
+            return True
+        return path.is_relative_to(self.root) and 'restricted_test' in path.relative_to(self.root).parts
+
     def _resolve(self, relative: str) -> Path:
         rel = Path(relative)
         if rel.is_absolute() or '..' in rel.parts:
@@ -45,7 +51,7 @@ class ProjectPaths:
         if item.get('split') == 'test' and not allow_test:
             raise PermissionError('Final-test labels remain locked for model selection')
         path = self._resolve(item['path'])
-        if path.is_relative_to(self.data_root / 'restricted_test') and not allow_test:
+        if self._test_partition(path) and not allow_test:
             raise PermissionError('Asset alias resolves to a locked final-test partition')
         if must_exist and not path.exists():
             raise FileNotFoundError(f'Asset {asset_id!r} is absent: {path}')
@@ -68,7 +74,7 @@ class ProjectPaths:
         mapping = self._legacy['file_map']
         def destination(value):
             path = self._resolve(value)
-            if path.is_relative_to(self.data_root / 'restricted_test') and not allow_test:
+            if self._test_partition(path) and not allow_test:
                 raise PermissionError('Historical alias resolves to a locked final-test partition')
             return path
         if relative in mapping:

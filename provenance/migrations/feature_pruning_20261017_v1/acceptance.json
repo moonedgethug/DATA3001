@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "release": "per-drifter-cleaned-20261017-v7",
+  "IDs": 3741,
+  "rows": 39099193,
+  "train_IDs": 3224,
+  "test_IDs": 517,
+  "columns_before": 129,
+  "columns_removed": 67,
+  "columns_after": 62,
+  "retained_drop_list_exceptions": [
+    "err_lat",
+    "err_lon",
+    "err_ve",
+    "err_vn"
+  ],
+  "all_3741_files_value_verified": true,
+  "all_retained_values_types_nulls_and_field_attributes_unchanged": true,
+  "new_features": [],
+  "rows_deleted": 0,
+  "split_changes": 0,
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "contract_unchanged": true,
+  "representative_label_rows_exactly_unchanged": 156024,
+  "tests_passed": 175,
+  "git_commit_or_push_performed": false,
+  "model_accuracy_evaluated": false,
+  "current_hashes": {
+    "configs/dataset_manifest.json": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+    "configs/dataset_schema.json": "1a42a6f09e905c546bec1e0740ec0dfc11914d0fb9d310eec884ef2bfe79dcd7",
+    "configs/dataset_index.csv": "9a2e465dcf836ebd0825907b1e89310a1ace8f4a6e87a470d203acedab0e657f",
+    "configs/feature_review.csv": "6ca25584e082297e7a648af7a9a49fdf0ae501d7b420f9cc18baa41edfa37a03",
+    "configs/assets.json": "5f32c7b08d79d21099a736dd4cf8a6496ec56077823cd476f8184e8e7af7755c"
+  },
+  "independent_read_only_review": "No critical or important findings",
+  "pair_CLI_smoke_test_passed": true,
+  "final_code_sha256": {
+    "src/data3001/feature_pruning.py": "7f15d085204c146c5cf0ac3b7c9186b152deec33e6617c08c71c5033bd666cea",
+    "src/data3001/dataset.py": "a408dc2f1c84de710c412b0d50bbd8dbc5e9d3d5187205eafd18cf4d3fd5ca70",
+    "src/data3001/migration.py": "70a3edf8df586122667209bd83e3ab375b642b8dcc60329c091318d2c4dd5bad",
+    "src/data3001/preprocessing/prep_pairs.py": "f02e2cf68e9a255e10960eac3edb9e225706c5f07b1736b105f765a7f4441927",
+    "provenance/migrations/feature_pruning_20261017_v1/execute.py": "573926e26a09f260a61eab6595c78176b05274c58e0a2a61c704f504bc92ab67"
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "layout_version": "per-drifter-cleaned-1.2",
+  "research_contract_version": "1.0",
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "current_data_status": "Cleaned total SST in sst; post-last-good SST on eventual-grounding IDs is numeric NA; recovery tails removed; other fields and ID pools unchanged",
+  "assets": {
+    "english_contract": {
+      "path": "docs/contract/data_contract_v1.0.xlsx",
+      "kind": "file",
+      "sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+      "split": "all",
+      "role": "authoritative controlled copy; original authority unchanged",
+      "version": "1.0"
+    },
+    "chinese_contract": {
+      "path": "docs/contract/data_contract_v1.0_zh.xlsx",
+      "kind": "file",
+      "sha256": "80c0c27702b5265b2c4904e625e93fb338a071a684c0fcaff36a99004dd91b34",
+      "split": "all",
+      "role": "translation for discussion",
+      "version": "1.0"
+    },
+    "submission_proposal": {
+      "path": "results/deliverables/proposal/proposal_final.docx",
+      "kind": "file",
+      "sha256": "8497a4c5f6a1316f2b8a8b800e3ed0a5ea33e55288e7c1d94c5addb506df9bed",
+      "split": "all",
+      "role": "byte-identical copy of submission_proposal/proposal_final.docx; no text revision"
+    },
+    "hourly_subset": {
+      "path": "archive/data_before_release_20261016/raw/gdp_hourly_v2.01.1/hourly_subset_v2.01.1.zarr",
+      "kind": "directory",
+      "split": "all",
+      "role": "native full-cohort snapshot; forecast APIs restrict held-out IDs",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "source_objects": {
+      "path": "archive/data_before_release_20261016/raw/gdp_hourly_v2.01.1/source_objects",
+      "kind": "directory",
+      "split": "all",
+      "role": "partial global source-object cache; not a complete global corpus",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "prepared_development": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "prepared_test": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "development_cleaned": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/cleaned",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "test_cleaned": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1/cleaned",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "development_origins": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/origins",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "test_origins": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1/origins",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "development_events": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/events",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "test_events": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1/events",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "development_ledgers": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/ledgers",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "test_ledgers": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1/ledgers",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "development_support": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/support",
+      "kind": "directory",
+      "split": "development",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "test_support": {
+      "path": "archive/data_before_release_20261016/restricted_test/preparation_v1/support",
+      "kind": "directory",
+      "split": "test",
+      "role": "frozen scientific directory",
+      "verification_inventory": "provenance/migrations/architecture_20261014/path_map.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "source_snapshot": {
+      "path": "provenance/frozen/acquisition/manifests/source_snapshot.json",
+      "kind": "file",
+      "sha256": "7f23b1734da6661929bd13e6ede0b39ec82c16a9a3ab7848212e8ba23608ca46",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/source_snapshot.json"
+    },
+    "source_authority": {
+      "path": "provenance/frozen/acquisition/manifests/authority.json",
+      "kind": "file",
+      "sha256": "3e22463d586d3f701f74aae0b3334bd45461f602fbbd4aeb5bfb33e3cc31f2fd",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/authority.json"
+    },
+    "source_dictionary": {
+      "path": "archive/data_before_release_20261016/reference/acquisition/metadata/variable_dictionary.json",
+      "kind": "file",
+      "sha256": "8fc2187605c9fe9d1b1817c1b1df52749b9d646b53016a5308d037461f771b5f",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "metadata/variable_dictionary.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "corpus_time_coverage": {
+      "path": "archive/data_before_release_20261016/reference/acquisition/metadata/corpus_time_coverage.json",
+      "kind": "file",
+      "sha256": "f7fcbb19a703b7a099edd196d09b8b95c38fd32a28b643c6082ad6387a6e4fc1",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "metadata/corpus_time_coverage.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "cohort_ids": {
+      "path": "archive/data_before_release_20261016/splits/acquisition/acquired_ids.csv",
+      "kind": "file",
+      "sha256": "ae950b47720234d521ea29446cebc2991c5bb1ae58fa2f7a80951a73de02230f",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/acquired_ids.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "global_id_split": {
+      "path": "archive/data_before_release_20261016/splits/acquisition/global_id_split.csv",
+      "kind": "file",
+      "sha256": "1ebfe3eca9a53379aa627f5b610586bbf18148ce0b782bceac5b9a5302f66800",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/global_id_split.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "R_ids": {
+      "path": "archive/data_before_release_20261016/splits/acquisition/R_ids.csv",
+      "kind": "file",
+      "sha256": "f9cca17747a5465c404afe3276dab5b2bfb392dce65532a6daa8db5085120a1e",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/R_ids.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "downstream_ids": {
+      "path": "archive/data_before_release_20261016/splits/acquisition/downstream_ids.csv",
+      "kind": "file",
+      "sha256": "d53a7d37e715d0a75bfe78f4072d11182032ac9978fddacbb935eb56de8496c4",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "manifests/downstream_ids.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "release_R": {
+      "path": "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson",
+      "kind": "file",
+      "sha256": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "geometry/release_R.geojson",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "acquisition_envelope": {
+      "path": "archive/data_before_release_20261016/reference/acquisition/geometry/acquisition_envelope.geojson",
+      "kind": "file",
+      "sha256": "1fe9e2546fba57a37366f1c595df429f9577e83a0d425d0112330c4dabc88cbe",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "geometry/acquisition_envelope.geojson",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "transport_D": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson",
+      "kind": "file",
+      "sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/geometry/transport_D.geojson",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "preparation_config": {
+      "path": "provenance/frozen/preparation_v1/config/preparation.json",
+      "kind": "file",
+      "sha256": "4c72b146b4e5ed26ce4498dcc97e7b1324d9e68f137dde8c77f87e80c9cc8ad8",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/config/preparation.json"
+    },
+    "grouped_validation_config": {
+      "path": "provenance/frozen/preparation_v1/config/grouped_validation.json",
+      "kind": "file",
+      "sha256": "cc2cd1deb8e3de14e67802eff63301172c08c8f1c30310a4b1ad77d2237663aa",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/config/grouped_validation.json"
+    },
+    "development_folds": {
+      "path": "archive/data_before_release_20261016/splits/preparation_v1/manifests_development_folds.csv",
+      "kind": "file",
+      "sha256": "5cc3791ec80e4b89e4a3bd9e8e78b1405ac495afb3e68950ff3b1c0c713cc6db",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/manifests_development_folds.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "source_reason_codes": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/metadata/eligibility_codes.json",
+      "kind": "file",
+      "sha256": "243667a2c8d70deb8e1eba25569ec37e084477dc7d707642884176a6f9bd8bec",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/metadata/eligibility_codes.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "preprocessing_dictionary": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/metadata/preprocessing_dictionary.json",
+      "kind": "file",
+      "sha256": "9767ef2c3291ee8e323e6629ac16fe398950648eff90b085d2e353bb5c46250d",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/metadata/preprocessing_dictionary.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "trajectory_context": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/metadata/trajectory_context.parquet",
+      "kind": "file",
+      "sha256": "d5ec8778fd032f6e180af2dd6225dc035acea493aaf5937d0be38303afeea748",
+      "split": "all",
+      "role": "retrospective/source metadata; future drogue dates are not forecast features",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/metadata/trajectory_context.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "baseline_state_index": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/state_index.parquet",
+      "kind": "file",
+      "sha256": "ebfd13d08309679a5278b7fc9824d4cb2fa1c0b8d4807c161ca5666ea30d55e5",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/geometry/state_index.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "state_index": {
+      "path": "archive/data_before_release_20261016/reference/handover_20261013/geometry/state_index.parquet",
+      "kind": "file",
+      "sha256": "5d7934a19221618b4102e8be40cb294774506d60856f85f606ad2178495ac24f",
+      "split": "development",
+      "role": "current augmented regional water areas; original columns/cell IDs preserved",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/geometry/state_index.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "baseline_lag_support": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/support/lag_support.parquet",
+      "kind": "file",
+      "sha256": "405284bc7ac4903ec3b54fe67ec7fc60484ee3886744c19822ee4da6f51fc32b",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/support/lag_support.parquet",
+      "schema": "historical wide format; not the active target-specific summary",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "lag_support": {
+      "path": "archive/data_before_release_20261016/processed/handover_20261013/support/lag_support.parquet",
+      "kind": "file",
+      "sha256": "f0038cabe2e636df496bd72e2e641e9a491b3bfb45e7c49c15ebd3b3c50b980b",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/support/lag_support.parquet",
+      "schema": "long format with explicit target column",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "lag_annual_support": {
+      "path": "archive/data_before_release_20261016/processed/handover_20261013/support/lag_annual_support.parquet",
+      "kind": "file",
+      "sha256": "4eabb1d406ea28d53ddc8d809cdeb867ac576b46466714181851f88b2bf5d294",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/support/lag_annual_support.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "anchor_support": {
+      "path": "archive/data_before_release_20261016/processed/preparation_v1/support/cell_support.parquet",
+      "kind": "file",
+      "sha256": "ed9be056b50501fdebf98cfcb8b0ed93104f2f47d8e745635a90638e42897427",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/support/cell_support.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "depth_support": {
+      "path": "archive/data_before_release_20261016/processed/handover_20261013/support/depth_anchor_support.parquet",
+      "kind": "file",
+      "sha256": "e8b175447019fb29b4c0aa3ad62f048752fdeb411b6d15192072a5bc9a010034",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/support/depth_anchor_support.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "grouped_fold_coverage": {
+      "path": "archive/data_before_release_20261016/processed/handover_20261013/support/R_grouped_fold_coverage.csv",
+      "kind": "file",
+      "sha256": "0fb155aac80a8f38b6bb0fe8d0e1addd9ee9ca2c7f7ae1c09b33eadc025b29e5",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/support/R_grouped_fold_coverage.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "year_support": {
+      "path": "archive/data_before_release_20261016/processed/handover_20261013/support/R_365_cell_season_support.parquet",
+      "kind": "file",
+      "sha256": "e665097dcd8a9cf8f31cf07abc16b5818b679a59cbb9b80a1b0272f57776707b",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/support/R_365_cell_season_support.parquet",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_census": {
+      "path": "archive/data_before_release_20261016/reference/drogue_census_20261014/per_ID_census.csv",
+      "kind": "file",
+      "sha256": "d1e38508fe304a0b7dba76fafc86a764fb31ccdab0cd3f6e106fcdc798fc0923",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/architecture_audit_20261014_drogue_census/per_ID_census.csv",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_census_receipt": {
+      "path": "provenance/frozen/drogue_census_20261014/result.json",
+      "kind": "file",
+      "sha256": "3788051dba9190e9789d9d67070c85a7ded2142397739e61922018a7aac08912",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/architecture_audit_20261014_drogue_census/result.json"
+    },
+    "handover_verification": {
+      "path": "provenance/frozen/handover_20261013/audit/verification.json",
+      "kind": "file",
+      "sha256": "0b60d628a8bb3a9059cfb6c8449e9eca341ecc94344fad5a1552d5fe4477560d",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/audit/verification.json"
+    },
+    "depth_pending": {
+      "path": "provenance/frozen/handover_20261013/audit/depth_findings.json",
+      "kind": "file",
+      "sha256": "8283d18ceb6d9bff54243f985a07c0d040567dec6dfb8299b8292d86b2504488",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/audit/depth_findings.json"
+    },
+    "annual_limits": {
+      "path": "provenance/frozen/handover_20261013/audit/annual_support_limits.json",
+      "kind": "file",
+      "sha256": "3ced400e96fa2a413254767f95d7efa8c9cd8a31b95c974acfd65d88b4f32d1e",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/remediation_20261013/audit/annual_support_limits.json"
+    },
+    "source_fields_verification": {
+      "path": "provenance/frozen/preparation_v1/audit/source_values_reverified.json",
+      "kind": "file",
+      "sha256": "7f59bd846137d78ea7fe2c2ea72978984840f82ada64390cb4009a4fe8e66b98",
+      "split": "all",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/audit/source_values_reverified.json"
+    },
+    "land_mask_high": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb",
+      "kind": "file",
+      "sha256": "4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/geometry/gshhg_h_land.wkb",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "land_mask_intermediate": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb",
+      "kind": "file",
+      "sha256": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73",
+      "split": "development",
+      "role": "scientific input",
+      "snapshot": "gdp-hourly-v2.01.1 / preparation-1.0 / handover-addendum-1.1",
+      "historical_path": "preparation/geometry/gshhg_i_land.wkb",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "official_drogue_correction": {
+      "path": "archive/data_before_release_20261016/reference/drogue_status_20261016/official_attached_44_manifest.json",
+      "kind": "file",
+      "sha256": "4c060d7195e4d106720974b932103d15434626ca35c1ea617456f7bbebd74cb9",
+      "split": "all",
+      "version": "official-drogue-attached-44-v1",
+      "role": "Active per-ID official-fill correction; all other IDs retain frozen preparation",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_correction_development": {
+      "path": "archive/data_before_release_20261016/processed/drogue_attached_44_v1",
+      "kind": "directory",
+      "split": "development",
+      "role": "Only the audited 44-ID correction; not a complete dataset",
+      "verification_inventory": "provenance/runs/drogue_status_20261016/group1_output_sha256.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_correction_test": {
+      "path": "archive/data_before_release_20261016/restricted_test/drogue_attached_44_v1",
+      "kind": "directory",
+      "split": "test",
+      "role": "Only the audited 44-ID correction; not a complete dataset",
+      "verification_inventory": "provenance/runs/drogue_status_20261016/group1_output_sha256.json",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_group2_source_audit": {
+      "path": "archive/data_before_release_20261016/reference/drogue_status_20261016/group2_source_audit.csv",
+      "kind": "file",
+      "sha256": "8ba9b060b0d914ee0f4b3be428a5561cc3c2d1456745f5b2edd7c0d9e21eba30",
+      "split": "all",
+      "role": "Source-only audit of the 68 zero-loss IDs; states unchanged; historical reassessment conflicts retained",
+      "version": "drogue-status-audit-20261016",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "official_drogue_boundary": {
+      "path": "archive/data_before_release_20261016/reference/drogue_boundary_20261016/manifest.json",
+      "kind": "file",
+      "sha256": "cf1ffc673f76ba727753024e09d8a4f664078b9ef9ee8318f2194cfe1d05a649",
+      "split": "all",
+      "version": "official-drogue-boundary-v1",
+      "role": "Scoped official nominal-time and end-marker regime evidence; not a physical loss-time measurement",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_boundary_development": {
+      "path": "archive/data_before_release_20261016/processed/drogue_boundary_v1/regime_overlay.parquet",
+      "kind": "file",
+      "sha256": "3ef4529a583f93f6f0e0c9f8b5473fadbb3111425cb18e23ed3dd469a48a6450",
+      "split": "development",
+      "role": "Sparse regime-only overlay; compose with original track through load_track",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "drogue_boundary_test": {
+      "path": "archive/data_before_release_20261016/restricted_test/drogue_boundary_v1/regime_overlay.parquet",
+      "kind": "file",
+      "sha256": "d00604bb25abd1426c1404dbb7d333eb32853ceda512907c26e603f28de75255",
+      "split": "test",
+      "role": "Locked sparse regime-only overlay; preparation audit only",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "current_drogue_label_census": {
+      "path": "archive/data_before_release_20261016/reference/drogue_boundary_20261016/current_label_census.csv",
+      "kind": "file",
+      "sha256": "4210b993e9c59c7bf2c2db7ab225b9c843c45abf3613e6387c32fb800f0253fc",
+      "split": "all",
+      "role": "Historical label census before recovery-tail deletion; current retained regime counts are in current_dataset_manifest",
+      "storage_status": "retained original source/preparation; use canonical release for current hourly frames"
+    },
+    "current_train_tracks": {
+      "path": "data/train",
+      "kind": "directory",
+      "split": "development",
+      "version": "per-drifter-cleaned-20261017-v4",
+      "role": "Current records: cleaned sst with approved grounding-related NA cutoff; no new columns; same ID pool; vessel-recovery tails removed"
+    },
+    "current_test_tracks": {
+      "path": "data/test",
+      "kind": "directory",
+      "split": "test",
+      "version": "per-drifter-cleaned-20261017-v4",
+      "role": "Current records: cleaned sst with approved grounding-related NA cutoff; no new columns; same ID pool; vessel-recovery tails removed"
+    },
+    "current_dataset_manifest": {
+      "path": "configs/dataset_manifest.json",
+      "kind": "file",
+      "split": "all",
+      "sha256": "f6f28970455590c2c7c7b0504b58bc6b2ece454e369277a0e7ac1776e87ed490",
+      "role": "Canonical per-ID hashes, source fields, current annotations and release identity"
+    },
+    "current_dataset_schema": {
+      "path": "configs/dataset_schema.json",
+      "kind": "file",
+      "split": "all",
+      "sha256": "f583bbcf82eeedef44a312b42d582b1a393c09d865eac6b296740e640fc0614a",
+      "role": "Complete current field/type/source-role dictionary"
+    },
+    "current_dataset_index": {
+      "path": "configs/dataset_index.csv",
+      "kind": "file",
+      "split": "all",
+      "sha256": "ef2e750f52553f48389bbdcf8cb723b71ca9b939e52ad445693d9bcd0de643f1",
+      "role": "Per-ID current cleaned record counts and source-linked hashes; recovery tails excluded"
+    },
+    "retained_data_inventory": {
+      "path": "provenance/migrations/data_release_20261016/original_data_inventory.jsonl",
+      "kind": "file",
+      "split": "all",
+      "sha256": "45466d1f6df27b2cbd936fd46c617f270501392a2a30602010442ac2766dad81",
+      "role": "Every original data object retained byte-identically in archive"
+    },
+    "retained_data_root": {
+      "path": "archive/data_before_release_20261016",
+      "kind": "directory",
+      "split": "all",
+      "role": "The complete pre-release data directory; immutable source/history, not the daily data entry point"
+    },
+    "recovery_storage_receipt": {
+      "path": "provenance/migrations/recovery_tail_removal_20261017_v1/receipt.json",
+      "kind": "file",
+      "split": "all",
+      "role": "Storage-level removal with original file checksums and exact retained-row verification"
+    }
+  }
+}

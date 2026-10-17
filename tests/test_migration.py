@@ -4,8 +4,17 @@ import importlib.util
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 class Migration(unittest.TestCase):
+ def test_current_layout_uses_full_release_verifier(self):
+  from data3001.migration import verify_all
+  paths=SimpleNamespace(catalog={'layout_version':'per-drifter-1.0'})
+  result={'passed':True,'release':'per-drifter-20261016-v1'}
+  with patch('data3001.migration.project_paths',return_value=paths), patch('data3001.release_verification.verify_release',return_value=result) as verify:
+   self.assertEqual(verify_all(),result)
+   verify.assert_called_once_with()
  def api(self):
   self.assertIsNotNone(importlib.util.find_spec('data3001.migration'),'Read-only migration verifier is missing')
   from data3001.migration import verify_inventory

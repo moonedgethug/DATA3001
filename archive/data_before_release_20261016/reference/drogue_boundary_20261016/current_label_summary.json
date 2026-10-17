@@ -1,0 +1,21 @@
+{
+  "IDs": 3741,
+  "retained_rows": 39107061,
+  "observation_counts": {
+    "drogued": 19268207,
+    "undrogued": 19342607,
+    "unknown": 496247
+  },
+  "ID_counts_nonexclusive": {
+    "drogued": 3454,
+    "undrogued": 2300,
+    "unknown": 121
+  },
+  "unknown_breakdown": {
+    "zero_code_68_IDs": 495555,
+    "unresolved_boundary_9_IDs": 9,
+    "beyond_proven_attached_end_44_IDs": 683
+  },
+  "split_assignments_unchanged": true,
+  "physical_loss_time_accuracy_established": false
+}

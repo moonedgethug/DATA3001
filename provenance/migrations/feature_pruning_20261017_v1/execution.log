@@ -1,0 +1,23 @@
+Staged and compared 250/3741 IDs
+Staged and compared 500/3741 IDs
+Staged and compared 750/3741 IDs
+Staged and compared 1000/3741 IDs
+Staged and compared 1250/3741 IDs
+Staged and compared 1500/3741 IDs
+Staged and compared 1750/3741 IDs
+Staged and compared 2000/3741 IDs
+Staged and compared 2250/3741 IDs
+Staged and compared 2500/3741 IDs
+Staged and compared 2750/3741 IDs
+Staged and compared 3000/3741 IDs
+Staged and compared 3250/3741 IDs
+Staged and compared 3500/3741 IDs
+All 3741 projected files passed staging checks; activating.
+Activated 500/3741 IDs
+Activated 1000/3741 IDs
+Activated 1500/3741 IDs
+Activated 2000/3741 IDs
+Activated 2500/3741 IDs
+Activated 3000/3741 IDs
+Activated 3500/3741 IDs
+{"release": "per-drifter-cleaned-20261017-v7", "IDs": 3741, "rows": 39099193, "removed_columns": 67, "remaining_columns": 62}
