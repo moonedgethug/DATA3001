@@ -7,12 +7,10 @@ __pycache__/
 *.tmp
 node_modules/
 
-# Versioned scientific data are distributed with checksums, outside Git.
+# Active cleaned train/test are published; raw data and full backups stay local.
 /data/raw/
 /data/processed/
 /data/restricted_test/
-/data/train/
-/data/test/
 /data/reference/**/gshhg*.wkb
 /data/reference/acquisition/metadata/trajectory_metadata.npz
 
