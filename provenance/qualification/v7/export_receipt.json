@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "IDs": 3741,
+  "rows": 39099193,
+  "qualification_columns": [
+    "id",
+    "source_obs",
+    "time",
+    "analytical_row",
+    "position_ok",
+    "mapping_ok",
+    "in_R",
+    "visit_cell_1"
+  ],
+  "dataset_version": "per-drifter-cleaned-20261017-v7",
+  "active_data_columns": 62,
+  "all_exported_values_types_nulls_and_keys_exactly_equal_parent": true,
+  "all_keys_exactly_equal_active_tracks": true,
+  "active_data_values_modified": false,
+  "new_active_feature_columns": [],
+  "qualification_manifest_sha256": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+  "bytes": 269153619
+}

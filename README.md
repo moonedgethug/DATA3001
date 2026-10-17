@@ -10,6 +10,12 @@ We start with supported cells in R, then consider regional expansion only after 
 
 ## Current status
 
+**Team download:** `main` includes the actual current files in `data/train/`
+and `data/test/`, plus portable qualification evidence. Clone or pull this
+repository, then follow [download and setup](docs/getting_started.md). There is
+no separate data download or Git LFS requirement. The trajectories total about
+3.75 GB; full raw caches and historical backups remain local.
+
 - **Acquired source data:** 3,741 GDP IDs and 39,107,061 hourly records from the pinned NOAA GDP v2.01.1 asset, with original evidence retained. The current cleaned release contains **39,099,193** records after authorized vessel-recovery-tail deletion.
 - **Current data layout:** `data/train/<id>.parquet` contains the 3,224 development IDs; `data/test/<id>.parquet` contains the same 517 final-test IDs. Each file now contains **62 columns** after the approved removal of 67 registered fields. Original `err_lat`, `err_lon`, `err_ve`, and `err_vn` values are retained, as are cleaned `drogue_status` and `sst`. All 39,099,193 rows and all remaining field values are unchanged. Exact parent files and qualification evidence remain outside active data. See [the data guide](docs/data_layout.md) and [projection verification](provenance/migrations/feature_pruning_20261017_v1/REPORT.md).
 - **Drogue state:** `drogue_status` stores the exact previously approved labels: **1 drogued, 0 undrogued, -1 unknown**. The redundant `regime` column has been physically removed. No labels, loss dates or ID assignments were re-estimated. Original binary flags and the previous representation are archived. See the [column-consolidation report](provenance/migrations/drogue_status_inplace_20261017_v1/REPORT.md).
@@ -27,6 +33,7 @@ We start with supported cells in R, then consider regional expansion only after 
 | Research definitions and binding rules | [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) |
 | Chinese translation for internal discussion | [Chinese contract](docs/contract/data_contract_v1.0_zh.xlsx) |
 | Read one complete drifter file | [Data layout and usage](docs/data_layout.md) |
+| Download the actual data and verify a new checkout | [Team setup](docs/getting_started.md) |
 | Find IDs, rows and historical assignments | [Dataset index](configs/dataset_index.csv) |
 | Understand all 62 active columns | [Data dictionary](docs/data_dictionary.md) |
 | Data meaning, restrictions and modelling handover | [Preprocessing guide](docs/preprocessing.md) |

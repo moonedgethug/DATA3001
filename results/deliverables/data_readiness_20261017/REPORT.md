@@ -76,7 +76,7 @@ regional expansion and object-specific forecasts are subsequent audited stages.
 The current unresolved temperature-quality comparisons, missing hardware,
 unknown drogue intervals and depth-policy uncertainty are not declared solved.
 
-## Evidence and distribution
+## Evidence and distribution at the audit date
 
 - `summary.json` binds the audit to the dataset-manifest and contract hashes.
 - `support_summary.csv` reports whole-R and seasonal eligible pairs/ID unions.
@@ -93,3 +93,9 @@ raw source caches or full archived parents. A new clone must receive the
 verified data/provenance bundle separately before data-dependent operations;
 the `pair` adapter requires the archived qualification evidence as well as
 the active 62-column trajectories.
+
+**Distribution update, 18 October 2026:** the current train/test Parquet files
+are now tracked directly on `main`, together with small exact qualification
+projections. A clone can use `read_track`, `verify-data` and `pair` without the
+full historical bundle. See `docs/getting_started.md`. This publication does
+not change the data, the support counts above or the scientific limitations.

@@ -11,12 +11,18 @@ stored as float64 to preserve the approved interpolation precision. The release 
 `drogue_status` column, with no `regime` column. This consolidation changes no
 state values, retained field values, retained rows, row order or whole-ID train/test assignments. Vessel-recovery tails remain physically removed.
 
+The actual current train/test files are distributed on `main`. See
+[team download and setup](getting_started.md) for cloning, environment setup
+and `verify-data`.
+
 The [feature-projection report](../provenance/migrations/feature_pruning_20261017_v1/REPORT.md)
 lists the 67 physical removals and the 62 retained columns. Exact pre-projection
 files remain in `archive/feature_pruning_20261017_v1/` (test evidence under
-`restricted_test`). Qualification annotations are read from that archive by
-source observation key when needed; they are not recreated in active files or
-in the normal `read_track` result. No research eligibility rule changed.
+`restricted_test`). Exact qualification projections are also distributed in
+`provenance/qualification/v7/`, bound by `configs/qualification_manifest.json`.
+The reader prefers this portable evidence and otherwise retains the archived
+fallback. These annotations are not recreated in active files or in the normal
+`read_track` result. No research eligibility rule changed.
 
 For an official eventual-grounding ID (`typedeath == 1`), **`sst` is numeric NA
 when `time > end_date` and `end_date` is finite and positive**. Do not refill these
@@ -136,15 +142,23 @@ The complete previous `data` tree was renamed intact to `archive/data_before_rel
 
 Earlier global support tables predate official label corrections. They remain useful historical evidence; they are **not current full-cohort support estimates**. Recompute support using canonical tracks and the selected development protocol before modelling. DEPTH-01 and long-horizon seasonal support limitations remain unresolved; data preservation does not establish predictive accuracy.
 
-The complete retained checkout can run:
+Any downloaded checkout with the published data can run:
 
 ```bash
 .venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python -m data3001 verify-migration
+.venv/bin/python -m data3001 verify-data
 .venv/bin/python -m data3001 pair --id 22165 --days 7 --population R
 ```
 
-The full current audit compares every surviving value, null, type, field attribute and row key with the exact archived 129-column parent; it verifies all file hashes and unchanged pool assignments. It can take several minutes and requires the retained source/archive bundle. Earlier temperature and recovery evidence remains linked through the parent manifest. The pair command uses archived qualification arrays and is a qualification check, not a fitted probability forecast. Add a unique `--run-id` to save new labels and a receipt identifying the source, release, code and environment.
+The distributed-data audit checks current checksums, schema, row counts and
+portable qualification keys without full historical parents. The deeper
+`verify-migration` audit compares every surviving value, null, type, field
+attribute and row key with the exact archived 129-column parent and requires
+the local source/archive bundle. Earlier temperature and recovery evidence
+remains linked through the parent manifest. The pair command reads the exact
+qualification arrays and is not a fitted forecast. Add a unique `--run-id` to
+save new labels and a receipt identifying the source, release, qualification
+manifest, code and environment.
 
 ## Temperature evidence
 

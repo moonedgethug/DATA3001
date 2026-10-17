@@ -593,6 +593,14 @@
       "kind": "file",
       "split": "all",
       "role": "Storage-level removal with original file checksums and exact retained-row verification"
+    },
+    "current_qualification_manifest": {
+      "path": "configs/qualification_manifest.json",
+      "kind": "file",
+      "split": "all",
+      "sha256": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+      "version": "exact-pre-projection-qualification-v1",
+      "role": "Exact source-keyed qualification projections; not predictive features"
     }
   }
 }

@@ -39,10 +39,13 @@ There are 463 R-visiting IDs and 3,278 additional downstream-support IDs. Acquis
 ## Cleaning and eligibility semantics
 
 The v7 storage projection removed 67 approved columns from active train/test
-files. The rules below remain unchanged. Removed qualification annotations,
-visit numbers and detailed correction evidence remain in the exact archived
-parent files. The pair-label adapter reads their arrays by source_obs/time;
-it does not recreate them as canonical features. See [data layout](data_layout.md).
+files. The rules below remain unchanged. Removed qualification annotations and
+visit numbers are distributed as exact portable projections under
+`provenance/qualification/v7/`; complete parents remain archived. The pair-label
+adapter reads their arrays by source_obs/time without requiring the raw source
+cache and does not recreate them as canonical features. Detailed correction
+evidence also remains in the existing per-track metadata and archives. See
+[data layout](data_layout.md) and [team setup](getting_started.md).
 
 These points summarise the existing implementation, without replacing the contract:
 

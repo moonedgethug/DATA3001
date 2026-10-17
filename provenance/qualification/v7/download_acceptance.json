@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "IDs": 3741,
+  "rows": 39099193,
+  "fields": 62,
+  "qualification_files": 3741,
+  "without_original_raw_cache": true,
+  "without_full_archived_parents": true,
+  "download_tests_passed": true,
+  "pair_CLI_horizons_checked": [
+    7,
+    30,
+    365
+  ],
+  "saving_pair_run_succeeded": true,
+  "data_values_modified": false,
+  "predictions_fitted_or_scored": false,
+  "representative_pairs": [
+    {
+      "id": 139080,
+      "split": "validation",
+      "days": 7,
+      "scenario": "drogued",
+      "population": "R",
+      "tolerance_hours": 0,
+      "candidates": 8153,
+      "eligible": {
+        "endpoint": 2042,
+        "stopped": 2042
+      },
+      "forecast_accuracy_evaluated": false
+    },
+    {
+      "id": 139080,
+      "split": "validation",
+      "days": 30,
+      "scenario": "drogued",
+      "population": "R",
+      "tolerance_hours": 0,
+      "candidates": 8153,
+      "eligible": {
+        "endpoint": 1994,
+        "stopped": 1994
+      },
+      "forecast_accuracy_evaluated": false
+    },
+    {
+      "id": 139080,
+      "split": "validation",
+      "days": 365,
+      "scenario": "drogued",
+      "population": "R",
+      "tolerance_hours": 0,
+      "candidates": 8153,
+      "eligible": {
+        "endpoint": 0,
+        "stopped": 0
+      },
+      "forecast_accuracy_evaluated": false
+    }
+  ]
+}

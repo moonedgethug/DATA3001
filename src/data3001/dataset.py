@@ -97,3 +97,52 @@ def read_track(id, *, allow_test=False):
 def development_ids():
     """All original train + validation IDs; final test is not returned."""
     return sorted(int(id) for id,r in manifest()['records'].items() if r['pool']=='train')
+
+
+class PreparedSource:
+    """Manifest-backed cohort context for labels; no raw acquisition required."""
+    def __init__(self, *, allow_test=False):
+        self.allow_test = allow_test
+        records = manifest()['records']
+        self.cohort = pd.DataFrame([
+            {'id': int(sid), 'split': record['historical_split']}
+            for sid, record in records.items()]).set_index('id')
+
+
+def verify_current_data(progress=None):
+    """Verify the distributed data and qualification files without local backups."""
+    from data3001.feature_pruning import qualification_arrays
+    paths = project_paths(); current = manifest()
+    definition = json.loads(paths.asset('current_dataset_schema', verify=True).read_text())
+    names = [f['name'] for f in definition['fields']]
+    qualified = paths.catalog['assets'].get('current_qualification_manifest')
+    qfields = []
+    if qualified:
+        qm = json.loads(paths.asset('current_qualification_manifest', verify=True).read_text())
+        if set(qm['records']) != set(current['records']):
+            raise ValueError('Portable qualification ID inventory mismatch')
+        qfields = [n for n in qm['fields'] if n not in ['id', 'source_obs', 'time']]
+    rows = 0; qfiles = 0; pools = {'train': 0, 'test': 0}
+    for n, (sid, record) in enumerate(current['records'].items(), 1):
+        path = track_path(int(sid), allow_test=True)
+        parquet = pq.ParquetFile(path); schema = parquet.schema_arrow
+        if (schema.names != names or parquet.metadata.num_rows != record['rows']
+                or [str(f.type) for f in schema] != [f['arrow_type'] for f in definition['fields']]):
+            raise ValueError('Distributed track schema or row count mismatch: '+sid)
+        context = json.loads(schema.metadata[b'data3001'])
+        if str(context['id']) != sid or context['pool'] != record['pool']:
+            raise ValueError('Distributed track identity mismatch: '+sid)
+        if qfields:
+            frame = parquet.read(columns=['id', 'source_obs', 'time']).to_pandas()
+            frame.attrs['data3001'] = context
+            qualification_arrays(int(sid), frame, qfields, allow_test=True)
+            qfiles += 1
+        rows += record['rows']; pools[record['pool']] += 1
+        if progress and n % 500 == 0: progress(f'Verified {n}/{current["IDs"]} distributed tracks')
+    if rows != current['rows'] or pools != current['pools']:
+        raise ValueError('Distributed totals differ from the manifest')
+    return {'passed': True, 'release': current['version'], 'IDs': current['IDs'],
+            'rows': rows, 'fields': current['fields'], 'pools': pools,
+            'qualification_files': qfiles, 'all_published_file_checksums_verified': True,
+            'local_raw_cache_or_full_parent_required': False,
+            'forecast_accuracy_evaluated': False}

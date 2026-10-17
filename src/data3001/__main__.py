@@ -12,6 +12,7 @@ def main():
     commands = parser.add_subparsers(dest='command', required=True)
     commands.add_parser('inspect', help='Read the catalog without opening large data')
     commands.add_parser('verify-migration', help='Read-only full audit of the active layout, retained bytes and labels')
+    commands.add_parser('verify-data', help='Verify downloaded tracks and portable qualification evidence')
     pairs = commands.add_parser('pair', help='Generate independent endpoint/stopped labels; stdout by default')
     pairs.add_argument('--id', type=int, required=True)
     pairs.add_argument('--days', type=int, required=True)
@@ -29,6 +30,9 @@ def main():
                           'status':paths.catalog.get('current_data_status'),
                           'assets':{key:{'path':value['path'],'role':value.get('role'),'split':value.get('split')}
                                     for key,value in paths.catalog['assets'].items()}},indent=2))
+    elif args.command == 'verify-data':
+        from data3001.dataset import verify_current_data
+        print(json.dumps(verify_current_data(), indent=2))
     elif args.command == 'verify-migration':
         from data3001.migration import verify_all
         report = verify_all()
@@ -40,7 +44,11 @@ def main():
             parser.error('--days must be an integer from 1 through 365')
         from data3001.preprocessing.prep_io import Source, parquet, code_hash
         from data3001.preprocessing.prep_pairs import load_track, origin_indices, generate
-        source = Source()
+        if 'current_dataset_manifest' in paths.catalog['assets']:
+            from data3001.dataset import PreparedSource
+            source = PreparedSource()
+        else:
+            source = Source()
         if source.cohort.loc[args.id,'split'] == 'test':
             parser.error('Final-test trajectories remain locked for this development entry point')
         frame, track, events = load_track(source,args.id)
@@ -65,13 +73,23 @@ def main():
                 config['dataset_manifest_sha256'] = file_sha256(paths.asset('current_dataset_manifest',verify=True))
                 config['recovery_cutoff_policy'] = 'typedeath=2: time <= numeric official end_date; recovery is censoring'
                 config['recovery_cutoff_code_sha256'] = file_sha256(paths.root/'src/data3001/model_input_cleaning.py')
+                if 'current_qualification_manifest' in paths.catalog['assets']:
+                    config['qualification_manifest_sha256'] = file_sha256(
+                        paths.asset('current_qualification_manifest', verify=True))
             if 'preparation_correction_version' in track:
                 config['preparation_correction_version']=track['preparation_correction_version']
                 correction_asset=track.get('preparation_correction_asset','official_drogue_correction')
                 config['correction_manifest_sha256']=file_sha256(paths.asset(correction_asset))
                 if correction_asset=='official_drogue_boundary':
                     overlay_asset='drogue_boundary_test' if source.cohort.loc[args.id,'split']=='test' else 'drogue_boundary_development'
-                    config['regime_overlay_sha256']=file_sha256(paths.asset(overlay_asset))
+                    if 'current_dataset_manifest' in paths.catalog['assets']:
+                        # Labels are already materialized and bound by the current
+                        # track hash. Keep the historical receipt without loading
+                        # an unused old overlay from the private preparation cache.
+                        config['historical_regime_overlay_sha256'] = paths.catalog['assets'][overlay_asset]['sha256']
+                        config['regime_labels_source'] = 'materialized_current_track'
+                    else:
+                        config['regime_overlay_sha256']=file_sha256(paths.asset(overlay_asset))
             run = paths.create_run(args.run_id,config)
             for name,label in zip(['endpoint','stopped'],labels):
                 parquet(label,run['results']/(name+'.parquet'))

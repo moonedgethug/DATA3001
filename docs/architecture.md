@@ -66,11 +66,22 @@ Without `--run-id`, paired labels are evaluated in memory and only qualification
 
 ## Git and collaboration
 
-Track shared code, tests, contracts, configs, guides, lightweight reference files and acceptance evidence. Large data, source-object caches, environments, temporary files, per-ID checkpoint collections and routine runs are ignored. Inspect changes before committing; do not use a blanket force-add to include ignored data.
+Track shared code, tests, contracts, configs, guides, lightweight reference files
+and acceptance evidence. The user-approved team distribution also tracks the
+current `data/train/*.parquet` and `data/test/*.parquet` files directly on main,
+with their existing exact checksums, plus small portable qualification
+projections. Source-object caches, full historical data backups, environments,
+temporary files, per-ID checkpoint collections and routine runs remain ignored.
+Do not use a blanket force-add for those excluded artifacts. See
+[team download and setup](getting_started.md).
 
 The four-member team reviews research changes against the Data Contract and keeps experiment changes separate from layout changes. Record code identity even for an uncommitted experiment, including the actual changed source hash/diff. Publishing, remote pushes and merging into a shared branch are separate actions.
 
-The complete data/provenance bundle must accompany a scientific handover. The original full migration inventory also includes the old environment and historical files, so `verify-migration` is specific to a fully retained migration checkout, not a claim that every new clone contains those assets.
+The current data and portable qualification evidence are sufficient for normal
+reading, `verify-data`, and the existing pair-label command after cloning.
+The original full migration inventory also includes the old environment and
+historical parents, so `verify-migration` remains specific to a fully retained
+migration checkout; it is not required to start using the distributed data.
 
 ## Migration acceptance and retained identity
 

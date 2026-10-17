@@ -51,6 +51,16 @@ def _parent(path, checksum):
     return data
 
 
+@lru_cache(maxsize=4)
+def _portable(path, checksum):
+    if file_sha256(path) != checksum:
+        raise ValueError('Portable qualification manifest changed')
+    data = json.loads(path.read_text())
+    if data['version'] != 'exact-pre-projection-qualification-v1':
+        raise ValueError('Unexpected portable qualification version')
+    return data
+
+
 def qualification_arrays(id, frame, names, *, allow_test=False):
     """Read exact archived annotations into arrays, never append feature columns.
 
@@ -69,12 +79,28 @@ def qualification_arrays(id, frame, names, *, allow_test=False):
     rule = current.get('cleaning', {}).get('feature_pruning', {})
     if rule.get('policy') != POLICY or not set(missing) <= set(rule['removed_columns']):
         raise ValueError('No approved archived qualification fields for this frame')
-    root = project_paths().root
-    parent = _parent(root/rule['parent_manifest_path'], rule['parent_manifest_sha256'])
-    backup = root/rule['archive_directory']/('restricted_test' if record['pool'] == 'test'
-                                            else 'development')/f'{sid}.parquet'
-    if backup.is_symlink() or file_sha256(backup) != parent['records'][sid]['sha256']:
-        raise ValueError('Archived qualification file changed')
+    paths = project_paths(); root = paths.root
+    portable = paths.catalog['assets'].get('current_qualification_manifest')
+    if portable:
+        data = _portable(paths.asset('current_qualification_manifest'), portable['sha256'])
+        if data['dataset_manifest_sha256'] != paths.catalog['assets']['current_dataset_manifest']['sha256']:
+            raise ValueError('Portable qualification belongs to another data snapshot')
+        evidence = data['records'][sid]
+        expected_path = ('provenance/qualification/v7/' +
+                         ('restricted_test' if record['pool'] == 'test' else 'development') +
+                         f'/{sid}.parquet')
+        if (evidence['path'] != expected_path or evidence['pool'] != record['pool']
+                or evidence['rows'] != record['rows'] or not set(missing) <= set(data['fields'])):
+            raise ValueError('Portable qualification scope mismatch')
+        backup = root/expected_path; expected_hash = evidence['sha256']
+    else:
+        parent = _parent(root/rule['parent_manifest_path'], rule['parent_manifest_sha256'])
+        backup = root/rule['archive_directory']/('restricted_test' if record['pool'] == 'test'
+                                                else 'development')/f'{sid}.parquet'
+        expected_hash = parent['records'][sid]['sha256']
+    if (backup.is_symlink() or not backup.resolve().is_relative_to(root)
+            or file_sha256(backup) != expected_hash):
+        raise ValueError('Archived or portable qualification file changed')
     if (not frame.id.eq(int(id)).all() or
             frame.attrs.get('data3001', {}).get('pool') != record['pool']):
         raise ValueError('Qualification frame identity mismatch')

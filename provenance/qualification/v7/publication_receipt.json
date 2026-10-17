@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "dataset_version": "per-drifter-cleaned-20261017-v7",
+  "IDs": 3741,
+  "rows": 39099193,
+  "active_columns": 62,
+  "train_IDs": 3224,
+  "test_IDs": 517,
+  "active_data_bytes": 3750136787,
+  "actual_data_tracked_directly": true,
+  "Git_LFS_required": false,
+  "all_Git_blob_hashes_match_exact_local_files": true,
+  "dataset_manifest_sha256": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+  "qualification_manifest_sha256": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+  "qualification_files": 3741,
+  "qualification_bytes": 269153619,
+  "qualification_values_exactly_match_existing_audit": true,
+  "new_active_features": [],
+  "changed_active_values": 0,
+  "representative_label_rows_unchanged": 156024,
+  "clean_download_verified_without_private_caches": true,
+  "tests_passed": 180,
+  "data_upload_commits": [
+    {
+      "batch": 1,
+      "commit": "337f01f283e715f1655c5d02dc5d892b408eb6ae",
+      "files": 613,
+      "bytes": 575653844,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 2,
+      "commit": "136adeee8c9515efacd3839d76f3b1872d05a936",
+      "files": 668,
+      "bytes": 575276557,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 3,
+      "commit": "d0b73ab021b7b1a65298aac84bf93ca5d17a102d",
+      "files": 839,
+      "bytes": 576333431,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 4,
+      "commit": "8911e869a6c7a4636b604b4d9a6f3f43c6c0df99",
+      "files": 572,
+      "bytes": 574782224,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 5,
+      "commit": "34ba0b4400cd2e624c57682832cc243878cda0f7",
+      "files": 352,
+      "bytes": 573915096,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 6,
+      "commit": "422503a3f6904f9667ce8638a3ead26c00aa9deb",
+      "files": 397,
+      "bytes": 575467373,
+      "remote_main_verified": true
+    },
+    {
+      "batch": 7,
+      "commit": "58451cc0445c0e1ca5584fd413cac2af56aafb4e",
+      "files": 300,
+      "bytes": 298708262,
+      "remote_main_verified": true
+    }
+  ],
+  "code_and_support_commit": "Recorded by Git; this receipt predates its containing commit",
+  "scientific_scope_and_contract_unchanged": true
+}
