@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "output_sha256": {
+    "validation_pairs.csv": "4f54af99fc89f7addade32fd2fa27d38cc2ed648b945bfc48c18eaece4d7546b",
+    "validation_score_groups.csv": "1deb0f7ef9f914eead23d0b42c142eb19123448117f3f294bbe8c3e8816350c7",
+    "validation_qualification.csv": "b99848bc5b161ba3c950f29100f8f8fbc5ca8e0326ce480e458853b6be8f77b2",
+    "validation_summary.csv": "cc92e13b8f478b8b7642e820798136542949dac0a9aaaec0016ed3ec6eadddb0"
+  }
+}
