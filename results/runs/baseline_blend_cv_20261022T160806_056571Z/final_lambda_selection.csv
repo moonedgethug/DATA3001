@@ -1,0 +1,5 @@
+horizon_days,method,lambda_value,tuning_brier,A,B,C,scope
+7,Grid,0.1,0.9283758284189433,0.06134630622310495,-0.011157852701644981,0.9288781506268767,All-development base OOF tuning; not an independent evaluation of this final weight
+7,Analytic,0.09094152026909309,0.9283707945830636,0.06134630622310495,-0.011157852701644981,0.9288781506268767,All-development base OOF tuning; not an independent evaluation of this final weight
+30,Grid,0.6,0.9888541399271498,0.01620210645111502,-0.018964701151305746,0.9944002022955318,All-development base OOF tuning; not an independent evaluation of this final weight
+30,Analytic,0.5852541831065615,0.9888506169554481,0.01620210645111502,-0.018964701151305746,0.9944002022955318,All-development base OOF tuning; not an independent evaluation of this final weight

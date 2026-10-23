@@ -1,0 +1,92 @@
+{
+  "sources": {
+    "development_counts.parquet": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/development_counts.parquet",
+      "sha256": "88dee6e59425d8dd220edd59ee9aac4dc20a31f9a225436b0e59c0be91a2adc1"
+    },
+    "outer_scores.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/outer_scores.csv",
+      "sha256": "00e4ba8180e12fdf7d6db125a0490dff1f06a17a556d28c423fdd2a7e28a8bb1"
+    },
+    "outer_summary.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/outer_summary.csv",
+      "sha256": "da3cb0b34a05cd5993dabf9a30434dff7458cfd298c5b4249bfc81bdb4c8dc7a"
+    },
+    "outer_fold_summary.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/outer_fold_summary.csv",
+      "sha256": "b9c3e6dd46426352454bb49e102889d7998c926e38c0d816b7eb3fdef184ee79"
+    },
+    "lambda_selection.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/lambda_selection.csv",
+      "sha256": "f33da6a5a8c35988d88c46660cc0bc12203f2c1c9c3ce096ba292d85eeebb068"
+    },
+    "lambda_grid_scores.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/lambda_grid_scores.csv",
+      "sha256": "13279bac310ae30ba8a5171b6267ac8cfa75145be1de56756ea4e541086e21eb"
+    },
+    "final_lambda_selection.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/final_lambda_selection.csv",
+      "sha256": "174de2da8c8a4f6b0976ef0fee59cde55aa571e78d3f6631cf132184a6cfa7dd"
+    },
+    "final_lambda_grid_scores.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/final_lambda_grid_scores.csv",
+      "sha256": "0b018528a2e3641e56e8d9fd1a6505d99b5e19fab033469f68d101f3a466c107"
+    },
+    "outer_models.json": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/outer_models.json",
+      "sha256": "c2b683e8cfc15613a23ecc8fe8f25fa18c29cf021f97c434963082a839a45deb"
+    },
+    "final_models.json": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/final_models.json",
+      "sha256": "fe1b4d2d5c7341f52d778db69588838468a37190e4e7b8531881ee55d5e2e644"
+    },
+    "training_support.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/training_support.csv",
+      "sha256": "99c72f75995050781409b4ef1734138a3183746a2849bb6c4c05dda466eaa741"
+    },
+    "bootstrap_differences.csv": {
+      "path": "results/runs/baseline_blend_cv_20261022T160806_056571Z/bootstrap_differences.csv",
+      "sha256": "2cf30f500d3537a4cfdb48abb049281938b3f57eb7f9a68a947f49235c67f4f3"
+    },
+    "outer_folds.csv": {
+      "path": "provenance/runs/baseline_blend_cv_20261022T160806_056571Z/outer_folds.csv",
+      "sha256": "d111ca23373475cac9422de6557f01ca0705e654af0b3670d383ec8c0b0a2201"
+    },
+    "run.json": {
+      "path": "provenance/runs/baseline_blend_cv_20261022T160806_056571Z/run.json",
+      "sha256": "06000c81164da408fbd1d468665def42e1a6a686acc5e8c4308ae25bad61613e"
+    },
+    "land_mask_intermediate": {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb",
+      "sha256": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73"
+    },
+    "release_R": {
+      "path": "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson",
+      "sha256": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a"
+    }
+  },
+  "display_default_origins": {
+    "0": 44744,
+    "1": 44744,
+    "2": 44744,
+    "3": 44744,
+    "4": 44744
+  },
+  "inline_bytes": 769192,
+  "geometry_display": {
+    "land_asset": "land_mask_intermediate",
+    "bounds": [
+      -84,
+      21,
+      -42,
+      47
+    ],
+    "land_simplification_degrees": 0.035,
+    "preserve_topology": true,
+    "region_simplified": false,
+    "coordinate_decimals": 4,
+    "winding_applied_after_rounding": true,
+    "degenerate_land_parts_removed": 2
+  },
+  "scope": "developmental nested CV; no final-test evaluation"
+}

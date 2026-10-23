@@ -12,3 +12,6 @@ dependencies = ["numpy", "pandas", "pyarrow", "zarr<3", "shapely", "pyproj", "py
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["data3001*"]
+
+[tool.setuptools.package-data]
+"data3001.modelling" = ["assets/*.js", "assets/*.txt", "assets/*.json"]

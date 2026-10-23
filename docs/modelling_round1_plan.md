@@ -1,6 +1,6 @@
 # Round 1 Probability Transport Modelling — Implementation Plan
 
-> Human-controlled experiments: the assistant explains proposed code in the architecture conversation; the user creates and edits formal experiment files, enters code, runs it and returns the results. The assistant may maintain this single planning guide. This document does not authorise autonomous implementation, experiment execution, feature engineering, delegation or publication.
+> Current execution authority (2026-10-23): the user explicitly authorised the assistant to complete the agreed B2/B1 blend code, tests, nested cross-validation, candidate refitting and visual comparison. This supersedes the earlier manual-entry workflow described in the historical baseline notes below. Canonical data, all 62 stored fields, old model runs and the locked final test remain unchanged. No Git commit or push is included. Further predictor/feature changes still require the user's review.
 
 **Goal:** Produce genuine 7/30-day release-cell probability forecasts, evaluate them on unseen development drifter IDs, and compare annual, seasonal and shrinkage Markov operators before extending the analysis to one year.
 
@@ -14,12 +14,28 @@
 
 - Origin: architecture conversation; academic-research-suite experiment planning and writing-plans.
 - Date: 2026-10-18, Australia/Sydney.
-- Current checkpoint updated: 2026-10-19, Australia/Sydney.
-- Status: user-entered startup, sample preview, pooled B1/B2 fitting and historical whole-ID validation have completed. The assistant reconciled the saved validation artifacts read-only and prepared an in-conversation, read-only probability-map demonstration. A reproducible repository plotting/export module remains a user-controlled next step. Formal code is entered and executed by the user.
+- Current checkpoint updated: 2026-10-23, Australia/Sydney.
+- Status: historical pooled B0/B1/B2 fitting and validation are complete. The current authorised implementation compares global B2/B1 mixing weights using whole-ID nested development cross-validation, with final candidate weights selected on all-development base out-of-fold predictions. See the current run report for actual results and independent verification; do not infer accuracy from setup tests.
 - Authority: the final Excel contract remains authoritative. This document does not amend it.
 - Contract SHA-256: `6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`.
 
-## Current checkpoint: minimal pooled baseline workspace
+## Current experiment: pooled B2/B1 shrinkage
+
+Keep the frozen pooled, endpoint, R-origin, aligned 1-degree, exact 7/30-day and equal-eligible-hourly-pair definitions. The sole model change is `p_lambda = (1-lambda) * B2 + lambda * B1`, with unresolved mass mixed by the same weights. B0, B1 and raw B2 remain controls. A missing B2 row is unresolved; there is no automatic fallback or fabricated self-transition.
+
+Use all 3,224 development IDs for the frozen outer five-fold assignment, not only R visitors. For each outer fold, use four inner whole-ID folds to select two weights per horizon on identical inner out-of-fold cases: grid search over 0, 0.1, ..., 1 and the clipped quadratic Brier minimiser. Refit B1/B2 on the complete outer-training pool and score all five forecasts on the same outer-held-out cases. Pool scores by original pair counts, not by unweighted fold means. The scientific score is ordinary unhalved multiclass Brier for complete forecasts; preserve and explicitly label the existing failure penalty when support is unresolved. Raw zero-probability log losses remain infinite.
+
+The final Grid and Analytic weights are selected separately per horizon using all-development base out-of-fold quadratic terms. Then refit the two bases on all eligible development counts. This final tuning loss is not an independent performance estimate for the selected weight. The nested outer score assesses the corresponding tuning procedure; final-test trajectories remain locked. Retain both candidate families rather than selecting a favourable fold or rounding the analytic result into the grid result.
+
+Report the probability-region hit rate together with its mean geographic cell count and availability. Rank OUTSIDE with other physical outcomes, retain all cutoff ties and never renormalise unresolved mass. Report paired whole-ID uncertainty using 200 resamples within fixed outer folds; these intervals are conditional on the saved OOF predictions and do not include refitting/selection uncertainty. Every interactive map compares a single outer-fit forecast with endpoints from that same outer heldout pool, never with the training outcomes of a full-development refit.
+
+Implementation is in `experiment.py` (folds), `blend.py` (mixing and exact Brier polynomial), `cv.py` (nested fitting/scoring), `run_blend_cv.py` (read-only-input orchestration and provenance), and `report.py` (saved-artifact reports/maps). Existing data and label modules retain authority over qualification and pairing. Fresh paired counts must exactly reproduce both old historical training and validation counts before comparing models. Scientific changes receive a new immutable run; the current comparison report is the human-facing entry point.
+
+Current completed comparison: [run report](../results/runs/baseline_blend_cv_20261022T160806_056571Z/REPORT.md), [matched interactive probability maps](../results/runs/baseline_blend_cv_20261022T160806_056571Z/comparison.html). Reproduce with `.venv/bin/python -B -m data3001.modelling.run_blend_cv`; it creates a fresh immutable run. The final candidate bases and both sets of selected horizon-specific weights are saved in that run. The interactive weights are deliberately the corresponding outer-fold weights, not the all-development final candidate weights.
+
+The [offline class presentation](../results/deliverables/baseline_optimized/index.html) is a reusable rendering of that sealed evidence. [The presentation guide](baseline_presentation.md) gives the class walkthrough and export command. `showcase.py` verifies a completed run's hashes and refreshes the fixed presentation entry without retraining or modifying scientific inputs.
+
+## Historical checkpoint: minimal pooled baseline workspace
 
 The user has selected a pooled first baseline to obtain an interpretable reference promptly. The immediate scope is B0, B1 and B2 at 7 and 30 days on the existing 1-degree grid. Annual propagation, seasonal conditioning, finer grids, grounding prediction and environmental extensions are later checkpoints, not prerequisites for the first maps.
 

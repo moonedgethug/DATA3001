@@ -1,0 +1,7 @@
+horizon_days,comparison,delta_brier,lower,upper,replicates,scope
+7,Grid - B2,-0.00028087228400823565,-0.001301778611630688,0.0005897091045627381,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting
+7,Analytic - B2,-3.3296801382032316e-05,-0.0012103467411829895,0.0010468200336760298,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting
+7,Analytic - Grid,0.00024757548262620337,2.5468584205084296e-05,0.0004984283393836572,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting
+30,Grid - B2,-0.005348711899648157,-0.006876649835956415,-0.0037940094728427455,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting
+30,Analytic - B2,-0.005395482525087663,-0.006897369951628879,-0.0038642096651888584,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting
+30,Analytic - Grid,-4.677062543950437e-05,-0.00010852295334584353,2.4646081936408275e-06,200,Paired ID bootstrap within fixed outer folds; conditional on saved OOF predictions; no refitting

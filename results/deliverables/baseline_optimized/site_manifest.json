@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "source_run": "baseline_blend_cv_20261022T160806_056571Z",
+  "source_outputs_receipt_sha256": "13d51bd6e5e61b759238dac9f07c79958f37270c0b75e509daa6ac2ff9788844",
+  "source_comparison_inline_sha256": "28cfd4832a542828651adfa45775efdb0e69d49238332c2962187d2bea8bb5ea",
+  "index_sha256": "336cf77a44fc68f3176b0bdf7909326dc3ec56aa607b261d6a9d3b949dccff0b",
+  "d3_version": "7.9.0",
+  "d3_sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+  "offline": true,
+  "final_test_access": false
+}

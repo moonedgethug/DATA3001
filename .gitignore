@@ -62,3 +62,6 @@ node_modules/
 /provenance/migrations/data_release_20261016/original_data_inventory.jsonl
 /provenance/migrations/data_release_20261016/moves.jsonl
 /.chart-data-*/
+
+# The report's verified intermediate basemap is needed on fresh checkouts.
+!/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb

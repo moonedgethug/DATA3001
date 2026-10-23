@@ -1,0 +1,50 @@
+{
+  "status": "verified",
+  "run_id": "baseline_blend_cv_20261022T160806_056571Z",
+  "unit_test_count": 25,
+  "unit_test_command": ".venv/bin/python -B -m unittest discover -s tests -p test_modelling_*.py -v",
+  "unit_tests_passed": true,
+  "test_source_sha256": {
+    "tests/test_modelling_blend.py": "cfd25895517759ae6f2f209738fc3e8a622158000b9e1c8cc997e3c2e5a59fda",
+    "tests/test_modelling_cv.py": "1eeeac37fab80ff1a5c916a8c673083837f399157acb4ba65285e9ec5a830020",
+    "tests/test_modelling_experiment.py": "ac3cb3c275f7a8b73652592b19b43b8ab5e2136219d624f7c60a3f21402b96ce",
+    "tests/test_modelling_report.py": "a839599053f1b303a874deddffbcb378117c075651a175894d7c916ca7684285"
+  },
+  "published_hashes_reverified": 420,
+  "report_source_matches_receipt": true,
+  "scientific_sources_and_frozen_inputs_reverified": true,
+  "scientific_outputs_identical_to_previous_run": [
+    "development_counts.parquet",
+    "outer_scores.csv",
+    "outer_summary.csv",
+    "lambda_selection.csv",
+    "final_lambda_selection.csv",
+    "outer_models.json",
+    "final_models.json",
+    "bootstrap_differences.csv"
+  ],
+  "independent_scientific_review": "Reconstructed all outer models, 114875 score groups, all20 inner selections and final weights; approved",
+  "independent_code_quality_review": "Whole-ID CV, scoring, configured data root and portable report sources reviewed; approved",
+  "browser_checks": {
+    "desktop_rendered": true,
+    "width_360_document_pixels": 360,
+    "model_horizon_fold_origin_controls": "verified",
+    "empty_observed_panel": "explicit no eligible endpoints",
+    "console_errors_or_warnings": 0
+  },
+  "geometry_checks": {
+    "ocean_point_not_land": [
+      -60,
+      35
+    ],
+    "land_point_in_land": [
+      -78,
+      40
+    ],
+    "all_display_exteriors_clockwise": true
+  },
+  "canonical_data_modified": false,
+  "final_test_access": false,
+  "inline_bytes": 769192,
+  "outputs_receipt_sha256": "13d51bd6e5e61b759238dac9f07c79958f37270c0b75e509daa6ac2ff9788844"
+}
