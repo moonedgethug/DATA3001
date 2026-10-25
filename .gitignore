@@ -1,5 +1,6 @@
 # Local environments, caches and interrupted outputs
 /.venv/
+/.superpowers/
 __pycache__/
 *.py[cod]
 .DS_Store
@@ -65,3 +66,6 @@ node_modules/
 
 # The report's verified intermediate basemap is needed on fresh checkouts.
 !/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb
+
+# Frozen high-resolution mask required by the published neighbourhood experiments.
+!/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb

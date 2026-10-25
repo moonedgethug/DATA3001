@@ -1,4 +1,6 @@
-# Optimized baseline — demonstration and reuse
+# Earlier global-blend baseline — demonstration and reuse
+
+This page documents the earlier global-blend presentation. For the completed U/A and fixed-state experiments, use the latest reports linked from the [README](../README.md). The offline page has not been updated to display those newer families.
 
 ## Open the presentation
 

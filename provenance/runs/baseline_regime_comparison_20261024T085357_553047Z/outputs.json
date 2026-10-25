@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/baseline_regime_comparison_20261024T085357_553047Z/run.json": "625e811b5627008b024ee89a73bc465190fcda0a6000b447a843a9409aa802de",
+    "provenance/runs/baseline_regime_comparison_20261024T085357_553047Z/verification.json": "a87d45c135361685070d7da32ef10f37afe36b99f1501f03b75159592ec615b0",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/REPORT.md": "340dc38084209184d647cfcb09c4ae5b712eda385ada31d276229ec825c1fa18",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/final_weights.csv": "0be610934a4bc4272ce22173dfc1ea3af31dfbe8d161c3ec23d83eda28467623",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/fixed_summary.csv": "a5353c4056c108d02c2b8f4220a835093f15c9c550a9c2c797f1cf412abd3582",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/fixed_vs_matched_pooled.csv": "5320887dab8b50c7cc2e5059d4dbafd6c394276cc62bf5767b5d6dec03314147",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/matched_pooled_summary.csv": "8a60a5fba90398bba5190307f94cc9c2c8b45920941f496edca0cb6acb9396d4",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/numerical_summary.csv": "0868c30f953e1e4c608ae71fd4100c3e892da4e5d96b54539e4819dad0d2e8d2",
+    "results/runs/baseline_regime_comparison_20261024T085357_553047Z/support_summary.csv": "2001faf98717716d3a8313f88ba646e8856a47e279f974e06f2926170f464e96"
+  }
+}

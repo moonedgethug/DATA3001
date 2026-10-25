@@ -1,0 +1,25 @@
+family,horizon_days,method,alpha_value,tuning_brier,scope,scenario
+Global,7,Grid,0.2,0.9282735157252556,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Global,7,Analytic,0.1537180787752351,0.9281206739736672,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Global,30,Grid,0.7,0.9888356817667588,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Global,30,Analytic,0.6807189150293391,0.9888252085109348,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-A,7,Grid,0.4,0.9253645627298548,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-A,7,Analytic,0.3764216653414485,0.9253470651423484,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-A,30,Grid,0.8,0.987838396412658,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-A,30,Analytic,0.7688979434713917,0.9878153844178448,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-U,7,Grid,0.3,0.9272215003948112,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-U,7,Analytic,0.251689145566335,0.9271226084664664,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-U,30,Grid,0.8,0.987547973375566,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Local-U,30,Analytic,0.7870660107461686,0.987544102105811,All-development base OOF tuning; NOT an independent score of the final refit,drogued
+Global,7,Grid,0.3,0.9461583938052136,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Global,7,Analytic,0.2816767677806094,0.9461370377481368,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Global,30,Grid,0.8,0.9918907489304976,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Global,30,Analytic,0.8442924189090345,0.9918377704257118,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-A,7,Grid,0.6,0.9404678762221356,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-A,7,Analytic,0.6226254196598608,0.9404537070018314,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-A,30,Grid,0.9,0.9905583845207652,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-A,30,Analytic,0.902079440760206,0.9905582754325092,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-U,7,Grid,0.5,0.943064734961332,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-U,7,Analytic,0.4714983835572907,0.9430349581464172,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-U,30,Grid,0.9,0.9924193827916592,All-development base OOF tuning; NOT an independent score of the final refit,undrogued
+Local-U,30,Analytic,0.8814964904987029,0.9924111535262228,All-development base OOF tuning; NOT an independent score of the final refit,undrogued

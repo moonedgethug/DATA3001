@@ -1,0 +1,25 @@
+{
+  "unaligned_bases_rebuilt": 2444,
+  "aligned_representatives": [
+    {
+      "horizon_days": 7,
+      "origin_cell_1": 43659,
+      "donor_pairs": 18250,
+      "anchors": 640,
+      "method": "balanced",
+      "couplings": 512,
+      "maximum_probability_difference": 0.0,
+      "scope": "Reconstruction of saved finite estimator, not certification of exact product integral"
+    },
+    {
+      "horizon_days": 30,
+      "origin_cell_1": 43659,
+      "donor_pairs": 16706,
+      "anchors": 526,
+      "method": "balanced",
+      "couplings": 128,
+      "maximum_probability_difference": 0.0,
+      "scope": "Reconstruction of saved finite estimator, not certification of exact product integral"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+scenario,horizon_days,eligible_pairs,independent_ids,origin_cells,pooled_pairs,retained_pct
+drogued,7,178082,253,37,308312,57.76032071408184
+drogued,30,155188,226,37,287004,54.07172025476997
+undrogued,7,122123,157,37,308312,39.61020005708503
+undrogued,30,116505,142,37,287004,40.59351089183426

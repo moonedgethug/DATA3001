@@ -1,0 +1,13 @@
+family,horizon_days,method,alpha_value,tuning_brier,scope
+Global,7,Grid,0.1,0.9283758284189433,All-development base OOF tuning; NOT an independent score of the final refit
+Global,7,Analytic,0.09094152026909309,0.9283707945830636,All-development base OOF tuning; NOT an independent score of the final refit
+Global,30,Grid,0.6,0.9888541399271498,All-development base OOF tuning; NOT an independent score of the final refit
+Global,30,Analytic,0.5852541831065615,0.9888506169554481,All-development base OOF tuning; NOT an independent score of the final refit
+Local-A,7,Grid,0.3,0.9274369106828411,All-development base OOF tuning; NOT an independent score of the final refit
+Local-A,7,Analytic,0.2567187726912072,0.9273947465325699,All-development base OOF tuning; NOT an independent score of the final refit
+Local-A,30,Grid,0.7,0.9874406822105816,All-development base OOF tuning; NOT an independent score of the final refit
+Local-A,30,Analytic,0.72517863188969,0.9874322822467032,All-development base OOF tuning; NOT an independent score of the final refit
+Local-U,7,Grid,0.2,0.9279620226285435,All-development base OOF tuning; NOT an independent score of the final refit
+Local-U,7,Analytic,0.1715680214652395,0.9279361529329269,All-development base OOF tuning; NOT an independent score of the final refit
+Local-U,30,Grid,0.8,0.9875928322255204,All-development base OOF tuning; NOT an independent score of the final refit
+Local-U,30,Analytic,0.7632173222842055,0.987576984041341,All-development base OOF tuning; NOT an independent score of the final refit

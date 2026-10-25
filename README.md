@@ -1,112 +1,184 @@
 # DATA3001 — Where Things End Up
 
-We study the probability distribution of surface-drifter destinations in the western North Atlantic. A **1° pooled 7/30-day endpoint baseline and its optimized B2/B1 blend have been fitted and evaluated using whole-drifter nested cross-validation**. The longer-term goal is integer-day forecasts from 1 to 365 days with annual and seasonal analysis; those extensions remain unvalidated.
+**Status: baseline model Completed. Next stage: Markov transport modelling.**
 
-## Latest progress — baseline model optimized
+We estimate where a drifting object may be found after release in the southern Gulf Stream Corridor. The current product is a **1° historical drifter endpoint probability distribution at 7 or 30 days**, with development cross-validation. The research goal is a reusable transport model producing distributions at integer days **1–365**, followed by seasonal analysis, finer grids and a separately validated grounding capability.
 
-Open the [offline presentation page](results/deliverables/baseline_optimized/index.html) after downloading the repository. Double-click `index.html` in a browser; no server, Python runtime or internet connection is needed to view it. GitHub displays HTML source rather than running the page. The [scientific report](results/runs/baseline_blend_cv_20261022T160806_056571Z/REPORT.md) and [presentation guide](docs/baseline_presentation.md) explain the evidence and how to reuse the module.
+The baseline comparison stage is complete. This does not establish annual, seasonal, precise-point, new-region or object-specific accuracy. The [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) remains the scientific source of truth; this README summarises implementation and progress.
 
-The experiment compares B0 persistence, B1 whole-R endpoint frequencies, B2 origin-cell conditional frequencies and two B2/B1 blends. Five outer and four inner whole-ID folds keep tuning separate from held-out scoring. All models use identical eligible hourly pairs; the 517 final-test trajectories remain locked.
+## Research question and scope
 
-| Horizon | B2 held-out Brier | Grid blend Brier | Analytic blend Brier | B2 90% set hit | Analytic 90% set hit |
-|---|---:|---:|---:|---:|---:|
-| 7 days | 0.928878 | 0.928597 | 0.928845 | 87.48% | 93.85% |
-| 30 days | 0.994400 | 0.989051 | 0.989005 | 67.20% | 86.20% |
+Given a release cell in **R** and a future time, what probability belongs to each destination cell, and how much probability lies outside the supported transport domain?
 
-Lower Brier is better; it is not percentage accuracy. At 30 days the analytic blend's mean 90% set expands from 64.9 to 128.4 geographic cells, so increased hit rate comes with reduced concentration. Seven-day Brier gains are small. Remaining zero-probability outcomes keep raw log loss infinite. The reported bootstrap intervals condition on saved OOF predictions and do not include refitting uncertainty.
+- **Release region R:** the frozen southern Gulf Stream Corridor polygon, clipped to `[-82, 30, -73, 35.5]` in longitude/latitude. The GeoJSON polygon, rather than this rectangular envelope, determines membership.
+- **Transport domain D:** the frozen rectangle `20–55°N, 81–8°W`. D contains the model's transport states and is larger than the release region.
+- **Current resolution and horizons:** aligned 1° cells; exact 7/30-day endpoint matching; every eligible hourly origin–endpoint pair has equal weight.
+- **Applications motivating the work:** search planning and surface-material transport near the US East Coast, Florida–Bahamas and the northern Gulf. Drifter observations alone do not validate oil, container or life-raft forecasts. Object-specific behaviour requires additional evidence.
 
-Final full-development candidate weights in `p = (1 − λ) B2 + λ B1` are **Grid: 0.1 / 0.6** and **Analytic: 0.090942 / 0.585254** for 7 / 30 days. These are selected from all-development base OOF predictions, then used with refitted bases; their tuning loss is not an independent performance estimate. The map uses fold-specific weights for a valid held-out comparison. No environmental predictor, feature change or canonical-data modification was introduced.
+The baseline conditions on the release **cell**, with its empirical within-cell origin distribution. It is not a forecast conditioned on an exact coordinate, departure weather or an individual object's properties. Regional expansion requires a separate support and validation audit.
 
-## Research scope
+## Data and research boundaries
 
-The initial release region **R** is the southern Gulf Stream Corridor polygon intersected with `[-82, 30, -73, 35.5]` (longitude/latitude). The frozen GeoJSON polygon determines membership; this rectangle is its clipping envelope. The finite transport domain **D** is `20–55°N, 81–8°W`, with a target-specific outside state. D is distinct from both R and the larger acquisition envelope.
+The canonical release is **`per-drifter-cleaned-20261017-v7`**: **3,741 IDs, 39,099,193 hourly records and 62 columns**. Its source is the pinned official NOAA GDP v2.01.1 hourly asset. The acquired snapshot contained 39,107,061 records; the approved cleaning removed vessel-recovery tails.
 
-We start with supported cells in R, then consider regional expansion only after a new coverage, path, holdout and common-target validation audit. The broader motivation includes search planning and surface-material transport near the US East Coast, Florida–Bahamas and the northern Gulf. These are application motivations, not validated object-specific oil, container or life-raft forecasts.
+| Location | Contents | Role |
+|---|---|---|
+| `data/train/<id>.parquet` | 3,224 complete development drifter files | Fitting, tuning and whole-ID cross-validation |
+| `data/test/<id>.parquet` | 517 complete final-test drifter files | Locked during development model selection |
+| `provenance/qualification/v7/` | Source-keyed qualification evidence | Reuse approved predicates without adding canonical columns |
 
-## Current status
+The original 2,674 train / 550 validation / 517 test membership is preserved. Original train and validation share the development directory; the modelling folds operate within that pool. All observations of an ID stay together in each fold. Of 463 R-visiting IDs, 396 belong to development and 67 to final test.
 
-**Team download:** `main` includes the actual current files in `data/train/`
-and `data/test/`, plus portable qualification evidence. Clone or pull this
-repository, then follow [download and setup](docs/getting_started.md). There is
-no separate data download or Git LFS requirement. The trajectories total about
-3.75 GB; full raw caches and historical backups remain local.
+Cleaned `drogue_status` is **1 drogued, 0 undrogued, −1 unknown**; cleaned total temperature remains in `sst` in Kelvin. Intentional NA values, unresolved metadata and source restrictions are documented in the [data dictionary](docs/data_dictionary.md), [preprocessing guide](docs/preprocessing.md) and [data layout](docs/data_layout.md). The baseline stage changed no canonical rows, columns, labels or split membership and read no final-test trajectories.
 
-- **Acquired source data:** 3,741 GDP IDs and 39,107,061 hourly records from the pinned NOAA GDP v2.01.1 asset, with original evidence retained. The current cleaned release contains **39,099,193** records after authorized vessel-recovery-tail deletion.
-- **Current data layout:** `data/train/<id>.parquet` contains the 3,224 development IDs; `data/test/<id>.parquet` contains the same 517 final-test IDs. Each file now contains **62 columns** after the approved removal of 67 registered fields. Original `err_lat`, `err_lon`, `err_ve`, and `err_vn` values are retained, as are cleaned `drogue_status` and `sst`. All 39,099,193 rows and all remaining field values are unchanged. Exact parent files and qualification evidence remain outside active data. See [the data guide](docs/data_layout.md) and [projection verification](provenance/migrations/feature_pruning_20261017_v1/REPORT.md).
-- **Drogue state:** `drogue_status` stores the exact previously approved labels: **1 drogued, 0 undrogued, -1 unknown**. The redundant `regime` column has been physically removed. No labels, loss dates or ID assignments were re-estimated. Original binary flags and the previous representation are archived. See the [column-consolidation report](provenance/migrations/drogue_status_inplace_20261017_v1/REPORT.md).
-- **Split provenance:** the original 2,674 train / 550 validation / 517 test assignments are retained. Original train and validation share the development directory. The optimized baseline additionally freezes five outer and four inner whole-ID development folds; it does not change physical data membership. Of 463 R-visiting IDs, 396 are in development and 67 in final test. Eligible held-out support totals 387 IDs / 308,312 pairs at 7 days and 358 IDs / 287,004 pairs at 30 days.
-- **Prepared assets:** source-linked cleaned records, independent endpoint/stopped ledgers, frozen geometry, origin/event records and support audits. Main modelling starts at 1°; 0.5° geometry is prepared for subsequent refinement assessment.
-- **Modelling entry:** the current development-only audit supports beginning baseline experiments at 7/30 days in supported Corridor cells. Fixed-drogued endpoint support is 253 independent IDs at 7 days and 226 at 30 days; at 365 days it falls to 23 IDs (15 for the stopped target). These are eligibility counts, not model scores. Settle DEPTH-01 and freeze the model-stage validation protocol before a primary fit. See [the readiness assessment](results/deliverables/data_readiness_20261017/REPORT.md).
-- **Current feature review:** cleaned total temperature is stored directly in **`sst`** (Kelvin), with no extra feature column or merge. On official eventual-grounding IDs, SST after the official last-good time is now numeric NA and must not be refilled: **16,059 records, including 47 in R**. SST outside this excluded context is unchanged. See the [current SST cutoff report](provenance/migrations/grounding_sst_na_20261017_v1/REPORT.md). Another 2,582 active temperature-quality comparisons remain unresolved (213 in R); the historical audit counted 2,584 before this cutoff. All other columns, rows and ID assignments are unchanged. Components are outside this step; vessel-recovery tails remain removed. No model selection or training is part of this cleaning task.
-- **Limits:** DEPTH-01 remains pending. Long-horizon seasonal support includes empty or highly concentrated groups. More hourly records do not create more independent drifters. Pooled 7/30-day baselines now have development evidence; seasonal, grounding, object-specific, new-region and 365-day performance remain unvalidated.
-- **Data migration:** the complete previous data tree is retained in `archive/data_before_release_20261016/`. See [the release acceptance](provenance/migrations/data_release_20261016/acceptance.md). The earlier [architecture migration](provenance/migrations/architecture_20261014/progress.md) remains historical evidence.
+## Completed baseline experiment
 
-## Start here
+The direct estimators learn endpoint frequencies, not a short-step dynamical operator. Each horizon is fitted separately. The same nine configurations are evaluated in three scenarios: pooled, fixed-drogued and fixed-undrogued.
 
-| Need | Entry point |
+| Family | What it predicts or borrows |
 |---|---|
-| Present the optimized baseline | [Offline interactive page](results/deliverables/baseline_optimized/index.html) and [presentation guide](docs/baseline_presentation.md) |
-| Inspect the latest held-out evidence | [Nested-CV report](results/runs/baseline_blend_cv_20261022T160806_056571Z/REPORT.md) |
-| Research definitions and binding rules | [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) |
-| Chinese translation for internal discussion | [Chinese contract](docs/contract/data_contract_v1.0_zh.xlsx) |
-| Read one complete drifter file | [Data layout and usage](docs/data_layout.md) |
-| Download the actual data and verify a new checkout | [Team setup](docs/getting_started.md) |
-| Find IDs, rows and historical assignments | [Dataset index](configs/dataset_index.csv) |
-| Understand all 62 active columns | [Data dictionary](docs/data_dictionary.md) |
-| Data meaning, restrictions and modelling handover | [Preprocessing guide](docs/preprocessing.md) |
-| Evidence for starting baseline experiments | [Current modelling readiness](results/deliverables/data_readiness_20261017/REPORT.md) |
-| Repository rules, environments, migration and recovery | [Architecture guide](docs/architecture.md) |
-| Exact active data versions and table roles | [Asset catalog](configs/assets.json) |
-| Current migration acceptance | [Hardware missing-value normalization](provenance/migrations/hardware_NA_20261017_v1/REPORT.md) |
-| Original versus augmented table selection | `state_index` and `lag_support` in the asset catalog |
-| Submission proposal copy | [Proposal](results/deliverables/proposal/proposal_final.docx) |
-| Historical plans and six-hour screening | `archive/` — reference only |
+| **B0 — persistence** | All probability remains in the origin cell. |
+| **B1 — whole-R endpoint frequencies** | One training destination distribution per horizon, shared by every origin cell in R. |
+| **B2 — origin-cell endpoint frequencies** | A separate training destination distribution for each origin cell and horizon. |
+| **Global — B2/B1 blend** | Borrows whole-R endpoint information to regularise B2. |
+| **Local-U — unaligned neighbourhood blend** | Borrows the original endpoint distributions of the eight adjacent origin cells. |
+| **Local-A — displacement-aligned neighbourhood blend** | Transfers neighbour net displacements to the target cell's actual empirical training-origin positions. |
 
-The controlled English Excel copy has SHA256 `6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`. Its original authority remains unchanged. Neither this README nor an older Markdown contract replaces it. Proposal remains a brief overview.
+For the three borrowing families,
 
-## Workspace
+`forecast = (1 − weight) × B2 + weight × borrowing_distribution`.
+
+Each family/horizon selects its own weight, shared across origin cells. **Grid** evaluates `0, 0.1, ..., 1`; **Analytic** minimises the same quadratic comparison score continuously on `[0, 1]`. These six variants plus B0–B2 give nine configurations per scenario. Donors and alignment anchors come only from fitting IDs and eligible R-origin pairs. Neighbour pairs receive equal weights; there is no equal-cell weighting or extension of donors beyond R.
+
+**Pooled** represents the historical mixture of recorded states. **Fixed-drogued / fixed-undrogued** require the approved official evidence to support that state throughout the requested interval. Unknown or switching intervals remain in the pooled data but do not enter fixed-state fits. This is retrospective interval qualification, not a forecast of future drogue loss. Attachment alone does not establish a homogeneous drogue depth; **DEPTH-01 remains unresolved**.
+
+### Validation and score
+
+- Use the unchanged **five outer / four inner whole-ID folds**. Every outer holdout remains absent from that fold's fitting, donors, anchors and inner tuning.
+- Compare all configurations on identical eligible source-multiplicity cases. Repeated hourly windows are not independent drifters.
+- Select weights using inner out-of-fold predictions; assess the complete selection procedure on outer held-out IDs.
+- Select final candidate weights from all-development **base outer-OOF** predictions, then refit the bases on development IDs. Their tuning losses are not independent estimates of final-refit performance.
+- Use failure-penalised multiclass Brier: `S = 1 + sum(p_j²) + u² − 2p_observed`, where `u` is unresolved probability. Lower is better. When `u = 0`, this equals ordinary multiclass Brier; it is not percentage accuracy.
+- Retain known OUTSIDE outcomes, unresolved mass and raw zero-probability failures. Never renormalise missing mass into supported cells. Raw log loss remains infinite when a complete forecast assigns zero probability to an observed destination.
+- Report probability-region coverage together with size and availability. Cutoff ties are retained. Use 200 paired whole-ID bootstrap resamples within outer folds; intervals condition on saved fits and omit refitting, selection and numerical-integration uncertainty.
+- Compare fixed-state models against **frozen pooled forecasts on the exact same fixed-state cases**, replacing only case multiplicities. Raw scores from different regime populations are not a fair test of the value of state conditioning.
+
+### Evidence and main findings
+
+| Scenario | Horizon | Eligible hourly pairs | Independent IDs |
+|---|---:|---:|---:|
+| Pooled | 7 days | 308,312 | 387 |
+| Pooled | 30 days | 287,004 | 358 |
+| Fixed-drogued | 7 days | 178,082 | 253 |
+| Fixed-drogued | 30 days | 155,188 | 226 |
+| Fixed-undrogued | 7 days | 122,123 | 157 |
+| Fixed-undrogued | 30 days | 116,505 | 142 |
+
+All three scenarios have eligible development origins in 37 cells, but support is uneven and some cells have very few independent IDs. Model rows without support remain explicitly unresolved.
+
+The table below shows **outer held-out failure-penalised Brier**, using Analytic borrowing weights. Grid variants and all controls remain in the linked reports.
+
+| Scenario | Days | B2 | Global | Local-U | Local-A* |
+|---|---:|---:|---:|---:|---:|
+| Pooled | 7 | 0.928878 | 0.928845 | 0.928477 | 0.928187 |
+| Pooled | 30 | 0.994400 | 0.989005 | 0.987608 | 0.987525 |
+| Drogued | 7 | 0.929807 | 0.929955 | 0.928774 | 0.926831 |
+| Drogued | 30 | 1.001880 | 0.989088 | 0.987617 | 0.987952 |
+| Undrogued | 7 | 0.951184 | 0.946781 | 0.943511 | 0.940892 |
+| Undrogued | 30 | 1.011088 | 0.991882 | 0.992441 | 0.990626 |
+
+- **Neighbour borrowing can help, but neither U nor A is a universal winner.** In pooled 30-day evaluation, U improves over Global under the declared conditional-ID bootstrap; pooled A-versus-U intervals cross zero. Fixed-state results show different rankings. Point estimates must be read with paired intervals and A's numerical limitations.
+- **Hard state partitioning did not improve these fitted baselines.** Across the twelve matched-case Analytic Global/U/A comparisons, fixed-state scores exceed their corresponding pooled scores, with the reported conditional intervals above zero. This does not establish that drogue is irrelevant or that reduced sample size alone causes the difference.
+- **Coverage and concentration remain different objectives.** Pooled 30-day U hits 84.36% of endpoints inside its nominal-90% region, averaging 103.17 cells; Global hits 86.20% over 128.41 cells. Fixed-state U's corresponding hits are 80.40% drogued and 74.62% undrogued. The baseline is not yet a calibrated 90% search product.
+- **Local-A is numerically provisional.** Exact small products and balanced large-product approximations retain donor/anchor marginals, but successive stability is not a certified exact-integral error bound. Unsettled fit rows total 34 pooled, 130 drogued and 295 undrogued; final refits have 0, 1 and 9 unsettled rows respectively. Inner instability can affect weight selection beyond directly unstable outer rows. Global and U do not use A's numerical integration.
+- **Unresolved mass is not the same as exact-complete forecast coverage.** A can retain small unresolved mass on many forecasts; rare cases can be wholly unsupported. Read the per-run mass diagnostics rather than interpreting an exact-complete fraction as prediction accuracy. There are no observed OUTSIDE endpoints in these evaluation cases, so outside-state calibration is unestablished.
+
+The baseline comparison stage is complete **with these limitations recorded**. The final model family has not been selected using final-test outcomes.
+
+## Project architecture
 
 ```text
-src/data3001/  reusable data, modelling, scoring and presentation code
-configs/      versioned asset locations and pinned environment
-data/train/  one complete Parquet per development ID
-data/test/   one complete Parquet per locked final-test ID
-results/     separate experiment runs and versioned deliverables
-tests/       scientific rules and architecture boundary checks
-docs/        current stage guides and controlled contract copies
-provenance/  source receipts, frozen evidence and run/migration records
-archive/     complete previous data tree, historical plans and report bundles
+src/data3001/
+  preprocessing/   approved qualification, labels and source-aware cleaning rules
+  modelling/       estimators, nested CV, scoring, audits and presentation exporters
+configs/           asset catalog, canonical manifests, dataset index, dependency pins
+data/train/        one complete Parquet file per development drifter
+data/test/         one complete Parquet file per locked final-test drifter
+docs/              controlled contract, current stage guides and team instructions
+results/runs/      selected immutable model runs, fitted models, tables and reports
+results/deliverables/  submission documents and presentation exports
+provenance/        source/qualification evidence, run hashes and migration receipts
+tests/             scientific fixtures and architecture boundary checks
+archive/           historical assets and retained local recovery material
 ```
 
-The active cleaned train/test release and selected baseline runs are published with their checksums. Raw acquisition caches, complete cleaning backups, environments and routine or superseded experiment runs remain local. The verified intermediate display basemap is included for report reconstruction.
+The team download contains the approximately 3.75 GB canonical data release, selected complete scientific runs, and the unchanged high/intermediate land masks required by their code. Raw source caches, full cleaning backups, interrupted runs and private execution logs remain local. Published experiment receipts preserve exact output bytes and source/input hashes; new runs receive new IDs.
 
-## Local use
+| Implemented module | Responsibility |
+|---|---|
+| `experiment.py`, `cv.py`, `blend.py` | Whole-ID folds, B0–B2/global models, score regions and weight selection |
+| `neighbourhood.py`, `neighbourhood_cv.py` | U/A distributions, bounded alignment integration and nine-model nested evaluation |
+| `regimes.py`, `run_regimes.py` | Fixed-interval qualification, matched pooled comparisons and scenario orchestration |
+| `run_neighbourhood.py` | Verified coordinate preparation and guarded pooled/scenario model runs |
+| `neighbourhood_report.py` | Independent reconstruction of saved fits, scores, selections and report tables |
+| `showcase.py`, `report.py` | Existing global-blend presentation export and plotting; not a new U/A/state visualisation |
 
-Python **3.12.14** and the scientific dependency versions are preserved. The current local environment is `.venv/`. For a new machine, install the pinned requirements and package following [the architecture guide](docs/architecture.md#environment).
+The module paths above are under `src/data3001/modelling/`. The [asset catalog](configs/assets.json) resolves data and geometry locations; the [architecture guide](docs/architecture.md) explains repository conventions. The [current modelling guide](docs/modelling_round1_plan.md) records experiment definitions, results, caveats and the next-stage entry.
+
+## Experimental roadmap and present status
+
+| Stage | Current status | Deliverable / next checkpoint |
+|---|---|---|
+| Data audit and preparation | Completed release; documented unknowns remain | Canonical files, official-state evidence, frozen geometry and source-keyed labels |
+| Direct endpoint baseline | Completed and audited | B0–B2, Global/U/A, Grid/Analytic weights, pooled and two fixed-state comparisons |
+| Short-lag Markov M1 | Next stage; not fitted | Freeze state space, lag, boundaries and comparable target; fit a transport operator and evaluate propagation |
+| Seasonal operators M2/M3 | Planned | Calendar-aware propagation, seasonal support audit and reviewed regularisation |
+| 1–365-day distributions and 0.5° refinement | Planned | Long-horizon validation, exact-duration handling, resolution/support comparison |
+| Grounding and object-specific extensions | Planned | Separate defensible labels and validation; future hardware/object information is not an origin-time predictor |
+
+### Markov stage entry
+
+A Markov model learns a **short-lag transition**, `P_tau(i,j) = N_tau(i,j) / sum_j N_tau(i,j)`, then propagates a probability vector through repeated steps. It is not obtained by repeatedly looking up the completed 7/30-day endpoint baselines.
+
+The next definition review must settle lag candidates, unsupported rows and state handling before fitting. The existing roadmap lists 1, 3, 5 and 7 days as candidates, not selected winners. Kernel fitting needs qualified **D-origin pairs across fitting IDs**, including drifters that never visited R; release demonstrations and primary release evaluation remain in R.
+
+Under the contract, the first finite-D prototype is a **stopped-domain process**: first observed exit is absorbing. Endpoint occupancy, which allows exit followed by return, remains a different target. We must generate matching stopped-target baselines before comparing their scores with this prototype. Unknown disappearance is neither exit nor grounding. The transition to the eventual endpoint product, seasonal operators and 365-day outputs requires explicit support and validation rather than an assumed successful iteration.
+
+## Read, reproduce and contribute
+
+Start with [team download/setup](docs/getting_started.md), then the [contract](docs/contract/data_contract_v1.0.xlsx) ([Chinese translation](docs/contract/data_contract_v1.0_zh.xlsx)) and [current modelling guide](docs/modelling_round1_plan.md). The controlled English contract SHA256 is `6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`.
+
+| Need | Published entry |
+|---|---|
+| Latest pooled U/A comparison and audit | [Pooled neighbourhood report](results/runs/baseline_neighbour_cv_20261024T065917_879042Z/REPORT.md) |
+| Latest two-state comparison and matched pooled evidence | [Fixed-regime combined report](results/runs/baseline_regime_comparison_20261024T085357_553047Z/REPORT.md) |
+| Detailed fixed-state fits, scores and diagnostics | [Drogued report](results/runs/baseline_drogued_cv_20261024T080519_204788Z/REPORT.md), [undrogued report](results/runs/baseline_undrogued_cv_20261024T083230_432963Z/REPORT.md) |
+| Full-development candidate weights | [Pooled weights](results/runs/baseline_neighbour_cv_20261024T065917_879042Z/final_alpha_selection.csv), [fixed-state weights](results/runs/baseline_regime_comparison_20261024T085357_553047Z/final_weights.csv) |
+| Earlier global-blend interactive demonstration | [Offline page](results/deliverables/baseline_optimized/index.html) and [guide](docs/baseline_presentation.md); this predates U/A and fixed-state results |
+| Canonical schema and provenance | [Data dictionary](docs/data_dictionary.md), [dataset index](configs/dataset_index.csv), [data layout](docs/data_layout.md) |
+| Submitted proposal overview | [Proposal](results/deliverables/proposal/proposal_final.docx) |
+
+After preparing Python 3.12.14 and pinned dependencies, run the development-safe checks:
 
 ```bash
-.venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python -m data3001 inspect
+.venv/bin/python -B -m unittest discover -s tests -p 'test_modelling*.py' -v
+.venv/bin/python -B -m unittest discover -s tests -p 'test_architecture.py' -v
 ```
 
-These commands do not fit a model or regenerate frozen data. `python -m data3001 verify-migration` verifies every current file against its archived predecessor and the approved SST decisions, including other fields, ID assignments, the contract hash and recovery exclusions. It requires the complete local migration inventory and retained history.
+The audited baseline code passes 67 modelling and 10 architecture tests. These tests and artifact audits verify implementation and reproducibility, not annual or operational predictive validity.
 
-Read a development trajectory without opening a global table:
-
-```python
-from data3001.dataset import read_track, development_ids
-frame = read_track(22165)  # all rows and columns; no automatic filtering
-ids = development_ids()   # 3,224 complete development IDs
-```
-
-Development label generation uses a separate entry point:
+Re-fit the approved comparisons from the published, sealed inputs:
 
 ```bash
-.venv/bin/python -m data3001 pair --id <development-ID> --days 7 --population R
+# Pooled: uses the verified coordinate cache; creates a new immutable run.
+.venv/bin/python -B -m data3001.modelling.run_neighbourhood \
+  --input-run neighbour_input_20261024T062737_251970Z
+
+# Fixed states: fits both scenarios and produces a new combined report.
+.venv/bin/python -B -m data3001.modelling.run_regimes \
+  --input-run regime_input_20261024T080243_439468Z
 ```
 
-It reports independent target qualification without saving by default. Add a unique `--run-id` to save derived labels under `results/runs/` with provenance. This is label preparation, not a probability forecast. Final-test trajectories are denied by this entry point.
+These commands perform numerical fitting and can take substantial time. They use existing selected features and qualifications, keep final test locked, and do not overwrite canonical data or accepted runs. To inspect one development file, use `data3001.dataset.read_track(id)`; all stored columns remain available for later, explicitly reviewed feature selection.
 
-## Team
-
-The current team has four members: **Junxi Xiao, Han Wang, Ming Yue and Yi Cheng Zhang**. Architecture decisions, implementation, validation and writing are coordinated across the team. Review rule changes against the authoritative contract before changing data eligibility or model inputs.
+The current team is **Junxi Xiao, Han Wang, Ming Yue and Yi Cheng Zhang**. Coordinate research definitions, implementation, validation and writing through the current stage guide. Review any target, eligibility, feature or boundary change against the Data Contract before implementation.

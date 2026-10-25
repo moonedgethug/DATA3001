@@ -1,0 +1,63 @@
+{
+  "audit": {
+    "all_nine_models_share_exact_cases": true,
+    "alpha_selections_independently_verified": 72,
+    "final_test_read": false,
+    "fitted_basis_audit": {
+      "aligned_representatives": [
+        {
+          "anchors": 640,
+          "couplings": 512,
+          "donor_pairs": 18250,
+          "horizon_days": 7,
+          "maximum_probability_difference": 0.0,
+          "method": "balanced",
+          "origin_cell_1": 43659,
+          "scope": "Reconstruction of saved finite estimator, not certification of exact product integral"
+        },
+        {
+          "anchors": 526,
+          "couplings": 128,
+          "donor_pairs": 16706,
+          "horizon_days": 30,
+          "maximum_probability_difference": 0.0,
+          "method": "balanced",
+          "origin_cell_1": 43659,
+          "scope": "Reconstruction of saved finite estimator, not certification of exact product integral"
+        }
+      ],
+      "unaligned_bases_rebuilt": 2444
+    },
+    "inference_scope": "Exploratory development comparison, conditional-ID bootstrap; no causal or universal superiority claim",
+    "integration_contributions": 16750443259,
+    "maximum_score_difference": 4.440892098500626e-16,
+    "no_visualisation_created": true,
+    "numerical_status": "PROVISIONAL_NUMERICAL_ROWS_REMAIN",
+    "parent_controls_reproduced_per_case": true,
+    "score_rows_verified": 206775,
+    "unsettled_fit_rows": 34
+  },
+  "canonical_data_modified": false,
+  "canonical_tracks_read_by_fitting": 0,
+  "denied_operations": [],
+  "elapsed_seconds": 1970.26894291598,
+  "final_test_trajectories_read": 0,
+  "frozen_inputs_unchanged": true,
+  "input_coordinate_run": "neighbour_input_20261024T062737_251970Z",
+  "peak_rss_bytes_macos": 1700446208,
+  "scientific_environment": {
+    "geos": "3.14.1",
+    "numeric_workers": 4,
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "pyarrow": "26.0.0",
+      "pyproj": "3.7.2",
+      "shapely": "2.2.0"
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "proj": "9.5.1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "source_code_unchanged_during_fit": true
+}
