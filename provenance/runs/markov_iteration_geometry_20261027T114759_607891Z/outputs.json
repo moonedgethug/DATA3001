@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/markov_iteration_geometry_20261027T114759_607891Z/run.json": "53439dac939da43df06b4f02046493168d3c93c7144454f35c730c62bb8ddcbe",
+    "provenance/runs/markov_iteration_geometry_20261027T114759_607891Z/verification.json": "01193209404df3bcb011824133a4eae30bd0eba04216f0c2f149b6e292298a21",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/cache_identity.json": "0063ee2a26247e0d4e561b599f05a27ab0daa10f836e7d22ed9a853d32f53239",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/geometry_1d.npy": "d28aa9d45735b594dfd4d3175eaafaf61e95c00f3f735e3daf132044f97d2334",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/geometry_2d.npy": "7b9832d6ccb57322d18f69f55c7ed37a80c0420dd50cb4aa209a00b1a6054e9b",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/geometry_3d.npy": "223257f9da751f5c2f79d52e2dd0a9389db0b7158854c10130aaf9a514164ed8",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/geometry_5d.npy": "c12a2d3f5f54127bb4c23d85a26a1e3db7081b031990deb8db4b251b14ad5967",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z/geometry_7d.npy": "086ca301f6d6a2e1ee3230e48c710956419e35c971cd55f326eaf07b7bb385e6"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "verified_sealed_files": 177,
+  "ID_and_threshold_roles": 26,
+  "inner_choices_and_development_selection": true,
+  "same_inner_selected_lag_comparison": [
+    {
+      "horizon_days": 7,
+      "selected_S": 0.9218730249564857,
+      "same_lag_lambda_one_S": 0.9282314489681203
+    },
+    {
+      "horizon_days": 30,
+      "selected_S": 0.9852491110074711,
+      "same_lag_lambda_one_S": 0.9857853775353316
+    }
+  ],
+  "saved_operator_components": 30,
+  "maximum_row_sum_error": 4.440892098500626e-15,
+  "independently_reestimated_kernels": 10,
+  "maximum_empirical_kernel_difference": 9.43689570931383e-16,
+  "forecast_distributions": 16696,
+  "maximum_saved_forecast_error": 2.220446049250313e-16,
+  "maximum_saved_S_error": 4.440892098500626e-16,
+  "independent_spatial_examples": 60,
+  "maximum_energy_difference_km": 1.0800249583553523e-12,
+  "maximum_squared_mean_difference_km2": 3.3178366720676422e-09,
+  "score_groups": 324486,
+  "paired_fixed_fit_bootstrap_contrasts": 6,
+  "matched_map_release_cell": 44384,
+  "matched_map_velocity_bin": 8,
+  "passed": true
+}

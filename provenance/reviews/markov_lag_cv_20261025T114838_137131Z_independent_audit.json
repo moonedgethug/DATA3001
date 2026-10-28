@@ -1,0 +1,18 @@
+{
+  "run": "markov_lag_cv_20261025T114838_137131Z",
+  "input": "markov_diagnostic_input_20261025T113812_255111Z",
+  "diagnosis": "markov_diagnosis_20261025T114721_490747Z",
+  "UTC": "2026-10-25T11:53:14.312725+00:00",
+  "sealed_files_verified": 889,
+  "operators_reconstructed": 30,
+  "fit_ID_records_verified": 25,
+  "forecast_distributions_verified": 2920,
+  "score_groups_verified": 175032,
+  "all_inner_and_final_choices_reselected": true,
+  "all_six_conditional_ID_intervals_reproduced": true,
+  "matrix_max_error": 7.771561172376096e-16,
+  "prediction_max_error": 6.938893903907228e-16,
+  "S_max_error": 2.220446049250313e-16,
+  "centre_spread_max_error_km": 2.3163693185779266e-12,
+  "scope": "Independent cached development artifact recomputation; no canonical/final-test trajectories accessed"
+}

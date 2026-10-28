@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/markov_position_input_20261027T093543_211496Z/run.json": "632a608fcd87599fbff38b85f8f3048e3f50de55b49c6765455fe1673990e82b",
+    "provenance/runs/markov_position_input_20261027T093543_211496Z/verification.json": "c5e045308a6920e57aa928d385f4d2497aca5b3abfa824a36327c4175ebcce58",
+    "results/runs/markov_position_input_20261027T093543_211496Z/candidate_reasons.csv": "e8cea4d7bd1d1854eec910caf3c269240c2df5fc00f4982ed515571f43ea0847",
+    "results/runs/markov_position_input_20261027T093543_211496Z/donors.parquet": "5bbebe29204096339ecc85915b43ddc29802738f06bfbcaf2323f0ff9ad45160",
+    "results/runs/markov_position_input_20261027T093543_211496Z/observations.npy": "5f4d0174aff6350594679796ec09138734e4518c9038cdedbbeb1499da5de642",
+    "results/runs/markov_position_input_20261027T093543_211496Z/releases.parquet": "475ddac426cc898b2cff2d2e943b7dd7ccff32e9e3838af2e9be7bb6374ac951",
+    "results/runs/markov_position_input_20261027T093543_211496Z/source_ID_summary.csv": "cf24aaa2ce8b7e9c35c5674456b8e1248e05d053a316374e5d2fb555b5c505bf",
+    "results/runs/markov_position_input_20261027T093543_211496Z/thresholds.json": "71907b9904293149490b74e1611769a26993ae3b535c99d01e9147bc057abf41",
+    "results/runs/markov_position_input_20261027T093543_211496Z/trace_examples.parquet": "a2f003f61b2f2fad94acbca2020f6102c9e425d419df1203e377837c252911e3"
+  }
+}

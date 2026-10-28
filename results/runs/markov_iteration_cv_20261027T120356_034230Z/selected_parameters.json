@@ -1,0 +1,131 @@
+[
+  {
+    "S": 0.9857401474432371,
+    "all_candidates_initially_scored": 99,
+    "candidate": 58,
+    "family": "position-CV",
+    "lambda_value": 0.3,
+    "near_candidates": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "numerically_unresolved": true,
+    "outer_fold": 0,
+    "particles": 128,
+    "path": "R7"
+  },
+  {
+    "S": 0.9853980533549059,
+    "candidate": 56,
+    "family": "coarse-CV",
+    "lambda_value": 0.1,
+    "outer_fold": 0,
+    "path": "R7"
+  },
+  {
+    "S": 0.9875933312621948,
+    "all_candidates_initially_scored": 99,
+    "candidate": 58,
+    "family": "position-CV",
+    "lambda_value": 0.3,
+    "near_candidates": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "numerically_unresolved": true,
+    "outer_fold": 1,
+    "particles": 128,
+    "path": "R7"
+  },
+  {
+    "S": 0.9883450844412038,
+    "candidate": 36,
+    "family": "coarse-CV",
+    "lambda_value": 0.3,
+    "outer_fold": 1,
+    "path": "D5"
+  },
+  {
+    "S": 0.9849564165070355,
+    "all_candidates_initially_scored": 99,
+    "candidate": 61,
+    "family": "position-CV",
+    "lambda_value": 0.6,
+    "near_candidates": [
+      47,
+      48,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "numerically_unresolved": true,
+    "outer_fold": 2,
+    "particles": 128,
+    "path": "R7"
+  },
+  {
+    "S": 0.9849622299535916,
+    "candidate": 46,
+    "family": "coarse-CV",
+    "lambda_value": 0.2,
+    "outer_fold": 2,
+    "path": "D7"
+  },
+  {
+    "S": 0.9855139685944184,
+    "all_candidates_initially_scored": 99,
+    "candidate": 57,
+    "family": "position-CV",
+    "lambda_value": 0.2,
+    "near_candidates": [
+      55,
+      56,
+      57
+    ],
+    "numerically_unresolved": true,
+    "outer_fold": 3,
+    "particles": 128,
+    "path": "R7"
+  },
+  {
+    "S": 0.9858772499279642,
+    "candidate": 46,
+    "family": "coarse-CV",
+    "lambda_value": 0.2,
+    "outer_fold": 3,
+    "path": "D7"
+  },
+  {
+    "S": 0.9848158204108304,
+    "all_candidates_initially_scored": 99,
+    "candidate": 59,
+    "family": "position-CV",
+    "lambda_value": 0.4,
+    "near_candidates": [
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "numerically_unresolved": true,
+    "outer_fold": 4,
+    "particles": 128,
+    "path": "R7"
+  },
+  {
+    "S": 0.9841032619243922,
+    "candidate": 55,
+    "family": "coarse-CV",
+    "lambda_value": 0.0,
+    "outer_fold": 4,
+    "path": "R7"
+  }
+]

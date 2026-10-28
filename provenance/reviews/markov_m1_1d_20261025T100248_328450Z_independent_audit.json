@@ -1,0 +1,51 @@
+{
+  "run": "markov_m1_1d_20261025T100248_328450Z",
+  "input_run": "markov_input_20261025T095949_830292Z",
+  "completed_UTC": "2026-10-25T10:05:38.624235+00:00",
+  "sealed_files_verified": 426,
+  "operator_checks": [
+    {
+      "fold": 0,
+      "fitting_IDs": 2586,
+      "heldout_IDs": 638,
+      "supported_rows": 2181,
+      "matrix_max_error": 7.771561172376096e-16
+    },
+    {
+      "fold": 1,
+      "fitting_IDs": 2598,
+      "heldout_IDs": 626,
+      "supported_rows": 2183,
+      "matrix_max_error": 7.771561172376096e-16
+    },
+    {
+      "fold": 2,
+      "fitting_IDs": 2541,
+      "heldout_IDs": 683,
+      "supported_rows": 2175,
+      "matrix_max_error": 7.771561172376096e-16
+    },
+    {
+      "fold": 3,
+      "fitting_IDs": 2593,
+      "heldout_IDs": 631,
+      "supported_rows": 2183,
+      "matrix_max_error": 7.771561172376096e-16
+    },
+    {
+      "fold": 4,
+      "fitting_IDs": 2578,
+      "heldout_IDs": 646,
+      "supported_rows": 2185,
+      "matrix_max_error": 6.661338147750939e-16
+    }
+  ],
+  "forecast_distributions_verified": 1460,
+  "score_groups_verified": 87516,
+  "matrix_max_error": 7.771561172376096e-16,
+  "prediction_max_error": 6.938893903907228e-16,
+  "S_max_error": 2.220446049250313e-16,
+  "independent_ECEF_energy_max_error_km": 1.7053025658242404e-12,
+  "scope": "Independent artifact recomputation; reads sealed development count/label outputs, no canonical or final-test tracks",
+  "year_season_grounding_skill_not_verified": true
+}

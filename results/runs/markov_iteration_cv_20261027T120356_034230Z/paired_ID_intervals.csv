@@ -1,0 +1,6 @@
+comparison,delta_S,lower_95,upper_95,scope
+position-CV minus coarse-CV,-0.0001212802955135076,-0.0012128403675757146,0.0012536726908483657,fixed_outer_fits_and_selection; adaptive_development; MC separate
+position-CV minus position-frozen,-8.50949709073233e-05,-0.00023573609910758475,0.00010366786400661344,fixed_outer_fits_and_selection; adaptive_development; MC separate
+position-CV minus coarse-frozen,-0.00011514821144168571,-0.0012246622724559405,0.0012572275624843988,fixed_outer_fits_and_selection; adaptive_development; MC separate
+position-CV minus coarse-at-position-settings,-0.00020968912814695213,-0.0012770494495768767,0.0010003705609927444,fixed_outer_fits_and_selection; adaptive_development; MC separate
+position-at-coarse-settings minus coarse-CV,-1.6015675619590636e-05,-0.0010751477743846424,0.001303499533972264,fixed_outer_fits_and_selection; adaptive_development; MC separate

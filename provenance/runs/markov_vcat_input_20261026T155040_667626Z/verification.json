@@ -1,0 +1,34 @@
+{
+  "D_eligible_pairs_all_kernel_days": 122861229,
+  "D_pair_groups": 24625348,
+  "IDs_read": 3224,
+  "R_eligible_pairs": {
+    "30": 268998,
+    "7": 303288
+  },
+  "all_source_keys_and_parent_counts_identical": true,
+  "canonical_changed": false,
+  "canonical_tracks_read": 3224,
+  "denied_operations": [],
+  "elapsed_seconds": 422.68262704100925,
+  "environment": {
+    "geos": "3.14.1",
+    "numeric_workers": 1,
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "pyarrow": "26.0.0",
+      "pyproj": "3.7.2",
+      "scipy": "1.16.3",
+      "shapely": "2.2.0"
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "proj": "9.5.1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "final_test_trajectories_read": 0,
+  "max_rss_bytes": 1570865152,
+  "pilot": false,
+  "retained_rows": 33935812,
+  "unique_cache_cutpoints": 26
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "canonical_development_ID_checksums_verified": 3224,
+  "all_native_velocity_values_finite": true,
+  "qualified_D_zero_vectors": 232,
+  "native_source_examples_reproduced": 90,
+  "thresholds_recomputed": 26,
+  "maximum_threshold_difference": 0.0,
+  "parent_source_reason_digests_identical": true,
+  "final_test_trajectories_read": 0,
+  "canonical_changed": false,
+  "elapsed_seconds": 36.084801249962766
+}

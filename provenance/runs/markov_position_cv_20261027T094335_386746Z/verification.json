@@ -1,0 +1,31 @@
+{
+  "all_parent_R_cases_matched": true,
+  "benchmark": false,
+  "canonical_changed": false,
+  "canonical_rows_recleaned": 0,
+  "canonical_tracks_read": 0,
+  "denied_operations": [],
+  "elapsed_seconds": 2127.159331166011,
+  "environment": {
+    "geos": "3.14.1",
+    "numeric_workers": 1,
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "pyarrow": "26.0.0",
+      "pyproj": "3.7.2",
+      "scipy": "1.16.3",
+      "shapely": "2.2.0"
+    },
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "proj": "9.5.1",
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+  },
+  "final_test_trajectories_read": 0,
+  "frozen_parameter_comparison": true,
+  "independent_repeats": 2,
+  "max_rss_bytes": 7972651008,
+  "outer_folds": 5,
+  "particles_per_repeat": 32,
+  "source_input_run": "markov_position_input_20261027T093543_211496Z"
+}

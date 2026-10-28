@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/markov_diagnosis_20261025T114721_490747Z/run.json": "bba72f7b441b4da09264ade8b0619dff656e7d13e73b17f23a4c678fe3b703d9",
+    "provenance/runs/markov_diagnosis_20261025T114721_490747Z/verification.json": "cf86d011cd90603f2447f0b96da9f9b7c14bb071aab1955fd26827b9017c59e2",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/bias_by_horizon.svg": "59d3b7a60d89d02115f46756e34056dcd506dc43d81f10c5169400a17d9a7ce2",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/bias_summary.csv": "752d63dc27cb0f37e549f3280770d368335755b1b59ae5d7d15b1b1ff60ca2c9",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/controlled_discrepancies.csv": "828796b02a89bfb41c3fa4eb612207078693546df4c72c11ac2c91b70209fd2b",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/controlled_scores.parquet": "1bb51fcaa923f1c11e6a3db53747fa29d49ea2603c84584959e4010a053bd714",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/controlled_summary.csv": "a46299aba2969d9d623662dc5d25f14cabe4c62755266324dc39525b7b448a66",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/distribution_diagnostics.csv": "0a1134d636b29d2ff8da2b5044915673251301902906fbebe80d36c40de7e070",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/forecasts.parquet": "e25480a8a0ed571c701dc6becaa4a0cb83bd3a9fdc5dde87731dac4140bff077",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/scores.parquet": "a514d9002cd5841ca480745814b8d99c9e22d3741843e7fb70783403ffd6e5d5",
+    "results/runs/markov_diagnosis_20261025T114721_490747Z/summary.csv": "248d98bcb872a8be14214acedd775c3d3782c5bc4daff25d49a2ad19541fa98e"
+  }
+}

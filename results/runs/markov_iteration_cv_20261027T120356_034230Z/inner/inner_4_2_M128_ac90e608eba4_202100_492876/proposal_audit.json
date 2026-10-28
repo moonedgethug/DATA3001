@@ -1,0 +1,25 @@
+{
+  "engineering_profile_not_CV": false,
+  "proposal_step_counts_not_target_traffic": {
+    "active": 200892835,
+    "endpoint_geometry_U": 219313,
+    "path_certified": 188685745,
+    "path_scanned": 12115489,
+    "row_backoff": 705,
+    "source_exit": 0,
+    "survivor": 200801234,
+    "translated_exit": 2756,
+    "unsupported_cell": 91601
+  },
+  "query_independence": "different paths/layouts have separate keyed RNG streams",
+  "stratum_allocations": {
+    "R7": [
+      128,
+      53,
+      40,
+      40,
+      20,
+      4
+    ]
+  }
+}

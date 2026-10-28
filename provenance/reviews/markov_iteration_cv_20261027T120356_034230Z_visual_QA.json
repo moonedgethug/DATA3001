@@ -1,0 +1,22 @@
+{
+  "run": "markov_iteration_cv_20261027T120356_034230Z",
+  "SVG_sha256": "facdf91dc18e693fc18c36bfd17a56b826c977755d788ee915b034579ccaee92",
+  "PNG_sha256": "51860fae174ea78a4abcf891ded70f65c467a16dae7c70c3e34fd6ccd34850a2",
+  "render_dimensions": [
+    1800,
+    1200
+  ],
+  "cohort_pairs": 1053,
+  "cohort_IDs": 38,
+  "panel_probability_sums_checked": true,
+  "common_probability_scale_checked": true,
+  "rendered_image_visually_inspected": true,
+  "no_clipping_or_overlap_observed": true,
+  "HTML_local_resource_links_checked": [
+    "REPORT.md",
+    "selected_parameters.json",
+    "probability_30d.svg"
+  ],
+  "HTML_browser_render_checked": false,
+  "notes": "Static scientific figure inspected; no narrow-browser or interactive application claim."
+}

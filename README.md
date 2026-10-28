@@ -1,21 +1,21 @@
 # DATA3001 — Where Things End Up
 
-**Status: baseline model Completed. Next stage: Markov transport modelling.**
+**Status: Markov Transition Model Completed. Next stage: continuous-state model design.**
 
-We estimate where a drifting object may be found after release in the southern Gulf Stream Corridor. The current product is a **1° historical drifter endpoint probability distribution at 7 or 30 days**, with development cross-validation. The research goal is a reusable transport model producing distributions at integer days **1–365**, followed by seasonal analysis, finer grids and a separately validated grounding capability.
+We estimate where a drifting object may be found after release in the southern Gulf Stream Corridor. The implemented models produce **1° destination-cell probability distributions at 7 or 30 days**, with whole-drifter development cross-validation. The Markov experiments model a stopped-domain process, including first exit from D. Exact-position variants additionally use the known release coordinates and initial velocity category. The research goal remains distributions at integer days **1–365**, seasonal analysis, finer grids and a separately validated grounding capability.
 
-The baseline comparison stage is complete. This does not establish annual, seasonal, precise-point, new-region or object-specific accuracy. The [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) remains the scientific source of truth; this README summarises implementation and progress.
+The milestone closes the implemented discrete/empirical Markov stage; it does not mean every exploratory extension completed. **The final neighbour-displacement extension was stopped by the project lead after one of five outer folds**, with its checkpoints and partial results retained. Continuous-state modelling has not started. Annual, seasonal, new-region, operational or object-specific accuracy is unestablished. The [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) remains the scientific source of truth; this README summarises implementation and progress.
 
 ## Research question and scope
 
-Given a release cell in **R** and a future time, what probability belongs to each destination cell, and how much probability lies outside the supported transport domain?
+Given a release location in **R**, available initial-state information and a future time, what probability belongs to each destination cell, and how much is assigned to domain exit or remains unresolved?
 
-- **Release region R:** the frozen southern Gulf Stream Corridor polygon, clipped to `[-82, 30, -73, 35.5]` in longitude/latitude. The GeoJSON polygon, rather than this rectangular envelope, determines membership.
+- **Release region R:** the frozen southern Gulf Stream Corridor polygon, whose actual bounds are `[-81, 30, -73, 35.5]` in longitude/latitude. The GeoJSON polygon, rather than this rectangular envelope, determines membership.
 - **Transport domain D:** the frozen rectangle `20–55°N, 81–8°W`. D contains the model's transport states and is larger than the release region.
 - **Current resolution and horizons:** aligned 1° cells; exact 7/30-day endpoint matching; every eligible hourly origin–endpoint pair has equal weight.
 - **Applications motivating the work:** search planning and surface-material transport near the US East Coast, Florida–Bahamas and the northern Gulf. Drifter observations alone do not validate oil, container or life-raft forecasts. Object-specific behaviour requires additional evidence.
 
-The baseline conditions on the release **cell**, with its empirical within-cell origin distribution. It is not a forecast conditioned on an exact coordinate, departure weather or an individual object's properties. Regional expansion requires a separate support and validation audit.
+The direct baseline conditions on the release **cell**, with its empirical within-cell origin distribution. Markov refinements retain velocity categories and, later, exact coordinates during propagation. They still select historical donor movements using cells/categories; they do not learn a continuous response function of velocity or departure weather. Regional expansion requires a separate support and validation audit.
 
 ## Data and research boundaries
 
@@ -95,6 +95,36 @@ The table below shows **outer held-out failure-penalised Brier**, using Analytic
 
 The baseline comparison stage is complete **with these limitations recorded**. The final model family has not been selected using final-test outcomes.
 
+## Markov experiments: completed results and stopped extension
+
+All Markov experiments here are annual-pooled and drogue-pooled. Operators use qualified origins throughout **D**; primary forecasts start in **R**. Entire held-out IDs are excluded from fitting across both regions. Every eligible hourly pair retains equal weight. The final test remains locked.
+
+| Stage | Method and status | Evidence |
+|---|---|---|
+| M1 fixed 1-day prototype | Cell transition frequencies, iterated to 7/30 days; completed | [Report and maps](results/runs/markov_m1_1d_20261025T100248_328450Z/REPORT.md) |
+| M1 diagnosis and lag selection | Diagnose propagation error; independently select lag from 1/3/5/7 days with exact remainder handling; completed | [Lag-CV report](results/runs/markov_lag_cv_20261025T114838_137131Z/REPORT.md) |
+| M1vcat | Joint cell/velocity-category transitions, with CV-selected velocity pooling; completed | [Report and maps](results/runs/markov_vcat_cv_20261026T155955_651594Z/REPORT.md) |
+| Exact-position refinement | Transfer observed geodesic displacements to each particle's exact location, retaining destination velocity category; completed at frozen parent settings | [Report and maps](results/runs/markov_position_cv_20261027T094335_386746Z/REPORT.md) |
+| 30-day schedule/weight comparison | Independently tune coarse and exact-position models over nine schedules and eleven weights; completed | [Report, parameters and map](results/runs/markov_iteration_cv_20261027T120356_034230Z/REPORT.md) |
+| Eight-neighbour displacement extension | Joint spatial/velocity weights and schedules; **stopped incomplete**, one outer fold and 40 inner checkpoints retained locally | [Partial report](results/deliverables/markov_neighbour_progress/REPORT.md), [stop receipt](provenance/runs/markov_neighbour_cv_20261028T105824_991491Z/STOPPED_BY_USER.json) |
+
+### Mathematical and evaluation boundaries
+
+The cell model estimates `P_d(i,j) = N_d(i,j) / sum_j N_d(i,j)` and composes short-step operators. M1vcat augments each cell with nine velocity labels: one exact-zero label and four direction quadrants split by a fitting-only positive-speed median. Its local joint law is mixed with a source-cell law pooled over velocities, using `K = (1 − lambda) L + lambda B`. Future held-out velocities and positions are never supplied to propagation.
+
+Exact-position variants carry WGS84 coordinates between steps and apply sampled donor displacements at the current coordinate. They still output cell probabilities. **E** is first observed-hour exit from D and is absorbing, including subsequent re-entry. **U** is unsupported or invalid synthetic transport and is also absorbing. U is not a confirmed grounding label; neither state is silently removed or renormalised away. These stopped predictions differ from endpoint occupancy, so the original baseline results above must not be compared across targets without matching labels and cases.
+
+Primary selection uses the unchanged augmented-state Brier/S. The auxiliary linear-plus-quadratic reference is Energy/100 km plus squared mean error/10,000 km² on its declared evaluable subset; it is not a replacement selection loss. Particle versions separately record issued-ensemble scores and numerical bias-corrected integration estimates. Coverage, region size, availability, independent-ID support and Monte Carlo uncertainty must be interpreted together.
+
+### What the evidence supports
+
+- **Categorical velocity improved S in the completed matched-case comparison:** M1 versus M1vcat-selected is 0.927354 versus 0.921873 at 7 days and 0.985785 versus 0.985249 at 30 days. The reported fixed-fit paired-ID intervals favour M1vcat, but its nominal-90% regions also grew. This is not a claim of tighter forecasts or independent final-test validity.
+- **Exact positions helped the 7-day score at frozen settings; the 30-day gain remained uncertain.** The respective primary population sizes are 303,288 origins / 385 IDs and 268,998 origins / 337 IDs. Particle repeat counts do not increase these sample sizes.
+- **Retuning 30-day schedules did not establish a reliable additional exact-position benefit.** Independently selected exact-position S is 0.985134 versus coarse S 0.985255; their paired-ID difference interval crosses zero. Numerical near-ties remain recorded rather than presented as unique optima.
+- **The neighbour experiment is partial evidence only.** In its completed fold, the 7-day selection chose no borrowing; the selected 30-day neighbour procedure scored slightly worse. Remaining folds were intentionally stopped before completion. This cannot establish a general failure of neighbour borrowing or the Markov assumption.
+
+These are adaptive development experiments: earlier results informed later research choices. The completed empirical models remain comparison controls for the next continuous-state stage. Seasonal, 365-day, grounding and general-object performance have not been validated.
+
 ## Project architecture
 
 ```text
@@ -112,7 +142,7 @@ tests/             scientific fixtures and architecture boundary checks
 archive/           historical assets and retained local recovery material
 ```
 
-The team download contains the approximately 3.75 GB canonical data release, selected complete scientific runs, and the unchanged high/intermediate land masks required by their code. Raw source caches, full cleaning backups, interrupted runs and private execution logs remain local. Published experiment receipts preserve exact output bytes and source/input hashes; new runs receive new IDs.
+The team download contains the approximately 3.75 GB canonical data release, selected complete baseline and Markov result runs, and the unchanged high/intermediate land masks required by their code. This milestone adds approximately 596 MB of selected Markov run files and receipts. Multi-gigabyte exact-position/geometry caches, full cleaning backups, incomplete neighbour computation checkpoints and private runtime logs remain local. The neighbour partial report and stop receipt are published. Published receipts preserve exact output bytes and historical source/input hashes; new runs receive new IDs. See the [Markov publication guide](docs/markov_results.md) for what is included and what a fresh checkout must rebuild.
 
 | Implemented module | Responsibility |
 |---|---|
@@ -122,6 +152,10 @@ The team download contains the approximately 3.75 GB canonical data release, sel
 | `run_neighbourhood.py` | Verified coordinate preparation and guarded pooled/scenario model runs |
 | `neighbourhood_report.py` | Independent reconstruction of saved fits, scores, selections and report tables |
 | `showcase.py`, `report.py` | Existing global-blend presentation export and plotting; not a new U/A/state visualisation |
+| `markov.py`, `markov_inputs.py`, `markov_scoring.py` | Stopped-domain operators, matching input qualification and primary/spatial scoring |
+| `markov_diagnostics.py`, `markov_velocity*.py` | Propagation diagnostics, lag selection and velocity-category comparisons |
+| `markov_position*.py`, `markov_iteration*.py` | Exact-coordinate displacement propagation, same-case checks and joint schedule/weight selection |
+| `markov_neighbour*.py`, `_neighbour_scoring.cpp` | Stopped exploratory neighbour experiment; source retained, full CV incomplete |
 
 The module paths above are under `src/data3001/modelling/`. The [asset catalog](configs/assets.json) resolves data and geometry locations; the [architecture guide](docs/architecture.md) explains repository conventions. The [current modelling guide](docs/modelling_round1_plan.md) records experiment definitions, results, caveats and the next-stage entry.
 
@@ -131,18 +165,19 @@ The module paths above are under `src/data3001/modelling/`. The [asset catalog](
 |---|---|---|
 | Data audit and preparation | Completed release; documented unknowns remain | Canonical files, official-state evidence, frozen geometry and source-keyed labels |
 | Direct endpoint baseline | Completed and audited | B0–B2, Global/U/A, Grid/Analytic weights, pooled and two fixed-state comparisons |
-| Short-lag Markov M1 | Next stage; not fitted | Freeze state space, lag, boundaries and comparable target; fit a transport operator and evaluate propagation |
+| Empirical Markov M1 and refinements | Completed core comparisons; neighbour extension stopped incomplete | Saved operators, reports, matched-case scores, maps and audit evidence |
+| Continuous-state transition modelling | Next stage; design not yet frozen | Define joint position/velocity output, model family, objective and bounded computational budget |
 | Seasonal operators M2/M3 | Planned | Calendar-aware propagation, seasonal support audit and reviewed regularisation |
 | 1–365-day distributions and 0.5° refinement | Planned | Long-horizon validation, exact-duration handling, resolution/support comparison |
 | Grounding and object-specific extensions | Planned | Separate defensible labels and validation; future hardware/object information is not an origin-time predictor |
 
-### Markov stage entry
+### Next-stage boundary
 
-A Markov model learns a **short-lag transition**, `P_tau(i,j) = N_tau(i,j) / sum_j N_tau(i,j)`, then propagates a probability vector through repeated steps. It is not obtained by repeatedly looking up the completed 7/30-day endpoint baselines.
+The next planned comparison will learn how transition distributions depend on continuous position and velocity. A continuous-state model can retain the Markov assumption; it need not use a finite lookup table. No specific continuous model, new feature or new training objective is approved by this publication alone.
 
-The next definition review must settle lag candidates, unsupported rows and state handling before fitting. The existing roadmap lists 1, 3, 5 and 7 days as candidates, not selected winners. Kernel fitting needs qualified **D-origin pairs across fitting IDs**, including drifters that never visited R; release demonstrations and primary release evaluation remain in R.
+Before fitting, agree on the joint next-position/next-velocity distribution, D-exit handling, training objective, held-ID comparisons and a practical compute budget. Retain the completed empirical models as controls. Code and experiment definitions must continue to distinguish a single-step fit from long-horizon predictive validation.
 
-Under the contract, the first finite-D prototype is a **stopped-domain process**: first observed exit is absorbing. Endpoint occupancy, which allows exit followed by return, remains a different target. We must generate matching stopped-target baselines before comparing their scores with this prototype. Unknown disappearance is neither exit nor grounding. The transition to the eventual endpoint product, seasonal operators and 365-day outputs requires explicit support and validation rather than an assumed successful iteration.
+Under the contract, the implemented finite-D prototype is a **stopped-domain process**. Endpoint occupancy, which allows exit followed by return, remains a different target. Unknown disappearance is neither exit nor grounding. The transition to the eventual endpoint product, seasonal operators and 365-day outputs requires explicit support and validation rather than assumed successful iteration.
 
 ## Read, reproduce and contribute
 
@@ -150,6 +185,7 @@ Start with [team download/setup](docs/getting_started.md), then the [contract](d
 
 | Need | Published entry |
 |---|---|
+| Markov milestone, result index and reproducibility limits | [Markov publication guide](docs/markov_results.md) |
 | Latest pooled U/A comparison and audit | [Pooled neighbourhood report](results/runs/baseline_neighbour_cv_20261024T065917_879042Z/REPORT.md) |
 | Latest two-state comparison and matched pooled evidence | [Fixed-regime combined report](results/runs/baseline_regime_comparison_20261024T085357_553047Z/REPORT.md) |
 | Detailed fixed-state fits, scores and diagnostics | [Drogued report](results/runs/baseline_drogued_cv_20261024T080519_204788Z/REPORT.md), [undrogued report](results/runs/baseline_undrogued_cv_20261024T083230_432963Z/REPORT.md) |
@@ -165,7 +201,7 @@ After preparing Python 3.12.14 and pinned dependencies, run the development-safe
 .venv/bin/python -B -m unittest discover -s tests -p 'test_architecture.py' -v
 ```
 
-The audited baseline code passes 67 modelling and 10 architecture tests. These tests and artifact audits verify implementation and reproducibility, not annual or operational predictive validity.
+The current publication test counts are recorded in [the test receipt](provenance/reviews/markov_publication_20261028_tests.json). The optional neighbour native scorer must be compiled locally before its numerical tests; see the Markov publication guide. These tests and artifact audits verify implementation and reproducibility, not annual or operational predictive validity.
 
 Re-fit the approved comparisons from the published, sealed inputs:
 

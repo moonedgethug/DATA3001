@@ -1,0 +1,152 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>30-day iteration CV</title><style>body{font:16px system-ui;max-width:1300px;margin:30px auto;padding:16px;color:#182a3a}table{border-collapse:collapse}th,td{padding:8px;border:1px solid #ccd5dc}img{width:100%}p{line-height:1.6}</style><h1>30-day schedule/lambda CV</h1><p>Both representations independently optimised; lower S is better. Adaptive development evidence, not final test.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>eligible_pairs</th>
+      <th>independent_ids</th>
+      <th>S</th>
+      <th>mean_U_pct</th>
+      <th>mean_E_pct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B2-reference</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.994751</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>coarse-CV</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985255</td>
+      <td>1.46699e-06</td>
+      <td>1.11126e-10</td>
+    </tr>
+    <tr>
+      <td>coarse-at-position-settings</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985344</td>
+      <td>1.68513e-06</td>
+      <td>1.12735e-10</td>
+    </tr>
+    <tr>
+      <td>coarse-frozen</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985249</td>
+      <td>5.19138e-07</td>
+      <td>4.74254e-11</td>
+    </tr>
+    <tr>
+      <td>position-CV</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985134</td>
+      <td>0.511159</td>
+      <td>0.00670312</td>
+    </tr>
+    <tr>
+      <td>position-at-coarse-settings</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985239</td>
+      <td>0.519982</td>
+      <td>0.00644463</td>
+    </tr>
+    <tr>
+      <td>position-frozen</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.985219</td>
+      <td>0.527484</td>
+      <td>0.00641559</td>
+    </tr>
+  </tbody>
+</table><h2>Paired ID comparisons</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>comparison</th>
+      <th>delta_S</th>
+      <th>lower_95</th>
+      <th>upper_95</th>
+      <th>scope</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>position-CV minus coarse-CV</td>
+      <td>-0.00012128</td>
+      <td>-0.00121284</td>
+      <td>0.00125367</td>
+      <td>fixed_outer_fits_and_selection; adaptive_development; MC separate</td>
+    </tr>
+    <tr>
+      <td>position-CV minus position-frozen</td>
+      <td>-8.5095e-05</td>
+      <td>-0.000235736</td>
+      <td>0.000103668</td>
+      <td>fixed_outer_fits_and_selection; adaptive_development; MC separate</td>
+    </tr>
+    <tr>
+      <td>position-CV minus coarse-frozen</td>
+      <td>-0.000115148</td>
+      <td>-0.00122466</td>
+      <td>0.00125723</td>
+      <td>fixed_outer_fits_and_selection; adaptive_development; MC separate</td>
+    </tr>
+    <tr>
+      <td>position-CV minus coarse-at-position-settings</td>
+      <td>-0.000209689</td>
+      <td>-0.00127705</td>
+      <td>0.00100037</td>
+      <td>fixed_outer_fits_and_selection; adaptive_development; MC separate</td>
+    </tr>
+    <tr>
+      <td>position-at-coarse-settings minus coarse-CV</td>
+      <td>-1.60157e-05</td>
+      <td>-0.00107515</td>
+      <td>0.0013035</td>
+      <td>fixed_outer_fits_and_selection; adaptive_development; MC separate</td>
+    </tr>
+  </tbody>
+</table><h2>Numerical uncertainty</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>comparison</th>
+      <th>delta_S</th>
+      <th>MC_SE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>position-CV minus coarse-CV</td>
+      <td>-0.00012128</td>
+      <td>4.19185e-05</td>
+    </tr>
+    <tr>
+      <td>position-CV minus coarse-at-position-settings</td>
+      <td>-0.000209689</td>
+      <td>4.19185e-05</td>
+    </tr>
+    <tr>
+      <td>position-CV minus coarse-frozen</td>
+      <td>-0.000115148</td>
+      <td>4.19185e-05</td>
+    </tr>
+    <tr>
+      <td>position-CV minus position-frozen</td>
+      <td>-8.5095e-05</td>
+      <td>5.88964e-05</td>
+    </tr>
+    <tr>
+      <td>position-at-coarse-settings minus coarse-CV</td>
+      <td>-1.60157e-05</td>
+      <td>4.19277e-05</td>
+    </tr>
+  </tbody>
+</table><p><a href="REPORT.md">Full method, choices and limitations</a> · <a href="selected_parameters.json">Fold choices</a></p><img src="probability_30d.svg" alt="Common-cohort probability maps"></html>

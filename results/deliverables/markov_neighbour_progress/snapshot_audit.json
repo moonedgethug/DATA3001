@@ -1,0 +1,52 @@
+{
+  "scope": "one completed outer fold only; not full experiment audit",
+  "run": "markov_neighbour_cv_20261028T105824_991491Z",
+  "outer_fold": 0,
+  "forecast_score_rows_recomputed": 606348,
+  "checkpoint_hashes_verified": 20,
+  "bound_hashes_verified": 115,
+  "canonical_modified": false,
+  "final_test_trajectories_read": 0,
+  "source_files": {
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_cases.parquet": "5cbe337d1fd9d8135f6f52ed5d40f3cd377f807e7ba504fc6453cd2d8918936c",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_draw_mapping.json": "6f0937b1098d73de4603704b0c0fc2977ddb3091eae4273a8681f61f38dba0d0",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_fitting_support.csv": "4ef92a7512a20e8772fd28a7e4a799c8edcfb904da3aa34b2e5c938bc8ecb2c3",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_neighbour-CV_repeat0_draws.npy": "1ba7795baaa8470e42eb4444dc61dc634fcf0d4a9fb2efec4ebb00c8238748d9",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_neighbour-CV_repeat1_draws.npy": "88fadf5e2cd3f99371292593b541639a54a7519ad1a203166150b01be18f5e8f",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_self-CV_repeat0_draws.npy": "ae3208e99d7081e73ad4121536c2b03fb7c8c7887e1bd3a8058898c254002471",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_self-CV_repeat1_draws.npy": "75ca333984ce15894bf957b60c4026b59064c99639baaa75d8c335efd64b6cea",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_self-at-neighbour_repeat0_draws.npy": "6e4122a3288ba85d10da6e049196fd8cc189f8473eb7e25276fd21e240607475",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_self-at-neighbour_repeat1_draws.npy": "773bfba6a88c31a6af9a8106f93e72f161a04dba19a7c1b5bec07d51656b53ee",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H30_step_causes.csv": "0473b55d927ebb3f214d7d2fd1878c180434b247950915334cd90a2a479e7b59",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_cases.parquet": "4731dce4acd5114135f6084a18ebb41675a31ad813a2384403360ca44762d27b",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_draw_mapping.json": "4f43fb43fc3efc484bd48d21dce167e8fdb0f5118a4c6fe516711a82da96d973",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_fitting_support.csv": "3453b30b421a0c5dfde46e4eac14c1cbc69539cd1f2440d10a2c3215454decfa",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_self-CV_repeat0_draws.npy": "27177ac3b076f64e29ec725e8cd9caf882d40ff4c2e9fe6a611849e9cb3313db",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_self-CV_repeat1_draws.npy": "627cd77fadec41ddb87abc6991d01b707f3e0c0a0bbd70e09b44aa938367743b",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/H7_step_causes.csv": "bddd1540f4251d65920f54c4626ad30558cf9644cd21d2512c07e8bd6c5d60f8",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/ID_scores.csv": "84c1b45724861a2debbae3f3b9eeeca50c71d54895bd6230550f15ead3a99af0",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/MC.csv": "0c1951623d621911860636756f092df696e414c68a2a5540f705a7c0eb4a0d3e",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/locked_choices.json": "8e3e19eaf9b857d782bc4caf4452f854e48114d292ea0876116c73eb119e5db9",
+    "results/runs/markov_neighbour_cv_20261028T105824_991491Z/checkpoints/outer_0/scores.parquet": "3fd869ffefa2dcaa54cbe680c16fe3cb554dcd131a070ce54a92c95ef172db38"
+  },
+  "display_files": {
+    "summary_outer_fold_1.csv": "b0b6d192cacae4873b7a3dd06b45fe036ce0f3b5b8c279f5b27e7690cd1f2658",
+    "REPORT.md": "db5974a712c5c270a442ce41c9481942060f2b11200cfbd5e6eac7d652fdea44",
+    "display_data.json": "8af4dda6ecb8f4c7e31d436373d6a1c547289b88526e18acd878154dd40e0921",
+    "common_available_region_sizes.csv": "3dd5b74c57cdcc30bb3d6464adc92b286b7bac295187bd87638a6aafcbeddfb9"
+  },
+  "visual_QA": {
+    "coastline_rendered": true,
+    "summary_values_visible": true,
+    "horizon_switch_30_to_7_verified": true,
+    "same_probability_scale_all_maps": true,
+    "view_scope": "provisional outer fold 1; all other folds pending",
+    "release_cell_switch_verified": true
+  },
+  "inline_visualization": {
+    "path": "/Users/moonedgethug/.codex/visualizations/2026/09/14/01a09d9c-2168-7d51-8b63-87eb559bf139/markov-neighbour-progress.html",
+    "sha256": "f2f487155c6089f1b0ddcb3e4f0d65891ebebe74f024f99aa708b307b46b8db8",
+    "bytes": 994454
+  },
+  "experiment_status": "STOPPED_BY_USER; partial fold evidence retained"
+}

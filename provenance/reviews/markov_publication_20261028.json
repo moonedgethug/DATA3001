@@ -1,0 +1,84 @@
+{
+  "scope": "completed selected Markov runs; partial neighbour experiment listed separately",
+  "verified_completed_runs": [
+    {
+      "run": "markov_input_20261025T095949_830292Z",
+      "verified_outputs": 404,
+      "publication_bytes": 29116716,
+      "largest_file": "results/runs/markov_input_20261025T095949_830292Z/candidate_reasons.csv",
+      "largest_bytes": 8805669
+    },
+    {
+      "run": "markov_m1_1d_20261025T100248_328450Z",
+      "verified_outputs": 22,
+      "publication_bytes": 9507751,
+      "largest_file": "results/runs/markov_m1_1d_20261025T100248_328450Z/forecasts.parquet",
+      "largest_bytes": 3525769
+    },
+    {
+      "run": "markov_diagnostic_input_20261025T113812_255111Z",
+      "verified_outputs": 802,
+      "publication_bytes": 85535406,
+      "largest_file": "results/runs/markov_diagnostic_input_20261025T113812_255111Z/candidate_reasons.csv",
+      "largest_bytes": 40161834
+    },
+    {
+      "run": "markov_diagnosis_20261025T114721_490747Z",
+      "verified_outputs": 11,
+      "publication_bytes": 10941014,
+      "largest_file": "results/runs/markov_diagnosis_20261025T114721_490747Z/scores.parquet",
+      "largest_bytes": 6098822
+    },
+    {
+      "run": "markov_lag_cv_20261025T114838_137131Z",
+      "verified_outputs": 76,
+      "publication_bytes": 30103315,
+      "largest_file": "results/runs/markov_lag_cv_20261025T114838_137131Z/forecasts.parquet",
+      "largest_bytes": 7993271
+    },
+    {
+      "run": "markov_vcat_input_20261026T155040_667626Z",
+      "verified_outputs": 8,
+      "publication_bytes": 93323855,
+      "largest_file": "results/runs/markov_vcat_input_20261026T155040_667626Z/transition_counts_by_id.parquet",
+      "largest_bytes": 52123673
+    },
+    {
+      "run": "markov_vcat_cv_20261026T155955_651594Z",
+      "verified_outputs": 169,
+      "publication_bytes": 188966343,
+      "largest_file": "results/runs/markov_vcat_cv_20261026T155955_651594Z/scores.parquet",
+      "largest_bytes": 12274216
+    },
+    {
+      "run": "markov_position_cv_20261027T094335_386746Z",
+      "verified_outputs": 37,
+      "publication_bytes": 74755164,
+      "largest_file": "results/runs/markov_position_cv_20261027T094335_386746Z/outer_1_7d_scores.parquet",
+      "largest_bytes": 10876940
+    },
+    {
+      "run": "markov_iteration_cv_20261027T120356_034230Z",
+      "verified_outputs": 530,
+      "publication_bytes": 73961212,
+      "largest_file": "results/runs/markov_iteration_cv_20261027T120356_034230Z/outer_1_scores.parquet",
+      "largest_bytes": 16105005
+    }
+  ],
+  "partial_neighbour_run": "markov_neighbour_cv_20261028T105824_991491Z",
+  "raw_position_and_geometry_caches_included": false,
+  "historical_code_hashes_are_not_claimed_to_match_all_current_files": true,
+  "omitted_cache_provenance_included": [
+    "markov_position_input_20261027T093543_211496Z",
+    "markov_iteration_geometry_20261027T114759_607891Z"
+  ],
+  "excluded_paths": [
+    "results/runs/markov_position_input_20261027T093543_211496Z",
+    "results/runs/markov_iteration_geometry_20261027T114759_607891Z",
+    "provenance/runtime",
+    "results/deliverables/poster",
+    "incomplete neighbour run arrays and checkpoints"
+  ],
+  "partial_neighbour_publication": "summary, display data, snapshot audit, run metadata, recovered evidence and explicit STOPPED_BY_USER receipt; not a completed outputs receipt",
+  "publication_test_receipt": "provenance/reviews/markov_publication_20261028_tests.json"
+}

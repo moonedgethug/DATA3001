@@ -1,0 +1,7 @@
+horizon_days,comparison,delta_S,lower_95,upper_95,scope
+7,exact-position minus coarse-sampler,-0.0075870741618102155,-0.01058078561364041,-0.00470992222327315,conditional_on_fixed_outer_fits; MC not removed
+7,exact-position minus old-exact,-0.007624549138547137,-0.010662944482417608,-0.004723775759650103,conditional_on_fixed_outer_fits; MC not removed
+7,coarse-sampler minus old-exact,-3.7474976736921934e-05,-0.00029453367152404913,0.00017443780471402558,conditional_on_fixed_outer_fits; MC not removed
+30,exact-position minus coarse-sampler,-6.729723856923682e-05,-0.0010914821368961148,0.0012166337857830408,conditional_on_fixed_outer_fits; MC not removed
+30,exact-position minus old-exact,1.9366825077631932e-05,-0.0009951407447197874,0.0013059066737556295,conditional_on_fixed_outer_fits; MC not removed
+30,coarse-sampler minus old-exact,8.666406364686878e-05,-3.0850830943431614e-05,0.0002003532702548907,conditional_on_fixed_outer_fits; MC not removed

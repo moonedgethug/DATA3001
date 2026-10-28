@@ -1,0 +1,184 @@
+{
+  "run": "markov_position_cv_20261027T094335_386746Z",
+  "sealed_files_verified": 37,
+  "score_rows_independently_recomputed": 2861430,
+  "same_all_R_cases_all_variants": true,
+  "max_collision_formula_error": 0.0,
+  "all_ID_S_sums_equal": true,
+  "original_S_exactly_reproduced": true,
+  "fitting_ID_roles_and_frozen_parameters_equal": true,
+  "bootstrap_contrasts": 6,
+  "max_bootstrap_error": 2.2090619264392153e-16,
+  "all_donor_row_support_counts_equal": true,
+  "old_joint_rows_checked": 304,
+  "max_joint_law_error": 2.220446049250313e-16,
+  "cohort_particle_denominators_equal": true,
+  "full_cache": {
+    "all_3224_per_ID_ranges_contiguous": true,
+    "all_parent_target_digests_equal": true,
+    "cache_rows": 33935812,
+    "eligible_R_counts": {
+      "7": 303288,
+      "30": 268998
+    },
+    "cache_dtype_ID": "int64",
+    "cache_bytes": 2375506840
+  },
+  "native_value_check": {
+    "independently_compared_source_IDs": [
+      2578,
+      36659,
+      81910,
+      300234065317640,
+      300534067902500
+    ],
+    "independently_compared_native_rows": 63061,
+    "native_position_velocity_source_keys_exact": true,
+    "source_reader_test_access": false
+  },
+  "independent_path_check": {
+    "independent_hourly_transferred_path_cases": 199,
+    "certified": 193,
+    "scanned": 6,
+    "exits": 0,
+    "all_equal_to_brute_hourly_WGS84": true,
+    "boundary_challenge_cases": 200,
+    "boundary_scanned": 200,
+    "boundary_exits": 145,
+    "boundary_equal_to_brute_hourly_WGS84": true
+  },
+  "unique_RNG_streams": {
+    "7": {
+      "independent_batch_repeat_streams": 5140,
+      "unique_seeds": 5140
+    },
+    "30": {
+      "independent_batch_repeat_streams": 4566,
+      "unique_seeds": 4566
+    }
+  },
+  "Monte_Carlo_casewise": [
+    {
+      "horizon_days": 7,
+      "completed_folds": 5,
+      "comparison": "exact-position minus old-exact",
+      "pairs": 303288,
+      "delta_S": -0.007624549138547143,
+      "MC_SE_casewise": 0.00012089061587031195,
+      "MC_only_lower_95": -0.007861494745652954,
+      "MC_only_upper_95": -0.0073876035314413314,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    },
+    {
+      "horizon_days": 7,
+      "completed_folds": 5,
+      "comparison": "coarse-sampler minus old-exact",
+      "pairs": 303288,
+      "delta_S": -3.747497673692845e-05,
+      "MC_SE_casewise": 0.00011299210746923037,
+      "MC_only_lower_95": -0.00025893950737661996,
+      "MC_only_upper_95": 0.00018398955390276308,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    },
+    {
+      "horizon_days": 7,
+      "completed_folds": 5,
+      "comparison": "exact-position minus coarse-sampler",
+      "pairs": 303288,
+      "delta_S": -0.007587074161810214,
+      "MC_SE_casewise": 0.00014874063595836398,
+      "MC_only_lower_95": -0.007878605808288607,
+      "MC_only_upper_95": -0.00729554251533182,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    },
+    {
+      "horizon_days": 30,
+      "completed_folds": 5,
+      "comparison": "exact-position minus old-exact",
+      "pairs": 268998,
+      "delta_S": 1.9366825077756477e-05,
+      "MC_SE_casewise": 5.953158164886306e-05,
+      "MC_only_lower_95": -9.731507495401512e-05,
+      "MC_only_upper_95": 0.00013604872510952808,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    },
+    {
+      "horizon_days": 30,
+      "completed_folds": 5,
+      "comparison": "coarse-sampler minus old-exact",
+      "pairs": 268998,
+      "delta_S": 8.66640636469855e-05,
+      "MC_SE_casewise": 5.776622289383688e-05,
+      "MC_only_lower_95": -2.6557733224934785e-05,
+      "MC_only_upper_95": 0.0001998858605189058,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    },
+    {
+      "horizon_days": 30,
+      "completed_folds": 5,
+      "comparison": "exact-position minus coarse-sampler",
+      "pairs": 268998,
+      "delta_S": -6.729723856922902e-05,
+      "MC_SE_casewise": 8.083547036242999e-05,
+      "MC_only_lower_95": -0.0002257347604795918,
+      "MC_only_upper_95": 9.114028334113377e-05,
+      "formula": "sqrt(sum_i((delta_i_repeat0-delta_i_repeat1)^2))/(2*N)",
+      "scope": "fixed fits and observations; assumes independent query RNG streams; approximate MC-only interval; not data-generalization uncertainty"
+    }
+  ],
+  "source_cache_sealed_files_verified": 9,
+  "code_review": {
+    "reviewer": "/root/position_refinement_review",
+    "critical": 0,
+    "important_regraded_confirmed_and_resolved": [
+      {
+        "issue": "All-NA original diagnostics incorrectly became zero",
+        "resolution": "Observed RED; min_count repair GREEN"
+      },
+      {
+        "issue": "Missing independent old-operator multi-step closure",
+        "resolution": "Actual old operator, remainder, fallback, E/U fixture and Monte Carlo match GREEN"
+      }
+    ],
+    "integration_resolution": "32/64/128 CLI levels supported without retuning; initial comparison32x2; no30d superiority claim",
+    "resource_profile": "Full CV2127.16s, peak RSS7972651008bytes"
+  },
+  "tests": {
+    "modelling": 139,
+    "architecture": 10,
+    "synthetic_preparation": 22,
+    "all_passed": true
+  },
+  "visual_QA": {
+    "SVGs_rendered_and_inspected": [
+      7,
+      30
+    ],
+    "pixels": [
+      1200,
+      800
+    ],
+    "shared_scale_matched_cohort": true,
+    "observed_pairs_IDs": {
+      "7": [
+        1138,
+        43
+      ],
+      "30": [
+        1053,
+        38
+      ]
+    }
+  },
+  "interpretation": {
+    "7d": "S improves in all five old outer folds; fixed-fit paired-ID interval excludes zero",
+    "30d": "Near tie; three folds worse, two better; paired-ID and MC-only intervals include zero. No gain or equivalence established.",
+    "integration_ruling": "No higher-particle skill claim is needed:7d effect is numerically resolved;30d data-level uncertainty spans zero by much more than MC uncertainty. Initial-level tie remains inconclusive, not convergence or equivalence.",
+    "spatial_ruling": "Issued32-particle regions are not limiting-law calibration or sharpness evidence. Retain formal spatial NA."
+  }
+}

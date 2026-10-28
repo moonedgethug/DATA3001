@@ -7,7 +7,7 @@ name = "data3001-transport"
 version = "0.1.0"
 description = "Contract-bound historical GDP surface-transport research"
 requires-python = ">=3.12,<3.13"
-dependencies = ["numpy", "pandas", "pyarrow", "zarr<3", "shapely", "pyproj", "pyshp", "duckdb", "requests"]
+dependencies = ["numpy", "pandas", "pyarrow", "scipy", "zarr<3", "shapely", "pyproj", "pyshp", "duckdb", "requests"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

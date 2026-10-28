@@ -1,0 +1,12 @@
+{
+  "staged_files": 2168,
+  "sealed_output_blobs_verified_in_git_index": 2059,
+  "largest_staged_file": "results/runs/markov_vcat_input_20261026T155040_667626Z/transition_counts_by_id.parquet",
+  "largest_staged_bytes": 52123673,
+  "staged_bytes": 602629829,
+  "published_entry_links_verified": true,
+  "canonical_data_changed": false,
+  "runtime_logs_published": false,
+  "credential_pattern_matches": 0,
+  "final_test_trajectories_read": false
+}

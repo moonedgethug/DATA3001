@@ -6,6 +6,11 @@ files in `data/test/`**. The current v7 release has 3,741 IDs, 39,099,193 hourly
 records and 62 columns per ID. The data files total approximately 3.75 GB.
 The published files preserve the exact checksums in `configs/dataset_manifest.json`.
 
+The completed Markov comparisons, reports and probability maps are indexed in
+[the Markov publication guide](markov_results.md). It also distinguishes the
+stopped neighbour experiment from completed results and lists caches that must
+be rebuilt for a full rerun. Reading those results does not require training.
+
 ## Get the files
 
 Use your own GitHub account with access to the private repository.

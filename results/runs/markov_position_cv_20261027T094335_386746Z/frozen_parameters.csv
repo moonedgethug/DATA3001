@@ -1,0 +1,11 @@
+outer_fold,model,horizon_days,lag_days,lambda_value
+0,M1vcat-selected,7,3,0.1
+0,M1vcat-selected,30,7,0.2
+1,M1vcat-selected,7,3,0.2
+1,M1vcat-selected,30,5,0.3
+2,M1vcat-selected,7,5,0.3
+2,M1vcat-selected,30,7,0.2
+3,M1vcat-selected,7,3,0.2
+3,M1vcat-selected,30,7,0.2
+4,M1vcat-selected,7,3,0.2
+4,M1vcat-selected,30,7,0.2
