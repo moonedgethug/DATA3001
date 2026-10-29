@@ -1,0 +1,25 @@
+{
+  "tests": {
+    "passed": 219,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "scope": "existing modelling, continuous diagnostics, architecture and five new layout checks; actual final-test directory denied"
+  },
+  "same_definition_AST_after_import_and_module_path_normalisation": 350,
+  "reviewed_resource_only_change": [
+    "showcase._document"
+  ],
+  "legacy_alias_modules_checked": 53,
+  "source_snapshot_hashes_verified": true,
+  "sealed_output_entries_reverified": 943,
+  "contract_unchanged": true,
+  "package_discovery_verified": true,
+  "scientific_experiments_run": false,
+  "canonical_data_accessed": false,
+  "notes": [
+    "AST comparison checks definitions, not predictive validity.",
+    "The sole function-body difference resolves the unchanged pinned chart asset after moving its caller.",
+    "Native source location and continuous source-hash paths were adapted; historical receipts were not rewritten."
+  ]
+}

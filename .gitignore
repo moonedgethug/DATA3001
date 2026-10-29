@@ -62,6 +62,9 @@ node_modules/
 /provenance/migrations/*/next_*
 /provenance/migrations/data_release_20261016/original_data_inventory.jsonl
 /provenance/migrations/data_release_20261016/moves.jsonl
+# Local code-recovery snapshot and execution logs; compact migration evidence is published.
+/provenance/migrations/modelling_layout_20261029T065416Z/before/
+/provenance/runtime/
 /.chart-data-*/
 
 # The report's verified intermediate basemap is needed on fresh checkouts.

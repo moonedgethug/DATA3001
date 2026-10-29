@@ -2,9 +2,11 @@
 
 **Publication: Markov Transition Model Completed — 28 October 2026.**
 
-This closes the completed empirical Markov comparisons. The neighbour extension
+**Current direction (29 October):** consolidate the empirical matrices under the approved pooled, known-initial-velocity workbench. The first continuous experiment and frozen diagnostics have completed; further continuous optimisation is paused. Use the [code guide](code_guide.md) for the reorganised implementations and the [current plan](modelling_round1_plan.md) for stage boundaries.
+
+The publication records the completed empirical Markov comparisons. The neighbour extension
 was stopped by the user after one of five outer folds; it is not a completed
-comparison. Continuous-state modelling is the next design stage. No new training
+comparison. No new training
 or final-test evaluation was performed for this publication.
 
 ## Read the results
@@ -78,7 +80,7 @@ suite, which includes native-neighbour tests:
 ```bash
 mkdir -p .superpowers/native
 clang++ -O3 -std=c++17 -shared -fPIC -ffp-contract=off \
-  src/data3001/modelling/_neighbour_scoring.cpp \
+  src/data3001/modelling/markov_models/_neighbour_scoring.cpp \
   -o .superpowers/native/neighbour_scoring.dylib
 
 .venv/bin/python -B -m unittest discover -s tests -p 'test_modelling*.py' -v
@@ -115,5 +117,4 @@ reject mismatched source, configuration or input hashes.
 
 The stopped neighbour calculation must not restart automatically. Its remaining
 checkpoints are retained only for a future explicitly approved resumption.
-The current next step is to agree on the continuous-state model, loss,
-comparison design and compute budget in the [modelling plan](modelling_round1_plan.md).
+The current next step is empirical-matrix consolidation and support/error diagnosis in the [modelling plan](modelling_round1_plan.md). The source layout migration preserves old import commands but changes source hashes; it does not authorise resuming historical computations.

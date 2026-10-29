@@ -9,9 +9,13 @@ description = "Contract-bound historical GDP surface-transport research"
 requires-python = ">=3.12,<3.13"
 dependencies = ["numpy", "pandas", "pyarrow", "scipy", "zarr<3", "shapely", "pyproj", "pyshp", "duckdb", "requests"]
 
+[project.optional-dependencies]
+continuous = ["torch==2.14.1", "matplotlib"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["data3001*"]
 
 [tool.setuptools.package-data]
 "data3001.modelling" = ["assets/*.js", "assets/*.txt", "assets/*.json"]
+"data3001.modelling.markov_models" = ["*.cpp"]

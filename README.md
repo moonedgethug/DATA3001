@@ -1,10 +1,14 @@
 # DATA3001 — Where Things End Up
 
-**Status: Markov Transition Model Completed. Next stage: continuous-state model design.**
+**Current stage: empirical Markov matrix consolidation (29 October 2026).**
+
+**Our current research priority is to improve and complete the Markov transport framework.** We are consolidating empirical transition matrices, improving multi-step probability propagation and spatial dispersion, and completing validation, diagnostics and interpretable outputs. Longer-horizon and seasonal capabilities will follow where data support and validation justify them. Development of more complex model families, including further MDN optimisation, is paused. Here, spatial dispersion describes the evolution of the predicted location distribution; no new diffusion equation or stochastic forcing is introduced by this roadmap update.
+
+The approved workbench remains annual-pooled with known initial velocity. Start with the [code guide](docs/code_guide.md) to review shared services, direct baselines, Markov models and continuous Gaussian/MDN models. The [current modelling plan](docs/modelling_round1_plan.md) records the scientific scope and next checks.
 
 We estimate where a drifting object may be found after release in the southern Gulf Stream Corridor. The implemented models produce **1° destination-cell probability distributions at 7 or 30 days**, with whole-drifter development cross-validation. The Markov experiments model a stopped-domain process, including first exit from D. Exact-position variants additionally use the known release coordinates and initial velocity category. The research goal remains distributions at integer days **1–365**, seasonal analysis, finer grids and a separately validated grounding capability.
 
-The milestone closes the implemented discrete/empirical Markov stage; it does not mean every exploratory extension completed. **The final neighbour-displacement extension was stopped by the project lead after one of five outer folds**, with its checkpoints and partial results retained. Continuous-state modelling has not started. Annual, seasonal, new-region, operational or object-specific accuracy is unestablished. The [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) remains the scientific source of truth; this README summarises implementation and progress.
+The published Markov milestone records completed comparisons, not the completion of every possible improvement. **The neighbour-displacement extension was stopped after one of five outer folds**, with its checkpoints and partial results retained. The first continuous Gaussian/MDN experiment and frozen-model diagnostics are complete; further continuous-model optimisation is paused. Year-scale, seasonal, new-region, operational or object-specific accuracy is unestablished. The [Data Contract v1.0](docs/contract/data_contract_v1.0.xlsx) remains the scientific source of truth; this README summarises implementation and progress.
 
 ## Research question and scope
 
@@ -123,14 +127,20 @@ Primary selection uses the unchanged augmented-state Brier/S. The auxiliary line
 - **Retuning 30-day schedules did not establish a reliable additional exact-position benefit.** Independently selected exact-position S is 0.985134 versus coarse S 0.985255; their paired-ID difference interval crosses zero. Numerical near-ties remain recorded rather than presented as unique optima.
 - **The neighbour experiment is partial evidence only.** In its completed fold, the 7-day selection chose no borrowing; the selected 30-day neighbour procedure scored slightly worse. Remaining folds were intentionally stopped before completion. This cannot establish a general failure of neighbour borrowing or the Markov assumption.
 
-These are adaptive development experiments: earlier results informed later research choices. The completed empirical models remain comparison controls for the next continuous-state stage. Seasonal, 365-day, grounding and general-object performance have not been validated.
+These are adaptive development experiments: earlier results informed later research choices. The completed empirical models form the starting point for the current Markov consolidation stage. Seasonal, 365-day, grounding and general-object performance have not been validated.
 
 ## Project architecture
 
 ```text
 src/data3001/
   preprocessing/   approved qualification, labels and source-aware cleaning rules
-  modelling/       estimators, nested CV, scoring, audits and presentation exporters
+  modelling/
+    common/             shared folds, scores, geometry, run I/O and plotting
+    baselines/          direct-horizon B0/B1/B2 and their refinements
+    markov_models/      empirical operators, propagation and Markov experiments
+    continuous_models/  retained Gaussian/MDN code and diagnostics; development paused
+    _compat/            historical imports and commands, forwarding only
+    assets/             pinned presentation resources
 configs/           asset catalog, canonical manifests, dataset index, dependency pins
 data/train/        one complete Parquet file per development drifter
 data/test/         one complete Parquet file per locked final-test drifter
@@ -144,20 +154,17 @@ archive/           historical assets and retained local recovery material
 
 The team download contains the approximately 3.75 GB canonical data release, selected complete baseline and Markov result runs, and the unchanged high/intermediate land masks required by their code. This milestone adds approximately 596 MB of selected Markov run files and receipts. Multi-gigabyte exact-position/geometry caches, full cleaning backups, incomplete neighbour computation checkpoints and private runtime logs remain local. The neighbour partial report and stop receipt are published. Published receipts preserve exact output bytes and historical source/input hashes; new runs receive new IDs. See the [Markov publication guide](docs/markov_results.md) for what is included and what a fresh checkout must rebuild.
 
-| Implemented module | Responsibility |
+| Active package | Responsibility |
 |---|---|
-| `experiment.py`, `cv.py`, `blend.py` | Whole-ID folds, B0–B2/global models, score regions and weight selection |
-| `neighbourhood.py`, `neighbourhood_cv.py` | U/A distributions, bounded alignment integration and nine-model nested evaluation |
-| `regimes.py`, `run_regimes.py` | Fixed-interval qualification, matched pooled comparisons and scenario orchestration |
-| `run_neighbourhood.py` | Verified coordinate preparation and guarded pooled/scenario model runs |
-| `neighbourhood_report.py` | Independent reconstruction of saved fits, scores, selections and report tables |
-| `showcase.py`, `report.py` | Existing global-blend presentation export and plotting; not a new U/A/state visualisation |
-| `markov.py`, `markov_inputs.py`, `markov_scoring.py` | Stopped-domain operators, matching input qualification and primary/spatial scoring |
-| `markov_diagnostics.py`, `markov_velocity*.py` | Propagation diagnostics, lag selection and velocity-category comparisons |
-| `markov_position*.py`, `markov_iteration*.py` | Exact-coordinate displacement propagation, same-case checks and joint schedule/weight selection |
-| `markov_neighbour*.py`, `_neighbour_scoring.cpp` | Stopped exploratory neighbour experiment; source retained, full CV incomplete |
+| [`common/`](src/data3001/modelling/common) | Whole-ID folds, categorical/particle/spatial scores, endpoint geometry, immutable run I/O and rendering |
+| [`baselines/`](src/data3001/modelling/baselines) | B0–B2, global/local sharing, fixed-regime comparisons and their reports |
+| [`markov_models/`](src/data3001/modelling/markov_models) | Cell/velocity matrices, first-exit inputs, propagation, exact-position and schedule comparisons; stopped neighbour code retained |
+| [`continuous_models/`](src/data3001/modelling/continuous_models) | Shared conditional Gaussian/MDN implementation and frozen diagnostics, retained for comparison |
+| [`_compat/`](src/data3001/modelling/_compat) | Old module names and commands forwarding to the same canonical implementations |
 
-The module paths above are under `src/data3001/modelling/`. The [asset catalog](configs/assets.json) resolves data and geometry locations; the [architecture guide](docs/architecture.md) explains repository conventions. The [current modelling guide](docs/modelling_round1_plan.md) records experiment definitions, results, caveats and the next-stage entry.
+The [code guide](docs/code_guide.md) provides the complete module inventory and empirical-matrix reading order. The [asset catalog](configs/assets.json) resolves data and geometry locations; the [architecture guide](docs/architecture.md) explains repository conventions. The [current modelling guide](docs/modelling_round1_plan.md) records experiment definitions, results, caveats and the next-stage entry.
+
+This architecture update publishes reorganised source, supporting configuration/tests, current guides and the compact [migration record](provenance/migrations/modelling_layout_20261029T065416Z/REPORT.md). The pre-change source snapshot, runtime logs and continuous-model result runs remain local. Continuous-report links in historical plan sections therefore require the retained local workspace. No new model fitting or predictive improvement is claimed by this update.
 
 ## Experimental roadmap and present status
 
@@ -165,17 +172,18 @@ The module paths above are under `src/data3001/modelling/`. The [asset catalog](
 |---|---|---|
 | Data audit and preparation | Completed release; documented unknowns remain | Canonical files, official-state evidence, frozen geometry and source-keyed labels |
 | Direct endpoint baseline | Completed and audited | B0–B2, Global/U/A, Grid/Analytic weights, pooled and two fixed-state comparisons |
-| Empirical Markov M1 and refinements | Completed core comparisons; neighbour extension stopped incomplete | Saved operators, reports, matched-case scores, maps and audit evidence |
-| Continuous-state transition modelling | Next stage; design not yet frozen | Define joint position/velocity output, model family, objective and bounded computational budget |
-| Seasonal operators M2/M3 | Planned | Calendar-aware propagation, seasonal support audit and reviewed regularisation |
-| 1–365-day distributions and 0.5° refinement | Planned | Long-horizon validation, exact-duration handling, resolution/support comparison |
+| Empirical Markov M1 and refinements | **Current priority:** consolidate completed comparisons and improve the framework | Row support/error diagnosis, probability propagation and dispersion, matched-case validation and interpretable outputs; neighbour extension remains stopped |
+| Continuous-state transition modelling | First Gaussian/MDN experiment and frozen diagnostics completed; **further development paused** | Retain code and evidence as comparisons; no current move to more complex model families |
+| Seasonal Markov operators | Subsequent bounded extension | Calendar-aware propagation, seasonal support audit and reviewed sharing/regularisation |
+| 1–365-day distributions | Research goal; long-horizon predictive validation remains incomplete | Exact-duration propagation with explicit horizon-specific support and uncertainty |
+| 0.5° grid or additional release regions | Deferred until core validation is complete | Separate resolution/support or regional comparison, not simultaneous expansion |
 | Grounding and object-specific extensions | Planned | Separate defensible labels and validation; future hardware/object information is not an origin-time predictor |
 
 ### Next-stage boundary
 
-The next planned comparison will learn how transition distributions depend on continuous position and velocity. A continuous-state model can retain the Markov assumption; it need not use a finite lookup table. No specific continuous model, new feature or new training objective is approved by this publication alone.
+The immediate task is to consolidate the existing empirical matrices under the pooled, known-initial-velocity workbench, retaining B2 and cell-only M1 as controls. Connect transition-row support and dominant-ID contribution to forecast visitation and held-out error; inspect probability conservation, E/U, exact remainder handling, coverage and spatial spread on identical cases. Reuse accepted counts, operators and caches before deciding whether another fit is necessary.
 
-Before fitting, agree on the joint next-position/next-velocity distribution, D-exit handling, training objective, held-ID comparisons and a practical compute budget. Retain the completed empirical models as controls. Code and experiment definitions must continue to distinguish a single-step fit from long-horizon predictive validation.
+Support-adaptive regularisation and seasonal sharing are possible later improvements within the Markov framework, subject to a bounded, explicit comparison. Additional model families and neural-model optimisation are not current priorities. A single-step fit, numerical propagation and validated long-horizon predictions remain distinct achievements.
 
 Under the contract, the implemented finite-D prototype is a **stopped-domain process**. Endpoint occupancy, which allows exit followed by return, remains a different target. Unknown disappearance is neither exit nor grounding. The transition to the eventual endpoint product, seasonal operators and 365-day outputs requires explicit support and validation rather than assumed successful iteration.
 
@@ -201,7 +209,7 @@ After preparing Python 3.12.14 and pinned dependencies, run the development-safe
 .venv/bin/python -B -m unittest discover -s tests -p 'test_architecture.py' -v
 ```
 
-The current publication test counts are recorded in [the test receipt](provenance/reviews/markov_publication_20261028_tests.json). The optional neighbour native scorer must be compiled locally before its numerical tests; see the Markov publication guide. These tests and artifact audits verify implementation and reproducibility, not annual or operational predictive validity.
+The layout verification records [219 passing tests](provenance/migrations/modelling_layout_20261029T065416Z/verification.json); the earlier Markov publication has a separate [test receipt](provenance/reviews/markov_publication_20261028_tests.json). The full suite includes continuous-model tests and requires the optional dependencies declared by `.[continuous]`; Markov-only imports do not require PyTorch. The optional neighbour native scorer must be compiled locally before its numerical tests; see the Markov publication guide. These tests and artifact audits verify implementation and reproducibility, not annual or operational predictive validity.
 
 Re-fit the approved comparisons from the published, sealed inputs:
 

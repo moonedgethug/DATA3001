@@ -19,7 +19,20 @@ The Data Contract governs scientific definitions. This document governs file own
 | `provenance/migrations/` | Layout change evidence, path mapping and recovery journal |
 | `archive/` | Complete previous data tree, superseded plans, six-hour screening and report sources |
 
-Add modelling/prediction/evaluation modules when real work starts. Exploration notebooks, if needed, call shared package functions rather than carry competing implementations. Do not introduce a second workflow framework or regenerate data just to accommodate a directory change.
+Modelling code is organised by responsibility under `src/data3001/modelling/`:
+
+| Package | Ownership |
+|---|---|
+| `common/` | Whole-ID folds, probability and spatial scores, endpoint geometry, run guards/receipts, map rendering |
+| `baselines/` | Direct B0/B1/B2 horizon models, blend/local-sharing/fixed-regime comparisons and their reports |
+| `markov_models/` | Empirical cell/velocity transition operators, stopped-path inputs, propagation, diagnostics and experiment runners |
+| `continuous_models/` | Shared Gaussian K=1 / MDN K=3 implementation, hourly inputs, fitting, rollout and frozen diagnostics |
+| `_compat/` | Historical flat imports and module commands; forwarding only, no scientific implementation |
+| `assets/` | Pinned presentation resources |
+
+Use canonical package imports for new work. The modelling package extends its own search path with `_compat/` so historical imports and `python -m` commands still resolve; it does not edit global `sys.path` or eagerly import PyTorch. Compatibility imports alias the same module object, preserving function identity and existing patch targets. Do not add new implementations to `_compat/`.
+
+The [code guide](code_guide.md) lists every active module, key shared functions and the empirical-matrix reading order. Keep scientific functions separate from run I/O; shared helpers belong in `common/`, not in a new experiment runner. Existing preparation/acquisition code stays in its own packages. Notebooks call shared functions rather than maintain competing implementations.
 
 ## Asset identity and location
 
@@ -49,7 +62,9 @@ Pins preserve the current research environment. Do not upgrade scientific librar
 
 ## Runs and frozen inputs
 
-Use a unique run ID; both the results and provenance directories must be absent before creating it. The run receipt records parameters and input/code/environment identities. Derived pair runs record the actual source snapshot, canonical track hash and dataset release/manifest identity, alongside applicable correction evidence. Future modelling must additionally record features, training/validation IDs, fitted preprocessing, metrics and model artifacts; those are not yet implemented or claimed.
+Use a unique run ID; both the results and provenance directories must be absent before creating it. The run receipt records parameters and input/code/environment identities. Derived pair runs record the actual source snapshot, canonical track hash and dataset release/manifest identity, alongside applicable correction evidence. Completed modelling runs also record features, fitting/evaluation IDs, fitted thresholds, metrics and model artifacts. These are development results; preparation or layout verification does not establish predictive accuracy.
+
+The source-only reorganisation is recorded under `provenance/migrations/modelling_layout_20261029T065416Z/`. Its `before/` snapshot preserves the actual pre-change source, including uncommitted continuous-model work. `migration.json` maps old modules and extracted symbols to their new locations. Historical experiment receipts remain immutable: compatibility imports do not make changed source bytes match an old checksum. Do not resume a stopped run or relax its identity checks to accommodate this layout.
 
 Frozen raw/processed data and historical receipts cannot be overwritten by the shared output helpers. Legacy actions that would rewrite frozen preparation, masks, summaries, source downloads or verification receipts are guarded. Their implementations remain preserved for reference; starting a new processing version requires configuring and auditing that new output contract. Scientific pure functions and read-only label generation remain available.
 

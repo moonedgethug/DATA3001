@@ -1,8 +1,161 @@
 # Round 1 Probability Transport Modelling — Implementation Plan
 
-## Current stage: continuous-state model design; neighbour CV stopped by user (2026-10-28)
+## Current stage: empirical Markov matrix consolidation (2026-10-29)
 
-**Latest decision:** the user explicitly chose to stop the current neighbour computation, preserve completed checkpoints, and move to analysis and experiments for a continuous-state model. The training process and completion watcher are stopped. The neighbour experiment has only one completed outer fold and must remain labelled incomplete; no five-fold result, universally optimal parameter or general failure of Markov modelling is established. See the resumed run's `STOPPED_BY_USER.json` for verified retained-checkpoint counts. The next model's exact mathematical specification, output law, training objective and evaluation budget remain to be agreed; no continuous-model training has started.
+The user approved returning to Stage 1: establish and consolidate the empirical transition matrices. The workbench remains annual-pooled, with known initial velocity for state-aware models. The fixed cell-only M1 and direct B2 remain controls. The next stages may examine support-adaptive shrinkage and then seasonal conditioning; they are not new experiments executed by this source reorganisation.
+
+The current priority is completion and improvement of Markov probability propagation, spatial dispersion, validation and interpretable delivery. Further development of more complex model families is paused. This direction does not introduce a new diffusion equation, stochastic forcing or a changed scientific target. Historical continuous-model report links below refer to retained local runs; this architecture publication includes their source/configuration/tests, not the result bundles.
+
+The current engineering task groups source code into shared services, direct baselines, Markov models and continuous Gaussian/MDN models. See the [code guide](code_guide.md). It changes module locations and shared ownership, not the dataset, model equations, features, weighting, eligibility, folds or scores. Old module commands remain compatibility entries. Continuous optimisation and the stopped neighbour search remain paused; final test remains locked.
+
+Stage 1 completion criteria:
+
+1. Reuse the sealed B2, M1 and raw/selected M1vcat comparisons and fitting roles; do not relearn an already audited baseline merely because files moved.
+2. Document each empirical row: source/destination state, lag, fitting IDs, equal-pair counts, independent-ID support and dominant-ID contribution. Distinguish direct horizon endpoint frequencies from iterated short-lag operators.
+3. Check probability conservation, absorbing E/U, unsupported-row fallback, observed-hour first-exit qualification and exact remainder kernels. Preserve whole-ID exclusion across R and D.
+4. Relate support to actual forecast visitation and held-out error by cell/state/horizon. Existing D-wide sparse-row counts alone do not demonstrate an important prediction problem.
+5. Reuse same-case 7/30-day forecasts, S, actual region mass, coverage/size, E/U and whole-ID intervals. Retain the 7-day exact-position comparison without claiming a reliable additional 30-day gain.
+6. Produce fitting-role seasonal/long-horizon support diagnostics before proposing a new conditional operator. Existing 90/180/365-day support is not long-horizon skill.
+
+No adaptive shrinkage, seasonal fitting, extra memory state, grid/region expansion or new training run is part of the code-organisation task. The support/error findings determine the next bounded experiment, under the approved staged plan.
+
+## Completed previous stage: frozen continuous-model diagnostic audit (2026-10-29)
+
+The user requested diagnosis before the next engineering changes: velocity
+learning, completeness-based training attention, and excessive dispersion.
+The completed audit uses the frozen one-hour Gaussian/MDN fits and does not
+retrain, reweight, clip probabilities, add features, or access final test.
+
+Human entry point: [continuous diagnostic report](../results/deliverables/continuous_diagnostics/REPORT.md).
+Evidence runs: `continuous_diagnostics_20261029T054731_635202Z` and
+`continuous_diagnostic_report_20261029T055315_213458Z`.
+
+- One-step diagnostics cover all 4,598,829 eligible hourly transitions from 440
+  historical-validation IDs. MDN velocity-vector RMSE is slightly better than
+  persistence in each reported region/speed stratum. Fast R origins nevertheless
+  have excess along-initial-direction velocity damping: predicted -0.03216 versus
+  observed -0.01798 m/s per hour; bias -0.01417, whole-ID 95% interval
+  [-0.01807,-0.01027], 70 IDs. This is exploratory frozen-model uncertainty.
+- Multi-step diagnosis uses 953 seeded, ID-stratified origins from 60 IDs in the
+  common complete 7/30-day cohort, inverse-inclusion weights and two 32-particle
+  seeds. Real-previous-state controls diagnose local predictions and are NOT
+  release-time forecasts. At 72 hours: observed mean speed 0.51274 m/s,
+  observed-state control 0.50079, free rollout 0.37545. Rollout speed/position
+  summaries condition on surviving predictions and disclose failure mass.
+- About 94.90% of training pairs are in uninterrupted eligible segments of at
+  least 720 hours. This does not establish raw measurement quality. Equal pairs
+  already give long trajectories greater influence. R accounts for 1.208% of
+  D-origin training pairs; this is a learning-balance hypothesis, not proof of
+  failure or permission to discard D transitions.
+- In these sampled traces, every U event is a finite generated hourly location
+  rejected by the frozen land mask. No nonfinite/invalid-latitude failure occurred.
+  Weighted 30-day MDN U is 9.70% (two seeds 9.47--9.93%). This is not observed
+  grounding. Do not hide it by redraw, clipping, or survival renormalization.
+- Five focused diagnostic tests passed, including exact reproduction of the
+  production particle rollout, exclusive first-failure attribution, correct
+  mixture variance, no continuity across gaps, and sampling-weight reconciliation.
+  Parent and child output hashes were independently verified.
+
+Next proposals for review: training adequacy and local dynamics first, then
+declared longer-lag and/or multi-step-learning comparisons. A longer lag must
+retain hourly first-exit semantics; land-aware kernels and quality weights are
+separate model/estimand changes. The current equal-pair objective, four predictors,
+annual pooling, B2 controls, and final-test boundary remain the reference.
+Reproduce diagnostics with `python -B -m data3001.modelling.continuous_diagnostics`;
+render a sealed run with `python -B -m data3001.modelling.continuous_diagnostic_report --run <diagnostic-run>`.
+
+## Frozen first continuous experiment
+
+The user authorized implementation and selected **one hour fixed**, with CV
+restricted to model parameters. Longer-step exit branches, seasonal predictors,
+grounding, new environmental features and 365-day claims are outside this round.
+The input variables remain exactly lon, lat, ve, vn. The authoritative contract
+and the canonical 62-column development data remain unchanged; final test is locked.
+
+### Frozen first implementation
+
+- State: fixed angular-metre chart x/y and official east/north velocity. The
+  invertible chart has centre (-44.5, 37.5), with the WGS84 local velocity Jacobian.
+  This is a numerical coordinate system, not a claim that map distances are geodesic.
+- One-hour target: joint 4-vector `(x_next - x - 3600 Jv, v_next - v)`.
+  Learn a continuous conditional density and generate BOTH the next position and
+  next velocity. Subsequent steps never use future observed velocity.
+- Control: a conditional full-covariance Gaussian (K=1). Challenger: a conditional
+  full-covariance three-component MDN (K=3). Two tanh layers of width 32, fitted
+  standardization, covariance `LL^T + 0.03^2 I` in standardized target units.
+- Training objective: equal-pair negative log likelihood plus gamma times the
+  squared network weights (biases excluded); gamma candidates 0 and 0.0001 in
+  BOTH families. Adam lr 0.001, batch 32768, gradient norm cap 10, CPU float32.
+  Eight-epoch ceiling, patience two, held NLL improvement threshold 0.001.
+  These are bounded first-experiment settings, not proven optimal capacities.
+- Three deterministic whole-ID folds within the historical 2,674 training IDs.
+  CV held IDs select the epoch by joint NLL and the gamma separately for 7/30d
+  by free-rollout S. Thus CV is tuning evidence, not nested unbiased evaluation.
+  Refit on all historical training IDs for the median selected CV epoch count.
+  The 550 historical validation IDs supply the model comparison; that pool has
+  already influenced earlier project design, so it is development evidence.
+- Every eligible D hourly pair has equal training weight, including observed
+  one-hour exits. Every eligible R release in the relevant ID role is scored.
+  No hourly thinning or release subsampling. Cached source indices retain ID,
+  time and original row provenance without adding canonical data columns.
+- Forecast 7/30d by 168/720 generated hourly steps. First observed hourly domain
+  exit is absorbing E. Geometric/nonfinite forecast failure is absorbing U;
+  retain its probability and denominator. U is not grounding. No resampling or
+  renormalization to hide failed particles. Within-hour exit/reentry is unobserved
+  and not claimed to be resolved by this hourly definition.
+- Numerical integration: 8 particles/query during CV, 32 during historical
+  validation, with frozen seeds. Unbiased collision-count S estimates the same
+  limiting categorical score. A zero sample count does not prove zero model
+  probability. Coverage and region area describe finite issued ensembles and
+  must be labelled accordingly. Monte Carlo and independent-ID uncertainty are
+  distinct; inspect close selections before claiming a meaningful winner.
+- Runtime pilot and mathematical tests precede formal CV. Record epoch caps,
+  early stopping, failures and all candidates; never present a capped search as
+  proof that the density family cannot work. Current input snapshot:
+  `continuous_input_20261028T143429_995267Z`, 25,208,045 one-hour pairs.
+  The earlier resource-pilot cache is superseded: one outside endpoint lacked
+  the frozen global mapping qualification. It was removed before formal fitting;
+  no canonical source record was modified. 2,001 qualified observed exit pairs
+  remain in the final hourly cache.
+
+Sources motivating, not validating, this implementation: Brolly (2023),
+https://doi.org/10.1029/2023MS003718 (oceanic displacement MDN; our joint
+position/velocity target is an extension); NOAA/Elipot et al. hourly GDP product
+(processed historical velocities may use local fitting on both sides of time).
+Results therefore concern processed historical-state prediction, not certified
+real-time maritime rescue. The project still predicts drifter transport; no
+unverified transfer to arbitrary floating object properties is claimed.
+
+### Completed first comparison
+
+Formal model run: `continuous_cv_20261028T143556_027911Z`.
+The human entry point is `results/deliverables/continuous_hourly/review.html`
+and the accompanying `REPORT.md`. Model checkpoints and all CV candidates are
+retained in the formal run. Canonical data and final test were not changed/read.
+
+| Model | 7-day S | 30-day S | Selected L2 gamma (7d / 30d) |
+| --- | ---: | ---: | --- |
+| Matched stopped B2 | 0.924456 | 0.996241 | Not applicable |
+| Conditional Gaussian | 0.978846 | 1.029394 | 0 / 0 |
+| Three-component MDN | 0.972575 | 1.028137 | 0.0001 / 0 |
+
+Lower S is better. MDN minus Gaussian whole-ID intervals cross zero at both
+horizons; the small point-estimate improvement is not a stable demonstrated gain.
+Both continuous models underperform matched B2 in this development comparison.
+Ten of twelve CV fits reached the eight-epoch ceiling; this bounded experiment
+cannot establish convergence or the best possible performance of either family.
+The 7-day MDN gamma ranking changes between independent particle halves, so its
+selected value must not be called a resolved optimum. Main map coverage uses
+release-cell cohort distributions; individual 32-particle coverage is only a
+coarse numerical diagnostic. The final test remains locked.
+
+Next review should inspect the training histories and the failure to reproduce
+sustained transport in free rollouts before expanding to seasons or 365 days.
+Additional training or architecture changes need a separately specified experiment.
+
+### Retained previous stage record
+
+**Historical decision before the continuous experiment:** the user explicitly chose to stop the current neighbour computation, preserve completed checkpoints, and move to analysis and experiments for a continuous-state model. The training process and completion watcher are stopped. The neighbour experiment has only one completed outer fold and must remain labelled incomplete; no five-fold result, universally optimal parameter or general failure of Markov modelling is established. See the resumed run's `STOPPED_BY_USER.json` for verified retained-checkpoint counts. At that historical checkpoint, continuous-model specification and training were pending; the current completed experiment is documented above.
 
 > Current user instruction: do not use Superpowers. Resume the approved experiment from verified checkpoints without reopening completed planning or review cycles. This is the single current specification/implementation plan; completed sections below are historical evidence. Implementation and execution are authorised. No Git publication is authorised.
 
