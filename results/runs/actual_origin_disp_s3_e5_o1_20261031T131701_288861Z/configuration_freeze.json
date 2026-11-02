@@ -1,0 +1,12 @@
+{
+  "before_validation": true,
+  "selected": {
+    "batch": 2048,
+    "context_seconds": 0.07840741699328646,
+    "kernel_seconds": 21.72108470799867,
+    "setup_seconds": 0.20383670899900608,
+    "total_seconds": 22.003328833990963,
+    "variant": "G3"
+  },
+  "source": "calibration_only"
+}

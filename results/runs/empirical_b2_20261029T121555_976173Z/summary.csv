@@ -1,0 +1,3 @@
+horizon_days,eligible_pairs,eligible_ids,evaluable_pairs,evaluable_ids,unsupported_pairs,unsupported_ids,availability,unsupported_fraction,brier,zero_true_probability_pairs,zero_true_probability_fraction,observed_exit_pairs,observed_exit_fraction,observed_exit_fraction_evaluable,mean_predicted_exit_probability
+7,303288,385,303288,385,0,0,1.0,0.0,0.9290008790432678,6315,0.0208217931471077,0,0.0,0.0,0.0
+30,268998,337,268998,337,0,0,1.0,0.0,0.9947507274283354,46964,0.1745886586517372,0,0.0,0.0,0.0

@@ -1,0 +1,12 @@
+{
+  "certified": 61146,
+  "donors": 67042,
+  "horizon_days": 7,
+  "hourly_steps": 989619,
+  "id": 98965,
+  "independent_audit_seconds": 0.04305400000885129,
+  "literal_pairs": 5896,
+  "origin_cell_1": 43663,
+  "origin_source_obs": 84999046,
+  "seconds": 37.858795167005155
+}

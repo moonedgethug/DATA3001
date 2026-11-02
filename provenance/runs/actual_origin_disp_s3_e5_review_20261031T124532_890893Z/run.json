@@ -1,0 +1,11 @@
+{
+  "run_id": "actual_origin_disp_s3_e5_review_20261031T124532_890893Z",
+  "created_UTC": "2026-10-31T12:45:32.891820+00:00",
+  "config": {
+    "experiment": "actual_origin_displacement_s3_e5_resource_review",
+    "pilot": "actual_origin_disp_s3_e5_pilot_20261031T123704_492621Z",
+    "full_experiment": false,
+    "final_test_access": false
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

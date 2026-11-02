@@ -1,0 +1,13 @@
+fold,candidate,best_epoch,epoch_cap_reached
+0,G_l2_0,5,False
+0,G_l2_1e4,5,False
+0,MDN3_l2_0,8,True
+0,MDN3_l2_1e4,8,True
+1,G_l2_0,7,True
+1,G_l2_1e4,7,True
+1,MDN3_l2_0,8,True
+1,MDN3_l2_1e4,7,True
+2,G_l2_0,7,True
+2,G_l2_1e4,7,True
+2,MDN3_l2_0,8,True
+2,MDN3_l2_1e4,8,True

@@ -1,0 +1,9 @@
+{
+  "run_id": "actual_origin_disp_s3_e5_o1_20261031T131701_288861Z",
+  "status": "CAPACITY_NOT_ESTABLISHED",
+  "full_experiment_started": false,
+  "attempt_closed": true,
+  "new_real_data_attempt_requires_review": true,
+  "approved_plan_sha256": "ebc4efbcb369c947e31a23e5544348762c3b2a9cf3a3e9f3c56c3af0c74c3f4c",
+  "stop_rule": "No extra attempt, model grid or new geometry variant is added after a failure."
+}

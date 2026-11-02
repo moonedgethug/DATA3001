@@ -1,0 +1,93 @@
+{
+  "run_id": "drifter_shrinkage_e3_20261030T074159_751985Z",
+  "created_UTC": "2026-10-30T07:41:59.755292+00:00",
+  "config": {
+    "experiment": "drifter_shrinkage_e3",
+    "plan_version": "E3_v2",
+    "approved_plan": "docs/drifter_shrinkage_e3_plan.md",
+    "approved_plan_sha256": "f7684a0fde10d252ad24057f8d380f55231b7889101784d657ac12584aa223df",
+    "dataset_release": "per-drifter-cleaned-20261017-v7",
+    "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+    "grid_degrees": 1,
+    "target": "stopped",
+    "scenario": "pooled",
+    "departure_seasons": "annual_pooled",
+    "origin_population": "R",
+    "horizons_days": [
+      7,
+      30
+    ],
+    "tolerance_hours": 0,
+    "predictors": [
+      "origin_cell_1"
+    ],
+    "weighting": "equal_eligible_pairs",
+    "weighting_field_role": "qualified_raw_cache_provenance_only",
+    "training_weighting": {
+      "B2": "equal_pairs",
+      "EqualID": "equal_ID_within_origin_horizon",
+      "Fixed": "raw_B2_and_raw_B1"
+    },
+    "primary_weighting": "equal_cell_then_equal_ID_then_equal_eligible_time",
+    "secondary_weighting": "equal_eligible_pairs",
+    "models": [
+      "B2",
+      "EqualID",
+      "Fixed"
+    ],
+    "gamma": 1,
+    "parameter_grid": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1
+    ],
+    "primary_metric": "standard_multiclass_brier",
+    "selector": "new_target_Brier_only_then_smaller_a",
+    "unsupported_score": "common_B2_mask_missing",
+    "outer_folds": 5,
+    "inner_folds": 4,
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20261030,
+    "bootstrap_distribution": "Exp(1)_whole_ID",
+    "bootstrap_generator": "PCG64",
+    "brier_adjusted_upper_quantile": 0.9875,
+    "region_level": 0.9,
+    "mass_tolerance": 1e-12,
+    "tie_tolerance": 1e-12,
+    "compute_cap_seconds": 1800,
+    "preflight_cap_seconds": 300,
+    "final_test_access": false,
+    "counts_path": "results/runs/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet",
+    "folds_path": "results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv",
+    "frozen_s1_run": "empirical_b2_20261029T121555_976173Z",
+    "frozen_e1_run": "adaptive_b2_b1_20261030T044950_931787Z",
+    "frozen_e2_run": "b2_b1_e2_20261030T060621_291294Z",
+    "source_assets": [
+      "english_contract",
+      "state_index",
+      "release_R",
+      "transport_D",
+      "land_mask_intermediate"
+    ],
+    "execution_mode": "full"
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

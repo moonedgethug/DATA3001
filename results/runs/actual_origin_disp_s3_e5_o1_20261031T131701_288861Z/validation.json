@@ -1,0 +1,12 @@
+{
+  "all_completed_calibration_comparisons_matched": true,
+  "calibration_queries": 8,
+  "in_process_full_pair_comparisons_per_variant_batch": 355418,
+  "independent_real_scalar_checks_completed": 0,
+  "limitation": "Completed benchmark records are written only after in-process array equality assertions. Optimized arrays remained in RAM and were lost; no independent saved-array comparison is claimed.",
+  "optimized_raw_arrays_persisted": false,
+  "real_data_region_and_selection_parity_completed": false,
+  "remaining_engineering_validation_queries": 50,
+  "status": "INCOMPLETE",
+  "variant_batch_comparisons": 6
+}

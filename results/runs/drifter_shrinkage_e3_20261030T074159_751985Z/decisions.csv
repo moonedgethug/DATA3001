@@ -1,0 +1,5 @@
+horizon_days,model,reference,outcome,application_tradeoff,delta_brier,delta_region90_cells,delta_region90_hit
+7,EqualID,B2,conditional_development_Brier_support,True,-0.024030228673675436,3.348026247842178,0.06531433030239941
+7,EqualID,Fixed,point_improvement_uncertain,True,-0.0051908757393132055,-21.805340472240562,-0.08586632142945538
+30,EqualID,B2,conditional_development_Brier_support,True,-0.009116652874934239,3.3550633300949855,-0.005981448119705635
+30,EqualID,Fixed,no_measurable_Brier_gain,True,0.013766660697786315,-73.93181298832657,-0.27908103456494265

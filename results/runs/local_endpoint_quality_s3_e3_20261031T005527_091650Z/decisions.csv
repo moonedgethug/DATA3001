@@ -1,0 +1,7 @@
+horizon_days,model,reference,point_Brier_gain,conditional_Brier_support,conditional_coverage_preserving,conditional_quality_preserving,conditional_smaller_region,joint_point_benefit,application_tradeoff,delta_brier,delta_region90_cells,delta_region90_hit
+7,LocalEndpointQuality,Fixed,True,False,False,False,False,False,True,-0.004294742924403239,-16.286473368446007,-0.021192225766608175
+7,LocalEndpointQuality,LocalEndpoint,True,False,False,False,False,False,True,-0.0001252021025786032,-0.9329716171150295,-0.003543733899613377
+7,LocalEndpointQuality,LocalEndpointAdaptive,True,True,False,False,False,False,True,-0.0009411007696584761,-0.792173048613293,-0.00400111614813603
+30,LocalEndpointQuality,Fixed,True,True,False,False,False,False,True,-0.0014237670508930877,-28.731379473876913,-0.008390200211465526
+30,LocalEndpointQuality,LocalEndpoint,True,True,False,False,False,False,True,-0.00024352809968708478,0.4467034548861193,0.004639609868706374
+30,LocalEndpointQuality,LocalEndpointAdaptive,False,False,False,False,False,False,True,5.5222065670990084e-05,-0.2140692933946582,-0.000885990526923397

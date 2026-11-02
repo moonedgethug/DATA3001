@@ -1,0 +1,56 @@
+{
+  "artifact_bytes": 50025307,
+  "candidate_id_cells_checked": 3580625,
+  "candidate_identities_checked": 4250,
+  "canonical_trajectory_files_read": 0,
+  "code_hashes_unchanged": true,
+  "control_regression": {
+    "matrices": [
+      "matrices/outer_0_B2.parquet",
+      "matrices/outer_0_Fixed.parquet",
+      "matrices/outer_1_B2.parquet",
+      "matrices/outer_1_Fixed.parquet",
+      "matrices/outer_2_B2.parquet",
+      "matrices/outer_2_Fixed.parquet",
+      "matrices/outer_3_B2.parquet",
+      "matrices/outer_3_Fixed.parquet",
+      "matrices/outer_4_B2.parquet",
+      "matrices/outer_4_Fixed.parquet",
+      "matrices/all_development_candidate_B2.parquet",
+      "matrices/all_development_candidate_Fixed.parquet"
+    ],
+    "passed": true,
+    "per_case_weights_and_metrics_reproduced": true,
+    "reference": "partial_weighting_e4_20261030T082826_141410Z"
+  },
+  "denied_operations": [],
+  "elapsed_seconds": 304.53394724999816,
+  "final_test_trajectories_read": 0,
+  "fitting_roles_checked": 26,
+  "heldout_grouped_cases_checked": 109395,
+  "historical_outputs_used_for_fitting": false,
+  "input_hashes_unchanged": true,
+  "input_run": "spatial_borrowing_s3_e1_input_20261030T113714_822569Z",
+  "max_rss_bytes": 2280947712,
+  "maximum_absolute_errors": {
+    "candidate": 6.661338147750939e-16,
+    "probability": 1.6653345369377348e-16,
+    "score": 4.440892098500626e-16,
+    "summary": 3.694822225952521e-13
+  },
+  "outer_predictions_unchanged_after_all_development_tuning": true,
+  "passed": true,
+  "path_and_ledger_audit": {
+    "all_observed_outcome_classes_covered": true,
+    "all_observed_reasons_covered": true,
+    "independent_scalar_paths": 53,
+    "resolved_exit_paths_checked": 6,
+    "transfer_count_rows_reconciled": 149482
+  },
+  "uncertainty": {
+    "draw_identity_verified": true,
+    "max_error": 1.1368683772161603e-13,
+    "passed": true,
+    "replicates": 5000
+  }
+}

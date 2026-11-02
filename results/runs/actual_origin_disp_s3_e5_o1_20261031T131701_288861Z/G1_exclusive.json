@@ -1,0 +1,125 @@
+{
+  "exclusive": {
+    "classify_context:cells": {
+      "calls": 74216,
+      "cpu_seconds": 1.172224999993432,
+      "seconds": 1.171988218324259
+    },
+    "classify_context:np.array": {
+      "calls": 168,
+      "cpu_seconds": 0.0002769999998690764,
+      "seconds": 0.0002844970003934577
+    },
+    "classify_context:np.array_equal": {
+      "calls": 8,
+      "cpu_seconds": 0.00011700000027303759,
+      "seconds": 0.00011400101357139647
+    },
+    "classify_context:np.column_stack": {
+      "calls": 148080,
+      "cpu_seconds": 0.3400439999984428,
+      "seconds": 0.33931152903824113
+    },
+    "classify_context:np.flatnonzero": {
+      "calls": 356,
+      "cpu_seconds": 0.0025059999984478054,
+      "seconds": 0.0025255758519051597
+    },
+    "classify_context:np.full": {
+      "calls": 364,
+      "cpu_seconds": 0.0008179999974800012,
+      "seconds": 0.0008212080865632743
+    },
+    "classify_context:np.isfinite": {
+      "calls": 148080,
+      "cpu_seconds": 0.10445299995012647,
+      "seconds": 0.10387185894069262
+    },
+    "classify_context:np.stack": {
+      "calls": 74040,
+      "cpu_seconds": 0.6075480000663447,
+      "seconds": 0.6072827754978789
+    },
+    "classify_context:np.zeros": {
+      "calls": 148088,
+      "cpu_seconds": 0.07851000000528074,
+      "seconds": 0.07806470645300578
+    },
+    "classify_context:sh.intersects:g.high_D": {
+      "calls": 74040,
+      "cpu_seconds": 25.407607000057396,
+      "seconds": 25.413360880775144
+    },
+    "classify_context:sh.intersects:g.intermediate_D": {
+      "calls": 74040,
+      "cpu_seconds": 20.243951999955243,
+      "seconds": 20.247913149069063
+    },
+    "classify_context:sh.intersects_xy:g.high": {
+      "calls": 74040,
+      "cpu_seconds": 74.5501620000125,
+      "seconds": 74.56973050128727
+    },
+    "classify_context:sh.intersects_xy:g.intermediate": {
+      "calls": 74040,
+      "cpu_seconds": 46.98182900003758,
+      "seconds": 46.990823244981584
+    },
+    "classify_context:sh.linestrings:xy": {
+      "calls": 74040,
+      "cpu_seconds": 8.182693999999856,
+      "seconds": 8.183895407724776
+    },
+    "context:cells": {
+      "calls": 4,
+      "cpu_seconds": 0.0013559999997596606,
+      "seconds": 0.0013548749848268926
+    },
+    "context:np.array_equal": {
+      "calls": 4,
+      "cpu_seconds": 8.300000013150566e-05,
+      "seconds": 8.283197530545294e-05
+    },
+    "context:sh.intersects_xy:g.domain": {
+      "calls": 4,
+      "cpu_seconds": 0.007898999999952139,
+      "seconds": 0.007898708005086519
+    },
+    "context:sh.intersects_xy:g.region": {
+      "calls": 4,
+      "cpu_seconds": 0.005964000000176384,
+      "seconds": 0.005963749004877172
+    },
+    "rectangle_safe:np.flatnonzero": {
+      "calls": 178,
+      "cpu_seconds": 0.0012980000001334702,
+      "seconds": 0.0012877020344603807
+    },
+    "rectangle_safe:np.floor": {
+      "calls": 712,
+      "cpu_seconds": 0.0009990000039579172,
+      "seconds": 0.001000321062747389
+    },
+    "rectangle_safe:np.zeros": {
+      "calls": 178,
+      "cpu_seconds": 0.00015199999938886322,
+      "seconds": 0.00014924501010682434
+    },
+    "rectangle_safe:sh.box:xmin[ix]": {
+      "calls": 178,
+      "cpu_seconds": 0.06397300000048745,
+      "seconds": 0.06398378210724331
+    },
+    "rectangle_safe:sh.intersects:g.high": {
+      "calls": 178,
+      "cpu_seconds": 110.27651800000126,
+      "seconds": 110.67940070996701
+    },
+    "rectangle_safe:sh.intersects:g.intermediate": {
+      "calls": 178,
+      "cpu_seconds": 20.232895999999528,
+      "seconds": 20.249520835015574
+    }
+  },
+  "seconds": 316.77642200102855
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_audit": {
+    "candidate_id_cells_checked": 52824,
+    "candidate_identities_checked": 48,
+    "maximum_candidate_metric_error": 2.842170943040401e-14
+  },
+  "canonical_trajectory_files_read": 0,
+  "denied_operations": [],
+  "elapsed_seconds": 3.5720017079947866,
+  "final_test_trajectories_read": 0,
+  "preflight_only": true,
+  "projected_complete_seconds": 528.6665827499601,
+  "role_seconds": 1.8795816249985364
+}

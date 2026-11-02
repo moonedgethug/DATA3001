@@ -1,0 +1,23 @@
+{
+  "src/data3001/__init__.py": "43ec0c940bb96691b674348fe8537086877f47bc8108304f5ef39d70bab0594c",
+  "src/data3001/modelling/__init__.py": "d8e7d19da90b60d05900ce5117f25aa24cf65c8ff0609f03ba080929a569f4b0",
+  "src/data3001/modelling/baselines/__init__.py": "76822eabdab48e2fa578b3fd4f5cf158aaa875b4868a1d41bf8e72d3c73e9713",
+  "src/data3001/modelling/baselines/adaptive_b2_b1.py": "c49a869898918f33c6ca906022d73cca7dfa4e63ace415d12dc9dc5e8d98fd62",
+  "src/data3001/modelling/baselines/adaptive_b2_b1_report.py": "e0846ecc95efbedca4aca5439e6f8ad7a06f12fc9f59c43e1731d5e72ae34db3",
+  "src/data3001/modelling/baselines/b2_b1_e2_audit.py": "2b4e66ea6a84a4653f2c05c7afe2df1ffd11c3767f1fc03574bf38ec7f0cfbca",
+  "src/data3001/modelling/baselines/drifter_shrinkage_e3.py": "b6276e20c84ae7a32768446c8a6b583d1e7880922f6529e7537c6e44ef423823",
+  "src/data3001/modelling/baselines/drifter_shrinkage_e3_audit.py": "5e8acb7200dd9716dacd5ab4d8fc634ae92dd31b0fd545658009e62533f1890b",
+  "src/data3001/modelling/baselines/empirical_b2.py": "a53de5d27488cebfd18c7f439359f7b6b0c3ff4bdadb0bfdef482b62f2c14510",
+  "src/data3001/modelling/baselines/partial_weighting_e4.py": "465df876de511cf6b07810d5a0960f57af076de234b5c8dafc12c8994195338a",
+  "src/data3001/modelling/baselines/partial_weighting_e4_audit.py": "b9e070078e0afb8eabadc9c61efd0fd482f4c9406f902b5fe3d7548bc53b1e45",
+  "src/data3001/modelling/baselines/partial_weighting_e4_report.py": "ecb040f62b62c90c5e55375f3321a726079031e2aa6a0df03bb2a96a0c5cc12a",
+  "src/data3001/modelling/baselines/run_partial_weighting_e4.py": "f3207b0243ab1165dd377d7948254f6f7ec1b01b1fc42992fb52871dfdc3879a",
+  "src/data3001/modelling/common/__init__.py": "8498d955e8b1247d9e0604902695ffb1a63b64844b2ff9583573990a7d1e2758",
+  "src/data3001/modelling/common/plotting.py": "f597f1578ad08bfcc577140b39d66724ab0d8fc96201b78304b093c631b55911",
+  "src/data3001/modelling/common/prediction_regions.py": "05a672051952ef0aa591229c7db51d4e1e63e961def69b25b610e8e343482d94",
+  "src/data3001/modelling/common/qualified_count_inputs.py": "d51a540168b250a0e566841cb98147c58ba2b91781c196e6db49fe1fb932de30",
+  "src/data3001/modelling/common/runtime.py": "fb77896b7159fde319ad8908ea2b2535e1f9405b47e7126c2502f88fdc39fa90",
+  "src/data3001/paths.py": "c0454db46f96faf07f2fe3d59ea4faaba57e7c0dded37895bce24668fb888585",
+  "src/data3001/preprocessing/__init__.py": "1afb8a92622de9aeaa680846bf424c42b49c16d764dac6da9e3217d304ea8037",
+  "src/data3001/preprocessing/prep_core.py": "d8424765f3da4e25d1a98755adf0249e187e57383e4875193136155952940f05"
+}

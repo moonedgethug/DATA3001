@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-30T11:33:43.171694+00:00",
+  "before_reviewing_score_results": true,
+  "count_source": "results/runs/spatial_borrowing_s3_e1_input_20261030T112401_858212Z/counts_by_id.parquet",
+  "count_sha256": "9cf28f918c35577118a143ccf2a46305a26fd0f6c4fbf48218ea706cb69dce32",
+  "rule": "approved support-only ordering; minimum distinct local IDs over both horizons",
+  "roster": [
+    [
+      "high_support",
+      44744
+    ],
+    [
+      "low_support",
+      44742
+    ],
+    [
+      "coastal",
+      44382
+    ]
+  ],
+  "support": {
+    "44744": 223,
+    "44742": 5,
+    "44382": 68
+  }
+}

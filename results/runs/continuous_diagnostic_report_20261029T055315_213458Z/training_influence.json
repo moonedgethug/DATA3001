@@ -1,0 +1,12 @@
+{
+  "IDs": 2100,
+  "R_pair_fraction": 0.012081100028259201,
+  "fraction_in_segments_ge_168h": 0.9886249918483071,
+  "fraction_in_segments_ge_24h": 0.998753033594291,
+  "fraction_in_segments_ge_720h": 0.949025911514538,
+  "next_hour_eligibility": 0.9994465251278223,
+  "pairs": 20609216,
+  "top_100_ID_training_share": 0.17996948549619743,
+  "top_10_ID_training_share": 0.02521721350292995,
+  "top_1_ID_training_share": 0.0029151036118986767
+}

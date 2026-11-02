@@ -1,0 +1,10 @@
+{
+  "run_id": "actual_origin_disp_s3_e5_o1_review_20261031T140630_436864Z",
+  "created_UTC": "2026-10-31T14:06:30.437812+00:00",
+  "config": {
+    "experiment": "E5_O1_capacity_review",
+    "source_run": "actual_origin_disp_s3_e5_o1_20261031T131701_288861Z",
+    "full_experiment_started": false
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

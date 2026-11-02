@@ -1,0 +1,42 @@
+{
+  "approved_plan": "docs/empirical_b2_plan.md",
+  "bootstrap_replicates": 200,
+  "bootstrap_scope": "whole_development_ID_resampling_fixed_out_of_fold_predictions",
+  "bootstrap_seed": 20261029,
+  "compute_cap_seconds": 1800,
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "counts_path": "results/runs/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet",
+  "dataset_release": "per-drifter-cleaned-20261017-v7",
+  "departure_seasons": "annual_pooled",
+  "experiment": "empirical_b2",
+  "final_test_access": false,
+  "folds_path": "results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv",
+  "grid_degrees": 1,
+  "horizons_days": [
+    7,
+    30
+  ],
+  "inner_search": false,
+  "mass_tolerance": 1e-12,
+  "model": "B2",
+  "origin_population": "R",
+  "outer_folds": 5,
+  "plan_version": "E2",
+  "predictors": [
+    "origin_cell_1"
+  ],
+  "primary_metric": "standard_multiclass_brier",
+  "scenario": "pooled",
+  "smoothing": false,
+  "source_assets": [
+    "english_contract",
+    "state_index",
+    "release_R",
+    "transport_D",
+    "land_mask_intermediate"
+  ],
+  "target": "stopped",
+  "tolerance_hours": 0,
+  "unsupported_score": "missing_report_availability",
+  "weighting": "equal_eligible_pairs"
+}

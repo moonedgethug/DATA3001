@@ -1,0 +1,32 @@
+{
+  "phases": [
+    {
+      "elapsed_seconds": 677.1842785000044,
+      "stage": "A",
+      "status": "RUNNING"
+    },
+    {
+      "elapsed_seconds": 960.3799034159892,
+      "stage": "B",
+      "status": "RUNNING"
+    },
+    {
+      "elapsed_seconds": 331.63477324999985,
+      "stage": "B",
+      "status": "RUNNING"
+    },
+    {
+      "elapsed_seconds": 43.15170591700007,
+      "stage": "B",
+      "status": "RUNNING"
+    }
+  ],
+  "reason": "",
+  "status": "RUNNING",
+  "used_seconds": {
+    "A": 677.1842785000044,
+    "B": 1335.1663825829892,
+    "C": 0.0,
+    "D": 0.0
+  }
+}

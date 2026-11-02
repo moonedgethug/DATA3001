@@ -1,0 +1,88 @@
+{
+  "run_id": "continuous_cv_20261028T143556_027911Z",
+  "created_UTC": "2026-10-28T14:35:56.028306+00:00",
+  "config": {
+    "step_hours": 1,
+    "features": [
+      "lon",
+      "lat",
+      "ve",
+      "vn"
+    ],
+    "target": "joint_Euler_position_residual_and_velocity_increment",
+    "scenario": "annual_pooled",
+    "horizons_days": [
+      7,
+      30
+    ],
+    "cv_folds": 3,
+    "cv_pool": "historical_train_only",
+    "evaluation_pool": "historical_validation_previously_used_in_project",
+    "selection": "minimum_equal_pair_mean_7d_or_30d_unbiased_particle_S_separately",
+    "candidates": [
+      {
+        "name": "G_l2_0",
+        "components": 1,
+        "l2": 0.0
+      },
+      {
+        "name": "G_l2_1e4",
+        "components": 1,
+        "l2": 0.0001
+      },
+      {
+        "name": "MDN3_l2_0",
+        "components": 3,
+        "l2": 0.0
+      },
+      {
+        "name": "MDN3_l2_1e4",
+        "components": 3,
+        "l2": 0.0001
+      }
+    ],
+    "hidden_width": 32,
+    "hidden_layers": 2,
+    "covariance": "full_4D_with_eigenvalue_floor",
+    "standardized_covariance_floor": 0.03,
+    "learning_rate": 0.001,
+    "batch_size": 32768,
+    "max_epochs": 8,
+    "early_stop_patience": 2,
+    "early_stop_min_delta": 0.001,
+    "early_stop": "CV_held_ID_joint_NLL; tuning_scores_not_unbiased_performance",
+    "refit_epochs": "median_CV_best_epoch_for_selected_candidate",
+    "cv_particles": 8,
+    "validation_particles": 32,
+    "forecast_batch_particles": 32768,
+    "seed": 20261029,
+    "cpu_threads": 4,
+    "weighting": "all_eligible_hourly_pairs_equal_weight",
+    "exit": "absorbing_at_first_generated_hour_outside_D",
+    "geometry_failure": "absorbing_U_no_renormalization_no_grounding_claim",
+    "final_test_access": false,
+    "scope_limit": "bounded_first_hourly_experiment_not_global_optimum_or_365_day_validation",
+    "input_sha256": {
+      "docs/contract/data_contract_v1.0.xlsx": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+      "configs/dataset_manifest.json": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+      "configs/dataset_index.csv": "9a2e465dcf836ebd0825907b1e89310a1ace8f4a6e87a470d203acedab0e657f",
+      "configs/qualification_manifest.json": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+      "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb": "4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0",
+      "archive/data_before_release_20261016/reference/handover_20261013/geometry/state_index.parquet": "5d7934a19221618b4102e8be40cb294774506d60856f85f606ad2178495ac24f",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73",
+      "configs/markov_m1.json": "113ae472e4a416dedc851dc5507de018d1b6d0f261f25db26d5b9ccbd511b1d1",
+      "configs/continuous_hourly.json": "00f5665ec5296b970eb5d2f767cc8a3e6d7b204cfe73d23ca02b4ff884233903",
+      "provenance/runs/continuous_input_20261028T143429_995267Z/outputs.json": "71707785232f0686d96f55003a35e3206fa8a26accdce0131dba13982767bc28"
+    },
+    "source_sha256": {
+      "src/data3001/modelling/continuous.py": "faede5dd73de867f1b91eb3f95216163c6ebf6385edda225000793deb4898b72",
+      "src/data3001/modelling/run_continuous.py": "11a1a8c9bc7ef62035f77b8e2ac672c275ab6ec536c3b99f74b0b2842ee1327a"
+    },
+    "input_run": "continuous_input_20261028T143429_995267Z",
+    "benchmark": false,
+    "torch": "2.14.1"
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

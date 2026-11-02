@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hourly continuous transport</title>
+<style>body{font:16px system-ui;color:#193047;background:#f5f7fa;max-width:1250px;margin:30px auto;padding:20px}h1{font-size:30px}p{line-height:1.6}section{background:white;border:1px solid #d8e1ea;border-radius:12px;padding:20px;margin:20px 0}select{padding:8px;margin:8px}table{border-collapse:collapse;font-size:13px;width:100%}td,th{padding:9px;border-bottom:1px solid #ddd;text-align:right}th{background:#eaf1f6}svg{max-width:100%;height:auto}.scroll{overflow:auto}.tag{color:#975100;font-weight:600}</style>
+<h1>Continuous hourly transport</h1><p class="tag">Historical development validation · fixed 1-hour model · final test locked</p>
+<p>Compare the conditional Gaussian, MDN and a matched B2 control. The forecast starts with exact longitude, latitude and velocity, then generates its own hourly positions and velocities. Exit is absorbing; unresolved mass is visible.</p>
+<section><h2>Matched outcome distributions</h2><label>Horizon <select id="h"><option value="7">7 days / 168 steps</option><option value="30">30 days / 720 steps</option></select></label><label>Release cell <select id="c"><option value="43299">43299: -81 to -80° lon, 30 to 31° lat</option><option value="43300">43300: -80 to -79° lon, 30 to 31° lat</option><option value="43301">43301: -79 to -78° lon, 30 to 31° lat</option><option value="43302">43302: -78 to -77° lon, 30 to 31° lat</option><option value="43303">43303: -77 to -76° lon, 30 to 31° lat</option><option value="43304">43304: -76 to -75° lon, 30 to 31° lat</option><option value="43305">43305: -75 to -74° lon, 30 to 31° lat</option><option value="43306">43306: -74 to -73° lon, 30 to 31° lat</option><option value="43659">43659: -81 to -80° lon, 31 to 32° lat</option><option value="43660">43660: -80 to -79° lon, 31 to 32° lat</option><option value="43661">43661: -79 to -78° lon, 31 to 32° lat</option><option value="43662">43662: -78 to -77° lon, 31 to 32° lat</option><option value="43663">43663: -77 to -76° lon, 31 to 32° lat</option><option value="43664">43664: -76 to -75° lon, 31 to 32° lat</option><option value="43665">43665: -75 to -74° lon, 31 to 32° lat</option><option value="43666">43666: -74 to -73° lon, 31 to 32° lat</option><option value="44020">44020: -80 to -79° lon, 32 to 33° lat</option><option value="44021">44021: -79 to -78° lon, 32 to 33° lat</option><option value="44022">44022: -78 to -77° lon, 32 to 33° lat</option><option value="44023">44023: -77 to -76° lon, 32 to 33° lat</option><option value="44024">44024: -76 to -75° lon, 32 to 33° lat</option><option value="44025">44025: -75 to -74° lon, 32 to 33° lat</option><option value="44026">44026: -74 to -73° lon, 32 to 33° lat</option><option value="44381">44381: -79 to -78° lon, 33 to 34° lat</option><option value="44382">44382: -78 to -77° lon, 33 to 34° lat</option><option value="44383">44383: -77 to -76° lon, 33 to 34° lat</option><option value="44384">44384: -76 to -75° lon, 33 to 34° lat</option><option value="44385">44385: -75 to -74° lon, 33 to 34° lat</option><option value="44386">44386: -74 to -73° lon, 33 to 34° lat</option><option value="44742">44742: -78 to -77° lon, 34 to 35° lat</option><option value="44743">44743: -77 to -76° lon, 34 to 35° lat</option><option value="44744" selected>44744: -76 to -75° lon, 34 to 35° lat</option><option value="44745">44745: -75 to -74° lon, 34 to 35° lat</option><option value="44746">44746: -74 to -73° lon, 34 to 35° lat</option><option value="45104">45104: -76 to -75° lon, 35 to 36° lat</option><option value="45105">45105: -75 to -74° lon, 35 to 36° lat</option><option value="45106">45106: -74 to -73° lon, 35 to 36° lat</option></select></label><div id="map"></div><p>Same scale within a view. Forecasts and observations use matching validation releases. Forecasts are cohort averages, not a single point. E and U remain in the denominator.</p></section><section><h2>All eligible validation releases</h2><p>Lower S is better; it is not a percentage. Cohort coverage averages forecasts within each release cell, forms its 90% set, then checks matching observed endpoints. This measures the displayed cohort distribution, not individual-forecast calibration. Individual 32-particle footprints are too coarse for precise coverage conclusions; they remain labelled numerical diagnostics in the CSV.</p><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Days</th>
+      <th>Model</th>
+      <th>S</th>
+      <th>Cohort 90% hit %</th>
+      <th>Cohort 90% set available %</th>
+      <th>Unresolved mass %</th>
+      <th>Pairs</th>
+      <th>IDs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>B2 matched stopped control</td>
+      <td>0.9245</td>
+      <td>89</td>
+      <td>100</td>
+      <td>0</td>
+      <td>65098</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>G</td>
+      <td>0.9788</td>
+      <td>67.89</td>
+      <td>94.33</td>
+      <td>3.505</td>
+      <td>65098</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>MDN3</td>
+      <td>0.9726</td>
+      <td>68.11</td>
+      <td>94.48</td>
+      <td>3.083</td>
+      <td>65098</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>B2 matched stopped control</td>
+      <td>0.9962</td>
+      <td>65.65</td>
+      <td>100</td>
+      <td>0</td>
+      <td>56493</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>G</td>
+      <td>1.029</td>
+      <td>50.9</td>
+      <td>74.87</td>
+      <td>8.931</td>
+      <td>56493</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>MDN3</td>
+      <td>1.028</td>
+      <td>51.41</td>
+      <td>71.38</td>
+      <td>9.673</td>
+      <td>56493</td>
+      <td>60</td>
+    </tr>
+  </tbody>
+</table></div></section><p><a href="REPORT.md">Full audit and method</a> · <a href="summary.csv">Summary CSV</a> · <a href="paired_ID_intervals.csv">Whole-ID intervals</a></p><script>const charts={"7_43299": "charts/7_43299.svg", "7_43300": "charts/7_43300.svg", "7_43301": "charts/7_43301.svg", "7_43302": "charts/7_43302.svg", "7_43303": "charts/7_43303.svg", "7_43304": "charts/7_43304.svg", "7_43305": "charts/7_43305.svg", "7_43306": "charts/7_43306.svg", "7_43659": "charts/7_43659.svg", "7_43660": "charts/7_43660.svg", "7_43661": "charts/7_43661.svg", "7_43662": "charts/7_43662.svg", "7_43663": "charts/7_43663.svg", "7_43664": "charts/7_43664.svg", "7_43665": "charts/7_43665.svg", "7_43666": "charts/7_43666.svg", "7_44020": "charts/7_44020.svg", "7_44021": "charts/7_44021.svg", "7_44022": "charts/7_44022.svg", "7_44023": "charts/7_44023.svg", "7_44024": "charts/7_44024.svg", "7_44025": "charts/7_44025.svg", "7_44026": "charts/7_44026.svg", "7_44381": "charts/7_44381.svg", "7_44382": "charts/7_44382.svg", "7_44383": "charts/7_44383.svg", "7_44384": "charts/7_44384.svg", "7_44385": "charts/7_44385.svg", "7_44386": "charts/7_44386.svg", "7_44742": "charts/7_44742.svg", "7_44743": "charts/7_44743.svg", "7_44744": "charts/7_44744.svg", "7_44745": "charts/7_44745.svg", "7_44746": "charts/7_44746.svg", "7_45104": "charts/7_45104.svg", "7_45105": "charts/7_45105.svg", "7_45106": "charts/7_45106.svg", "30_43299": "charts/30_43299.svg", "30_43300": "charts/30_43300.svg", "30_43301": "charts/30_43301.svg", "30_43302": "charts/30_43302.svg", "30_43303": "charts/30_43303.svg", "30_43304": "charts/30_43304.svg", "30_43305": "charts/30_43305.svg", "30_43306": "charts/30_43306.svg", "30_43659": "charts/30_43659.svg", "30_43660": "charts/30_43660.svg", "30_43661": "charts/30_43661.svg", "30_43662": "charts/30_43662.svg", "30_43663": "charts/30_43663.svg", "30_43664": "charts/30_43664.svg", "30_43665": "charts/30_43665.svg", "30_43666": "charts/30_43666.svg", "30_44020": "charts/30_44020.svg", "30_44021": "charts/30_44021.svg", "30_44022": "charts/30_44022.svg", "30_44023": "charts/30_44023.svg", "30_44024": "charts/30_44024.svg", "30_44025": "charts/30_44025.svg", "30_44026": "charts/30_44026.svg", "30_44381": "charts/30_44381.svg", "30_44382": "charts/30_44382.svg", "30_44383": "charts/30_44383.svg", "30_44384": "charts/30_44384.svg", "30_44385": "charts/30_44385.svg", "30_44386": "charts/30_44386.svg", "30_44742": "charts/30_44742.svg", "30_44743": "charts/30_44743.svg", "30_44744": "charts/30_44744.svg", "30_44745": "charts/30_44745.svg", "30_44746": "charts/30_44746.svg", "30_45104": "charts/30_45104.svg", "30_45105": "charts/30_45105.svg", "30_45106": "charts/30_45106.svg"};function render(){const h=document.getElementById("h").value,c=document.getElementById("c").value,src=charts[h+"_"+c],host=document.getElementById("map");host.replaceChildren();if(!src){host.textContent="No eligible cohort for this selection.";return;}const img=document.createElement("img");img.src=src;img.alt=h+"-day matched outcome distributions for release cell "+c;img.style.width="100%";host.appendChild(img);}document.getElementById("h").onchange=render;document.getElementById("c").onchange=render;render();</script></html>

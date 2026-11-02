@@ -1,0 +1,3 @@
+horizon_days,outer_fallbacks,outer_selections,meaningful_outer_forecast_change,preferred_overall_candidate,all_development_fallback
+7,5,5,False,False,True
+30,5,5,False,False,True

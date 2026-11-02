@@ -1,0 +1,57 @@
+{
+  "confidence_interval": false,
+  "full_experiment_seconds": null,
+  "geometry_with_fresh_replay_seconds": 1800376.4341438827,
+  "geometry_with_replay_reserve_seconds": 4572955.332325194,
+  "missing_costs": [
+    "candidate Brier and 90% region scoring",
+    "controls and full fit roles",
+    "uncertainty",
+    "independent audit",
+    "checkpoint I/O and full orchestration/reporting"
+  ],
+  "parallel_speedup_assumed": false,
+  "primary_geometry_reserve_seconds": 2286477.666162597,
+  "primary_geometry_seconds": 900188.2170719414,
+  "scope": "geometry only; eight calibration queries, no held-out engineering validation",
+  "statistical_lower_bound": false,
+  "strata": [
+    {
+      "calibration_queries": 2,
+      "coastal": false,
+      "horizon": 7,
+      "measured_origins": 1,
+      "primary_mean_rate_seconds": 87093.51575116366,
+      "primary_slow_rate_plus_reserve_seconds": 253856.27124321795,
+      "query_donor_pairs": 14863563908
+    },
+    {
+      "calibration_queries": 2,
+      "coastal": true,
+      "horizon": 7,
+      "measured_origins": 1,
+      "primary_mean_rate_seconds": 23387.368667727173,
+      "primary_slow_rate_plus_reserve_seconds": 48182.849512790366,
+      "query_donor_pairs": 316403430
+    },
+    {
+      "calibration_queries": 2,
+      "coastal": false,
+      "horizon": 30,
+      "measured_origins": 1,
+      "primary_mean_rate_seconds": 748702.6582107471,
+      "primary_slow_rate_plus_reserve_seconds": 1901499.7879700763,
+      "query_donor_pairs": 11992564306
+    },
+    {
+      "calibration_queries": 2,
+      "coastal": true,
+      "horizon": 30,
+      "measured_origins": 1,
+      "primary_mean_rate_seconds": 41004.67444230353,
+      "primary_slow_rate_plus_reserve_seconds": 82938.75743651245,
+      "query_donor_pairs": 201089532
+    }
+  ],
+  "workers": 1
+}

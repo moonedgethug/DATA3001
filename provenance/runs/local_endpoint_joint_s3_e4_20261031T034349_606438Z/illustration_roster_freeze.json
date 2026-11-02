@@ -1,0 +1,17 @@
+{
+  "phase": "before_outer_fitting",
+  "roster": [
+    [
+      "high_support",
+      44744
+    ],
+    [
+      "low_support",
+      44742
+    ],
+    [
+      "coastal",
+      44382
+    ]
+  ]
+}

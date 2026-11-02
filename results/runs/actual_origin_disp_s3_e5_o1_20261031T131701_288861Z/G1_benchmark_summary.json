@@ -1,0 +1,18 @@
+[
+  {
+    "batch": 2048,
+    "context_seconds": 0.08398712400230579,
+    "kernel_seconds": 324.13814404202276,
+    "setup_seconds": 0.0009800419938983396,
+    "total_seconds": 324.22311120801896,
+    "variant": "G1"
+  },
+  {
+    "batch": 8192,
+    "context_seconds": 0.08871508300944697,
+    "kernel_seconds": 319.11386266698537,
+    "setup_seconds": 0.0008111249917419627,
+    "total_seconds": 319.20338887498656,
+    "variant": "G1"
+  }
+]

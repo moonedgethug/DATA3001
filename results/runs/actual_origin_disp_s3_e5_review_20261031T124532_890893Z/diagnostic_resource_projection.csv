@@ -1,0 +1,2 @@
+horizon_days,origin_cell_1,sample_queries,planned_queries,completed_stratum,outer_combinations,mean_query_seconds,mean_seconds_per_donor,diagnostic_hours_mean,diagnostic_hours_min,diagnostic_hours_max
+7,43663,7,8,False,984068594,37.84965077971616,0.0005645662536874818,154.32553319057988,152.73095301466753,155.24477027464962

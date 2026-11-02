@@ -1,23 +1,36 @@
 # Round 1 Probability Transport Modelling — Implementation Plan
 
-## Current stage: empirical Markov matrix consolidation (2026-10-29)
+**Current stage status:** S1 is completed and frozen; Fixed and Adaptive remain Step 2 research outcomes. The [S3 E1 benchmark](spatial_borrowing_s3_e1_results.md), [E2 adaptive local comparison](local_endpoint_adaptive_s3_e2_results.md), [E3 neighbour-quality comparison](local_endpoint_quality_s3_e3_results.md) and [E4 joint constrained comparison](local_endpoint_joint_s3_e4_results.md) have been independently executed, audited and replayed. E4 does not establish a quality-preserving upgrade: all constrained selections fall back to LocalEndpointAdaptive. The [locked E4 plan](local_endpoint_joint_s3_e4_plan.md) retains raw-pair training, equal-ID/equal-cell standard Brier, fixed 90% regions and whole-ID validation. The `Markov Step 1 - 3done` publication milestone records this bounded sequence; E5 exact-coordinate work is deferred without full-CV results. [Step 4 seasonal planning](time_environment_s4_architecture.md) is now the next review task; its contract remains a draft, not execution authority. Historical definitions below retain their own targets. The [stage ledger](research_stage_ledger.md) records approvals; final-test access remains a separate decision.
 
-The user approved returning to Stage 1: establish and consolidate the empirical transition matrices. The workbench remains annual-pooled, with known initial velocity for state-aware models. The fixed cell-only M1 and direct B2 remain controls. The next stages may examine support-adaptive shrinkage and then seasonal conditioning; they are not new experiments executed by this source reorganisation.
+## Earlier S1 planning snapshot: B2 empirical transition matrices, 7/30 days (2026-10-29; superseded where amended above)
 
-The current priority is completion and improvement of Markov probability propagation, spatial dispersion, validation and interpretable delivery. Further development of more complex model families is paused. This direction does not introduce a new diffusion equation, stochastic forcing or a changed scientific target. Historical continuous-model report links below refer to retained local runs; this architecture publication includes their source/configuration/tests, not the result bundles.
+The user's latest decision narrows Stage 1 to B2 alone. This supersedes the earlier suggestion to require M1/M1vcat propagation, velocity-state support or seasonal/long-horizon diagnostics in the first-stage deliverable. Existing M1, M1vcat and continuous results remain preserved; their implementation or refitting is not needed to complete this stage.
 
-The current engineering task groups source code into shared services, direct baselines, Markov models and continuous Gaussian/MDN models. See the [code guide](code_guide.md). It changes module locations and shared ownership, not the dataset, model equations, features, weighting, eligibility, folds or scores. Old module commands remain compatibility entries. Continuous optimisation and the stopped neighbour search remain paused; final test remains locked.
+| Decision | Approved Stage 1 scope |
+|---|---|
+| Data | Final cleaned `per-drifter-cleaned-20261017-v7`; reuse existing qualified inputs and fitting roles |
+| Development boundary | Existing development IDs only; final test remains locked |
+| Spatial state | One-degree release cell; existing R and D geometry retained |
+| Horizons | Exactly 7 and 30 days, estimated independently |
+| Scenario | Annual-pooled; no new seasonal or fixed-drogue conditioning |
+| Model | B2 direct empirical Markov transition model at each fixed horizon |
+| Predictors | Release cell and requested horizon; available initial velocity is unused by B2, not deleted from the dataset |
+| Target and weights | Existing stopped first-exit target, E/U treatment and equal eligible-pair weights retained |
+
+For each supported release-cell row, `P_h(i,j) = N_h(i,j) / sum_k N_h(i,k)`, for `h in {7,30}`. Counts use only that fitting role's qualified pairs. Outcomes use the existing D-cell/E mapping; unsupported release rows retain the existing unresolved forecast treatment. B2 can be described as a fixed-horizon empirical Markov transition model, using the current cell as the predictive state. This is a modelling assumption, not an empirical proof that the observed ocean process is Markovian. Stage 1 neither composes the two tables nor requires a daily kernel or consistency with powers of one common matrix.
+
+The term empirical also applies to the count estimates in M1/M1vcat. They are deferred because their iterative propagation or richer state is outside the chosen Stage 1 scope, not because empirical estimation excludes them mathematically. The `baselines/` package name identifies B2's benchmark role and does not assert that B2 is non-Markov.
 
 Stage 1 completion criteria:
 
-1. Reuse the sealed B2, M1 and raw/selected M1vcat comparisons and fitting roles; do not relearn an already audited baseline merely because files moved.
-2. Document each empirical row: source/destination state, lag, fitting IDs, equal-pair counts, independent-ID support and dominant-ID contribution. Distinguish direct horizon endpoint frequencies from iterated short-lag operators.
-3. Check probability conservation, absorbing E/U, unsupported-row fallback, observed-hour first-exit qualification and exact remainder kernels. Preserve whole-ID exclusion across R and D.
-4. Relate support to actual forecast visitation and held-out error by cell/state/horizon. Existing D-wide sparse-row counts alone do not demonstrate an important prediction problem.
-5. Reuse same-case 7/30-day forecasts, S, actual region mass, coverage/size, E/U and whole-ID intervals. Retain the 7-day exact-position comparison without claiming a reliable additional 30-day gain.
-6. Produce fitting-role seasonal/long-horizon support diagnostics before proposing a new conditional operator. Existing 90/180/365-day support is not long-horizon skill.
+1. Reuse the B2 component of existing sealed stopped-target comparisons and the existing whole-ID fitting/evaluation assignments. The B2 records in `markov_vcat_cv_20261026T155955_651594Z` are reusable evidence; reading them does not require running M1vcat. Do not silently substitute the earliest endpoint-occupancy B2 labels.
+2. Produce or reconstruct the two B2 empirical tables with explicit source/destination indexes, counts, row totals, fitting IDs and data/qualification provenance. Label outer-fold matrices and an all-development candidate separately; a full-development fit is not independently evaluated by its own data.
+3. Check nonnegativity, supported-row sums, zero-support treatment, E/U conventions, qualified first-exit labels and whole-ID exclusion. No recursive propagation, velocity thresholds or exact remainder kernel is required.
+4. Report independent-ID support and dominant-ID contribution per release cell and horizon. Link row support and unseen destinations to held-out B2 error; overlapping hourly pairs are not independent instruments.
+5. Reuse or reconstruct B2's held-out S, actual issued region mass, coverage/size, E/U and whole-ID uncertainty, with explicit sample counts and maps. Keep zero empirical probabilities visible; absence from a finite count table is not proof of physical impossibility.
+6. Deliver a clear English method/result account and a reproducible B2 artifact entry. Record what already exists, what was reconstructed and what has not been run. Completion does not require demonstrating superiority to a model with different information or a different purpose.
 
-No adaptive shrinkage, seasonal fitting, extra memory state, grid/region expansion or new training run is part of the code-organisation task. The support/error findings determine the next bounded experiment, under the approved staged plan.
+Smoothing, neighbour borrowing, M1/M1vcat propagation, extra history/latent states, seasonal modelling, other horizons and grid/region expansion are later decisions. MDN optimisation and the stopped neighbour run remain paused. The existing [code guide](code_guide.md) provides B2-first navigation. Historical continuous-model report links below refer to retained local runs, not result bundles published with the architecture. This scope update changes current planning; historical configurations, reports and receipts remain unchanged.
 
 ## Completed previous stage: frozen continuous-model diagnostic audit (2026-10-29)
 

@@ -1,0 +1,28 @@
+{
+  "phase": "before_all_development_tuning",
+  "sha256": {
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/heldout_id_cells.parquet": "e437eed2a07a153d4f4d1b87d547d1ec37e6c52ec9c4a5ff2b7078b5fb7e458f",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/heldout_scores.parquet": "788c2139097bfa8c709234e076bf9946385274945d3dc4d5b57821abfd19bb32",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_0_B2.parquet": "9253e4045921315cd3120cc8fb646f529673858f7c5b4ca1843b630ee17d8738",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_0_EqualID.parquet": "4abd4f118b7a0a2e79e05350a3a1230e7e69f45ab172b461f7818ac5e8443a59",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_0_Fixed.parquet": "0306cef3ef83003f9e0dfe4fc46e13e8fa1f42a6bfc4f48c4f2108eb76df386a",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_0_PartialID.parquet": "73883b8a4244843f7e78d591d94a480c4eec8b8318250ba752ea67cdef781f0c",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_1_B2.parquet": "f6fd8c51757294cc6b2137390d1ec85cd86513812854f49928621b0f4ce3ffc2",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_1_EqualID.parquet": "b1f48e9803eea2eab1112a18ec96b41fe6f3e33dda76721e3cdd952299bf7f23",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_1_Fixed.parquet": "171dedcb14fd606948f420b1f37fd8b927f6df0504d1f42209abdd9ced865e0e",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_1_PartialID.parquet": "8f99eea7cba50ec21b34c39d65897f5067ad4dc1e646efd01a4a9ab070a34157",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_2_B2.parquet": "775cd9c36c664397ec542fa4ee65b910d7f1efd3de0fba2c94f29a6bbcb91b3a",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_2_EqualID.parquet": "7453582432847b0d17ec9009c13eabf1c0521b4e6b46ac33ca81ad512704431c",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_2_Fixed.parquet": "0945a7ea5ead696a272e3266d6dbce55a3f7d129c12245e07d1489226ae02495",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_2_PartialID.parquet": "97ed63f08107565adf5e2cd715a8e08909fdae3cde8e9d57fdbcc23a1f27161d",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_3_B2.parquet": "58ce0fc2263222a8841b9cb70613c0b401e5dd0a0d6b291d82aedce2218473e3",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_3_EqualID.parquet": "63486abc0fb392cc815ac449c0b75a8534874727567b213c2aaa564cf21f651d",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_3_Fixed.parquet": "8b2df9fb65bb45ccd889697e818fa61d443b73590c7cee2b2036996be5ccab0a",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_3_PartialID.parquet": "db74d197481f3fc4b780c487f85277334d4c57c46565593c7bd512d72678fb0f",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_4_B2.parquet": "7fc99cbd47a9e9cf7cbc71d757ae42b77fd25f8312c801f22ca9654d0642e676",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_4_EqualID.parquet": "d7a49f63cb07c4f90f9208f17b6f8b306b768c6c6e3e580d19897f2fc9b8ef09",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_4_Fixed.parquet": "3924c1959a8cb25e9cedfe314713b54948a59a7333159c2b7a86283af8e04ee0",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/matrices/outer_4_PartialID.parquet": "5851b779d6e38d4353e20d27fe638e5ac68c08d3b25a0407fcbd2167cd0062d0",
+    "results/runs/partial_weighting_e4_20261030T082826_141410Z/selected_outer_parameters.csv": "d944931f8426df5cfaecd53877434dae4d23279e93c070c378942e96bc240029"
+  }
+}

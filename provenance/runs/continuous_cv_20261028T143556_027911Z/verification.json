@@ -1,0 +1,10 @@
+{
+  "benchmark": false,
+  "canonical_changed": false,
+  "completed": true,
+  "denied_operations": [],
+  "final_test_access": false,
+  "historical_validation_independent_of_current_parameter_selection": true,
+  "historical_validation_is_not_pristine_final_test": true,
+  "step_hours": 1
+}

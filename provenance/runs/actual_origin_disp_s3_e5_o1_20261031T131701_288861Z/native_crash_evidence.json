@@ -1,0 +1,92 @@
+{
+  "exception": {
+    "codes": "0x0000000000000001, 0x0000000000000008",
+    "rawCodes": [
+      1,
+      8
+    ],
+    "signal": "SIGSEGV",
+    "subtype": "KERN_INVALID_ADDRESS at 0x0000000000000008",
+    "type": "EXC_BAD_ACCESS"
+  },
+  "incident": "90B69ECE-C09A-4206-B034-7AA0EB554EAA",
+  "installed": {
+    "geos": "3.14.1",
+    "python": "3.12.14",
+    "shapely": "2.2.0"
+  },
+  "interpretation": "Shared prepared geometry is not thread-safe. Native stacks match the documented mutable intersector problem; no exact reproduction was attempted after failure.",
+  "source_report_path": "/Users/moonedgethug/Library/Logs/DiagnosticReports/python3.12-2026-11-01-005702.ips",
+  "source_report_sha256": "e7e6365c8f364c87e51ad79cdb5fa7768a1466cf65aaa0872dc36def7705d2cc",
+  "stage": "C_shared_prepared_geometry_thread_benchmark",
+  "stage_seconds_conservative_accounting": 60.0,
+  "stage_seconds_wallclock_estimate": 21.995229959487915,
+  "termination": {
+    "byPid": 77745,
+    "byProc": "exc handler",
+    "code": 11,
+    "flags": 0,
+    "indicator": "Segmentation fault: 11",
+    "namespace": "SIGNAL"
+  },
+  "timestamp_local": "2026-11-01 00:57:02.00 +1100",
+  "upstream_issue": "https://github.com/libgeos/geos/issues/825",
+  "worker_stacks": [
+    {
+      "symbols": [
+        "geos::math::operator-(geos::math::DD const&, geos::math::DD const&)",
+        "geos::algorithm::CGAlgorithmsDD::intersection(geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&)",
+        "geos::geom::CoordinateXYZM geos::algorithm::LineIntersector::intersectionSafe<geos::geom::CoordinateXY, geos::geom::CoordinateXY>(geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&) const",
+        "geos::geom::CoordinateXYZM geos::algorithm::LineIntersector::intersection<geos::geom::CoordinateXY, geos::geom::CoordinateXY>(geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&) const",
+        "unsigned char geos::algorithm::LineIntersector::computeIntersect<geos::geom::CoordinateXY, geos::geom::CoordinateXY>(geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&, geos::geom::CoordinateXY const&)",
+        "geos::noding::SegmentIntersectionDetector::processIntersections(geos::noding::SegmentString*, unsigned long, geos::noding::SegmentString*, unsigned long)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()",
+        "geos::noding::MCIndexSegmentSetMutualIntersector::process(std::__1::vector<geos::noding::SegmentString const*, std::__1::allocator<geos::noding::SegmentString const*>>*)",
+        "geos::noding::FastSegmentSetIntersectionFinder::intersects(std::__1::vector<geos::noding::SegmentString const*, std::__1::allocator<geos::noding::SegmentString const*>>*)",
+        "geos::geom::prep::PreparedPolygonIntersects::intersects(geos::geom::Geometry const*)",
+        "geos::geom::prep::PreparedPolygon::intersects(geos::geom::Geometry const*) const",
+        "GEOSPreparedIntersects_r",
+        "YY_b_func",
+        "generic_wrapped_legacy_loop",
+        "PyUFunc_GenericFunctionInternal",
+        "ufunc_generic_fastcall",
+        "_PyEval_EvalFrameDefault",
+        "method_vectorcall.llvm.1560568908739611851",
+        "thread_run",
+        "pythread_wrapper.llvm.6885892144854894556",
+        "_pthread_start",
+        "thread_start"
+      ],
+      "triggered": false
+    },
+    {
+      "symbols": [
+        "geos::noding::SegmentIntersectionDetector::processIntersections(geos::noding::SegmentString*, unsigned long, geos::noding::SegmentString*, unsigned long)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "bool geos::index::strtree::TemplateSTRtreeImpl<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits>::query<geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&>(geos::geom::Envelope const&, geos::index::strtree::TemplateSTRNode<geos::index::chain::MonotoneChain const*, geos::index::strtree::EnvelopeTraits> const&, geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()::$_0&)",
+        "geos::noding::MCIndexSegmentSetMutualIntersector::intersectChains()",
+        "geos::noding::MCIndexSegmentSetMutualIntersector::process(std::__1::vector<geos::noding::SegmentString const*, std::__1::allocator<geos::noding::SegmentString const*>>*)",
+        "geos::noding::FastSegmentSetIntersectionFinder::intersects(std::__1::vector<geos::noding::SegmentString const*, std::__1::allocator<geos::noding::SegmentString const*>>*)",
+        "geos::geom::prep::PreparedPolygonIntersects::intersects(geos::geom::Geometry const*)",
+        "geos::geom::prep::PreparedPolygon::intersects(geos::geom::Geometry const*) const",
+        "GEOSPreparedIntersects_r",
+        "YY_b_func",
+        "generic_wrapped_legacy_loop",
+        "PyUFunc_GenericFunctionInternal",
+        "ufunc_generic_fastcall",
+        "_PyEval_EvalFrameDefault",
+        "method_vectorcall.llvm.1560568908739611851",
+        "thread_run",
+        "pythread_wrapper.llvm.6885892144854894556",
+        "_pthread_start",
+        "thread_start"
+      ],
+      "triggered": true
+    }
+  ]
+}

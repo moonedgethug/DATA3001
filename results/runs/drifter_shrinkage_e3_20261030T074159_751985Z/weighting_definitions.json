@@ -1,0 +1,8 @@
+{
+  "conditional_diagnostics": "same primary weights, conditioned on nonmissing metric outcomes",
+  "historical_pair_scores": "secondary only; cannot select parameters or decide E3 acceptance",
+  "primary": "within-ID time mean, then equal ID mean per cell, then equal cell mean",
+  "primary_group_weight": "compressed destination multiplicity divided by local evaluation count, ID count and cell count",
+  "source_weighting_field": "raw count-cache provenance, not E3 evaluation weights",
+  "unit_metric": "within-ID unconditional metric numerator; __mass is the corresponding eligible metric mass"
+}

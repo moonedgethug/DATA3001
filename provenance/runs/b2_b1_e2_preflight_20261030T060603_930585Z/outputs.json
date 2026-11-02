@@ -1,0 +1,24 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/approved_plan.md": "1f343fe759d744622a4863f792ba593fa68afbed9bbcd43a28ea6c98ae63025d",
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/environment.json": "6619556c43c6c201ef008d067186d85507e95f4fc1d8fb61d6d430db978b537c",
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/input_inventory.json": "72d1bee2f84fb105b2e0f83212d7ccf4c8e5bb7a4ca8b7dd7829d951be6b92ab",
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/run.json": "488f61dc4340b58b8f10b5b6af6790f8862dbbb0e3e233be3451a2da92deeee6",
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/source_sha256.json": "881a1427e2f1e4eaa90f31613e19dc38604f2df95e8d01f21f86b49efd2a86c8",
+    "provenance/runs/b2_b1_e2_preflight_20261030T060603_930585Z/verification.json": "3003b3d2587007be650828664c5891a5d905f1a71156a08967dd45964de03d7b",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/bases/outer_0_inner_1_b1.parquet": "58a40d69ba08d2b52a9eae3153d58226f2234e04574fd00f9193b2d3fac9f1d9",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/bases/outer_0_inner_1_b2.parquet": "227e17b828ab7fdddff4187f587c8fa7da5e675d7ef918328d6234797a860d7d",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/bases/outer_0_inner_1_support.csv": "68315995b2bf05296101151e2718499d419dcc7efdedc959e42d81eff38f27a6",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/candidate_scores.csv": "a9725add2e7773c244916f21b95a9c506b8ff704d23acc663fd4f07077d34874",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/config.json": "2e634bbc0a816a1c2fc64a18d3db022d4176d6c73a5a29a4bb98f9713d64e92a",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/counts_by_id.parquet": "9cf28f918c35577118a143ccf2a46305a26fd0f6c4fbf48218ea706cb69dce32",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/destination_cells.csv": "231c7381a81d0960a7909976c09e1a774f61b7c4661aa2fea1687a69d76b0478",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/destination_index.csv": "70858089ab696d4f04a6dfb2abfb948f3741e3ce1e7bf03c83e4b4d8c4476333",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/fit_roles.json": "75401303f484fb66fddfb7d9ba011e869798da2cea3534d47db20c68ba6ffb2b",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/folds.csv": "d111ca23373475cac9422de6557f01ca0705e654af0b3670d383ec8c0b0a2201",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/qualification_reasons_by_id.csv": "655573fd245fcff9dfe822e7579d4c727e752e419c1f0549d71568a36bbe3210",
+    "results/runs/b2_b1_e2_preflight_20261030T060603_930585Z/source_index.csv": "31bc3eddb29b1a0c3616fc8c61f17d8b04ceb5ef00e8aa0be209782156a2239a"
+  }
+}

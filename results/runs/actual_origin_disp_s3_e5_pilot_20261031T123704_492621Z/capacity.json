@@ -1,0 +1,20 @@
+{
+  "canonical_train_reads": 0,
+  "capacity_passed": false,
+  "complete_cost_projection": null,
+  "completed_queries": 7,
+  "denied_accesses": [],
+  "elapsed_seconds": 300.5775532090047,
+  "final_test_access": false,
+  "frozen_queries": 50,
+  "full_experiment_started": false,
+  "geometry_projection": [],
+  "independent_transfer_checks": 63,
+  "meaning": "Resource feasibility only; no model-quality conclusion.",
+  "peak_rss_bytes": 957743104,
+  "reason": "pilot_300_second_cap",
+  "run_id": "actual_origin_disp_s3_e5_pilot_20261031T123704_492621Z",
+  "scientific_accuracy_results_available": false,
+  "solver_profiles": [],
+  "status": "CAPACITY_FAILED"
+}

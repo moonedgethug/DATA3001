@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "pyproj": "3.7.2",
+    "shapely": "2.2.0"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}

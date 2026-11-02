@@ -1,0 +1,3 @@
+horizon_days,model,reference,point_Brier_gain,conditional_Brier_support,conditional_quality_preserving,conditional_smaller_region,joint_point_benefit,application_tradeoff,delta_brier,delta_region90_cells,delta_region90_hit
+7,LocalDisplacement,Fixed,False,False,False,False,False,True,0.012673814619899693,-19.582084266282692,-0.07753698030688538
+30,LocalDisplacement,Fixed,False,False,False,False,False,True,0.01208103368946467,-37.68496838017283,-0.07625324068432993

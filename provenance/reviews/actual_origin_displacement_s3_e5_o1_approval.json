@@ -1,0 +1,7 @@
+{
+  "approved": true,
+  "date_local": "2026-11-01",
+  "scope": "E5 O1 optimisation development and bounded trial only; no full experiment",
+  "plan_sha256": "ebc4efbcb369c947e31a23e5544348762c3b2a9cf3a3e9f3c56c3af0c74c3f4c",
+  "user_instruction": "我确认这版优化与有界试跑方案，请开始开发并执行预算内的试跑，保持真实起点、整路径检查、完整样本和评估口径不变。完成后汇报主要瓶颈、实际加速效果、结果一致性及完整实验预计耗时，先不要启动完整实验，等我审阅后再决定。"
+}

@@ -1,0 +1,24 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/input_inventory.json": "55095a456176c1283b67cd1ffa7e67de61f0f42469018c2acfab41aa7e6d7b31",
+    "provenance/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/run.json": "94174d7d2ce4b83bccba79392ab95dc4f5ef2b6796ebe6f3bf84bf6b4bac44a9",
+    "provenance/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/source_sha256.json": "07c11b5397107f6551a7dfa306933146d9f69edfd246ea29ecc1dc928750eb24",
+    "provenance/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/verification.json": "e7e1966870301651ad6921528337061cff90465c68d046d687caa72b1ae9bab9",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/audit_sample.csv": "bb000e4927ba8d3440a10c3fa3188ba0f00710008e9a77c6a914b3359c4dadad",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/config.json": "ba4ff2631dc01b765fd5db0469a7ffc2e1b84ac7956613a1c63acf27a409c5f8",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/counts_by_id.parquet": "9cf28f918c35577118a143ccf2a46305a26fd0f6c4fbf48218ea706cb69dce32",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/destination_cells.csv": "231c7381a81d0960a7909976c09e1a774f61b7c4661aa2fea1687a69d76b0478",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/folds.csv": "d111ca23373475cac9422de6557f01ca0705e654af0b3670d383ec8c0b0a2201",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/labels/26856.parquet": "43f8003c599dc2871c90aa7a0dadfb72a9e7a7739cea3bdd84a6a60e6ac58995",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/labels/300234063942770.parquet": "f0bf84ce314748220978adec48f7f7a51c55604a4a43ed61ade124d42bc36a29",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/paths/26856.parquet": "9d532c73227c19c900f505889261e03508af16648b659c008d2db0981479bddb",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/paths/300234063942770.parquet": "d819386efc063daa18699488c0c5cbce3b23d823aebcbbcf5498f9b826d5201c",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/source_index.csv": "31bc3eddb29b1a0c3616fc8c61f17d8b04ceb5ef00e8aa0be209782156a2239a",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/transfer_counts_by_id.parquet": "b5bfb0cb3d3ba4ee98eabb150f3d5b1ca68f4972e9b0826be531e158e7b3da2f",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/transfer_diagnostics.csv": "9690ff06818008b0ac1f3130c5619500a93f5f1e79ed5508f95cef009dc9e228",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/transfers/26856.parquet": "6c393c0cc8b66804ef87259d7e0e8dcaecf40f5da59f8946735688cfa2376316",
+    "results/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/transfers/300234063942770.parquet": "d91a43c7d35bb56cb503a3cc20df3c22fdad5b663fbdf2426f14a4478a0863d5"
+  }
+}

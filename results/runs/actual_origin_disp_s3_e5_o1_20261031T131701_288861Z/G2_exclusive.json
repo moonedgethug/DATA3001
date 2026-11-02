@@ -1,0 +1,50 @@
+{
+  "exclusive": {
+    "certificate:exact_predicate": {
+      "calls": 356,
+      "cpu_seconds": 13.829806000000872,
+      "seconds": 13.83132961402589
+    },
+    "certificate:index": {
+      "calls": 356,
+      "cpu_seconds": 0.498633999996855,
+      "seconds": 0.49867233708209824
+    },
+    "certificate:residual": {
+      "calls": 178,
+      "cpu_seconds": 0.8441250000028049,
+      "seconds": 0.8453419308789307
+    },
+    "classify_context:residual": {
+      "calls": 8,
+      "cpu_seconds": 26.174992000081147,
+      "seconds": 26.181648841607966
+    },
+    "hourly_point:construction": {
+      "calls": 148080,
+      "cpu_seconds": 9.973574000003737,
+      "seconds": 9.972769101441372
+    },
+    "hourly_point:exact_predicate": {
+      "calls": 146679,
+      "cpu_seconds": 12.285349999991467,
+      "seconds": 12.285247041785624
+    },
+    "hourly_point:index": {
+      "calls": 148080,
+      "cpu_seconds": 10.48245099993892,
+      "seconds": 10.481941709265811
+    },
+    "hourly_segment:exact_predicate": {
+      "calls": 146679,
+      "cpu_seconds": 25.95798400004901,
+      "seconds": 25.95801361859776
+    },
+    "hourly_segment:index": {
+      "calls": 148080,
+      "cpu_seconds": 10.582955999934939,
+      "seconds": 10.582760305303964
+    }
+  },
+  "seconds": 110.63961495897092
+}

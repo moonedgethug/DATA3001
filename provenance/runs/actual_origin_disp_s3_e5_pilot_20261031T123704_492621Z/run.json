@@ -1,0 +1,121 @@
+{
+  "run_id": "actual_origin_disp_s3_e5_pilot_20261031T123704_492621Z",
+  "created_UTC": "2026-10-31T12:37:04.493935+00:00",
+  "config": {
+    "approval": "provenance/reviews/actual_origin_displacement_s3_e5_v2_approval.json",
+    "approved_plan": "docs/actual_origin_displacement_s3_e5_plan.md",
+    "approved_plan_sha256": "67afaa77db68bb66e924741cda3c760188be96b4b1843aa78309df11bf4d3fe3",
+    "bootstrap_replicates": 50000,
+    "bootstrap_seed": 20261031,
+    "compute_cap_seconds": 3600,
+    "continuous_bounds": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "continuous_calls_per_start": 2000,
+    "continuous_ftol": 1e-12,
+    "continuous_gtol": 1e-08,
+    "continuous_maxcor": 10,
+    "continuous_maximum_starts": 11,
+    "continuous_maxiter": 200,
+    "continuous_maxls": 20,
+    "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+    "controls": [
+      "B2",
+      "Fixed",
+      "Adaptive",
+      "LocalEndpoint",
+      "LocalEndpointAdaptive",
+      "LocalDisplacement"
+    ],
+    "counts_path": "results/runs/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet",
+    "dataset_release": "per-drifter-cleaned-20261017-v7",
+    "experiment": "actual_origin_displacement_s3_e5",
+    "final_test_access": false,
+    "fixed_quality_maximum": 114,
+    "folds_path": "results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv",
+    "full_metric_pool_maximum": 252,
+    "grid_degrees": 1,
+    "horizons_days": [
+      7,
+      30
+    ],
+    "inner_folds": 4,
+    "installed_scipy": "1.16.3",
+    "max_new_artifact_bytes": 5368709120,
+    "max_rss_bytes": 8589934592,
+    "max_total_seconds": 14700,
+    "max_workers": 2,
+    "models": [
+      "F_grid",
+      "F_analytic",
+      "A_grid",
+      "A_continuous"
+    ],
+    "outer_folds": 5,
+    "parameter_a_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "parameter_gamma_grid": [
+      0,
+      0.5,
+      1,
+      2
+    ],
+    "plan_version": "S3_E5_v2",
+    "predictors": [
+      "origin_cell_1",
+      "known_actual_lon",
+      "known_actual_lat"
+    ],
+    "preflight_cap_seconds": 300,
+    "preparation_cap_seconds": 3600,
+    "prepared_input": "results/runs/spatial_borrowing_s3_e1_input_20261030T113714_822569Z",
+    "primary_directional_contrasts": 72,
+    "primary_metric": "standard_multiclass_brier",
+    "primary_weighting": "equal_cell_then_equal_ID_then_equal_eligible_time",
+    "query_donor_batch_size": 2048,
+    "region_level": 0.9,
+    "run_mode": "pilot_gate_before_full_development",
+    "scenario": "pooled",
+    "source_assets": [
+      "english_contract",
+      "state_index",
+      "release_R",
+      "transport_D",
+      "land_mask_high",
+      "land_mask_intermediate"
+    ],
+    "target": "stopped",
+    "tolerance_hours": 0,
+    "training_weighting": "raw_equal_pairs",
+    "weighting": "equal_eligible_pairs"
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

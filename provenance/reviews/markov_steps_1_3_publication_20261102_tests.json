@@ -1,0 +1,10 @@
+{
+  "tests_run": 398,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "elapsed_seconds": 30.045,
+  "scope": "modelling, architecture and continuous diagnostic unit/semantic tests; no new research fit or final-test evaluation",
+  "log": "provenance/reviews/markov_steps_1_3_publication_20261102_tests.txt"
+}

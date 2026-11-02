@@ -1,0 +1,5 @@
+horizon_days,model,reference,outcome,joint_point_pass,conditional_support,delta_brier,delta_region90_cells,delta_region90_hit
+7,Info,Fixed,no_change,False,False,0.0,0.0,0.0
+7,Weight,Fixed,no_change,False,False,0.0,0.0,0.0
+30,Info,Fixed,no_improvement_or_tradeoff,False,False,-2.2004227735017423e-05,-0.5793314448434614,-4.460999710031999e-05
+30,Weight,Fixed,no_improvement_or_tradeoff,False,False,-7.188294787063843e-05,-1.1930237399534604,-0.0011449899255756568

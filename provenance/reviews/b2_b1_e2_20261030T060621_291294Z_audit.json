@@ -1,0 +1,122 @@
+{
+  "reviewed_UTC": "2026-10-30T06:14:03.486561+00:00",
+  "primary_run": "b2_b1_e2_20261030T060621_291294Z",
+  "replay_run": "b2_b1_e2_20261030T060917_279086Z",
+  "sealed_artifacts_rechecked": {
+    "b2_b1_e2_20261030T060621_291294Z": 148,
+    "b2_b1_e2_20261030T060917_279086Z": 148,
+    "empirical_b2_20261029T121555_976173Z": 38,
+    "adaptive_b2_b1_20261030T044950_931787Z": 129
+  },
+  "current_code_matches_sealed_source": true,
+  "outer_prediction_freeze_rechecked": true,
+  "numerical_replay_tables": 131,
+  "reaggregated_heldout_groups": [
+    {
+      "days": 7,
+      "model": "B2",
+      "pairs": 303288,
+      "IDs": 385
+    },
+    {
+      "days": 7,
+      "model": "E1Adaptive",
+      "pairs": 303288,
+      "IDs": 385
+    },
+    {
+      "days": 7,
+      "model": "Fixed",
+      "pairs": 303288,
+      "IDs": 385
+    },
+    {
+      "days": 7,
+      "model": "Info",
+      "pairs": 303288,
+      "IDs": 385
+    },
+    {
+      "days": 7,
+      "model": "Weight",
+      "pairs": 303288,
+      "IDs": 385
+    },
+    {
+      "days": 30,
+      "model": "B2",
+      "pairs": 268998,
+      "IDs": 337
+    },
+    {
+      "days": 30,
+      "model": "E1Adaptive",
+      "pairs": 268998,
+      "IDs": 337
+    },
+    {
+      "days": 30,
+      "model": "Fixed",
+      "pairs": 268998,
+      "IDs": 337
+    },
+    {
+      "days": 30,
+      "model": "Info",
+      "pairs": 268998,
+      "IDs": 337
+    },
+    {
+      "days": 30,
+      "model": "Weight",
+      "pairs": 268998,
+      "IDs": 337
+    }
+  ],
+  "paired_hourly_hit_changes": [
+    {
+      "days": 7,
+      "model": "Info",
+      "hourly_pair_hit_change": 0
+    },
+    {
+      "days": 7,
+      "model": "Weight",
+      "hourly_pair_hit_change": 0
+    },
+    {
+      "days": 30,
+      "model": "Info",
+      "hourly_pair_hit_change": -12
+    },
+    {
+      "days": 30,
+      "model": "Weight",
+      "hourly_pair_hit_change": -308
+    }
+  ],
+  "region_level": 0.9,
+  "all_issued_regions_meet_probability_level": true,
+  "seven_day_primary_arms_equal_fixed_within_tolerance": true,
+  "absolute_tolerance": 1e-12,
+  "visual_QA": {
+    "method": "Direct inspection of all six saved PNGs; no clipping or unreadable labels; matched horizon colour scales and candidate captions checked.",
+    "figures": {
+      "budget_hit_curves.png": "bd5f731cd15e642e65357006389d9f314b72a3a77f4c73a4a9ec8e7fec3e8695",
+      "candidate_comparison_30d.png": "2cbe1aaf5e5286067b79ce9a19bbe039525df5507b39ff8b60857894ccb843f0",
+      "candidate_comparison_7d.png": "cedbb9715d55ff135eff8a65a4db5389eb53e5fe2cc4021c77da827633161fc5",
+      "quality_and_region_differences.png": "87e737c1a06a380cde94816b08c358f1d15be8716304fb6e994bb5fcc9f7ebfa",
+      "unseen_destination_mass.png": "ece8ccfa107aec87441cb66255e3e8bddc24683199e967650f2db35aa0e03e09",
+      "weights_by_support.png": "ccca8831c82bcc96d35cb6fdf443083d9e4bd0a2ca1852ccda2fd0fc0e39e521"
+    }
+  },
+  "targeted_tests_passed": {
+    "B2_S1_E1_E2": 35,
+    "prediction_regions": 6,
+    "architecture": 10,
+    "modelling_layout": 5
+  },
+  "scientific_result": "Neither arm satisfies the approved joint non-deterioration and smaller-region objective.",
+  "scientific_closure": "pending_user_review",
+  "additional_model_searches": 0
+}

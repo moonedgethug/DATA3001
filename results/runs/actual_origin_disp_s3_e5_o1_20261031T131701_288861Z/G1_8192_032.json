@@ -1,0 +1,14 @@
+{
+  "batch": 8192,
+  "certified": 34464,
+  "coastal": false,
+  "donors": 61021,
+  "horizon": 30,
+  "hourly_steps": 18097132,
+  "literal_pairs": 26557,
+  "origin": 43663,
+  "query_index": 32,
+  "seconds": 71.60769570799312,
+  "stage": "B",
+  "variant": "G1"
+}

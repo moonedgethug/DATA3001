@@ -1,0 +1,29 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/approved_plan.md": "1f7ad37a16a335defa31c275688a4f019175859a3b125701cb8ea62ed937ae32",
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/environment.json": "71eb4dfccbc1389251aa09dd70ade617a52ab8ee77d49e7901daca01b5677a6a",
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/input_inventory.json": "1e8eb74ca848499004466b990dfb3eb841b179637acf6b7db0eb78f5a77bd5f5",
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/run.json": "32a8c3d1392471e01ff3eee216c7a4ab68ad2de53f2c41641949c6797a5bfd65",
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/source_sha256.json": "ac388faa72b9c72a149f2a0fe4f1b6b6cba830a8a97b99731b4593d8af862909",
+    "provenance/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/verification.json": "ce4bc974a815b16f4e26be2da3d3d5ab2c9ae4cedae5919c577f69893446141d",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_b1.parquet": "0419fd66776a03fd793d3f8ee331aaf8eaab274e68a7a63dd3b578685917f62d",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_b2.parquet": "227e17b828ab7fdddff4187f587c8fa7da5e675d7ef918328d6234797a860d7d",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_contributions.parquet": "f5a6e6940ca34b1df09e63e32b5cc9d1d8a0ed3682844a8144216ef0168326b3",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_equal.parquet": "2fac454a72d50b97d36df0e6eafc401d365347d8ccfd9a5af3c602682dd1444b",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_local_distributions.parquet": "96107091376c56b213d879c0ccc74b6c2c8f6ee940742313da05a53d39670c9f",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_partial.parquet": "84099f67617f23ec90a3ad25bb362865975d2ee2046a3606cd1b95601584bd84",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/bases/outer_0_inner_1_support.csv": "68315995b2bf05296101151e2718499d419dcc7efdedc959e42d81eff38f27a6",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/candidate_id_cells.parquet": "f263ebd51b8b82743f7105ad743d82fcd39553be13a8b470bba2799a74847cb8",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/candidate_scores.csv": "1c0a85f09e002240806d3e1e8c6a21a202de1219101f9e886a0a7f3c8e00fb7d",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/config.json": "90b1c753c5a176a3f467afaa28553d1fa40fb641a02633caa1575dfec58473b1",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/counts_by_id.parquet": "9cf28f918c35577118a143ccf2a46305a26fd0f6c4fbf48218ea706cb69dce32",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/destination_cells.csv": "231c7381a81d0960a7909976c09e1a774f61b7c4661aa2fea1687a69d76b0478",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/destination_index.csv": "70858089ab696d4f04a6dfb2abfb948f3741e3ce1e7bf03c83e4b4d8c4476333",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/fit_roles.json": "75401303f484fb66fddfb7d9ba011e869798da2cea3534d47db20c68ba6ffb2b",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/folds.csv": "d111ca23373475cac9422de6557f01ca0705e654af0b3670d383ec8c0b0a2201",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/qualification_reasons_by_id.csv": "655573fd245fcff9dfe822e7579d4c727e752e419c1f0549d71568a36bbe3210",
+    "results/runs/partial_weighting_e4_preflight_20261030T082802_819719Z/source_index.csv": "31bc3eddb29b1a0c3616fc8c61f17d8b04ceb5ef00e8aa0be209782156a2239a"
+  }
+}

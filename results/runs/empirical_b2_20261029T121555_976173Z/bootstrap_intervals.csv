@@ -1,0 +1,5 @@
+horizon_days,metric,lower_95,upper_95,defined_replicates,undefined_replicates
+7,brier,0.9216314906342712,0.9379232712521586,200,0
+7,availability,1.0,1.0,200,0
+30,brier,0.9917767726699945,0.9983105969190798,200,0
+30,availability,1.0,1.0,200,0

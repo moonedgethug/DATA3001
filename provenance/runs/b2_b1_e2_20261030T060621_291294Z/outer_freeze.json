@@ -1,0 +1,32 @@
+{
+  "phase": "before_all_development_tuning",
+  "sha256": {
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/heldout_scores.parquet": "adfce37167e16a56b54349ed87e0d4ce2175f572c61453021f662cdb496ddf50",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_0_B2.parquet": "9253e4045921315cd3120cc8fb646f529673858f7c5b4ca1843b630ee17d8738",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_0_E1Adaptive.parquet": "966888e8c57bc472e33cede6a9dc1a47c4043e9b9f213dd40cf7c5504c26a7f4",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_0_Fixed.parquet": "5946b044a4fce0df2232ab75789fa15ac8f36c433fd2c9c4222eaaf5a7b29e21",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_0_Info.parquet": "5946b044a4fce0df2232ab75789fa15ac8f36c433fd2c9c4222eaaf5a7b29e21",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_0_Weight.parquet": "a87e4f76dd6adac8c7c015bf97e62d79c450acdb2dd4408f76a9a39c286ec692",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_1_B2.parquet": "f6fd8c51757294cc6b2137390d1ec85cd86513812854f49928621b0f4ce3ffc2",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_1_E1Adaptive.parquet": "faf5d93c09f5ed9cade35af9c5bc61c911c4fa9dea94e6a582ad9da3c56d7a08",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_1_Fixed.parquet": "1711d7569e2a2baaa658cb7d8e1b4725b5e05fef06eeadc75bdce4129e86b3d8",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_1_Info.parquet": "1711d7569e2a2baaa658cb7d8e1b4725b5e05fef06eeadc75bdce4129e86b3d8",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_1_Weight.parquet": "5d02ae36f0e790aa12d666bd55787b2d759e485c3ccea107af4eb65f004d6faf",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_2_B2.parquet": "775cd9c36c664397ec542fa4ee65b910d7f1efd3de0fba2c94f29a6bbcb91b3a",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_2_E1Adaptive.parquet": "756d2563db209daccdedb7130c7ef1be5a7b4ddeb937f6e843f9664813377fc7",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_2_Fixed.parquet": "ad252967722f7870507b6ca188fa243313b277bae0040bb5050248999a4fad2d",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_2_Info.parquet": "ad252967722f7870507b6ca188fa243313b277bae0040bb5050248999a4fad2d",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_2_Weight.parquet": "ad252967722f7870507b6ca188fa243313b277bae0040bb5050248999a4fad2d",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_3_B2.parquet": "58ce0fc2263222a8841b9cb70613c0b401e5dd0a0d6b291d82aedce2218473e3",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_3_E1Adaptive.parquet": "a4e6a8a271700aadbf64a031cd21e5a1d5ba82081c04af56e5dc36bf6703101d",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_3_Fixed.parquet": "0978b958c45aa111b8e312e8254bd741efa22474110b0abc06b4cb167e4bace1",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_3_Info.parquet": "b5a72242357c0607c9164ed9cc8beb827fc9a830ea9107d59495ad9f540306b9",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_3_Weight.parquet": "8e1ee34d5503796c9d57596f4a9bc5e8b70b5d82e8273f840faf9f41efb7290b",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_4_B2.parquet": "7fc99cbd47a9e9cf7cbc71d757ae42b77fd25f8312c801f22ca9654d0642e676",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_4_E1Adaptive.parquet": "66f16a8196dbee1b5c8692ddbc2e05771cbb1061202a5fcf4fd4d859ea230ff5",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_4_Fixed.parquet": "312911f2122d8072e58bc6527dc94338769705c0d1cd5d9569e779e5576e2df8",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_4_Info.parquet": "312911f2122d8072e58bc6527dc94338769705c0d1cd5d9569e779e5576e2df8",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/matrices/outer_4_Weight.parquet": "312911f2122d8072e58bc6527dc94338769705c0d1cd5d9569e779e5576e2df8",
+    "results/runs/b2_b1_e2_20261030T060621_291294Z/selected_outer_parameters.csv": "5d125b24c9388515610b8658b7fb487be5875f23ff169a8d29011700274014f9"
+  }
+}

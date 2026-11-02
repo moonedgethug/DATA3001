@@ -1,0 +1,218 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Stage 2: Adaptive B2/B1</title><style>body{max-width:1250px;margin:35px auto;padding:0 24px;font:16px/1.55 system-ui;color:#17334a}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:9px;border-bottom:1px solid #dce4e9;text-align:right}th{background:#eef4f7}img{width:100%;height:auto}li{margin:10px 0}.scroll{overflow:auto}h2{margin-top:36px}a{color:#146d99}</style><h1>Stage 2 · Fixed and adaptive B2/B1</h1><p>adaptive_b2_b1_20261030T044950_931787Z · Development results · Scientific review pending</p><h2>Matched held-out results</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>model</th>
+      <th>eligible_pairs</th>
+      <th>eligible_ids</th>
+      <th>brier</th>
+      <th>region90_cells</th>
+      <th>unsupported_pairs</th>
+      <th>region90_hit_pct</th>
+      <th>Brier_95_interval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>Adaptive</td>
+      <td>303288</td>
+      <td>385</td>
+      <td>0.928765</td>
+      <td>20.942530</td>
+      <td>0</td>
+      <td>89.793859</td>
+      <td>[0.921493, 0.936074]</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>B2</td>
+      <td>303288</td>
+      <td>385</td>
+      <td>0.929001</td>
+      <td>18.225812</td>
+      <td>0</td>
+      <td>87.439002</td>
+      <td>[0.920938, 0.936779]</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Fixed</td>
+      <td>303288</td>
+      <td>385</td>
+      <td>0.928607</td>
+      <td>25.643751</td>
+      <td>0</td>
+      <td>93.291195</td>
+      <td>[0.921578, 0.935612]</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.988806</td>
+      <td>122.186247</td>
+      <td>0</td>
+      <td>85.842646</td>
+      <td>[0.987446, 0.990580]</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>B2</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.994751</td>
+      <td>62.608321</td>
+      <td>0</td>
+      <td>66.372612</td>
+      <td>[0.992129, 0.997997]</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Fixed</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>0.988819</td>
+      <td>126.406014</td>
+      <td>0</td>
+      <td>86.428524</td>
+      <td>[0.987545, 0.990426]</td>
+    </tr>
+  </tbody>
+</table></div><p>Region-hit percentage and cell count must be read together. Lower Brier is better.</p><p>7 days: the prespecified joint point-estimate screen is not met. Adaptive minus Fixed: Brier +0.000157; region cells -4.701; actual hits -3.497 percentage points. Read paired intervals before interpreting strength of evidence.</p><p>30 days: the prespecified joint point-estimate screen is not met. Adaptive minus Fixed: Brier -0.000013; region cells -4.220; actual hits -0.586 percentage points. Read paired intervals before interpreting strength of evidence.</p><h2>Paired differences</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>comparison</th>
+      <th>metric</th>
+      <th>difference</th>
+      <th>lower_95</th>
+      <th>upper_95</th>
+      <th>defined_replicates</th>
+      <th>undefined_replicates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - Fixed</td>
+      <td>brier</td>
+      <td>0.000157</td>
+      <td>-0.000395</td>
+      <td>0.000967</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - Fixed</td>
+      <td>region90_cells</td>
+      <td>-4.701221</td>
+      <td>-5.049408</td>
+      <td>-4.394022</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - Fixed</td>
+      <td>region90_hit</td>
+      <td>-0.034973</td>
+      <td>-0.040863</td>
+      <td>-0.029940</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - B2</td>
+      <td>brier</td>
+      <td>-0.000236</td>
+      <td>-0.001217</td>
+      <td>0.001048</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - B2</td>
+      <td>region90_cells</td>
+      <td>2.716718</td>
+      <td>2.374501</td>
+      <td>3.165530</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Adaptive - B2</td>
+      <td>region90_hit</td>
+      <td>0.023549</td>
+      <td>0.020398</td>
+      <td>0.027155</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - Fixed</td>
+      <td>brier</td>
+      <td>-0.000013</td>
+      <td>-0.000319</td>
+      <td>0.000341</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - Fixed</td>
+      <td>region90_cells</td>
+      <td>-4.219767</td>
+      <td>-4.792415</td>
+      <td>-3.573351</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - Fixed</td>
+      <td>region90_hit</td>
+      <td>-0.005859</td>
+      <td>-0.008533</td>
+      <td>-0.002949</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - B2</td>
+      <td>brier</td>
+      <td>-0.005945</td>
+      <td>-0.007911</td>
+      <td>-0.004317</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - B2</td>
+      <td>region90_cells</td>
+      <td>59.577926</td>
+      <td>57.986376</td>
+      <td>61.139240</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Adaptive - B2</td>
+      <td>region90_hit</td>
+      <td>0.194700</td>
+      <td>0.179242</td>
+      <td>0.210438</td>
+      <td>200</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><p>Hit differences above are fractions, not percentage points. Fixed-fit paired whole-ID intervals.</p><img src="weights_by_support.png" alt="weights_by_support.png"><img src="budget_hit_curves.png" alt="budget_hit_curves.png"><img src="candidate_comparison_7d.png" alt="candidate_comparison_7d.png"><img src="candidate_comparison_30d.png" alt="candidate_comparison_30d.png"><h2>Limits</h2><ul><li>Five outer / four inner whole-ID development validation on previously examined development data; not independent final-test evidence. The final test remains locked.</li><li>Selection uses only inner pair-weighted standard Brier on a common support mask. Region size and hits do not select parameters. The two horizons have different eligible populations.</li><li>A is selected on 21 values per family/horizon. Adaptive uses the fitting median pair count as its reference scale; no independent per-cell weights are optimized.</li><li>Hourly and overlapping pairs are correlated. 200 paired whole-ID intervals condition on saved fits and omit refitting, parameter-selection and research-selection uncertainty; no multiplicity adjustment.</li><li>A smaller nominal 90% region is not a gain if achieved by losing actual coverage. Brier is not an accuracy percentage or a geographic-distance measure.</li><li>90% regions retain cutoff ties. E is an outcome, never a geographic cell. Region counts are not square kilometres.</li><li>Exact-budget curves average uniformly over boundary ties; zero-probability ties are uninformed allocations, not newly supported predictions. Exit truths are excluded only from these D-cell budget curves and reported in primary score denominators.</li><li>Unsupported origin rows remain unsupported for all models, even if B1 exists. Supported rows retain all blended probability; no threshold clipping or tail renormalization.</li><li>No observed exits establishes no exit calibration. B1 and B2 share fitting data, so this is a regularized point estimator, not a validated full Bayesian uncertainty model.</li><li>All-development maps and selected full-development parameters are illustrative refits; their tuning scores are not independent validation. No S2 closure or next-stage work is automatic.</li></ul><p><a href="REPORT.md">Full report</a> · <a href="summary.csv">Summary CSV</a> · <a href="selected_parameters.csv">Selected parameters</a></p></html>

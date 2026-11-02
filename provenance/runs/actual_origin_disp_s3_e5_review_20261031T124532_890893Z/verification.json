@@ -1,0 +1,20 @@
+{
+  "all_original_inputs_and_sources_unchanged": true,
+  "audit_scope": "Stopped resource gate; no scientific quality acceptance",
+  "canonical_training_trajectory_reads": 0,
+  "completed_query_mass_checks": 7,
+  "denied_accesses": [],
+  "final_test_access": false,
+  "four_solver_real_data_capacity_test_completed": false,
+  "full_5000_sample_geometry_audit_completed": false,
+  "full_cv_completed": false,
+  "full_replay_completed": false,
+  "independent_scalar_checks_recorded": 63,
+  "input_hashes_verified": 1182,
+  "passed": true,
+  "pilot_outputs_verified": 52,
+  "preexisting_files_unchanged": 393,
+  "semantic_test_file_sha256": "ab699cb2c0ae63b18cda273bdfae4243bea4c0007741b33f50c21f9cbba30ab3",
+  "semantic_tests_passed": 39,
+  "source_hashes_verified": 24
+}

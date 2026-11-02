@@ -1,0 +1,5 @@
+{
+  "cell": 44744,
+  "no_validation_outcome_selection": true,
+  "selection": "most independent historical training IDs at 7d, ties by pair count then cell"
+}

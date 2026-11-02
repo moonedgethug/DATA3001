@@ -1,0 +1,47 @@
+{
+  "run_id": "empirical_b2_20261029T121658_676902Z",
+  "created_UTC": "2026-10-29T12:16:58.680133+00:00",
+  "config": {
+    "experiment": "empirical_b2",
+    "approved_plan": "docs/empirical_b2_plan.md",
+    "plan_version": "E2",
+    "dataset_release": "per-drifter-cleaned-20261017-v7",
+    "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+    "model": "B2",
+    "grid_degrees": 1,
+    "target": "stopped",
+    "scenario": "pooled",
+    "departure_seasons": "annual_pooled",
+    "origin_population": "R",
+    "horizons_days": [
+      7,
+      30
+    ],
+    "tolerance_hours": 0,
+    "predictors": [
+      "origin_cell_1"
+    ],
+    "weighting": "equal_eligible_pairs",
+    "primary_metric": "standard_multiclass_brier",
+    "unsupported_score": "missing_report_availability",
+    "smoothing": false,
+    "outer_folds": 5,
+    "inner_search": false,
+    "bootstrap_replicates": 200,
+    "bootstrap_seed": 20261029,
+    "bootstrap_scope": "whole_development_ID_resampling_fixed_out_of_fold_predictions",
+    "mass_tolerance": 1e-12,
+    "compute_cap_seconds": 1800,
+    "final_test_access": false,
+    "counts_path": "results/runs/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet",
+    "folds_path": "results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv",
+    "source_assets": [
+      "english_contract",
+      "state_index",
+      "release_R",
+      "transport_D",
+      "land_mask_intermediate"
+    ]
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

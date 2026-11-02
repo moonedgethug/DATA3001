@@ -1,0 +1,17 @@
+{
+  "MC_seeds": [
+    9123,
+    9124
+  ],
+  "canonical_changed": false,
+  "common_cohort_origins": 56493,
+  "completed": true,
+  "denied_operations": [],
+  "diagnostic_IDs": 60,
+  "diagnostic_origins": 953,
+  "elapsed_seconds": 48.0594919170253,
+  "final_test_access": false,
+  "new_features": false,
+  "one_step_pairs_per_model": 4598829,
+  "refitted": false
+}

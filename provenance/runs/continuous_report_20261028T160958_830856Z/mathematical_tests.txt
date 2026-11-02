@@ -1,0 +1,12 @@
+test_chart_and_euler_residual_roundtrip (test_modelling_continuous.ContinuousTests.test_chart_and_euler_residual_roundtrip) ... ok
+test_draw_and_brier_semantics (test_modelling_continuous.ContinuousTests.test_draw_and_brier_semantics) ... ok
+test_exit_absorbs_and_later_observations_are_not_inputs (test_modelling_continuous.ContinuousTests.test_exit_absorbs_and_later_observations_are_not_inputs) ... ok
+test_full_covariance_nll_matches_scipy_and_gradients (test_modelling_continuous.ContinuousTests.test_full_covariance_nll_matches_scipy_and_gradients) ... ok
+test_hour_pairs_retains_exit_rejects_gap_and_invalid_geometry (test_modelling_continuous.ContinuousTests.test_hour_pairs_retains_exit_rejects_gap_and_invalid_geometry) ... ok
+test_land_is_unresolved_not_exit_or_grounding (test_modelling_continuous.ContinuousTests.test_land_is_unresolved_not_exit_or_grounding) ... ok
+test_scaling_is_fitting_only (test_modelling_continuous.ContinuousTests.test_scaling_is_fitting_only) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.029s
+
+OK

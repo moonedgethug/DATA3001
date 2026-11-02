@@ -1,0 +1,15 @@
+{
+  "run_id": "continuous_diagnostic_report_20261029T055315_213458Z",
+  "created_UTC": "2026-10-29T05:53:15.214451+00:00",
+  "config": {
+    "diagnostic_run": "continuous_diagnostics_20261029T054731_635202Z",
+    "parent_receipt_sha256": "83d78b27e8110a3928e0915603d5a1e656e8782e89c96dbd7eadeb5026b92393",
+    "model_run": "continuous_cv_20261028T143556_027911Z",
+    "source_sha256": "320439c070b10332868da0eb4e1daa0435f52584170b6f44487163559ce5e46e",
+    "final_test_access": false,
+    "refitting": false,
+    "control": "observed previous-hour state supplied; not a forecast",
+    "control_particles": 128
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

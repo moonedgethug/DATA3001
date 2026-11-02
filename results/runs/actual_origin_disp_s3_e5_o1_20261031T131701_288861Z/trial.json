@@ -1,0 +1,27 @@
+{
+  "canonical_reads": null,
+  "denied_accesses": null,
+  "estimated_actual_execution_seconds": 2034.3458910424815,
+  "final_access_counters_flushed": false,
+  "final_test_access": false,
+  "full_experiment_started": false,
+  "metadata_recovered_after_native_crash": true,
+  "peak_rss_bytes": null,
+  "read_guard_active": true,
+  "reason": "native_GE0S_SIGSEGV_during_shared_prepared_geometry_thread_benchmark",
+  "resource_checks_before_crash_passed": true,
+  "restarted_after_failure": false,
+  "run_id": "actual_origin_disp_s3_e5_o1_20261031T131701_288861Z",
+  "scientific_accuracy_results_available": false,
+  "stage_C_budget_charge_seconds": 60.0,
+  "stage_C_monotonic_end_not_flushed": true,
+  "stage_C_wallclock_estimate": 21.995229959487915,
+  "status": "CAPACITY_NOT_ESTABLISHED",
+  "total_execution_seconds_conservative": 2072.3506610829936,
+  "used_seconds": {
+    "A": 677.1842785000044,
+    "B": 1335.1663825829892,
+    "C": 60.0,
+    "D": 0.0
+  }
+}

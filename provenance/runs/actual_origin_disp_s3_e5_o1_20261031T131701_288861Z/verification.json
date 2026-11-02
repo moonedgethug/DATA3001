@@ -1,0 +1,7 @@
+{
+  "capacity_assessment_closed": true,
+  "capacity_established": false,
+  "final_counter_log_complete": false,
+  "full_experiment_completed": false,
+  "recovered_after_native_crash": true
+}

@@ -1,0 +1,91 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Stage 1 — Independent Standard B2</title><style>body{max-width:1180px;margin:40px auto;padding:0 24px;font:16px/1.55 system-ui;color:#17334a;background:#fff}h1{font-size:32px}h2{margin-top:36px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:9px;border-bottom:1px solid #d8e2e8;text-align:right}th{background:#edf4f8}img{width:100%}code{overflow-wrap:anywhere}.scroll{overflow:auto}li{margin:10px 0}a{color:#126b9d}</style><h1>Stage 1 · Independent standard B2</h1><p><code>empirical_b2_20261029T121555_976173Z</code><br>Development validation · User review pending</p><p>B2 estimates a separate empirical row for each origin cell and horizon, P_h(i,j)=N_h(i,j)/sum_k N_h(i,k). Only fitting IDs contribute counts. There is no smoothing, fallback, optimisation, propagation or velocity/environmental conditioning. The target is first observed exit from D followed by absorption in E; missing follow-up is not an exit.</p><h2>Held-out results</h2><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>eligible_pairs</th>
+      <th>eligible_ids</th>
+      <th>evaluable_pairs</th>
+      <th>unsupported_pairs</th>
+      <th>brier</th>
+      <th>Brier_95_interval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>303288</td>
+      <td>385</td>
+      <td>303288</td>
+      <td>0</td>
+      <td>0.929001</td>
+      <td>[0.921631, 0.937923]</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>268998</td>
+      <td>337</td>
+      <td>268998</td>
+      <td>0</td>
+      <td>0.994751</td>
+      <td>[0.991777, 0.998311]</td>
+    </tr>
+  </tbody>
+</table></div><p>Standard Brier, lower is better. Intervals: 200 whole-ID bootstrap resamples with fixed fitted forecasts.</p><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>availability</th>
+      <th>zero_true_probability_pairs</th>
+      <th>zero_true_probability_fraction</th>
+      <th>observed_exit_pairs</th>
+      <th>mean_predicted_exit_probability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>1.000000</td>
+      <td>6315</td>
+      <td>0.020822</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>1.000000</td>
+      <td>46964</td>
+      <td>0.174589</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table></div><h2>Candidate row support</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>indexed_source_rows</th>
+      <th>supported_rows</th>
+      <th>unsupported_rows</th>
+      <th>unsupported_positive_area_rows</th>
+      <th>boundary_only_rows</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>54</td>
+      <td>37</td>
+      <td>17</td>
+      <td>4</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>54</td>
+      <td>37</td>
+      <td>17</td>
+      <td>4</td>
+      <td>13</td>
+    </tr>
+  </tbody>
+</table><h2>Descriptive candidate maps</h2><img alt='7-day candidate probabilities' src='probability_7d.svg'><img alt='30-day candidate probabilities' src='probability_30d.svg'><h2>Interpretation and limitations</h2><ul><li>These are five-fold whole-ID development results on previously used development data, not an independent final-test evaluation. The final test remains locked.</li><li>Brier is the unnormalised multiclass score (range 0 to 2). It is not an accuracy percentage and does not measure geographic distance. No spatial or combined loss is included.</li><li>The mean Brier denominator contains only evaluable pairs. Unsupported cases are retained in availability reporting with missing Brier. Zero probability at a true destination is scored normally.</li><li>Hourly and overlapping pairs are correlated. Confidence intervals use 200 whole-ID resamples with fixed fitted forecasts; they do not include refitting or model-selection uncertainty.</li><li>Sparse empirical zeros mean unobserved transitions in the fitting sample, not physical impossibility. Do not interpret a small training count as strong evidence.</li><li>No observed exits means exit calibration cannot be established. E remains in the state universe even if its count is zero.</li><li>Source rows include boundary-only R intersections. Empty index rows are distinct from unsupported forecasts on actual held-out cases; neither is hidden.</li><li>All-development matrices and maps are fitted candidates. They have no separate validation score and do not demonstrate geographic accuracy or superiority to another model.</li></ul><p><a href='REPORT.md'>Full report and reproduction</a> · <a href='summary.csv'>Summary CSV</a> · <a href='row_support.csv'>Row support</a></p></html>

@@ -1,0 +1,29 @@
+{
+  "fit_role_count": 26,
+  "maximum_absolute_errors": {
+    "brier": 4.440892098500626e-16,
+    "probability": 1.1102230246251565e-16,
+    "region_mass": 2.220446049250313e-16,
+    "summary": 7.105427357601002e-15
+  },
+  "passed": true,
+  "persisted_matrix_support_verified": true,
+  "persisted_region_hits_verified": true,
+  "primary_run": "adaptive_b2_b1_20261030T044950_931787Z",
+  "raw_trajectory_reads": 0,
+  "replay_numerical_tables": 115,
+  "replay_run": "adaptive_b2_b1_20261030T045122_466415Z",
+  "scientific_closure": "pending_user_review",
+  "sealed_artifacts_verified": {
+    "adaptive_b2_b1_20261030T044950_931787Z": 129,
+    "adaptive_b2_b1_20261030T045122_466415Z": 129,
+    "empirical_b2_20261029T121555_976173Z": 38
+  },
+  "visual_review_completed": [
+    "candidate_comparison_7d.png",
+    "candidate_comparison_30d.png",
+    "weights_by_support.png",
+    "budget_hit_curves.png"
+  ],
+  "visual_review_note": "Plots inspected by the assistant; full report distinguishes candidate maps from held-out scores."
+}

@@ -1,0 +1,11 @@
+{
+  "canonical_changed": false,
+  "completed": true,
+  "denied_operations": [],
+  "diagnostic_run": "continuous_diagnostics_20261029T054731_635202Z",
+  "final_test_access": false,
+  "one_step_pairs": 4598829,
+  "query_IDs": 60,
+  "query_origins": 953,
+  "refitted": false
+}

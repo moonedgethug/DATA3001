@@ -1,0 +1,28 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/approved_plan.md": "f7684a0fde10d252ad24057f8d380f55231b7889101784d657ac12584aa223df",
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/environment.json": "05ba3495775bed147dc96a6fc924bb61536c4a9d9af079324ae25b744ff14707",
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/input_inventory.json": "985bc890918364aa1ff3903cfa465668d0a8eda65e3868ec1a622b4979ad79bd",
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/run.json": "91b059417934a3cb61ccf8451a25fde600e7658844fc00dee1a813cb1b7674b6",
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/source_sha256.json": "ab58d775694ca06dce1feef43e70b234a75a72cb606449572f3071115e1f6808",
+    "provenance/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/verification.json": "e13b7d410115b93c7786248dba20c661fbbe41d984b6c46c8b224205495ec1db",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_b1.parquet": "0419fd66776a03fd793d3f8ee331aaf8eaab274e68a7a63dd3b578685917f62d",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_b2.parquet": "227e17b828ab7fdddff4187f587c8fa7da5e675d7ef918328d6234797a860d7d",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_contributions.parquet": "8ea85b4cc650543e0fda4bdf1df3bf2712c726b3c7af7322ffe15f5f9fb0272f",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_equal.parquet": "2fac454a72d50b97d36df0e6eafc401d365347d8ccfd9a5af3c602682dd1444b",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_local_distributions.parquet": "92c5b8f6e82b14b1cb4cbba11606459465060f860869b26c6bdb2d373a1b68c6",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/bases/outer_0_inner_1_support.csv": "68315995b2bf05296101151e2718499d419dcc7efdedc959e42d81eff38f27a6",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/candidate_id_cells.parquet": "ed83dcfea3b50fa29aef666f01e28819e84e510f3c6067f2a289aca930852857",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/candidate_scores.csv": "ff17002ff7cd379e937c6896cecfcf5bfe0b4aad22e417d9998b39ab3a3ccdb1",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/config.json": "3a7ea32bcbaed9f95567b1fca843b7c08d46889d997d0c4c84a5f81104951136",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/counts_by_id.parquet": "9cf28f918c35577118a143ccf2a46305a26fd0f6c4fbf48218ea706cb69dce32",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/destination_cells.csv": "231c7381a81d0960a7909976c09e1a774f61b7c4661aa2fea1687a69d76b0478",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/destination_index.csv": "70858089ab696d4f04a6dfb2abfb948f3741e3ce1e7bf03c83e4b4d8c4476333",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/fit_roles.json": "75401303f484fb66fddfb7d9ba011e869798da2cea3534d47db20c68ba6ffb2b",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/folds.csv": "d111ca23373475cac9422de6557f01ca0705e654af0b3670d383ec8c0b0a2201",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/qualification_reasons_by_id.csv": "655573fd245fcff9dfe822e7579d4c727e752e419c1f0549d71568a36bbe3210",
+    "results/runs/drifter_shrinkage_e3_preflight_20261030T074122_066931Z/source_index.csv": "31bc3eddb29b1a0c3616fc8c61f17d8b04ceb5ef00e8aa0be209782156a2239a"
+  }
+}

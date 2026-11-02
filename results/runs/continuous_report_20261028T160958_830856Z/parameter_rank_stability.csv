@@ -1,0 +1,5 @@
+family,horizon_days,full_pick,half0_pick,half1_pick,rank_stable
+G,7,G_l2_0,G_l2_0,G_l2_0,True
+G,30,G_l2_0,G_l2_0,G_l2_0,True
+MDN3,7,MDN3_l2_1e4,MDN3_l2_1e4,MDN3_l2_0,False
+MDN3,30,MDN3_l2_0,MDN3_l2_0,MDN3_l2_0,True

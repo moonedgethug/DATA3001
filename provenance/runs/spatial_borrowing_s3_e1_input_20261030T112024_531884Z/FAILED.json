@@ -1,0 +1,10 @@
+{
+  "denied_operations": [
+    {
+      "path": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/spatial_borrowing_s3_e1_input_pilot_20261030T111854_207521Z/verification.json",
+      "writing": false
+    }
+  ],
+  "message": "Non-allowlisted data or historical experiment artifact",
+  "type": "PermissionError"
+}

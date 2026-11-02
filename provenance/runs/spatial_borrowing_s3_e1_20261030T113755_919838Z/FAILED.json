@@ -1,0 +1,5 @@
+{
+  "denied_operations": [],
+  "message": "markdown_table() missing 1 required positional argument: 'columns'",
+  "type": "TypeError"
+}

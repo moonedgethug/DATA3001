@@ -1,0 +1,14 @@
+{
+  "staged_frozen_output_hashes_verified": 3711,
+  "unique_blobs_hashed": 2340,
+  "canonical_data_staged_changes": 0,
+  "human_entry_links": {
+    "missing": [],
+    "local_only": []
+  },
+  "deliverable_links": "all relative, resolved and target reports included in index",
+  "credential_literal_scan": "no matches in staged text files for checked key formats",
+  "formatting_note": "Preserved historical artifact whitespace and Markdown hard breaks; four existing research files have extra EOF blank lines. No research code or sealed artifact was reformatted.",
+  "tests_receipt": "markov_steps_1_3_publication_20261102_tests.json",
+  "final_test_evaluation_performed": false
+}

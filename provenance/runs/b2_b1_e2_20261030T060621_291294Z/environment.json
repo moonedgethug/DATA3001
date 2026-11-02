@@ -1,0 +1,13 @@
+{
+  "git_head": "3502dea5965a8d9f5252509f5b478bf59932f457",
+  "git_worktree_status": " M README.md\n M docs/code_guide.md\n M docs/markov_results.md\n M docs/modelling_round1_plan.md\n?? configs/adaptive_b2_b1.json\n?? configs/b2_b1_e2.json\n?? configs/empirical_b2.json\n?? docs/adaptive_b2_b1_plan.md\n?? docs/adaptive_b2_b1_results.md\n?? docs/b2_b1_e2_plan.md\n?? docs/empirical_b2_plan.md\n?? docs/empirical_b2_results.md\n?? docs/research_stage_ledger.md\n?? provenance/reviews/adaptive_b2_b1_20261030T044950_931787Z_audit.json\n?? provenance/reviews/audit_adaptive_b2_b1.py\n?? provenance/reviews/empirical_b2_20261029T121555_976173Z_audit.json\n?? results/deliverables/adaptive_b2_b1\n?? results/deliverables/continuous_diagnostics\n?? results/deliverables/continuous_hourly\n?? results/deliverables/empirical_b2\n?? results/deliverables/poster/\n?? src/data3001/modelling/baselines/adaptive_b2_b1.py\n?? src/data3001/modelling/baselines/adaptive_b2_b1_audit.py\n?? src/data3001/modelling/baselines/adaptive_b2_b1_report.py\n?? src/data3001/modelling/baselines/b2_b1_e2.py\n?? src/data3001/modelling/baselines/b2_b1_e2_audit.py\n?? src/data3001/modelling/baselines/b2_b1_e2_report.py\n?? src/data3001/modelling/baselines/empirical_b2.py\n?? src/data3001/modelling/baselines/empirical_b2_report.py\n?? src/data3001/modelling/baselines/run_adaptive_b2_b1.py\n?? src/data3001/modelling/baselines/run_b2_b1_e2.py\n?? src/data3001/modelling/baselines/run_empirical_b2.py\n?? src/data3001/modelling/common/prediction_regions.py\n?? src/data3001/modelling/common/qualified_count_inputs.py\n?? tests/test_modelling_adaptive_b2_b1.py\n?? tests/test_modelling_b2_b1_e2.py\n?? tests/test_modelling_empirical_b2.py\n?? tests/test_modelling_prediction_regions.py\n",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "shapely": "2.2.0"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}

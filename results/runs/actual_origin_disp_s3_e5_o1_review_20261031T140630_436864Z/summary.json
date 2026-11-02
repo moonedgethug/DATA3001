@@ -1,0 +1,108 @@
+{
+  "full_experiment_started": false,
+  "geometry_only_projection": {
+    "confidence_interval": false,
+    "full_experiment_seconds": null,
+    "geometry_with_fresh_replay_seconds": 1800376.4341438827,
+    "geometry_with_replay_reserve_seconds": 4572955.332325194,
+    "missing_costs": [
+      "candidate Brier and 90% region scoring",
+      "controls and full fit roles",
+      "uncertainty",
+      "independent audit",
+      "checkpoint I/O and full orchestration/reporting"
+    ],
+    "parallel_speedup_assumed": false,
+    "primary_geometry_reserve_seconds": 2286477.666162597,
+    "primary_geometry_seconds": 900188.2170719414,
+    "scope": "geometry only; eight calibration queries, no held-out engineering validation",
+    "statistical_lower_bound": false,
+    "strata": [
+      {
+        "calibration_queries": 2,
+        "coastal": false,
+        "horizon": 7,
+        "measured_origins": 1,
+        "primary_mean_rate_seconds": 87093.51575116366,
+        "primary_slow_rate_plus_reserve_seconds": 253856.27124321795,
+        "query_donor_pairs": 14863563908
+      },
+      {
+        "calibration_queries": 2,
+        "coastal": true,
+        "horizon": 7,
+        "measured_origins": 1,
+        "primary_mean_rate_seconds": 23387.368667727173,
+        "primary_slow_rate_plus_reserve_seconds": 48182.849512790366,
+        "query_donor_pairs": 316403430
+      },
+      {
+        "calibration_queries": 2,
+        "coastal": false,
+        "horizon": 30,
+        "measured_origins": 1,
+        "primary_mean_rate_seconds": 748702.6582107471,
+        "primary_slow_rate_plus_reserve_seconds": 1901499.7879700763,
+        "query_donor_pairs": 11992564306
+      },
+      {
+        "calibration_queries": 2,
+        "coastal": true,
+        "horizon": 30,
+        "measured_origins": 1,
+        "primary_mean_rate_seconds": 41004.67444230353,
+        "primary_slow_rate_plus_reserve_seconds": 82938.75743651245,
+        "query_donor_pairs": 201089532
+      }
+    ],
+    "workers": 1
+  },
+  "paired": {
+    "aggregate_speedup": 15.394951610213838,
+    "maximum_speedup": 194.03370714658112,
+    "minimum_speedup": 6.90533438169026,
+    "new_seconds": 21.72108470799867,
+    "old_seconds": 334.3950480009953,
+    "queries": 8
+  },
+  "parallel": null,
+  "projection": null,
+  "reference_profile_seconds": {
+    "Hourly land points": 124.45530601925566,
+    "Hourly land segments": 46.52200120907219,
+    "Other / overhead": 28.35248951984977,
+    "Whole-path land certificates": 136.91285429282289
+  },
+  "seconds": {
+    "A": 677.1842785000044,
+    "B": 1335.1663825829892,
+    "C": 60.0,
+    "D": 0.0
+  },
+  "selection": {
+    "before_validation": true,
+    "selected": {
+      "batch": 2048,
+      "context_seconds": 0.07840741699328646,
+      "kernel_seconds": 21.72108470799867,
+      "setup_seconds": 0.20383670899900608,
+      "total_seconds": 22.003328833990963,
+      "variant": "G3"
+    },
+    "source": "calibration_only"
+  },
+  "source_run": "actual_origin_disp_s3_e5_o1_20261031T131701_288861Z",
+  "trial_status": "CAPACITY_NOT_ESTABLISHED",
+  "validation": {
+    "all_completed_calibration_comparisons_matched": true,
+    "calibration_queries": 8,
+    "in_process_full_pair_comparisons_per_variant_batch": 355418,
+    "independent_real_scalar_checks_completed": 0,
+    "limitation": "Completed benchmark records are written only after in-process array equality assertions. Optimized arrays remained in RAM and were lost; no independent saved-array comparison is claimed.",
+    "optimized_raw_arrays_persisted": false,
+    "real_data_region_and_selection_parity_completed": false,
+    "remaining_engineering_validation_queries": 50,
+    "status": "INCOMPLETE",
+    "variant_batch_comparisons": 6
+  }
+}

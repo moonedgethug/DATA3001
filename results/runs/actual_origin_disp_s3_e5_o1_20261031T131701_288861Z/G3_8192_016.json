@@ -1,0 +1,17 @@
+{
+  "batch": 8192,
+  "block_attempts": 128502,
+  "block_certificates": 99081,
+  "certified": 12446,
+  "coastal": true,
+  "donors": 26657,
+  "horizon": 7,
+  "hourly_steps": 5910,
+  "literal_pairs": 14211,
+  "origin": 44382,
+  "proven_hourly_steps": 2246356,
+  "query_index": 16,
+  "seconds": 1.8112141669989796,
+  "stage": "B",
+  "variant": "G3"
+}

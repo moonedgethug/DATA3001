@@ -1,0 +1,7 @@
+{
+  "fraction": 0.9412462262647108,
+  "kernel_seconds": 316.77642200102855,
+  "predicate_seconds": 298.1646117781056,
+  "reason": "predicate_fraction_at_least_30_percent",
+  "trigger": true
+}

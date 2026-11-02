@@ -1,0 +1,18 @@
+{
+  "sealed_artifacts_verified": 231,
+  "independent_saved_pair_comparisons": 0,
+  "pair_comparison_queries": 0,
+  "preexisting_files_verified": 405,
+  "preexisting_files_changed": [],
+  "full_experiment_started": false,
+  "status": "ARTIFACT_AUDIT_PASS_SCIENTIFIC_AND_EXTENDED_VALIDATION_INCOMPLETE",
+  "final_access_counter_log_complete": false,
+  "targeted_semantic_tests_passed": 47,
+  "test_groups": {
+    "E5_and_O1": 27,
+    "prediction_regions": 6,
+    "E1_inputs_geometry": 14
+  },
+  "figure_visually_inspected": true,
+  "html_local_links_verified": 3
+}

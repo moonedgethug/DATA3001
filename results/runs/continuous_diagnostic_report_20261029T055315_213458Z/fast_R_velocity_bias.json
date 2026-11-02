@@ -1,0 +1,8 @@
+{
+  "IDs": 70,
+  "lower95": -0.018073383288297617,
+  "mean_bias_m_s": -0.014173515561159424,
+  "pairs": 12799,
+  "scope": "Whole-ID bootstrap, frozen model, exploratory R speed>=0.75 m/s stratum; no refitting uncertainty.",
+  "upper95": -0.010271994809165689
+}

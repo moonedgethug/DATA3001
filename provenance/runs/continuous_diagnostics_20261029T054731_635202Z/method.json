@@ -1,0 +1,8 @@
+{
+  "completeness": "Contiguous eligible hourly transitions, not independent raw observations or a measurement-quality label.",
+  "one_step": "All eligible historical-validation D hourly pairs; R is a geometric stratum.",
+  "rollout": "Uniform sample without replacement up to 16 origins per ID from common eligible 7/30d cohort; inverse inclusion weights. Two MC seeds. Descriptive diagnostic, not model selection.",
+  "scope": "No reweighting, covariance clipping, new lag kernel, new feature, refitting, or test access.",
+  "spread": "Surviving-particle within-query RMS spread in fixed chart km; not geodesic distance or ground-truth conditional uncertainty.",
+  "uncertainty": "No claim of independent observations; repeated historical-validation diagnoses inform development."
+}

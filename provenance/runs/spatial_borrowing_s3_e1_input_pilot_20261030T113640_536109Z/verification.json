@@ -1,0 +1,55 @@
+{
+  "all_eight_offsets": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "artifact_bytes": 870264,
+  "canonical_ids_read": [
+    26856,
+    300234063942770
+  ],
+  "denied_operations": [],
+  "elapsed_seconds": 3.5822834170030546,
+  "final_test_trajectories_read": 0,
+  "geometry_seconds": 0.2626507919994765,
+  "load_seconds": 0.021895375000895,
+  "max_rss_bytes": 695681024,
+  "preflight_only": true,
+  "prepared_IDs": 2,
+  "projected_artifact_bytes": 78462594.52342488,
+  "projected_preparation_seconds": 99.17709819847674,
+  "qualified_IDs": 385,
+  "raw_rows": 14959,
+  "source_hashes_unchanged": true,
+  "unique_window_observations": 7428
+}

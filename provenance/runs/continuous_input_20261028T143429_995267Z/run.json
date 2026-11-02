@@ -1,0 +1,27 @@
+{
+  "run_id": "continuous_input_20261028T143429_995267Z",
+  "created_UTC": "2026-10-28T14:34:29.996431+00:00",
+  "config": {
+    "parent": "markov_position_input_20261027T093543_211496Z",
+    "step_hours": 1,
+    "input_sha256": {
+      "docs/contract/data_contract_v1.0.xlsx": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+      "configs/dataset_manifest.json": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+      "configs/dataset_index.csv": "9a2e465dcf836ebd0825907b1e89310a1ace8f4a6e87a470d203acedab0e657f",
+      "configs/qualification_manifest.json": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+      "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb": "4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0",
+      "archive/data_before_release_20261016/reference/handover_20261013/geometry/state_index.parquet": "5d7934a19221618b4102e8be40cb294774506d60856f85f606ad2178495ac24f",
+      "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73",
+      "configs/markov_m1.json": "113ae472e4a416dedc851dc5507de018d1b6d0f261f25db26d5b9ccbd511b1d1",
+      "provenance/runs/markov_position_input_20261027T093543_211496Z/outputs.json": "b890dbe5f08633bcb79568867c164c3e7f0e6026187e64a2ede9b8dcd0034db5"
+    },
+    "source_sha256": {
+      "src/data3001/modelling/continuous.py": "faede5dd73de867f1b91eb3f95216163c6ebf6385edda225000793deb4898b72",
+      "src/data3001/modelling/continuous_inputs.py": "0700328c4db9f5e6db4ecac6f1d9fb60b51601fe466037195f151bd8c9cba70c"
+    },
+    "final_test_access": false
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

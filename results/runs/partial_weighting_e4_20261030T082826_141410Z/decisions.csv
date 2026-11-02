@@ -1,0 +1,7 @@
+horizon_days,model,reference,outcome,application_tradeoff,joint_point_benefit,delta_brier,delta_region90_cells,delta_region90_hit
+7,PartialID,B2,conditional_development_Brier_support,True,False,-0.019436646037589322,2.093056471594103,0.05336318681964369
+7,PartialID,EqualID,no_measurable_Brier_gain,True,False,0.004593582636085891,-1.2549697762481742,-0.011951143482755056
+7,PartialID,Fixed,point_improvement_uncertain,True,False,-0.0005972931032270923,-23.06031024848873,-0.09781746491221022
+30,PartialID,B2,conditional_development_Brier_support,True,False,-0.009655284023132982,4.928068198781247,0.01789612048794098
+30,PartialID,EqualID,point_improvement_uncertain,True,False,-0.0005386311482020734,1.5730048686858353,0.023877568607646504
+30,PartialID,Fixed,no_measurable_Brier_gain,True,False,0.013228029549581133,-72.35880811964054,-0.2552034659572989

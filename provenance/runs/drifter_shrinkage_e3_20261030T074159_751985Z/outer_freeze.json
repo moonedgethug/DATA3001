@@ -1,0 +1,23 @@
+{
+  "phase": "before_all_development_tuning",
+  "sha256": {
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/heldout_id_cells.parquet": "1e7d87d256c480368f2a590b9cd3b35c3fbe044b4f50fad9245bca20573bf068",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/heldout_scores.parquet": "6f5f81c1d012e74a06582c6345555ae7c2be6535d354fddaca982bbf65f325e7",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_0_B2.parquet": "9253e4045921315cd3120cc8fb646f529673858f7c5b4ca1843b630ee17d8738",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_0_EqualID.parquet": "4abd4f118b7a0a2e79e05350a3a1230e7e69f45ab172b461f7818ac5e8443a59",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_0_Fixed.parquet": "0306cef3ef83003f9e0dfe4fc46e13e8fa1f42a6bfc4f48c4f2108eb76df386a",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_1_B2.parquet": "f6fd8c51757294cc6b2137390d1ec85cd86513812854f49928621b0f4ce3ffc2",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_1_EqualID.parquet": "b1f48e9803eea2eab1112a18ec96b41fe6f3e33dda76721e3cdd952299bf7f23",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_1_Fixed.parquet": "171dedcb14fd606948f420b1f37fd8b927f6df0504d1f42209abdd9ced865e0e",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_2_B2.parquet": "775cd9c36c664397ec542fa4ee65b910d7f1efd3de0fba2c94f29a6bbcb91b3a",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_2_EqualID.parquet": "7453582432847b0d17ec9009c13eabf1c0521b4e6b46ac33ca81ad512704431c",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_2_Fixed.parquet": "0945a7ea5ead696a272e3266d6dbce55a3f7d129c12245e07d1489226ae02495",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_3_B2.parquet": "58ce0fc2263222a8841b9cb70613c0b401e5dd0a0d6b291d82aedce2218473e3",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_3_EqualID.parquet": "63486abc0fb392cc815ac449c0b75a8534874727567b213c2aaa564cf21f651d",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_3_Fixed.parquet": "8b2df9fb65bb45ccd889697e818fa61d443b73590c7cee2b2036996be5ccab0a",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_4_B2.parquet": "7fc99cbd47a9e9cf7cbc71d757ae42b77fd25f8312c801f22ca9654d0642e676",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_4_EqualID.parquet": "d7a49f63cb07c4f90f9208f17b6f8b306b768c6c6e3e580d19897f2fc9b8ef09",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/matrices/outer_4_Fixed.parquet": "3924c1959a8cb25e9cedfe314713b54948a59a7333159c2b7a86283af8e04ee0",
+    "results/runs/drifter_shrinkage_e3_20261030T074159_751985Z/selected_outer_parameters.csv": "5826a90e028ea26a0cb637ee0bddb2c0c7290dcb02aaba349fd2427143e6b059"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "primary_run": "partial_weighting_e4_20261030T082826_141410Z",
+  "replay_run": "partial_weighting_e4_20261030T083247_155679Z",
+  "engineering_complete": true,
+  "scientific_closure": "pending_user_review",
+  "semantic_tests": 28,
+  "related_regression_tests": 76,
+  "all_tests_passed": true,
+  "sealed_file_hashes_verified": {
+    "partial_weighting_e4_20261030T082826_141410Z": 251,
+    "partial_weighting_e4_20261030T083247_155679Z": 251
+  },
+  "numerical_tables_reproduced": 231,
+  "absolute_tolerance": 1e-12,
+  "E3_control_tables_reproduced": 158,
+  "E3_source_files_unchanged": [
+    "src/data3001/modelling/baselines/drifter_shrinkage_e3.py",
+    "src/data3001/modelling/baselines/drifter_shrinkage_e3_audit.py",
+    "src/data3001/modelling/baselines/drifter_shrinkage_e3_report.py",
+    "src/data3001/modelling/baselines/run_drifter_shrinkage_e3.py"
+  ],
+  "fitting_roles_checked": 26,
+  "candidate_identities_checked": 1200,
+  "candidate_ID_cell_records_checked": 1011000,
+  "heldout_grouped_model_cases_checked": 87516,
+  "paired_ID_replicates_checked": 5000,
+  "region_add_remove_reconciliation": true,
+  "source_hashes_match_both_runs": true,
+  "visually_reviewed_figures": [
+    "model_comparison.png",
+    "quality_and_region_differences.png",
+    "candidate_comparison_7d.png",
+    "candidate_comparison_30d.png",
+    "drifter_contributions.png",
+    "per_cell_brier_differences.png",
+    "budget_hit_curves.png"
+  ],
+  "final_test_trajectories_read": 0,
+  "raw_trajectories_read": 0,
+  "failed_runs": [],
+  "beta_search_performed": false,
+  "extra_model_combinations_run": false,
+  "result_document_sha256": "90decd75e3a1b4713db900af53d7bd50e2bb8ccbd9b06b175424ba08029e2b74"
+}

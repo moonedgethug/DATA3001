@@ -1,8 +1,36 @@
 # Markov milestone: results and reproduction
 
-**Publication: Markov Transition Model Completed — 28 October 2026.**
+**Latest publication: `Markov Step 1 - 3done` — 2 November 2026.**
 
-**Current direction (29 October):** consolidate the empirical matrices under the approved pooled, known-initial-velocity workbench. The first continuous experiment and frozen diagnostics have completed; further continuous optimisation is paused. Use the [code guide](code_guide.md) for the reorganised implementations and the [current plan](modelling_round1_plan.md) for stage boundaries.
+The [five-step roadmap](../README.md) identifies the current programme: **(1)** empirical matrices, **(2)** regularisation / Bayesian estimation, **(3)** spatial information, **(4)** time/environmental conditioning, and **(5)** memory/latent states. Step numbers identify research directions, not forecast horizons or older M1/M1vcat versions.
+
+This milestone publishes the completed S1, S2 E1–E4 and S3 E1–E4 comparisons, their code, configurations, tests, reports, probability maps and audit evidence. **Step 3** tests borrowing from the eight adjacent origin cells, comparing shared endpoints with translated displacements and then refining borrowing weights and information quality. Completion records the experiments and their limitations; it does not imply that every extension improved prediction or that a Bayesian posterior model has been fitted.
+
+The additional S3 E5 exact-coordinate displacement comparison is deferred. Its [O1 trial](actual_origin_displacement_s3_e5_o1_results.md) did not establish complete-run capacity, and no full-CV forecast scores exist. The O2 continuation remains a proposal. [Step 4 planning](time_environment_s4_architecture.md) and its [seasonal contract draft](seasonal_conditioning_s4_e1_contract.md) are included for review; no Step 4 execution is represented. Step 5 has not started. Final-test trajectories remain locked.
+
+### Current results to read
+
+| Step | Completed evidence |
+|---|---|
+| 1 | [Empirical B2](empirical_b2_results.md) |
+| 2 | [Fixed/adaptive shrinkage](adaptive_b2_b1_results.md), [information/weight refinements](b2_b1_e2_results.md), [equal-ID comparison](drifter_shrinkage_e3_results.md), [partial ID weighting](partial_weighting_e4_results.md) |
+| 3 | [Spatial endpoint/displacement benchmark](spatial_borrowing_s3_e1_results.md), [adaptive local weights](local_endpoint_adaptive_s3_e2_results.md), [neighbour quality](local_endpoint_quality_s3_e3_results.md), [joint selection with fallback](local_endpoint_joint_s3_e4_results.md) |
+
+S1/S2 E1–E2 use their original pair-weighted evaluations. S2 E3–E4 and S3 use equal-ID-within-cell and equal-cell primary evaluation. Compare models within a matched experiment; scores from these different targets are not one leaderboard. Read standard Brier together with actual nominal-90% hits, region size, unsupported cases and uncertainty.
+
+### Publication and reproduction scope
+
+The [publication inventory](../provenance/reviews/markov_steps_1_3_publication_20261102.json) records included runs, output-hash verification and omitted caches. Selected primary runs and the spatial input bundle are published with provenance; duplicate replay result bundles and multi-gigabyte caches remain local. Replay provenance and existing audit receipts preserve the distinction. Continuous-model results and diagnostics are included as historical evidence, with optimisation still paused.
+
+Publication checks passed **398 tests** with no failures, errors or skips, and **3,711 frozen output hashes** matched. The [test receipt](../provenance/reviews/markov_steps_1_3_publication_20261102_tests.json) records the checked scope. These checks verify implementation/artifact integrity; they do not constitute new predictive validation.
+
+Download the repository before opening saved `review.html` files; GitHub shows HTML source. Stable deliverable links resolve to published run directories. Reproduction of experiments that require omitted continuous/exact-position caches still requires those matching inputs or a separately approved rebuild. No data cleaning, fitting, final-test evaluation or interrupted-run resumption is part of this publication.
+
+## Earlier publication: Markov Transition Model Completed — 28 October 2026
+
+**Independent S1 entry (29 October):** S1 is completed and accepted. The [scientific closing record](empirical_b2_results.md) supplements the sealed [run report](../results/deliverables/empirical_b2/REPORT.md), [browser view](../results/deliverables/empirical_b2/review.html) and unchanged [approved plan](empirical_b2_plan.md). Standard Brier, unsupported-forecast reporting and the exclusion of spatial/combined loss define this frozen baseline. Its development results and artifact identity remain separate from all historical comparisons below.
+
+**Recorded finding (31 October):** the independent [Step 3 E4 joint endpoint experiment](local_endpoint_joint_s3_e4_results.md) is executed, audited and replayed. Neither horizon achieves a quality-preserving improvement; every constrained selection falls back to LocalEndpointAdaptive because no candidate meets the inner Fixed hit-rate floor. The report separates unconstrained joint tuning, constrained selection, fallback and outer quality acceptance. [E3](local_endpoint_quality_s3_e3_results.md), [E2](local_endpoint_adaptive_s3_e2_results.md) and the [E1 benchmark](spatial_borrowing_s3_e1_results.md) remain unchanged. No automatic model replacement or scientific closure follows.
 
 The publication records the completed empirical Markov comparisons. The neighbour extension
 was stopped by the user after one of five outer folds; it is not a completed
@@ -117,4 +145,4 @@ reject mismatched source, configuration or input hashes.
 
 The stopped neighbour calculation must not restart automatically. Its remaining
 checkpoints are retained only for a future explicitly approved resumption.
-The current next step is empirical-matrix consolidation and support/error diagnosis in the [modelling plan](modelling_round1_plan.md). The source layout migration preserves old import commands but changes source hashes; it does not authorise resuming historical computations.
+The current next step is review of the [Step 4 seasonal contract](seasonal_conditioning_s4_e1_contract.md); empirical consolidation and the completed spatial comparisons are preserved in the [modelling plan](modelling_round1_plan.md). The source layout migration preserves old import commands but changes source hashes; it does not authorise resuming historical computations.

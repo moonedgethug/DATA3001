@@ -1,0 +1,43 @@
+{
+  "phase": "before_geometry_timing_and_weight_selection",
+  "roster_sha256": "4ab6ca370cf4437a3a07d37be5f0984e9c205bb5e3929e38fdbef35611a2230e",
+  "selection_used_outcomes": false,
+  "strata": [
+    {
+      "available": true,
+      "cell": 43663,
+      "horizon_days": 7,
+      "stratum": "largest_work"
+    },
+    {
+      "available": true,
+      "cell": 44742,
+      "horizon_days": 7,
+      "stratum": "lowest_local_support"
+    },
+    {
+      "available": true,
+      "cell": 44382,
+      "horizon_days": 7,
+      "stratum": "coastal_largest_work"
+    },
+    {
+      "available": true,
+      "cell": 43663,
+      "horizon_days": 30,
+      "stratum": "largest_work"
+    },
+    {
+      "available": true,
+      "cell": 44742,
+      "horizon_days": 30,
+      "stratum": "lowest_local_support"
+    },
+    {
+      "available": true,
+      "cell": 44382,
+      "horizon_days": 30,
+      "stratum": "coastal_largest_work"
+    }
+  ]
+}

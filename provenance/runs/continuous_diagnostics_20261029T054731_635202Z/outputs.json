@@ -1,0 +1,32 @@
+{
+  "completed": true,
+  "final_test_access": false,
+  "output_sha256": {
+    "provenance/runs/continuous_diagnostics_20261029T054731_635202Z/diagnostic_source.py": "38c4d4362bc2e4246b087d78438beef557f8f53aa00b043a63b5cd29329120ba",
+    "provenance/runs/continuous_diagnostics_20261029T054731_635202Z/method.json": "a4a163e74fc886a894a2684d98d2dbb58568a1eb615c4303d1e2c5df15ab12d3",
+    "provenance/runs/continuous_diagnostics_20261029T054731_635202Z/run.json": "4509bc6e2d88b2713feca46a99acc4001ba4372d8aebce82c0aec810f59b3cc1",
+    "provenance/runs/continuous_diagnostics_20261029T054731_635202Z/verification.json": "93d7994c3b77de99022d4ab71a122aa40b2f8915de5e624a8ab1e9c4c2d2f530",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/ID_completeness.csv": "dbea461bfcae4b467f4aeefdb7c1078067ca95730eda8be8e7cc5192e867f36a",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/diagnostic_queries.csv": "89b21bde979aa05089220b3411dc7b81a7fb3fe283feee095e92002e502c46c1",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_G_l2_0_9123_168h.npy": "86c4e6028107e206c1bfed33f6980489322635859cd557f61a917d588320d82c",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_G_l2_0_9123_720h.npy": "c2d13e7adeaf199203b4d4c43b9ce78fcedcae70acb904d4206240caaf01be73",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_G_l2_0_9124_168h.npy": "2f8ef89d0c912d355f3d4edd1f68e77584d3d2cc1d11545320be2e7fe49737fe",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_G_l2_0_9124_720h.npy": "d3b62fb9b6869b69558078f057587f4317d5f68f018cda27986403d99487d9c1",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_MDN3_l2_0_9123_168h.npy": "02cc485e6c378c57feac4628c2815cb297ecde2a8696111adfabb8fc284279cb",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_MDN3_l2_0_9123_720h.npy": "d3598ade9c24f6b3d1badaa1b87a4bbae4701816ce45914f520beb3fe2317537",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_MDN3_l2_0_9124_168h.npy": "a18e0ff0fee77430a28456ad502724ee75aa412a09b5ed6ab82b5ed1c30a3a5f",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/draws_MDN3_l2_0_9124_720h.npy": "439e6b1e4d87aa32c8d9e8358a305532cf630173d99acf0c83f46bddba9344d9",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/failures_G_l2_0_9123.parquet": "7e9dfcea28aa3e5abe35656afd72c3d0b4787dde79b84251140d7b18aa6a5510",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/failures_G_l2_0_9124.parquet": "1a17b8f8d9007ed826eca14ca7d78dbba6ee4745642edeebf63f6eaf2ba35089",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/failures_MDN3_l2_0_9123.parquet": "b2b8bc48e1d273097058fba9ad3408c215540e83baa01d4771812012397b48a9",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/failures_MDN3_l2_0_9124.parquet": "e52d31b8152f225eaa8409372331e1a366f30ca30a464ff7e1e2f8e48c1f8c6e",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/frozen_training_history.csv": "ef3b1efa7bdd0dbb4690c01dfc4831dbbb1d9dbe14573f8e40c254e87640e53c",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/local_sensitivity.csv": "eaa2a2a0b5d69f19aabff8c76ad1fdece3056ca432a2ea85894e7532c2f29be2",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/one_step_by_ID.csv": "17773cc97f181a14a69fd3c830021b1c58f7372994b96435bc605128a3ff6952",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/one_step_summary.csv": "33126e10198818c8e908c0e767f1131b61302298b2842f47c834c3c530b72b88",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/trace_G_l2_0_9123.csv": "8d053ae642ff437a8207abad43863436ae3e8c36590bfe436ee1eb7e789d7479",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/trace_G_l2_0_9124.csv": "c63bd18c42f2b6a51eb2c40c60d8646411c9ca9098eff67833a648cbb2382f62",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/trace_MDN3_l2_0_9123.csv": "e67c1c66f3a8cca402d8cabcbbb83122b3037e5214568b16dca997bca6d766cb",
+    "results/runs/continuous_diagnostics_20261029T054731_635202Z/trace_MDN3_l2_0_9124.csv": "7b5b30c1507c64903afad6142dc58a69a9e9312f1bed42aa0e581f1ecc2d1ab0"
+  }
+}

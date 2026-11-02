@@ -1,0 +1,7 @@
+{
+  "capacity_assessment_completed": true,
+  "capacity_passed": false,
+  "full_experiment_completed": false,
+  "source_unchanged": true,
+  "status": "CAPACITY_FAILED"
+}

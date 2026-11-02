@@ -1,0 +1,98 @@
+{
+  "SVG_XML_valid": true,
+  "commit_or_push_performed": false,
+  "current_source_hashes_match_run": true,
+  "earlier_validation_runs": {
+    "reason_not_primary": "Retained unchanged. Repeated with entrypoint source hash explicitly recorded; no scientific settings or probabilities were changed.",
+    "runs": [
+      "empirical_b2_20261029T121214_029613Z",
+      "empirical_b2_20261029T121259_816673Z"
+    ]
+  },
+  "engineering_status": "completed_and_audited",
+  "numerical_audit": {
+    "code_hashes_unchanged": true,
+    "denied_operations": [],
+    "final_test_trajectories_read": 0,
+    "heldout_cases_reconciled": true,
+    "historical_model_outputs_used": false,
+    "input_hashes_unchanged": true,
+    "matrix_count": 12,
+    "matrix_count_reconciliation": true,
+    "max_brier_error": 6.661338147750939e-16,
+    "max_probability_error": 0.0,
+    "qualified_label_counts_reconciled": true,
+    "whole_ID_leakage": false
+  },
+  "primary_run": "empirical_b2_20261029T121555_976173Z",
+  "replay": {
+    "passed": true,
+    "reference_run": "empirical_b2_20261029T121555_976173Z",
+    "tables_compared": [
+      "bootstrap_draws.csv",
+      "bootstrap_intervals.csv",
+      "candidate_support_summary.csv",
+      "cell_summary.csv",
+      "counts_by_id.parquet",
+      "destination_cells.csv",
+      "destination_index.csv",
+      "fold_summary.csv",
+      "folds.csv",
+      "heldout_predictions.parquet",
+      "heldout_scores.parquet",
+      "matrices/all_development_candidate_30d.parquet",
+      "matrices/all_development_candidate_7d.parquet",
+      "matrices/outer_0_30d.parquet",
+      "matrices/outer_0_7d.parquet",
+      "matrices/outer_1_30d.parquet",
+      "matrices/outer_1_7d.parquet",
+      "matrices/outer_2_30d.parquet",
+      "matrices/outer_2_7d.parquet",
+      "matrices/outer_3_30d.parquet",
+      "matrices/outer_3_7d.parquet",
+      "matrices/outer_4_30d.parquet",
+      "matrices/outer_4_7d.parquet",
+      "qualification_reasons_by_id.csv",
+      "row_support.csv",
+      "source_index.csv",
+      "summary.csv"
+    ],
+    "tolerance": 1e-12
+  },
+  "replay_run": "empirical_b2_20261029T121658_676902Z",
+  "report_links_checked": true,
+  "research_stage_closure": "pending_user_confirmation",
+  "reviewed_UTC": "2026-10-29T12:20:44.534814+00:00",
+  "sealed_files_verified": {
+    "empirical_b2_20261029T121555_976173Z": 38,
+    "empirical_b2_20261029T121658_676902Z": 38
+  },
+  "tests": {
+    "command": "PYTHONPATH=tests .venv/bin/python -B -m unittest test_modelling_empirical_b2 test_modelling_cv test_modelling_markov_inputs test_modelling_neighbourhood_run test_architecture test_modelling_layout -q",
+    "errors": 0,
+    "exit_code": 0,
+    "failures": 0,
+    "observed_summary": "Ran 49 tests in 3.665s; OK",
+    "source_sha256": {
+      "tests/test_architecture.py": "08048b75134382fe702ed6fe1982a531f42fe213e50b33f57ae680712abe0445",
+      "tests/test_modelling_cv.py": "1eeeac37fab80ff1a5c916a8c673083837f399157acb4ba65285e9ec5a830020",
+      "tests/test_modelling_empirical_b2.py": "339ed2f8495d79cb96a30ddd69f81cb0bcf5846ad52648ec423848c24e9a8eb1",
+      "tests/test_modelling_layout.py": "0e3b6ac1e9366d825c82ca7a7a8a466ff97199215f23a31708b3d56cef15ac7e",
+      "tests/test_modelling_markov_inputs.py": "900dd4b7b830ac1ce84f14d1a8e87cb56b50397b940dadaf3b0ed964d351b25f",
+      "tests/test_modelling_neighbourhood_run.py": "5974983a71b520c5acf431ba432bcf811458a590e381086d66cf4826762fa507"
+    },
+    "tests_run": 49
+  },
+  "visual_QA": {
+    "inspected": true,
+    "maps": [
+      "probability_7d.svg",
+      "probability_30d.svg"
+    ],
+    "notes": "Full domain, source cell, frozen R/D, probability scale, support and E/unresolved labels visible; maps match inspected rasterisations exactly.",
+    "rendered_at_pixels": [
+      1200,
+      740
+    ]
+  }
+}

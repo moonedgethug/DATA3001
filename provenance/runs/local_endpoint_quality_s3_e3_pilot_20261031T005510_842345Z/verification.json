@@ -1,0 +1,12 @@
+{
+  "artifact_bytes": 881739,
+  "canonical_trajectory_files_read": 0,
+  "denied_operations": [],
+  "elapsed_seconds": 7.562624209007481,
+  "final_test_trajectories_read": 0,
+  "first_role_seconds": 5.148633000004338,
+  "max_rss_bytes": 555515904,
+  "passed": true,
+  "preflight_only": true,
+  "projected_complete_seconds": 728.7158250001085
+}
