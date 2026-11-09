@@ -1,0 +1,5 @@
+32 retained parameter queries independently checked
+64 retained parameter queries independently checked
+96 retained parameter queries independently checked
+128 retained parameter queries independently checked
+{'phase': 'checks', 'elapsed_seconds': 3.7293844160158187, 'prior_phase_seconds': 316.0163265001029, 'prior_total_seconds': 1413.80454329215, 'peak_process_tree_rss_bytes': 622788608, 'retained_bytes': 283316405, 'peak_storage_bytes': 283316405, 'completed': True, 'outer_targets_read': False, 'denied_access': [], 'final_test_access': False}

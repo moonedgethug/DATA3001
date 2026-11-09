@@ -1,0 +1,39 @@
+independent support review C_T0 64
+independent support review C_T1 64
+{
+  "status": "STOPPED_AT_PILOT_GATE",
+  "review_passed": true,
+  "formal_completed": false,
+  "formal_authorized": false,
+  "verified_levels": [
+    4096,
+    8192,
+    16384,
+    32768,
+    65536
+  ],
+  "independent_support_cases": 128,
+  "independent_calendar_method": "Explicit UTC quarter intersections",
+  "protected_file_count": 492,
+  "pilot_sources_unchanged": true,
+  "majority_seasons_present": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cross_season_queries": 7,
+  "ties": 0,
+  "seasonal_fallback_queries": 0,
+  "outer_targets_read": false,
+  "final_test_access": false,
+  "limitations": [
+    "Pilot numerical variance is a conservative season-maximum extrapolation, not measured outer variance.",
+    "Pilot support was independently reconstructed; original seasonal donor vectors were not retained.",
+    "No formal model inference or independent formal score audit was performed."
+  ],
+  "output_sha256": {
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/pilot_audit/inner_pilot_summary.csv": "d3b0fbffdaff1a763891a7a9f876c39aeec12bdc4469d543fb8a185c28309c56",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/pilot_audit/support.csv": "b9acd30cd98374a641b7a9d8ac4876271dc57902d7515e4279bc793ecc71b0b9"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "release_unchanged": "per-drifter-cleaned-20261017-v6",
+  "scoped_IDs": 227,
+  "missing_ID_field_cases": 616,
+  "all_missing_cases_match_frozen_official_acquisition": true,
+  "original_NetCDF_deployment_IDs_checked": 44,
+  "original_NetCDF_deployment_IDs_not_retrieved": [],
+  "original_NetCDF_candidate_values_accepted": 0,
+  "all_190_missing_end_triplets_have_frozen_alive_code": true,
+  "retained_missing_IDs_by_field": {
+    "deploy_date": 44,
+    "deploy_lat": 1,
+    "deploy_lon": 1,
+    "end_date": 190,
+    "end_lat": 190,
+    "end_lon": 190
+  },
+  "field_dispositions": {
+    "official_product_missing_log_date_discrepancy_unresolved": 30,
+    "official_product_missing_no_exact_deployment_log_match": 16,
+    "frozen_alive_snapshot_no_termination_record": 570
+  },
+  "accepted_IDs": 0,
+  "accepted_fields": 0,
+  "new_active_feature_columns": [],
+  "data_files_modified": 0,
+  "all_3741_data_file_hashes_unchanged": true,
+  "rows": 39099193,
+  "columns": 129,
+  "frozen_metadata_path": "archive/data_before_release_20261016/reference/acquisition/metadata/trajectory_metadata.npz",
+  "frozen_metadata_sha256": "ccac0c760d5daca318bdeaa20ff0ffe50a55e985064f7ab1c2b418a427e6330a",
+  "manifest_sha256": "ebf74d60948101669e95feb3834f7727b7ef4ed747bd1fcb4a4c7d0a99ba0577",
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "NA_representation": "Existing numeric NaN/Arrow null retained; no string NA or physical zero substituted.",
+  "forecast_accuracy_evaluated": false,
+  "coverage_limit": "No accepted recovery in inspected sources; unpublished corrections or future official releases may provide other evidence."
+}

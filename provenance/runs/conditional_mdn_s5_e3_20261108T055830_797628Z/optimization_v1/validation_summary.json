@@ -1,0 +1,158 @@
+{
+  "status": "BOUNDED_VALIDATION_COMPLETE_FORMAL_STOPPED",
+  "formal_next_stage": null,
+  "reference_pass_counts": {
+    "65536": {
+      "passed": 48,
+      "total": 48
+    },
+    "262144": {
+      "passed": 48,
+      "total": 48
+    }
+  },
+  "matched_node_max_term_difference_km": 1.1368683772161603e-13,
+  "equivalent_probe_records": 768,
+  "all_exact_value_equal": true,
+  "all_old_hashes_match": true,
+  "frozen_files": 157,
+  "timing_basis": "matched alternating2worker operation timings including parameter preparation, excluding launch and writes",
+  "speedup": 1.0848193858840112,
+  "operation_time_reduction_fraction": 0.07818756466533128,
+  "p95_seconds": {
+    "old": {
+      "1": {
+        "parameters": 1.5166588127613033e-07,
+        "energy": 0.06475246876361779,
+        "region": 0.1287785670836456,
+        "audit_energy": 0.05293096480309032,
+        "audit_region": 0.12311832292471081
+      },
+      "2": {
+        "parameters": 2.916436642408371e-07,
+        "energy": 0.05034374365932308,
+        "region": 0.14743024786585007,
+        "audit_energy": 0.05031051816185936,
+        "audit_region": 0.130099435307784
+      },
+      "4": {
+        "parameters": 2.50060111284256e-07,
+        "energy": 0.05261817055870779,
+        "region": 0.1386161188187543,
+        "audit_energy": 0.057181645568925875,
+        "audit_region": 0.1397236665536184
+      },
+      "8": {
+        "parameters": 2.916436642408371e-07,
+        "energy": 0.05528542907559309,
+        "region": 0.135865245340392,
+        "audit_energy": 0.05052473126561379,
+        "audit_region": 0.13480452682706526
+      },
+      "16": {
+        "parameters": 2.5001936592161656e-07,
+        "energy": 0.06632406017743048,
+        "region": 0.15325285046710624,
+        "audit_energy": 0.05749690164229832,
+        "audit_region": 0.14889287673868234
+      },
+      "32": {
+        "parameters": 2.766959369182583e-07,
+        "energy": 0.060570113040739657,
+        "region": 0.14830031645833514,
+        "audit_energy": 0.060414704104186936,
+        "audit_region": 0.1417144062113948
+      }
+    },
+    "new": {
+      "1": {
+        "parameters": 8.262671181000768e-05,
+        "energy": 0.05014774148003198,
+        "region": 0.12637932114303105,
+        "audit_energy": 0.051331545523134986,
+        "audit_region": 0.12416708582895808
+      },
+      "2": {
+        "parameters": 7.602107361890373e-05,
+        "energy": 0.04752556629828176,
+        "region": 0.1264874961052555,
+        "audit_energy": 0.047043598332675164,
+        "audit_region": 0.1297605214524082
+      },
+      "4": {
+        "parameters": 7.349166553467512e-05,
+        "energy": 0.051349107979331156,
+        "region": 0.1301414898072835,
+        "audit_energy": 0.04722872090060263,
+        "audit_region": 0.13307738975854583
+      },
+      "8": {
+        "parameters": 0.00011994359083473681,
+        "energy": 0.050342650496168054,
+        "region": 0.1314532958436757,
+        "audit_energy": 0.05034972661524079,
+        "audit_region": 0.13699370679096315
+      },
+      "16": {
+        "parameters": 8.962267893366512e-05,
+        "energy": 0.052652947726892274,
+        "region": 0.1470607143768575,
+        "audit_energy": 0.04854595806100405,
+        "audit_region": 0.12951356855337504
+      },
+      "32": {
+        "parameters": 0.00011564769083634015,
+        "energy": 0.04993396881618537,
+        "region": 0.12531676063081246,
+        "audit_energy": 0.054790360154583995,
+        "audit_region": 0.1295033057394903
+      }
+    }
+  },
+  "projected_hours": {
+    "old": {
+      "inner_scoring": 11.93967506281675,
+      "outer_scoring": 8.636032972676674,
+      "audit_original_reference": 8.265413232856647,
+      "audit_if_reference_65536": 8.354881935347864,
+      "audit_if_reference_262144": 8.611947172125708
+    },
+    "new": {
+      "inner_scoring": 10.864143477932902,
+      "outer_scoring": 7.837782209981975,
+      "audit_original_reference": 7.8099798131546505,
+      "audit_if_reference_65536": 7.899448515645868,
+      "audit_if_reference_262144": 8.156513752423711
+    }
+  },
+  "scoring_audit_hours": 26.511905501069528,
+  "full_training_expected_hours": null,
+  "scoring_audit_hours_if_reference_65536": 26.601374203560745,
+  "planning_future_hours_with_existing_training_report_allowances": 36.601374203560745,
+  "additional_stage_seconds_before_report": {
+    "A": 15.202505249064416,
+    "C": 274.691864623921,
+    "B": 69.0790030839853,
+    "D": 0.6493715420365334
+  },
+  "independent_review_receipt": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/independent_review.json",
+  "original_gate_changed": false,
+  "new_model_training": false,
+  "selected_K": null,
+  "new_outer_target_access": false,
+  "report": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/results/deliverables/conditional_mdn_s5_e3_optimization/REPORT.md",
+  "final_resource_snapshot_before_close": {
+    "stage_seconds": {
+      "A": 15.202505249064416,
+      "B": 69.0790030839853,
+      "C": 274.691864623921,
+      "D": 1.0858104170765728
+    },
+    "additional_seconds": 360.0591833740473,
+    "pilot_total_seconds": 510.02356687164865,
+    "additional_peak_rss_gib": 1.5124053955078125,
+    "new_output_bytes": 13202594,
+    "closure_overhead_in_live_ledger": true
+  },
+  "independent_review_passed": true
+}

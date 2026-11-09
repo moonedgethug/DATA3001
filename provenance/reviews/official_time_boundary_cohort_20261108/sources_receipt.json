@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cohort-boundaries",
+      "title": "383 个 ID 的边界分类",
+      "queries": [
+        {
+          "id": "cohort-ledger",
+          "source": {
+            "label": "官方目录与冻结数据审计",
+            "files": [
+              {
+                "label": "boundary_assessment.csv"
+              },
+              {
+                "label": "source_receipts.json"
+              }
+            ],
+            "filters": [
+              "当前训练 ID：338 个",
+              "当前验证 ID：45 个",
+              "封存 final-test 不在范围内"
+            ],
+            "caveats": [
+              "五个 ID 仍存在源版本结束信息冲突，三个 ID 的分钟级边缘资格仍待判定。"
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "来源核对",
+                "detail": "383 个 ID 均匹配唯一官方目录行；完整 ID、WMO、首次日期与坐标均核对通过。四份目录与此前保存的官方响应哈希相同。"
+              }
+            ]
+          },
+          "columns": [
+            "category",
+            "train_ids",
+            "validation_ids",
+            "ids"
+          ],
+          "rows": [
+            {
+              "category": "仅时间精度差异",
+              "train_ids": 327,
+              "validation_ids": 36,
+              "ids": 363
+            },
+            {
+              "category": "原生结束信息缺失，官方可核对",
+              "train_ids": 2,
+              "validation_ids": 9,
+              "ids": 11
+            },
+            {
+              "category": "分钟级小时边界待判",
+              "train_ids": 3,
+              "validation_ids": 0,
+              "ids": 3
+            },
+            {
+              "category": "明显超界原始记录，未进入配对",
+              "train_ids": 1,
+              "validation_ids": 0,
+              "ids": 1
+            },
+            {
+              "category": "跨来源结束信息冲突",
+              "train_ids": 5,
+              "validation_ids": 0,
+              "ids": 5
+            }
+          ],
+          "preview": {
+            "kind": "aggregate",
+            "note": "383 个 ID 的互斥分类汇总。",
+            "totalRows": 383
+          }
+        }
+      ]
+    },
+    {
+      "id": "used-pair-boundaries",
+      "title": "实际研究配对是否越界",
+      "queries": [
+        {
+          "id": "pair-ledger",
+          "source": {
+            "label": "冻结配对与官方时刻",
+            "files": [
+              {
+                "label": "final_summary.json"
+              },
+              {
+                "label": "historical_boundary_pairs.csv"
+              }
+            ],
+            "filters": [
+              "当前七天配对：299364 条",
+              "同组 ID 历史合格七天及三十天配对：571823 条"
+            ],
+            "caveats": [
+              "一分钟差异是小时产品起点与目录时刻的差异，不等同于已证明的无效观测。"
+            ],
+            "evidenceFlow": [
+              {
+                "kind": "validation",
+                "title": "独立时间计算",
+                "detail": "以 nominal target 减预测时长重新计算起点，与 UTC 时间解析结果一致；历史配对的所需区间未超出官方结束时刻。"
+              }
+            ]
+          },
+          "columns": [
+            "check",
+            "pairs"
+          ],
+          "rows": [
+            {
+              "check": "当前七天终点超过官方结束时刻",
+              "pairs": 0
+            },
+            {
+              "check": "当前七天起点早一分钟",
+              "pairs": 1
+            },
+            {
+              "check": "历史所需观测区间超过官方结束时刻",
+              "pairs": 0
+            },
+            {
+              "check": "历史起点早一分钟：七天与三十天各一条",
+              "pairs": 2
+            }
+          ],
+          "methods": [
+            {
+              "language": "python",
+              "code": "origins = active.target_epoch.to_numpy() - active.horizon_days.to_numpy() * 86400\nassert (origins < active.official_start_epoch).sum() == 1\nassert (active.matched_endpoint_epoch > active.official_end_epoch).sum() == 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saved-donor-usage",
+      "title": "一分钟边缘配对的实际使用",
+      "queries": [
+        {
+          "id": "donor-lineage",
+          "source": {
+            "label": "已保存的模型近邻索引",
+            "files": [
+              {
+                "label": "boundary_pair_donor_usage.json"
+              }
+            ],
+            "caveats": [
+              "参与预测数量不代表评分变化；本轮没有重拟合、预测或重新评分。"
+            ]
+          },
+          "columns": [
+            "model",
+            "queries",
+            "drifter_ids"
+          ],
+          "rows": [
+            {
+              "model": "全年精确位置及 CI",
+              "queries": 660,
+              "drifter_ids": 25
+            },
+            {
+              "model": "B2Point",
+              "queries": 361,
+              "drifter_ids": 26
+            },
+            {
+              "model": "季节精确位置及 CI",
+              "queries": 309,
+              "drifter_ids": 7
+            },
+            {
+              "model": "单高斯",
+              "queries": 660,
+              "drifter_ids": 25
+            },
+            {
+              "model": "最终 GMM",
+              "queries": 660,
+              "drifter_ids": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

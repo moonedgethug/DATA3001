@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "full_suite_tests": 101,
+  "full_suite_seconds": 20.273,
+  "full_suite_log_sha256": "3215e1d602149e0c5b7ea2bae67797d46270a7f71a322e65481f7b97239b0a43",
+  "subsequent_target_gate_tests": 6,
+  "target_gate_log_sha256": "5d160d54b9f952dede39f1a33558768696d9b2181ad3c1a258252db1c69ae53c",
+  "spawn_parity": {
+    "workers": [
+      1,
+      2
+    ],
+    "queries": 2,
+    "candidates": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "complete_score_rows": 12,
+    "all_fields_exactly_equal": true,
+    "fixture_only": true
+  },
+  "scientific_inputs_changed": false,
+  "historical_outputs_changed": false,
+  "scope": "training, numerical implementation, resume/permission gates, paired selection, synthetic spawn parity; not a claim of completed experiment"
+}

@@ -1,0 +1,26 @@
+{
+  "source": "exact_origin_s4_e7_primary_20261105T062540_174343Z",
+  "audited_primary": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+  "exact_array_and_table_agreement": true,
+  "files": [
+    "Annual_0p5_probabilities.npz",
+    "Annual_0p5_regions.npz",
+    "Annual_0p5_states.npy",
+    "Annual_1p0_probabilities.npz",
+    "Annual_1p0_regions.npz",
+    "Annual_1p0_states.npy",
+    "Exact_0p5_probabilities.npz",
+    "Exact_0p5_regions.npz",
+    "Exact_0p5_states.npy",
+    "Exact_1p0_probabilities.npz",
+    "Exact_1p0_regions.npz",
+    "Exact_1p0_states.npy",
+    "choices.csv",
+    "inner_curves.csv",
+    "inner_cases.parquet",
+    "outer_roster.parquet",
+    "outer_targets.parquet"
+  ],
+  "scientific_model_unchanged_by_reporting_fixes": true,
+  "first_attempt_case_scores_not_persisted": true
+}

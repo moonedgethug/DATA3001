@@ -1,0 +1,11 @@
+test_analytic_solutions (test_modelling_seasonal_information_s4_e3.E3Tests.test_analytic_solutions) ... ok
+test_cross_horizon_boundary (test_modelling_seasonal_information_s4_e3.E3Tests.test_cross_horizon_boundary) ... ok
+test_forecast_isolation_and_E_tie (test_modelling_seasonal_information_s4_e3.E3Tests.test_forecast_isolation_and_E_tie) ... ok
+test_inner_pools_recurrent_ID_before_voting (test_modelling_seasonal_information_s4_e3.E3Tests.test_inner_pools_recurrent_ID_before_voting) ... ok
+test_sampling_quota_offsets_and_replay (test_modelling_seasonal_information_s4_e3.E3Tests.test_sampling_quota_offsets_and_replay) ... ok
+test_subset_retains_full_roster_weight (test_modelling_seasonal_information_s4_e3.E3Tests.test_subset_retains_full_roster_weight) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.040s
+
+OK

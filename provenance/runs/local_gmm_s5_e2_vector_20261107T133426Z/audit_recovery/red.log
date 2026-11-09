@@ -1,0 +1,39 @@
+test_object_numeric_scores_keep_the_same_iid_decision (test_modelling_local_gmm_s5_e2_audit_dtype.IIDNumericColumns.test_object_numeric_scores_keep_the_same_iid_decision) ... ERROR
+test_object_numeric_scores_still_reject_iid_disagreement (test_modelling_local_gmm_s5_e2_audit_dtype.IIDNumericColumns.test_object_numeric_scores_still_reject_iid_disagreement) ... ERROR
+
+======================================================================
+ERROR: test_object_numeric_scores_keep_the_same_iid_decision (test_modelling_local_gmm_s5_e2_audit_dtype.IIDNumericColumns.test_object_numeric_scores_keep_the_same_iid_decision)
+----------------------------------------------------------------------
+AttributeError: 'float' object has no attribute 'sqrt'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_audit_dtype.py", line 17, in test_object_numeric_scores_keep_the_same_iid_decision
+    result = audit.iid_gate(rows)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py", line 409, in iid_gate
+    scale=np.sqrt(variance);standardised=np.divide(abs(delta),scale,out=np.where(delta==0,0.,np.inf),where=scale>0)
+          ^^^^^^^^^^^^^^^^^
+TypeError: loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+
+======================================================================
+ERROR: test_object_numeric_scores_still_reject_iid_disagreement (test_modelling_local_gmm_s5_e2_audit_dtype.IIDNumericColumns.test_object_numeric_scores_still_reject_iid_disagreement)
+----------------------------------------------------------------------
+AttributeError: 'float' object has no attribute 'sqrt'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_audit_dtype.py", line 31, in test_object_numeric_scores_still_reject_iid_disagreement
+    self.assertFalse(audit.iid_gate(rows)['passed'])
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py", line 409, in iid_gate
+    scale=np.sqrt(variance);standardised=np.divide(abs(delta),scale,out=np.where(delta==0,0.,np.inf),where=scale>0)
+          ^^^^^^^^^^^^^^^^^
+TypeError: loop of ufunc does not support argument 0 of type float which has no callable sqrt method
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (errors=2)

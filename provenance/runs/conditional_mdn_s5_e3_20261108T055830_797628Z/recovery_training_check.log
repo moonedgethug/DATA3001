@@ -1,0 +1,41 @@
+...F..E......
+======================================================================
+ERROR: test_nonfinite_aggregate_gradient_norm_is_a_numeric_failure (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_nonfinite_aggregate_gradient_norm_is_a_numeric_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 217, in test_nonfinite_aggregate_gradient_norm_is_a_numeric_failure
+    training.train_fixed_epochs(x,v,ids,1,"toy",20261121,tmp,1,purpose="pilot")
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py", line 400, in train_fixed_epochs
+    return _train(x, v, ids, k, role, base_seed, outdir, purpose=purpose,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py", line 331, in _train
+    norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 5., error_if_nonfinite=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+RuntimeError: The total norm is non-finite
+
+======================================================================
+FAIL: test_interrupt_inside_optimizer_restores_last_committed_batch (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_interrupt_inside_optimizer_restores_last_committed_batch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 240, in test_interrupt_inside_optimizer_restores_last_committed_batch
+    torch.testing.assert_close(left,right,rtol=0,atol=0)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1689, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not equal!
+
+Mismatched elements: 128 / 128 (100.0%)
+Greatest absolute difference: 0.0010006485607517365 at index (17, 1)
+Greatest relative difference: 2.8297694767384836 at index (50, 0)
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.842s
+
+FAILED (failures=1, errors=1)

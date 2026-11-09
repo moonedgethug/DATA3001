@@ -1,0 +1,22 @@
+[
+  {
+    "id": 7647,
+    "current_directory": "v2.01.1",
+    "internal_history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+    "same_as_legacy_v2_00": {
+      "time": true,
+      "err_lon": true,
+      "err_lat": true
+    }
+  },
+  {
+    "id": 36606,
+    "current_directory": "v2.01.1",
+    "internal_history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+    "same_as_legacy_v2_00": {
+      "time": true,
+      "err_lon": true,
+      "err_lat": true
+    }
+  }
+]

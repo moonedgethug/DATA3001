@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "manifests": {
+    "release_manifest.json": 18833,
+    "delivery_release.json": 16,
+    "presentation_release.json": 3
+  },
+  "visual_inspection": "Six fixed example maps and all displayed primary and diagnostic figures inspected; paired and sensitivity plots use readable layout copies",
+  "html_images": 13,
+  "html_links_checked": 24,
+  "scientific_outputs_unchanged": true,
+  "final_test_access": false,
+  "tests_passed": 763,
+  "known_execution_recovery": "Audit numeric dtype corrected; standalone report resumed through canonical imported run_phase so the existing verified forecast-release guard is shared"
+}

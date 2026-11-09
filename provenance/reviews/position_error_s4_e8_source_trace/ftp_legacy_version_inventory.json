@@ -1,0 +1,41 @@
+{
+  "/phod/pub/lumpkin/hourly/v1.02": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod     1082269214 Nov 12  2020 driftertrajGPS_1.02.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     2365629833 Nov 12  2020 driftertrajGPS_1.02.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     458780092 Jul 16  2018 driftertrajGPS_1.02.tar.gz",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     11995863971 Nov 12  2020 driftertrajWMLE_1.01.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     632223568 Nov 12  2020 driftertrajWMLE_1.02_block1.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     1635824090 Nov 12  2020 driftertrajWMLE_1.02_block1.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     796020658 Nov 12  2020 driftertrajWMLE_1.02_block2.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     2072031706 Nov 12  2020 driftertrajWMLE_1.02_block2.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     859752693 Nov 12  2020 driftertrajWMLE_1.02_block3.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     2235609562 Nov 12  2020 driftertrajWMLE_1.02_block3.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     749031684 Nov 12  2020 driftertrajWMLE_1.02_block4.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     1962979802 Nov 12  2020 driftertrajWMLE_1.02_block4.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     739862241 Nov 12  2020 driftertrajWMLE_1.02_block5.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     1908453850 Nov 12  2020 driftertrajWMLE_1.02_block5.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     516634240 Nov 12  2020 driftertrajWMLE_1.02_block6.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     1308668378 Nov 12  2020 driftertrajWMLE_1.02_block6.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     829938619 Nov 12  2020 driftertrajWMLE_1.02_block7.mat",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     2072031697 Nov 12  2020 driftertrajWMLE_1.02_block7.nc"
+  ],
+  "/phod/pub/lumpkin/hourly/v1.04": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod         2480 Nov 20  2020 README_1.04.txt",
+    "drwxrwxr-x   2 matthieu.lehenaff phod           11 Nov 12  2020 matlab",
+    "drwxrwxr-x  11 matthieu.lehenaff phod           20 Nov 12  2020 netcdf",
+    "drwxrwxr-x  11 matthieu.lehenaff phod           20 Dec 16  2020 netcdf_v1.04b",
+    "drwxrwxr-x  11 matthieu.lehenaff phod           20 Jan 22  2021 netcdf_v1.04c"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.00": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod     13100273194 Jan 20  2022 gdp_v2.00.nc",
+    "drwxrwxr-x   2 matthieu.lehenaff phod        17326 Dec 15  2021 netcdf"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.01": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod     17361507338 Sep 26  2023 gdp-v2.01.nc",
+    "drwxrwxr-x   2 matthieu.lehenaff phod        19398 Sep 26  2023 netcdf"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.01.1": [
+    "-rw-r--r--   1 dolk     phod     15783402443 Jun  5  2025 gdp-v2.01.1.nc",
+    "drwxr-xr-x   2 dolk     phod        18923 Jun  5  2025 netcdf"
+  ]
+}

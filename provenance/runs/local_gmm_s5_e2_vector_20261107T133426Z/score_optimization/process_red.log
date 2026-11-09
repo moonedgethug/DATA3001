@@ -1,0 +1,13 @@
+F......
+======================================================================
+FAIL: test_cleanup_kills_descendant_after_leader_has_exited (test_modelling_local_gmm_s5_e2_scoreopt.ProcessBudgetTests.test_cleanup_kills_descendant_after_leader_has_exited)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 91, in test_cleanup_kills_descendant_after_leader_has_exited
+    self.assertIsNotNone(importlib.util.find_spec(name),'Process-group cleanup missing')
+AssertionError: unexpectedly None : Process-group cleanup missing
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.998s
+
+FAILED (failures=1)

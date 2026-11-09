@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S4 E1 — Seasonal B2</title><style>body{font:16px/1.6 system-ui;color:#193549;background:#f7f9fb;max-width:1400px;margin:36px auto;padding:0 24px}h1{font-size:34px}h2{margin-top:36px}table{border-collapse:collapse;background:white;width:100%;font-size:14px}td,th{padding:10px;border-bottom:1px solid #dfe6ec;text-align:right}img{width:100%;background:white;margin:12px 0;border-radius:8px}.notice{padding:16px;background:#eaf1f6;border-left:4px solid #2563a6}code{overflow-wrap:anywhere}a{color:#17619b}.scroll{overflow:auto}</style></head><body><h1>Does departure season improve destination forecasts?</h1><p>Step 4 E1 v2 · 2012–2019 training → 2020–2022 validation · Development evidence</p><p class="notice">7 days: NO_BRIER_POINT_GAIN; 30 days: NO_BRIER_POINT_GAIN</p><h2>Matched comparison</h2><p>Brier: lower is better. H90: actual hit rate. K90: mean geographic cells in the nominal 90% region.</p><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>horizon_days</th>
+      <th>model</th>
+      <th>brier</th>
+      <th>K90 (cells)</th>
+      <th>H90 (%)</th>
+      <th>fallback_pairs</th>
+      <th>Fallback weight (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7</td>
+      <td>B2Annual</td>
+      <td>0.996224</td>
+      <td>16.305556</td>
+      <td>72.596819</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>B2SeasonalC1</td>
+      <td>1.055179</td>
+      <td>10.864406</td>
+      <td>50.341746</td>
+      <td>41</td>
+      <td>2.777778</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>B2Annual</td>
+      <td>1.017031</td>
+      <td>42.828571</td>
+      <td>38.810204</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>B2SeasonalC1</td>
+      <td>1.099687</td>
+      <td>16.819744</td>
+      <td>14.839925</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table></div><h2>Seasonal fallback</h2><p>7 days: 41 cases, 0.121% of pairs but 2.778% of evaluation weight. 30 days: no cases. Both models have annual support for every validation case. Fallback cases remain in every primary score.</p><h2>Figures</h2><a href="metrics.png"><img loading="lazy" src="metrics.png" alt="metrics.png"></a><a href="paired_differences.png"><img loading="lazy" src="paired_differences.png" alt="paired_differences.png"></a><a href="seasonal_support.png"><img loading="lazy" src="seasonal_support.png" alt="seasonal_support.png"></a><a href="composition_and_seasons.png"><img loading="lazy" src="composition_and_seasons.png" alt="composition_and_seasons.png"></a><a href="map_44744_7d.png"><img loading="lazy" src="map_44744_7d.png" alt="map_44744_7d.png"></a><a href="map_44744_30d.png"><img loading="lazy" src="map_44744_30d.png" alt="map_44744_30d.png"></a><a href="map_44742_7d.png"><img loading="lazy" src="map_44742_7d.png" alt="map_44742_7d.png"></a><a href="map_44742_30d.png"><img loading="lazy" src="map_44742_30d.png" alt="map_44742_30d.png"></a><a href="map_44382_7d.png"><img loading="lazy" src="map_44382_7d.png" alt="map_44382_7d.png"></a><a href="map_44382_30d.png"><img loading="lazy" src="map_44382_30d.png" alt="map_44382_30d.png"></a><h2>Interpretation limits</h2><ul><li>Chronological development backtest, not a new untouched final test. Earlier project use of development data remains a limitation.</li><li>Both fits use permitted 2012–2019 pairs only. Validation is available 2020–2022 data, with 45 / 42 IDs at 7 / 30 days; 2022 is incomplete.</li><li>Training uses raw pairs. Evaluation averages times within ID/origin, then IDs within origin, then origins equally. Seasons are not given extra full votes.</li><li>The nominal region contains at least 90% fitted probability with cutoff ties; this is not a guarantee of 90% observed coverage. K90 counts cells, not physical area.</li><li>Conditional paired intervals hold fitted models fixed and omit training uncertainty and shared ocean forcing. Six directional screens are approximate resampling evidence.</li><li>Sparse seasonal empirical rows may be noisy. Failure of c=1 does not establish that season, SST or other features cannot help.</li><li>Annual fallback preserves unsupported-season cases. It is not model-level fallback after observing validation quality. No future window or weight was searched.</li></ul><p><a href="REPORT.md">Full report</a> · <a href="summary.csv">Metrics</a> · <a href="contrasts.csv">Differences and decisions</a> · <a href="uncertainty.csv">Intervals</a> · <a href="descriptive_slices.csv">Season/year breakdowns</a></p><p><code>seasonal_conditioning_s4_e1_primary_20261102T005104_943407Z</code></p></body></html>

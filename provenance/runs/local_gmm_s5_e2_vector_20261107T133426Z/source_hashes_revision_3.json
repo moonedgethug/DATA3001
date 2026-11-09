@@ -1,0 +1,18 @@
+{
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_numerics.py": "3514832154e8b930e12a95fdd31b48cae074c3d1a10d94be043013aead359caf",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_selection.py": "d7e7f791d92058759274d310f8e7b6255e0f0795bd95dcaac6829f2c50250abc",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py": "2224222c662bca6148a4e84b36a3aa3765f57694fd74f94e4ee21a5fa4513961",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_report.py": "0bf678173d4a9482df8e82b061bfbb88f0f08f9747da4b418cf131e96fb14f57",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2.py": "886a58dcb1fb47ec1674efcdbf5827d5bf40ed7456e3c6a3ebc021261d64a782",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_native.py": "72dd7d13792c1fe0c163ea0abd5f64c66a43072776ca847215d7fe4aace2d3c5",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_kernel.cpp": "72cf405d8f7b2a57e14e8f62dae4d1b212a041f4a4290b856e5369c44bd9f5cd",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py": "e654c3887853e95116ab6ab578b2a38470cf9a91d90be597ca607e7f8476c4e5",
+  "tests/test_modelling_local_gmm_s5_e2_pipeline.py": "b054d11df0c7fdac4bab800176e866b85cb9fd692c57a02d9b0424802ecb8b17",
+  "tests/test_modelling_local_gmm_s5_e2.py": "6caabcade78d4d01eed53463cc9231c8a36d2609dd48a642977eadfe64d8c02d",
+  "configs/local_gmm_s5_e2.json": "84e8f9c893632f4f7c68e5016a5cf66e761153a790e23f77dd0cd583429de436",
+  "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/native/libe2_em.dylib": "c4c76458c99eff77c101a9114d38c2b16a5eeb762c7aaee8a688f49e372f9dc8",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt.py": "076bd1560be521aec5b224acf43c4e93dc5ad607e777adc5d15ed7b05dec70cd",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_score_kernel.cpp": "c6bfc2d883160f2380e10e6e222dae303d8066f1938fd595c0cd2f04ac78f38c",
+  "tests/test_modelling_local_gmm_s5_e2_resume.py": "0e0569d6114cdeaef3754e02da1c70e06473576334f9a53c73476bb416aa7da5",
+  "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/native/libe2_score.dylib": "70191c518457b66d2d85d491d87309a5d2a034081c2ddc058569958876993dc7"
+}

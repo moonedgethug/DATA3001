@@ -1,0 +1,5 @@
+{
+  "reason": "The pilot-only projection flag was calculated for the full phase and showed false because full runtime exceeds the pilot limit. Limit scope is now explicit: null in full phase, with a separate resource-deadline check. All row-level validation had passed.",
+  "data_or_repair_rule_changed": false,
+  "next_step": "Repeat independent verification and preserve both receipts."
+}

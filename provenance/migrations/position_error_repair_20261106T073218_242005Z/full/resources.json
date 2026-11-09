@@ -1,0 +1,12 @@
+{
+  "phase": "full",
+  "elapsed_seconds": 3028.3221909999847,
+  "prior_attempt_seconds": 0,
+  "projection_base_seconds": 3028.322191953659,
+  "network_bytes": 1072302073,
+  "peak_rss_bytes": 648478720,
+  "new_disk_bytes": 1121686695,
+  "IDs": 338,
+  "target_rows": 355247,
+  "logical_output_hash": "62cbf432e681086dd1eead930ec09afa28313004d4a6b5b40e9b1c0106c5f946"
+}

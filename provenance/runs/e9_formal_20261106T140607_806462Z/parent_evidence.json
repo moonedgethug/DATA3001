@@ -1,0 +1,9 @@
+{
+  "hashes": {
+    "provenance/runs/e9_esopt_20261106T133844_947508Z/delivery.json": "5934cb65694861710ae710ff0a368eea7f33e4d891b06c1b17407952335f650e",
+    "provenance/runs/e9_esopt_20261106T133844_947508Z/independent_review.json": "514935ffe858143021f680d7f134f7402c67d164fce7ff04ab9c7194e441d043",
+    "provenance/runs/e9_esopt_20261106T133844_947508Z/pilot_gate.json": "9be20efb5ec47632c0655b1cae8c8eb48c10aa538be682bec96bcf793a9806b4"
+  },
+  "original_contract_sha256": "dd6ba68f48359440b84fa2d4ba847925891ffed0f1ce96333034de16e9993f69",
+  "selected_energy_count": 16384
+}

@@ -15,8 +15,8 @@
 | S1 | B2 empirical transition matrices | Completed; user-approved closure and frozen baseline |
 | S2 | Regularisation / Bayesian estimation | E1–E4 executed and audited; Fixed and Adaptive retained as research outcomes |
 | S3 | Spatial information | E1–E4 executed, audited and replayed; E5 exact-coordinate extension deferred |
-| S4 | Time / environmental conditioning | Research direction and planning approved; E1 engineering proposal awaiting review |
-| S5 | Memory / latent states | Not started |
+| S4 | Time / environmental conditioning | Seasonal review concluded. E4 heading comparison complete. E5 speed-only design under review. |
+| S5 | Continuous-space parametric estimation of transition distributions | Stage definition approved; first conditional Gaussian comparison under engineering review; not implemented |
 
 ## S1 — Research plan v1 approved, 29 October 2026
 
@@ -132,3 +132,51 @@
 - **Meaning:** the bounded S1, S2 E1–E4 and S3 E1–E4 research sequence is published. Step 3 means spatial information sharing between adjacent origin cells, including endpoint/displacement comparisons and adaptive/quality/joint weighting.
 - **Limits retained:** the E5 exact-coordinate extension is deferred and has no full-CV result; the older iterative-neighbour run remains stopped. No universal best-model declaration, retrospective change to reported acceptance screens, Step 4 execution or final-test access is implied.
 - **Next stage:** review the Step 4 seasonal engineering contract. Historical entries above preserve the decisions and gates that applied at the time.
+
+## S4 — Simplified E1 direction confirmed; contract revision requested, 2 November 2026
+
+- **Confirmed scope:** train on 2012–2019, validate on available 2020–2022 data, exclude cross-boundary training labels and all validation IDs from training at both horizons. Compare only annual B2 and c=1 seasonal B2; missing seasonal support returns to annual B2 and is reported separately.
+- **Evaluation:** retain raw-pair fitting, equal times within drifter/origin, equal drifters within origin and equal origins, standard Brier and fixed 90% regions. Assess Brier improvement together with actual hits and region size at 7 and 30 days separately.
+- **Next gate:** [contract v2](seasonal_conditioning_s4_e1_contract.md) is revised for review using the [support audit](../provenance/reviews/seasonal_temporal_support_20261102/README.md). Detailed acceptance/engineering terms await confirmation; this records direction and drafting authority, not development, training or execution approval.
+
+## S4 — E1 v2 engineering execution approved, 2 November 2026
+
+- **Authorisation:** the user confirmed contract v2 and authorised independent development, a complete-roster resource pilot, then primary execution and fresh replay within the approved budget if the pilot passes. The [approval receipt](../provenance/reviews/seasonal_conditioning_s4_e1_v2_approval.json) binds the exact contract hash.
+- **Locked comparison:** annual B2 versus c=1 seasonal B2; fixed chronological and whole-ID separation; explicit annual fallback; unchanged drifter/origin evaluation, Brier and nominal 90% regions.
+- **Engineering evidence:** [E1 v2 results and audit](seasonal_conditioning_s4_e1_results.md) and [visual comparison](../results/deliverables/seasonal_conditioning_s4_e1/review.html). These record completed execution under the approval, not scientific retention or closure.
+- **Next gate:** review audited 7/30-day results, actual hits, region size and fallback evidence. No automatic model replacement, feature expansion, stage closure or final-test access.
+
+## S4 — E2 existing-model validation executed, 3 November 2026
+
+- **Authorisation:** the user approved the [temporal-validation plan](temporal_validation_s4_e2_plan.md), explicitly limiting this work to validation of established Step 1–3 models. The [approval receipt](../provenance/reviews/temporal_validation_s4_e2_approval.json) binds the original plan hash.
+- **Locked scope:** 2001–2022 qualified development records; B2, Fixed, Adaptive, LocalEndpoint and LocalEndpointAdaptive; calendar-mixed whole-ID versus forward whole-ID internal selection, with identical final training and later validation within each of three outer periods. No new model or feature family.
+- **Engineering evidence:** [results and interpretation](temporal_validation_s4_e2_results.md), [visual comparison](../results/deliverables/temporal_validation_s4_e2/review.html), and [independent audit](../provenance/reviews/temporal_validation_s4_e2_audit.json). Primary and fresh replay agree on 115 scientific artifacts, including ten identical figures. Cumulative charged execution was 415.22 seconds within the approved budget.
+- **Observed outcome:** policy effects vary by period; only C/30 supports equivalence because forecasts are identical. No T-versus-G contrast achieves the strict joint improvement criterion. This does not prove physical temporal drift or general equivalence of validation policies.
+- **Next gate:** user review of the validation standard and subsequent research direction. No automatic model replacement, new feature experiment, scientific closure, Git publication or final-test access.
+
+## S4 | E3 seasonal information test, 5 November 2026
+
+The user approved the [E3 study](seasonal_information_s4_e3_plan.md). Forward selection within 2001–2019 assigned seasonal weights 0.098574 and 0.114911 for 7 and 30 days. On 2020–2022 validation, adjusted-minus-annual Brier was −0.000465 and +0.000034. Both corrected one-sided upper bounds were positive. The 7-day point estimates improved on all three metrics. The 30-day hit rate fell by 1.64 percentage points. Informative matched controls covered 39.58% / 38.22% of evaluation weight, below the prespecified 80% threshold for a population-wide seasonal explanation. The independent replay reproduced all five figures. The seasonal comparison is ready for scientific review. [Results](seasonal_information_s4_e3_results.md) · [Visual comparison](../results/deliverables/seasonal_information_s4_e3/review.html)
+
+## S4 | Departure-season decision, 5 November 2026
+
+The user accepted the seasonal review as complete for now. Keep annual pooling for the main forecast and retain departure season for descriptive error analysis. Use forward chronological validation for future-period prediction. The 7-day point improvement remains uncertain and the 30-day comparison showed no predictive gain. Step 4 now moves to selection of the next predictor. [E3 evidence](seasonal_information_s4_e3_results.md) · [Next candidate for discussion](time_environment_s4_architecture.md#12-departure-season-decision-and-next-predictor)
+
+## S4 | E4 direction rules confirmed, 5 November 2026
+
+The user confirmed a maximum 3:1 vote ratio for aligned versus opposite headings and a direction-availability cutoff at the fitting role's 10th percentile of positive valid speeds. The requested [engineering plan](departure_direction_s4_e4_plan.md) is ready for review. Development and execution await the user's engineering decision.
+
+## S4 | E4 engineering execution, 5 November 2026
+
+The user approved the [departure-heading engineering plan](departure_direction_s4_e4_plan.md) for independent development, pilot, primary and replay. Both training-selected weights reached 1. On held-out drifters in the 2020–2022 development period, 7-day Brier improved by 0.002705, with 1.463 percentage points more hits and 0.110 fewer cells. The corrected upper Brier bound was −0.001733. At 30 days, the 0.000504 Brier improvement had a positive corrected upper bound. Fallback accounted for 8.45% / 5.50% of evaluation weight. Engineering and independent checks are complete for user review. [Results](departure_direction_s4_e4_results.md) · [Visual review](../results/deliverables/departure_direction_s4_e4/review.html)
+
+## S4 | E5 speed-only design requested, 5 November 2026
+
+The user accepted keeping E4 fixed and designing a speed-only comparison against annual B2. A later joint model would need to demonstrate additional value over heading alone. The [E5 engineering design](departure_speed_s4_e5_plan.md) is ready for review. The proposed kernel, scales, acceptance procedure and budget await execution approval.
+
+## S5 | Stage definition approved; first Gaussian plan requested, 7 November 2026
+
+- **Approved definition:** continuous-space parametric estimation of transition distributions within the Markov framework. This explicitly supersedes the former S5 label “Memory / latent states”; it does not authorise memory, latent-state or neural-mixture development.
+- **First comparison requested:** conditional Gaussian with ExactPoint and EndpointCI controls; retain seven-day prediction, the existing 2001–2019 / 2020–2022 whole-ID temporal split and drifter-equal evaluation. The [E1 engineering proposal](conditional_gaussian_s5_e1_contract.md) states the recommended local Gaussian formulas, training, scoring, validation and acceptance terms for review.
+- **Boundary:** updating this stage and preparing the proposal are authorised. The detailed estimator, numerical/resource rules and implementation remain unapproved; no new model training or experiment has begun. Historical results and paused continuous-model work remain separate.
+- **Grid experiment disposition:** the user stopped the B2 grid-translation direction before formal scoring. Retain its [support diagnosis](../results/runs/b2_grid_translation_20261106T224126_700036Z/SUPPORT_REPORT.md) as incomplete feasibility evidence, not a negative forecast-quality result; no display-only grid experiment is substituted.

@@ -1,0 +1,45 @@
+{
+  "at": "2026-11-08T02:58:19.380082+00:00",
+  "reason": "CLI __main__ module and canonical imported pipeline have separate ACTIVE_GUARDS registries; direct canonical run_phase invocation keeps the verified freeze release on the registered guards",
+  "scientific_outputs_changed": false,
+  "archived_partial_report_files": {
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/summary.csv": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/summary.csv",
+      "sha256": "b45d456014f7fc493c8bbd510d0accab7a6a4f0dc15dd58e3a3f55e1d5133bc7"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/per_id.csv": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/per_id.csv",
+      "sha256": "7c5b8133e6d32b52c881f248e04ed6935315b5d692df47d777bc627d982dadd3"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/comparisons.csv": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/comparisons.csv",
+      "sha256": "3e9bcc5966e8cda69c5264889c452212ef6a15bc09f9527eaec1f499625161f9"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/full_comparison.png": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/full_comparison.png",
+      "sha256": "9f6558ad2e975ba8165a0327c97ce743c767853d1cae363a210e1c08e90e9030"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/paired_effects.png": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/paired_effects.png",
+      "sha256": "1e7fc61ee585f5963ec120eb3b03bf8d8cd4dbea9670b3dedbc1406078d24068"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/per_id_effects.png": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/per_id_effects.png",
+      "sha256": "36d8f318b9a7563239ff0e87350c32843adb5cefcd06add524994b12ba8ed989"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/fit_diagnostics.parquet": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/results/fit_diagnostics.parquet",
+      "sha256": "ebdbcf455762b921f47f8b2f5132c7cae41c04f029eeede2b3db3b0c4147359a"
+    },
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/decision.json": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/provenance/decision.json",
+      "sha256": "107bf1c713df37004ace9b7e85103bcceea20385348d41d3b29d6f8568ee5be6"
+    },
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/fallback_summary.json": {
+      "archive": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/attempt_1/provenance/fallback_summary.json",
+      "sha256": "619000df843efba6417242088314ceabfd7f5e332c1f5e4e4863debc459996ee"
+    }
+  },
+  "forecast_freeze_recheck_required": true,
+  "final_test_access": false
+}

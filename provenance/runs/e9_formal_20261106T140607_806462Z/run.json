@@ -1,0 +1,62 @@
+{
+  "run_id": "e9_formal_20261106T140607_806462Z",
+  "created_UTC": "2026-11-06T14:06:07.806834+00:00",
+  "config": {
+    "experiment": "seasonal_exact_position_s4_e9",
+    "contract": "docs/seasonal_exact_position_s4_e9_contract.md",
+    "contract_sha256": "dd6ba68f48359440b84fa2d4ba847925891ffed0f1ce96333034de16e9993f69",
+    "e7_run": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+    "e8_run": "position_error_s4_e8_20261106T095423_445879Z",
+    "repair_run": "position_error_repair_20261106T073218_242005Z",
+    "repair_manifest_sha256": "d95864f397e21c4a770605f44555cfaf19d7fae24289916f07d0667e857c2c94",
+    "overlay_sha256": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3",
+    "k": 8000,
+    "radius_m": 100000.0,
+    "distance_tolerance_m": 1e-06,
+    "rho": 0.0,
+    "width_multiplier": 1.0,
+    "horizon_seconds": 604800,
+    "half_season_tie": "departure",
+    "energy_ladder": [
+      4096,
+      8192,
+      16384,
+      32768,
+      65536
+    ],
+    "region_ladder": [
+      16384,
+      32768,
+      65536
+    ],
+    "bootstrap_draws": 10000,
+    "seed": 20261106,
+    "seconds": {
+      "pilot": 600,
+      "formal": 7200,
+      "audit": 1800,
+      "total": 9600
+    },
+    "rss_gib": 8,
+    "storage_gib": 5,
+    "processes": 1,
+    "final_test_access": false,
+    "outer_endpoint_error_access": false,
+    "parent_run": "seasonal_exact_position_s4_e9_20261106T124835_392309Z",
+    "previous_pilot_seconds": 167.24954079207964,
+    "optimization_plan_sha256": "8454b9c28cf62ae98ef12265846cc8340c259621ef3561031eeb7117d6613e7d",
+    "new_cap_seconds": 420,
+    "phase_caps": {
+      "preflight": 60.0,
+      "pilot": 240.0,
+      "review": 120.0
+    },
+    "calibration_pairs": 1024,
+    "formal_parent_pilot": "e9_esopt_20261106T133844_947508Z",
+    "energy_count": 16384,
+    "prior_execution_seconds": 240.5866916658124,
+    "prior_audit_seconds": 36.04450045665726,
+    "prior_pilot_seconds": 204.54219120915513
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

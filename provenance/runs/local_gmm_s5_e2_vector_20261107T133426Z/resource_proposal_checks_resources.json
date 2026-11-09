@@ -1,0 +1,9 @@
+{
+  "phase": "checks",
+  "elapsed_seconds": 30.0,
+  "completed": true,
+  "conservative_wall_charge": true,
+  "note": "Rounded charge for proposal checkpoint verification, resource-only configuration comparison and pause bookkeeping. No fitting, scoring or pilot.",
+  "outer_targets_read": false,
+  "final_test_access": false
+}

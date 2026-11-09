@@ -1,0 +1,52 @@
+{
+  "checkpoint_hashes_verified": true,
+  "complete_inner_energy_queries": 2176,
+  "complete_inner_parameter_queries": 86373,
+  "estimated_inner_audit_hours": 0.8090410593848401,
+  "estimated_remaining_inner_energy_hours": {
+    "mean": 2.6758608484214355,
+    "p95": 2.939385621536869
+  },
+  "final_test_access": false,
+  "inner_remaining_p95_with_1p5_reserve_plus_spent_hours": 14.379831637260597,
+  "inner_total_hours_if_K2_region": 9.787518978095616,
+  "inner_total_hours_if_no_region": 6.305519101440729,
+  "measured_energy_worker_seconds_per_query": {
+    "batches": 68,
+    "mean": 0.22882285721147233,
+    "p95": 0.2513578449952547
+  },
+  "models_weights_samples_precision_unchanged": true,
+  "no_resource_pilot": true,
+  "optional_K2_region_hours": {
+    "mean": 3.4819998766548856,
+    "p95": 3.9577162814957214
+  },
+  "orphan_outputs": [],
+  "outer_parameter_queries": 0,
+  "outer_targets_read": false,
+  "proposed_hours": {
+    "audit": 3,
+    "checks": 0.5,
+    "inner": 15,
+    "outer": 6,
+    "report": 0.5,
+    "total": 25
+  },
+  "region_proxy": "Historical E1 at identical M=65536, multiplied by 3/2 for G1 plus two-component GMM versus two continuous comparator distributions. This is a cost proxy, not a new measurement or a mathematical equivalence.",
+  "run": "local_gmm_s5_e2_vector_20261107T133426Z",
+  "spent_hours": {
+    "audit": 0.0,
+    "checks": 0.08937380858781074,
+    "inner": 2.8206171936344537,
+    "outer": 0.0,
+    "report": 0.0
+  },
+  "spent_total_hours": 2.9099910022222644,
+  "status": "AWAITING_RESOURCE_ONLY_APPROVAL",
+  "unchanged_limits": {
+    "family_storage_gib": 10,
+    "memory_gib": 8,
+    "new_storage_gib": 8
+  }
+}

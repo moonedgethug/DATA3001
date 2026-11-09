@@ -1,0 +1,135 @@
+FFFFF
+======================================================================
+FAIL: test_failed_numeric_or_cost_gate_never_promotes_full_run (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_failed_numeric_or_cost_gate_never_promotes_full_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 8, in module
+    try:return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 39, in test_failed_numeric_or_cost_gate_never_promotes_full_run
+    m=module()
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 9, in module
+    except ModuleNotFoundError:raise AssertionError('MDN phase gates are not implemented')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: MDN phase gates are not implemented
+
+======================================================================
+FAIL: test_id_weights_do_not_reward_repeated_observations (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_id_weights_do_not_reward_repeated_observations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 8, in module
+    try:return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 20, in test_id_weights_do_not_reward_repeated_observations
+    m=module();w=m.id_weights(np.array([1,1,1,2]))
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 9, in module
+    except ModuleNotFoundError:raise AssertionError('MDN phase gates are not implemented')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: MDN phase gates are not implemented
+
+======================================================================
+FAIL: test_packet_preserves_global_network_parameters_and_floor (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_packet_preserves_global_network_parameters_and_floor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 8, in module
+    try:return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 24, in test_packet_preserves_global_network_parameters_and_floor
+    m=module()
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 9, in module
+    except ModuleNotFoundError:raise AssertionError('MDN phase gates are not implemented')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: MDN phase gates are not implemented
+
+======================================================================
+FAIL: test_paired_replicates_not_independent_component_variances (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_paired_replicates_not_independent_component_variances)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 8, in module
+    try:return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 34, in test_paired_replicates_not_independent_component_variances
+    m=module();baseline=np.array([[1.,2,3,4,5,6,7,8],[3.,4,5,6,7,8,9,10]])
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 9, in module
+    except ModuleNotFoundError:raise AssertionError('MDN phase gates are not implemented')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: MDN phase gates are not implemented
+
+======================================================================
+FAIL: test_pilot_roster_is_fixed_complete_and_sorted (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_pilot_roster_is_fixed_complete_and_sorted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 8, in module
+    try:return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 14, in test_pilot_roster_is_fixed_complete_and_sorted
+    m=module()
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 9, in module
+    except ModuleNotFoundError:raise AssertionError('MDN phase gates are not implemented')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: MDN phase gates are not implemented
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=5)

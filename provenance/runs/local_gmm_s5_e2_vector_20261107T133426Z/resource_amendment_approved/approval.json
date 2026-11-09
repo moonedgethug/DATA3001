@@ -1,0 +1,25 @@
+{
+  "approved_at": "2026-11-07T17:20:40.187485+00:00",
+  "user_reply": "批准仅调整时间上限，立即完成全量实验",
+  "supersedes": "resource_amendment_decision.json: earlier temporary deferral revoked by current explicit approval",
+  "before_seconds": {
+    "checks": 1800,
+    "inner": 21600,
+    "outer": 14400,
+    "audit": 10800,
+    "report": 1800,
+    "total": 50400
+  },
+  "after_seconds": {
+    "checks": 1800,
+    "inner": 54000,
+    "outer": 21600,
+    "audit": 10800,
+    "report": 1800,
+    "total": 90000
+  },
+  "scientific_configuration_unchanged": true,
+  "all_prior_time_included": true,
+  "models_weights_samples_precision_unchanged": true,
+  "memory_storage_workers_unchanged": true
+}

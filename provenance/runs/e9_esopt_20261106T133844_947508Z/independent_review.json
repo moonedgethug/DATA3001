@@ -1,0 +1,16 @@
+{
+  "final_test_access": false,
+  "formal_started": false,
+  "full_roster_preflight_completed": false,
+  "independent_review_passed": true,
+  "levels": [
+    4096,
+    8192,
+    16384
+  ],
+  "max_area_abs_difference": 4.016328603029251e-09,
+  "max_energy_abs_difference": 5.684341886080802e-14,
+  "outer_targets_read": false,
+  "queries": 128,
+  "score_region_checks": 1024
+}

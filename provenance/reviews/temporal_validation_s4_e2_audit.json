@@ -1,0 +1,93 @@
+{
+  "status": "ENGINEERING_COMPLETE_PENDING_SCIENTIFIC_REVIEW",
+  "runs": [
+    {
+      "run_id": "temporal_validation_s4_e2_pilot_20261103T004751_270698Z",
+      "accounted_seconds": 84.0,
+      "cap_seconds": 102.77544583298732,
+      "cumulative_accounted_seconds": 281.2245541670127,
+      "cumulative_artifact_bytes": 372394306,
+      "elapsed_seconds_before_sealing": 73.79691379104042,
+      "peak_rss_gib": 2.991058349609375,
+      "prior_accounted_seconds": 197.22455416701268
+    },
+    {
+      "run_id": "temporal_validation_s4_e2_primary_20261103T004920_642021Z",
+      "accounted_seconds": 64.0,
+      "cap_seconds": 1800.0,
+      "cumulative_accounted_seconds": 345.2245541670127,
+      "cumulative_artifact_bytes": 566111095,
+      "elapsed_seconds_before_sealing": 53.749754999997094,
+      "peak_rss_gib": 2.8584442138671875,
+      "prior_accounted_seconds": 281.2245541670127
+    },
+    {
+      "run_id": "temporal_validation_s4_e2_replay_20261103T005026_837238Z",
+      "accounted_seconds": 70.0,
+      "cap_seconds": 1800.0,
+      "cumulative_accounted_seconds": 415.2245541670127,
+      "cumulative_artifact_bytes": 759826934,
+      "elapsed_seconds_before_sealing": 59.99546741700033,
+      "peak_rss_gib": 3.0463714599609375,
+      "prior_accounted_seconds": 345.2245541670127
+    }
+  ],
+  "stopped_pilot": "temporal_validation_s4_e2_pilot_20261103T004331_534308Z",
+  "stopped_pilot_receipt": {
+    "completed": false,
+    "denied": [],
+    "elapsed_seconds": 197.22455416701268,
+    "error": "KeyboardInterrupt()",
+    "resource_errors": []
+  },
+  "sealed_files_verified": 754,
+  "frozen_outer_artifacts_verified": true,
+  "source_fingerprint_unchanged": true,
+  "replay": {
+    "figures_byte_identical": true,
+    "numeric_atol": 1e-12,
+    "passed": true,
+    "replay_of": "temporal_validation_s4_e2_primary_20261103T004920_642021Z",
+    "scientific_files_compared": 115
+  },
+  "visual_inspection": {
+    "primary_figures_inspected": 10,
+    "local_HTML_references_verified": 11,
+    "browser_render": "not performed; native local-file URL preview blocked by existing security policy"
+  },
+  "maximum_independent_score_error": 6.661338147750939e-16,
+  "maximum_independent_multiplier_error": 8.526512829121202e-14,
+  "existing_model_implementations_unchanged": true,
+  "canonical_trajectory_reads": [],
+  "final_test_access": false,
+  "new_estimators": false,
+  "posthoc_S4_E1_context": {
+    "same_validation_keys_targets_weights": true,
+    "pairs": 64099,
+    "not_a_new_fit_or_primary_contrast": true,
+    "results": [
+      {
+        "horizon_days": 7,
+        "old_training_start": 2012,
+        "new_training_start": 2001,
+        "old_brier": 0.996224370939787,
+        "new_brier": 0.9956533528969508,
+        "old_h90": 0.7259681919793577,
+        "new_h90": 0.7501452117911154,
+        "old_k90": 16.305555555555554,
+        "new_k90": 18.16666666666666
+      },
+      {
+        "horizon_days": 30,
+        "old_training_start": 2012,
+        "new_training_start": 2001,
+        "old_brier": 1.0170313756611449,
+        "new_brier": 1.010730289490204,
+        "old_h90": 0.3881020384094748,
+        "new_h90": 0.4942177565344759,
+        "old_k90": 42.8285714285716,
+        "new_k90": 61.02857142857144
+      }
+    ]
+  }
+}

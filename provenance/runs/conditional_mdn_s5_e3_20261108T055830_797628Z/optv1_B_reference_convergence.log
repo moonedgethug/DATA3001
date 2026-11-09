@@ -1,0 +1,9 @@
+{"stage": "B", "queries_complete": 1, "total": 8, "seconds": 19.04233554098755}
+{"stage": "B", "queries_complete": 2, "total": 8, "seconds": 19.042637665988877}
+{"stage": "B", "queries_complete": 3, "total": 8, "seconds": 34.5473979159724}
+{"stage": "B", "queries_complete": 4, "total": 8, "seconds": 34.664916374953464}
+{"stage": "B", "queries_complete": 5, "total": 8, "seconds": 50.71751458302606}
+{"stage": "B", "queries_complete": 6, "total": 8, "seconds": 50.717717207968235}
+{"stage": "B", "queries_complete": 7, "total": 8, "seconds": 66.36901525000576}
+{"stage": "B", "queries_complete": 8, "total": 8, "seconds": 66.56784545793198}
+{"stage": "B", "counts": {"65536": {"passed": 48, "total": 48}, "262144": {"passed": 48, "total": 48}}, "seconds": 67.15712699992582}

@@ -1,0 +1,5 @@
+horizon_days,role,pairs,ids,origins
+7,train,130731,159,37
+7,validation,33971,45,36
+30,train,113708,138,37
+30,validation,30128,42,35

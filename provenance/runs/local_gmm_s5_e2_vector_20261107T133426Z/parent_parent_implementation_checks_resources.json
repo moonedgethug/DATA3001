@@ -1,0 +1,11 @@
+{
+  "phase": "checks",
+  "elapsed_seconds": 120.0,
+  "completed": true,
+  "conservative_accounting": true,
+  "note": "Synthetic/unit and source checks only; rounded upward to include interpreter startups and source hashing. No data pilot.",
+  "project_suite": 741,
+  "focused_suite": 28,
+  "outer_targets_read": false,
+  "final_test_access": false
+}

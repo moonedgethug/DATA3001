@@ -1,0 +1,9 @@
+16 queries checked 4.423 seconds
+32 queries checked 8.463 seconds
+48 queries checked 12.526 seconds
+64 queries checked 16.441 seconds
+80 queries checked 20.391 seconds
+96 queries checked 24.25 seconds
+112 queries checked 28.125 seconds
+128 queries checked 32.185 seconds
+{'phase': 'checks', 'elapsed_seconds': 32.222313333069906, 'prior_phase_seconds': 168.79401316703297, 'prior_total_seconds': 278.31174208410084, 'peak_process_tree_rss_bytes': 621592576, 'retained_bytes': 258284, 'peak_storage_bytes': 258284, 'completed': True, 'outer_targets_read': False, 'denied_access': [], 'final_test_access': False}

@@ -1,0 +1,22 @@
+{
+  "donor_ID_max": 240,
+  "donor_ID_min": 19,
+  "donor_count_max": 8000,
+  "donor_count_min": 5521,
+  "point_fallback_pairs": 15816,
+  "queries_all_fallback": 0,
+  "queries_with_any_fallback": 33971,
+  "query_weighted_point_fallback_mass": 0.06212691519850889,
+  "reason_probability_mass": {
+    "('coordinate_changed', 'coordinate_changed')": 0.01464993215603931,
+    "('estimation_version_unresolved', 'estimation_version_unresolved')": 0.04279511820640903,
+    "('restored_scale', 'zero_unresolved')": 5.024206494749994e-05,
+    "('source_missing', 'source_missing')": 0.0005853589136522114,
+    "('unexplained_difference', 'unexplained_difference')": 0.004035744596173295,
+    "('zero_unresolved', 'verified_unchanged')": 1.051926128687254e-05
+  },
+  "training_pairs": 265393,
+  "training_point_fallback_fraction": 0.05959463889401755,
+  "usable_endpoint_pairs": 249577,
+  "weighted_largest_ID_share": 0.06601104497334358
+}

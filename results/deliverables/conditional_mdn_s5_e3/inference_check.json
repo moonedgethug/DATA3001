@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "origin": [
+    -75.0,
+    35.0
+  ],
+  "sample_shape": [
+    1,
+    16,
+    2
+  ],
+  "selected_k": 1,
+  "validation_target_dependency": false
+}

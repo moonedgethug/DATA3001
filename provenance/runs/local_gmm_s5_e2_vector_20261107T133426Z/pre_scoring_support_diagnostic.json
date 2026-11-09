@@ -1,0 +1,19 @@
+{
+  "all_candidates_still_require_complete_energy_scoring": true,
+  "complete_parameter_queries": 41761,
+  "elapsed_seconds": 20.960944749996997,
+  "final_test_access": false,
+  "id_equal_fallback_rates": {
+    "2": 0.037853328209595964,
+    "3": 0.12857934922297454
+  },
+  "ids": 50,
+  "ineligible_by_complete_first_window_support": {
+    "2": false,
+    "3": true
+  },
+  "outer_targets_read": false,
+  "resource_time_covered_by_active_inner_phase": true,
+  "role": "C_T0",
+  "selection_not_yet_final": true
+}

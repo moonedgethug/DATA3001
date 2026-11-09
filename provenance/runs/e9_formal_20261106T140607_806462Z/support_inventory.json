@@ -1,0 +1,14 @@
+{
+  "IDs": 45,
+  "annual_lineage_matches_E7": true,
+  "cases": 33971,
+  "lossless_roundtrips": 33971,
+  "outer_targets_read": false,
+  "projected_peak_rss_bytes": 1202470912,
+  "projected_storage_bytes": 3305904691,
+  "region_count": 16384,
+  "required_region_points": 16000,
+  "retained_bytes": 2859864791,
+  "training_IDs": 338,
+  "training_pairs": 265393
+}

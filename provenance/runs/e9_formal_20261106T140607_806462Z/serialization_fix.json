@@ -1,0 +1,11 @@
+{
+  "cause": "A duplicated outer_targets_read keyword raised TypeError while assembling preflight metadata; all 128 outcome-blind checks had completed.",
+  "model_or_weight_change": false,
+  "old_source_sha256": "f87030dea1c45e7acb0daff0905082c3517eb4df4fc1abbb1b85b33f34accf09",
+  "prior_failure_preserved": true,
+  "scope": "Remove only the duplicate keyword and use separate attempt-2 output/receipt names. Preserve the failed source and outputs. Repeat the deterministic outcome-blind checks to recover the lost timing estimate.",
+  "source_sha256": {
+    "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume_v2.py": "e72e40222658325750e9a8a05e4534951b0494a18b0675d93d6265585798b68a"
+  },
+  "validation": "AST parse; duplicate metadata field removed; original model and scoring functions unchanged"
+}

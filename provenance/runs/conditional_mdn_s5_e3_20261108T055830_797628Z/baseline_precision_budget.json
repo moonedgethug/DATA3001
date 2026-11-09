@@ -1,0 +1,19 @@
+{
+  "source": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/full_audit.json",
+  "source_sha256": "f3556e0bca639bcba603029d06d2e16b0fb88167f1080352aa7617fbf9bed08c",
+  "basis": "historical numerical audit metadata only; independent variance contributions added",
+  "controls": {
+    "ExactPoint": {
+      "variance_upper_bound": 1.9519492753576216e-06,
+      "absolute_threshold_km": 0.013422356289227185
+    },
+    "EndpointCI": {
+      "variance_upper_bound": 1.9520784711155275e-06,
+      "absolute_threshold_km": 0.013422351740200799
+    },
+    "LocalGaussian": {
+      "variance_upper_bound": 3.304785502602337e-08,
+      "absolute_threshold_km": 0.013477713493141582
+    }
+  }
+}

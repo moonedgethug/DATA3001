@@ -1,0 +1,14 @@
+{
+  "cohort_ids": 383,
+  "train_ids": 338,
+  "validation_ids": 45,
+  "training_pairs": 265393,
+  "validation_pairs": 33971,
+  "canonical_rows": 5216515,
+  "status_counts": "{('train', 'time_precision_difference'): 330, ('train', 'unresolved'): 7, ('train', 'used_pairs_outside_official'): 1, ('validation', 'time_precision_difference'): 36, ('validation', 'unresolved'): 9}",
+  "active_pairs_outside_official": 1,
+  "active_pairs_on_unresolved_ids": 11086,
+  "canonical_rows_before_official": 2,
+  "canonical_rows_after_official": 1432,
+  "elapsed_seconds": 2.7423318329965696
+}

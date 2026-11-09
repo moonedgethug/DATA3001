@@ -1,0 +1,2055 @@
+{
+  "cache_bytes": 122944500,
+  "calibrations": [
+    {
+      "coefficient": 0.002102944464626433,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40084.0831620266,
+      "pilot_position": 0,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0024055450697240697,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 34773.631566016695,
+      "pilot_position": 0,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002082784901577379,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 43134.66801386537,
+      "pilot_position": 1,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0020670471191959095,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 47019.5308910235,
+      "pilot_position": 1,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001961306950778718,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 35602.40385517868,
+      "pilot_position": 2,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001819037695310653,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 50645.825984308074,
+      "pilot_position": 2,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002029913442789299,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 41477.85562436199,
+      "pilot_position": 3,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0015973077208898483,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 55331.66472334879,
+      "pilot_position": 3,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0016606489032058253,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 46351.07356881155,
+      "pilot_position": 4,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012247727297398485,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 87398.23410170466,
+      "pilot_position": 4,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002489605193996634,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29465.746336335465,
+      "pilot_position": 5,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0018510308793806987,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 49897.37258383393,
+      "pilot_position": 5,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0014285151339895946,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 79872.20590185752,
+      "pilot_position": 6,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0014251036514638243,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 94895.80140653589,
+      "pilot_position": 6,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002162026743716235,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40411.99946652137,
+      "pilot_position": 7,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0027413873519583536,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 28535.79262028576,
+      "pilot_position": 7,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001880136210416572,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42942.467569451124,
+      "pilot_position": 8,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002112708082531296,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 47965.87076369549,
+      "pilot_position": 8,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0021327866517053527,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42981.10326608229,
+      "pilot_position": 9,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002542559676485592,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 31241.564334990435,
+      "pilot_position": 9,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0020910355913633435,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 39405.65713199852,
+      "pilot_position": 10,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002839652881950102,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 32101.79239923823,
+      "pilot_position": 10,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010042334028645705,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 250223.01189926494,
+      "pilot_position": 11,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011145331258435784,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 157475.07110378615,
+      "pilot_position": 11,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010857580670068161,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 163460.729052042,
+      "pilot_position": 12,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011104288221040952,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 151469.34749409344,
+      "pilot_position": 12,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011318400955918917,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 139921.09699498446,
+      "pilot_position": 13,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012726968579150665,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 134782.73169257358,
+      "pilot_position": 13,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0013107458984463775,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 85503.38207891828,
+      "pilot_position": 14,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011662238530501668,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 109006.54410552805,
+      "pilot_position": 14,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001664095476756745,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 43304.74525936931,
+      "pilot_position": 15,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001189771752138297,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 83589.34177087143,
+      "pilot_position": 15,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002255498415491486,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 32773.120718722195,
+      "pilot_position": 16,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0023010922662675404,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 31452.206397090762,
+      "pilot_position": 16,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010577997063081178,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169196.64610907657,
+      "pilot_position": 17,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012084676870607132,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 119699.4415907915,
+      "pilot_position": 17,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011408661376063971,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 158302.53084708532,
+      "pilot_position": 18,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011270762423380488,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169044.69871687118,
+      "pilot_position": 18,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001009275413740595,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 202915.3749723616,
+      "pilot_position": 19,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010626969804388325,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 186573.75824279475,
+      "pilot_position": 19,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010044072655891454,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 219649.7381231554,
+      "pilot_position": 20,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001089712555552653,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 177709.19299265638,
+      "pilot_position": 20,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009740461337850515,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 168587.30189607613,
+      "pilot_position": 21,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010700629636274314,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 136476.1840073304,
+      "pilot_position": 21,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001030335090735359,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169441.83272053394,
+      "pilot_position": 22,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011910416376864428,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 120455.43392861923,
+      "pilot_position": 22,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010429258143347766,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 168589.97341051203,
+      "pilot_position": 23,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012027830368432158,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 121197.96854335132,
+      "pilot_position": 23,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009465528166548377,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 219481.7442158647,
+      "pilot_position": 24,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013237570398402052,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 119071.29788807932,
+      "pilot_position": 24,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002079530292575642,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 41927.21730954708,
+      "pilot_position": 25,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0020895100994428608,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42332.55883055098,
+      "pilot_position": 25,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010462367731858555,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 163349.6302474975,
+      "pilot_position": 26,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011851124747680282,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 133525.3880751256,
+      "pilot_position": 26,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009856811024131498,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169288.52198450934,
+      "pilot_position": 27,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010508406526411596,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 168893.34342067724,
+      "pilot_position": 27,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010322203586958082,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 164971.74131391983,
+      "pilot_position": 28,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011949019870005095,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 135979.0933124447,
+      "pilot_position": 28,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0024704418680933284,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 32981.03600215713,
+      "pilot_position": 29,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002243232793627518,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 38203.62153487222,
+      "pilot_position": 29,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0018737998976488606,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 44855.481967932355,
+      "pilot_position": 30,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0025062047345412283,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 31431.28704608527,
+      "pilot_position": 30,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001259487593523975,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 85392.22771905723,
+      "pilot_position": 31,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012588278894651095,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 89179.0116710724,
+      "pilot_position": 31,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0021621958538710372,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 41087.99635267431,
+      "pilot_position": 32,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0024245239818271873,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 38625.60766079906,
+      "pilot_position": 32,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0021605093149021093,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 44304.00106694528,
+      "pilot_position": 33,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002354459478406027,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42621.41420141104,
+      "pilot_position": 33,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0020933442286709034,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40342.645154115504,
+      "pilot_position": 34,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0026667876959847086,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 23994.34818144672,
+      "pilot_position": 34,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0020875670035893534,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 46483.94270110876,
+      "pilot_position": 35,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0023065975867200936,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 38720.70689905976,
+      "pilot_position": 35,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010129470652276067,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 164267.72920763685,
+      "pilot_position": 36,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.00092816817090353,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 198421.73782722623,
+      "pilot_position": 36,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0022795526438257976,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 36584.572554221486,
+      "pilot_position": 37,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0023456629145546613,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 34726.769138786054,
+      "pilot_position": 37,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001123408738860011,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 141132.29665387297,
+      "pilot_position": 38,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010397250911225722,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 152821.02132091665,
+      "pilot_position": 38,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011525702581241266,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 121009.04695998786,
+      "pilot_position": 39,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011356468622726443,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 117098.61041856193,
+      "pilot_position": 39,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010259854449469318,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 157664.9719089679,
+      "pilot_position": 40,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010193458702278885,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 173044.99775022393,
+      "pilot_position": 40,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010093208654177127,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169913.16678375134,
+      "pilot_position": 41,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011954023646575645,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 120383.14877623357,
+      "pilot_position": 41,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0013906416036756197,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 58863.82074006338,
+      "pilot_position": 42,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012700442437077841,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 95474.97866784805,
+      "pilot_position": 42,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002418631875005105,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 28983.460354503128,
+      "pilot_position": 43,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0019229088928086168,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29176.600420706436,
+      "pilot_position": 43,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011585303849158187,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 134028.10209680436,
+      "pilot_position": 44,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001002627435233247,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 149346.8563728721,
+      "pilot_position": 44,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002191269617254067,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 39450.62907599696,
+      "pilot_position": 45,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0022811147045603826,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42539.58015136557,
+      "pilot_position": 45,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0019318618635909112,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 39353.765351333896,
+      "pilot_position": 46,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0018197314647298876,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 50741.05455516511,
+      "pilot_position": 46,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001015790947434685,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 165481.15957754638,
+      "pilot_position": 47,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001053099473953867,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 193163.82290162495,
+      "pilot_position": 47,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001028238697695459,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169555.9317087794,
+      "pilot_position": 48,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011663004567494689,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 120557.35994937707,
+      "pilot_position": 48,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009692303227302603,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 193498.13985616498,
+      "pilot_position": 49,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011232990031935165,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 158774.46775256962,
+      "pilot_position": 49,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002447742303713731,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29864.542029905362,
+      "pilot_position": 50,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0021755345782030907,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 37871.8436337277,
+      "pilot_position": 50,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002093939825004606,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40996.88212092607,
+      "pilot_position": 51,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002786251460610004,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 34018.78631775506,
+      "pilot_position": 51,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010646393012176516,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169934.80232869388,
+      "pilot_position": 52,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009663393734339665,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 183472.80218616038,
+      "pilot_position": 52,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001036203085957616,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 163590.26575641768,
+      "pilot_position": 53,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010237243143993093,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 176413.22864376975,
+      "pilot_position": 53,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010247643749768584,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 166226.06847207446,
+      "pilot_position": 54,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009877475496043783,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 183870.7949366502,
+      "pilot_position": 54,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011679018273845429,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 119414.43724183796,
+      "pilot_position": 55,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001188714504700505,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 132452.96515764671,
+      "pilot_position": 55,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011344059631511044,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 143653.7908127998,
+      "pilot_position": 56,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001098339063970689,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169734.69878647002,
+      "pilot_position": 56,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009172899028222207,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 211788.29430848412,
+      "pilot_position": 57,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011029640934527235,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 144465.24868794254,
+      "pilot_position": 57,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009451115653789247,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 221722.44167213602,
+      "pilot_position": 58,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0008317217746103534,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 331883.6075858038,
+      "pilot_position": 58,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009320371317319079,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 217732.0756973874,
+      "pilot_position": 59,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0008701356188890312,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 279610.39816707774,
+      "pilot_position": 59,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009327468543773298,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 198831.75812441335,
+      "pilot_position": 60,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0008792780841370536,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 232248.72872398427,
+      "pilot_position": 60,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009034548458330896,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 218538.3605820331,
+      "pilot_position": 61,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0008533730333314607,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 281197.88978964253,
+      "pilot_position": 61,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009929249240430735,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 187893.05843347387,
+      "pilot_position": 62,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.00113888796451933,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 169736.36845323193,
+      "pilot_position": 62,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009468794335576202,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 210313.63502045613,
+      "pilot_position": 63,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0008619413572102711,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 275799.1139017828,
+      "pilot_position": 63,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0012412286156807209,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 89493.17080007898,
+      "pilot_position": 64,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012572954535813956,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 91099.89419866329,
+      "pilot_position": 64,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0016500795196143095,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 55124.35302132839,
+      "pilot_position": 65,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012979218691040887,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 62600.67747283726,
+      "pilot_position": 65,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001797089742049022,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 48929.73674068219,
+      "pilot_position": 66,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001435322382796944,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 56222.57968224452,
+      "pilot_position": 66,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0013603738905419922,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 68018.0139296331,
+      "pilot_position": 67,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011283733125734983,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 131287.15949770593,
+      "pilot_position": 67,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.00239786162938867,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 31669.22817300399,
+      "pilot_position": 68,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002301405716933511,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 30869.91995314733,
+      "pilot_position": 68,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0020079356279714567,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 47510.939737731474,
+      "pilot_position": 69,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0018857928293293318,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 51558.445484419964,
+      "pilot_position": 69,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0023064282756353888,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 33538.65802286657,
+      "pilot_position": 70,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002375689450341826,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 28305.125614895915,
+      "pilot_position": 70,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011418813921530173,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 107612.35114142013,
+      "pilot_position": 71,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010451782658608387,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 168265.43746772176,
+      "pilot_position": 71,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002196718944894787,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 34560.7303591682,
+      "pilot_position": 72,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002440443904814548,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 32401.229981138596,
+      "pilot_position": 72,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.000959201003991556,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 193881.7171717393,
+      "pilot_position": 73,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010194184252354844,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 196974.18686806547,
+      "pilot_position": 73,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010409945155034177,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 167577.40149187346,
+      "pilot_position": 74,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.00097020686258756,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 187134.58889525192,
+      "pilot_position": 74,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.00214763974311851,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 43167.40322142894,
+      "pilot_position": 75,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002450769531614335,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 31731.009226112397,
+      "pilot_position": 75,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0021636099758380023,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40332.121015946475,
+      "pilot_position": 76,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0024808073472934763,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29496.420861846454,
+      "pilot_position": 76,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010930374473300257,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 126660.2125030554,
+      "pilot_position": 77,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0014128855070752976,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 90274.95173797844,
+      "pilot_position": 77,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0016322382892069102,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 55331.05214980154,
+      "pilot_position": 78,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0014347979234904079,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 60052.32072286773,
+      "pilot_position": 78,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0023017834436088224,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 36874.09929486116,
+      "pilot_position": 79,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0026268536637960443,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 30415.3491555592,
+      "pilot_position": 79,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002110187018780977,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40740.210255584534,
+      "pilot_position": 80,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002322345398784239,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 38754.46742357442,
+      "pilot_position": 80,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001941966703748835,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 26296.1760414889,
+      "pilot_position": 81,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0027219008497181433,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 25153.413919513358,
+      "pilot_position": 81,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002075774844683177,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29657.29844827295,
+      "pilot_position": 82,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002595265363443067,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 25586.71816960361,
+      "pilot_position": 82,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0025243656461749536,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 29051.355196672477,
+      "pilot_position": 83,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0027078756886064113,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 23818.624349501537,
+      "pilot_position": 83,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001509701868253504,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 54774.84386783464,
+      "pilot_position": 84,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013343225225108774,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 66021.9275219055,
+      "pilot_position": 84,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009390775281550735,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 209743.46028769953,
+      "pilot_position": 85,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011099897983089053,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 170514.86310765592,
+      "pilot_position": 85,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001561893692782574,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 50211.20626672537,
+      "pilot_position": 86,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0017933182496469727,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 59258.371630231784,
+      "pilot_position": 86,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002232816403016653,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 26494.45540363601,
+      "pilot_position": 87,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0026885234668817927,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 24078.545863845302,
+      "pilot_position": 87,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0014692701978002147,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 54523.159160274125,
+      "pilot_position": 88,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001258409143138237,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 78744.76320545338,
+      "pilot_position": 88,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0020563925557971793,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 39646.99509328308,
+      "pilot_position": 89,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.002505222285262434,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 30822.293316691157,
+      "pilot_position": 89,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0016003384725010237,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 61170.88034997584,
+      "pilot_position": 90,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010396869954665904,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 115555.86950229637,
+      "pilot_position": 90,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.00109904222607335,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 125605.69601956203,
+      "pilot_position": 91,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013979740552395661,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 87656.98421143781,
+      "pilot_position": 91,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0012607644388915329,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 89506.66122886873,
+      "pilot_position": 92,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013376091402416156,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 90972.67371697916,
+      "pilot_position": 92,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.002004490755136909,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 42568.70014655201,
+      "pilot_position": 93,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0019373590614670097,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 52686.83588057243,
+      "pilot_position": 93,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0019299320485097107,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 41307.2048272908,
+      "pilot_position": 94,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0016957928927749538,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 48605.48330405856,
+      "pilot_position": 94,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011213362784609532,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 112907.1839669397,
+      "pilot_position": 95,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009632577799869138,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 162587.26966632064,
+      "pilot_position": 95,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0022327307583917145,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 40283.65140707336,
+      "pilot_position": 96,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0025058096530095504,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 32813.45133463196,
+      "pilot_position": 96,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009061945505365852,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 199511.68468245358,
+      "pilot_position": 97,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011613768132569364,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 146140.1152240111,
+      "pilot_position": 97,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.000965323295979204,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 178730.44817232317,
+      "pilot_position": 98,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011180035693364875,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 90974.12505355522,
+      "pilot_position": 98,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009562446735757523,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 194936.7957323212,
+      "pilot_position": 99,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011998238738466051,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 144135.93781840705,
+      "pilot_position": 99,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009562264540649594,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 192730.73042249295,
+      "pilot_position": 100,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012530942485458002,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 127232.60594139951,
+      "pilot_position": 100,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009564190464401463,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 179233.27951349254,
+      "pilot_position": 101,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013203341384926536,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 58834.236503581305,
+      "pilot_position": 101,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009431338298044793,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 213563.92873345135,
+      "pilot_position": 102,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001123069988747613,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 171821.45733332366,
+      "pilot_position": 102,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009369978717371626,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 211096.29248154053,
+      "pilot_position": 103,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010988824223683686,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 175772.74920615272,
+      "pilot_position": 103,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009944446632086247,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 232926.55920110983,
+      "pilot_position": 104,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011653254901290004,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 148812.44427909402,
+      "pilot_position": 104,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009678641626268308,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 238743.3733946733,
+      "pilot_position": 105,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001234646291511465,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 138438.81208325928,
+      "pilot_position": 105,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001024301831381284,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 231483.26052497583,
+      "pilot_position": 106,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012070451604609936,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 132851.32737355912,
+      "pilot_position": 106,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009837706673088656,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 243484.34886504742,
+      "pilot_position": 107,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011717111842016507,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 144783.7931713829,
+      "pilot_position": 107,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.000950302298327679,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 272038.21656922833,
+      "pilot_position": 108,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011532816567804802,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 161508.22993777256,
+      "pilot_position": 108,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.00111176182691623,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 161219.4510752349,
+      "pilot_position": 109,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012670377709329543,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 133613.1185097327,
+      "pilot_position": 109,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0018760218314704572,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 51381.403405863624,
+      "pilot_position": 110,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0018368876192205055,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 61933.04593891592,
+      "pilot_position": 110,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.000994072420336853,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 179591.3740403639,
+      "pilot_position": 111,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.000941785374835633,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 223359.46866175107,
+      "pilot_position": 111,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011249565628056377,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 146969.83505060768,
+      "pilot_position": 112,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011351040538390574,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 149033.49521783262,
+      "pilot_position": 112,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009473882089313579,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 199846.40246170075,
+      "pilot_position": 113,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011188285557220637,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 146960.442491623,
+      "pilot_position": 113,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009164328914482203,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 224463.3636711209,
+      "pilot_position": 114,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009405819344770834,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 238554.84632284267,
+      "pilot_position": 114,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009830202727338115,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 217544.4093898917,
+      "pilot_position": 115,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009590762277550014,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 214855.04939555607,
+      "pilot_position": 115,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0009386565537587285,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 224532.75001324137,
+      "pilot_position": 116,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009240957756217293,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 252521.5720714004,
+      "pilot_position": 116,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010895447888586234,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 168789.2507866156,
+      "pilot_position": 117,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010098420114519736,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 201253.37616402397,
+      "pilot_position": 117,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.001109359855085766,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 156753.94750182456,
+      "pilot_position": 118,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001194852042420095,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 124802.47627529898,
+      "pilot_position": 118,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010708386707707963,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 155725.83433149845,
+      "pilot_position": 119,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012041871263061294,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 122248.19895641872,
+      "pilot_position": 119,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010106691777444267,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 150008.00659564958,
+      "pilot_position": 120,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010130969319866955,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 165906.8911433672,
+      "pilot_position": 120,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.000983060642407284,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 174951.4929908002,
+      "pilot_position": 121,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0009727130152721678,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 210543.83271918824,
+      "pilot_position": 121,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010925403127487023,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 127010.8084657321,
+      "pilot_position": 122,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0013614839240709369,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 97033.41466794873,
+      "pilot_position": 122,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011446010067779873,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 124537.26932018071,
+      "pilot_position": 123,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0012924523210602692,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 81043.67781175715,
+      "pilot_position": 123,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010527707505288352,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 157622.94548919913,
+      "pilot_position": 124,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.001056272519499199,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 144680.30482226954,
+      "pilot_position": 124,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010567396347704937,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 154186.26444654184,
+      "pilot_position": 125,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.00099276638126568,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 190960.76519115004,
+      "pilot_position": 125,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0010563206375948284,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 150279.48382627405,
+      "pilot_position": 126,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0011662981867927773,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 119404.8711769504,
+      "pilot_position": 126,
+      "pool": "Seasonal"
+    },
+    {
+      "coefficient": 0.0011275336324886504,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 145513.6696671524,
+      "pilot_position": 127,
+      "pool": "Annual"
+    },
+    {
+      "coefficient": 0.0010088982627493937,
+      "degenerate": false,
+      "draws": 1024,
+      "mean_squared": 189105.09572052077,
+      "pilot_position": 127,
+      "pool": "Seasonal"
+    }
+  ],
+  "outer_targets_read": false,
+  "scoring_key": "Original E9 keys unchanged; independent calibration tag e9_es_control_calibration_v1"
+}

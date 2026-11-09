@@ -1,0 +1,18 @@
+{
+  "English_report": true,
+  "HTML_links_checked": true,
+  "all_four_models_displayed": true,
+  "figures": 9,
+  "final_test_access": false,
+  "prespecified_examples": [
+    26952,
+    6475,
+    24032,
+    23714,
+    11213,
+    28115
+  ],
+  "protected_files_unchanged": true,
+  "shared_map_extent_colour_scale": true,
+  "tables_match_saved_scores": true
+}

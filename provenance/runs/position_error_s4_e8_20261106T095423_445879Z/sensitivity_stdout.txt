@@ -1,0 +1,13 @@
+{
+  "elapsed_seconds": 11.375172084080987,
+  "peak_rss_bytes": 757776384,
+  "retained_bytes": 714497881,
+  "completed": true,
+  "prior_pilot_seconds": 152.32057891506702,
+  "cumulative_pilot_seconds": 163.695750999148,
+  "queries": 128,
+  "primary_rho_zero_unchanged": true,
+  "correction": "C at nonzero rho now matches average full donor covariance; previous common-rho C diagnostic is superseded; B rows unchanged",
+  "fitted_parameters": false,
+  "outer_outcomes_used": false
+}

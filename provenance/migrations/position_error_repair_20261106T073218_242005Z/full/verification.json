@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "phase": "full",
+  "independent_engine": "h5py raw HDF5, separate time/metadata/matching/classification implementation",
+  "IDs": 338,
+  "target_rows": 355247,
+  "accepted_lon": 332782,
+  "accepted_lat": 332776,
+  "ci_2d_usable": 332770,
+  "matched_rows": 334186,
+  "status_lon": {
+    "restored_scale": 332782,
+    "estimation_version_unresolved": 15295,
+    "coordinate_changed": 5512,
+    "unexplained_difference": 1398,
+    "source_missing": 254,
+    "zero_unresolved": 6
+  },
+  "status_lat": {
+    "restored_scale": 332770,
+    "estimation_version_unresolved": 15295,
+    "coordinate_changed": 5512,
+    "unexplained_difference": 1398,
+    "source_missing": 254,
+    "zero_unresolved": 12,
+    "verified_unchanged": 6
+  },
+  "match_status": {
+    "matched": 334186,
+    "estimation_version_unresolved": 15295,
+    "coordinate_changed": 5512,
+    "source_missing": 254
+  },
+  "regression_cases": {
+    "unscaled_latitude_preserved": 4,
+    "negative_to_zero_unresolved": 10,
+    "anchor_endpoint_values": 3208
+  },
+  "protected_files_unchanged": 345,
+  "validation_seconds": 14.473920875112526,
+  "peak_rss_bytes": 1198751744,
+  "referenced_source_hashes": 591,
+  "native_storage_profiles": [
+    {
+      "variable": "longitude",
+      "dtype": "float32",
+      "units": "degrees_east",
+      "source_entries": 591
+    },
+    {
+      "variable": "err_lon",
+      "dtype": "float32",
+      "units": "degrees_east",
+      "source_entries": 591
+    },
+    {
+      "variable": "latitude",
+      "dtype": "float32",
+      "units": "degrees_north",
+      "source_entries": 591
+    },
+    {
+      "variable": "err_lat",
+      "dtype": "float32",
+      "units": "degrees_north",
+      "source_entries": 591
+    }
+  ],
+  "projected_full_seconds_with_2x_margin": 3028.3221909999847,
+  "pilot_budget_projection_passed": null,
+  "resource_deadline_passed": true,
+  "models_run": false,
+  "final_test_accessed": false,
+  "outer_endpoint_errors_accessed": false
+}

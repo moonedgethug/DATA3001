@@ -1,0 +1,224 @@
+{
+  "energy_count": 65536,
+  "final_test_access": false,
+  "formal_authorized": false,
+  "levels": [
+    {
+      "case_seconds_max": 0.17621366609819233,
+      "case_seconds_p95": 0.10658138294238598,
+      "energy_count": 4096,
+      "energy_passed": false,
+      "energy_projection": {
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.08163341150831173,
+          "threshold_km": 0.015064582371866232
+        },
+        "SeasonalExactPoint": {
+          "three_se_km": 0.08163251489227823,
+          "threshold_km": 0.015064589288469746
+        }
+      },
+      "formal_projected_seconds": 4048.743775929374,
+      "formal_projection_2x_seconds": 8097.487551858748,
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      },
+      "region_count": 16384,
+      "region_passed": true
+    },
+    {
+      "case_seconds_max": 0.2068704580888152,
+      "case_seconds_p95": 0.11906547946273349,
+      "energy_count": 8192,
+      "energy_passed": false,
+      "energy_projection": {
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.05749486770313149,
+          "threshold_km": 0.015066208813582501
+        },
+        "SeasonalExactPoint": {
+          "three_se_km": 0.057495032500042474,
+          "threshold_km": 0.015066257279592427
+        }
+      },
+      "formal_projected_seconds": 4515.250743111372,
+      "formal_projection_2x_seconds": 9030.501486222744,
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      },
+      "region_count": 16384,
+      "region_passed": true
+    },
+    {
+      "case_seconds_max": 0.23151816695462912,
+      "case_seconds_p95": 0.1545107769838068,
+      "energy_count": 16384,
+      "energy_passed": false,
+      "energy_projection": {
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.040670740103773806,
+          "threshold_km": 0.015072698396302014
+        },
+        "SeasonalExactPoint": {
+          "three_se_km": 0.04067063699040702,
+          "threshold_km": 0.015072739025135161
+        }
+      },
+      "formal_projected_seconds": 5839.774165408591,
+      "formal_projection_2x_seconds": 11679.548330817182,
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      },
+      "region_count": 16384,
+      "region_passed": true
+    },
+    {
+      "case_seconds_max": 0.26499112404417247,
+      "case_seconds_p95": 0.19691544955130663,
+      "energy_count": 32768,
+      "energy_passed": false,
+      "energy_projection": {
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.02869403802892135,
+          "threshold_km": 0.015065953273117624
+        },
+        "SeasonalExactPoint": {
+          "three_se_km": 0.028694258202125567,
+          "threshold_km": 0.015065959659229959
+        }
+      },
+      "formal_projected_seconds": 7424.3562103781815,
+      "formal_projection_2x_seconds": 14848.712420756363,
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      },
+      "region_count": 16384,
+      "region_passed": true
+    },
+    {
+      "case_seconds_max": 0.3638875000178814,
+      "case_seconds_p95": 0.31995059364126055,
+      "energy_count": 65536,
+      "energy_passed": false,
+      "energy_projection": {
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.020300027752376916,
+          "threshold_km": 0.015061856640245487
+        },
+        "SeasonalExactPoint": {
+          "three_se_km": 0.020300047776896854,
+          "threshold_km": 0.015061888297937259
+        }
+      },
+      "formal_projected_seconds": 12021.94577824599,
+      "formal_projection_2x_seconds": 24043.89155649198,
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      },
+      "region_count": 16384,
+      "region_passed": true
+    }
+  ],
+  "numerical_passed": false,
+  "outer_targets_read": false,
+  "pilot_passed": false,
+  "queries": 128,
+  "region_count": 16384,
+  "remaining_gate": "Stop and report; no formal run",
+  "resource_precheck_passed": false
+}

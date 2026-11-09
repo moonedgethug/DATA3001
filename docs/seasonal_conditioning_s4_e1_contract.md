@@ -1,259 +1,232 @@
 # S4-E1-SEA-001 — Seasonal Transition Forecast Engineering Contract
 
-**Version:** 1.0 review draft, 2 November 2026 (Australia/Sydney).  
-**Status:** `REVIEW_REQUIRED`. Contract design is authorised; implementation and execution are not yet authorised.
+**Version:** 2.0 review draft, 2 November 2026 (Australia/Sydney).
 
-**Purpose:** make the first Step 4 seasonal experiment unambiguous, bounded and independently auditable. “MUST” below describes the implementation required **if this draft is approved**; it does not grant execution authority.
+**Status:** `REVIEW_REQUIRED`. The user confirmed the simplified scientific direction and requested this revision. Review of this document must precede implementation or execution; this request is not execution approval.
 
-## C01 — Authority, lineage and change control
+**Purpose:** compare annual B2 with departure-season B2 on later, disjoint drifters, using the same training window and validation cases. “MUST” describes implementation required **after approval**.
 
-This contract consolidates the [S4 E1 proposal](seasonal_conditioning_s4_e1_plan.md), SHA256 `b291f93f52627d0ae33e54bbd94ad0684e99ed2d181da2ef2b91d8af088c5787`, under the [Step 4 architecture log](time_environment_s4_architecture.md). The proposal remains an unchanged planning snapshot. This contract becomes the single implementation specification after user approval; an ambiguity is not permission to choose a new scientific definition.
+## C01 — Authority, changes and precedence
 
-The Data Contract v1.0 hash remains `6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`. Retain the user's later approved direct-horizon, pooled-regime and equal-ID evaluation definitions. This contract supplies the proposed seasonal predictor amendment, not a replacement dataset contract.
+The user confirmed: 2012–2019 training; 2020–2022 validation; exclude training labels requiring observations across the cutoff; disjoint drifter IDs; annual B2 versus seasonal B2 with fixed `c=1`; annual fallback for missing seasonal support; unchanged drifter-balanced evaluation, standard Brier and fixed 90% regions.
 
-Clarifications added to the proposal are: explicit API/data schemas; control/candidate accounting; proof of season-induced forecast changes; common support/weight denominators; durable resource and freeze receipts; precise output and conformance requirements. No new feature, candidate grid, model family, horizon or resampling family is added.
+This v2 draft replaces the active design in the [v1 contract snapshot](seasonal_conditioning_s4_e1_contract_v1.md), SHA256 `2cbff4361e95e4320c67c4a63a957078285b5aefa1c8ae26526771f12a714a77`. The [original E1 proposal](seasonal_conditioning_s4_e1_plan.md), SHA256 `b291f93f52627d0ae33e54bbd94ad0684e99ed2d181da2ef2b91d8af088c5787`, remains an unchanged historical planning snapshot. Its grids, nested CV, extra models, all-development refits and older budgets do not govern v2. The [architecture log](time_environment_s4_architecture.md) records the amendment.
 
-Approval MUST be recorded separately with the user's instruction, date and this file's hash. Config/source/environment hashes are frozen before the real-data pilot. A changed scientific specification invalidates the prior approval. A changed executable source/config invalidates prior execution fingerprints and pilot receipts; it must not be relabelled as the already measured version. No approval receipt is created during contract drafting.
+The Data Contract v1.0 hash remains `6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446`; retain later approved direct-horizon, pooled-regime and equal-ID evaluation definitions. The new temporal cohort is explicit, not a change to the cleaned release or historical experiment results.
 
-## C02 — Scientific task and explicit scope
+After approval, record the user's execution instruction, date and this file's hash in a separate receipt. Freeze config/source/environment hashes before real-data execution. Changed scientific terms require renewed review; changed source/config invalidates earlier execution fingerprints. No execution-approval receipt is created during this revision.
 
-**Where Things End Up:** given an object's origin cell and known departure date, estimate its stopped destination distribution after exactly 7 or 30 days. The conditional output is `P_h(j | origin_cell=i, departure_season=s)` on the frozen D cell index plus E.
+## C02 — Question and fixed scope
 
-E1 MUST answer separately:
+**Where Things End Up:** given an object already in origin cell i at known departure time t0, predict its stopped destination after exactly 7 or 30 days. Ask whether departure season improves later-period Brier while preserving actual hits and geographic region size.
 
-1. How different are supported fitted destination distributions across seasons?
-2. Does knowing departure season improve held-out Brier over matched annual models?
-3. Does the improvement preserve H90 and K90 relative to retained references?
-
-| Item | Required definition |
+| Item | Locked design for review |
 |---|---|
-| Data | `per-drifter-cleaned-20261017-v7`; development pool only |
-| Origin | Arbitrary qualified time already in an R-origin cell; not first entry |
-| Spatial resolution | Frozen 1-degree cells and empirical within-cell release prior |
-| Time | Exact 7/30 days; UTC departure seasons; zero matching tolerance |
-| Drifter scenario | Existing pooled historical drifter-regime mixture |
-| Boundary/labels | Existing stopped labels; first observed exit is absorbing E |
-| Fitting | Every eligible pair retains one raw count |
-| Evaluation | Equal eligible times within ID/origin, equal IDs within origin, equal origins |
-| Loss/region | Standard unhalved multiclass Brier; fixed 90% region with existing ties |
+| Dataset | `per-drifter-cleaned-20261017-v7`; development pool only |
+| Origin / states | Arbitrary qualified time in frozen R; 1-degree cells; frozen D plus absorbing E=-2 |
+| Targets | Existing stopped labels; first observed exit is absorbing; exact 7/30 days, zero matching tolerance |
+| Training | Qualified departures in `[2012-01-01,2020-01-01)` UTC, with C04 exclusions |
+| Validation | Qualified departures in `[2020-01-01,2023-01-01)` UTC, limited to sealed available data |
+| Models | `B2Annual` and `B2SeasonalC1` only |
+| Training weights | One raw count per eligible pair; no EqualID or partial-ID training reweighting |
+| Evaluation weights | Equal times within ID/origin, equal IDs within origin, equal origins |
+| Metrics | Standard unhalved multiclass Brier; H90 actual hit rate; K90 geographic cell count |
 
-Same-cell/same-season/horizon cases receive the same fitted forecast in one fitting role. Exact coordinates, departure year and day-within-season are not E1 predictors. Direct 30-day seasonal estimates include observed cross-season trajectories; they do not assume that actual weather stays fixed for 30 days. This is not short-step calendar propagation.
+Season codes are 0=DJF (December/January/February), 1=MAM (March/April/May), 2=JJA (June/July/August), 3=SON (September/October/November), from **UTC departure time**. December belongs to the next DJF season-year for reporting only. A 30-day trajectory may cross a season boundary; its start season conditions the direct endpoint distribution, not constant weather along the path.
 
-SST, velocity, wind/current products, monthly/cyclic time features, new drogue regimes, finer grids, E5 path transfers, MDN and latent states are out of scope. No new geometry qualification is performed. E5 remains deferred and uncompleted, not rejected on predictive performance.
+Both models use the same recent training records. “Annual” pools seasons within 2012–2019, not all historical years. The pooled drifter-regime scenario stays unchanged. Year determines roles and diagnostics, not a learned predictor. Exact coordinates do not condition this cell-level model.
 
-## C03 — Input contract, source keys and integrity
+No seasonal-weight search, B1/Fixed/Adaptive/neighbour comparison, nested CV, rolling-cutoff selection, all-development refit, new geometry, SST, velocity, wind/current, recursive propagation or new loss is included. Historical models remain research records, not fitted controls in this round. Historical scores are not directly comparable to this new validation cohort.
 
-Allowlist only the required files and their sealed receipts:
+## C03 — Inputs, provenance and reproducible support
 
-| Input | Location / rule |
-|---|---|
-| Annual per-ID counts | `results/runs/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet` |
-| Original labels | The same run's `release_labels/`, `source_ID_summary.csv`, config and provenance |
-| ID folds | `results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv` and provenance |
-| Dataset/geometry identity | Current manifest/schema, English contract, frozen R/D/state index and pinned land assets |
-| Control regression | Explicitly named outputs of `local_endpoint_adaptive_s3_e2_20261030T135819_234829Z`, opened only after new outer predictions freeze |
+Allowlist the prepared development labels/count inventory under `results/runs/markov_input_20261025T095949_830292Z/`, its sealed provenance receipt, `source_ID_summary.csv`, current dataset manifest/schema/English contract and frozen state/R/D/pinned map assets. No canonical trajectory or final-test trajectory/label reads are permitted. The 517 locked test IDs remain excluded.
 
-The existing `load_inputs` reconciliation MUST remain effective. The new adapter MUST verify each label checksum and its qualified subset; it cannot trust a same-named file or use an old fitted matrix as training information. No canonical trajectory or locked-test data read is permitted. Test IDs may be counted from the manifest but their trajectories/labels must remain inaccessible.
+Verify hashes, development membership, source metadata and qualified masks: `reason_code=0`, `target=stopped`, `scenario=pooled`, `tolerance_hours=0`, h in {7,30}. Source key `(id,origin_source_obs,horizon_days)` must be unique and integral. Check UTC season decoding and `target_epoch=t0_epoch+86400*h`. Verify absorbing-exit evidence and required-interval semantics against the sealed labels; do not relabel.
 
-Derived tables:
+Reconstruct all-development annual per-ID counts from original labels and compare exactly with the sealed count table **for integrity only**. Expected full populations at 7 / 30 days: 303,288 / 268,998 pairs, 385 / 337 IDs, 4,451 / 3,974 ID-origin units and 37 observed origins. This reconstruction is not a fitted full-history prior. Historical fold maps and historical fitted predictions are unnecessary and not execution inputs.
 
-| Table | Key / required fields | Invariants |
-|---|---|---|
-| `origin_features` | `(id:int64, origin_source_obs:int64, horizon_days:int16)`; origin cell, UTC t0, season code, outer fold | One row per qualified prediction; no destination/future path in the predictor view |
-| `targets` | Same source key; destination cell, outside/E evidence and qualification lineage | Label comes from the existing stopped-target ledger; no relabelling |
-| `seasonal_counts_by_id` | `(id,horizon,origin,season,destination)`; positive `pair_count:int64` | Unique keys; no zero/negative counts or extra states |
-| `annual_counts_by_id` | Existing `(id,horizon,origin,destination)` | Exact integer equality to seasonal counts summed over season |
-| `evaluation_denominators` | `(horizon,origin,id)`; eligible-time total; origin ID total; evaluated-origin total | Totals span all seasons and use the relevant common scoring roster |
-| `support_by_role` | `(fit_role,horizon,origin,season)` | Pair count, unique ID/year counts, dominant-ID share, ID overlaps and fallback flags |
+The [planning support audit](../provenance/reviews/seasonal_temporal_support_20261102/README.md) supplies expectations; its [audit JSON](../provenance/reviews/seasonal_temporal_support_20261102/audit.json) has SHA256 `66bb108eb05f87f98d77207bafdffa761b2464e65d41b568d18ef14c9939fbb1`. Verify its artifact manifest. Recompute roles from original keys, not from aggregated audit numbers.
 
-IDs/source keys MUST NOT pass through floating point or spreadsheet formatting. Do not group by endpoint before retaining the source multiplicities and original evaluation denominators.
+| Expected roster / sequential exclusion | 7 days | 30 days |
+|---|---:|---:|
+| Training pairs excluded by required-label cutoff | 630 | 1,921 |
+| Additional training pairs excluded by validation-ID union | 2,947 | 1,656 |
+| Final training pairs / IDs / origins | 130,731 / 159 / 37 | 113,708 / 138 / 37 |
+| Final training ID-origin units | 1,853 | 1,624 |
+| Validation pairs / IDs / origins | 33,971 / 45 / 36 | 30,128 / 42 / 35 |
+| Validation ID-origin units | 435 | 409 |
+| Annual-unsupported validation cases | 0 | 0 |
+| Seasonal-fallback validation cases / primary weight | 41 / 1/36 | 0 / 0 |
 
-UTC seasons MUST decode as 0=DJF (12/1/2), 1=MAM (3/4/5), 2=JJA (6/7/8), 3=SON (9/10/11). Recompute from t0 and match `departure_season`. Require timezone-valid UTC, valid horizon and `target_epoch = t0_epoch + 86400*h`. Future timing is a reconciliation check, never a feature. DJF reporting assigns December to the following season-year; that identifier is audit-only.
+The union of validation IDs across both horizons contains 45 IDs. Last available qualified departures are 2022-10-24 00:00 UTC (7 days) and 2022-10-01 00:00 UTC (30 days); 2022 is incomplete. An unexpected count, key, date or fallback discrepancy stops execution for investigation. Never filter records to force expected totals.
 
-Reconcile the 3,224-ID fold map and the qualified 7/30-day populations: 303,288/268,998 pairs, 385/337 evaluation IDs, 4,451/3,974 ID-origin units and 37 observed origins. Seventeen additional indexed origins are unevaluated. Unexpected differences MUST stop execution for investigation; never trim or add records to make totals match. Report seasonal support as a new result after approval, not as presumed adequate support.
+## C04 — Chronological roles and leakage boundaries
 
-## C04 — Probability estimators, normalisation and fallbacks
+Let `T=2020-01-01T00:00:00Z` and Q be the verified qualified development cases. Apply these rules in order:
 
-All following quantities are fitted separately by horizon using **only current fitting IDs**. Let `N[i,s,j]` count eligible pairs and `N[i,s]` be its row sum. Annual counts sum over s. All vectors use the identical destination order, including E=-2.
+1. Define `V_h={q in Q: horizon=h, T<=t0<2023-01-01 UTC}` using all available qualified cases in that window. Define `D_V=union_h IDs(V_h)` **before checking training support**.
+2. Define training candidates `T0_h={q in Q: horizon=h, 2012-01-01 UTC<=t0<T}`.
+3. Retain a training candidate only if `required_interval_end_epoch<T`. This is the end of the observation interval needed to establish the sealed label, normally t0+h; a sealed absorbing exit can establish its outcome earlier. Equality with T is excluded. A pre-2020 origin alone is insufficient. Do not shift the validation clock or t0 to rescue a pair.
+4. Exclude every remaining training case whose ID belongs to `D_V`, at **both horizons**. Earlier records of validation drifters cannot fit either model. Do not remove those drifters from validation to regain training samples.
+5. Fit both models from exactly these final training records. Support tables, probabilities and prediction caches derive from this training set alone. Pre-2012 data stay preserved and excluded from fits.
 
-`A_i(j) = N[i,j] / N[i]` — annual B2.  
-`L_i,s(j) = N[i,s,j] / N[i,s]` — seasonal local row when available.  
-`G(j) = sum_i N[i,j] / sum_i N[i]` — annual B1 over qualified R-origin pairs.  
-`G_s(j) = sum_i N[i,s,j] / sum_i N[i,s]` — seasonal B1 when available.
+Label exclusion precedes ID exclusion so the reported sequential counts are disjoint. Also retain independent boolean reason flags; one record may trigger both original predicates. Validation eligibility is unchanged by seasonal support, endpoint surprise, a poor score or missing training destinations.
 
-Use unambiguous names for the shrunken components:
+Save source-keyed roles/exclusion reasons, the validation-ID-union hash, per-horizon training-ID hashes and cutoff. Assert `IDs(training_7 union training_30) intersect D_V = empty` and the required-label-time bound. Cross-horizon exclusion applies even when an ID has valid validation cases at only one horizon.
 
-`A_tilde[i,s;c] = (1-c)*A_i + c*L_i,s`  
-`G_tilde[s;c] = (1-c)*G + c*G_s`.
+Keep predictors (key, t0, origin, season, horizon) separate from targets/qualification. Preparation/audit may inspect targets to verify the sealed inventory and existing eligibility, but fit accepts training keys only; predict accepts no validation outcome or future path. Freeze all validation forecasts, masks, regions and original weights before scoring performance. No date/weight/fallback changes follow score inspection.
 
-| New model | Required probability vector |
-|---|---|
-| SeasonalB2 | `A_tilde[i,s;c]` |
-| SeasonalFixed | `(1-a)*A_tilde[i,s;c] + a*G_tilde[s;c]` |
+This is a **chronological development backtest**. Prior use of development data is not erased by a new split. It is neither untouched final-test evidence nor proof of performance after 2022. Time-aware and group-wise validation address different dependencies; see the [validation guidance](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-of-time-series-data).
 
-The same c applies to local/global components and all cells/seasons for one horizon. It is a validation-selected **global seasonal weight**, not an adaptive function of local sample size. Distinct-ID counts are support diagnostics, not training reweights or a new effective-sample-size formula.
+## C05 — Two estimators and support rules
+
+For each h, count final training pairs as `N_h(i,s,j)`, where j includes all frozen D destinations and E. Let `N_h(i,s)=sum_j N_h(i,s,j)`, `N_h(i,j)=sum_s N_h(i,s,j)`, and `N_h(i)=sum_j N_h(i,j)`.
+
+`B2Annual_h(j|i) = N_h(i,j)/N_h(i)` when `N_h(i)>0`.
+
+`B2SeasonalC1_h(j|i,s) = N_h(i,s,j)/N_h(i,s)` when `N_h(i,s)>0`; otherwise it equals `B2Annual_h(j|i)` if the annual row exists.
+
+This is fixed `c=1` on supported rows. Missing-season fallback is an availability rule, not a fitted weight. A single supported pair still uses its raw seasonal row; report low support without a new minimum-ID cutoff, smoothing, probability floor or adaptive weight. Both models retain every permitted training pair and its multiplicity.
 
 | Condition | Required action |
 |---|---|
-| Annual local row absent | All models use the existing common unsupported-row status; no standard score, no neighbour/global rescue; report counts and primary-weight coverage |
-| Annual row supported, local seasonal row absent | Set `L_i,s=A_i`; retain the case |
-| Global seasonal row absent | Set `G_s=G`; retain the case |
-| Local seasonal row absent but global seasonal row present | Only the local component falls back; SeasonalFixed can still vary with season through `G_s` |
-| Positive but small seasonal support | Use its raw row and the declared c; flag support without inventing a minimum-count cutoff |
-| Zero-probability observed truth | Keep and score normally; no probability floor or renormalisation |
+| Seasonal row exists | Full seasonal empirical distribution |
+| Seasonal row absent, annual row exists | Identical annual vector; `annual_fallback=true`; retain case in primary evaluation |
+| Annual row absent | Common unsupported status, no standard score; report counts/pre-mask weight. Expected zero here; unexpected cases trigger C03 investigation |
+| Observed validation truth has zero probability | Keep and score the zero normally |
 
-Every issued vector MUST be finite, nonnegative, no entry above one, and sum to one within absolute 1e-12. Unsupported bookkeeping U is not appended as an extra outcome to otherwise supported E1 vectors. Missing rows are not turned into observed exits or self-loops.
+Issued vectors must be finite, nonnegative, bounded by one and sum to one within absolute 1e-12 on the same ordered D-plus-E states. Do not invent self-loops, exits or a U outcome, or truncate small probabilities. Seasonal counts summed over s must reproduce annual counts of the **final training set** exactly.
 
-Required identities: `SeasonalB2(c=0)=B2`; `SeasonalFixed(c=0,a)=Fixed(a)`; `SeasonalFixed(a=0,c)=SeasonalB2(c)`; absent entire-season support gives the corresponding annual forecast. Exact keys/counts must match; vector arithmetic uses the established numeric tolerance and region membership must remain unchanged for nested controls.
+Fallback forecasts, Brier, H90 and K90 must equal annual B2 case by case. Report fallback case/ID/origin counts, raw-pair fraction and primary-weight fraction: 41/33,971 is about 0.121% of 7-day pairs but 2.778% of primary weight. Label fallback plots “annual fallback”; they are not estimated seasonal rows.
 
-## C05 — Comparators, search budget and tie rules
+Two model families x two horizons give **four primary model/horizon results**, one chronological split and zero tuning candidates. Construct one annual and four season-indexed matrix views per horizon, allowing unsupported rows. No inner selection or post-validation refit is needed.
 
-Retain the five annual controls: B2, Fixed, Adaptive, LocalEndpoint and LocalEndpointAdaptive. Their mathematics, training support, grids, tie rules and no-neighbour behaviour are unchanged; no seasonal filtering enters their fits.
+## C06 — Common evaluation and the 90% region
 
-| Family | Grid | Identities per horizon/validation role |
-|---|---|---:|
-| B2 | None | 1 |
-| Fixed / Adaptive / LocalEndpoint | Their original `a=k/20`, k=0,...,20 | 21 each |
-| LocalEndpointAdaptive | Original a grid x gamma `{0,0.5,1,2}` | 84 |
-| SeasonalB2 | c `{0,0.25,0.5,0.75,1}` | 5 |
-| SeasonalFixed | Original a grid x c grid | 105 |
-| Total | Seven model families | 258 |
-
-Select each new model by pooled inner OOF primary Brier. Find the minimum; among candidates within absolute 1e-12, prefer smaller c, then smaller a. Annual controls retain their existing tie rules. No different a/c per cell or season and no continuous optimisation, extra grid, repeated random search or feature selection after outer inspection.
-
-Selection is Brier-only. H90/K90 determine the separate acceptance decision; a failed quality screen does not replace the displayed seasonal candidate with a reference. No post-hoc outer winner is substituted. This preserves the first-round information question instead of hiding a negative result behind a selection fallback.
-
-Include two untuned mechanism diagnostics: SeasonalB2 at c=1, and Fixed at each SeasonalFixed-selected a with c=0. Their results are not new selection opportunities. Record `season_induced_change_weight`: the primary weight of cases whose selected vector differs by more than 1e-12 in any coordinate from its same-parameter c=0 counterpart. This distinguishes an active seasonal contribution from c>0 with numerically identical forecasts. It does not itself prove a physical seasonal cause.
-
-## C06 — Whole-ID roles and evaluation contract
-
-Use existing outer groups 0,...,4. For outer k and inner validation v!=k, fit on the remaining three groups. Pool the four inner validation rosters for each model/horizon before choosing its parameters. Refit on four outer-training groups, then score outer k once. The complete query ID is absent from every fitting count, including all its other visits and seasons.
-
-There are 20 inner fits, five outer fits and one all-development refit. The six selection tasks per horizon (five outer-training tasks plus one all-development task) give 12 tasks. Up to 25 validation roles x 2 horizons x 258 identities = **12,900 candidate/role/horizon score identities**; equivalent vectors can share calculations but must retain their membership records. Up to 12 x 258 = **3,096 task-level aggregated candidate identities** are available for selection. These counts are not observation counts or runtime forecasts.
-
-Freeze selected outer forecasts, parameters, masks, weights and point scores before evaluating the full candidate grids on the five training-four/held-one base fits for all-development selection. The latter uses all development labels for choosing illustrative parameters and cannot retroactively change the frozen outer comparison. Refit illustrations on all development IDs afterward.
-
-For each horizon/common scoring roster, let C be its evaluated origin set, `D_i` its eligible IDs in origin i, and `n_di` the eligible times for ID d in i **across all seasons**:
+For each horizon, form the common validation roster using only the shared annual-support mask. Let C be its origins, `D_i` its validation IDs in origin i, and `n_di` the eligible validation times for d/i **across all validation seasons and years**:
 
 `w[d,i,t] = 1 / (|C| * |D_i| * n_di)`.
 
-A compressed row with m identical feature/outcome cases has weight `m*w[d,i,t]`. One ID visiting four seasons does not receive four full votes. Primary scores are not averages of equally weighted season or fold means. Apply the same hierarchy to the pooled inner validation roster for each selection task. All seven models share masks and weights.
+Weights sum to one and are identical for both models. A compressed season/destination row with m cases has weight `m*w[d,i,t]`. A drifter gets one total vote **within each origin/horizon**, not one per season. Origins are equal; an ID visiting several origins appears in each origin-conditional task. This is not global one-ID-one-vote weighting. Training stays raw-pair counting.
 
-Per-case Brier MUST be `1 + sum_j p_j^2 - 2*p_truth`. H90 is membership of truth in the nominal-90% set; K90 counts its geographic cells. Use the existing `probability_region` implementation: positive probabilities sorted descending, first cumulative mass reaching `0.90-1e-12`, include all positive entries at least `cutoff-1e-12`. E contributes probability and membership but not K90. Do not use the optional fixed-cell-budget region helper.
+`BS_case = sum_j (p_j - 1[j=y])^2 = 1 + sum_j p_j^2 - 2*p_y`.
 
-Report issued region mass, E probability, true-outcome zeros, empty seasonal rows, component fallback fractions and common unsupported counts/weights. Per-season breakdowns condition the original weights on that subset and display subset weight. They do not redefine the aggregate estimand.
+`Brier = sum w*BS_case`; lower is better, not percentage accuracy. Score the full distribution, including zero-probability truths and E, without spatial distance or a combined loss.
 
-## C07 — Seasonal evidence, uncertainty and decision rules
+Use unchanged `common/prediction_regions.py::probability_region`: sort positive probabilities descending, find the first cumulative sum reaching `0.90-1e-12`, include all positive entries at least `cutoff-1e-12`. Retain cutoff ties even if mass exceeds 0.90.
 
-Support tables MUST include fitting pairs, unique IDs/years, dominant-ID shares, destination diversity and cross-season ID overlap. Descriptive maps and six pairwise seasonal total-variation distances `0.5*sum_j|P_s-P_r|` require supported raw rows; absent comparisons are NA, not zero. Do not treat all hourly pairs as independent replicates in a significance test.
+`H90=sum w*1[y in region90]`; `K90=sum w*(number of geographic D cells in region90)`. E contributes mass/hit membership but not geographic count. K90 is not physical area. Nominal 90% probability does not guarantee 90% actual hits; use the same nominal level for both models.
 
-Freeze three contrasts per horizon:
+Report issued mass, predicted/observed E, zero-truth rate, unsupported/fallback counts and weights. For season/year/support/fallback slices and the optional common season-supported subset, condition the **original primary weights** on that subset; do not rebalance cells, IDs or seasons. Show original subset weight and ID count. Descriptive slices cannot replace the full-case decision.
 
-1. SeasonalB2 minus B2 — matched local information test.
-2. SeasonalFixed minus Fixed — primary practical information test.
-3. SeasonalFixed minus LocalEndpointAdaptive — retained spatial benchmark.
+## C07 — Uncertainty and acceptance
 
-Report Brier, H90 and K90 for each: 18 directional screens in total. Use 10,000 paired Exp(1) whole-ID multiplier replicates, NumPy PCG64 seed 20261102, in sorted development-ID order; share each ID multiplier across its seasons, origins, models and horizons. First average original eligible times within ID/origin; within an origin normalise ID multipliers to sum one; then average origins equally. Record the float64 multiplier digest and linear quantile method.
+Freeze one contrast per horizon: `delta = SeasonalC1 minus Annual`. Desirable directions: Brier<0, H90>=0, K90<=0. Report absolute/relative Brier change, H90 percentage points and K90 cells/percent. Relative changes with zero reference denominator are NA.
 
-Fits/selected parameters remain fixed. Report ordinary 95% intervals and adjusted upper bounds at `1-0.05/18` for Brier/K90, adjusted lower bounds at `0.05/18` for H90. These are conditional development comparisons, not full refitting uncertainty, causal seasonal tests or final-test evidence. Prior research adaptation and shared ocean conditions remain limitations. A zero-crossing interval does not establish non-deterioration. Do not add replications/seeds after a borderline result.
+Use 10,000 paired positive Exp(1) whole-ID multiplier replicates, NumPy PCG64 seed 20261102. Generate a float64 array in replicate-major order over the sorted **45-ID validation union**. Share each ID multiplier across its origins, seasons, models and both horizons. Save ID order, array hash and quantile method (`linear`). Do not resample hourly pairs as independent observations.
 
-| Decision flag | Required evidence |
+First average eligible times within each ID/origin. In each replicate, weight those means by ID multipliers normalised within the origin, then average origins equally. Apply identical multipliers to both models and compute paired differences. Fits remain fixed: intervals describe validation-ID uncertainty conditional on fitted models, not training/refitting uncertainty, shared ocean dependence or prior project adaptation.
+
+Report ordinary central 95% intervals and six directional screens (one contrast x two horizons x three metrics). Conditional-evidence bounds use upper quantile `1-0.05/6` for Brier/K90 and lower quantile `0.05/6` for H90. This Bonferroni-adjusted resampling screen is approximate, not an exact finite-sample significance guarantee. Season/year/cell slices have no confirmatory tests. Do not add seeds, replicates or cutoffs after a borderline result.
+
+Evaluate the following **separately for 7 and 30 days**, with `eps=1e-12` only for numerical equality. No practical degradation margin is introduced. An interval crossing zero does not establish non-deterioration or absence of seasonality.
+
+| Status / conclusion | Required evidence |
 |---|---|
-| `ENGINEERING_COMPLETE` | All conformance, resource, audit, freeze and fresh-replay checks pass; favourable prediction is not required |
-| `SEASONAL_POINT_GAIN` | A matched contrast has delta Brier < -1e-12 and positive season-induced-change weight |
-| `SEASONAL_SIGNAL_SUPPORTED_CONDITIONALLY` | Matched point gain plus adjusted upper delta Brier < -1e-12; report selected c/fold stability and Fixed-at-same-a diagnostic |
-| `QUALITY_POINT_GAIN_VS_REFERENCE` | Delta Brier < -1e-12, delta H90 >= -1e-12 and delta K90 <= 1e-12 |
-| `QUALITY_SUPPORTED_CONDITIONALLY_VS_REFERENCE` | Point conditions plus adjusted upper Brier < -1e-12, lower H90 >= -1e-12, upper K90 <= 1e-12 |
-| `STRONG_UPGRADE_CANDIDATE` | SeasonalFixed passes the supported quality screen against both Fixed and LocalEndpointAdaptive at that horizon |
-| `SST_PLAN_ELIGIBLE` | A matched seasonal signal is conditionally supported; user review may then prioritise a separate SST proposal for that horizon |
-| `NO_SUPPORTED_GAIN` / `INSUFFICIENT_EVIDENCE` | Report the actual reason: annual collapse, no forecast change, failed uncertainty/quality screen, sparse support or unstable results |
+| `ENGINEERING_COMPLETE` | Exact source/role/count reconciliation; leakage, probability, weight and region checks; complete outputs/visuals; independent audit, resources and fresh replay pass. Positive skill is not required |
+| `BRIER_POINT_GAIN` | Delta Brier < -eps and positive primary weight of forecasts differing from annual by >eps in at least one state |
+| `QUALITY_POINT_GAIN` | Brier point gain, delta H90 >= -eps and delta K90 <= eps on the full common validation roster |
+| `BRIER_GAIN_SUPPORTED_CONDITIONALLY` | Brier point gain plus adjusted upper delta Brier < -eps |
+| `QUALITY_GAIN_SUPPORTED_CONDITIONALLY` | Quality point gain plus adjusted upper Brier < -eps, lower H90 >= -eps and upper K90 <= eps |
+| `BRIER_GAIN_WITH_QUALITY_TRADEOFF` | Brier point gain but an H90/K90 point condition fails; state the exact cost |
+| `NO_BRIER_POINT_GAIN` | Brier point condition fails; show actual differences and intervals |
+| `QUALITY_NOT_ESTABLISHED` | Quality point conditions pass but conditional evidence does not; no claim of demonstrated non-deterioration |
 
-Numerical tolerance is not a practical benefit threshold. Always report absolute/relative Brier change, H90 percentage points, K90 cells/percentage and added compute/input burden; do not promote a negligible gain solely because it passes a numeric screen. Retention is a user decision. Seasonal support does not prove SST causes the difference; E2 is not automatically executed.
+The primary model-improvement target is `QUALITY_POINT_GAIN`; only the supported flag warrants the stronger conditional claim. Tiny changes must be reported as tiny: eps is not a meaningful-effect threshold. There is no averaged 7/30-day pass; both must pass to claim improvement at both horizons.
 
-## C08 — Interfaces and source ownership
+Supported Brier benefit may motivate discussion of a separate SST proposal even if quality costs prevent replacement. It neither proves a physical seasonal mechanism nor attributes benefit to SST. Failure of raw c=1 does not prove seasons uninformative: sparse rows may be noisy. Retention, new smoothing/features, stage closure and final-test access require user review.
 
-New code belongs under `src/data3001/modelling/baselines/` with the `seasonal_conditioning_s4_e1` prefix. Reuse `common/runtime.py`, `common/qualified_count_inputs.py`, `common/prediction_regions.py`, existing whole-ID manifests and verified annual-model/scoring primitives. Do not invoke old runners or alter historical hashed modules to make this experiment work.
+## C08 — Interfaces, isolation and implementation order
 
-| Boundary | Contract |
+After approval, new code stays under `src/data3001/modelling/baselines/` with prefix `seasonal_conditioning_s4_e1`. Reuse hash/read guards, label verification, states and region/scoring primitives. Adapt verification to chronological roles; do not call old runners or inherit their folds. Preserve historical hashed code and runs.
+
+| Proposed owner | Contract |
 |---|---|
-| `prepare_inputs` | Verified allowlist -> separate predictors/targets, conditional counts, denominators and inventory; no fitting or season-support filtering |
-| `fit` | Conditional counts + explicit fitting IDs + frozen states -> annual/seasonal distributions and support; assert no query/held-ID access |
-| `predict` | Fitted role + `(origin,horizon,season)` + model/parameters -> complete vector or common unsupported status; no truth or future path arguments |
-| `score` | Predictions + held targets + explicit common weights -> per-ID/origin and aggregate metrics; no refitting |
-| `select` | Saved pooled inner metrics + frozen candidate/tie rules -> parameter/status; no outer scores |
-| `audit` | Saved sources/counts/roles/forecasts/candidates -> independent reconstruction; do not reuse the selector as its own oracle |
+| `seasonal_conditioning_s4_e1_inputs.py` | Sources/seasons, roles/exclusions, separate predictors/targets, final training counts and validation denominators |
+| `seasonal_conditioning_s4_e1.py` | Pure annual/seasonal estimators, prediction/fallback, grouped scoring and paired uncertainty; no selector |
+| `run_seasonal_conditioning_s4_e1.py` | Approval/config/source freeze, guarded access, budgets, forecast freeze, audit and replay |
+| `seasonal_conditioning_s4_e1_audit.py` | Independent source/role/count and probability/weight/metric/decision reconstruction |
+| `seasonal_conditioning_s4_e1_report.py` | English report, HTML and predeclared figures from frozen evidence |
+| Config / tests | `configs/seasonal_conditioning_s4_e1.json`, `tests/test_modelling_seasonal_conditioning_s4_e1.py`, only after approval |
 
-Cache identity MUST cover input hashes, fitting-ID hash, horizon, origin/season, state order, model/parameters, definition/version and source fingerprint. Never share fitted rows between incompatible roles. Derive c/a identities from grid indices, not approximate rounded float cache keys. Source files are split into inputs, estimator/selection, runner, audit and report as specified in the architecture; avoid an unrelated framework refactor.
+Required tables: `origin_features`, `targets`, `role_membership` with exclusion flags, `training_counts_by_id_season`, `training_counts_by_id_annual`, `validation_denominators`, `training_support`, `predictions`, `regions`, `scores_by_id_origin`, `contrasts`, `uncertainty`, `acceptance_flags`. Compression must preserve exact integer keys and multiplicities.
 
-## C09 — Execution gates and resource contract
+Fit accepts final training keys/counts only; predict accepts a fitted model and origin/season/horizon; score joins validation targets. Cache identity includes source/config/contract hashes, training-key and validation-ID-union hashes, cutoff, state order, horizon and model definition. No incompatible-role or full-history fitted cache reuse.
 
-Future approved lifecycle:
+Implement inputs/roles, then estimators/scoring, then runner/audit/report. One label pass and count aggregation avoid query-by-donor computation. Cache vectors/regions by `(model,horizon,origin,season)`; annual vectors can be shared across seasons. No unrelated generic framework refactor.
 
-`APPROVED -> SYNTHETIC_CHECKS -> PILOT -> PRIMARY -> OUTER_FROZEN -> ALL_DEV_AND_AUDIT -> FRESH_REPLAY -> REVIEW_SUBMITTED`.
+## C09 — Bounded execution after later approval
 
-Current state remains `REVIEW_REQUIRED`. The pilot may begin only after implementation passes meaningful synthetic checks and the approval/config/source fingerprints are sealed. Production primary/replay may proceed within a later execution approval only if the pilot passes the following finite gate; they never trigger E2/E3/E4.
+Lifecycle: `APPROVED -> SYNTHETIC_CHECKS -> INPUT_AND_PILOT -> PRIMARY -> FORECASTS_FROZEN -> SCORED_AND_AUDITED -> FRESH_REPLAY -> REVIEW_SUBMITTED`. Current state remains `REVIEW_REQUIRED`.
 
-| Resource | Limit |
+| Resource | Proposed v2 cap |
 |---|---:|
-| Reconciliation, input cache and one resource pilot | 600 s |
-| Complete primary, including startup/scoring/audit/report | 2,700 s |
-| Fresh preparation, fitting, scoring, audit/report replay | 2,700 s |
-| Cumulative real-data execution | 6,000 s (100 minutes) |
-| Processes / numeric-library threads | 1 / 1 |
-| Combined RSS / all new artifacts | 8 GiB / 5 GiB |
+| Complete source/role reconciliation, support preparation and resource pilot | 600 s |
+| Complete primary fitting/scoring/uncertainty/audit/report | 900 s |
+| Fresh preparation/fitting/scoring/uncertainty/audit/report replay | 900 s |
+| Cumulative real-data execution | 2,400 s (40 minutes) |
+| Processes / numerical-library threads | 1 / 1 |
+| Combined RSS / total new artifacts | 8 GiB / 5 GiB |
 
-These are caps, not runtime promises. Code preparation/small synthetic fixtures are outside the real-data clock; all real-data startup, interrupted/failed work, verification and repeated work are inside it. Unused time in one stage does not silently extend another. No automatic retries, new variant or budget expansion follows a failure.
+These reduced-scope caps are stopping limits, not measured runtime promises. All real-data startup, verification, interrupted/failed attempts count. No automatic retry, budget transfer or expansion. Code preparation/small synthetic fixtures are outside the real-data clock. Do not change the science to fit a cap.
 
-The pilot MUST reconcile the complete qualified inventory/cache, then exercise both horizons and all declared candidates on **all** held-out cases in the fixed role: excluded outer group 0, validation group 1, fitting groups 2/3/4. Enumerate all four season labels; report empty strata rather than substituting other records. No favourable-cell pilot or new scientific subsampling is allowed.
+The pilot verifies **complete** source/chronological rosters, then times training-only aggregation and all declared validation forecast keys/regions at both horizons. It must not calculate or inspect validation skill. Time scoring, uncertainty and report costs with deterministic timing-only fixtures of the required dimensions. No favourable-cell or reduced-case substitution.
 
-Before timing, enumerate full metadata workloads for 26 fits, 25 validation roles, 12 selection tasks, selected/diagnostic scores, 10,000 multipliers, independent audits, all outputs and replay. Save, per stage: timed units, exclusive seconds, full workload, scaling rule, setup cost, uncertainty and measured or unmeasured status. Time source verification, conditional/annual fitting, vector/region work and grouped scoring separately. Output and uncertainty fixtures may be used for capacity only, with their sizes and timing-only status explicit.
+Save workload counts, measured rates, setup costs, output-size/RSS estimates and full-run projections with a 2x reserve. Primary/replay must each fit their cap; unmeasured material work cannot be assigned zero cost. Failed capacity stops before the complete experiment and returns evidence. Once later execution approval exists and the finite gate passes, finish that approved bounded experiment without an additional permission gate.
 
-Project each complete run from measured component rates and the full enumerated workload, including fitting/control/audit/output overhead, with a 2x reserve. No missing cost is assigned zero. If a material component cannot be timed or bounded within the pilot, set `CAPACITY_NOT_ESTABLISHED`. Primary and replay must each fit their own cap and combined memory/storage cap. The reserve is a planning allowance, not a confidence interval; the hard runtime limits still apply.
+Persist access/resource progress, atomic outputs and receipts; enforce deadlines with a watchdog. Integrity/leakage/nonfinite failures stop immediately. Preserve partial evidence without completion claims or selective seasonal results. No repeat seed, alternate date window, final-test run or next feature experiment follows automatically.
 
-Keep source-key/count caches immutable and stream bounded outputs. Write data atomically, then its committed receipt. Persist budget/resource/access progress before normal exit, and use a watchdog for deadlines. No worker shares native prepared geometry because there is no parallel geometry work. An integrity/leakage/semantic failure stops immediately; a timeout preserves partial evidence without claiming a completed experiment or dropping an unfinished fold. Continue only offline closure/reporting of existing evidence after such a stop.
+## C10 — Conformance and independent review
 
-## C10 — Mandatory conformance and independent verification
+| Test ID | Required evidence |
+|---|---|
+| SEA2-01 | UTC seasons, Dec/Jan, leap day, exact horizons and unique source keys |
+| SEA2-02 | Exact full-source counts, manifest membership and checksum/forbidden-read rejection |
+| SEA2-03 | Inclusive/exclusive dates; required label before/at/after T; sequential purge accounting |
+| SEA2-04 | Cross-year/cross-horizon validation-ID union exclusion and disjoint fitting/validation IDs |
+| SEA2-05 | Final seasonal-to-annual count identity, hand-calculated vectors, mass, fallback/unsupported status |
+| SEA2-06 | No extra ID votes across seasons; compressed/atomic primary arithmetic agree; secondary slices condition original weights |
+| SEA2-07 | Independent Brier examples with zero truth; 90% ties, E membership and K90 match shared helper |
+| SEA2-08 | Audited cohorts/keys and 41/0 fallback cases with 1/36 / 0 weights reproduce; forecasts freeze before scoring |
+| SEA2-09 | Independent Counter/set/vector reconstruction of both models and every validation key, region and metric |
+| SEA2-10 | Paired 45-ID multipliers, six-screen quantiles and acceptance flags independently reproduce |
+| SEA2-11 | Source/config/role identities, stale/partial-cache rejection, bounded resources and complete artifacts |
+| SEA2-12 | Fresh replay: exact keys/counts/IDs/regions/fallback flags, numeric tables within absolute 1e-12, deterministic figure bytes identical |
 
-| Test ID | Required evidence | Failure action |
-|---|---|---|
-| SEA-01 | Independent UTC season decoding at every boundary, Dec/Jan, leap day and exact target duration | Stop |
-| SEA-02 | Source keys, qualified masks, populations and every annual count exactly reconstructed | Stop |
-| SEA-03 | c/a endpoint identities, component-specific empty-season fallback, complete probability mass and no invented exit/self-loop | Stop |
-| SEA-04 | Entire query ID/fold absent from fit counts; forbidden-read and stale-cache tests fail closed | Stop |
-| SEA-05 | One ID across four seasons keeps its original total influence; uneven fold/season populations reproduce direct weighted arithmetic | Stop |
-| SEA-06 | Full Brier including zero truth, exact 90% cutoff ties and E handling match independent examples and shared helper | Stop |
-| SEA-07 | 258-identity registry, 105/5 new grids, pooled-inner/tie decisions and all-development-after-freeze order reconcile | Stop |
-| SEA-08 | Independent Counter/set counts and probability/score reconstruction for every fitting/validation role; no selector self-audit | Stop |
-| SEA-09 | Annual controls reproduce sealed S3 E2 parameters, predictions, masks and point metrics within absolute 1e-12 | Stop interpretation and investigate; do not force historical values |
-| SEA-10 | Paired ID multipliers, 18-screen accounting, conditional interval and decision flags independently reproduce | Stop |
-| SEA-11 | Atomic/incomplete/stale checkpoint rejection, access/resource logs, fixed output inventory and source preservation pass | Stop |
-| SEA-12 | Fresh replay: exact scientific integer/ID equality, scientific numeric tables within 1e-12, fixed-environment figure bytes identical | Stop; do not publish successful deliverable alias |
+Failures stop interpretation and are reported. Plausible aggregate scores cannot excuse discrepancies. Independent audit uses separate reconstruction arithmetic, not the production fit/scorer as its own oracle. Historical S3 scores are not regression targets because cohorts changed.
 
-All exact schema/key/ID/count checks require exact equality. Nonfinite numeric scores or incomplete case/role output are failures. Changed uncertainty bounds versus old rounds are expected because the comparison family differs; unexplained old-control point forecast changes are not.
+Freeze the replay equality inventory before execution. Scientific forecasts/matrices/masks/weights/scores/uncertainty belong in it. Run IDs, timings and resources differ legitimately and receive lineage/schema/budget checks, not equality tests. Deterministic figures must not embed changing timestamps/run IDs. Incomplete or failed replay blocks a successful deliverable alias.
 
-Freeze the replay comparison inventory before execution. Scientific forecasts, counts, parameters, masks, scores and uncertainty belong in the equality inventory. Operational timestamps, run IDs, elapsed times and resource measurements are audited for valid lineage/schema/budgets and are expected to differ; they are not scientific-equality failures. Deterministic PNGs must not embed changing run IDs, timestamps or runtime annotations. Preserve such operational information in report/provenance text instead.
+## C11 — Deliverables and visual comparison
 
-Independent auditing MUST reconstruct the estimators, standard Brier, evaluation hierarchy, region membership, parameter selection and acceptance flags from saved evidence. Source/semantics tests do not establish predictive superiority; predictive claims require the full frozen outer results.
+Create a new `seasonal_conditioning_s4_e1_<UTC timestamp>` namespace under `results/runs/` and `provenance/runs/`; preserve old experiments. User-facing dates use Australia/Sydney.
 
-## C11 — Required artifacts and visual review
+Required delivery:
 
-Create a new `seasonal_conditioning_s4_e1_<UTC timestamp>` namespace under `results/runs/` and `provenance/runs/`; never edit earlier results. User-facing dates use Australia/Sydney. Proposed config/entrypoint names follow the existing E1 architecture and are created only after approval.
+1. Contract/approval/config/source/environment/input hashes; access/resource/pilot receipts; complete status and any failure evidence.
+2. Original-key roles and purge reasons; training/validation ID sets; final annual/seasonal per-ID counts; common weights and support/year tables.
+3. Training-only matrices and all validation forecast keys, vectors/regions/fallbacks; `validation_forecast_freeze.json` before scoring; no all-development refit.
+4. Four-row model/horizon Brier/H90/K90 table; two paired contrasts, ordinary/adjusted intervals and flags; support, zero-truth, E, issued mass and fallback diagnostics.
+5. English `REPORT.md`, local `review.html`, chart data and ten fixed PNG figures: metrics; paired differences/intervals; training cell-season support with validation fallback; train/validation year-season composition and descriptive seasonal scores; plus six map figures (origins 44744/44742/44382 x 7/30 days). Each map shows annual B2 and four seasonal rows with matched scales and 90% outlines. Label missing/fallback panels; do not select a nicer replacement origin. All maps use **2012–2019 training fits only** and are illustrative; skill uses 2020–2022 validation.
+6. Independent conformance report, primary/replay comparison and hashes; visual inspection of plots, scales, missing panels, links and report values.
 
-Required deliverables:
+Separate engineering completion, Brier benefit, quality costs, uncertainty and support limitations. Show distinct 7/30-day conclusions. If c=1 fails, retain its actual full-case result; do not replace the model row with annual B2 after observing scores. Only missing-season case-level fallback is authorised.
 
-1. Contract/config/approval/source/environment/input fingerprints; guarded-access and cumulative resource receipts; stage/failure status.
-2. Source-keyed predictors and targets, conditional and annual counts, common denominators, support and source-year/ID composition, explicit annual fallback evidence.
-3. Complete role/candidate membership and inner scores/selections, selected outer forecasts with original weights, `outer_freeze.json`, then all-development selections/matrices.
-4. Seven-model Brier/H90/K90 table; three declared contrasts at both horizons, ordinary/adjusted intervals and flags; raw-season/fixed-a diagnostics; zeros, E, issued mass and seasonal-change/fallback weights.
-5. English `REPORT.md`, local `review.html`, numeric chart data and twelve fixed PNG figures: six summary figures (metrics; paired differences; seasonal support; year/ID composition; seasonal scores; selected weights/fallbacks), plus six map figures (origins 44744/44742/44382 x 7/30 days). Each map compares annual Fixed, the four SeasonalFixed seasons and annual LocalEndpointAdaptive using matched scales/90% outlines. Show missing support or annual fallback explicitly; do not choose a replacement cell for a better-looking result. Seasonal TV values are provided as a table.
-6. Independent conformance/audit report, primary/replay comparison and hashes; all figure/report links visually checked.
+Create `results/deliverables/seasonal_conditioning_s4_e1` only after complete audit/replay. No model replacement, new search, SST development, stage closure, commit or push is included.
 
-Maps use all-development fits and must be labelled illustrative. Scores use frozen outer-held-ID forecasts. Report separately: engineering completion, descriptive seasonal variation, conditional predictive evidence, quality trade-offs and unknowns. No claim of 90% actual coverage merely because a region contains 90% fitted mass.
+## C12 — User review checkpoint
 
-Only after all required audits/replay pass may a new `results/deliverables/seasonal_conditioning_s4_e1` alias be created. Model replacement, Step 4 closure, SST execution and Git publication remain later user decisions.
+Review: fixed chronological windows; required-label-time and whole-ID exclusions; two untuned B2 models; c=1 where supported and explicit annual fallback; raw-pair fitting and unchanged hierarchical evaluation; full-case standard Brier/fixed 90% regions; point versus supported acceptance per horizon; six conditional screens; four result rows; training-only illustrations; 10+15+15-minute caps and fresh replay.
 
-## C12 — Review checkpoint
-
-The implementation review must confirm: UTC four-season conditioning; raw-pair training/common drifter-balanced evaluation; two seasonal models and annual fallbacks; five c values and 21 a values; the five retained controls; nested whole-ID selection; Brier-only internal selection with separate quality acceptance; 18 conditional screens; unchanged complete cases and fixed 90% regions; 10+45+45-minute caps and fresh replay.
-
-**Current outcome:** engineering contract drafted for review. No config/approval receipt, model implementation, data extraction, training, pilot or replay has been created or executed as part of this contract-design task.
+**Current outcome:** v2 contract and aligned planning records are ready for review. The earlier support audit is input evidence only. No S4 E1 implementation, config, execution approval, model fitting, forecast, pilot or replay has been created or run by this revision task.

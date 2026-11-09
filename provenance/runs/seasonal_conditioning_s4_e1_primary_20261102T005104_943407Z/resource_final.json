@@ -1,0 +1,24 @@
+{
+  "accounted_seconds": 22.0,
+  "artifact_bytes_total": 51296527,
+  "cap_seconds": 900,
+  "closeout_reserve_seconds": 10,
+  "components": {
+    "audit_post": 2.5185338329756632,
+    "audit_pre": 2.926524915994378,
+    "fit": 0.2988510829745792,
+    "inputs": 1.8435608329891693,
+    "predict": 0.11606329199275933,
+    "report": 1.841136666975217,
+    "save_forecasts": 0.029494459013221785,
+    "save_inputs": 0.29428433399880305,
+    "save_scores": 0.03763000000617467,
+    "score": 0.7967749589879531,
+    "uncertainty": 0.07828137499745935
+  },
+  "cumulative_accounted_seconds": 99.0,
+  "elapsed_seconds_before_sealing": 11.257467374991393,
+  "peak_rss_gib": 0.83331298828125,
+  "prior_accounted_seconds": 77.0,
+  "stage": "primary"
+}

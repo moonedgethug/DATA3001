@@ -1,0 +1,72 @@
+{
+  "status": "DRAFT_DOCUMENT_SELF_REVIEW_COMPLETED_NOT_IMPLEMENTED",
+  "date": "2026-11-08",
+  "contract": "docs/conditional_mdn_s5_e3_contract.md",
+  "contract_sha256": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+  "review_type": "Inline design self-review and read-only source/metadata checks; not independent model validation",
+  "execution_authorized": false,
+  "model_development_started": false,
+  "fitting_or_scoring_executed": false,
+  "outer_outcome_values_read_for_this_contract": false,
+  "final_test_access": false,
+  "changes": [
+    "Added draft contract",
+    "Added this document review receipt"
+  ],
+  "checked": {
+    "data_roles": "Seven-day counts confirmed from frozen roles; 86,373 inner queries, 104 unique inner validation IDs; 265,393 training pairs /338 IDs; 33,971 outer queries /45 IDs",
+    "training_vs_evaluation": "Pair-equal NLL fitting; drifter-equal early-stop evaluation, ES selection and outer reporting explicitly distinguished",
+    "literature": "Brolly sections 4.2–4.3 and author modelling.py; K meaning verified; 32 not a universal optimum; paper/code early-stop split discrepancy disclosed",
+    "model_scope": "Six K candidates; shared small backbone; global learning intentionally differs from unchanged local controls",
+    "leakage": "Whole-ID stop subset within fit role; rolling time windows for K; outer development cohort not used to select K",
+    "full_data": "Early-stop subset returned for full-role refit; all declared queries retained",
+    "search_boundaries": "Fixed seeds, K grid and one-SE selection; all outer K reports descriptive except preselected K*",
+    "scoring": "Same ECEF ES and LAEA 90-percent ellipse; proposed direct mixture integration has distinct nodes but unchanged precision gates",
+    "resource": "32-hour proposed cap, prior authorization not inherited, no measured MDN completion-time claim",
+    "inference": "Engineering completion distinct from improvement; interval margins do not excuse point-estimate deterioration",
+    "preservation": true
+  },
+  "mechanical_checks": {
+    "sections": 15,
+    "display_math_balanced": true,
+    "no_placeholders": true,
+    "budget_hours": 32,
+    "planned_training_fits": 72,
+    "parameter_counts": [
+      4742,
+      5132,
+      5912,
+      7472,
+      10592,
+      16832
+    ],
+    "new_implementation_files": []
+  },
+  "limitations": [
+    "Document self-review only; implementation, numerical precision and compute throughput require approved execution.",
+    "Repeatedly viewed outer development period is not an untouched final test.",
+    "Three-seed early-stop NLL comparison is not a full ES seed-stability experiment.",
+    "A single shared ellipse may span low-density gaps of a multimodal forecast.",
+    "K=32, covariance floor and small backbone are prespecified hypotheses rather than literature-proven optimal settings."
+  ],
+  "protected_hashes": {
+    "docs/research_stage_ledger.md": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d",
+    "docs/local_gmm_s5_e2_contract.md": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+    "docs/conditional_gaussian_s5_e1_contract.md": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/query_coordinates.parquet": "0b480d728e008444c493a228ebecb2505da21185aa70d0f07e8513fd6107fea5",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/roles.parquet": "78da3c85f77e29b303d7137320c33a94580f4822712faace9a7f0a03ffc7fdac",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/model_manifest.json": "6aab4bcdf4f35e8334cc79f445ceb6cb8cc19f5a30ed48769bfafafa2a657b94",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/summary.csv": "b45d456014f7fc493c8bbd510d0accab7a6a4f0dc15dd58e3a3f55e1d5133bc7",
+    "provenance/reviews/official_time_boundary_cohort_20261108/REPORT.md": "1a9e4eaedd91fe9c60856747d02478793ea8ccbd0a6d7d7680a4da2537747794",
+    "provenance/migrations/position_error_repair_20261106T073218_242005Z/full/error_overlay.parquet": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3"
+  },
+  "sources": [
+    "https://arxiv.org/html/2303.11480v2",
+    "https://github.com/mtbrolly/transition_density/blob/master/modelling.py",
+    "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "docs/local_gmm_s5_e2_contract.md",
+    "docs/conditional_gaussian_s5_e1_contract.md",
+    "provenance/reviews/official_time_boundary_cohort_20261108/REPORT.md"
+  ]
+}

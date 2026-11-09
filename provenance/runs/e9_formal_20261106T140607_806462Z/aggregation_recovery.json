@@ -1,0 +1,21 @@
+{
+  "all_cases_retained": true,
+  "all_reported_area_quantiles_independently_verified": true,
+  "case_score_sha256_unchanged": "67559a1eecbe1bf0a3f3729b5aab6dfca1ae134dbde234cc0f7d74bb8831ae00",
+  "cause": "numpy.argsort preserved a pandas Series index; quantile lookup interpreted a position as an index label.",
+  "existing_summaries_byte_identical": [
+    "results/runs/e9_formal_20261106T140607_806462Z/per_id_scores.csv",
+    "results/runs/e9_formal_20261106T140607_806462Z/contrasts.csv",
+    "results/runs/e9_formal_20261106T140607_806462Z/energy_precision.csv"
+  ],
+  "final_test_access": false,
+  "fix": "Convert values to a NumPy array before sorting. No other mathematical change.",
+  "forecasts_or_scores_rerun": false,
+  "gapped_index_fixtures_passed": true,
+  "model_or_weight_change": false,
+  "old_failure_reproduced": true,
+  "source_sha256": {
+    "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_aggregate_resume.py": "a47d29cb19e1509456c48581b5f4191221cc5ede1ec95ef869fd420e20094067",
+    "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_analysis_v2.py": "f77bf69e8f3f2ab54a6795b360c675646ad3163cd31097f6fe9a2b1f06b0a604"
+  }
+}

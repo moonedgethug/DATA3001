@@ -1,0 +1,14 @@
+{
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_numerics.py": "3514832154e8b930e12a95fdd31b48cae074c3d1a10d94be043013aead359caf",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_selection.py": "d7e7f791d92058759274d310f8e7b6255e0f0795bd95dcaac6829f2c50250abc",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py": "44e96917b9f1105844936fc4e6651f8d65c55b4312e19ec9e0300dddc7b42ac7",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_report.py": "0bf678173d4a9482df8e82b061bfbb88f0f08f9747da4b418cf131e96fb14f57",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2.py": "886a58dcb1fb47ec1674efcdbf5827d5bf40ed7456e3c6a3ebc021261d64a782",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_native.py": "72dd7d13792c1fe0c163ea0abd5f64c66a43072776ca847215d7fe4aace2d3c5",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_kernel.cpp": "72cf405d8f7b2a57e14e8f62dae4d1b212a041f4a4290b856e5369c44bd9f5cd",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py": "fff18ef9e0a873c01b5ca3d2d0096a68fc0e1a1a6118bba66efece4f3278ee25",
+  "tests/test_modelling_local_gmm_s5_e2_pipeline.py": "2297af38a0bfdb2992f12446c7ba8715170f095232343d55a3927dbfdcceaa5f",
+  "tests/test_modelling_local_gmm_s5_e2.py": "6caabcade78d4d01eed53463cc9231c8a36d2609dd48a642977eadfe64d8c02d",
+  "configs/local_gmm_s5_e2.json": "8da14ac430486c1ee4f2fef507ed6176066600013b4e2adc5cb841a52f481435",
+  "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/native/libe2_em.dylib": "c4c76458c99eff77c101a9114d38c2b16a5eeb762c7aaee8a688f49e372f9dc8"
+}

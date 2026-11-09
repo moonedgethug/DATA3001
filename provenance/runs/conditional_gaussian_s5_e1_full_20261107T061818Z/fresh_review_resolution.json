@@ -1,0 +1,15 @@
+{
+  "findings": [
+    {
+      "issue": "Failure path could claim outer targets unread",
+      "resolution": "Conservative dispatch flag and durable worker target-release/read receipts; failing-then-passing test"
+    },
+    {
+      "issue": "Parity worker could outlive budget on error",
+      "resolution": "Explicit termination before shutdown; live process regression passed"
+    }
+  ],
+  "model_defect_found": false,
+  "no_model_rerun_for_fixes": true,
+  "tests_passed": 53
+}

@@ -1,0 +1,180 @@
+FFFFFFF
+======================================================================
+FAIL: test_component_draw_retains_small_component_and_pair_independence (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_component_draw_retains_small_component_and_pair_independence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 22, in test_component_draw_retains_small_component_and_pair_independence
+    m=module();p=packet(2);p['weights']=np.array([.999,.001]);p['means'][1]=[1000,0]
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_ecef_matches_independent_ellipsoid_formula (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_ecef_matches_independent_ellipsoid_formula)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 42, in test_ecef_matches_independent_ellipsoid_formula
+    m=module();lonlat=np.array([[-75,35],[0,0],[179.9,89.9],[-179.9,-89.9]])
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_identical_components_match_single_law_and_analytic_local_es (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_identical_components_match_single_law_and_analytic_local_es)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 31, in test_identical_components_match_single_law_and_analytic_local_es
+    m=module();p=packet();q=packet(32)
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_invalid_probabilities_cannot_be_silently_normalized (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_invalid_probabilities_cannot_be_silently_normalized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 75, in test_invalid_probabilities_cannot_be_silently_normalized
+    m=module();p=packet(2);p['weights']=np.array([.2,.3])
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_round_trip_and_region_mass (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_round_trip_and_region_mass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 49, in test_round_trip_and_region_mass
+    m=module();p=packet(4);p['means']=np.array([[-100,0],[100,0],[0,-80],[0,80]],float)
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_score_reference_consistency_and_repeatability (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_score_reference_consistency_and_repeatability)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 65, in test_score_reference_consistency_and_repeatability
+    m=module();p=packet(2);p['means']=np.array([[-50.,-20.],[50,30]])
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+======================================================================
+FAIL: test_six_dimensional_stream_deterministic_distinct_halves (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_six_dimensional_stream_deterministic_distinct_halves)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 10, in module
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_numerics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 59, in test_six_dimensional_stream_deterministic_distinct_halves
+    m=module();a=m.uniforms(1024,6,'ES',2,('1','2','7'))
+      ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 12, in module
+    raise AssertionError('MDN full-mixture scoring is not implemented')
+AssertionError: MDN full-mixture scoring is not implemented
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+FAILED (failures=7)

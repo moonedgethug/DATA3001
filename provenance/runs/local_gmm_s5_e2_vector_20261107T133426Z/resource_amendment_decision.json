@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-07T16:43:21.170351+00:00",
+  "user_reply": "暂不追加预算，保留当前进度",
+  "decision": "DEFERRED_BY_USER_NO_RESOURCE_EXTENSION",
+  "resource_limits_changed": false,
+  "resume_authorized": false,
+  "preserve_all_checkpoints": true,
+  "active_budget_absent": true,
+  "no_running_experiment_process_verified": true,
+  "complete_inner_parameter_queries": 86373,
+  "complete_inner_energy_queries": 2176,
+  "outer_experiment_started": false
+}

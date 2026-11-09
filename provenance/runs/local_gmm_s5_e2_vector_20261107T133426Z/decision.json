@@ -1,0 +1,7 @@
+{
+  "decision": "NO_SUPPORTED_NONDEGRADING_IMPROVEMENT",
+  "default_automatically_replaced": false,
+  "development_only": true,
+  "quality_non_degrading_improvement": false,
+  "selected_k": 1
+}

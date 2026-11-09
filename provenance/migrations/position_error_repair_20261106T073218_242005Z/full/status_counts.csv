@@ -1,0 +1,14 @@
+axis,status,observations,percent
+lon,restored_scale,332782,93.67623
+lon,estimation_version_unresolved,15295,4.30546
+lon,coordinate_changed,5512,1.5516
+lon,unexplained_difference,1398,0.39353
+lon,source_missing,254,0.0715
+lon,zero_unresolved,6,0.00169
+lat,restored_scale,332770,93.67285
+lat,estimation_version_unresolved,15295,4.30546
+lat,coordinate_changed,5512,1.5516
+lat,unexplained_difference,1398,0.39353
+lat,source_missing,254,0.0715
+lat,zero_unresolved,12,0.00338
+lat,verified_unchanged,6,0.00169

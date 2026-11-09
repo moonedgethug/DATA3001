@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_name": "conditional_mdn_s5_e3_20261108T055830_797628Z",
+  "role": "C_T0",
+  "mode": "inner_energy",
+  "k_values": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "count": 65536,
+  "region_count": 65536,
+  "query_count": 41761,
+  "query_id_count": 50,
+  "query_key_sha256": "0b27aee3ccf85ff8db8928bfbb835596f096ec81542a0e69c6a772ca85d994d6",
+  "parameter_hashes": {
+    "1": "508c430097845c1912c7488e2432d64a54620d43b683852f5ffd896c5a132110",
+    "2": "57a1d37dd9a706463b960dfff024487ad793e407cc6cf792380169ce83e7729c",
+    "4": "4135ff237c42b9dd5145bd1864e62b1d3b0bce39aefd152066050927e8efa165",
+    "8": "812ab667f854d19673e1d54e886199ac3770aaeb4603871dce661a77a6427c49",
+    "16": "3afdfab1a63c38591beb7092cd312e1a29d325f71b9083756587bbae9bed88dd",
+    "32": "19f5e9f6a20c93ee2fc11afa158a36e23759e1b28ede91239dbc8b041038e4bc"
+  },
+  "parameter_manifest_hashes": {
+    "1": "f7fd1f3a819fd5f34e64312fe84436b1fdc1a590adb4f4742082dd486ea74b42",
+    "2": "a9ce086171eb3fee25b22137059a606f119008ffc4ed2b83f8f4efebc095fce9",
+    "4": "5c1b636a93a9d88e8a23e2966f79499cd80fe644ea951b8949de4fea97d8dc70",
+    "8": "6e46daa8d3ce841fc7e974146e14e24ece1a70f1e9a368abbbe2bca194e5319d",
+    "16": "2792b6d933228a41a2d712c86fe3b3b877e63feea8c3496da717618d9f3d1609",
+    "32": "c601e7ceca5927b655efc960dfedc79b8d9a394734218381b9b4f339d0dc42aa"
+  },
+  "parameter_paths": {
+    "1": "C_T0/K1/parameters.npz",
+    "2": "C_T0/K2/parameters.npz",
+    "4": "C_T0/K4/parameters.npz",
+    "8": "C_T0/K8/parameters.npz",
+    "16": "C_T0/K16/parameters.npz",
+    "32": "C_T0/K32/parameters.npz"
+  },
+  "source_hashes": {
+    "configs/assets.json": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb",
+    "configs/conditional_mdn_s5_e3.json": "dbea6723e5ddc44ad56929c3485198569a4578e16f11bf5ab0f66610408d51a3",
+    "docs/conditional_mdn_s5_e3_contract.md": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+    "src/data3001/modelling/baselines/position_error_s4_e8.py": "0bf190afee883be8fdaf0dd13a44241c9f8a2c073fa1f3397ed1f98b44ff6c5a",
+    "src/data3001/modelling/baselines/position_error_s4_e8_geometry.py": "6dbaa21950c5827046e4b8735b0454dff15cfe2837a2e0219c50203c03fa25a5",
+    "src/data3001/modelling/common/runtime.py": "fb77896b7159fde319ad8908ea2b2535e1f9405b47e7126c2502f88fdc39fa90",
+    "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py": "76305a23e0f8ef7fa9f0ee3c5a405843194691f7a88ab310a6899ce9b68bf981",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3.py": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_context.py": "06b2b62019e65de7a7d67b18189bb335e2a717ab0e8fa9147c3ace14ed63c352",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_pipeline.py": "4933b9cca70695a87373bc3cd6b013cac5daf3c5df6fbda3c6c6e9bdc15b5f7b",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_scoring.py": "196c39faf31b9d450a52520109723cc96ff9fc516021f2fec80aabe53d81ebfc",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_training.py": "9f74231ca9dcb3d9c1807e73094efcdc9d180e17166227872e89c9bd4422450e",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inputs.py": "ccfba2c412b335903f3138b79f30220f94c7b5978949180c722847d4cb8ea79c",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_numerics.py": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_optimized.py": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py": "2cf2ca2355adbaf0f9fe45b894993f77a2d3dad4b799515bfdbd5bd3bfe441c9",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_selection.py": "98df0b714d502722d8da8f90e63b361c2ba933a7245c1db6117acfff5d39f888",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+    "src/data3001/paths.py": "c0454db46f96faf07f2fe3d59ea4faaba57e7c0dded37895bce24668fb888585"
+  },
+  "forecast_freeze_sha256": "b4d6eb4589885b244fec8801473f956b9eb3088d868580d419f2a73a0ed5820d",
+  "node_key_sha256": "c41f43e572cac9d37b949b77b872735e0ec3e88faa1761a52037cbc0014d9062",
+  "streams": {
+    "seed_scheme": "mdn_s5_e3_v1",
+    "base_seed": 20261121,
+    "candidate_seed_field": null,
+    "role": "C_T0",
+    "mode": "inner_energy",
+    "count": 65536,
+    "region_count": 65536,
+    "streams": [
+      {
+        "purpose": "ES",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      }
+    ],
+    "all_streams": [
+      {
+        "purpose": "ES",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "region",
+        "replicate": 0,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "region",
+        "replicate": 1,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "IID",
+        "replicate": 0,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "audit",
+        "replicate": 100,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "audit",
+        "replicate": 101,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "IID",
+        "replicate": 1,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "IID",
+        "replicate": 10,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "IID",
+        "replicate": 11,
+        "nodes": 65536,
+        "dimensions": 2
+      }
+    ],
+    "all_iid_positions": [],
+    "iid_count": 65536,
+    "iid_positions": [],
+    "iid_checker_replicates": [],
+    "iid_checker_path": "eigen_root_standard_normal_independent_ecef_scipy_density",
+    "common_random_numbers": "same query and purpose across K only",
+    "node_key_sha256": "c41f43e572cac9d37b949b77b872735e0ec3e88faa1761a52037cbc0014d9062",
+    "all_node_key_sha256": "7a881ac8c8adc0b68e6aab8748c5fcf075e3eeca25eb51c88ac3c3da29108601"
+  },
+  "precision_upgrade_sha256": null,
+  "excluded_queries": 0,
+  "target_values_accessed": false,
+  "final_test_access": false,
+  "identity_sha256": "a8a5a70b309ad323eca118b167856bc81997584cc60b718622ab59bde889af3f"
+}

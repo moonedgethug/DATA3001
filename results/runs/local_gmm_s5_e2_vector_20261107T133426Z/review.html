@@ -1,0 +1,62 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>Step 5 E2 局部 GMM</title>
+<style>body{font:16px/1.7 system-ui;background:#f4f6f8;color:#233244;margin:0}main{max-width:1150px;margin:auto;padding:36px}section{background:white;padding:24px;margin:20px 0;border-radius:12px}img{width:100%;height:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:right}h1{font-size:30px}.note{color:#526679}</style><main>
+<h1>Step 5 E2 · 局部高斯混合</h1><p>训练期选出 K=1。未达到质量不退化改善标准。</p>
+<p class="note">七天预测；2001–2019 训练、2020–2022 开发验证；完整 33,971 个起点、45 条 drifter。近邻、原始终点及配对训练票数保持不变。K=1 时 LocalGMM 与 LocalGaussian 是同一模型。</p>
+<section><h2>四组完整结果</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>energy_km</th>
+      <th>h90</th>
+      <th>area90_km2</th>
+      <th>land_mass</th>
+      <th>outside_D_mass</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ExactPoint</th>
+      <td>134.223563</td>
+      <td>0.913921</td>
+      <td>215,666.889355</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>EndpointCI</th>
+      <td>134.223517</td>
+      <td>0.913939</td>
+      <td>215,732.078194</td>
+      <td>0.000001</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>LocalGaussian</th>
+      <td>134.777135</td>
+      <td>0.915438</td>
+      <td>216,097.009870</td>
+      <td>0.005988</td>
+      <td>0.002969</td>
+    </tr>
+    <tr>
+      <th>LocalGMM</th>
+      <td>134.777135</td>
+      <td>0.915438</td>
+      <td>216,097.009870</td>
+      <td>0.005988</td>
+      <td>0.002969</td>
+    </tr>
+  </tbody>
+</table><img src="full_comparison.png"><p>ES 越低越好；命中率与面积须一起判断。区域统一为完整分布的单个 90% 分位椭圆，0.5° cell 仅用于展示。</p></section>
+<section><h2>配对效果与不确定性</h2><img src="paired_effects.png"><img src="per_id_effects.png"><p>区间来自 10,000 次整条 ID 重抽；这里是开发验证证据，不是独立最终测试。</p></section>
+<section><h2>支撑与回退</h2><p>GMM 查询回退：0.000%；drifter 等权回退：0.000%；涉及 0 / 45 条 drifter。EndpointCI 不可用 error 的保留点质量：6.213%。两种回退含义不同。</p></section>
+<section><h2>六个预先固定案例</h2><p>白点为真实起点，星号为七天后记录位置，红线为共同定义的 90% 椭圆。每例四组使用相同范围与色标。</p><img src="example_01.png"><img src="example_02.png"><img src="example_03.png"><img src="example_04.png"><img src="example_05.png"><img src="example_06.png"></section>
+<section><h2>可复核文件</h2><p><a href="summary.csv">汇总</a> · <a href="comparisons.csv">配对验收</a> · <a href="fit_diagnostics.parquet">拟合诊断</a> · <a href="technical_report.md">技术报告</a></p></section><footer>local_gmm_s5_e2_vector_20261107T133426Z</footer></main></html>

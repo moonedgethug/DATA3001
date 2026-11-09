@@ -1,0 +1,65 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "created_utc": "2026-11-06T09:40:40.654451+00:00",
+  "contract_path": "docs/position_error_s4_e8_contract.md",
+  "contract_sha256": "55c4c96b807421ea0647aa06029db91208901da9d4d1ab5db20ce5a6cd6a3e19",
+  "superseded_v1_sha256": "04caf82920c0fb2282bce1b58685892d8125fa469b5f6103fbb27b09db631256",
+  "protected_sources_verified": {
+    "docs/research_stage_ledger.md": "fd181177d81365d02ba60e1fbbb740af12a0b087993b9aeda9f004dbdcf4c3f0",
+    "docs/contract/data_contract_v1.0.xlsx": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+    "configs/dataset_manifest.json": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+    "provenance/migrations/position_error_repair_20261106T073218_242005Z/manifest.json": "d95864f397e21c4a770605f44555cfaf19d7fae24289916f07d0667e857c2c94",
+    "provenance/migrations/position_error_repair_20261106T073218_242005Z/full/error_overlay.parquet": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3"
+  },
+  "read_only_role_join": [
+    {
+      "role": "C_T0",
+      "pairs": 170978,
+      "IDs": 234,
+      "endpoint_usable_pairs": 170965,
+      "point_fallback_pairs": 13,
+      "endpoint_usable_pct": 99.99239668261414,
+      "exit_pairs": 0
+    },
+    {
+      "role": "C_T1",
+      "pairs": 209934,
+      "IDs": 280,
+      "endpoint_usable_pairs": 209277,
+      "point_fallback_pairs": 657,
+      "endpoint_usable_pct": 99.68704449969991,
+      "exit_pairs": 0
+    },
+    {
+      "role": "C_outer",
+      "pairs": 265393,
+      "IDs": 338,
+      "endpoint_usable_pairs": 249577,
+      "point_fallback_pairs": 15816,
+      "endpoint_usable_pct": 94.04053611059825,
+      "exit_pairs": 0
+    }
+  ],
+  "local_links_checked": [
+    "position_error_s4_e8_contract_v1_superseded.md",
+    "../provenance/migrations/position_error_repair_20261106T073218_242005Z/REPORT.md",
+    "position_error_s4_e8_source_trace.md",
+    "../src/data3001/modelling/common/markov_scoring.py"
+  ],
+  "scientific_changes": [
+    "use accepted training-only overlay",
+    "endpoint-only fixed normal working kernels",
+    "point fallback without dropping votes",
+    "no outer endpoint error or soft scoring",
+    "fixed A/B/C plus B2Point",
+    "direct ID-equal continuous evaluation",
+    "common predictive quantile ellipse",
+    "128 inner pilot cases; no full inner model search; all 33971 outer cases"
+  ],
+  "model_code_written": false,
+  "models_or_scores_run": false,
+  "outer_endpoint_errors_read": false,
+  "final_test_read": false,
+  "stage_ledger_changed": false
+}

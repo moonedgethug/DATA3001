@@ -1,0 +1,6 @@
+{
+  "independent_audit_pending": true,
+  "provenance": "provenance/runs/position_error_s4_e8_20261106T095423_445879Z/numerical_revision_v1",
+  "reason": "Exact 90% CDF arithmetic correction; original region results superseded; all ES values unchanged",
+  "results": "results/runs/position_error_s4_e8_20261106T095423_445879Z/numerical_revision_v1"
+}

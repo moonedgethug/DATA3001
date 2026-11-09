@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_iid_audit_cannot_ignore_a_disagreeing_primary_estimate (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_iid_audit_cannot_ignore_a_disagreeing_primary_estimate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 162, in test_iid_audit_cannot_ignore_a_disagreeing_primary_estimate
+    self.assertTrue(hasattr(m,'iid_comparison'))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.451s
+
+FAILED (failures=1)

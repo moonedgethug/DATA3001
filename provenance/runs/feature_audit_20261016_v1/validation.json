@@ -1,0 +1,37 @@
+{
+  "created_UTC": "2026-10-16T08:04:50.539325+00:00",
+  "passed": true,
+  "IDs": 3741,
+  "rows": 39107061,
+  "fields": 130,
+  "all_current_data_file_hashes_unchanged_after_audit": true,
+  "previous_release_controlled_file_hashes_unchanged": true,
+  "contract_unchanged": true,
+  "independent_DuckDB_reconciliation": true,
+  "column_profiles_and_counts_reconciled": true,
+  "data_cleaning_or_imputation_applied": false,
+  "model_or_imputer_fitted": false,
+  "all_features_preserved": true,
+  "R_zero_depth_IDs": 20,
+  "R_zero_depth_regime_counts": {
+    "-1": 0,
+    "0": 8784,
+    "1": 0
+  },
+  "companion_execution": "4 standard Python code cells executed sequentially; saved as nbformat4.5; no Jupyter kernel installed",
+  "report_local_links_checked": true,
+  "files_sha256": {
+    "results/runs/feature_audit_20261016_v1/context_counts.csv": "3df43aeefc5869f6b3f5520e7baf3ea62267009c23c76256d0b7ff826ebe7fe3",
+    "results/runs/feature_audit_20261016_v1/feature_action_proposals.csv": "de50727af89fea357511b7e83634f584863a6c0c9dd22d1c9f3de67c12edad1c",
+    "results/runs/feature_audit_20261016_v1/feature_audit_companion.ipynb": "5a6cef1cc3942d5011f21f95e2e95e6bfddabb9615d0e14a0be473a96407472b",
+    "results/runs/feature_audit_20261016_v1/feature_profile.csv": "cb65f7b9872ccb6c8aa391548c6b18420e2c833975d0b198a4811a6dbcb74494",
+    "results/runs/feature_audit_20261016_v1/independent_checks.json": "bbf4d238aedd66f616ba5f11f703b24314238559a3719efa904df1b6605af4f8",
+    "results/runs/feature_audit_20261016_v1/metadata_by_ID.csv": "d784c511a9454ce681f5bb458c97af67611771044cb859163a1e1faa1cb48cbc",
+    "results/runs/feature_audit_20261016_v1/per_ID_checks.csv": "44a093c9c2fe0eed6fb8e20828e18516a1fc7226cb12c9170f1344c5ef126008",
+    "results/runs/feature_audit_20261016_v1/summary.json": "aac005c2d9999aaf409db7955f288b3bf90aa4a664dfde0c454c1f53dcac00bb",
+    "docs/feature_quality_audit_20261016.md": "1fa93c1b155878ecbc609f110ebc89c00ea267ad50d2c697c40a827fb5f415ce",
+    "provenance/runs/feature_audit_20261016_v1/audit_features.py": "2ffac653182a605f85a5ba9ef909cce75513b9ef64bf4d4492e916007ac4283e",
+    "provenance/runs/feature_audit_20261016_v1/write_audit_report.py": "341436785ebb4a5c008cd1a337edf9bc96f4fbc6f48cbfe2a9fafcc58231690f",
+    "provenance/runs/feature_audit_20261016_v1/reviewed_sources.json": "16b4cd415cf6ea5d807369187366d465c56539723e6c638af6fbbb411457e423"
+  }
+}

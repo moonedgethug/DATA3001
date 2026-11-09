@@ -1,0 +1,51 @@
+{
+  "approved_plan_sha256": "e41dcfb3116256ff307fea31df5f15f88349be2fbb7bd1b73cacf6027128e264",
+  "execution_freeze_sha256": "763bac5b5af69b08a650505a29c10c7706ae0ca751c4870b3128c5a69ed316e2",
+  "stages": {
+    "pilot": {
+      "rid": "seasonal_information_s4_e3_pilot_20261104T142547_620739Z",
+      "frozen_count": 611,
+      "accounted_seconds": 109.0,
+      "elapsed_before_sealing": 96.74135937495157,
+      "prior_seconds": 0.0,
+      "rss_gib": 1.367156982421875,
+      "total_bytes": 57047335,
+      "total_seconds": 109.0
+    },
+    "primary": {
+      "rid": "seasonal_information_s4_e3_primary_20261104T142729_626118Z",
+      "frozen_count": 611,
+      "accounted_seconds": 96.0,
+      "elapsed_before_sealing": 83.07983045798028,
+      "prior_seconds": 109.0,
+      "rss_gib": 1.3092041015625,
+      "total_bytes": 114141075,
+      "total_seconds": 205.0
+    },
+    "replay": {
+      "rid": "seasonal_information_s4_e3_replay_20261104T142930_611975Z",
+      "frozen_count": 611,
+      "accounted_seconds": 97.0,
+      "elapsed_before_sealing": 84.32711079198634,
+      "prior_seconds": 205.0,
+      "rss_gib": 1.4388580322265625,
+      "total_bytes": 171303706,
+      "total_seconds": 302.0
+    }
+  },
+  "scientific_replay_files": 628,
+  "seal_members_verified": 1957,
+  "pilot_primary_replay_forecast_freezes_identical": true,
+  "figures": [
+    "donor_mixing.png",
+    "matched_cost_and_recovery.png",
+    "outer_metrics.png",
+    "paired_test.png",
+    "training_weights.png"
+  ],
+  "html_local_image_paths_verified": true,
+  "source_rows_and_hierarchy_reconciled": true,
+  "matched_full_nonempty_informative_decompositions_verified": true,
+  "final_test_access": false,
+  "semantic_tests": 6
+}

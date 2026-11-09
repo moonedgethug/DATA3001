@@ -1,0 +1,4842 @@
+{
+  "9616899": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_9616899.nc",
+    "source_sha256": "9f2d3c17dd58f9c3139d036235b490f8586ae99b6aae4aafbf564f679ad0b336",
+    "source_ID": "9616899",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T11:08:49Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 56.935,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -52.312,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 846028800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 56.7,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -52.48000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 855273600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 57.41,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -48.589999999999975,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4400925,
+    "expno": 1448
+  },
+  "9624921": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_9624921.nc",
+    "source_sha256": "437631afd39131ba4ee57dd8fc2e65184f6eb9952f72b1162e38e56d2f5da1e6",
+    "source_ID": "9624921",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T11:08:06Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 41.437,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -68.963,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 867456000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 41.49,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -68.98000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 880502400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 41.17,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -68.25999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 0,
+    "expno": 1420
+  },
+  "9627930": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_9627930.nc",
+    "source_sha256": "466cd5dec09b4107fae2bbff4a89476204369f162f73d47b711d70a641547500",
+    "source_ID": "9627930",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T11:08:40Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 49.4,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -20.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 874108800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 47.83,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -20.019999999999982,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 901324800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 43.72,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -6.170000000000016,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6200557,
+    "expno": 9435
+  },
+  "9705250": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_9705250.nc",
+    "source_sha256": "ba615b5a3248bb00218ae94b345a133a64ab8d0db38effa3a712457955345a43",
+    "source_ID": "9705250",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T11:08:12Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 49.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -16.75,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 886118400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 48.83,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -17.370000000000005,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 888019200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 49.41,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -16.20999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 8800888,
+    "expno": 9435
+  },
+  "7139": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_7139.nc",
+    "source_sha256": "7838b2ac19355cf538f769660f6bd0125695a57f5976ddf2c382cafa77e490c6",
+    "source_ID": "7139",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T08:08:18Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 41.2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -18.3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 983318400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 41.36,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -18.560000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1051833600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 27.18,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -33.48000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6200501,
+    "expno": 9435
+  },
+  "17574": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_17574.nc",
+    "source_sha256": "075563a4ebdec956d73743adfcdc975c59e8075246815668d166de2f913d6015",
+    "source_ID": "17574",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:41Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 46.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -47.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1010275200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 46.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -46.99000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1046649600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 39.13,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -9.45999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4400763,
+    "expno": 9484
+  },
+  "17577": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_17577.nc",
+    "source_sha256": "64786c4c6cf8d225dbcfc3ff917f1a841425c5f6b3c88a7e2a1eebaa65a58f84",
+    "source_ID": "17577",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:45Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 54.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -30.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1010361600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 54.03,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -30.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1038441600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 57.24,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -11.670000000000016,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6200694,
+    "expno": 9484
+  },
+  "18000": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_18000.nc",
+    "source_sha256": "06c293659e1231e2d8d80e297ed0ed08052cb0f48fb821c3b72dfe99f9df6d61",
+    "source_ID": "18000",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:23Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 54.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -25.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1010361600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 54.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -25.00999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1015804800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 56.49,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -6.350000000000023,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6200695,
+    "expno": 9484
+  },
+  "2018222": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_2018222.nc",
+    "source_sha256": "87dde26e795c3222712e24b8cfd5e965bfd0e4188767fd6aa3c90c3880872561",
+    "source_ID": "2018222",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:50Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 50.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -24.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1010361600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 49.99,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -24.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1053043200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 63.64,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -22.879999999999995,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6200696,
+    "expno": 9484
+  },
+  "34407": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_34407.nc",
+    "source_sha256": "cf835cde66a268cbe4f634d3b1c51a8d836bbe8b3f64c66a3c75ac9f198eed82",
+    "source_ID": "34407",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:21Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 59.667,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -31.833,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1060992000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 59.74,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -31.689999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1080172800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 67.43,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -23.139999999999986,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6400523,
+    "expno": 9435
+  },
+  "34408": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_34408.nc",
+    "source_sha256": "8c56431c695d5cbfd88acac4cc8e3f8eff89e6acda5f6dbeaca9f7f9d05440eb",
+    "source_ID": "34408",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:25Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 53.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -45.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1063584000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 53.58,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -44.839999999999975,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1165190400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 46.89,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -2.990000000000009,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4400745,
+    "expno": 9435
+  },
+  "43583": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_43583.nc",
+    "source_sha256": "aed26e5460ac268bf226aa9b6d4b54541117cbf8de5036a77b47ab66c96be303",
+    "source_ID": "43583",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T00:08:24Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 29.197,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -15.91,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1097107200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 29.2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -15.910000000000025,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1143244800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 20.55,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -86.93,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300521,
+    "expno": 6325
+  },
+  "2542814": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_2542814.nc",
+    "source_sha256": "a888e57e8895aeb31b79fc0183120b63a32c0e070c764cf2ac056235c2721894",
+    "source_ID": "2542814",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:46Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 60.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -31.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1141430400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 60.01,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -31.430000000000007,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1176249600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 59.04,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -46.14999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6400617,
+    "expno": 9435
+  },
+  "62288": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_62288.nc",
+    "source_sha256": "6849e93b706352d3baf57037e3940e5de8fd3afb548f90eba5d8eb3a5aa5cda6",
+    "source_ID": "62288",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T03:08:22Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 20.66,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -17.29,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1172016000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 18.99,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -16.99000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1172620800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 18.8,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -16.560000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 0,
+    "expno": 6129
+  },
+  "88557": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_88557.nc",
+    "source_sha256": "ed05438117aa2a61e2a172e0e05f1301c3c0c5b20b1cc8ef637e25b2dee5973b",
+    "source_ID": "88557",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T10:08:34Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": -2.482,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -0.027,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1244851200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": -2.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -0.08999999999997499,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1283040000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 21.46,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -82.73000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1500659,
+    "expno": 7325
+  },
+  "39240": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_39240.nc",
+    "source_sha256": "da96b1874267c66e581cb24ed0741b4ba3e8bb59ec11a3f9f918dbaabf2acf53",
+    "source_ID": "39240",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T00:08:10Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 20.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -36.667,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1286496000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 20.01,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -36.56999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1332374400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 19.97,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -66.67000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4100569,
+    "expno": 8325
+  },
+  "36862": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_36862.nc",
+    "source_sha256": "16e0b588f9bf747df77299b2b8472596c06ca3a8a9a85cd9b1d51932d411da43",
+    "source_ID": "36862",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:59Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 35.2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -62.8,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1305158400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 35.03,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -62.54000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1318550400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 35.83,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -66.13999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4100909,
+    "expno": 8325
+  },
+  "98950": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_98950.nc",
+    "source_sha256": "bb908a9b0e1f17d244bf99e28f19d95ea15dc22a25bc96afcbb2bbb97c3945a6",
+    "source_ID": "98950",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T11:08:07Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 14.667,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -17.742,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1314144000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 14.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -17.670000000000016,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1336003200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 8.85,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -40.48000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300945,
+    "expno": 8325
+  },
+  "37663": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_37663.nc",
+    "source_sha256": "9a67ca353f675c4565bac218bf249315ac3e9f44579cbaeaae027ea31dd37804",
+    "source_ID": "37663",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:32Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 26.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -36.997,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1345593600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.01,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -35.99000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1373760000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 24.86,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -35.95999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300529,
+    "expno": 6129
+  },
+  "118413": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_118413.nc",
+    "source_sha256": "e6768fd2b8e6044da47f2d6f81e88c93e6e3dfc3206d027e3ebbd56538460fe3",
+    "source_ID": "118413",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T20:08:57Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 26.003,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -35.8,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1345593600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.39,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -35.89999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1365984000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 28.15,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -34.02999999999997,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300521,
+    "expno": 5325
+  },
+  "118417": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_118417.nc",
+    "source_sha256": "3b2c17ff053598774255b45e9e43b1f4d21a9a1b9cc416202d5ea136723097aa",
+    "source_ID": "118417",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T20:08:12Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 29.165,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -15.498,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1366416000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 29.13,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -15.509999999999991,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1372982400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 28.17,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -15.350000000000023,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300525,
+    "expno": 5325
+  },
+  "122609": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_122609.nc",
+    "source_sha256": "82ba142ccd45e7e05302b9be1275a06a55a508706bcc2eb0f47d413156b51626",
+    "source_ID": "122609",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T21:08:47Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 26.022,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -74.863,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1367798400.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.08,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -74.94999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1453852800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 33.39,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -36.639999999999986,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4100853,
+    "expno": 8325
+  },
+  "122603": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_122603.nc",
+    "source_sha256": "a80b58f1f8791d5a60af92599b8992a5baf9a8b211b18ea88f8dd2430f090cde",
+    "source_ID": "122603",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T21:08:24Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 26.608,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -76.838,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1369180800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.57,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -76.82,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1443052800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 36.67,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -40.48000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4100918,
+    "expno": 8325
+  },
+  "36470": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_36470.nc",
+    "source_sha256": "c7e20eaa9f615ac9971205264e8f16e883dc1af067486047ea8ae283435635ea",
+    "source_ID": "36470",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:09Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 35.325,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -27.218,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1374537600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 35.32,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -27.20999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1390003200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 31.99,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -18.370000000000005,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300574,
+    "expno": 6129
+  },
+  "36469": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_36469.nc",
+    "source_sha256": "50650a7dedf272bf65ed47ae425061592bf6200ac5e1fe0c46d613bdd3db860d",
+    "source_ID": "36469",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T23:08:05Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 35.32,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -27.198,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1374537600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 35.31,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -27.189999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1390521600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 30.23,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -18.269999999999982,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300568,
+    "expno": 6129
+  },
+  "118409": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_118409.nc",
+    "source_sha256": "686a8f7ea74bfaab28ea652ef4d07afdf0fe9f2080e2f53062ae0f0485f9e2b2",
+    "source_ID": "118409",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T20:08:42Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 16.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -30.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1385251200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 18.75,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -29.99000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1408924800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 22.63,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -44.30000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 3100708,
+    "expno": 5325
+  },
+  "135914": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_135914.nc",
+    "source_sha256": "fa54cf2da0e3eceadfb5eec96d4ae50ab0b2a7907e1774931fb951f188ca8b7b",
+    "source_ID": "135914",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:10Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 25.677,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -79.438,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1391212800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.06,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -79.17000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1449187200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 53.09,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -9.660000000000025,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4200502,
+    "expno": 6129
+  },
+  "134985": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_134985.nc",
+    "source_sha256": "807dfdb5193f1da39516f2f52f8d135ff2a2d151df5b8ea6b4926aab23f51197",
+    "source_ID": "134985",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T22:08:27Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 27.105,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -15.25,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1397865600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 27.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -15.490000000000009,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1480636800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 27.27,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -78.32,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300625,
+    "expno": 5325
+  },
+  "122640": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_122640.nc",
+    "source_sha256": "e300a230667b9e58d13ffca834c0ba4cbd986b613ae9a70df4c822f5cf6f71b9",
+    "source_ID": "122640",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T21:08:29Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 24.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -37.453,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1398297600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 24.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -37.44,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1450396800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 32.32,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -64.68,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1300640,
+    "expno": 8325
+  },
+  "114790": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_114790.nc",
+    "source_sha256": "22cd05fe5812f60c11048e44d75a2c72ecc1bcbb9a5be2690341bbc99e9c88c0",
+    "source_ID": "114790",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-30T20:08:31Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 24.703,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -83.673,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1408147200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 24.76,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -83.64999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1420243200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 31.61,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -74.13999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4300550,
+    "expno": 6129
+  },
+  "300234063716360": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234063716360.nc",
+    "source_sha256": "b472aabbeab6e7ab9d96e743b83ea0dfb374554860cbf1663c3e862f3028833c",
+    "source_ID": "300234063716360",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T04:08:48Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 43.38,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -40.36,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1447977600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 43.84,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -37.51999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1451088000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 43.12,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -33.14999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4400838,
+    "expno": 21312
+  },
+  "300234065618480": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234065618480.nc",
+    "source_sha256": "55b07847a1f0c8aaf3aa1ddeef59556e51107e5921cf44c9093c0d7f00639e5f",
+    "source_ID": "300234065618480",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T06:08:54Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 36.208,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -45.288,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1553904000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 36.2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -4.310000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1555027200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 36.57,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": 1.71,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6102579,
+    "expno": 21312
+  },
+  "300234065514730": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234065514730.nc",
+    "source_sha256": "ef5661a58fcd1b9bd337fdadc1e20cd117431219b7e5d3e856ceed65b19a8715",
+    "source_ID": "300234065514730",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T06:08:59Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 36.242,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -4.118,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1553904000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 36.26,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -4.310000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1554595200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 35.74,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -0.8799999999999955,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6102759,
+    "expno": 21312
+  },
+  "300234066314490": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234066314490.nc",
+    "source_sha256": "251575ef588c6544c6012d8b9f7a51a00ff14595a07e17a512f78f17f1edac71",
+    "source_ID": "300234066314490",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T07:08:35Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 25.872,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -79.88,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1556496000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 25.92,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -79.88999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1556668800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 27.19,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -80.14999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4401886,
+    "expno": 21312
+  },
+  "300234066314480": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234066314480.nc",
+    "source_sha256": "aa6a9569ef54546282d9a4c34071332cfeb42c63011301ddf7008b8340b63b88",
+    "source_ID": "300234066314480",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-08-31T07:08:31Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 25.892,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -79.833,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1556496000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 25.96,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -79.83999999999997,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1557100800.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 28.29,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -80.33999999999997,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 2,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4401885,
+    "expno": 21312
+  },
+  "300234067972290": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234067972290.nc",
+    "source_sha256": "d290b77925464c39635103a7244bafa3bd446b9f9acbb05849af59eba1511750",
+    "source_ID": "300234067972290",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T12:09:03Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 13.4,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -20.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1600387200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 14.1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -20.49000000000001,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1650067200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 19.81,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -70.26999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6203732,
+    "expno": 21321
+  },
+  "300234068766480": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234068766480.nc",
+    "source_sha256": "179e0ed0eb78aa59e2c2776ef4f76228ca773f5c2a0333bf368d23344dba9db7",
+    "source_ID": "300234068766480",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T12:09:29Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 44.23,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -57.085,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1628899200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 44.23,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -57.079999999999984,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4601782,
+    "expno": 31312
+  },
+  "300234068346740": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234068346740.nc",
+    "source_sha256": "01c12ce768cee6b154c53c67553d5f293163525181bd107efdd7aa732398a2d7",
+    "source_ID": "300234068346740",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T12:09:44Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 61.1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -42.5,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1628985600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 61.1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -42.47000000000003,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": 1642032000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": 63.31,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -60.69,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 3,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 6402593,
+    "expno": 21312
+  },
+  "300534060385970": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300534060385970.nc",
+    "source_sha256": "972615d8188432273b9fe485e2e6855bbb55746ff43a51cd4df2e2316cc911ba",
+    "source_ID": "300534060385970",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T12:09:46Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 5.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -51.1,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1630713600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 5.03,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -51.110000000000014,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4101723,
+    "expno": 2222
+  },
+  "300534061655510": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300534061655510.nc",
+    "source_sha256": "03cfb481e677f0ad0cd6f2056f87a9d3c048047a595edb252c055c7f97aaec92",
+    "source_ID": "300534061655510",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T13:09:18Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 5.84,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -6.805,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1635120000.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 26.41,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -16.939999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1301720,
+    "expno": 21421
+  },
+  "300234066437900": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300234066437900.nc",
+    "source_sha256": "2a113664e36a6351de7eb6b35973a17a35dd345795070a71cf558e5b09b3616a",
+    "source_ID": "300234066437900",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T11:09:11Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": -3.005,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -23.002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1638921600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": -3.08,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -23.25999999999999,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4401864,
+    "expno": 21321
+  },
+  "300534062127880": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300534062127880.nc",
+    "source_sha256": "6d0b0baf87ceada12da64d9aa1b77211f572c8fe45390232fa57b8227d4f8a48",
+    "source_ID": "300534062127880",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T13:09:13Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 14.688,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -37.008,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1660003200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 14.7,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -37.01999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1501780,
+    "expno": 31412
+  },
+  "300534062127870": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300534062127870.nc",
+    "source_sha256": "52e1ed434d8b61dd34ee4e03cf2de81ea7a900eb7c339c562702696e47d1dd56",
+    "source_ID": "300534062127870",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T13:09:10Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": 14.688,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -37.008,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1660003200.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 14.7,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -37.01999999999998,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 1501779,
+    "expno": 31412
+  },
+  "300534061551860": {
+    "source_URL": "https://www.aoml.noaa.gov/ftp/pub/phod/buoydata/hourly_product/v2.01/drifter_hourly_300534061551860.nc",
+    "source_sha256": "3df6de13c4210871226e77ed451014e86c7711984306921091a7971623985c61",
+    "source_ID": "300534061551860",
+    "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+    "date_created": "2023-09-06T13:09:48Z",
+    "fields": {
+      "deploy_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "deploy_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From deployment log deplog.dat"
+        }
+      },
+      "start_date": {
+        "raw_value": 1663545600.0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lat": {
+        "raw_value": 29.22,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "start_lon": {
+        "raw_value": -76.42000000000002,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_date": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lat": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_north",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "end_lon": {
+        "raw_value": -999999.0,
+        "declared_missing": true,
+        "attributes": {
+          "_FillValue": -999999.0,
+          "missing_value": -999999.0,
+          "units": "degrees_east",
+          "history": "From directory file dirall.dat"
+        }
+      },
+      "typedeath": {
+        "raw_value": 0,
+        "declared_missing": false,
+        "attributes": {
+          "_FillValue": -999999,
+          "missing_value": -999999.0,
+          "history": "From directory file dirall.dat"
+        }
+      }
+    },
+    "WMO": 4402879,
+    "expno": 21312
+  }
+}

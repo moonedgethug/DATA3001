@@ -1,0 +1,21 @@
+....FF
+======================================================================
+FAIL: test_changed_replicate_cannot_hide_behind_equal_average (test_modelling_local_gmm_s5_e2_scoreopt.ValidationGatesTests.test_changed_replicate_cannot_hide_behind_equal_average)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 69, in test_changed_replicate_cannot_hide_behind_equal_average
+    self.assertIsNotNone(importlib.util.find_spec(name),'Equivalence gate not implemented')
+AssertionError: unexpectedly None : Equivalence gate not implemented
+
+======================================================================
+FAIL: test_precision_variance_and_sample_count_are_checked (test_modelling_local_gmm_s5_e2_scoreopt.ValidationGatesTests.test_precision_variance_and_sample_count_are_checked)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 78, in test_precision_variance_and_sample_count_are_checked
+    self.assertIsNotNone(importlib.util.find_spec(name),'Equivalence gate not implemented')
+AssertionError: unexpectedly None : Equivalence gate not implemented
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.975s
+
+FAILED (failures=2)

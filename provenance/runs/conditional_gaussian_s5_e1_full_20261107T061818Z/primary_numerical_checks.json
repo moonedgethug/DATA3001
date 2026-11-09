@@ -1,0 +1,51 @@
+{
+  "cases": 33971,
+  "degenerate_region_cases": {
+    "EndpointCI": 0,
+    "ExactPoint": 0,
+    "LocalGaussian": 0
+  },
+  "energy": {
+    "EndpointCI": {
+      "passed": true,
+      "three_se_km": 0.008941432565965763,
+      "threshold_km": 0.013422318761842094
+    },
+    "ExactPoint": {
+      "passed": true,
+      "three_se_km": 0.008941177724538035,
+      "threshold_km": 0.013422322568241015
+    }
+  },
+  "ids": 45,
+  "passed": true,
+  "regions": {
+    "EndpointCI": {
+      "area_relative_change": 1.2053591367815228e-05,
+      "hit_disagreement": 5.7455574696954005e-05,
+      "land_three_se": 8.509494615005855e-08,
+      "mass_diagnostic": 0.004619044082935658,
+      "max_mass_radius": 0.0033888305269988983,
+      "outside_three_se": 0.0,
+      "passed": true
+    },
+    "ExactPoint": {
+      "area_relative_change": 0.0,
+      "hit_disagreement": 0.0,
+      "land_three_se": 0.0,
+      "mass_diagnostic": 0.0,
+      "max_mass_radius": 0.0,
+      "outside_three_se": 0.0,
+      "passed": true
+    },
+    "LocalGaussian": {
+      "area_relative_change": 3.35870622571148e-06,
+      "hit_disagreement": 2.2780340566091464e-05,
+      "land_three_se": 1.0874215670671824e-05,
+      "mass_diagnostic": 0.004606297185392794,
+      "max_mass_radius": 0.003392582533226718,
+      "outside_three_se": 7.311941708294774e-06,
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,84 @@
+independent region audit 1024 /33971 16.9 s
+independent region audit 2048 /33971 32.9 s
+independent region audit 3072 /33971 48.6 s
+independent region audit 4096 /33971 63.0 s
+independent region audit 5120 /33971 79.4 s
+independent region audit 6144 /33971 95.2 s
+independent region audit 7168 /33971 111.5 s
+independent region audit 8192 /33971 127.4 s
+independent region audit 9216 /33971 143.2 s
+independent region audit 10240 /33971 159.4 s
+independent region audit 11264 /33971 175.7 s
+independent region audit 12288 /33971 191.4 s
+independent region audit 13312 /33971 207.2 s
+independent region audit 14336 /33971 223.2 s
+independent region audit 15360 /33971 240.6 s
+independent region audit 16384 /33971 257.9 s
+independent region audit 17408 /33971 275.4 s
+independent region audit 18432 /33971 293.9 s
+independent region audit 19456 /33971 309.9 s
+independent region audit 20480 /33971 325.5 s
+independent region audit 21504 /33971 342.5 s
+independent region audit 22528 /33971 360.3 s
+independent region audit 23552 /33971 376.4 s
+independent region audit 24576 /33971 393.9 s
+independent region audit 25600 /33971 411.4 s
+independent region audit 26624 /33971 429.3 s
+independent region audit 27648 /33971 446.6 s
+independent region audit 28672 /33971 463.2 s
+independent region audit 29696 /33971 480.1 s
+independent region audit 30720 /33971 496.6 s
+independent region audit 31744 /33971 512.3 s
+independent region audit 32768 /33971 528.5 s
+independent region audit 33792 /33971 544.4 s
+{
+  "passed": true,
+  "engineering_passed": true,
+  "numerical_passed": true,
+  "conclusion": "practically tiny effect; no useful improvement demonstrated",
+  "cases": 33971,
+  "IDs": 45,
+  "independent_region_cases": 33971,
+  "independent_energy_cases": 128,
+  "local_metric_relative_error_max": 7.088109360997568e-06,
+  "region_replication": {
+    "EndpointCI": {
+      "area_relative_difference": 1.8619684466766425e-06,
+      "H90_difference": 1.2742099898063201e-05,
+      "absolute_H90_boundary_change": 1.2742099898063201e-05,
+      "max_mass_difference": 0.0006875000000003961,
+      "mean_mass_difference": -2.9402649113987327e-05
+    },
+    "MatchedSpread": {
+      "area_relative_difference": 1.3730965026013524e-05,
+      "H90_difference": 7.748153962346676e-06,
+      "absolute_H90_boundary_change": 4.257922327617461e-05,
+      "max_mass_difference": 0.0008124999999995497,
+      "mean_mass_difference": -2.9368328307433564e-05
+    }
+  },
+  "energy_reference_delta_change": {
+    "EndpointCI": -0.0002355588606272178,
+    "EndpointCI_minus_MatchedSpread": -0.00021949916807519412,
+    "MatchedSpread": -1.6059692547416058e-05
+  },
+  "delta_ES_resolution_threshold_km": 0.013421921152788284,
+  "numerical_summary": {
+    "CI_models_SE_measures_paired_difference_to_ExactPoint": true,
+    "absolute_point_ES_is_MC_estimate": true,
+    "primary_delta_ES_mc_se_km": 3.609023785045856e-05,
+    "three_se_km": 0.00010827071355137569,
+    "threshold_km": 0.013421921152788284
+  },
+  "protected_files_verified": 358,
+  "source_freeze_verified": true,
+  "all_donor_digests_verified": true,
+  "all_E7_outer_lineages_identical": true,
+  "all_ExactPoint_half_degree_probabilities_reconciled": true,
+  "bootstrap_IDs": 45,
+  "bootstrap_draws": 10000,
+  "final_test_access": false,
+  "outer_endpoint_errors_read": false,
+  "denied_access": [],
+  "interpretation": "Same frozen development sample; no new physical or real-time calibration claim"
+}

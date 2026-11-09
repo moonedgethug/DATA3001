@@ -1,0 +1,5 @@
+model,scope,cases,IDs,energy_km,h90,area90_km2,seasonal_fallback_queries,error_fallback_mass,error_fallback_queries
+AnnualExactPoint,Fixed inner pilot only; not outer results,128,44,150.6188829793726,0.8178030303030304,228327.6094442091,0,,0
+AnnualEndpointCI,Fixed inner pilot only; not outer results,128,44,150.61856640245486,0.8178030303030304,228374.56621560964,0,0.0007023862278612961,64
+SeasonalExactPoint,Fixed inner pilot only; not outer results,128,44,157.1043469737457,0.696518759018759,218390.92319245916,0,,0
+SeasonalEndpointCI,Fixed inner pilot only; not outer results,128,44,157.1041347892501,0.696518759018759,218396.54209365946,0,0.0009370649736027424,25

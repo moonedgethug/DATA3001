@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "phase": "pilot",
+      "label": "prepare_and_source_checks",
+      "elapsed_seconds": 0.024000791017897427,
+      "returncode": 0
+    },
+    {
+      "phase": "pilot",
+      "label": "runtime_red",
+      "elapsed_seconds": 0.020265583065338433,
+      "returncode": 1
+    },
+    {
+      "phase": "pilot",
+      "label": "training_runtime_red",
+      "elapsed_seconds": 1.8566239998908713,
+      "returncode": 1
+    },
+    {
+      "phase": "pilot",
+      "label": "runtime_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_runtime.py"
+      ],
+      "started_utc": "2026-11-08T06:00:21.032168+00:00",
+      "allowance_seconds": 3598.099109626026,
+      "elapsed_seconds": 0.8473365000681952,
+      "peak_process_tree_rss_bytes": 39976960,
+      "peak_storage_bytes": 57307,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "runtime_green_2",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_runtime.py"
+      ],
+      "started_utc": "2026-11-08T06:00:51.608521+00:00",
+      "allowance_seconds": 3597.2517731259577,
+      "elapsed_seconds": 0.8417592078913003,
+      "peak_process_tree_rss_bytes": 39714816,
+      "peak_storage_bytes": 57973,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "numerics_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_numerics.py"
+      ],
+      "started_utc": "2026-11-08T06:01:44.879599+00:00",
+      "allowance_seconds": 3596.4100139180664,
+      "elapsed_seconds": 0.6255321669159457,
+      "peak_process_tree_rss_bytes": 85590016,
+      "peak_storage_bytes": 72386,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "numerics_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_numerics.py"
+      ],
+      "started_utc": "2026-11-08T06:03:01.196646+00:00",
+      "allowance_seconds": 3595.7844817511505,
+      "elapsed_seconds": 1.8750722910044715,
+      "peak_process_tree_rss_bytes": 294633472,
+      "peak_storage_bytes": 73055,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "training_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_training.py",
+        "-v"
+      ],
+      "started_utc": "2026-11-08T06:03:59.231514+00:00",
+      "allowance_seconds": 3593.909409460146,
+      "elapsed_seconds": 2.2905090829590335,
+      "peak_process_tree_rss_bytes": 346603520,
+      "peak_storage_bytes": 76080,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "recovery_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:05:02.421798+00:00",
+      "allowance_seconds": 3591.618900377187,
+      "elapsed_seconds": 3.3321596669266,
+      "peak_process_tree_rss_bytes": 383975424,
+      "peak_storage_bytes": 78660,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "pipeline_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_pipeline.py"
+      ],
+      "started_utc": "2026-11-08T06:06:40.252951+00:00",
+      "allowance_seconds": 3588.2867407102603,
+      "elapsed_seconds": 0.2281597089022398,
+      "peak_process_tree_rss_bytes": 3440640,
+      "peak_storage_bytes": 89494,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "recovery_training_check",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_training.py"
+      ],
+      "started_utc": "2026-11-08T06:08:34.168535+00:00",
+      "allowance_seconds": 3588.058581001358,
+      "elapsed_seconds": 2.498965125065297,
+      "peak_process_tree_rss_bytes": 347176960,
+      "peak_storage_bytes": 93260,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "recovery_final_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:08:44.720708+00:00",
+      "allowance_seconds": 3585.559615876293,
+      "elapsed_seconds": 3.7632879170123488,
+      "peak_process_tree_rss_bytes": 440205312,
+      "peak_storage_bytes": 97032,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "integration_red_nodes",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:09:54.714041+00:00",
+      "allowance_seconds": 3581.7963279592805,
+      "elapsed_seconds": 4.205274207983166,
+      "peak_process_tree_rss_bytes": 438075392,
+      "peak_storage_bytes": 98352,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "core_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:13:26.274627+00:00",
+      "allowance_seconds": 3577.5910537512973,
+      "elapsed_seconds": 4.201746125007048,
+      "peak_process_tree_rss_bytes": 440532992,
+      "peak_storage_bytes": 99033,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "access_gate_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_pipeline.py"
+      ],
+      "started_utc": "2026-11-08T06:17:49.344917+00:00",
+      "allowance_seconds": 3573.3893076262902,
+      "elapsed_seconds": 2.303982957964763,
+      "peak_process_tree_rss_bytes": 324747264,
+      "peak_storage_bytes": 100458,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "pretrial_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:21:00.695742+00:00",
+      "allowance_seconds": 3571.0853246683255,
+      "elapsed_seconds": 3.9884110830025747,
+      "peak_process_tree_rss_bytes": 439287808,
+      "peak_storage_bytes": 101147,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "numerical_fixtures_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:23:41.596681+00:00",
+      "allowance_seconds": 3567.096913585323,
+      "elapsed_seconds": 3.160793334012851,
+      "peak_process_tree_rss_bytes": 439517184,
+      "peak_storage_bytes": 101848,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "lifecycle_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_runtime.py"
+      ],
+      "started_utc": "2026-11-08T06:25:36.550416+00:00",
+      "allowance_seconds": 3563.93612025131,
+      "elapsed_seconds": 1.3101344580063596,
+      "peak_process_tree_rss_bytes": 44449792,
+      "peak_storage_bytes": 105211,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "cached_level_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_pipeline.py"
+      ],
+      "started_utc": "2026-11-08T06:25:56.845166+00:00",
+      "allowance_seconds": 3562.6259857933037,
+      "elapsed_seconds": 1.301548375049606,
+      "peak_process_tree_rss_bytes": 328613888,
+      "peak_storage_bytes": 107779,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "lifecycle_cached_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:26:35.300720+00:00",
+      "allowance_seconds": 3561.324437418254,
+      "elapsed_seconds": 3.446827125037089,
+      "peak_process_tree_rss_bytes": 439812096,
+      "peak_storage_bytes": 108480,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "pilot_training",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z",
+        "pilot_train"
+      ],
+      "started_utc": "2026-11-08T06:27:42.275340+00:00",
+      "allowance_seconds": 3557.877610293217,
+      "elapsed_seconds": 16.04251483292319,
+      "peak_process_tree_rss_bytes": 790003712,
+      "peak_storage_bytes": 2638435,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "pilot_numeric",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_pipeline",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z",
+        "pilot_numeric"
+      ],
+      "started_utc": "2026-11-08T06:28:39.930469+00:00",
+      "allowance_seconds": 3541.835095460294,
+      "elapsed_seconds": 91.1430859999964,
+      "peak_process_tree_rss_bytes": 2023686144,
+      "peak_storage_bytes": 7209956,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "saved_output_report",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/build_pilot_report.py"
+      ],
+      "started_utc": "2026-11-08T06:39:00.548200+00:00",
+      "allowance_seconds": 3450.6920094602974,
+      "elapsed_seconds": 0.6563929578987882,
+      "peak_process_tree_rss_bytes": 87212032,
+      "peak_storage_bytes": 7233553,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_A_freeze",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/prepare.py"
+      ],
+      "started_utc": "2026-11-08T06:53:03.359942+00:00",
+      "allowance_seconds": 15.0,
+      "elapsed_seconds": 0.2220317079918459,
+      "peak_process_tree_rss_bytes": 6471680,
+      "peak_storage_bytes": 7342464,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_A_matched_profile",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/diagnose.py",
+        "A"
+      ],
+      "started_utc": "2026-11-08T06:54:21.285780+00:00",
+      "allowance_seconds": 178.77796829200815,
+      "elapsed_seconds": 14.98047354107257,
+      "peak_process_tree_rss_bytes": 658604032,
+      "peak_storage_bytes": 7368770,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_tests_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_optimized.py"
+      ],
+      "started_utc": "2026-11-08T06:54:53.414454+00:00",
+      "allowance_seconds": 479.0,
+      "elapsed_seconds": 1.9090097079752013,
+      "peak_process_tree_rss_bytes": 270204928,
+      "peak_storage_bytes": 7384286,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_B_reference_convergence",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/diagnose.py",
+        "B"
+      ],
+      "started_utc": "2026-11-08T06:55:13.128891+00:00",
+      "allowance_seconds": 299.0,
+      "elapsed_seconds": 69.0790030839853,
+      "peak_process_tree_rss_bytes": 1450393600,
+      "peak_storage_bytes": 7673767,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_tests_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_optimized.py"
+      ],
+      "started_utc": "2026-11-08T06:57:04.726801+00:00",
+      "allowance_seconds": 477.0909902920248,
+      "elapsed_seconds": 3.145362166920677,
+      "peak_process_tree_rss_bytes": 308609024,
+      "peak_storage_bytes": 7682622,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_regression",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T06:58:54.165845+00:00",
+      "allowance_seconds": 473.9456281251041,
+      "elapsed_seconds": 6.27364895795472,
+      "peak_process_tree_rss_bytes": 454410240,
+      "peak_storage_bytes": 7683327,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_guards_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1",
+        "-p",
+        "test_validation_guards.py"
+      ],
+      "started_utc": "2026-11-08T07:01:11.315188+00:00",
+      "allowance_seconds": 467.6719791671494,
+      "elapsed_seconds": 2.5150350000476465,
+      "peak_process_tree_rss_bytes": 337346560,
+      "peak_storage_bytes": 7687718,
+      "returncode": 1,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_guards_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1",
+        "-p",
+        "test_validation_guards.py"
+      ],
+      "started_utc": "2026-11-08T07:01:48.283975+00:00",
+      "allowance_seconds": 465.15694416710176,
+      "elapsed_seconds": 3.8054579999297857,
+      "peak_process_tree_rss_bytes": 988250112,
+      "peak_storage_bytes": 7689640,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_C_full_equivalence",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/compare_backends.py"
+      ],
+      "started_utc": "2026-11-08T07:02:55.390312+00:00",
+      "allowance_seconds": 461.35148616717197,
+      "elapsed_seconds": 257.04335079109296,
+      "peak_process_tree_rss_bytes": 1623932928,
+      "peak_storage_bytes": 20258036,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_D_report",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/report.py"
+      ],
+      "started_utc": "2026-11-08T07:07:24.227608+00:00",
+      "allowance_seconds": 239.0,
+      "elapsed_seconds": 0.6493715420365334,
+      "peak_process_tree_rss_bytes": 101679104,
+      "peak_storage_bytes": 20264017,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_D_report_final",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/report.py"
+      ],
+      "started_utc": "2026-11-08T07:09:37.923538+00:00",
+      "allowance_seconds": 238.35062845796347,
+      "elapsed_seconds": 0.4364388750400394,
+      "peak_process_tree_rss_bytes": 74334208,
+      "peak_storage_bytes": 20265673,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "optv1_D_close",
+      "command": [
+        ".venv/bin/python",
+        "provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/finalize.py"
+      ],
+      "started_utc": "2026-11-08T07:11:05.258640+00:00",
+      "allowance_seconds": 237.91418958292343,
+      "elapsed_seconds": 0.23300679202657193,
+      "peak_process_tree_rss_bytes": 5881856,
+      "peak_storage_bytes": 20334034,
+      "returncode": 0,
+      "stop_reason": null
+    },
+    {
+      "phase": "pilot",
+      "label": "formal_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3*.py"
+      ],
+      "started_utc": "2026-11-08T08:41:19.589629+00:00",
+      "allowance_seconds": 60.0,
+      "elapsed_seconds": 5.625581000000238,
+      "peak_process_tree_rss_bytes": 458227712,
+      "peak_storage_bytes": 20355524,
+      "returncode": 1,
+      "stop_reason": null
+    }
+  ],
+  "active": null
+}

@@ -1,0 +1,37 @@
+{
+  "B2_scores_reconciled": true,
+  "forecast_freeze_before_scoring": true,
+  "independent_audit": {
+    "baseline_endpoint_counts_recomputed": true,
+    "draws": 10000,
+    "example_donor_lists_checked": 6,
+    "fine_quality_preserved": false,
+    "forecast_vectors_checked": 135884,
+    "frozen_files_rehashed": 31,
+    "independent_audit_passed": true,
+    "independent_ids": 45,
+    "inner_eligibility": {
+      "C_T0": {
+        "eligible": 41761,
+        "scored": 41761,
+        "unsupported": 0
+      },
+      "C_T1": {
+        "eligible": 44612,
+        "scored": 44612,
+        "unsupported": 0
+      }
+    },
+    "legacy_quality_preserved": false,
+    "nested_grids_recomputed": true,
+    "no_final_test_access": true,
+    "outer_cases": 33971,
+    "primary_brier_supported": true,
+    "radius_m": 100000.0,
+    "selected_k": 8000,
+    "sparse_regions_and_scores_recomputed": true
+  },
+  "recovered_from": "exact_origin_s4_e7_primary_20261105T064309_692208Z",
+  "selected_k": 8000,
+  "stage": "primary"
+}

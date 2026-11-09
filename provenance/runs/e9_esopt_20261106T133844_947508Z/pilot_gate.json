@@ -1,0 +1,241 @@
+{
+  "cache_bytes": 122944500,
+  "formal_authorized": false,
+  "formal_started": false,
+  "full_roster_preflight_completed": false,
+  "levels": [
+    {
+      "component_p95_sum_seconds": 0.10165170047548576,
+      "energy_count": 4096,
+      "formal_projected_seconds": 3864.5309085379995,
+      "formal_projection_2x_seconds": 7729.061817075999,
+      "max_case_seconds": 0.12044666579458838,
+      "numerical_passed": false,
+      "p95_case_seconds": 0.09328727528918512,
+      "projection": {
+        "SeasonalEndpointCI": {
+          "precision_passed": false,
+          "replicates": [
+            {
+              "three_se_km": 0.023415799003155456,
+              "threshold_km": 0.015055671843581574
+            },
+            {
+              "three_se_km": 0.023431717361724582,
+              "threshold_km": 0.015057917550860316
+            }
+          ],
+          "seed_difference_km": 0.17938639992571126,
+          "seed_limit_km": 0.32209484077933037,
+          "seed_passed": true,
+          "three_se_km": 0.023431717361724582,
+          "threshold_km": 0.015055671843581574
+        },
+        "SeasonalExactPoint": {
+          "precision_passed": false,
+          "replicates": [
+            {
+              "three_se_km": 0.023414152305810208,
+              "threshold_km": 0.015055678760185084
+            },
+            {
+              "three_se_km": 0.023431030019776925,
+              "threshold_km": 0.015057939367235804
+            }
+          ],
+          "seed_difference_km": 0.17816600779821634,
+          "seed_limit_km": 0.32208413753951626,
+          "seed_passed": true,
+          "three_se_km": 0.023431030019776925,
+          "threshold_km": 0.015055678760185084
+        }
+      },
+      "region_checks": [
+        {
+          "max_mass_error": 0.000349308369426371,
+          "model": "AnnualEndpointCI",
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 2.55351295663786e-15,
+          "model": "AnnualExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 0.0005835156819870013,
+          "model": "SeasonalEndpointCI",
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 1.9984014443252818e-15,
+          "model": "SeasonalExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      ],
+      "region_count": 16384,
+      "region_passed": true,
+      "resource_precheck_passed": false
+    },
+    {
+      "component_p95_sum_seconds": 0.10581058769603237,
+      "energy_count": 8192,
+      "formal_projected_seconds": 4019.9406220841074,
+      "formal_projection_2x_seconds": 8039.881244168215,
+      "max_case_seconds": 0.12483595672529166,
+      "numerical_passed": false,
+      "p95_case_seconds": 0.09753332232939986,
+      "projection": {
+        "SeasonalEndpointCI": {
+          "precision_passed": false,
+          "replicates": [
+            {
+              "three_se_km": 0.016609783139788566,
+              "threshold_km": 0.015064377255910904
+            },
+            {
+              "three_se_km": 0.016674855153992987,
+              "threshold_km": 0.015062757871477449
+            }
+          ],
+          "seed_difference_km": 0.0024803257596204276,
+          "seed_limit_km": 0.22821469918938303,
+          "seed_passed": true,
+          "three_se_km": 0.016674855153992987,
+          "threshold_km": 0.015062757871477449
+        },
+        "SeasonalExactPoint": {
+          "precision_passed": false,
+          "replicates": [
+            {
+              "three_se_km": 0.0166098470942138,
+              "threshold_km": 0.015064425721920828
+            },
+            {
+              "three_se_km": 0.016673358583511023,
+              "threshold_km": 0.015062717331891901
+            }
+          ],
+          "seed_difference_km": 0.0012540939444969368,
+          "seed_limit_km": 0.22820962158266167,
+          "seed_passed": true,
+          "three_se_km": 0.016673358583511023,
+          "threshold_km": 0.015062717331891901
+        }
+      },
+      "region_checks": [
+        {
+          "max_mass_error": 0.000349308369426371,
+          "model": "AnnualEndpointCI",
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 2.55351295663786e-15,
+          "model": "AnnualExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 0.0005835156819870013,
+          "model": "SeasonalEndpointCI",
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 1.9984014443252818e-15,
+          "model": "SeasonalExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      ],
+      "region_count": 16384,
+      "region_passed": true,
+      "resource_precheck_passed": false
+    },
+    {
+      "component_p95_sum_seconds": 0.11609539862838551,
+      "energy_count": 16384,
+      "formal_projected_seconds": 4404.264465485373,
+      "formal_projection_2x_seconds": 8808.528930970746,
+      "max_case_seconds": 0.13428945769555842,
+      "numerical_passed": true,
+      "p95_case_seconds": 0.10768179557635424,
+      "projection": {
+        "SeasonalEndpointCI": {
+          "precision_passed": true,
+          "replicates": [
+            {
+              "three_se_km": 0.01175661828205627,
+              "threshold_km": 0.015059724486024596
+            },
+            {
+              "three_se_km": 0.011739650773651376,
+              "threshold_km": 0.015059604322784623
+            }
+          ],
+          "seed_difference_km": 0.015436114582282556,
+          "seed_limit_km": 0.1611981034048562,
+          "seed_passed": true,
+          "three_se_km": 0.01175661828205627,
+          "threshold_km": 0.015059604322784623
+        },
+        "SeasonalExactPoint": {
+          "precision_passed": true,
+          "replicates": [
+            {
+              "three_se_km": 0.01175631896081773,
+              "threshold_km": 0.01505976511485775
+            },
+            {
+              "three_se_km": 0.011739386980439928,
+              "threshold_km": 0.015059603419681912
+            }
+          ],
+          "seed_difference_km": 0.014260073113753435,
+          "seed_limit_km": 0.16119267902403817,
+          "seed_passed": true,
+          "three_se_km": 0.01175631896081773,
+          "threshold_km": 0.015059603419681912
+        }
+      },
+      "region_checks": [
+        {
+          "max_mass_error": 0.000349308369426371,
+          "model": "AnnualEndpointCI",
+          "weighted_area_change": 0.0004693078366704229,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 2.55351295663786e-15,
+          "model": "AnnualExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 0.0005835156819870013,
+          "model": "SeasonalEndpointCI",
+          "weighted_area_change": 0.00047302116683542455,
+          "weighted_hit_change": 0.0
+        },
+        {
+          "max_mass_error": 1.9984014443252818e-15,
+          "model": "SeasonalExactPoint",
+          "weighted_area_change": 0.0,
+          "weighted_hit_change": 0.0
+        }
+      ],
+      "region_count": 16384,
+      "region_passed": true,
+      "resource_precheck_passed": false
+    }
+  ],
+  "numerical_passed": true,
+  "outer_targets_read": false,
+  "pilot_precheck_passed": false,
+  "reason": "Await independent review and user decision; full-roster support/storage/audit gate still required",
+  "selected_count": 16384
+}

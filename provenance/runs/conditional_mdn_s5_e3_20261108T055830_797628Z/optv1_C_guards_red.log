@@ -1,0 +1,22 @@
+FF
+======================================================================
+FAIL: test_exact_comparison_rejects_unchecked_mean_or_variance_fields (test_validation_guards.ValidationGuardTests.test_exact_comparison_rejects_unchecked_mean_or_variance_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/test_validation_guards.py", line 35, in test_exact_comparison_rejects_unchecked_mean_or_variance_fields
+    with self.assertRaises(ArithmeticError):target.compare(a,b)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ArithmeticError not raised
+
+======================================================================
+FAIL: test_worker_failure_signals_cancellation_instead_of_draining_full_queue (test_validation_guards.ValidationGuardTests.test_worker_failure_signals_cancellation_instead_of_draining_full_queue)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/optimization_v1/test_validation_guards.py", line 38, in test_worker_failure_signals_cancellation_instead_of_draining_full_queue
+    self.assertTrue(hasattr(target,'collect_results'),'Fail-fast collection is missing')
+AssertionError: False is not true : Fail-fast collection is missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (failures=2)

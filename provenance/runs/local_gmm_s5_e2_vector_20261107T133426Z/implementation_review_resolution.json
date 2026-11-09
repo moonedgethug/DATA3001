@@ -1,0 +1,34 @@
+{
+  "reviewer": "e2_whole_review",
+  "review_scope": "Read-only implementation review; no validation outcomes accessed.",
+  "resolved_findings": [
+    {
+      "finding": "Geographic quality guards ignored numerical uncertainty",
+      "resolution": "Point difference plus conservative paired three-SE upper bound must remain within .01.",
+      "regression_test": "test_geographic_threshold_requires_resolved_uncertainty"
+    },
+    {
+      "finding": "IID ES audit did not gate acceptance",
+      "resolution": "IID-versus-primary ES agreement is now a required variance-aware gate.",
+      "regression_test": "test_iid_disagreement_fails_independent_audit_gate"
+    },
+    {
+      "finding": "Interrupted attempts could lose resource consumption",
+      "resolution": "Persistent heartbeat is reconciled conservatively before resumption.",
+      "regression_test": "test_interrupted_budget_charges_unknown_interval_conservatively"
+    },
+    {
+      "finding": "Family storage cap absent from parent-only work",
+      "resolution": "Family limit checked by common Budget.check.",
+      "regression_test": "test_family_limit_is_checked_outside_worker_loop"
+    },
+    {
+      "finding": "Missing isolated-worker parity and thread-bound evidence",
+      "resolution": "One/two spawn-worker outputs tested; all five numerical-library thread environment variables set to one."
+    }
+  ],
+  "regression_evidence": "full_test_suite.txt: 743 tests passed",
+  "native_arithmetic_evidence": "retained_parameter_parity.json: 128 retained full-run queries and 1280 restarts agree",
+  "scientific_contract_changed": false,
+  "full_experiment_audit": "PENDING"
+}

@@ -1,0 +1,5 @@
+{
+  "failure": "Independent status mismatch on one active GPS ID: metadata-unresolved versus estimation-version-unresolved. Both paths withheld all error values.",
+  "resolution": "Check trajectory activity before trying to decode a missing end date; preserve first attempt and rebuild from existing cached sources.",
+  "accepted_values_changed": false
+}

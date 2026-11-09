@@ -1,0 +1,21 @@
+{
+  "reviewer": "independent mdn_final_results_review",
+  "finding": "Qualified-candidate ES minimum must not be described as unconstrained ES minimum.",
+  "resolution": "Clarified qualification and temporal-window exclusions; refreshed final resource totals.",
+  "scientific_results_changed": false,
+  "raw_targets_read": false,
+  "before_sha256": {
+    "REPORT.md": "17fe958672e0319d76077501d8bdb233454a63287e779b6b722a9da2961fbcef",
+    "review.html": "1974bb6f3923923334c91726809f49fdd073cf0d14c4f6c642383715e65fa7a8",
+    "summary.csv": "e746181df8f124a853cba90b6eeb3c7e3cb86e24694a37fe7a33782a6f07793b",
+    "comparisons.csv": "303aeff44694aab0d0893fc060bffe72a1dc5e3dae7b91ed5c89007ef39e1950",
+    "selection.json": "560481651389b7088af31eadd8ea437504e74b44b17c5a07ee7675a1999921a6",
+    "acceptance.json": "fd3d8030f1ff07802272082e6bda02409ba81589d06428a27d12df8905f59054"
+  },
+  "after_document_sha256": {
+    "REPORT.md": "2f57ceb1b371fb1fe6308ed0974cee8e0704e5761ca9bd68cab98b7055a12528",
+    "review.html": "6e3d17d686e751717ca381d3ea8b669c45e7fdea07eeaa9765e0cddc4c4b742a"
+  },
+  "report_source_sha256": "f9ed4d5c9fe8d819e60383bdd74b4086d17d976f9313b2092f3136418b72edbc",
+  "remaining_material_findings": []
+}

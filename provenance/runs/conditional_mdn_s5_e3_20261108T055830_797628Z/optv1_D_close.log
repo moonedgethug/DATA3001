@@ -1,0 +1,1 @@
+{"stage_seconds": {"A": 15.202505249064416, "B": 69.0790030839853, "C": 274.691864623921, "D": 1.0858104170765728}, "additional_seconds": 360.0591833740473, "pilot_total_seconds": 510.02356687164865, "additional_peak_rss_gib": 1.5124053955078125, "new_output_bytes": 13202594, "closure_overhead_in_live_ledger": true}

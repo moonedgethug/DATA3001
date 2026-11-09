@@ -1,0 +1,16 @@
+{
+  "contract_sha256": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+  "donor_lineage": "C_outer/lineage",
+  "final_test_access": false,
+  "full_audit_passed": true,
+  "model_parameters": "C_outer/parameters",
+  "models": [
+    "ExactPoint",
+    "EndpointCI",
+    "LocalGaussian",
+    "LocalGMM"
+  ],
+  "regions": "C_outer/regions",
+  "run": "local_gmm_s5_e2_vector_20261107T133426Z",
+  "selected_k": 1
+}

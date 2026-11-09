@@ -1,0 +1,18 @@
+{
+  "approved": true,
+  "plan_sha256": "3adc3f101656712002d4d3f9dbac1aa346c464862852e58c5e84ae993ad896b2",
+  "user_approval": "我认可这一版的方案, 现在开始测试开发.  注意, 这里不是开发新模型, 而是对 旧版  的 Step1- Step3 确认的模型进行validation, 确认数据是否受time series的影响.",
+  "scope": "existing five model definitions; validation-policy comparison only",
+  "approved_local_date": "2026-11-03",
+  "equivalence_margins_approved": {
+    "brier": 0.001,
+    "h90": 0.01,
+    "relative_k90": 0.05
+  },
+  "budget_seconds_approved": {
+    "pilot": 300,
+    "primary": 1800,
+    "replay": 1800,
+    "total": 3900
+  }
+}

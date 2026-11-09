@@ -1,0 +1,38 @@
+{
+  "purpose": "Review all withheld categories without changing rules or outputs",
+  "unusable_unique_observations": 22477,
+  "unusable_IDs": 40,
+  "original_value_availability": {
+    "lon": {
+      "null": 498,
+      "zero": 0,
+      "negative": 0
+    },
+    "lat": {
+      "null": 492,
+      "zero": 0,
+      "negative": 12
+    }
+  },
+  "coordinate_difference_m": {
+    "0.0": 0.10950603637937789,
+    "0.5": 0.5012594068844334,
+    "0.99": 1.518603686050427,
+    "1.0": 23.307158593289063
+  },
+  "unexplained_ratios": {
+    "lon": {
+      "0.0": 98712.52819832237,
+      "0.5": 99984.56019600178,
+      "1.0": 101377.7092676519
+    },
+    "lat": {
+      "0.0": 98386.25880783446,
+      "0.5": 99893.09964286856,
+      "1.0": 101738.09932674168
+    }
+  },
+  "same_eight_GPS_IDs_have_coordinate_or_error_difference": true,
+  "rule_relaxation": false,
+  "model_results_used": false
+}

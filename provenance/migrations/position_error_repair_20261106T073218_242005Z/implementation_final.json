@@ -1,0 +1,15 @@
+{
+  "capture_utc": "2026-11-06T08:35:22.497554+00:00",
+  "files": {
+    "src/data3001/preprocessing/position_error_repair.py": "cadf4cfd6da4b1b3aa74644f8ddc6acb2f952cd58b7930ee61462a5dbc3cef71",
+    "src/data3001/preprocessing/replay_position_error_repair.py": "f7c9ed5084d71001290dc1785d5fff817f6c77512daace8f64369086103b5d96",
+    "src/data3001/preprocessing/report_position_error_repair.py": "75104c9fce0d1c205e0a9b1577e511b63f33998fde19ae0f3f6eb7906f9092c8",
+    "src/data3001/preprocessing/run_position_error_repair.py": "631b8b472801ca99beea3deaaf806ca28fff6f30e946966b352a06016410c01b",
+    "src/data3001/preprocessing/verify_position_error_repair.py": "cee57e8b521f1861d81dfd5c2aadfdb5fdba7c0ad5c84ca8c885e3c81791e25c",
+    "tests/test_position_error_repair.py": "ab772b03cdcb93171779dfd8363756fcbd88bd22e45ca53d6dc8207ba74e5479",
+    "pyproject.toml": "565ed755be931306516160cbe671ed29492a38bd4073edb01b44569c0dfc87bc"
+  },
+  "production_sources_unchanged_during_full_run": true,
+  "tests_passed": 22,
+  "scope": "data repair and independent verification only"
+}

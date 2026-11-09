@@ -1,0 +1,11 @@
+{
+  "changed_config": "rejected",
+  "changed_code": "rejected",
+  "changed_environment": "rejected",
+  "altered_replay_score": "rejected",
+  "altered_replay_ID": "rejected",
+  "altered_replay_vector": "rejected",
+  "altered_replay_figure": "rejected",
+  "incomplete_parent_receipt": "rejected",
+  "audit_optimization_preserved_frozen_scientific_files": 97
+}

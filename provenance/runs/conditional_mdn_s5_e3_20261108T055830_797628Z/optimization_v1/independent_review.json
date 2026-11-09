@@ -1,0 +1,32 @@
+{
+  "status": "PASS_FOR_BOUNDED_VALIDATION_REPORT_ONLY",
+  "formal_next_stage": null,
+  "spec_and_result_reviewer": "/root/mdn_opt_spec",
+  "code_quality_reviewer": "/root/mdn_opt_quality",
+  "review_mode": "Read-only source and saved-result review; no model fitting or integrations by reviewers",
+  "verified": {
+    "frozen_query_identities": 128,
+    "complete_numeric_row_equalities": 768,
+    "historical_output_reproductions": 768,
+    "unique_reference_diagnostics": 96,
+    "reference_passes_each_new_level": 48,
+    "unchanged_frozen_hashes": 157,
+    "same_node_optimization_speedup": 1.0848193858840112,
+    "timing_reduction_fraction": 0.07818756466533128,
+    "forecast_arithmetic_independently_reconstructed": true
+  },
+  "resolved_review_findings": [
+    "Shared cancellation event and queue cancellation stop work after comparison failure",
+    "Full numeric result equality is required, including all region parameters",
+    "Single/two-worker parity precedes full comparison dispatch",
+    "Parameter preparation included in timing; first paired completion not called optimized startup",
+    "Equality correctly described as numeric value equality, not byte-level equality",
+    "Current validation memory peak separated from prior cumulative pilot peak"
+  ],
+  "evidence_limits": [
+    "Larger reference levels support coarse-reference randomized integration error, not universal correctness",
+    "Original 8192-node failed gate remains unchanged",
+    "Pre-run worker parity is evidenced by mandatory successful execution and saved summary; its raw single-worker rows were not separately retained",
+    "Formal model selection and training remain unexecuted"
+  ]
+}

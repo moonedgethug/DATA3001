@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-11-07T16:58:54.068651+00:00",
+  "user_authorization": "评分优化与等价性验证，原检查预算内最多10分钟。模型、权重、完整样本和评分精度不变，保留已有结果。暂不恢复完整实验。",
+  "maximum_new_active_seconds": 600,
+  "original_phase": "checks",
+  "full_experiment_resume_authorized": false,
+  "source_changes": "Additive opt-in scorer; original frozen files unchanged"
+}

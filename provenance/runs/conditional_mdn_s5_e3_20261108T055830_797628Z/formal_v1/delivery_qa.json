@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "delivery_files": 33,
+  "images_valid": 19,
+  "local_html_links_valid": 24,
+  "selected_k": 1,
+  "inference_check": {
+    "passed": true,
+    "origin": [
+      -75.0,
+      35.0
+    ],
+    "sample_shape": [
+      1,
+      16,
+      2
+    ],
+    "selected_k": 1,
+    "validation_target_dependency": false
+  },
+  "final_test_access": false,
+  "supervised_wall_hours_including_prior": 14.469068510091876,
+  "no_running_stage": true,
+  "visual_inspection": [
+    "outer_comparison.png",
+    "paired_effects.png",
+    "fixed_case_01.png"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "before": {
+    "data/train/300234066312880.parquet": "3b7b1fee0ae5436cc511b4f38c0a9068a38eba6f890790969a991cc5b5538008",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/query_coordinates.parquet": "0b480d728e008444c493a228ebecb2505da21185aa70d0f07e8513fd6107fea5",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/model_manifest.json": "6aab4bcdf4f35e8334cc79f445ceb6cb8cc19f5a30ed48769bfafafa2a657b94",
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/selection.json": "08ae71109b1742f940be3f8e3a9c24d629ad9d13ddabdee689600162d2c482f8"
+  },
+  "after": {
+    "data/train/300234066312880.parquet": "3b7b1fee0ae5436cc511b4f38c0a9068a38eba6f890790969a991cc5b5538008",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/query_coordinates.parquet": "0b480d728e008444c493a228ebecb2505da21185aa70d0f07e8513fd6107fea5",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/model_manifest.json": "6aab4bcdf4f35e8334cc79f445ceb6cb8cc19f5a30ed48769bfafafa2a657b94",
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/selection.json": "08ae71109b1742f940be3f8e3a9c24d629ad9d13ddabdee689600162d2c482f8"
+  },
+  "unchanged": true
+}

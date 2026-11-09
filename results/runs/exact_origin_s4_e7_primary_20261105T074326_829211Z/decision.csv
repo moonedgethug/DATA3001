@@ -1,0 +1,2 @@
+primary_brier_supported,legacy_quality_preserved,fine_quality_preserved,recommend_replacement,delta_brier,relative_brier_change,conclusion,evidence
+True,False,False,False,-0.042499736187791834,-0.04268527401041203,Brier improvement with an operational trade-off,Previously inspected chronological development validation; fixed-fit conditional inference

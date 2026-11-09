@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-11-07T16:41:06.403487+00:00",
+  "resource_diff_seconds": {
+    "inner": [
+      21600,
+      54000
+    ],
+    "outer": [
+      14400,
+      21600
+    ],
+    "total": [
+      50400,
+      90000
+    ]
+  },
+  "all_other_configuration_identical": true,
+  "active_budget_absent": true,
+  "outer_targets_read": false,
+  "proposal_sha256": "dec8950bd1e78b106e3a646c61404d4cfb48626e70198efba3f4e13b77bc515a",
+  "limits_applied": false
+}

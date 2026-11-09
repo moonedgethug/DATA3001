@@ -1,0 +1,21 @@
+{
+  "IDs": 45,
+  "all_predicted_before_outer_endpoint_access": true,
+  "browser_rendering_claim": false,
+  "case_score_hash_unchanged": "67559a1eecbe1bf0a3f3729b5aab6dfca1ae134dbde234cc0f7d74bb8831ae00",
+  "case_scores": 135884,
+  "corrected_annual_E8_H90_and_area_reproduced": true,
+  "figures_visually_inspected": 9,
+  "final_test_access": false,
+  "frozen_forecast_hashes_verified": true,
+  "full_cases": 33971,
+  "html_references_verified": 13,
+  "independent_audit_passed": true,
+  "models": 4,
+  "numerical_gates_passed": true,
+  "original_failure_records_preserved": true,
+  "passed": true,
+  "protected_input_hashes_verified": true,
+  "scientific_definitions_unchanged": true,
+  "semantic_tests": 35
+}

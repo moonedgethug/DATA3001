@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "plan": "docs/exact_origin_s4_e7_plan.md",
+  "plan_sha256": "c53be74c3dae0960f673ac3a0d79d5776c7f1ce5535587c2ef1edd631a686e75",
+  "date": "2026-11-05",
+  "contract_version": "2.1",
+  "radius_m": 100000,
+  "user_instruction": "我认为把我们的可参考训练信息控制到邻近100 km, 现在严格按照这份规划, 修改借用信息的参考\n严格按照我们的修改后的contract开始执行实验验证."
+}

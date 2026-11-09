@@ -1,0 +1,16 @@
+{
+  "query_equal_means": {
+    "nearest_training_start_km": 0.7221074594109116,
+    "distinct_training_ids_within_100km": 139.5754319861058,
+    "outside_training_lonlat_convex_hull": 0.00029436872626652146
+  },
+  "drifter_equal_means": {
+    "nearest_training_start_km": 0.7183959930947434,
+    "distinct_training_ids_within_100km": 158.79582392848383,
+    "outside_training_lonlat_convex_hull": 0.00039791649469994524
+  },
+  "nearest_distance_max_km": 11.762329363313103,
+  "local_id_count_min": 19,
+  "convex_hull_definition": "Planar longitude/latitude convex hull of all outer training starts",
+  "exclusion_or_fallback": false
+}

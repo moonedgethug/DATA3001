@@ -1,0 +1,49 @@
+{
+  "run_id": "conditional_gaussian_s5_e1_full_20261107T061818Z",
+  "created_UTC": "2026-11-07T06:18:18.545533+00:00",
+  "config": {
+    "experiment": "conditional_gaussian_s5_e1",
+    "contract": "docs/conditional_gaussian_s5_e1_contract.md",
+    "contract_sha256": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4",
+    "e7_run": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+    "e8_run": "position_error_s4_e8_20261106T095423_445879Z",
+    "repair_run": "position_error_repair_20261106T073218_242005Z",
+    "repair_manifest_sha256": "d95864f397e21c4a770605f44555cfaf19d7fae24289916f07d0667e857c2c94",
+    "overlay_sha256": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3",
+    "k": 8000,
+    "radius_m": 100000.0,
+    "distance_tolerance_m": 1e-06,
+    "energy_levels": [
+      8192,
+      16384,
+      32768,
+      65536
+    ],
+    "region_levels": [
+      16384,
+      32768,
+      65536
+    ],
+    "scrambles": 8,
+    "condition_cap": 1000000000000.0,
+    "bootstrap_seed": 20261109,
+    "bootstrap_draws": 10000,
+    "seconds": {
+      "pilot": 600,
+      "formal": 14400,
+      "audit": 7200,
+      "report": 600,
+      "total": 23400
+    },
+    "rss_gib": 8,
+    "storage_gib": 10,
+    "processes": 2,
+    "final_test_access": false,
+    "parent_pilot_run": "conditional_gaussian_s5_e1_20261107T054457_277726Z",
+    "energy_count": 8192,
+    "region_count": 32768,
+    "batch_size": 128,
+    "storage_preflight_gib": 8
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

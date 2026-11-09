@@ -1,0 +1,9 @@
+{
+  "projected_retained_bytes": 1639056572,
+  "twofold_reserve_bytes": 3278113144,
+  "cap_bytes": 5368709120,
+  "passed": true,
+  "basis": "Pilot maximum donor count, twice largest forecast serialization, plus 250 MiB reports/diagnostics allowance",
+  "timing": "Supplemental storage-reserve verification during outcome-sealed prediction; the first pilot receipt only recorded time and memory reserve",
+  "outer_targets_read": false
+}

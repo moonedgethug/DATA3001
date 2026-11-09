@@ -1,0 +1,31 @@
+======================================================================
+FAIL: test_component_support_diagnostics_are_independently_recomputed (test_modelling_local_gmm_s5_e2_pipeline.IndependentAuditTests.test_component_support_diagnostics_are_independently_recomputed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_pipeline.py", line 190, in test_component_support_diagnostics_are_independently_recomputed
+    m=self.module();self.assertTrue(hasattr(m,'reference_support'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_iid_keys_and_primary_scores_are_both_checked (test_modelling_local_gmm_s5_e2_pipeline.IndependentAuditTests.test_iid_keys_and_primary_scores_are_both_checked)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_pipeline.py", line 180, in test_iid_keys_and_primary_scores_are_both_checked
+    m=self.module();self.assertTrue(hasattr(m,'verify_iid_alignment'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_reported_hits_must_match_independent_frozen_region_judgment (test_modelling_local_gmm_s5_e2_pipeline.IndependentAuditTests.test_reported_hits_must_match_independent_frozen_region_judgment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_pipeline.py", line 173, in test_reported_hits_must_match_independent_frozen_region_judgment
+    m=self.module();self.assertTrue(hasattr(m,'verify_primary_alignment'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.883s
+
+FAILED (failures=3)

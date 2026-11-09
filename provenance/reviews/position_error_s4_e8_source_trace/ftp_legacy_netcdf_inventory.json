@@ -1,0 +1,53 @@
+{
+  "/phod/pub/lumpkin/hourly/v1.04/netcdf": [
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Oct 15  2020 argos_block1",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     417474545 Nov 12  2020 argos_block1.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Oct 15  2020 argos_block2",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     526010058 Nov 12  2020 argos_block2.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Oct 15  2020 argos_block3",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     567043415 Nov 12  2020 argos_block3.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Oct 15  2020 argos_block4",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     501824128 Nov 12  2020 argos_block4.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Oct 15  2020 argos_block5",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     495129319 Nov 12  2020 argos_block5.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         1346 Oct 15  2020 argos_block6",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     341033948 Nov 12  2020 argos_block6.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod          875 Oct 15  2020 argos_block7",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     475381859 Nov 12  2020 argos_block7.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod           72 Oct 15  2020 argos_block8",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     61374755 Nov 12  2020 argos_block8.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         5039 Oct 15  2020 gps",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     859653990 Nov 12  2020 gps.tar.gz"
+  ],
+  "/phod/pub/lumpkin/hourly/v1.04/netcdf_v1.04c": [
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Jan 22  2021 argos_block1",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     417639966 Jan 22  2021 argos_block1.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Jan 22  2021 argos_block2",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     526199904 Jan 22  2021 argos_block2.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Jan 22  2021 argos_block3",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     567176553 Jan 22  2021 argos_block3.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Jan 22  2021 argos_block4",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     501928271 Jan 22  2021 argos_block4.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         2002 Jan 22  2021 argos_block5",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     495284845 Jan 22  2021 argos_block5.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         1346 Jan 22  2021 argos_block6",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     341084487 Jan 22  2021 argos_block6.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod          875 Jan 22  2021 argos_block7",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     475428005 Jan 22  2021 argos_block7.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod           72 Jan 22  2021 argos_block8",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     61379670 Jan 22  2021 argos_block8.tar.gz",
+    "drwxrwxr-x   2 matthieu.lehenaff phod         5039 Jan 22  2021 gps",
+    "-rw-rw-r--   1 matthieu.lehenaff phod     860338296 Jan 22  2021 gps.tar.gz"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.00/netcdf/*7647*": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod      1316241 Dec 15  2021 /phod/pub/lumpkin/hourly/v2.00/netcdf/drifter_107647.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod       921560 Dec 15  2021 /phod/pub/lumpkin/hourly/v2.00/netcdf/drifter_37647.nc",
+    "-rw-rw-r--   1 matthieu.lehenaff phod      1112796 Dec 15  2021 /phod/pub/lumpkin/hourly/v2.00/netcdf/drifter_7647.nc"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.00/netcdf/*99004*": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod       429127 Dec 15  2021 /phod/pub/lumpkin/hourly/v2.00/netcdf/drifter_99004.nc"
+  ],
+  "/phod/pub/lumpkin/hourly/v2.00/netcdf/*300234066710170*": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod       245402 Dec 15  2021 /phod/pub/lumpkin/hourly/v2.00/netcdf/drifter_300234066710170.nc"
+  ]
+}

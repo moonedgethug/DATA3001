@@ -1,0 +1,6 @@
+candidate,reference,three_se_km,threshold_km,passed
+SeasonalEndpointCI,AnnualEndpointCI,0.008666793700268838,0.013422573975285087,True
+SeasonalExactPoint,AnnualExactPoint,0.008666542931403759,0.013422573496724216,True
+SeasonalEndpointCI,SeasonalExactPoint,5.3239273657991636e-05,0.014789102456445312,True
+AnnualEndpointCI,AnnualExactPoint,5.421447820014435e-05,0.013422573496724216,True
+SeasonalEndpointCI,AnnualExactPoint,0.008666648663649145,0.013422573496724216,True

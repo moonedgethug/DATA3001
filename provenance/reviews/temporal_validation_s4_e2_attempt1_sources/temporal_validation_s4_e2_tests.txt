@@ -1,0 +1,12 @@
+test_adapter_matches_all_legacy_candidate_Brier (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_adapter_matches_all_legacy_candidate_Brier) ... ok
+test_equivalence_requires_interval_inside_all_margins (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_equivalence_requires_interval_inside_all_margins) ... ok
+test_explicit_scoring_and_shared_ID_multiplier (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_explicit_scoring_and_shared_ID_multiplier) ... ok
+test_label_boundary_cross_horizon_ID_and_absorbing_exit (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_label_boundary_cross_horizon_ID_and_absorbing_exit) ... ok
+test_pooling_repeated_ID_preserves_times_then_ID_weights (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_pooling_repeated_ID_preserves_times_then_ID_weights) ... ok
+test_report_full_layout_and_repeatable_figures (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_report_full_layout_and_repeatable_figures) ... ok
+test_same_training_B2_and_winner_freeze (test_modelling_temporal_validation_s4_e2.ValidationPolicies.test_same_training_B2_and_winner_freeze) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.926s
+
+OK

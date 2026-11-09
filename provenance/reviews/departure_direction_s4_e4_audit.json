@@ -1,0 +1,53 @@
+{
+  "status": "verified",
+  "plan_sha256": "9d7ba6c59cdcfb50d5f8262cc102af3995324415c7e478ba8603d4498e86bb1e",
+  "freeze_sha256": "a5d9bce475277611625d210f2c59d8efd74bad5cebd318f4ff8a4abb1e52e19d",
+  "stages": {
+    "pilot": {
+      "run_id": "departure_direction_s4_e4_pilot_20261104T153035_043461Z",
+      "accounted_seconds": 29.0,
+      "elapsed_before_sealing": 16.724758917000145,
+      "prior_seconds": 0.0,
+      "rss_gib": 1.226898193359375,
+      "total_bytes": 69525395,
+      "total_seconds": 29.0
+    },
+    "primary": {
+      "run_id": "departure_direction_s4_e4_primary_20261104T153104_398790Z",
+      "accounted_seconds": 28.0,
+      "elapsed_before_sealing": 15.467545833031181,
+      "prior_seconds": 29.0,
+      "rss_gib": 1.1821441650390625,
+      "total_bytes": 139088725,
+      "total_seconds": 57.0
+    },
+    "replay": {
+      "run_id": "departure_direction_s4_e4_replay_20261104T153128_508493Z",
+      "accounted_seconds": 29.0,
+      "elapsed_before_sealing": 16.533543290977832,
+      "prior_seconds": 57.0,
+      "rss_gib": 1.3218231201171875,
+      "total_bytes": 208702224,
+      "total_seconds": 86.0
+    }
+  },
+  "independently_reconstructed_probabilities_max_error": 1.1102230246251565e-16,
+  "source_keys_roles_thresholds_checked": true,
+  "all_outer_scores_and_group_metrics_rebuilt": true,
+  "replay": {
+    "figures_byte_identical": true,
+    "numeric_atol": 1e-12,
+    "passed": true,
+    "replay_of": "departure_direction_s4_e4_primary_20261104T153104_398790Z",
+    "scientific_files_compared": 453
+  },
+  "sealed_members_verified": 1395,
+  "identical_prescore_artifacts": 438,
+  "figures_visually_inspected_and_byte_identical": [
+    "fallback.png",
+    "inner_curves.png",
+    "outer_metrics.png",
+    "paired_differences.png"
+  ],
+  "final_test_access": false
+}

@@ -1,0 +1,101 @@
+{
+  "approval": "provenance/reviews/temporal_validation_s4_e2_approval.json",
+  "artifact_limit_gib": 5,
+  "blocks": [
+    {
+      "cutoff": "2014-01-01",
+      "end": "2017-01-01",
+      "expected_validation_pairs": [
+        41761,
+        35035
+      ],
+      "inner_time": [
+        [
+          "2008-01-01",
+          "2011-01-01"
+        ],
+        [
+          "2011-01-01",
+          "2014-01-01"
+        ]
+      ],
+      "name": "A"
+    },
+    {
+      "cutoff": "2017-01-01",
+      "end": "2020-01-01",
+      "expected_validation_pairs": [
+        48189,
+        44700
+      ],
+      "inner_time": [
+        [
+          "2011-01-01",
+          "2014-01-01"
+        ],
+        [
+          "2014-01-01",
+          "2017-01-01"
+        ]
+      ],
+      "name": "B"
+    },
+    {
+      "cutoff": "2020-01-01",
+      "end": "2023-01-01",
+      "expected_validation_pairs": [
+        33971,
+        30128
+      ],
+      "inner_time": [
+        [
+          "2014-01-01",
+          "2017-01-01"
+        ],
+        [
+          "2017-01-01",
+          "2020-01-01"
+        ]
+      ],
+      "name": "C"
+    }
+  ],
+  "budget_seconds": {
+    "pilot": 300,
+    "primary": 1800,
+    "replay": 1800,
+    "total": 3900
+  },
+  "end": "2023-01-01",
+  "equivalence": {
+    "brier": 0.001,
+    "h90": 0.01,
+    "relative_k90": 0.05
+  },
+  "evaluation_weight": "equal_time_within_ID_origin_equal_ID_within_origin_equal_origins",
+  "experiment": "temporal_validation_s4_e2",
+  "final_test_access": false,
+  "folds_path": "results/runs/markov_m1_1d_20261025T100248_328450Z/folds.csv",
+  "horizons": [
+    7,
+    30
+  ],
+  "integrity_config": "configs/seasonal_conditioning_s4_e1.json",
+  "models": [
+    "B2",
+    "Fixed",
+    "Adaptive",
+    "LocalEndpoint",
+    "LocalEndpointAdaptive"
+  ],
+  "new_model_families": false,
+  "plan": "docs/temporal_validation_s4_e2_plan.md",
+  "plan_sha256": "3adc3f101656712002d4d3f9dbac1aa346c464862852e58c5e84ae993ad896b2",
+  "region_mass": 0.9,
+  "replicates": 10000,
+  "rss_limit_gib": 8,
+  "seed": 20261103,
+  "start": "2001-01-01",
+  "tail": 0.001388888888888889,
+  "training_weight": "raw_pairs"
+}

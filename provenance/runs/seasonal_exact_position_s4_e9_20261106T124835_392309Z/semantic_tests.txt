@@ -1,0 +1,29 @@
+test_all_missing_equals_point_measure (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_all_missing_equals_point_measure) ... ok
+test_cloud_retains_each_vote (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_cloud_retains_each_vote) ... ok
+test_covariance_ellipse_and_area (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_covariance_ellipse_and_area) ... ok
+test_degenerate_region_is_not_strip (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_degenerate_region_is_not_strip) ... ok
+test_exact_mixed_point_and_cloud_weights (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_exact_mixed_point_and_cloud_weights) ... ok
+test_exact_ninety_percent_uniform_cloud (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_exact_ninety_percent_uniform_cloud) ... ok
+test_forecast_does_not_depend_on_validation_outcome (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_forecast_does_not_depend_on_validation_outcome) ... ok
+test_geodesic_radius_and_point_fallback (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_geodesic_radius_and_point_fallback) ... ok
+test_matched_variance_and_one_usable (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_matched_variance_and_one_usable) ... ok
+test_point_energy_matches_small_exact_sum (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_point_energy_matches_small_exact_sum) ... ok
+test_quantile_keeps_small_real_mass_gap (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_quantile_keeps_small_real_mass_gap) ... ok
+test_quantile_ties (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_quantile_ties) ... ok
+test_random_streams_reproducible (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_random_streams_reproducible) ... ok
+test_single_atom_energy_is_distance (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_single_atom_energy_is_distance) ... ok
+test_width_units_and_missing_mask (test_modelling_position_error_s4_e8.ContinuousErrorTests.test_width_units_and_missing_mask) ... ok
+test_calendar_duration_tie_and_leap (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_calendar_duration_tie_and_leap) ... ok
+test_e8_numerical_parity_and_no_extra_arms (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_e8_numerical_parity_and_no_extra_arms) ... ok
+test_empty_fallback_and_no_low_support_blend (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_empty_fallback_and_no_low_support_blend) ... ok
+test_filter_before_neighbours (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_filter_before_neighbours) ... ok
+test_missing_ci_is_exact_identity_and_single_atom (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_missing_ci_is_exact_identity_and_single_atom) ... ok
+test_open_right_boundary_and_invalid_time (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_open_right_boundary_and_invalid_time) ... ok
+test_point_es_finite_sum_and_outcome_independence (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_point_es_finite_sum_and_outcome_independence) ... ok
+test_ties_duplicates_radius_and_exhaustive (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_ties_duplicates_radius_and_exhaustive) ... ok
+test_weights_do_not_equalize_seasons_or_cells (test_modelling_seasonal_exact_position_s4_e9.SeasonalTests.test_weights_do_not_equalize_seasons_or_cells) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.150s
+
+OK

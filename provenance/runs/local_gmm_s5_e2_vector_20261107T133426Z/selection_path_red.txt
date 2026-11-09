@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_independent_selection_rejects_changed_choice (test_modelling_local_gmm_s5_e2_pipeline.IndependentAuditTests.test_independent_selection_rejects_changed_choice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_pipeline.py", line 151, in test_independent_selection_rejects_changed_choice
+    m=self.module();self.assertTrue(hasattr(m,'verify_selection_path'))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.115s
+
+FAILED (failures=1)

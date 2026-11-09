@@ -1,0 +1,15 @@
+{
+  "energy_km": 0.0,
+  "h90": 0.0,
+  "area90_km2": 0.0,
+  "land_mass": 0.0,
+  "outside_D_mass": 0.0,
+  "land_area_km2": 1.382431946694851e-10,
+  "wet_area_km2": 1.4551915228366852e-10,
+  "outside_D_area_km2": 0.0,
+  "passed": true,
+  "cases": 128,
+  "replicates": 2,
+  "models": 4,
+  "comparison": "Original full coastline versus indexed and bounding-box-clipped exact intersections"
+}

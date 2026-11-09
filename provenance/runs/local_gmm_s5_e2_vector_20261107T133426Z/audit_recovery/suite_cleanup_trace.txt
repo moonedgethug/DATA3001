@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/audit_recovery/bounded_command.py", line 44, in <module>
+    try:stop_group(child.pid)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_processes.py", line 13, in stop_group
+    try:os.killpg(group,signal.SIGKILL)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted

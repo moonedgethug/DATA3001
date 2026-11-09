@@ -1,0 +1,51 @@
+{"role": "C_T0", "mode": "parameters", "done": 0, "total": 41761, "elapsed_seconds": 10.1, "rss_gib": 1.718}
+{"role": "C_T0", "mode": "parameters", "done": 288, "total": 41761, "elapsed_seconds": 42.5, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 544, "total": 41761, "elapsed_seconds": 77.1, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 800, "total": 41761, "elapsed_seconds": 107.3, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 1088, "total": 41761, "elapsed_seconds": 138.2, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 1344, "total": 41761, "elapsed_seconds": 169.2, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 1600, "total": 41761, "elapsed_seconds": 205.1, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 1824, "total": 41761, "elapsed_seconds": 236.2, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 2048, "total": 41761, "elapsed_seconds": 269.2, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 2336, "total": 41761, "elapsed_seconds": 300.3, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 2656, "total": 41761, "elapsed_seconds": 334.8, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 2944, "total": 41761, "elapsed_seconds": 365.3, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 3232, "total": 41761, "elapsed_seconds": 399.9, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 3552, "total": 41761, "elapsed_seconds": 429.9, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 3904, "total": 41761, "elapsed_seconds": 461.1, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 4160, "total": 41761, "elapsed_seconds": 491.3, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 4480, "total": 41761, "elapsed_seconds": 522.9, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 4768, "total": 41761, "elapsed_seconds": 554.8, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 5024, "total": 41761, "elapsed_seconds": 590.6, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 5280, "total": 41761, "elapsed_seconds": 625.8, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 5536, "total": 41761, "elapsed_seconds": 658.0, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 5792, "total": 41761, "elapsed_seconds": 690.9, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 6048, "total": 41761, "elapsed_seconds": 723.0, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 6368, "total": 41761, "elapsed_seconds": 755.6, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 6688, "total": 41761, "elapsed_seconds": 788.5, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 7008, "total": 41761, "elapsed_seconds": 821.7, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 7296, "total": 41761, "elapsed_seconds": 854.7, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 7552, "total": 41761, "elapsed_seconds": 888.5, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 7808, "total": 41761, "elapsed_seconds": 919.9, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 8128, "total": 41761, "elapsed_seconds": 951.0, "rss_gib": 1.726}
+{"role": "C_T0", "mode": "parameters", "done": 8416, "total": 41761, "elapsed_seconds": 983.0, "rss_gib": 1.726}
+PHASE_END inner False 988.27
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py", line 421, in <module>
+    run_phase(sys.argv[1],phase)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py", line 374, in run_phase
+    run_batches(name,'parameters',role,[1,2,3],budget)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py", line 316, in run_batches
+    ready,_=futures.wait(pending,timeout=10,return_when=futures.FIRST_COMPLETED)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 305, in wait
+    waiter.event.wait(timeout)
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "query_count": 44612,
+  "query_key_sha256": "1f68e087dbdc22624bc5391266906cf59d5bf16290cd9bf4979445453f45cc9c",
+  "forecast_sha256": "0b97b29dd06b658d6e6a9d00402f2f616aa1e4f74222668f2f224a4fab436e41",
+  "scoring_freeze_sha256": "24c7b878530c9c62ffcc5bf870cab50e36f987910028b8fbee5e2c757a4f43dd",
+  "outer_targets_read": false,
+  "final_test_access": false,
+  "denied": []
+}

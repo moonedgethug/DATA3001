@@ -1,0 +1,17 @@
+{"queries_complete": 8, "total": 128, "seconds": 20.484878584044054}
+{"queries_complete": 16, "total": 128, "seconds": 36.065300542046316}
+{"queries_complete": 24, "total": 128, "seconds": 50.31977887498215}
+{"queries_complete": 32, "total": 128, "seconds": 64.26620704203378}
+{"queries_complete": 40, "total": 128, "seconds": 78.43926949996967}
+{"queries_complete": 48, "total": 128, "seconds": 93.75354900001548}
+{"queries_complete": 56, "total": 128, "seconds": 107.6972350840224}
+{"queries_complete": 64, "total": 128, "seconds": 121.84294345905073}
+{"queries_complete": 72, "total": 128, "seconds": 136.3905365000246}
+{"queries_complete": 80, "total": 128, "seconds": 152.6689104590332}
+{"queries_complete": 88, "total": 128, "seconds": 168.5207614999963}
+{"queries_complete": 96, "total": 128, "seconds": 182.49010104197077}
+{"queries_complete": 104, "total": 128, "seconds": 196.36982179200277}
+{"queries_complete": 112, "total": 128, "seconds": 210.42981495894492}
+{"queries_complete": 120, "total": 128, "seconds": 224.41041979193687}
+{"queries_complete": 128, "total": 128, "seconds": 238.47860537504312}
+{"queries": 128, "probe_records": 768, "all_equivalent": true, "all_exact_value_equal": true, "single_two_worker_identical": true, "old_frozen_results_reproduced": true, "wall_seconds": 238.8622115419712, "cold_plus_first_paired_query_seconds": 7.549816000042483, "peak_combined_query_cache_bytes": 20971520, "no_formal_training": true, "no_new_targets": true}

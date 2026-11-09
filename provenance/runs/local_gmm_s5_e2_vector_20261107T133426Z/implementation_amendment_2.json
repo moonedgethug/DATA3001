@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-07T14:03:24.951209+00:00",
+  "reason": "Independent audit completeness: verify primary hits/area, primary and reference IID agreement, full component support diagnostics, per-ID aggregates and selection path.",
+  "source_revision": 2,
+  "contract_changed": false,
+  "config_changed": false,
+  "fitting_changed": false,
+  "scoring_changed": false,
+  "forecast_or_donor_changed": false,
+  "changed_files": {
+    "src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py": {
+      "before": "fff18ef9e0a873c01b5ca3d2d0096a68fc0e1a1a6118bba66efece4f3278ee25",
+      "after": "e654c3887853e95116ab6ab578b2a38470cf9a91d90be597ca607e7f8476c4e5"
+    },
+    "tests/test_modelling_local_gmm_s5_e2_pipeline.py": {
+      "before": "2297af38a0bfdb2992f12446c7ba8715170f095232343d55a3927dbfdcceaa5f",
+      "after": "b054d11df0c7fdac4bab800176e866b85cb9fd692c57a02d9b0424802ecb8b17"
+    }
+  },
+  "retained_complete_parameter_queries": 8416,
+  "retained_output_hashes_verified": true,
+  "orphan_outputs": 0,
+  "tests_passed": 749,
+  "outer_targets_read": false,
+  "final_test_access": false
+}

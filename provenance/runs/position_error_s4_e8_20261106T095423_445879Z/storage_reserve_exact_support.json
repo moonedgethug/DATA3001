@@ -1,0 +1,8 @@
+{
+  "donor_indices_exact_bytes": 1081450248,
+  "actual_max_donors": 8000,
+  "projected_retained_bytes": 1633434820,
+  "twofold_reserve_bytes": 3266869640,
+  "passed": true,
+  "basis": "Frozen E7 outer support counts, same complete query roster and donor rule; no outcome columns read"
+}

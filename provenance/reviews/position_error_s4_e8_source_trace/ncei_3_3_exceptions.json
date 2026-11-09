@@ -1,0 +1,1699 @@
+{
+  "url": "https://www.ncei.noaa.gov/data/oceans/archive/arc0199/0248584/3.3/data/0-data/gdp_hourly.nc",
+  "scope": "selected frozen training endpoints only",
+  "selection_note": "Spread observations plus all negative and large endpoint-error anomalies; not a random population estimate.",
+  "samples": [
+    {
+      "id": 7647,
+      "source_obs": 5294393,
+      "epoch": 1017846000.0,
+      "archive_index": 5294393,
+      "lon": {
+        "archive_raw": -75.9136962890625,
+        "canonical": -75.9136962890625,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 34.137489318847656,
+        "canonical": 34.137489318847656,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.1070000027757487e-07,
+        "canonical": 1.1070000027757487e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.439999822305253e-08,
+        "canonical": 6.439999822305253e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7647,
+      "source_obs": 5294432,
+      "epoch": 1017986400.0,
+      "archive_index": 5294432,
+      "lon": {
+        "archive_raw": -75.95465087890625,
+        "canonical": -75.95465087890625,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 34.426509857177734,
+        "canonical": 34.426509857177734,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.2300001723560854e-08,
+        "canonical": 4.2300001723560854e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 5.689999937885659e-08,
+        "canonical": 5.689999937885659e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7647,
+      "source_obs": 5294472,
+      "epoch": 1018130400.0,
+      "archive_index": 5294472,
+      "lon": {
+        "archive_raw": -75.92545318603516,
+        "canonical": -75.92545318603516,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 34.52695083618164,
+        "canonical": 34.52695083618164,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.380000089871828e-08,
+        "canonical": 5.380000089871828e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.1200000038513735e-08,
+        "canonical": 1.1200000038513735e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7647,
+      "source_obs": 5294512,
+      "epoch": 1018274400.0,
+      "archive_index": 5294512,
+      "lon": {
+        "archive_raw": -75.25718688964844,
+        "canonical": -75.25718688964844,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 35.085140228271484,
+        "canonical": 35.085140228271484,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 8.580000354641015e-08,
+        "canonical": 8.580000354641015e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 3.2300000896157144e-08,
+        "canonical": 3.2300000896157144e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7647,
+      "source_obs": 5294552,
+      "epoch": 1018418400.0,
+      "archive_index": 5294552,
+      "lon": {
+        "archive_raw": -73.68473052978516,
+        "canonical": -73.68473052978516,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 36.70471954345703,
+        "canonical": 36.70471954345703,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.237999971541285e-07,
+        "canonical": 5.237999971541285e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 7.899999587834827e-08,
+        "canonical": 7.899999587834827e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7773,
+      "source_obs": 5362493,
+      "epoch": 1026608400.0,
+      "archive_index": 5362493,
+      "lon": {
+        "archive_raw": -73.82124328613281,
+        "canonical": -73.82124328613281,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.779600143432617,
+        "canonical": 30.779600143432617,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.3000000126671694e-08,
+        "canonical": 2.3000000126671694e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 8.349999802703678e-08,
+        "canonical": 8.349999802703678e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7773,
+      "source_obs": 5362534,
+      "epoch": 1026756000.0,
+      "archive_index": 5362534,
+      "lon": {
+        "archive_raw": -73.67179107666016,
+        "canonical": -73.67179107666016,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.6143798828125,
+        "canonical": 30.6143798828125,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.179999990583383e-08,
+        "canonical": 4.179999990583383e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.7099999638503505e-08,
+        "canonical": 1.7099999638503505e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7773,
+      "source_obs": 5362576,
+      "epoch": 1026907200.0,
+      "archive_index": 5362576,
+      "lon": {
+        "archive_raw": -73.689453125,
+        "canonical": -73.689453125,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.23056983947754,
+        "canonical": 30.23056983947754,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.809999865074133e-08,
+        "canonical": 4.809999865074133e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.029999610746017e-08,
+        "canonical": 6.029999610746017e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7773,
+      "source_obs": 5362617,
+      "epoch": 1027054800.0,
+      "archive_index": 5362617,
+      "lon": {
+        "archive_raw": -73.6451187133789,
+        "canonical": -73.6451187133789,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.69611930847168,
+        "canonical": 29.69611930847168,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.5879998588607123e-07,
+        "canonical": 2.5879998588607123e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.1099999142061279e-08,
+        "canonical": 1.1099999142061279e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 7773,
+      "source_obs": 5362660,
+      "epoch": 1027209600.0,
+      "archive_index": 5362660,
+      "lon": {
+        "archive_raw": -73.39573669433594,
+        "canonical": -73.39573669433594,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.21816062927246,
+        "canonical": 29.21816062927246,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.5299999489570837e-08,
+        "canonical": 1.5299999489570837e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.409999997458726e-08,
+        "canonical": 6.409999997458726e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87872731,
+      "epoch": 1380747600.0,
+      "archive_index": 87872731,
+      "lon": {
+        "archive_raw": -74.38143920898438,
+        "canonical": -74.38143920898438,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.312589645385742,
+        "canonical": 31.312589645385742,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.4300000234234176e-08,
+        "canonical": 2.4300000234234176e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.350000016804188e-08,
+        "canonical": 2.350000016804188e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87873086,
+      "epoch": 1382025600.0,
+      "archive_index": 87873086,
+      "lon": {
+        "archive_raw": -73.88104248046875,
+        "canonical": -73.88104248046875,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.330169677734375,
+        "canonical": 31.330169677734375,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.520000030870051e-08,
+        "canonical": 2.520000030870051e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.6400000407988955e-08,
+        "canonical": 2.6400000407988955e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87873503,
+      "epoch": 1383526800.0,
+      "archive_index": 87873503,
+      "lon": {
+        "archive_raw": -77.1109619140625,
+        "canonical": -77.1109619140625,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.810989379882812,
+        "canonical": 29.810989379882812,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.7099999638503505e-08,
+        "canonical": 1.7099999638503505e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 4.840000045192028e-08,
+        "canonical": 4.840000045192028e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87873915,
+      "epoch": 1385010000.0,
+      "archive_index": 87873915,
+      "lon": {
+        "archive_raw": -77.90454864501953,
+        "canonical": -77.90454864501953,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.745630264282227,
+        "canonical": 29.745630264282227,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.9399999828806358e-08,
+        "canonical": 1.9399999828806358e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.500000093723202e-09,
+        "canonical": 6.500000093723202e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87874420,
+      "epoch": 1386828000.0,
+      "archive_index": 87874420,
+      "lon": {
+        "archive_raw": -76.10090637207031,
+        "canonical": -76.10090637207031,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 32.52333068847656,
+        "canonical": 32.52333068847656,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": 0.0016599999507889152,
+        "canonical": 0.0016599999507889152,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87874421,
+      "epoch": 1386831600.0,
+      "archive_index": 87874421,
+      "lon": {
+        "archive_raw": -76.10090637207031,
+        "canonical": -76.10090637207031,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 32.52389144897461,
+        "canonical": 32.52389144897461,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": 0.0007999999797903001,
+        "canonical": 0.0007999999797903001,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 36606,
+      "source_obs": 87874443,
+      "epoch": 1386910800.0,
+      "archive_index": 87874443,
+      "lon": {
+        "archive_raw": -75.9476089477539,
+        "canonical": -75.9476089477539,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 32.37303924560547,
+        "canonical": 32.37303924560547,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 6.839999855401402e-08,
+        "canonical": 6.839999855401402e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 5.069999886586629e-08,
+        "canonical": 5.069999886586629e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87117186,
+      "epoch": 1318982400.0,
+      "archive_index": 87117186,
+      "lon": {
+        "archive_raw": -78.73819732666016,
+        "canonical": -78.73819732666016,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.381540298461914,
+        "canonical": 30.381540298461914,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.000000330961484e-08,
+        "canonical": 4.000000330961484e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 4.8200000435372203e-08,
+        "canonical": 4.8200000435372203e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87117296,
+      "epoch": 1319378400.0,
+      "archive_index": 87117296,
+      "lon": {
+        "archive_raw": -78.2184829711914,
+        "canonical": -78.2184829711914,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.0704402923584,
+        "canonical": 31.0704402923584,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.069999993636884e-08,
+        "canonical": 2.069999993636884e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87117402,
+      "epoch": 1319760000.0,
+      "archive_index": 87117402,
+      "lon": {
+        "archive_raw": -78.36164855957031,
+        "canonical": -78.36164855957031,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.782419204711914,
+        "canonical": 30.782419204711914,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.6300000399714918e-08,
+        "canonical": 2.6300000399714918e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.559999832234098e-08,
+        "canonical": 6.559999832234098e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87117618,
+      "epoch": 1320537600.0,
+      "archive_index": 87117618,
+      "lon": {
+        "archive_raw": -77.69982147216797,
+        "canonical": -77.69982147216797,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.24139976501465,
+        "canonical": 31.24139976501465,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 6.169999977601037e-08,
+        "canonical": 6.169999977601037e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.3919999730660493e-07,
+        "canonical": 1.3919999730660493e-07,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87117834,
+      "epoch": 1321315200.0,
+      "archive_index": 87117834,
+      "lon": {
+        "archive_raw": -76.31504821777344,
+        "canonical": -76.31504821777344,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 33.51525115966797,
+        "canonical": 33.51525115966797,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.238999942643204e-07,
+        "canonical": 1.238999942643204e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 4.699999944790534e-09,
+        "canonical": 4.699999944790534e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 37032,
+      "source_obs": 87118051,
+      "epoch": 1322096400.0,
+      "archive_index": 87118051,
+      "lon": {
+        "archive_raw": -69.15675354003906,
+        "canonical": -69.15675354003906,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 38.3828010559082,
+        "canonical": 38.3828010559082,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.3600000237090626e-08,
+        "canonical": 1.3600000237090626e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 8.199999790292622e-09,
+        "canonical": 8.199999790292622e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 38595,
+      "source_obs": 83179553,
+      "epoch": 1295614800.0,
+      "archive_index": 83179553,
+      "lon": {
+        "archive_raw": -75.4822006225586,
+        "canonical": -75.4822006225586,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 33.759708404541016,
+        "canonical": 33.759708404541016,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.3600000237090626e-08,
+        "canonical": 1.3600000237090626e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.210000005220536e-08,
+        "canonical": 2.210000005220536e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 38595,
+      "source_obs": 83179652,
+      "epoch": 1295971200.0,
+      "archive_index": 83179652,
+      "lon": {
+        "archive_raw": -74.881103515625,
+        "canonical": -74.881103515625,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 33.87971115112305,
+        "canonical": 33.87971115112305,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.219999911152627e-08,
+        "canonical": 3.219999911152627e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 7.3000001599154984e-09,
+        "canonical": 7.3000001599154984e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 38595,
+      "source_obs": 83179751,
+      "epoch": 1296327600.0,
+      "archive_index": 83179751,
+      "lon": {
+        "archive_raw": -73.432373046875,
+        "canonical": -73.432373046875,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 35.08794021606445,
+        "canonical": 35.08794021606445,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.7799999574872345e-08,
+        "canonical": 3.7799999574872345e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 4.099999895146311e-09,
+        "canonical": 4.099999895146311e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 38595,
+      "source_obs": 83179850,
+      "epoch": 1296684000.0,
+      "archive_index": 83179850,
+      "lon": {
+        "archive_raw": -71.56285858154297,
+        "canonical": -71.56285858154297,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 35.605690002441406,
+        "canonical": 35.605690002441406,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.8500000581743734e-08,
+        "canonical": 2.8500000581743734e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.2999999682582484e-09,
+        "canonical": 2.2999999682582484e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 38595,
+      "source_obs": 83179950,
+      "epoch": 1297044000.0,
+      "archive_index": 83179950,
+      "lon": {
+        "archive_raw": -69.9490966796875,
+        "canonical": -69.9490966796875,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 37.10791015625,
+        "canonical": 37.10791015625,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.6799999492131974e-08,
+        "canonical": 3.6799999492131974e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.279999833376678e-08,
+        "canonical": 2.279999833376678e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 39095,
+      "source_obs": 82650015,
+      "epoch": 1337817600.0,
+      "archive_index": 82650015,
+      "lon": {
+        "archive_raw": -73.80377960205078,
+        "canonical": -73.80377960205078,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 33.83646011352539,
+        "canonical": 33.83646011352539,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.4999998455020886e-09,
+        "canonical": 3.4999998455020886e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 40009,
+      "source_obs": 85963755,
+      "epoch": 1311037200.0,
+      "archive_index": 85963755,
+      "lon": {
+        "archive_raw": -76.27008819580078,
+        "canonical": -76.27008819580078,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.145339965820312,
+        "canonical": 31.145339965820312,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": 0.001180000021122396,
+        "canonical": 0.001180000021122396,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 43869,
+      "source_obs": 80062576,
+      "epoch": 1410685200.0,
+      "archive_index": 80062576,
+      "lon": {
+        "archive_raw": -75.37889099121094,
+        "canonical": -75.37889099121094,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.61595916748047,
+        "canonical": 31.61595916748047,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.2200000121254106e-08,
+        "canonical": 1.2200000121254106e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 8.199999790292622e-09,
+        "canonical": 8.199999790292622e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 43869,
+      "source_obs": 80062875,
+      "epoch": 1411761600.0,
+      "archive_index": 80062875,
+      "lon": {
+        "archive_raw": -75.8730697631836,
+        "canonical": -75.8730697631836,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.995080947875977,
+        "canonical": 29.995080947875977,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.690000044935914e-08,
+        "canonical": 2.690000044935914e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.2999999965401798e-09,
+        "canonical": 1.2999999965401798e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 43869,
+      "source_obs": 80063281,
+      "epoch": 1413223200.0,
+      "archive_index": 80063281,
+      "lon": {
+        "archive_raw": -76.17693328857422,
+        "canonical": -76.17693328857422,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.022249221801758,
+        "canonical": 31.022249221801758,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.170000001910921e-08,
+        "canonical": 2.170000001910921e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.5400000325248584e-08,
+        "canonical": 2.5400000325248584e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 43869,
+      "source_obs": 80063679,
+      "epoch": 1414656000.0,
+      "archive_index": 80063679,
+      "lon": {
+        "archive_raw": -77.06864166259766,
+        "canonical": -77.06864166259766,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.297849655151367,
+        "canonical": 31.297849655151367,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.530000279918568e-08,
+        "canonical": 5.530000279918568e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.6999999630229468e-08,
+        "canonical": 1.6999999630229468e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 43869,
+      "source_obs": 80063978,
+      "epoch": 1415732400.0,
+      "archive_index": 80063978,
+      "lon": {
+        "archive_raw": -75.80831146240234,
+        "canonical": -75.80831146240234,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 28.451330184936523,
+        "canonical": 28.451330184936523,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 2.5000000292152436e-08,
+        "canonical": 2.5000000292152436e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 2.279999833376678e-08,
+        "canonical": 2.279999833376678e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 55118,
+      "source_obs": 28438264,
+      "epoch": 1167228000.0,
+      "archive_index": 28438264,
+      "lon": {
+        "archive_raw": -73.45529174804688,
+        "canonical": -73.45529174804688,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 36.06264877319336,
+        "canonical": 36.06264877319336,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 9.469999895372894e-08,
+        "canonical": 9.469999895372894e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 55353,
+      "source_obs": 40968165,
+      "epoch": 1183431600.0,
+      "archive_index": 40968165,
+      "lon": {
+        "archive_raw": -76.64290618896484,
+        "canonical": -76.64290618896484,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.58846092224121,
+        "canonical": 30.58846092224121,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.590000202142619e-08,
+        "canonical": 4.590000202142619e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 62228,
+      "source_obs": 45578364,
+      "epoch": 1175569200.0,
+      "archive_index": 45578364,
+      "lon": {
+        "archive_raw": -73.80290985107422,
+        "canonical": -73.80290985107422,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 34.76885986328125,
+        "canonical": 34.76885986328125,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.219999911152627e-08,
+        "canonical": 3.219999911152627e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85825117,
+      "epoch": 1308708000.0,
+      "archive_index": 85825117,
+      "lon": {
+        "archive_raw": -73.71778869628906,
+        "canonical": -73.71778869628906,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.358949661254883,
+        "canonical": 31.358949661254883,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 7.999999773744548e-09,
+        "canonical": 7.999999773744548e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.000000082740371e-08,
+        "canonical": 1.000000082740371e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85825382,
+      "epoch": 1309662000.0,
+      "archive_index": 85825382,
+      "lon": {
+        "archive_raw": -75.61328125,
+        "canonical": -75.61328125,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.863489151000977,
+        "canonical": 30.863489151000977,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.9899999870176543e-08,
+        "canonical": 1.9899999870176543e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.4799999448200651e-08,
+        "canonical": 1.4799999448200651e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85825655,
+      "epoch": 1310644800.0,
+      "archive_index": 85825655,
+      "lon": {
+        "archive_raw": -75.48551177978516,
+        "canonical": -75.48551177978516,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.92770004272461,
+        "canonical": 30.92770004272461,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 8.899999848210882e-09,
+        "canonical": 8.899999848210882e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.2200000121254106e-08,
+        "canonical": 1.2200000121254106e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85825921,
+      "epoch": 1311602400.0,
+      "archive_index": 85825921,
+      "lon": {
+        "archive_raw": -77.45149230957031,
+        "canonical": -77.45149230957031,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.578290939331055,
+        "canonical": 30.578290939331055,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.2219999234730494e-07,
+        "canonical": 1.2219999234730494e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 7.379999544809834e-08,
+        "canonical": 7.379999544809834e-08,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85826187,
+      "epoch": 1312560000.0,
+      "archive_index": 85826187,
+      "lon": {
+        "archive_raw": -78.2115478515625,
+        "canonical": -78.2115478515625,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 28.701169967651367,
+        "canonical": 28.701169967651367,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 3.839999962451657e-08,
+        "canonical": 3.839999962451657e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 1.0169999598019785e-07,
+        "canonical": 1.0169999598019785e-07,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 102594,
+      "source_obs": 84978020,
+      "epoch": 1307685600.0,
+      "archive_index": 84978020,
+      "lon": {
+        "archive_raw": -74.98400115966797,
+        "canonical": -74.98400115966797,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.846399307250977,
+        "canonical": 31.846399307250977,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.2599999972026126e-08,
+        "canonical": 4.2599999972026126e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 102594,
+      "source_obs": 84978021,
+      "epoch": 1307689200.0,
+      "archive_index": 84978021,
+      "lon": {
+        "archive_raw": -75.00392150878906,
+        "canonical": -75.00392150878906,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.846399307250977,
+        "canonical": 31.846399307250977,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.7499999671599653e-08,
+        "canonical": 1.7499999671599653e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 118491,
+      "source_obs": 94547095,
+      "epoch": 1382756400.0,
+      "archive_index": 94547095,
+      "lon": {
+        "archive_raw": -78.71795654296875,
+        "canonical": -78.71795654296875,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.607460021972656,
+        "canonical": 30.607460021972656,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 7.8699997629883e-08,
+        "canonical": 7.8699997629883e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 122599,
+      "source_obs": 97907748,
+      "epoch": 1370854800.0,
+      "archive_index": 97907748,
+      "lon": {
+        "archive_raw": -77.27214813232422,
+        "canonical": -77.27214813232422,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.724849700927734,
+        "canonical": 30.724849700927734,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 1.1559999535393217e-07,
+        "canonical": 1.1559999535393217e-07,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 122608,
+      "source_obs": 97974121,
+      "epoch": 1372431600.0,
+      "archive_index": 97974121,
+      "lon": {
+        "archive_raw": -75.72608184814453,
+        "canonical": -75.72608184814453,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 32.33185958862305,
+        "canonical": 32.33185958862305,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.490000193868582e-08,
+        "canonical": 4.490000193868582e-08,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": -9.999990463256836,
+        "canonical": -9.999990463256836,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 132498,
+      "source_obs": 125099986,
+      "epoch": 1453150800.0,
+      "archive_index": 125099986,
+      "lon": {
+        "archive_raw": -75.61591339111328,
+        "canonical": -75.61591339111328,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 33.14767074584961,
+        "canonical": 33.14767074584961,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": 0.011939999647438526,
+        "canonical": 0.011939999647438526,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476806,
+      "epoch": 1572112800.0,
+      "archive_index": 153476806,
+      "lon": {
+        "archive_raw": -78.70994006483608,
+        "canonical": -78.70994006483608,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.99861730279059,
+        "canonical": 30.99861730279059,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476807,
+      "epoch": 1572116400.0,
+      "archive_index": 153476807,
+      "lon": {
+        "archive_raw": -78.65539608408528,
+        "canonical": -78.65539608408528,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.006422351498436,
+        "canonical": 31.006422351498436,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476808,
+      "epoch": 1572120000.0,
+      "archive_index": 153476808,
+      "lon": {
+        "archive_raw": -78.68229188109501,
+        "canonical": -78.68229188109501,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.998708514598434,
+        "canonical": 30.998708514598434,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476809,
+      "epoch": 1572123600.0,
+      "archive_index": 153476809,
+      "lon": {
+        "archive_raw": -78.7172980945698,
+        "canonical": -78.7172980945698,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.99794579519575,
+        "canonical": 30.99794579519575,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476810,
+      "epoch": 1572127200.0,
+      "archive_index": 153476810,
+      "lon": {
+        "archive_raw": -78.74304875425378,
+        "canonical": -78.74304875425378,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.997650268788643,
+        "canonical": 30.997650268788643,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476811,
+      "epoch": 1572130800.0,
+      "archive_index": 153476811,
+      "lon": {
+        "archive_raw": -78.75939875638454,
+        "canonical": -78.75939875638454,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.997829259788954,
+        "canonical": 30.997829259788954,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476812,
+      "epoch": 1572134400.0,
+      "archive_index": 153476812,
+      "lon": {
+        "archive_raw": -78.77574875856095,
+        "canonical": -78.77574875856095,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.99800825078977,
+        "canonical": 30.99800825078977,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476813,
+      "epoch": 1572138000.0,
+      "archive_index": 153476813,
+      "lon": {
+        "archive_raw": -78.79209876069172,
+        "canonical": -78.79209876069172,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.998187241790085,
+        "canonical": 30.998187241790085,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476814,
+      "epoch": 1572141600.0,
+      "archive_index": 153476814,
+      "lon": {
+        "archive_raw": -78.79611247122023,
+        "canonical": -78.79611247122023,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.012155547330337,
+        "canonical": 31.012155547330337,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476815,
+      "epoch": 1572145200.0,
+      "archive_index": 153476815,
+      "lon": {
+        "archive_raw": -78.80325713491686,
+        "canonical": -78.80325713491686,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.023848017252508,
+        "canonical": 31.023848017252508,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234063940740,
+      "source_obs": 153476816,
+      "epoch": 1572148800.0,
+      "archive_index": 153476816,
+      "lon": {
+        "archive_raw": -78.80718761409724,
+        "canonical": -78.80718761409724,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.038217848762866,
+        "canonical": 31.038217848762866,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      },
+      "err_lat": {
+        "archive_raw": NaN,
+        "canonical": NaN,
+        "ratio": null
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167619732,
+      "epoch": 1550962800.0,
+      "archive_index": 167619732,
+      "lon": {
+        "archive_raw": -75.93974304199219,
+        "canonical": -75.93974304199219,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 32.07270050048828,
+        "canonical": 32.07270050048828,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.900000044078979e-09,
+        "canonical": 5.900000044078979e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 5.000000413701855e-09,
+        "canonical": 5.000000413701855e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167619826,
+      "epoch": 1551301200.0,
+      "archive_index": 167619826,
+      "lon": {
+        "archive_raw": -75.35597229003906,
+        "canonical": -75.35597229003906,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.893190383911133,
+        "canonical": 31.893190383911133,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 8.099999782018585e-09,
+        "canonical": 8.099999782018585e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 6.90000012681935e-09,
+        "canonical": 6.90000012681935e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167619921,
+      "epoch": 1551643200.0,
+      "archive_index": 167619921,
+      "lon": {
+        "archive_raw": -74.04814147949219,
+        "canonical": -74.04814147949219,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 31.23780059814453,
+        "canonical": 31.23780059814453,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.600000019256868e-09,
+        "canonical": 5.600000019256868e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 4.799999953064571e-09,
+        "canonical": 4.799999953064571e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167620016,
+      "epoch": 1551985200.0,
+      "archive_index": 167620016,
+      "lon": {
+        "archive_raw": -73.54035949707031,
+        "canonical": -73.54035949707031,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 30.33588981628418,
+        "canonical": 30.33588981628418,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 4.2999999116943854e-09,
+        "canonical": 4.2999999116943854e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 3.699999862050163e-09,
+        "canonical": 3.699999862050163e-09,
+        "ratio": 1.0
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167620111,
+      "epoch": 1552327200.0,
+      "archive_index": 167620111,
+      "lon": {
+        "archive_raw": -74.21910858154297,
+        "canonical": -74.21910858154297,
+        "ratio": 1.0
+      },
+      "lat": {
+        "archive_raw": 29.78449058532715,
+        "canonical": 29.78449058532715,
+        "ratio": 1.0
+      },
+      "err_lon": {
+        "archive_raw": 5.800000035804942e-09,
+        "canonical": 5.800000035804942e-09,
+        "ratio": 1.0
+      },
+      "err_lat": {
+        "archive_raw": 5.000000413701855e-09,
+        "canonical": 5.000000413701855e-09,
+        "ratio": 1.0
+      }
+    }
+  ],
+  "unmatched": [],
+  "elapsed_seconds": 40.50952441699337
+}

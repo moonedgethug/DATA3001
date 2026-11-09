@@ -1,0 +1,18 @@
+{
+  "completed": false,
+  "denied_access": [
+    {
+      "path": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/outer_targets.parquet",
+      "reason": "Full forecast freeze required"
+    }
+  ],
+  "elapsed_seconds": 17.302974249934778,
+  "final_test_access": false,
+  "outer_targets_read": false,
+  "peak_process_tree_rss_bytes": 425132032,
+  "peak_storage_bytes": 3738840721,
+  "phase": "report",
+  "prior_phase_seconds": 0,
+  "prior_total_seconds": 45348.66788016725,
+  "retained_bytes": 3738840721
+}

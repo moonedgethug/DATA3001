@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "denied_access": [],
+  "elapsed_seconds": 302.76481037493795,
+  "final_test_access": false,
+  "outer_targets_read": false,
+  "peak_process_tree_rss_bytes": 1228161024,
+  "peak_storage_bytes": 2844059132,
+  "phase": "checks",
+  "prior_phase_seconds": 475.0600257910555,
+  "prior_total_seconds": 10629.281922875089,
+  "retained_bytes": 2844059132
+}

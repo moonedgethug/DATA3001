@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "contract_sha256": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+  "core_release_sha256": "0ada779800103b235c78762c34870c31fef8958042e3d5954b34395b358a32ca",
+  "delivery_source_manifest_sha256": "b90fa2abcbe5e532964f2525b771223f8c57def5b0ea83ee0c80df3482ca475e",
+  "final_test_access": false,
+  "model_or_selection_changed": false,
+  "result_sha256": {
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/component_diagnostics.parquet": "de53756d66054b88f71f681106a7fce92e6cd48f38ba41956343a01578f3c41f",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/component_support.png": "a9002a4fa09ff1530c8b62e46162dea26e03df2be42a4fc6341f508eca180a9f",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/descriptive_donor_id_band.csv": "9e74669e2d10daa95568a8183b8e80ff1dbb69fb8f9a5d3ddc13f6ada0666055",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/descriptive_donor_pair_band.csv": "376fb12f6abf8929857a643ea6f0a07a278760e7a7dcfb7b790478bb8e093b03",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/descriptive_largest_id_share_band.csv": "8a62c36c8f61766ca5101b063492ed52e9f90d21f7144af679080de591bc9818",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/descriptive_year.csv": "b2352f59221ad5dbb394a522e400319d5ae576a0202e72c7f1980c3f071b9f71",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/diagnostic_notes.md": "8b8ea404f2c1e0851cf445d501f25036abd67eccef58dcc2122a1e555e50ef03",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/fallback_and_floor.png": "2146b9e35aecfa34f19693e50600c1573566a506a05a14483276c66c04d8b298",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/fallback_locations.png": "665c2a1b0ed81b0c0690dab6a2b0a1a1a3d75ef72331205e25b34c0afb890327",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/fit_diagnostic_summary.csv": "e5bc743ab82cb99116061e65fb2c992a7657917fb0883afb0a3244205b58f7ad",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/index.html": "646a3bea159a2a08b31581a8c6723710aa6a7bbd4def6e3ba94dac86bd6e2962",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/inner_fit_diagnostics.parquet": "6d3099decdc80cc5ebb9725932b25893c244f2880273e60a275aa8bef340cf97",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/inner_selection.csv": "8d17e182ff594502110ad1cff4fdc6b9d3366fc464557f536bc7205d41892028",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/leave_one_id_out.csv": "2db565b38359adef7e812f12d5279d79e581e93049e0a70a3bf49c9949d36a4a",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/leave_one_id_out.png": "54a4d1dca41d7ed03f373299d0755f99fe63e89170826d280c93f454bcee40a6",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/selection_receipt.json": "08ae71109b1742f940be3f8e3a9c24d629ad9d13ddabdee689600162d2c482f8"
+  }
+}

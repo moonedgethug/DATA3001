@@ -1,0 +1,21 @@
+test_fine_endpoint_counts_coarsen_without_uniform_splitting (test_modelling_exact_origin_s4_e7.ForecastTests.test_fine_endpoint_counts_coarsen_without_uniform_splitting) ... ok
+test_missing_areas_or_unsupported_negative_states_fail (test_modelling_exact_origin_s4_e7.ForecastTests.test_missing_areas_or_unsupported_negative_states_fail) ... ok
+test_sparse_truth_outside_support_and_exit (test_modelling_exact_origin_s4_e7.ForecastTests.test_sparse_truth_outside_support_and_exit) ... ok
+test_zero_exit_and_positive_region_ties (test_modelling_exact_origin_s4_e7.ForecastTests.test_zero_exit_and_positive_region_ties) ... ok
+test_caps_ties_duplicates_and_source_multiplicity (test_modelling_exact_origin_s4_e7.NeighbourTests.test_caps_ties_duplicates_and_source_multiplicity) ... ok
+test_cell_boundary_does_not_restrict_neighbours (test_modelling_exact_origin_s4_e7.NeighbourTests.test_cell_boundary_does_not_restrict_neighbours) ... ok
+test_complete_support_check_including_chord_order_refinement (test_modelling_exact_origin_s4_e7.NeighbourTests.test_complete_support_check_including_chord_order_refinement) ... ok
+test_distance_calls_obey_batch_limit (test_modelling_exact_origin_s4_e7.NeighbourTests.test_distance_calls_obey_batch_limit) ... ok
+test_exhaustive_equivalence_equator_poles_and_dateline (test_modelling_exact_origin_s4_e7.NeighbourTests.test_exhaustive_equivalence_equator_poles_and_dateline) ... ok
+test_no_support_and_invalid_inputs (test_modelling_exact_origin_s4_e7.NeighbourTests.test_no_support_and_invalid_inputs) ... ok
+test_refinement_can_recover_geodesically_closer_nonseed (test_modelling_exact_origin_s4_e7.NeighbourTests.test_refinement_can_recover_geodesically_closer_nonseed) ... ok
+test_exit_never_uses_a_later_endpoint (test_modelling_exact_origin_s4_e7_inputs.CoordinateChecks.test_exit_never_uses_a_later_endpoint) ... ok
+test_source_keys_preserve_real_positions_despite_input_order (test_modelling_exact_origin_s4_e7_inputs.CoordinateChecks.test_source_keys_preserve_real_positions_despite_input_order) ... ok
+test_wrong_start_or_endpoint_time_is_rejected (test_modelling_exact_origin_s4_e7_inputs.CoordinateChecks.test_wrong_start_or_endpoint_time_is_rejected) ... ok
+test_boolean_exit_region_flags_and_shared_id_draws (test_modelling_exact_origin_s4_e7_report.ReportRegressionTests.test_boolean_exit_region_flags_and_shared_id_draws) ... ok
+test_large_mixed_indicator_table_has_precise_area_mean (test_modelling_exact_origin_s4_e7_report.ReportRegressionTests.test_large_mixed_indicator_table_has_precise_area_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.126s
+
+OK

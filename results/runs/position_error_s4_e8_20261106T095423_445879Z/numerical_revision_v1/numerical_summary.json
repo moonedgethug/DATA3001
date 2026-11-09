@@ -1,0 +1,7 @@
+{
+  "CI_models_SE_measures_paired_difference_to_ExactPoint": true,
+  "absolute_point_ES_is_MC_estimate": true,
+  "primary_delta_ES_mc_se_km": 3.609023785045856e-05,
+  "three_se_km": 0.00010827071355137569,
+  "threshold_km": 0.013421921152788284
+}

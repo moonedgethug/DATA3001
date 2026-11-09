@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-07T17:17:24.515768+00:00",
+  "source_revision": 3,
+  "user_authorization": "允许采用优化方案，完整进行验证并完成最终模型；严格按优化后方案继续。",
+  "change": "Integrate previously verified same-node scorer; omit unused geometry and donor-lineage loading in score-only stages",
+  "scientific_model_changed": false,
+  "training_weights_changed": false,
+  "cohorts_changed": false,
+  "precision_changed": false,
+  "resource_caps_changed": false,
+  "configuration_added_field": "score_native_path",
+  "tests_passed": 761,
+  "independent_read_only_review": "score_optimization_review: no concrete integration blockers",
+  "preserved_configuration": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/resume_preparation/frozen_config.json",
+  "reuse_basis": "Validated ES/replicate/variance difference zero on 128 fixed and 2176 retained queries",
+  "outer_targets_read": false,
+  "final_test_access": false
+}

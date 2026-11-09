@@ -1,0 +1,15 @@
+{
+  "created_UTC": "2026-11-02T00:51:10.465512+00:00",
+  "files": {
+    "destination_states.npy": "763ed1bdca13bde85f1cb2fad5594eb79bd6b7699d75ea1a103c74d05b99c7c7",
+    "forecast_metadata.csv": "52ba99990680090264e57c6f1fb4f9811983a30ea49489317d217c011bf74f81",
+    "id_roles.json": "1c7d1834ff313b57c57d1844a2fba119a67cf43e2f6223ce63feffb2f62af881",
+    "matrix_keys.csv": "0163161280940824b7c9b864232af67cb774bbc1d25c4e6cb3c1e769c4c7afe8",
+    "matrix_vectors.npy": "b0832bacaf1cb8e045422287b67f5e7689070078b2c96b92ee134d96a9450dcc",
+    "predictions.parquet": "33f51a7b699af80e46d62f109501654462e5f2ade57931b6a4203e3243beb972",
+    "training_support.csv": "10bfd84c49c83b3c62f9338a605e86690f6f5e9d2fc29f58c80f8eefe288289c",
+    "validation_denominators.parquet": "91d8ff3f64de8e80d4e1d8d7fde22456b0ee38a4039a97a9fcfb36a69ce482dd"
+  },
+  "scientific_definition_sha256": "7ca90799ef470b6cdd35d6a69844beab4d4685b4eca5d1294e327269c4272eb1",
+  "stage": "FORECASTS_FROZEN_BEFORE_SCORING"
+}

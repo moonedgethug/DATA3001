@@ -1,0 +1,89 @@
+test_complete_freeze_rejects_missing_duplicate_or_reordered_keys (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_complete_freeze_rejects_missing_duplicate_or_reordered_keys) ... FAIL
+test_equal_id_summary_is_not_pair_weighted (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_equal_id_summary_is_not_pair_weighted) ... FAIL
+test_independent_gaussian_covariance_uses_n_and_full_correlation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_gaussian_covariance_uses_n_and_full_correlation) ... FAIL
+test_independent_region_integer_quantile_and_exact_membership (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_region_integer_quantile_and_exact_membership) ... FAIL
+test_lineage_roundtrip_preserves_order_ties_and_empty_lists (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_lineage_roundtrip_preserves_order_ties_and_empty_lists) ... FAIL
+test_quality_rule_does_not_hide_observed_hit_degradation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_quality_rule_does_not_hide_observed_hit_degradation) ... FAIL
+test_unbiased_auxiliary_uses_independent_mean_cross_product (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_unbiased_auxiliary_uses_independent_mean_cross_product) ... FAIL
+
+======================================================================
+FAIL: test_complete_freeze_rejects_missing_duplicate_or_reordered_keys (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_complete_freeze_rejects_missing_duplicate_or_reordered_keys)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 25, in test_complete_freeze_rejects_missing_duplicate_or_reordered_keys
+    m=self.module('full')
+      ^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_equal_id_summary_is_not_pair_weighted (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_equal_id_summary_is_not_pair_weighted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 32, in test_equal_id_summary_is_not_pair_weighted
+    m=self.module('analysis')
+      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_independent_gaussian_covariance_uses_n_and_full_correlation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_gaussian_covariance_uses_n_and_full_correlation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 48, in test_independent_gaussian_covariance_uses_n_and_full_correlation
+    m=self.module('reference')
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_independent_region_integer_quantile_and_exact_membership (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_region_integer_quantile_and_exact_membership)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 55, in test_independent_region_integer_quantile_and_exact_membership
+    m=self.module('reference')
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_lineage_roundtrip_preserves_order_ties_and_empty_lists (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_lineage_roundtrip_preserves_order_ties_and_empty_lists)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 17, in test_lineage_roundtrip_preserves_order_ties_and_empty_lists
+    m=self.module('full')
+      ^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_quality_rule_does_not_hide_observed_hit_degradation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_quality_rule_does_not_hide_observed_hit_degradation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 40, in test_quality_rule_does_not_hide_observed_hit_degradation
+    m=self.module('analysis')
+      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+======================================================================
+FAIL: test_unbiased_auxiliary_uses_independent_mean_cross_product (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_unbiased_auxiliary_uses_independent_mean_cross_product)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 63, in test_unbiased_auxiliary_uses_independent_mean_cross_product
+    m=self.module('analysis')
+      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(BASE+suffix),'Full-run module missing')
+AssertionError: unexpectedly None : Full-run module missing
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+FAILED (failures=7)

@@ -1,0 +1,16 @@
+{
+  "id": "300234066312880",
+  "wmo": "4101688",
+  "canonical_and_native_end_epoch": 1559001600.0,
+  "official_directory_end_epoch": 1559044800.0,
+  "official_directory_end_UTC": "2019-05-28 12:00:00+00:00",
+  "native_last_hour_epoch": 1559044800.0,
+  "source_imei_verified": true,
+  "source_wmo_verified": true,
+  "directory_end_coordinates_match_native": true,
+  "official_directory_same_bytes_as_20261016": true,
+  "pairs_beyond_native_field": 12,
+  "pairs_beyond_official_directory": 0,
+  "native_source_sha256": "36debe51a223612083c569c6a5c58d890d583c32dfa3f9804114ac01cd63f885",
+  "interpretation": "Native metadata omits the time of day present in the official directory; these 12 pairs do not exceed the independently verified official last-good time. No exclusion justified by this time-boundary flag."
+}

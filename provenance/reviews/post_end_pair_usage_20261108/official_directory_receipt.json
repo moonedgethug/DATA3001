@@ -1,0 +1,10 @@
+{
+  "url": "ftp://ftp.aoml.noaa.gov/phod/pub/buoydata/dirfl_15001_current.dat",
+  "retrieved_UTC": "2026-11-08T05:01:27.888522+00:00",
+  "server_mtime": "213 20260414105815",
+  "full_response_sha256": "f368d3f066a997631b75d92f52ae01d4aefba569e24d7cc64bb8f6b2c1879f82",
+  "full_response_bytes": 1781302,
+  "matching_rows": [
+    "300234066312880 4101688 21312    SVPB  2019/05/07 15:36   30.06   279.90 2019/05/28 12:00   34.93   284.65 2019/05/07 15:36  1"
+  ]
+}

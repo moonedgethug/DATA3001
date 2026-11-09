@@ -1,0 +1,253 @@
+pilot support audit 32 /128 3.1 s
+pilot support audit 64 /128 6.3 s
+pilot support audit 96 /128 10.2 s
+pilot support audit 128 /128 13.9 s
+pilot precision 4096 16384 32 /128 19.7 s
+pilot precision 4096 16384 64 /128 23.1 s
+pilot precision 4096 16384 96 /128 26.1 s
+pilot precision 4096 16384 128 /128 29.7 s
+{"energy_count": 4096, "region_count": 16384, "energy_passed": false, "region_passed": true, "energy_projection": {"SeasonalExactPoint": {"three_se_km": 0.08163251489227823, "threshold_km": 0.015064589288469746}, "SeasonalEndpointCI": {"three_se_km": 0.08163341150831173, "threshold_km": 0.015064582371866232}}, "region_checks": {"AnnualEndpointCI": {"max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, "AnnualExactPoint": {"max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, "SeasonalEndpointCI": {"max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, "SeasonalExactPoint": {"max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}}, "case_seconds_p95": 0.10658138294238598, "case_seconds_max": 0.17621366609819233, "formal_projected_seconds": 4048.743775929374, "formal_projection_2x_seconds": 8097.487551858748}
+pilot precision 8192 16384 32 /128 33.7 s
+pilot precision 8192 16384 64 /128 37.9 s
+pilot precision 8192 16384 96 /128 41.7 s
+pilot precision 8192 16384 128 /128 45.9 s
+{"energy_count": 8192, "region_count": 16384, "energy_passed": false, "region_passed": true, "energy_projection": {"SeasonalExactPoint": {"three_se_km": 0.057495032500042474, "threshold_km": 0.015066257279592427}, "SeasonalEndpointCI": {"three_se_km": 0.05749486770313149, "threshold_km": 0.015066208813582501}}, "region_checks": {"AnnualEndpointCI": {"max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, "AnnualExactPoint": {"max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, "SeasonalEndpointCI": {"max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, "SeasonalExactPoint": {"max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}}, "case_seconds_p95": 0.11906547946273349, "case_seconds_max": 0.2068704580888152, "formal_projected_seconds": 4515.250743111372, "formal_projection_2x_seconds": 9030.501486222744}
+pilot precision 16384 16384 32 /128 51.8 s
+pilot precision 16384 16384 64 /128 57.7 s
+pilot precision 16384 16384 96 /128 63.0 s
+pilot precision 16384 16384 128 /128 69.1 s
+{"energy_count": 16384, "region_count": 16384, "energy_passed": false, "region_passed": true, "energy_projection": {"SeasonalExactPoint": {"three_se_km": 0.04067063699040702, "threshold_km": 0.015072739025135161}, "SeasonalEndpointCI": {"three_se_km": 0.040670740103773806, "threshold_km": 0.015072698396302014}}, "region_checks": {"AnnualEndpointCI": {"max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, "AnnualExactPoint": {"max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, "SeasonalEndpointCI": {"max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, "SeasonalExactPoint": {"max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}}, "case_seconds_p95": 0.1545107769838068, "case_seconds_max": 0.23151816695462912, "formal_projected_seconds": 5839.774165408591, "formal_projection_2x_seconds": 11679.548330817182}
+pilot precision 32768 16384 32 /128 77.4 s
+pilot precision 32768 16384 64 /128 85.9 s
+pilot precision 32768 16384 96 /128 94.7 s
+pilot precision 32768 16384 128 /128 104.1 s
+{"energy_count": 32768, "region_count": 16384, "energy_passed": false, "region_passed": true, "energy_projection": {"SeasonalExactPoint": {"three_se_km": 0.028694258202125567, "threshold_km": 0.015065959659229959}, "SeasonalEndpointCI": {"three_se_km": 0.02869403802892135, "threshold_km": 0.015065953273117624}}, "region_checks": {"AnnualEndpointCI": {"max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, "AnnualExactPoint": {"max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, "SeasonalEndpointCI": {"max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, "SeasonalExactPoint": {"max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}}, "case_seconds_p95": 0.19691544955130663, "case_seconds_max": 0.26499112404417247, "formal_projected_seconds": 7424.3562103781815, "formal_projection_2x_seconds": 14848.712420756363}
+pilot precision 65536 16384 32 /128 119.6 s
+pilot precision 65536 16384 64 /128 135.2 s
+pilot precision 65536 16384 96 /128 150.3 s
+pilot precision 65536 16384 128 /128 166.1 s
+{"energy_count": 65536, "region_count": 16384, "energy_passed": false, "region_passed": true, "energy_projection": {"SeasonalExactPoint": {"three_se_km": 0.020300047776896854, "threshold_km": 0.015061888297937259}, "SeasonalEndpointCI": {"three_se_km": 0.020300027752376916, "threshold_km": 0.015061856640245487}}, "region_checks": {"AnnualEndpointCI": {"max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, "AnnualExactPoint": {"max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, "SeasonalEndpointCI": {"max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, "SeasonalExactPoint": {"max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}}, "case_seconds_p95": 0.31995059364126055, "case_seconds_max": 0.3638875000178814, "formal_projected_seconds": 12021.94577824599, "formal_projection_2x_seconds": 24043.89155649198}
+{
+  "pilot_passed": false,
+  "numerical_passed": false,
+  "resource_precheck_passed": false,
+  "formal_authorized": false,
+  "remaining_gate": "Stop and report; no formal run",
+  "energy_count": 65536,
+  "region_count": 16384,
+  "levels": [
+    {
+      "energy_count": 4096,
+      "region_count": 16384,
+      "energy_passed": false,
+      "region_passed": true,
+      "energy_projection": {
+        "SeasonalExactPoint": {
+          "three_se_km": 0.08163251489227823,
+          "threshold_km": 0.015064589288469746
+        },
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.08163341150831173,
+          "threshold_km": 0.015064582371866232
+        }
+      },
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      },
+      "case_seconds_p95": 0.10658138294238598,
+      "case_seconds_max": 0.17621366609819233,
+      "formal_projected_seconds": 4048.743775929374,
+      "formal_projection_2x_seconds": 8097.487551858748
+    },
+    {
+      "energy_count": 8192,
+      "region_count": 16384,
+      "energy_passed": false,
+      "region_passed": true,
+      "energy_projection": {
+        "SeasonalExactPoint": {
+          "three_se_km": 0.057495032500042474,
+          "threshold_km": 0.015066257279592427
+        },
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.05749486770313149,
+          "threshold_km": 0.015066208813582501
+        }
+      },
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      },
+      "case_seconds_p95": 0.11906547946273349,
+      "case_seconds_max": 0.2068704580888152,
+      "formal_projected_seconds": 4515.250743111372,
+      "formal_projection_2x_seconds": 9030.501486222744
+    },
+    {
+      "energy_count": 16384,
+      "region_count": 16384,
+      "energy_passed": false,
+      "region_passed": true,
+      "energy_projection": {
+        "SeasonalExactPoint": {
+          "three_se_km": 0.04067063699040702,
+          "threshold_km": 0.015072739025135161
+        },
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.040670740103773806,
+          "threshold_km": 0.015072698396302014
+        }
+      },
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      },
+      "case_seconds_p95": 0.1545107769838068,
+      "case_seconds_max": 0.23151816695462912,
+      "formal_projected_seconds": 5839.774165408591,
+      "formal_projection_2x_seconds": 11679.548330817182
+    },
+    {
+      "energy_count": 32768,
+      "region_count": 16384,
+      "energy_passed": false,
+      "region_passed": true,
+      "energy_projection": {
+        "SeasonalExactPoint": {
+          "three_se_km": 0.028694258202125567,
+          "threshold_km": 0.015065959659229959
+        },
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.02869403802892135,
+          "threshold_km": 0.015065953273117624
+        }
+      },
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      },
+      "case_seconds_p95": 0.19691544955130663,
+      "case_seconds_max": 0.26499112404417247,
+      "formal_projected_seconds": 7424.3562103781815,
+      "formal_projection_2x_seconds": 14848.712420756363
+    },
+    {
+      "energy_count": 65536,
+      "region_count": 16384,
+      "energy_passed": false,
+      "region_passed": true,
+      "energy_projection": {
+        "SeasonalExactPoint": {
+          "three_se_km": 0.020300047776896854,
+          "threshold_km": 0.015061888297937259
+        },
+        "SeasonalEndpointCI": {
+          "three_se_km": 0.020300027752376916,
+          "threshold_km": 0.015061856640245487
+        }
+      },
+      "region_checks": {
+        "AnnualEndpointCI": {
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        "AnnualExactPoint": {
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        "SeasonalEndpointCI": {
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        "SeasonalExactPoint": {
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      },
+      "case_seconds_p95": 0.31995059364126055,
+      "case_seconds_max": 0.3638875000178814,
+      "formal_projected_seconds": 12021.94577824599,
+      "formal_projection_2x_seconds": 24043.89155649198
+    }
+  ],
+  "queries": 128,
+  "outer_targets_read": false,
+  "final_test_access": false
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "phase": "pilot",
+  "independent_engine": "h5py raw HDF5, separate time/metadata/matching/classification implementation",
+  "IDs": 19,
+  "target_rows": 28751,
+  "accepted_lon": 27744,
+  "accepted_lat": 27737,
+  "ci_2d_usable": 27733,
+  "matched_rows": 27748,
+  "status_lon": {
+    "restored_scale": 27744,
+    "estimation_version_unresolved": 1003,
+    "zero_unresolved": 4
+  },
+  "status_lat": {
+    "restored_scale": 27733,
+    "estimation_version_unresolved": 1003,
+    "zero_unresolved": 11,
+    "verified_unchanged": 4
+  },
+  "match_status": {
+    "matched": 27748,
+    "estimation_version_unresolved": 1003
+  },
+  "regression_cases": {
+    "unscaled_latitude_preserved": 4,
+    "negative_to_zero_unresolved": 10,
+    "anchor_endpoint_values": 3208
+  },
+  "protected_files_unchanged": 345,
+  "validation_seconds": 1.36499512498267,
+  "projected_full_seconds_with_2x_margin": 6208.391958588048,
+  "pilot_budget_projection_passed": true,
+  "models_run": false,
+  "final_test_accessed": false,
+  "outer_endpoint_errors_accessed": false
+}

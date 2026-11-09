@@ -1,0 +1,100 @@
+{"stage": "scoring all four models", "completed": 512, "total": 33971, "elapsed_seconds": 11.22}
+{"stage": "scoring all four models", "completed": 1024, "total": 33971, "elapsed_seconds": 22.45}
+{"stage": "scoring all four models", "completed": 1536, "total": 33971, "elapsed_seconds": 33.73}
+{"stage": "scoring all four models", "completed": 2048, "total": 33971, "elapsed_seconds": 45.16}
+{"stage": "scoring all four models", "completed": 2560, "total": 33971, "elapsed_seconds": 56.57}
+{"stage": "scoring all four models", "completed": 3072, "total": 33971, "elapsed_seconds": 67.93}
+{"stage": "scoring all four models", "completed": 3584, "total": 33971, "elapsed_seconds": 79.24}
+{"stage": "scoring all four models", "completed": 4096, "total": 33971, "elapsed_seconds": 90.67}
+{"stage": "scoring all four models", "completed": 4608, "total": 33971, "elapsed_seconds": 102.01}
+{"stage": "scoring all four models", "completed": 5120, "total": 33971, "elapsed_seconds": 113.42}
+{"stage": "scoring all four models", "completed": 5632, "total": 33971, "elapsed_seconds": 124.73}
+{"stage": "scoring all four models", "completed": 6144, "total": 33971, "elapsed_seconds": 136.13}
+{"stage": "scoring all four models", "completed": 6656, "total": 33971, "elapsed_seconds": 147.62}
+{"stage": "scoring all four models", "completed": 7168, "total": 33971, "elapsed_seconds": 158.95}
+{"stage": "scoring all four models", "completed": 7680, "total": 33971, "elapsed_seconds": 170.36}
+{"stage": "scoring all four models", "completed": 8192, "total": 33971, "elapsed_seconds": 181.84}
+{"stage": "scoring all four models", "completed": 8704, "total": 33971, "elapsed_seconds": 193.34}
+{"stage": "scoring all four models", "completed": 9216, "total": 33971, "elapsed_seconds": 204.79}
+{"stage": "scoring all four models", "completed": 9728, "total": 33971, "elapsed_seconds": 216.25}
+{"stage": "scoring all four models", "completed": 10240, "total": 33971, "elapsed_seconds": 227.64}
+{"stage": "scoring all four models", "completed": 10752, "total": 33971, "elapsed_seconds": 239.02}
+{"stage": "scoring all four models", "completed": 11264, "total": 33971, "elapsed_seconds": 250.57}
+{"stage": "scoring all four models", "completed": 11776, "total": 33971, "elapsed_seconds": 261.94}
+{"stage": "scoring all four models", "completed": 12288, "total": 33971, "elapsed_seconds": 273.3}
+{"stage": "scoring all four models", "completed": 12800, "total": 33971, "elapsed_seconds": 284.53}
+{"stage": "scoring all four models", "completed": 13312, "total": 33971, "elapsed_seconds": 296.06}
+{"stage": "scoring all four models", "completed": 13824, "total": 33971, "elapsed_seconds": 307.68}
+{"stage": "scoring all four models", "completed": 14336, "total": 33971, "elapsed_seconds": 319.14}
+{"stage": "scoring all four models", "completed": 14848, "total": 33971, "elapsed_seconds": 330.49}
+{"stage": "scoring all four models", "completed": 15360, "total": 33971, "elapsed_seconds": 341.93}
+{"stage": "scoring all four models", "completed": 15872, "total": 33971, "elapsed_seconds": 353.52}
+{"stage": "scoring all four models", "completed": 16384, "total": 33971, "elapsed_seconds": 365.08}
+{"stage": "scoring all four models", "completed": 16896, "total": 33971, "elapsed_seconds": 376.49}
+{"stage": "scoring all four models", "completed": 17408, "total": 33971, "elapsed_seconds": 387.83}
+{"stage": "scoring all four models", "completed": 17920, "total": 33971, "elapsed_seconds": 399.21}
+{"stage": "scoring all four models", "completed": 18432, "total": 33971, "elapsed_seconds": 410.58}
+{"stage": "scoring all four models", "completed": 18944, "total": 33971, "elapsed_seconds": 422.04}
+{"stage": "scoring all four models", "completed": 19456, "total": 33971, "elapsed_seconds": 433.51}
+{"stage": "scoring all four models", "completed": 19968, "total": 33971, "elapsed_seconds": 444.95}
+{"stage": "scoring all four models", "completed": 20480, "total": 33971, "elapsed_seconds": 456.39}
+{"stage": "scoring all four models", "completed": 20992, "total": 33971, "elapsed_seconds": 467.78}
+{"stage": "scoring all four models", "completed": 21504, "total": 33971, "elapsed_seconds": 479.01}
+{"stage": "scoring all four models", "completed": 22016, "total": 33971, "elapsed_seconds": 490.37}
+{"stage": "scoring all four models", "completed": 22528, "total": 33971, "elapsed_seconds": 501.91}
+{"stage": "scoring all four models", "completed": 23040, "total": 33971, "elapsed_seconds": 513.43}
+{"stage": "scoring all four models", "completed": 23552, "total": 33971, "elapsed_seconds": 525.08}
+{"stage": "scoring all four models", "completed": 24064, "total": 33971, "elapsed_seconds": 536.55}
+{"stage": "scoring all four models", "completed": 24576, "total": 33971, "elapsed_seconds": 548.14}
+{"stage": "scoring all four models", "completed": 25088, "total": 33971, "elapsed_seconds": 559.66}
+{"stage": "scoring all four models", "completed": 25600, "total": 33971, "elapsed_seconds": 571.21}
+{"stage": "scoring all four models", "completed": 26112, "total": 33971, "elapsed_seconds": 582.68}
+{"stage": "scoring all four models", "completed": 26624, "total": 33971, "elapsed_seconds": 594.1}
+{"stage": "scoring all four models", "completed": 27136, "total": 33971, "elapsed_seconds": 605.42}
+{"stage": "scoring all four models", "completed": 27648, "total": 33971, "elapsed_seconds": 616.68}
+{"stage": "scoring all four models", "completed": 28160, "total": 33971, "elapsed_seconds": 628.41}
+{"stage": "scoring all four models", "completed": 28672, "total": 33971, "elapsed_seconds": 639.94}
+{"stage": "scoring all four models", "completed": 29184, "total": 33971, "elapsed_seconds": 651.56}
+{"stage": "scoring all four models", "completed": 29696, "total": 33971, "elapsed_seconds": 663.06}
+{"stage": "scoring all four models", "completed": 30208, "total": 33971, "elapsed_seconds": 674.41}
+{"stage": "scoring all four models", "completed": 30720, "total": 33971, "elapsed_seconds": 685.86}
+{"stage": "scoring all four models", "completed": 31232, "total": 33971, "elapsed_seconds": 697.25}
+{"stage": "scoring all four models", "completed": 31744, "total": 33971, "elapsed_seconds": 708.68}
+{"stage": "scoring all four models", "completed": 32256, "total": 33971, "elapsed_seconds": 720.14}
+{"stage": "scoring all four models", "completed": 32768, "total": 33971, "elapsed_seconds": 731.55}
+{"stage": "scoring all four models", "completed": 33280, "total": 33971, "elapsed_seconds": 743.02}
+{"stage": "scoring all four models", "completed": 33792, "total": 33971, "elapsed_seconds": 754.55}
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 531, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 5207 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py", line 233, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py", line 225, in main
+    else:globals()[stage](*args)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py", line 209, in score
+    analyze(paths,run,scores)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_analysis.py", line 70, in analyze
+    for q in [.1,.5,.9]:row[f'area_q{int(q*100)}']=weighted_quantile(g.area90_km2,w,q)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_analysis.py", line 15, in weighted_quantile
+    order=np.argsort(values);return float(np.asarray(values)[order[np.searchsorted(np.cumsum(np.asarray(weights)[order]),q*sum(weights))]])
+                                                             ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 959, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 1046, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 533, in get_loc
+    raise KeyError(key) from err
+KeyError: np.int64(5207)

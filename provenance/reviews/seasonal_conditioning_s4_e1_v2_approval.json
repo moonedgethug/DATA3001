@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "date_UTC": "2026-11-02T00:37:08.090964+00:00",
+  "contract": "docs/seasonal_conditioning_s4_e1_contract.md",
+  "contract_sha256": "de652a290b454eb2073e4ac1d2ca4ed35ebb59729443c74f445507989f558aaf",
+  "user_instruction": "我确认这版 Step 4 E1 v2 工程 contract，请开始独立开发，先完成资源试跑，通过检查后在预算内完成实验。完成后复核结果并提供可视化，重点比较全年 B2 与 c=1 季节 B2 在 7／30 天的 Brier、90% 区域格数及实际命中率，单独报告季节回退情况，明确是否实现质量不退化的改善。",
+  "scope": "Implementation, synthetic checks, full-roster pilot; if passed, bounded primary and fresh replay, audit and visualization. No further model search or final test."
+}

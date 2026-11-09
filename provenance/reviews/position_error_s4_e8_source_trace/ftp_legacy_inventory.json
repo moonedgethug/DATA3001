@@ -1,0 +1,32 @@
+{
+  "/phod/pub/lumpkin/hourly": [
+    "-rw-rw-r--   1 matthieu.lehenaff phod          743 Feb  2  2023 README_citation.txt",
+    "drwxrwxr-x   2 matthieu.lehenaff phod        20272 May 15  2025 experimental",
+    "drwxr-xr-x   2 dolk     phod        19750 Sep 16  2025 experimental_sfiles",
+    "drwxrwxr-x   2 matthieu.lehenaff phod            9 Jul 16  2018 v1.00",
+    "drwxrwxr-x   2 matthieu.lehenaff phod            7 Jul 16  2018 v1.01",
+    "drwxrwxr-x   2 matthieu.lehenaff phod           20 Nov 12  2020 v1.02",
+    "drwxrwxr-x   3 matthieu.lehenaff phod           21 Nov 12  2020 v1.03",
+    "drwxrwxr-x   6 matthieu.lehenaff phod            7 Jan 22  2021 v1.04",
+    "drwxrwxr-x   3 matthieu.lehenaff phod            4 Jan 20  2022 v2.00",
+    "drwxrwxr-x   3 matthieu.lehenaff phod            4 Sep 26  2023 v2.01",
+    "drwxr-xr-x   3 dolk     phod            4 Jun  5  2025 v2.01.1"
+  ],
+  "/phod/pub/lumpkin/hourly/netcdf/*7647*": [],
+  "/phod/pub/lumpkin/hourly/netcdf/*99004*": [],
+  "/phod/pub/buoydata/hourly_product/ncei/current": [
+    "-rw-r--r--   1 dolk     phod     15783402443 Jun  5  2025 gdp_hourly.nc",
+    "-rw-r--r--   1 dolk     phod           80 Jun  5  2025 ncei-manifest.sha256"
+  ],
+  "/phod/pub/buoydata/hourly_product/v1.03": [
+    "-rw-r--r--   1 603      phod         2044 Jul 18  2019 README_driftertrajGPS_1.03.txt",
+    "-rw-r--r--   1 603      phod         2161 Jul 18  2019 README_driftertrajWMLE_1.03.txt",
+    "-rw-r--r--   1 603      phod     1539128000 Jul 18  2019 drifterWMLE_1.03_block7.mat",
+    "-rw-r--r--   1 603      phod     2717951369 Jul 18  2019 driftertrajGPS_1.03.nc",
+    "-rw-r--r--   1 603      phod     584225874 Jul 18  2019 driftertrajGPS_1.03.tar.gz",
+    "-rw-r--r--   1 603      phod     436330325 Jul 18  2019 driftertrajWMLE_1.03_block7.mat",
+    "-rw-r--r--   1 603      phod     2072031697 Jul 18  2019 driftertrajWMLE_1.03_block7.nc",
+    "-rw-r--r--   1 603      phod     1106496015 Jul 18  2019 hourly_GPS_1.03.mat",
+    "-rw-r--r--   1 603      phod     1148367094 Jul 18  2019 hourly_WMLE_1.03_block7.mat"
+  ]
+}

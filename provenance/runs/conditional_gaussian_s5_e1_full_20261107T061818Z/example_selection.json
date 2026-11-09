@@ -1,0 +1,54 @@
+{
+  "examples": [
+    {
+      "horizon_days": 7.0,
+      "id": 300234067547720.0,
+      "lat": 30.274863308715354,
+      "lon": -75.73919528122076,
+      "origin_source_obs": 183702038.0,
+      "query_position": 26952
+    },
+    {
+      "horizon_days": 7.0,
+      "id": 300234064777970.0,
+      "lat": 30.143808343067377,
+      "lon": -75.20066808151057,
+      "origin_source_obs": 152206021.0,
+      "query_position": 6475
+    },
+    {
+      "horizon_days": 7.0,
+      "id": 300234067201530.0,
+      "lat": 32.883435234741114,
+      "lon": -73.79733661661237,
+      "origin_source_obs": 167603766.0,
+      "query_position": 24032
+    },
+    {
+      "horizon_days": 7.0,
+      "id": 300234067201530.0,
+      "lat": 32.27961651914467,
+      "lon": -73.23320576763479,
+      "origin_source_obs": 167603448.0,
+      "query_position": 23714
+    },
+    {
+      "horizon_days": 7.0,
+      "id": 300234065703970.0,
+      "lat": 34.08304066813086,
+      "lon": -74.78173276156838,
+      "origin_source_obs": 183739452.0,
+      "query_position": 11213
+    },
+    {
+      "horizon_days": 7.0,
+      "id": 300234067548160.0,
+      "lat": 34.00240345646451,
+      "lon": -74.2138152649523,
+      "origin_source_obs": 189614422.0,
+      "query_position": 28115
+    }
+  ],
+  "outcomes_used": false,
+  "source_sha256": "887e632526a4a6e4a3358ed1632cd80de46ad41aba6664f5e6d3f87f7d6e40c1"
+}

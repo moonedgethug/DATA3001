@@ -1,0 +1,22 @@
+.E....F..
+======================================================================
+ERROR: test_first_target_release_already_freezes_later_audit_and_region_streams (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_first_target_release_already_freezes_later_audit_and_region_streams)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 90, in test_first_target_release_already_freezes_later_audit_and_region_streams
+    streams = {(s['purpose'], s['replicate'], s['dimensions']) for s in manifest['all_streams']}
+                                                                        ~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'all_streams'
+
+======================================================================
+FAIL: test_region_report_uses_independent_mass_and_keeps_unbiased_mean_diagnostic (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_region_report_uses_independent_mass_and_keeps_unbiased_mean_diagnostic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 105, in test_region_report_uses_independent_mass_and_keeps_unbiased_mean_diagnostic
+    self.assertEqual(row['model_mass90'], regions['mass_check']['probability'])
+AssertionError: 0.9000091552734375 != 0.89837646484375
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.602s
+
+FAILED (failures=1, errors=1)

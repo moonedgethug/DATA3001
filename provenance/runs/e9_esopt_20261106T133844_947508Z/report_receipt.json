@@ -1,0 +1,10 @@
+{
+  "formal_started": false,
+  "report_sha256": {
+    "results/runs/e9_esopt_20261106T133844_947508Z/report/REPORT.md": "9fb88da0e52bb1b4464e71b5f3e4041d8a4f25e7a2dbd8c11aa14f4945c6de38",
+    "results/runs/e9_esopt_20261106T133844_947508Z/report/precision_runtime.png": "bda090c5915ae830d8ba055b05ab68f78b94ba789030748bd50d4b7fb923d264",
+    "results/runs/e9_esopt_20261106T133844_947508Z/report/precision_runtime.svg": "211ac06d1698c9cc90c72ac52c80819b8251c782d1f0649cbb12b192074b79ae",
+    "results/runs/e9_esopt_20261106T133844_947508Z/report/review.html": "ae5a89d9227295693c9a2d0a39afe068a7ef2a17c4a45f736969b8a357b55242"
+  },
+  "review_passed": true
+}

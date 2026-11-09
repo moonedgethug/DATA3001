@@ -1,0 +1,27 @@
+..........F.F../Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py:47: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  self.assertGreater(float(torch.ptp(mu.detach())) if hasattr(torch, "ptp") else float(mu.max()-mu.min()), 0)
+........
+======================================================================
+FAIL: test_normal_exit_does_not_leave_unbudgeted_grandchild (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_normal_exit_does_not_leave_unbudgeted_grandchild)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 73, in test_normal_exit_does_not_leave_unbudgeted_grandchild
+    self.assertFalse(alive,'Supervisor left an unbudgeted descendant after leader exit')
+AssertionError: True is not false : Supervisor left an unbudgeted descendant after leader exit
+
+======================================================================
+FAIL: test_budget_interrupt_after_final_epoch_preserves_completion (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_budget_interrupt_after_final_epoch_preserves_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 206, in test_budget_interrupt_after_final_epoch_preserves_completion
+    self.assertEqual(resumed.status,"complete")
+AssertionError: 'running' != 'complete'
+- running
++ complete
+
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.963s
+
+FAILED (failures=2)

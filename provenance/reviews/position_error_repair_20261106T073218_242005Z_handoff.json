@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checked_utc": "2026-11-06T08:36:54.653892+00:00",
+  "manifest_sha256": "d95864f397e21c4a770605f44555cfaf19d7fae24289916f07d0667e857c2c94",
+  "artifact_hashes_verified": 730,
+  "protected_files_unchanged": 345,
+  "report_links_verified": 15,
+  "target_rows": 355247,
+  "target_IDs": 338,
+  "usable_two_axis": 332770,
+  "unusable_two_axis": 22477,
+  "status": "VERIFIED_PARTIAL",
+  "conservative_wall_clock_minutes": 64.07017271518707,
+  "disk_bytes": 1122147139,
+  "no_model_experiments": true
+}

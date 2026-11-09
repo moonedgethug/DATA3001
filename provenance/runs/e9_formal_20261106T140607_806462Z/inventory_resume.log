@@ -1,0 +1,17 @@
+{"stage": "outcome-blind final checks", "completed": 32, "total": 128, "elapsed_seconds": 1.49}
+{"stage": "outcome-blind final checks", "completed": 64, "total": 128, "elapsed_seconds": 3.0}
+{"stage": "outcome-blind final checks", "completed": 96, "total": 128, "elapsed_seconds": 4.51}
+{"stage": "outcome-blind final checks", "completed": 128, "total": 128, "elapsed_seconds": 6.03}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py", line 99, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py", line 92, in main
+    resume(*args);budget.check(storage=True);completed=True
+    ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py", line 77, in resume
+    save_json(paths,run['provenance']/'preflight.json',dict(**preliminary,chosen_region_count=region_count,
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'outer_targets_read'

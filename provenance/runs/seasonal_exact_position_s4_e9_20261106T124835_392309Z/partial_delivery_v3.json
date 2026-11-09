@@ -1,0 +1,15 @@
+{
+  "final_test_access": false,
+  "formal_completed": false,
+  "outer_targets_read": false,
+  "output_sha256": {
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v3/REPORT.md": "68efb6b7c37e2c53727292e8ee5addbfc1ff0d584b4f238b02c5868827e90e72",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v3/pilot_gates.png": "240ad9c0600baf3fe21ee9250580acea96edf044431887b592499b84930c571f",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v3/pilot_gates.svg": "b0d92d8518a34e3ac6dc591a44e21430db27a437c31f7b927b4e6794ea096f1e",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v3/review.html": "4e66bd72a4cd6b5a2ee9742033a8b48ef1dc1da50393e6a8cbc86350d2003f51"
+  },
+  "presentation_revision": "Corrected plot axes and label placement; pilot data and models unchanged.",
+  "report_source_sha256": "b045dc2fa7502bee451f1797a9e20c3509719869cc341da809a3890131b01776",
+  "review_passed": true,
+  "status": "STOPPED_AT_PILOT_GATE"
+}

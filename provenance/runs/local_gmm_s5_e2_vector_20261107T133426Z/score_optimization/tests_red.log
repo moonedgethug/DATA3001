@@ -1,0 +1,49 @@
+FFFF
+======================================================================
+FAIL: test_complete_mixture_includes_independent_diagonal_and_both_cross_terms (test_modelling_local_gmm_s5_e2_scoreopt.ScoreOptimizationTests.test_complete_mixture_includes_independent_diagonal_and_both_cross_terms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 29, in test_complete_mixture_includes_independent_diagonal_and_both_cross_terms
+    m=self.module()
+      ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 25, in module
+    self.assertIsNotNone(importlib.util.find_spec(NAME),'Scoring optimizer not implemented')
+AssertionError: unexpectedly None : Scoring optimizer not implemented
+
+======================================================================
+FAIL: test_fallback_and_single_model_alias_share_exact_values (test_modelling_local_gmm_s5_e2_scoreopt.ScoreOptimizationTests.test_fallback_and_single_model_alias_share_exact_values)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 50, in test_fallback_and_single_model_alias_share_exact_values
+    m=self.module();ps=packets();ps[3]=dict(copy.deepcopy(ps[1]),fallback=True)
+      ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 25, in module
+    self.assertIsNotNone(importlib.util.find_spec(NAME),'Scoring optimizer not implemented')
+AssertionError: unexpectedly None : Scoring optimizer not implemented
+
+======================================================================
+FAIL: test_geographic_batch_preserves_zero_poles_dateline_and_tails (test_modelling_local_gmm_s5_e2_scoreopt.ScoreOptimizationTests.test_geographic_batch_preserves_zero_poles_dateline_and_tails)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 57, in test_geographic_batch_preserves_zero_poles_dateline_and_tails
+    m=self.module();from data3001.modelling.continuous_models import conditional_gaussian_s5_e1 as single
+      ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 25, in module
+    self.assertIsNotNone(importlib.util.find_spec(NAME),'Scoring optimizer not implemented')
+AssertionError: unexpectedly None : Scoring optimizer not implemented
+
+======================================================================
+FAIL: test_replicate_parity_and_no_input_mutation (test_modelling_local_gmm_s5_e2_scoreopt.ScoreOptimizationTests.test_replicate_parity_and_no_input_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 37, in test_replicate_parity_and_no_input_mutation
+    m=self.module();from data3001.modelling.continuous_models import local_gmm_s5_e2_numerics as old
+      ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_scoreopt.py", line 25, in module
+    self.assertIsNotNone(importlib.util.find_spec(NAME),'Scoring optimizer not implemented')
+AssertionError: unexpectedly None : Scoring optimizer not implemented
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=4)

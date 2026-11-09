@@ -1,0 +1,25 @@
+{
+  "run_id": "seasonal_information_s4_e3_primary_20261104T142729_626118Z",
+  "created_UTC": "2026-11-04T14:27:29.626598+00:00",
+  "config": {
+    "experiment": "seasonal_information_s4_e3",
+    "plan": "docs/seasonal_information_s4_e3_plan.md",
+    "approval": "provenance/reviews/seasonal_information_s4_e3_approval.json",
+    "integrity_config": "configs/seasonal_conditioning_s4_e1.json",
+    "reference": "temporal_validation_s4_e2_primary_20261103T004920_642021Z",
+    "replicates": 200,
+    "bootstrap_draws": 10000,
+    "sampling_seed": 20261106,
+    "bootstrap_seed": 20261105,
+    "seconds": {
+      "pilot": 600,
+      "primary": 1200,
+      "replay": 1200,
+      "total": 3000
+    },
+    "rss_gib": 8,
+    "storage_gib": 5,
+    "final_test_access": false
+  },
+  "catalog_sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb"
+}

@@ -1,0 +1,13 @@
+{
+  "cases": 33971,
+  "condition_max": 57.94571169793424,
+  "donor_ids_max": 240,
+  "donor_ids_min": 19,
+  "final_test_access": false,
+  "ids": 45,
+  "min_eigenvalue": 1057.1084261303977,
+  "outer_targets_read": false,
+  "pairs_max": 8000,
+  "pairs_min": 5521,
+  "passed": true
+}

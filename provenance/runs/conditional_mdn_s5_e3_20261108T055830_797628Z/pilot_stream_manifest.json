@@ -1,0 +1,12 @@
+{
+  "CRN": "K field empty for ES/region/IID; candidates share nodes; role/query/purpose/replicate remain distinct",
+  "ES": "six-dimensional Sobol;8scrambles;total N split equally",
+  "component_reference": "8192 total nodes per component/pair across8scrambles,1024 each; agrees total N convention",
+  "other_K": "synthetic circular stress mixtures from K1 centre/root; uneven positive weights; not learned candidate models",
+  "primary_roles": [
+    "C_T0",
+    "C_T1"
+  ],
+  "base_seed": 20261121,
+  "outer_outcomes_read": false
+}

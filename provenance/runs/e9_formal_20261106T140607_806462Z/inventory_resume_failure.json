@@ -1,0 +1,5 @@
+{
+  "message": "dict() got multiple values for keyword argument 'outer_targets_read'",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py\", line 92, in main\n    resume(*args);budget.check(storage=True);completed=True\n    ^^^^^^^^^^^^^\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py\", line 77, in resume\n    save_json(paths,run['provenance']/'preflight.json',dict(**preliminary,chosen_region_count=region_count,\n                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: dict() got multiple values for keyword argument 'outer_targets_read'\n",
+  "type": "TypeError"
+}

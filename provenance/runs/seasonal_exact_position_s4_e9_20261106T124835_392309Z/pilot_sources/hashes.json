@@ -1,0 +1,8 @@
+{
+  "configs/seasonal_exact_position_s4_e9.json": "ffa426d5979d601a883053f0fd155a2b958191cb67b5b6f410c76188c271a875",
+  "src/data3001/modelling/baselines/run_seasonal_exact_position_s4_e9.py": "459934d2c7a4aacb6666bf6eff377b757e1ebf000ac72a748346fe6ea1010b80",
+  "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9.py": "25ca667582310ace98962597dc5b7e82deefefad529a759b0c27739116b7e9ad",
+  "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_inputs.py": "c1f4b71601197951b7850e39db2f76db32fd603fa20b87f6b54ced03d57e0c6c",
+  "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_pipeline.py": "2ce5f9298c36b2d7935d317535f5697746a51804e3714be68fe85c6005381d1a",
+  "tests/test_modelling_seasonal_exact_position_s4_e9.py": "27c6241444b9605b8f137c620df560745c9d1e5bc99230ec0e75af93df49b0d2"
+}

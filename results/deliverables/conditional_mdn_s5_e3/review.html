@@ -1,0 +1,182 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Step 5 E3 · 条件 MDN</title>
+<style>body{margin:0;background:#f4f6f9;color:#263546;font:16px/1.75 system-ui}main{max-width:1300px;margin:auto;padding:32px}section{background:white;border-radius:12px;padding:24px;margin:24px 0;overflow:auto}img{width:100%;height:auto;margin:12px 0}table{border-collapse:collapse;font-size:13px;width:100%}td,th{padding:8px;border-bottom:1px solid #ddd;text-align:right}a{color:#6040a0}.note{color:#536577}pre{white-space:pre-wrap}</style><main>
+<h1>Step 5 E3 · 条件 MDN</h1><p><strong>MDN1（内层选定 K*=1）</strong>：未达到预先规定的整体保留标准。</p><p>本轮选择不支持增加成分；K*=1 不证明真实落点分布单峰。</p>
+<p class="note">七天预测；2001–2019 训练，2020–2022 外层开发验证；33,971 查询 / 45 ID；九种独特模型。完整审计通过，final-test 未访问。外层未选 K 不用于改选模型。</p>
+<p>ES 越低越好；命中率和区域面积共同判断。完整陆地、域外、远尾概率保留。<a href="REPORT.md">完整中英报告</a> · <a href="per_id.csv">全部逐 ID 指标</a> · <a href="comparisons.csv">配对验收</a> · <a href="inference_usage.md">预测接口</a> · <a href="final_audit.json">审计</a></p>
+<section><h2>九模型完整结果</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>energy_km</th>
+      <th>h90</th>
+      <th>area90_km2</th>
+      <th>land_mass</th>
+      <th>outside_D_mass</th>
+    </tr>
+    <tr>
+      <th>model</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ExactPoint</th>
+      <td>134.223563</td>
+      <td>0.913921</td>
+      <td>215,666.889355</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>EndpointCI</th>
+      <td>134.223517</td>
+      <td>0.913939</td>
+      <td>215,732.078194</td>
+      <td>0.000001</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>LocalGaussian</th>
+      <td>134.777135</td>
+      <td>0.915438</td>
+      <td>216,097.009870</td>
+      <td>0.005988</td>
+      <td>0.002969</td>
+    </tr>
+    <tr>
+      <th>MDN1</th>
+      <td>128.701716</td>
+      <td>0.876301</td>
+      <td>175,929.086543</td>
+      <td>0.003326</td>
+      <td>0.000623</td>
+    </tr>
+    <tr>
+      <th>MDN2</th>
+      <td>128.812285</td>
+      <td>0.885144</td>
+      <td>180,504.571568</td>
+      <td>0.002294</td>
+      <td>0.000301</td>
+    </tr>
+    <tr>
+      <th>MDN4</th>
+      <td>128.885061</td>
+      <td>0.883765</td>
+      <td>180,606.591779</td>
+      <td>0.001154</td>
+      <td>0.000075</td>
+    </tr>
+    <tr>
+      <th>MDN8</th>
+      <td>130.330538</td>
+      <td>0.895375</td>
+      <td>183,201.870444</td>
+      <td>0.001070</td>
+      <td>0.000051</td>
+    </tr>
+    <tr>
+      <th>MDN16</th>
+      <td>128.783605</td>
+      <td>0.896214</td>
+      <td>181,776.207418</td>
+      <td>0.001026</td>
+      <td>0.000065</td>
+    </tr>
+    <tr>
+      <th>MDN32</th>
+      <td>130.115281</td>
+      <td>0.899540</td>
+      <td>192,974.262553</td>
+      <td>0.003214</td>
+      <td>0.000130</td>
+    </tr>
+  </tbody>
+</table><img src='figures/outer_comparison.png'></section><section><h2>主模型配对比较</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>baseline</th>
+      <th>es_delta</th>
+      <th>es_lower</th>
+      <th>es_upper</th>
+      <th>hit_delta</th>
+      <th>hit_lower</th>
+      <th>hit_upper</th>
+      <th>area_ratio</th>
+      <th>area_lower</th>
+      <th>area_upper</th>
+      <th>eligible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LocalGaussian</td>
+      <td>-6.075419</td>
+      <td>-13.577949</td>
+      <td>1.198739</td>
+      <td>-0.039137</td>
+      <td>-0.066632</td>
+      <td>-0.014266</td>
+      <td>0.814121</td>
+      <td>0.781440</td>
+      <td>0.842688</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>ExactPoint</td>
+      <td>-5.521847</td>
+      <td>-12.174476</td>
+      <td>0.943308</td>
+      <td>-0.037620</td>
+      <td>-0.066463</td>
+      <td>-0.010233</td>
+      <td>0.815745</td>
+      <td>0.784491</td>
+      <td>0.842326</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>EndpointCI</td>
+      <td>-5.521802</td>
+      <td>-12.174418</td>
+      <td>0.943349</td>
+      <td>-0.037638</td>
+      <td>-0.066478</td>
+      <td>-0.010233</td>
+      <td>0.815498</td>
+      <td>0.784258</td>
+      <td>0.842066</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table><img src='figures/paired_effects.png'><img src='figures/per_id_effects.png'><p>95% 整 ID 配对 bootstrap；区间条件于已拟合模型。</p></section><section><h2>内层选择与三种子训练</h2><img src='figures/inner_es_complexity.png'><img src='figures/training_curves_C_T0.png'><img src='figures/training_curves_C_T1.png'><img src='figures/training_curves_C_outer.png'></section><section><h2>十二个固定源键案例</h2><p>九模型与十二案例共用视域、色标和单椭圆规则；白点起点，星号终点。展示抽样不参与指标。</p><img src='figures/fixed_case_01.png'><img src='figures/fixed_case_02.png'><img src='figures/fixed_case_03.png'><img src='figures/fixed_case_04.png'><img src='figures/fixed_case_05.png'><img src='figures/fixed_case_06.png'><img src='figures/fixed_case_07.png'><img src='figures/fixed_case_08.png'><img src='figures/fixed_case_09.png'><img src='figures/fixed_case_10.png'><img src='figures/fixed_case_11.png'><img src='figures/fixed_case_12.png'></section><section><h2>来源、限制与资源</h2><p>边界配对及 ID 75447 的一分钟差异按决定保留。开发验证曾被多次检查；区间不含重新拟合不确定性。成分不是已识别洋流，单椭圆不是 HDR。</p><p><a href="https://arxiv.org/html/2303.11480v2">Brolly Table 1</a> 的全球四天 log scores 与本项目区域七天 ES 不可直接排名；其 TM 全球比较另有 7% 零概率样本排除。</p><pre>{
+  &quot;query_equal_means&quot;: {
+    &quot;nearest_training_start_km&quot;: 0.7221074594109116,
+    &quot;distinct_training_ids_within_100km&quot;: 139.5754319861058,
+    &quot;outside_training_lonlat_convex_hull&quot;: 0.00029436872626652146
+  },
+  &quot;drifter_equal_means&quot;: {
+    &quot;nearest_training_start_km&quot;: 0.7183959930947434,
+    &quot;distinct_training_ids_within_100km&quot;: 158.79582392848383,
+    &quot;outside_training_lonlat_convex_hull&quot;: 0.00039791649469994524
+  },
+  &quot;nearest_distance_max_km&quot;: 11.762329363313103,
+  &quot;local_id_count_min&quot;: 19,
+  &quot;convex_hull_definition&quot;: &quot;Planar longitude/latitude convex hull of all outer training starts&quot;,
+  &quot;exclusion_or_fallback&quot;: false
+}</pre><pre>{
+  &quot;record_available&quot;: true,
+  &quot;completed_supervised_task_wall_seconds&quot;: 51572.76448166708,
+  &quot;prior_supervised_task_wall_seconds&quot;: 515.8821546636755,
+  &quot;active_snapshot_seconds&quot;: 0,
+  &quot;peak_process_tree_rss_gib&quot;: 2.1030731201171875,
+  &quot;peak_run_storage_gib&quot;: 1.5853725150227547,
+  &quot;active_stage&quot;: null,
+  &quot;resource_limit_seconds&quot;: null,
+  &quot;note&quot;: &quot;Recorded supervised-task wall time only. Unsupervised checks and calendar gaps are excluded; these sums are not total CPU time or full calendar duration. Prior time includes pilot/optimization. The time ceiling was explicitly waived. Active entry is provisional.&quot;,
+  &quot;report_generation_seconds&quot;: 334.4498634999618
+}</pre></section><footer>conditional_mdn_s5_e3_20261108T055830_797628Z</footer></main></html>

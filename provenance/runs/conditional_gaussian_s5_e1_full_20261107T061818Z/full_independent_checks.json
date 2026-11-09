@@ -1,0 +1,60 @@
+{
+  "contrasts": {
+    "EndpointCI": {
+      "contrast_drift_km": -0.0010843339210164825,
+      "difference_three_se_km": 0.012508134698869362,
+      "es_improvement_numerically_resolved": false,
+      "passed": true,
+      "primary_es_delta_km": 0.553338702693853,
+      "replica_es_delta_km": 0.5522543687728366,
+      "replica_three_se_km": 0.008746668926702705,
+      "threshold_km": 0.013422318761842094
+    },
+    "ExactPoint": {
+      "contrast_drift_km": -0.0010828116145926935,
+      "difference_three_se_km": 0.0125077610468803,
+      "es_improvement_numerically_resolved": false,
+      "passed": true,
+      "primary_es_delta_km": 0.553300638704641,
+      "replica_es_delta_km": 0.5522178270900483,
+      "replica_three_se_km": 0.008746395103360071,
+      "threshold_km": 0.013422322568241015
+    }
+  },
+  "covariance_max_abs_error_km2": 1.0186340659856796e-10,
+  "iid": {
+    "audit_passed": true,
+    "audit_three_se_km": 0.2201875055645806,
+    "audit_weighted_drift_km": -0.10724889395176608,
+    "cases": 128,
+    "passed": true,
+    "primary_passed": true,
+    "primary_three_se_km": 0.2213635349854875,
+    "primary_weighted_drift_km": -0.13756209217845347
+  },
+  "models": {
+    "EndpointCI": {
+      "energy_difference_three_se_km": 0.011854231860289622,
+      "energy_replication_drift_km": 0.001358430501967398,
+      "hit_disagreement": 6.884574497999974e-05,
+      "mean_area_relative_drift": 6.548620247632312e-06,
+      "passed": true
+    },
+    "ExactPoint": {
+      "energy_difference_three_se_km": 0.01185383759625135,
+      "energy_replication_drift_km": 0.0013569081955436138,
+      "hit_disagreement": 0.0,
+      "mean_area_relative_drift": 4.654824678901006e-17,
+      "passed": true
+    },
+    "LocalGaussian": {
+      "energy_difference_three_se_km": 0.003991318159149205,
+      "energy_replication_drift_km": 0.0002740965809509187,
+      "hit_disagreement": 0.00012198668977244067,
+      "mean_area_relative_drift": 1.4742270040876587e-06,
+      "passed": true
+    }
+  },
+  "parameters_reconstructed": 33971,
+  "passed": true
+}

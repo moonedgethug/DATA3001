@@ -1,0 +1,6 @@
+                     energy_km       h90     area90_km2
+model                                                  
+AnnualExactPoint    134.225735  0.913921  215666.889355
+AnnualEndpointCI    134.225740  0.913973  215706.726627
+SeasonalExactPoint  147.891025  0.917526  240468.131946
+SeasonalEndpointCI  147.890977  0.917494  240482.175820

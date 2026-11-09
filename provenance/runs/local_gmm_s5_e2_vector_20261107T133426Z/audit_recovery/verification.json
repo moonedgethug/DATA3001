@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-08T02:56:16.247987+00:00",
+  "source_revision": 5,
+  "change": "Convert nullable IID numeric columns to float64 at the audit arithmetic boundary",
+  "root_cause": "Parquet batches with all-null IID fields leave concatenated IID columns as object dtype; selected values are Python float",
+  "scientific_model_changed": false,
+  "training_weights_changed": false,
+  "cohorts_changed": false,
+  "precision_changed": false,
+  "resource_caps_changed": false,
+  "thresholds_changed": false,
+  "preserved_output_files": 18815,
+  "actual_iid_cases": 128,
+  "iid_check": {
+    "passed": true,
+    "primary": {
+      "cases": 128,
+      "mean_difference": 0.09074984532949847,
+      "three_se": 0.21839967480334205,
+      "max_standardised_difference": 2.3523662131739678,
+      "passed": true
+    },
+    "reference": {
+      "cases": 128,
+      "mean_difference": 0.08907676260478739,
+      "three_se": 0.21839592645011807,
+      "max_standardised_difference": 2.29344177500622,
+      "passed": true
+    }
+  },
+  "independent_scalar_agreement": true,
+  "final_test_access": false
+}

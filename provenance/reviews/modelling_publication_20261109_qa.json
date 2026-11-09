@@ -1,0 +1,69 @@
+{
+  "files_bound_to_index": 3574,
+  "staged_files": 3575,
+  "canonical_data_changes": false,
+  "checked_entry_links": 398,
+  "missing_links": [],
+  "credential_findings": [],
+  "absolute_staged_symlinks": [],
+  "staged_MiB": 461.4883909225464,
+  "portable_inference": {
+    "source": "staged Git blobs only; temporary artifact root without raw data",
+    "outer_full_refits": [
+      {
+        "K": 1,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      },
+      {
+        "K": 2,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      },
+      {
+        "K": 4,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      },
+      {
+        "K": 8,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      },
+      {
+        "K": 16,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      },
+      {
+        "K": 32,
+        "checksum_passed": true,
+        "finite_parameters": true,
+        "normalized_weights": true,
+        "positive_covariance": true
+      }
+    ],
+    "audited_selected_K": 1,
+    "sample_count": 16,
+    "training_performed": false,
+    "validation_scoring_performed": false,
+    "passed": true
+  },
+  "independent_publication_review": "No material issues found; scientific claims, published links, portable snapshot hashes and artifact scope verified.",
+  "tests": {
+    "count": 902,
+    "passed": true,
+    "seconds": 62.874,
+    "log": "provenance/reviews/modelling_publication_20261109_tests.txt"
+  }
+}

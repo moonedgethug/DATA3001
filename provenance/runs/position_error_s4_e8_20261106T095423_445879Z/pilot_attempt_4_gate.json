@@ -1,0 +1,18 @@
+{
+  "attempt": 4,
+  "delta_ES_precision_threshold_km": 0.015038709034264042,
+  "energy_count": 4096,
+  "formal_projected_seconds": 2768.5716195724754,
+  "formal_projection_2x_seconds": 5537.143239144951,
+  "max_mass_replication_error": 0.0007662301476696332,
+  "max_weighted_area_repeat_change": 0.00018056921519506248,
+  "max_weighted_hit_repeat_change": 0.0,
+  "mean_case_seconds": 0.07619945305032161,
+  "models_run_on_outer": false,
+  "numerical_passed": true,
+  "outer_targets_read": false,
+  "passed": true,
+  "queries": 128,
+  "region_count": 16384,
+  "resource_passed": true
+}

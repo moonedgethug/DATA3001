@@ -1,0 +1,26 @@
+{
+  "approval": "provenance/reviews/exact_origin_s4_e7_approval.json",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261105,
+  "distance_tolerance_m": 1e-06,
+  "experiment": "exact_origin_s4_e7",
+  "final_test_access": false,
+  "integrity_config": "configs/seasonal_conditioning_s4_e1.json",
+  "ks": [
+    500,
+    2000,
+    8000
+  ],
+  "plan": "docs/exact_origin_s4_e7_plan.md",
+  "radius_m": 100000.0,
+  "reference": "temporal_validation_s4_e2_primary_20261103T004920_642021Z",
+  "reference_e4": "departure_direction_s4_e4_primary_20261104T153104_398790Z",
+  "rss_gib": 8,
+  "seconds": {
+    "pilot": 600,
+    "primary": 3600,
+    "replay": 3600,
+    "total": 7800
+  },
+  "storage_gib": 5
+}

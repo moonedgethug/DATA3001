@@ -1,0 +1,34 @@
+{
+  "status": "READY_PENDING_RESOURCE_LIMIT_CONFIRMATION",
+  "prepared_at": "2026-11-07T17:18:39.167284+00:00",
+  "implementation_revision": 3,
+  "tests_passed": 761,
+  "integrated_retained_query_check": 64,
+  "complete_inner_parameter_queries": 86373,
+  "complete_inner_ES_queries": 2176,
+  "spent_total_hours": 3.057227441782533,
+  "spent_inner_hours": 2.8206171936344537,
+  "expected_cumulative_hours": [
+    9,
+    16
+  ],
+  "requested_caps_hours": {
+    "checks": 0.5,
+    "inner": 15,
+    "outer": 6,
+    "audit": 3,
+    "report": 0.5,
+    "total": 25
+  },
+  "unchanged_caps": {
+    "memory_gib": 8,
+    "E2_storage_gib": 8,
+    "family_storage_gib": 10,
+    "workers": 2
+  },
+  "scientific_changes": false,
+  "resource_caps_applied": false,
+  "outer_targets_read": false,
+  "final_test_access": false,
+  "reason": "Original inner 6 h is insufficient even after verified speedup; contract section 11 requires resource-only authorization. Prior resource proposal was explicitly deferred."
+}

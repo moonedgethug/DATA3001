@@ -1,0 +1,37 @@
+{
+  "status": "Post-hoc descriptive diagnostics; no model or acceptance changes",
+  "results": {
+    "1.0": {
+      "Annual": {
+        "concentration": 0.09847250964549356,
+        "mean_truth_probability": 0.051409578374267906
+      },
+      "Exact": {
+        "concentration": 0.07300857258161349,
+        "mean_truth_probability": 0.05992747793622738
+      },
+      "origins": {
+        "total": 36,
+        "Brier_better": 31,
+        "hits_worse": 9,
+        "size_larger": 25
+      }
+    },
+    "0.5": {
+      "Annual": {
+        "concentration": 0.03792476541769633,
+        "mean_truth_probability": 0.015011702569554752
+      },
+      "Exact": {
+        "concentration": 0.024412137742276352,
+        "mean_truth_probability": 0.017658649511203217
+      },
+      "origins": {
+        "total": 36,
+        "Brier_better": 28,
+        "hits_worse": 10,
+        "size_larger": 22
+      }
+    }
+  }
+}

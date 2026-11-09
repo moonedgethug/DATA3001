@@ -1,0 +1,12 @@
+INPUTS_FROZEN 128 fixed_queries
+SCORING_CHECK 112 queries 26.52 seconds
+FIXED_128_PASSED; START_EXISTING_2176
+SCORING_CHECK 224 queries 27.64 seconds
+SCORING_CHECK 480 queries 53.57 seconds
+SCORING_CHECK 736 queries 79.37 seconds
+SCORING_CHECK 992 queries 105.49 seconds
+SCORING_CHECK 1248 queries 131.82 seconds
+SCORING_CHECK 1504 queries 158.5 seconds
+SCORING_CHECK 1824 queries 188.85 seconds
+SCORING_CHECK 2080 queries 215.45 seconds
+{"passed": true, "same_workload_speedup": 1.0698429098168807, "historical_batch_speedup": 1.125040459473913, "max_replicate_difference_km": 0.0, "validation_seconds": 300.719448207994}

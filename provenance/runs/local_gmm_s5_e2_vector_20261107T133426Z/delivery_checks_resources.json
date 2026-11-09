@@ -1,0 +1,9 @@
+{
+  "phase": "checks",
+  "elapsed_seconds": 2.0,
+  "completed": true,
+  "tests": 2,
+  "conservative_wall_charge": true,
+  "outer_targets_read": false,
+  "final_test_access": false
+}

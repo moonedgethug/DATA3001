@@ -1,0 +1,11 @@
+{
+  "all_matched_draws_per_nonempty_row": 200,
+  "choices_verified_by_direct_inner_grid": true,
+  "every_matched_placement_reconstructed": true,
+  "matched_nonempty_rows": 292,
+  "outer_B2_scores_match_E2": true,
+  "outer_cases_scored": 64099,
+  "paired_primary_draws_independently_verified": true,
+  "role_keys_and_B2_predictions_match_E2": true,
+  "synthetic_outer_targets": false
+}

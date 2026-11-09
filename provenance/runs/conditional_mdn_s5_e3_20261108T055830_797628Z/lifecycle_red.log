@@ -1,0 +1,36 @@
+..E...F
+======================================================================
+ERROR: test_disappearing_atomic_temporary_file_does_not_break_resource_scan (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_disappearing_atomic_temporary_file_does_not_break_resource_scan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 75, in test_disappearing_atomic_temporary_file_does_not_break_resource_scan
+    r.storage_bytes({'results':Path(d)})
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 33, in storage_bytes
+    return sum(p.stat().st_size for folder in run.values() for p in folder.rglob('*')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 34, in <genexpr>
+    if p.is_file() and not p.is_symlink())
+                           ^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 914, in is_symlink
+    return S_ISLNK(self.lstat().st_mode)
+                   ^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 847, in lstat
+    return self.stat(follow_symlinks=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 72, in racing_stat
+    if len(calls)==2:raise FileNotFoundError('simulated atomic rename')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: simulated atomic rename
+
+======================================================================
+FAIL: test_sigterm_supervisor_closes_receipt_and_stops_owned_child (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_sigterm_supervisor_closes_receipt_and_stops_owned_child)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 97, in test_sigterm_supervisor_closes_receipt_and_stops_owned_child
+    self.assertFalse(alive,'SIGTERM left an unbudgeted child')
+AssertionError: True is not false : SIGTERM left an unbudgeted child
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.246s
+
+FAILED (failures=1, errors=1)

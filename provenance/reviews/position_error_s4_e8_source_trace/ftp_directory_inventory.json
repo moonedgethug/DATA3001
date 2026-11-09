@@ -1,0 +1,58 @@
+{
+  "v1.04": {
+    "entry_count": 10,
+    "retained_entries": [
+      "-rw-r--r--   1 603      phod         2997 Jun 30  2021 README_1.04.txt",
+      "-rw-r--r--   1 603      phod     1605248479 Oct 29  2020 hourly_GPS_1.04.mat",
+      "-rw-r--r--   1 603      phod     632223568 Oct 29  2020 hourly_WMLE_1.02_block1.mat",
+      "-rw-r--r--   1 603      phod     796020658 Oct 29  2020 hourly_WMLE_1.02_block2.mat",
+      "-rw-r--r--   1 603      phod     859752693 Oct 29  2020 hourly_WMLE_1.02_block3.mat",
+      "-rw-r--r--   1 603      phod     749031684 Oct 29  2020 hourly_WMLE_1.02_block4.mat",
+      "-rw-r--r--   1 603      phod     739862241 Oct 29  2020 hourly_WMLE_1.02_block5.mat",
+      "-rw-r--r--   1 603      phod     516634240 Oct 29  2020 hourly_WMLE_1.02_block6.mat",
+      "-rw-r--r--   1 603      phod     752861401 Oct 29  2020 hourly_WMLE_1.04_block7.mat",
+      "-rw-r--r--   1 603      phod     135521287 Oct 29  2020 hourly_WMLE_1.04_block8.mat"
+    ],
+    "note": "Only relevant entries retained from original read-only FTP listing."
+  },
+  "v2.00": {
+    "entry_count": 17324,
+    "retained_entries": [
+      "-rw-r--r--   1 dolk     phod       245706 Sep 20  2023 drifter_300234066710170.nc",
+      "-rw-r--r--   1 dolk     phod      2392584 Sep 20  2023 drifter_36606.nc",
+      "-rw-r--r--   1 dolk     phod       617064 Sep 20  2023 drifter_37032.nc",
+      "-rw-r--r--   1 dolk     phod      1113100 Sep 20  2023 drifter_7647.nc",
+      "-rw-r--r--   1 dolk     phod       429431 Sep 20  2023 drifter_99004.nc"
+    ],
+    "note": "Only relevant entries retained from original read-only FTP listing."
+  },
+  "v2.01": {
+    "entry_count": 19396,
+    "retained_entries": [
+      "-rw-r--r--   1 dolk     phod       307140 Sep 20  2023 drifter_hourly_300234066710170.nc",
+      "-rw-r--r--   1 dolk     phod      3169661 Sep 20  2023 drifter_hourly_36606.nc",
+      "-rw-r--r--   1 dolk     phod       802301 Sep 20  2023 drifter_hourly_37032.nc",
+      "-rw-r--r--   1 dolk     phod      1462170 Sep 20  2023 drifter_hourly_7647.nc",
+      "-rw-r--r--   1 dolk     phod       552221 Sep 20  2023 drifter_hourly_99004.nc"
+    ],
+    "note": "Only relevant entries retained from original read-only FTP listing."
+  },
+  "v2.01.1": {
+    "entry_count": 18921,
+    "retained_entries": [
+      "-rw-r--r--   1 dolk     phod       245706 Jun 12  2025 drifter_hourly_300234066710170.nc",
+      "-rw-r--r--   1 dolk     phod      2392584 Jun 12  2025 drifter_hourly_36606.nc",
+      "-rw-r--r--   1 dolk     phod       617064 Jun 12  2025 drifter_hourly_37032.nc",
+      "-rw-r--r--   1 dolk     phod      1113100 Jun 12  2025 drifter_hourly_7647.nc",
+      "-rw-r--r--   1 dolk     phod       429431 Jun 12  2025 drifter_hourly_99004.nc"
+    ],
+    "note": "Only relevant entries retained from original read-only FTP listing."
+  },
+  "ncei": {
+    "entry_count": 1,
+    "retained_entries": [
+      "drwxr-xr-x   2 dolk     phod            4 Jun  5  2025 current"
+    ],
+    "note": "Only relevant entries retained from original read-only FTP listing."
+  }
+}

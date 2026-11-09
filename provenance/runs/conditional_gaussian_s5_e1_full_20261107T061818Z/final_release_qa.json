@@ -1,0 +1,39 @@
+{
+  "browser_layout_verified": false,
+  "browser_note": "Local-file browser access was unavailable; no alternate transport used. PNGs and HTML source/links were checked.",
+  "cases_per_model": 33971,
+  "evaluation_ids": 45,
+  "final_test_access": false,
+  "local_links_checked": 18,
+  "model_definition_changed": false,
+  "numerical_levels": {
+    "energy": 8192,
+    "region_packet": 32768
+  },
+  "old_and_new_retained_bytes": 2531431120,
+  "parameters_saved": 33971,
+  "passed": true,
+  "phases_seconds_before_final_seal": {
+    "audit": 768.2922917931063,
+    "formal": 2586.464175250032,
+    "pilot": 122.49877304187976,
+    "report": 146.26646853191778
+  },
+  "plot_visual_findings": "All nine plots inspected; labels, legends and per-example shared scales readable.",
+  "plots_visually_inspected": [
+    "full_comparison.png",
+    "paired_effects.png",
+    "per_id_effects.png",
+    "example_01.png",
+    "example_02.png",
+    "example_03.png",
+    "example_04.png",
+    "example_05.png",
+    "example_06.png"
+  ],
+  "protected_files_verified": 490,
+  "scientific_decision": "NO_SUPPORTED_NONDEGRADING_IMPROVEMENT",
+  "six_predetermined_map_masses_sum_to_one": true,
+  "source_numbers_match_report": true,
+  "summary_matches_full_per_id_aggregation": true
+}

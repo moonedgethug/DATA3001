@@ -1,0 +1,13 @@
+F.....
+======================================================================
+FAIL: test_endpoint_access_requires_preexisting_exact_roster_freeze (test_modelling_conditional_mdn_s5_e3_pipeline.PipelineTests.test_endpoint_access_requires_preexisting_exact_roster_freeze)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_pipeline.py", line 18, in test_endpoint_access_requires_preexisting_exact_roster_freeze
+    self.assertTrue(hasattr(inp,'authorize_endpoint_keys'),'Explicit endpoint-key gate is missing')
+AssertionError: False is not true : Explicit endpoint-key gate is missing
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.522s
+
+FAILED (failures=1)

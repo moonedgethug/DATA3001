@@ -1,0 +1,15 @@
+{
+  "configs/conditional_gaussian_s5_e1.json": "51f0033634bdab9182b86d321304bd9ab1559626ff4fa9701025bcd03f137871",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py": "76305a23e0f8ef7fa9f0ee3c5a405843194691f7a88ab310a6899ce9b68bf981",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_analysis.py": "82023e647717561e390157ecc02ca24064322cffd51809d0651845e3bf86bf51",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_audit.py": "3de8b22a2a1569865e7a5dcdfccf429ee8bd05cb24bfb47e2e2dd92d0be4bebe",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_full.py": "1c53b4ab96ac45e1873e9ae99addfb4f698d70507984885813cc447c35727abe",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_inputs.py": "978835c8ba9b54f85482a6285ea68a430c0933db860841a82f210ddeb857c725",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_numerics.py": "9e5c65032398b450caed41cc99506acc75c1b68400c29f85b1fed95242345285",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_pilot.py": "77f269ab008bc1fee6e43a4f436f8937e5e9e192757d7aad2b86db1391d8c135",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_reference.py": "bf07be9b8a3e1daabd94b83b5338df2ebf5cbf7784848fe392ef34feb2f8c07a",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_report.py": "88beb1883f36e2662a31e7eb9608755d8fed729284b728793555c3eda1eec404",
+  "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_verify.py": "ec65f4e229ae7cdb093163a92e3dfb9c7a0b384b07871e03ac3ad4be9c4549f8",
+  "tests/test_modelling_conditional_gaussian_s5_e1.py": "6c1304ce0d414455e5ba19f4066443eb6e6432d3d29b7f9d2a785b4cab6cb234",
+  "tests/test_modelling_conditional_gaussian_s5_e1_full.py": "d557be9c76ddb5aa920fb4ffa5abede7aa08ce9ebc54e46cc38aa4f9a5350aa4"
+}

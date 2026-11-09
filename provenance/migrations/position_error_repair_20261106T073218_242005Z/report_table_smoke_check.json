@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "scope": "pilot report tables only; no model work",
+  "stratum_rows": 24,
+  "extreme_rows": 36
+}

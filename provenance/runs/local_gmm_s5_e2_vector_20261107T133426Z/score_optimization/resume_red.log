@@ -1,0 +1,29 @@
+EF.
+======================================================================
+ERROR: test_energy_batch_does_not_require_or_recompute_donor_lineage (test_modelling_local_gmm_s5_e2_resume.ResumeIntegrationTests.test_energy_batch_does_not_require_or_recompute_donor_lineage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_resume.py", line 52, in test_energy_batch_does_not_require_or_recompute_donor_lineage
+    receipt=pipe.work_batch((0,0,1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py", line 212, in work_batch
+    with np.load(files['lineage']) as f:flat,offset=f['indices'],f['offsets']
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/results/tmp0i_sdhw1/results/C_T0/lineage/00000.npz'
+
+======================================================================
+FAIL: test_explicit_native_backend_cannot_be_silently_ignored (test_modelling_local_gmm_s5_e2_resume.ResumeIntegrationTests.test_explicit_native_backend_cannot_be_silently_ignored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_resume.py", line 32, in test_explicit_native_backend_cannot_be_silently_ignored
+    with self.assertRaises(OSError):pipe.energy_rows(record(),[-75.,35.])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: OSError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.505s
+
+FAILED (failures=1, errors=1)

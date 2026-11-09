@@ -1,6 +1,8 @@
-# Markov milestone: results and reproduction
+# Historical Markov milestone: results and reproduction
 
-**Latest publication: `Markov Step 1 - 3done` — 2 November 2026.**
+**Historical publication: `Markov Step 1 - 3done` — 2 November 2026.**
+
+**Current team handoff: [all five modelling stages, including completed Gaussian/GMM/MDN](modelling_results.md), 9 November 2026.** The scope statements below describe the 2 November snapshot; Step 5 has since been redefined as parametric continuous transition estimation. Historical outcomes and counts remain unchanged.
 
 The [five-step roadmap](../README.md) identifies the current programme: **(1)** empirical matrices, **(2)** regularisation / Bayesian estimation, **(3)** spatial information, **(4)** time/environmental conditioning, and **(5)** memory/latent states. Step numbers identify research directions, not forecast horizons or older M1/M1vcat versions.
 

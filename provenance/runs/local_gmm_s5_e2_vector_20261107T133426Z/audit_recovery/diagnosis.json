@@ -1,0 +1,25 @@
+{
+  "selected_rows": 128,
+  "dtypes": {
+    "energy_km": "float64",
+    "variance": "float64",
+    "iid_energy_km": "object",
+    "iid_variance": "object"
+  },
+  "types": {
+    "energy_km": [
+      "float"
+    ],
+    "variance": [
+      "float"
+    ],
+    "iid_energy_km": [
+      "float"
+    ],
+    "iid_variance": [
+      "float"
+    ]
+  },
+  "reproduced_error": "loop of ufunc does not support argument 0 of type float which has no callable sqrt method",
+  "numeric_conversion_changes_values": false
+}

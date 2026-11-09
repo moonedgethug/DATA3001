@@ -1,0 +1,11 @@
+{
+  "B2_scores_reconciled": true,
+  "B2_weights_vectors_regions_reconciled": true,
+  "inner_grid_and_solution_recomputed": true,
+  "outer_cases": 64099,
+  "primary_multiplier_bound_recomputed": true,
+  "stage": "primary",
+  "synthetic_outer_targets": false,
+  "threshold_and_direct_donor_checks": true,
+  "verified_canonical_IDs": 383
+}

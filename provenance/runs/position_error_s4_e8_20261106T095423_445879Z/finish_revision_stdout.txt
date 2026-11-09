@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "denied_access": [],
+  "elapsed_seconds": 3407.6975168749923,
+  "final_test_access": false,
+  "outer_endpoint_errors_read": false,
+  "outer_targets_read": true,
+  "peak_rss_bytes": 940146688,
+  "prior_formal_seconds": 2652.6517805829644,
+  "retained_bytes": 2491960627,
+  "this_revision_seconds": 754.0229411250912,
+  "recovery_seconds": 1.022795166936703,
+  "recovery_reason": "Optional per-case B2 delta-to-ExactPoint was undefined in the table; omit that absent field from example JSON. All primary metrics are finite. No predictions or results were changed.",
+  "earlier_failure_receipt": "formal_resources.json",
+  "earlier_outer_targets_flag_was_completion_flag": true
+}

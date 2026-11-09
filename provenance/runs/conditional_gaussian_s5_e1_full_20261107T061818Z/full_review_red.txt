@@ -1,0 +1,30 @@
+test_complete_freeze_rejects_missing_duplicate_or_reordered_keys (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_complete_freeze_rejects_missing_duplicate_or_reordered_keys) ... ok
+test_equal_id_summary_is_not_pair_weighted (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_equal_id_summary_is_not_pair_weighted) ... ok
+test_failed_executor_terminates_its_running_child (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_executor_terminates_its_running_child) ... FAIL
+test_failed_scoring_never_claims_outer_targets_were_unread (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_scoring_never_claims_outer_targets_were_unread) ... FAIL
+test_independent_gaussian_covariance_uses_n_and_full_correlation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_gaussian_covariance_uses_n_and_full_correlation) ... ok
+test_independent_region_integer_quantile_and_exact_membership (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_region_integer_quantile_and_exact_membership) ... ok
+test_lineage_roundtrip_preserves_order_ties_and_empty_lists (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_lineage_roundtrip_preserves_order_ties_and_empty_lists) ... ok
+test_quality_rule_does_not_hide_observed_hit_degradation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_quality_rule_does_not_hide_observed_hit_degradation) ... ok
+test_unbiased_auxiliary_uses_independent_mean_cross_product (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_unbiased_auxiliary_uses_independent_mean_cross_product) ... ok
+
+======================================================================
+FAIL: test_failed_executor_terminates_its_running_child (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_executor_terminates_its_running_child)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 90, in test_failed_executor_terminates_its_running_child
+    self.assertTrue(hasattr(m,'stop_workers'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_failed_scoring_never_claims_outer_targets_were_unread (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_scoring_never_claims_outer_targets_were_unread)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_gaussian_s5_e1_full.py", line 86, in test_failed_scoring_never_claims_outer_targets_were_unread
+    self.assertTrue(receipt['outer_targets_read'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.421s
+
+FAILED (failures=2)

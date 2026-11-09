@@ -1,0 +1,8 @@
+{
+  "max_parameter_absolute_difference": 7.457856554538012e-11,
+  "new_query_selection": false,
+  "passed": true,
+  "queries": 128,
+  "restarts": 1280,
+  "validation_targets_read": false
+}

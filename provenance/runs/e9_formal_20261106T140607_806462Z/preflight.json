@@ -1,0 +1,29 @@
+{
+  "IDs": 45,
+  "annual_lineage_matches_E7": true,
+  "audit_projected_seconds": 1608.5826809668145,
+  "cases": 33971,
+  "chosen_region_count": 16384,
+  "energy_count": 16384,
+  "hard_storage_budget_passed": true,
+  "lossless_roundtrips": 33971,
+  "memory_precheck_passed": true,
+  "outcome_blind_resume_seconds": 6.148379417019896,
+  "outer_targets_read": false,
+  "projected_peak_rss_bytes": 1202470912,
+  "projected_storage_bytes": 3305904691,
+  "region_count": 16384,
+  "region_precision_levels": [
+    {
+      "max_mass_discrepancy": 0.0005748070290678697,
+      "region_count": 16384
+    }
+  ],
+  "required_region_points": 16000,
+  "retained_bytes": 2859864791,
+  "storage_precheck_explicitly_waived": true,
+  "storage_precheck_passed": false,
+  "time_margin_waived": true,
+  "training_IDs": 338,
+  "training_pairs": 265393
+}

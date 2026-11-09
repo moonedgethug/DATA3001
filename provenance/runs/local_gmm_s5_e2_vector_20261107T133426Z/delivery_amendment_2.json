@@ -1,0 +1,14 @@
+{
+  "reason": "Expose all five restart termination statuses in descriptive diagnostics; distinguish nonconvergence from component rejection.",
+  "model_selection_or_scoring_changed": false,
+  "active_training_implementation_changed": false,
+  "changed_files": {
+    "src/data3001/modelling/continuous_models/local_gmm_s5_e2_delivery.py": {
+      "before": "2f0e65ecd49139324ca4e674edde707efaea581f570b673f7da039ea51d13b7e",
+      "after": "572d4df3f3d2245c6198ce9c913093e1293dc9ad82fa364c53e198fb471c3b46"
+    }
+  },
+  "tests": 2,
+  "tests_passed": true,
+  "computation_time_covered_by_active_inner_phase": true
+}

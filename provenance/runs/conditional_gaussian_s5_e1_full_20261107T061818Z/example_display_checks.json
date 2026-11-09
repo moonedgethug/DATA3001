@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2020-10-24",
+    "display_mass": {
+      "EndpointCI": 0.9999999999999747,
+      "ExactPoint": 1.0000000000000007,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_01.png",
+    "id": 300234067547720,
+    "number": 1,
+    "origin_source_obs": 183702038,
+    "outcome_used_for_selection": false,
+    "query_position": 26952
+  },
+  {
+    "date": "2020-09-24",
+    "display_mass": {
+      "EndpointCI": 0.999999999999975,
+      "ExactPoint": 1.0000000000000007,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_02.png",
+    "id": 300234064777970,
+    "number": 2,
+    "origin_source_obs": 152206021,
+    "outcome_used_for_selection": false,
+    "query_position": 6475
+  },
+  {
+    "date": "2020-12-23",
+    "display_mass": {
+      "EndpointCI": 0.9999999999999567,
+      "ExactPoint": 1.0000000000000007,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_03.png",
+    "id": 300234067201530,
+    "number": 3,
+    "origin_source_obs": 167603766,
+    "outcome_used_for_selection": false,
+    "query_position": 24032
+  },
+  {
+    "date": "2020-12-10",
+    "display_mass": {
+      "EndpointCI": 0.9999999999999741,
+      "ExactPoint": 1.0000000000000007,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_04.png",
+    "id": 300234067201530,
+    "number": 4,
+    "origin_source_obs": 167603448,
+    "outcome_used_for_selection": false,
+    "query_position": 23714
+  },
+  {
+    "date": "2020-09-16",
+    "display_mass": {
+      "EndpointCI": 0.9999999999999873,
+      "ExactPoint": 1.0000000000000004,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_05.png",
+    "id": 300234065703970,
+    "number": 5,
+    "origin_source_obs": 183739452,
+    "outcome_used_for_selection": false,
+    "query_position": 11213
+  },
+  {
+    "date": "2021-12-07",
+    "display_mass": {
+      "EndpointCI": 0.999999999999974,
+      "ExactPoint": 1.0000000000000009,
+      "LocalGaussian": 1.0
+    },
+    "figure": "example_06.png",
+    "id": 300234067548160,
+    "number": 6,
+    "origin_source_obs": 189614422,
+    "outcome_used_for_selection": false,
+    "query_position": 28115
+  }
+]

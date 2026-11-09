@@ -1,0 +1,11 @@
+{
+  "run": "local_gmm_s5_e2_vector_20261107T133426Z",
+  "status": "FULL_RUN_ACTIVE",
+  "contract_sha256": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+  "implementation_revision": 2,
+  "active_process_id": 52748,
+  "active_log": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/execution_revision_2.log",
+  "after_core_release": "Run data3001.modelling.continuous_models.local_gmm_s5_e2_delivery for the same run, then inspect all primary and diagnostic figures before final delivery.",
+  "no_pilot": true,
+  "contract_or_model_changed": false
+}

@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/audit_recovery/bounded_command.py", line 37, in <module>
+    budget.check();time.sleep(.5)
+    ^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py", line 294, in check
+    self.heartbeat();result=super().check();check_family_limit(family_bytes(),self.cfg['family_storage_gib'])
+                            ^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_inputs.py", line 127, in check
+    result = self.stats()
+             ^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_inputs.py", line 118, in stats
+    rss = self.process.memory_info().rss + sum(p.memory_info().rss for p in self.process.children(recursive=True) if p.is_running())
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_inputs.py", line 118, in <genexpr>
+    rss = self.process.memory_info().rss + sum(p.memory_info().rss for p in self.process.children(recursive=True) if p.is_running())
+                                               ^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/_common.py", line 377, in wrapper
+    raise err from None
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/_common.py", line 375, in wrapper
+    return fun(self)
+           ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/__init__.py", line 1138, in memory_info
+    return self._proc.memory_info()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/_psosx.py", line 347, in wrapper
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/_psosx.py", line 449, in memory_info
+    rawtuple = self._get_pidtaskinfo()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/psutil/_psosx.py", line 351, in wrapper
+    raise NoSuchProcess(pid, name) from err
+psutil.NoSuchProcess: process no longer exists (pid=77743)

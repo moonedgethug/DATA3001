@@ -1,0 +1,791 @@
+[
+  {
+    "run": "empirical_b2_20261029T121658_676902Z",
+    "aggregated_scores": [
+      {
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      }
+    ]
+  },
+  {
+    "run": "empirical_b2_20261029T121555_976173Z",
+    "aggregated_scores": [
+      {
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      }
+    ]
+  },
+  {
+    "run": "empirical_b2_20261029T121214_029613Z",
+    "aggregated_scores": [
+      {
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      }
+    ]
+  },
+  {
+    "run": "empirical_b2_20261029T121259_816673Z",
+    "aggregated_scores": [
+      {
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      }
+    ]
+  },
+  {
+    "run": "adaptive_b2_b1_20261030T045122_466415Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9648687586154954
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      }
+    ]
+  },
+  {
+    "run": "adaptive_b2_b1_20261030T044950_931787Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9648687586154954
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      }
+    ]
+  },
+  {
+    "run": "b2_b1_e2_20261030T060917_279086Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      },
+      {
+        "model": "E1Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9648687586154954
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      },
+      {
+        "model": "Info",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      },
+      {
+        "model": "Weight",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      }
+    ]
+  },
+  {
+    "run": "b2_b1_e2_20261030T060621_291294Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993
+      },
+      {
+        "model": "E1Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9648687586154954
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      },
+      {
+        "model": "Info",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      },
+      {
+        "model": "Weight",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9656681519119232
+      }
+    ]
+  },
+  {
+    "run": "drifter_shrinkage_e3_20261030T074159_751985Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "EqualID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9534202451105546,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "drifter_shrinkage_e3_20261030T074841_426052Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "EqualID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9534202451105546,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "partial_weighting_e4_20261030T082826_141410Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "EqualID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9534202451105546,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "PartialID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.956481683381095,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "partial_weighting_e4_20261030T083247_155679Z",
+    "aggregated_scores": [
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "EqualID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9534202451105546,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "PartialID",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.956481683381095,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "spatial_borrowing_s3_e1_20261030T113755_919838Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalDisplacement",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9713835235950483,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "spatial_borrowing_s3_e1_20261030T115158_511096Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalDisplacement",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9713835235950483,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "spatial_borrowing_s3_e1_20261030T114538_900248Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalDisplacement",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9713835235950483,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_adaptive_s3_e2_20261030T135819_234829Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_adaptive_s3_e2_20261030T140527_283926Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_quality_s3_e3_20261031T010534_834079Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointQuality",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "QualityGateOnly",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "QualitySimilarityOnly",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_quality_s3_e3_20261031T005527_091650Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointQuality",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "QualityGateOnly",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "QualitySimilarityOnly",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_joint_s3_e4_20261031T021237_761696Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointJoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9799943653956511,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointJointConstrained",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointQuality",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  },
+  {
+    "run": "local_endpoint_joint_s3_e4_20261031T034349_606438Z",
+    "aggregated_scores": [
+      {
+        "model": "Adaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9673806980869768,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "B2",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9644143722803993,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "Fixed",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9727442456613763,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointAdaptive",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointJoint",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9799943653956511,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointJointConstrained",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9779422332060757,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      },
+      {
+        "model": "LocalEndpointQuality",
+        "outer_fold": 4,
+        "pair_count": 14,
+        "brier": 0.9786722650099027,
+        "within_ID_pair_weight": 0.043478260869565216,
+        "primary_group_weight": 7.616311964138053e-05
+      }
+    ]
+  }
+]

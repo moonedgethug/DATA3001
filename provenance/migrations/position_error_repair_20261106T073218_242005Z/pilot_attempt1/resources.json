@@ -1,0 +1,10 @@
+{
+  "phase": "pilot",
+  "elapsed_seconds": 158.50880789756775,
+  "network_bytes": 66266886,
+  "peak_rss_bytes": 281640960,
+  "new_disk_bytes": 87199279,
+  "IDs": 19,
+  "target_rows": 28751,
+  "logical_output_hash": "da069e8b78f12b47d9d08cb4e96ee9fa7afae5d4bbda3c228e49721105b252df"
+}

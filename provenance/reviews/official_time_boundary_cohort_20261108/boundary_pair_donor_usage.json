@@ -1,0 +1,58 @@
+{
+  "E7_E8_outer": {
+    "queries": 660,
+    "query_IDs": 25,
+    "total_queries": 33971,
+    "max_training_weight": 0.000125,
+    "donor_occurrences": 660
+  },
+  "E8_B2Point_outer": {
+    "queries": 361,
+    "query_IDs": 26,
+    "total_queries": 33971,
+    "max_training_weight": 0.00031959092361776926,
+    "donor_occurrences": 361
+  },
+  "S5_E1_outer": {
+    "queries": 660,
+    "query_IDs": 25,
+    "total_queries": 33971,
+    "max_training_weight": 0.000125,
+    "donor_occurrences": 660
+  },
+  "S5_E2_outer": {
+    "queries": 660,
+    "query_IDs": 25,
+    "total_queries": 33971,
+    "max_training_weight": 0.000125,
+    "donor_occurrences": 660
+  },
+  "S5_E2_C_T0": {
+    "queries": 1097,
+    "query_IDs": 27,
+    "total_queries": 41761,
+    "max_training_weight": 0.0003022974607013301,
+    "donor_occurrences": 1097
+  },
+  "S5_E2_C_T1": {
+    "queries": 1693,
+    "query_IDs": 45,
+    "total_queries": 44612,
+    "max_training_weight": 0.00018436578171091445,
+    "donor_occurrences": 1693
+  },
+  "E9_annual": {
+    "queries": 660,
+    "query_IDs": 25,
+    "total_queries": 33971,
+    "max_training_weight": 0.000125,
+    "donor_occurrences": 660
+  },
+  "E9_seasonal": {
+    "queries": 309,
+    "query_IDs": 7,
+    "total_queries": 33971,
+    "max_training_weight": 0.0006821282401091405,
+    "donor_occurrences": 309
+  }
+}

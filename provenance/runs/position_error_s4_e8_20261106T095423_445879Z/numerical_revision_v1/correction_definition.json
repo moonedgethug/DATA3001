@@ -1,0 +1,13 @@
+{
+  "Energy_Scores_changed": false,
+  "correction": "Use exact integer probability units for equal and stratified component weights; compensated normalized sums for general descriptive quantiles.",
+  "correction_selected_from_outcomes": false,
+  "mathematical_probability": 0.9,
+  "model_distributions_changed": false,
+  "original_audit_limitation": "The first independent region path also used ordinary floating cumulative sums. Exact CDF fixtures expose a shared arithmetic issue that seed replication alone cannot reveal.",
+  "outer_outcomes_previously_seen": true,
+  "prior_outputs_retained": true,
+  "seeds_changed": false,
+  "training_data_changed": false,
+  "trigger": "Exact synthetic CDF check: summing 16000 weights of 1/16000 makes the floating cumulative probability at atom 14400 slightly below .9 and incorrectly selects atom 14401."
+}

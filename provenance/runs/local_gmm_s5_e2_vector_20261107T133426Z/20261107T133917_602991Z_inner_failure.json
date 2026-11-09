@@ -1,0 +1,6 @@
+{
+  "message": "",
+  "phase": "inner",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py\", line 374, in run_phase\n    run_batches(name,'parameters',role,[1,2,3],budget)\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py\", line 316, in run_batches\n    ready,_=futures.wait(pending,timeout=10,return_when=futures.FIRST_COMPLETED)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py\", line 305, in wait\n    waiter.event.wait(timeout)\n  File \"/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py\", line 655, in wait\n    signaled = self._cond.wait(timeout)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/threading.py\", line 359, in wait\n    gotit = waiter.acquire(True, timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyboardInterrupt\n",
+  "type": "KeyboardInterrupt"
+}

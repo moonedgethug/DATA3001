@@ -1,0 +1,15 @@
+{
+  "final_test_access": false,
+  "formal_completed": false,
+  "outer_targets_read": false,
+  "output_sha256": {
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v2/REPORT.md": "68efb6b7c37e2c53727292e8ee5addbfc1ff0d584b4f238b02c5868827e90e72",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v2/pilot_gates.png": "ba457cb0b5d10e8e187ee65ecb43e781327f3b9927a6190cfd0ab057809f5e6d",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v2/pilot_gates.svg": "f315757bb1df730076bd64637e7dc69f00e144439acd60d3242f3c0b0e3660e7",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report_v2/review.html": "eab3b5facb7c41afff1fc28eb1dd3f4cee5a5ebfd1256129c323b961095556f2"
+  },
+  "presentation_revision": "Corrected plot y-axis autoscale; pilot data and models unchanged.",
+  "report_source_sha256": "f748d3e33c06ad34a064ef892e4d1234465d79adb03ae022e1e7c6d87e709810",
+  "review_passed": true,
+  "status": "STOPPED_AT_PILOT_GATE"
+}

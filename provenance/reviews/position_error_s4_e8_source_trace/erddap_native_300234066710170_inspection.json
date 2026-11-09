@@ -1,0 +1,57 @@
+{
+  "id": 300234066710170,
+  "url": "https://erddap.aoml.noaa.gov/gdp/erddap/files/drifter_hourly_qc/drifter_hourly_300234066710170.nc",
+  "status": 200,
+  "bytes": 307140,
+  "sha256": "3bce2bd1a970c9fc262f3842d94ad4e15d516a062a570357631960fa5b8dd503",
+  "location_type": "GPS",
+  "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+  "variables": {
+    "err_lon": {
+      "attrs": {
+        "_FillValue": "-999999.0",
+        "long_name": "95% confidence interval in longitude",
+        "units": "degrees_east",
+        "missing_value": "-999999.0"
+      },
+      "raw_first5": [
+        9.599999906129142e-09,
+        6.20000006890109e-09,
+        4.099999895146311e-09,
+        5.600000019256868e-09,
+        4.099999895146311e-09
+      ],
+      "decoded_first5": [
+        9.599999906129142e-09,
+        6.20000006890109e-09,
+        4.099999895146311e-09,
+        5.600000019256868e-09,
+        4.099999895146311e-09
+      ],
+      "same_raw_and_decoded": true
+    },
+    "err_lat": {
+      "attrs": {
+        "_FillValue": "-999999.0",
+        "long_name": "95% confidence interval in latitude",
+        "units": "degrees_north",
+        "missing_value": "-999999.0"
+      },
+      "raw_first5": [
+        8.499999815114734e-09,
+        5.500000010982831e-09,
+        3.699999862050163e-09,
+        5.000000413701855e-09,
+        3.699999862050163e-09
+      ],
+      "decoded_first5": [
+        8.499999815114734e-09,
+        5.500000010982831e-09,
+        3.699999862050163e-09,
+        5.000000413701855e-09,
+        3.699999862050163e-09
+      ],
+      "same_raw_and_decoded": true
+    }
+  }
+}

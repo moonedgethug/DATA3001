@@ -1,0 +1,8 @@
+{
+  "docs/local_gmm_s5_e2_score_optimization_plan.md": "19e8595046e4500ade5dfe27e69bce97bff4cd8cef5ba728f0e961ea815b692d",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt.py": "076bd1560be521aec5b224acf43c4e93dc5ad607e777adc5d15ed7b05dec70cd",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_score_kernel.cpp": "c6bfc2d883160f2380e10e6e222dae303d8066f1938fd595c0cd2f04ac78f38c",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_validation.py": "5497c7a866dd9d54b8faa8041d51181ef8b8c55d605add2358796dc8d5f4a12f",
+  "tests/test_modelling_local_gmm_s5_e2_scoreopt.py": "61db42af1b7c454b63c755a290b991b62ab884948b896fd6e39f5dac0e1b505a",
+  "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/score_optimization/bounded_command.py": "f6b9eb2ca420d28b4134185b360347b9f4aa31a86ddc78daca38fb7e51155dff"
+}

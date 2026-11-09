@@ -1,0 +1,56 @@
+{
+  "cohort_ids": 383,
+  "training_ids": 338,
+  "validation_ids": 45,
+  "canonical_hourly_rows": 5216515,
+  "training_pairs": 265393,
+  "validation_pairs": 33971,
+  "assessments": [
+    {
+      "assessment": "cross_source_conflict",
+      "cohort": "train",
+      "ids": 5
+    },
+    {
+      "assessment": "minute_scale_hourly_boundary_unresolved",
+      "cohort": "train",
+      "ids": 3
+    },
+    {
+      "assessment": "multi_hour_record_overrun_unused",
+      "cohort": "train",
+      "ids": 1
+    },
+    {
+      "assessment": "native_end_missing_official_available",
+      "cohort": "train",
+      "ids": 2
+    },
+    {
+      "assessment": "native_end_missing_official_available",
+      "cohort": "validation",
+      "ids": 9
+    },
+    {
+      "assessment": "time_precision_only",
+      "cohort": "train",
+      "ids": 327
+    },
+    {
+      "assessment": "time_precision_only",
+      "cohort": "validation",
+      "ids": 36
+    }
+  ],
+  "verified_official_identity_ids": 383,
+  "missing_or_duplicate_official_ids": 0,
+  "active_endpoint_overruns": 0,
+  "active_origin_boundary_cases": 1,
+  "historical_qualified_pairs": 571823,
+  "historical_endpoint_or_required_end_overruns": 0,
+  "historical_origin_boundary_cases": 2,
+  "unchanged_input_files": 386,
+  "independent_checks_passed": true,
+  "original_twelve_retained": true,
+  "model_execution": false
+}

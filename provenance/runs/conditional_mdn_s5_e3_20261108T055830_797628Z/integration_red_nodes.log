@@ -1,0 +1,13 @@
+......F........................
+======================================================================
+FAIL: test_shared_nodes_are_immutable_and_can_be_reused (test_modelling_conditional_mdn_s5_e3_numerics.MixtureNumericsTests.test_shared_nodes_are_immutable_and_can_be_reused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_numerics.py", line 23, in test_shared_nodes_are_immutable_and_can_be_reused
+    self.assertFalse(u.flags.writeable)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 31 tests in 2.608s
+
+FAILED (failures=1)

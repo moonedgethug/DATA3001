@@ -1,0 +1,44 @@
+{
+  "status": "CONTRACT_V2_REVIEW_REQUIRED",
+  "execution_authorized": false,
+  "model_development_started": false,
+  "model_execution_started": false,
+  "purpose": "Documentation-only revision following the user-confirmed simplified chronological seasonal comparison.",
+  "user_confirmed_direction": [
+    "2012-2019 training / 2020-2022 validation",
+    "Required-label cutoff and disjoint whole-ID roles",
+    "Annual B2 versus c=1 seasonal B2 with explicit annual fallback",
+    "Existing evaluation hierarchy, standard Brier and fixed 90% regions"
+  ],
+  "engineering_terms_awaiting_review": [
+    "Detailed acceptance and six conditional uncertainty screens",
+    "600/900/900-second caps and fresh replay",
+    "Interfaces, conformance and output inventory"
+  ],
+  "prior_document_sha256": {
+    "docs/seasonal_conditioning_s4_e1_contract.md": "2cbff4361e95e4320c67c4a63a957078285b5aefa1c8ae26526771f12a714a77",
+    "docs/time_environment_s4_architecture.md": "65e0e01ac9c5cacf30ffa91afe869f25dcfeaa818df2de334411a7f1074fb147",
+    "docs/research_stage_ledger.md": "ab536a482b1d16a06070ea82108a6090e7844595c184d2ebe6fb38dcae826db1",
+    "docs/seasonal_conditioning_s4_e1_plan.md": "b291f93f52627d0ae33e54bbd94ad0684e99ed2d181da2ef2b91d8af088c5787"
+  },
+  "review_document_sha256": {
+    "docs/seasonal_conditioning_s4_e1_contract.md": "de652a290b454eb2073e4ac1d2ca4ed35ebb59729443c74f445507989f558aaf",
+    "docs/time_environment_s4_architecture.md": "8921a6b228491f42088819f0bd16ca31c768c25022ae328d44c54999013e2328",
+    "docs/research_stage_ledger.md": "cd36cf2104aee913d3611ca08e67a1e456db5e5f733f58dd711be1c4674dcd2d",
+    "docs/seasonal_conditioning_s4_e1_contract_v1.md": "2cbff4361e95e4320c67c4a63a957078285b5aefa1c8ae26526771f12a714a77"
+  },
+  "source_support_audit_sha256": "66bb108eb05f87f98d77207bafdffa761b2464e65d41b568d18ef14c9939fbb1",
+  "checks": {
+    "v1_snapshot_byte_identical": true,
+    "original_proposal_unchanged": true,
+    "support_audit_artifacts_unchanged": true,
+    "source_config_tests_unchanged": true,
+    "source_config_tests_file_count": 339,
+    "local_links_valid": 44,
+    "contract_sections": 12,
+    "conformance_checks": 12,
+    "audit_counts_reconciled": true,
+    "git_diff_check_passed": true
+  },
+  "not_an_execution_approval_receipt": true
+}

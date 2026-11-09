@@ -1,0 +1,13 @@
+{
+  "synthetic_only": true,
+  "model_runs_not_repeated": true,
+  "checks": {
+    "stale_source_rejected": true,
+    "stale_config_rejected": true,
+    "incomplete_pilot_rejected_before_run_creation": true,
+    "changed_replay_score_rejected": true,
+    "changed_replay_id_rejected": true,
+    "changed_replay_figure_rejected": true,
+    "valid_replay_fixture_passed": true
+  }
+}

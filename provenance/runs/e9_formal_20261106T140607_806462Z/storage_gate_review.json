@@ -1,0 +1,20 @@
+{
+  "IDs": 45,
+  "all_protected_files_unchanged": true,
+  "annual_donor_parity": true,
+  "cases": 33971,
+  "complete_support_inventory": true,
+  "final_test_access": false,
+  "full_forecasts_frozen": false,
+  "hard_cap_gib": 5,
+  "inventory_seconds": 515.1997967920033,
+  "lossless_roundtrips": 33971,
+  "outer_targets_read": false,
+  "precheck_gib": 2.5,
+  "projected_gib": 3.078863668255508,
+  "retained_gib": 2.6634566402062774,
+  "reusable_inventory": true,
+  "seasonal_empty_support_cases": 0,
+  "source_hashes_verified": 509,
+  "status": "AWAITING_STORAGE_PRECHECK_DECISION"
+}

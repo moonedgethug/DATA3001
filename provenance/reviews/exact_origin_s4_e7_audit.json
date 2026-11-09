@@ -1,0 +1,150 @@
+{
+  "completed_at_utc": "2026-11-05T08:02:20.205862+00:00",
+  "status": "ENGINEERING_COMPLETE_WITH_PREDICTIVE_TRADEOFF",
+  "primary": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+  "fresh_replay": "exact_origin_s4_e7_replay_20261105T074735_038964Z",
+  "radius_m": 100000,
+  "selected_k": 8000,
+  "tests_passed": 16,
+  "verified_frozen_source_files": 253,
+  "fresh_replay_checks": {
+    "B2_scores_reconciled": true,
+    "exhaustive_neighbour_checks": true,
+    "forecast_freeze_before_scoring": true,
+    "independent_audit": {
+      "baseline_endpoint_counts_recomputed": true,
+      "draws": 10000,
+      "example_donor_lists_checked": 6,
+      "fine_quality_preserved": false,
+      "forecast_vectors_checked": 135884,
+      "frozen_files_rehashed": 31,
+      "independent_audit_passed": true,
+      "independent_ids": 45,
+      "inner_eligibility": {
+        "C_T0": {
+          "eligible": 41761,
+          "scored": 41761,
+          "unsupported": 0
+        },
+        "C_T1": {
+          "eligible": 44612,
+          "scored": 44612,
+          "unsupported": 0
+        }
+      },
+      "legacy_quality_preserved": false,
+      "nested_grids_recomputed": true,
+      "no_final_test_access": true,
+      "outer_cases": 33971,
+      "primary_brier_supported": true,
+      "radius_m": 100000.0,
+      "selected_k": 8000,
+      "sparse_regions_and_scores_recomputed": true
+    },
+    "nested_grids_reconciled": true,
+    "outer_cases": 33971,
+    "replay": {
+      "area_tolerance_km2": 1e-09,
+      "discrete_decisions_identical": true,
+      "probability_tolerance": 1e-12,
+      "sparse_forecasts_compared": 8,
+      "tables_compared": 15
+    },
+    "selected_k": 8000,
+    "stage": "replay",
+    "whole_ID_inference_independently_recomputed": true
+  },
+  "all_sealed_output_checksums_verified": true,
+  "reporting_fix_forecast_invariance": true,
+  "outer_pairs": 33971,
+  "outer_ids": 45,
+  "outer_origins": 36,
+  "new_unsupported_cases": 0,
+  "final_test_access": false,
+  "phase_accounted_seconds": {
+    "pilot": 289.0,
+    "primary": 1553.9231049579685,
+    "replay": 780.0
+  },
+  "total_accounted_seconds": 2622.9231049579685,
+  "attempts": [
+    {
+      "run_id": "exact_origin_s4_e7_pilot_20261105T062435_098541Z",
+      "phase": "pilot",
+      "status": "passed",
+      "accounted_seconds": 68.0,
+      "recorded_peak_rss_gib": 1.2843475341796875
+    },
+    {
+      "run_id": "exact_origin_s4_e7_pilot_20261105T064204_971173Z",
+      "phase": "pilot",
+      "status": "passed",
+      "accounted_seconds": 68.0,
+      "recorded_peak_rss_gib": 1.27728271484375
+    },
+    {
+      "run_id": "exact_origin_s4_e7_pilot_20261105T070154_512690Z",
+      "phase": "pilot",
+      "status": "passed",
+      "accounted_seconds": 87.0,
+      "recorded_peak_rss_gib": 1.294921875
+    },
+    {
+      "run_id": "exact_origin_s4_e7_pilot_20261105T074221_506202Z",
+      "phase": "pilot",
+      "status": "passed",
+      "accounted_seconds": 66.0,
+      "recorded_peak_rss_gib": 1.2747650146484375
+    },
+    {
+      "run_id": "exact_origin_s4_e7_primary_20261105T062540_174343Z",
+      "phase": "primary",
+      "status": "failed",
+      "accounted_seconds": 768.444290916028,
+      "recorded_peak_rss_gib": 1.282745361328125
+    },
+    {
+      "run_id": "exact_origin_s4_e7_primary_20261105T064309_692208Z",
+      "phase": "primary",
+      "status": "failed",
+      "accounted_seconds": 764.5150458749849,
+      "recorded_peak_rss_gib": 1.28399658203125
+    },
+    {
+      "run_id": "exact_origin_s4_e7_primary_20261105T073401_348967Z",
+      "phase": "primary",
+      "status": "failed",
+      "accounted_seconds": 0.9637681669555604,
+      "recorded_peak_rss_gib": null
+    },
+    {
+      "run_id": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+      "phase": "primary",
+      "status": "passed",
+      "accounted_seconds": 20.0,
+      "recorded_peak_rss_gib": 0.7046356201171875
+    },
+    {
+      "run_id": "exact_origin_s4_e7_replay_20261105T074735_038964Z",
+      "phase": "replay",
+      "status": "passed",
+      "accounted_seconds": 780.0,
+      "recorded_peak_rss_gib": 1.3590087890625
+    }
+  ],
+  "visual_qa": {
+    "figures_inspected": 10,
+    "html_image_references_verified": 10,
+    "live_html_browser_rendering": "Blocked by local-file URL protocol policy; no bypass attempted"
+  },
+  "local_deliverable": "results/deliverables/exact_origin_s4_e7",
+  "research_stage_ledger_changed_by_this_round": false,
+  "review_file_sha256": {
+    "docs/exact_origin_s4_e7_plan.md": "c53be74c3dae0960f673ac3a0d79d5776c7f1ce5535587c2ef1edd631a686e75",
+    "docs/exact_origin_s4_e7_results.md": "838521588250f9fad9155a3d0a2c48a1c21b4b6fc87ab8f2ecccb69f6b327be7",
+    "configs/exact_origin_s4_e7.json": "4e4022c059082e5d6ca105416c3b4838805624829270045451650297e8653ad5",
+    "provenance/reviews/exact_origin_s4_e7_tests.txt": "3032eb989a07efe975ba8bbb4d530b115f14e1847e340aa3231dc4ca3de5471e",
+    "provenance/reviews/exact_origin_s4_e7_reporting_fix_invariance.json": "d0edbc7e4729f1f46a81dfff79674d41bfc1ff501cfcd704fc4a483a4b7d3ea6",
+    "provenance/reviews/exact_origin_s4_e7_posthoc_diagnostics.json": "cf798d69e8a3e853d1a0aefecb1c0cdb7af96775d000487e7fcdc11d8ec04c49"
+  }
+}

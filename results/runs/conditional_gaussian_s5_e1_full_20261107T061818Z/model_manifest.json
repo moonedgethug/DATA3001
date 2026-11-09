@@ -1,0 +1,41 @@
+{
+  "contract_sha256": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4",
+  "controls": [
+    "ExactPoint",
+    "EndpointCI"
+  ],
+  "data_copied": false,
+  "donor_lineage_directory": "lineage",
+  "evaluation": "2020-2022 development only; no locked final-test access",
+  "fit_period": "2001-2019",
+  "fitting_coordinates": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet",
+  "fitting_coordinates_sha256": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+  "fitting_ids": 338,
+  "fitting_pairs": 265393,
+  "forecast_directory": "forecasts",
+  "global_neural_network": false,
+  "horizon_seconds": 604800,
+  "law": "Full-covariance Gaussian MLE in query-centred WGS84 east/north kilometre coordinates; n-divisor covariance; full geographic pushforward",
+  "model": "LocalGaussian",
+  "new_position_usage": "Load pinned fitting coordinates and the verified NeighbourIndex; select unchanged endpoints; call conditional_gaussian_s5_e1.fit([lon,lat], endpoints). Retain the same support/rank stopping rules.",
+  "parameter_directory": "parameters",
+  "parameter_table": "gaussian_parameters.parquet",
+  "query_parameters": 33971,
+  "scientific_decision": {
+    "candidate_for_default_discussion": false,
+    "companion": "LocalGaussian minus EndpointCI",
+    "decision": "NO_SUPPORTED_NONDEGRADING_IMPROVEMENT",
+    "development_evidence_only": true,
+    "engineering_complete": true,
+    "final_test_access": false,
+    "model_default_changed": false,
+    "numerical_gates_passed": true,
+    "outer_cases": 33971,
+    "outer_ids": 45,
+    "primary_comparison": "LocalGaussian minus ExactPoint",
+    "quality_non_degrading_improvement": false
+  },
+  "source_snapshot": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/provenance/runs/conditional_gaussian_s5_e1_full_20261107T061818Z/parameters_sources",
+  "stage": "Step5 E1",
+  "training_rule": "k8000 nearest origins within WGS84 100km, retaining distance ties; equal pair votes"
+}

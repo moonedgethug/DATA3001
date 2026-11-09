@@ -1,0 +1,6 @@
+{
+  "message": "Projected storage exceeds the approved precheck",
+  "no_automatic_retry": true,
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py\", line 225, in main\n    else:globals()[stage](*args)\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py\", line 91, in inventory\n    assert projected<=2.5*2**30,'Projected storage exceeds the approved precheck'\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError: Projected storage exceeds the approved precheck\n",
+  "type": "AssertionError"
+}

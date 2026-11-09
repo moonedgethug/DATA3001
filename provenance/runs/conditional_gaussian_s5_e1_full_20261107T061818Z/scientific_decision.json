@@ -1,0 +1,14 @@
+{
+  "candidate_for_default_discussion": false,
+  "companion": "LocalGaussian minus EndpointCI",
+  "decision": "NO_SUPPORTED_NONDEGRADING_IMPROVEMENT",
+  "development_evidence_only": true,
+  "engineering_complete": true,
+  "final_test_access": false,
+  "model_default_changed": false,
+  "numerical_gates_passed": true,
+  "outer_cases": 33971,
+  "outer_ids": 45,
+  "primary_comparison": "LocalGaussian minus ExactPoint",
+  "quality_non_degrading_improvement": false
+}

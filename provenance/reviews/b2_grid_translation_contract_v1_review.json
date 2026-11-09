@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment": "b2_grid_translation_g1",
+  "contract": "docs/b2_grid_translation_contract.md",
+  "contract_version": "v1",
+  "contract_sha256": "c4c64782ed7ad7a33dc366fe6a971defb0b68c2b7b2f79534f58fd598a941fd7",
+  "date_local": "2026-11-07",
+  "status": "REVIEW_REQUIRED",
+  "verification_status": "PLANNING_REVIEW_ONLY",
+  "authorized_this_turn": "Draft and review the engineering contract only.",
+  "planning_checks": {
+    "scope": "Original B2, 100 fixed random translated grids, equal mean of mapped probabilities",
+    "count_tables": 101,
+    "forecast_objects": 102,
+    "primary_contrasts": 1,
+    "main_roster_pairs": 33971,
+    "main_roster_ids": 45,
+    "source_target_translation": "joint",
+    "common_scoring_grid_degrees": 1,
+    "within_cell_distribution": "uniform WGS84 surface area over frozen wet in-domain cell portion",
+    "exit": "retain observed first-exit E; no geometry-created exit mass",
+    "no_support": "no fallback or deletion; full-roster all-shift support gate before formal scoring",
+    "training": "equal observation-pair votes",
+    "evaluation": "equal times within ID then equal IDs",
+    "acceptance": "paired Brier improvement, observed H90 and area no degradation, declared uncertainty guards",
+    "budget_minutes": {
+      "pilot": 10,
+      "formal": 60,
+      "audit": 20,
+      "report": 10,
+      "total": 100
+    },
+    "source_role_counts_copied_from_verified_contracts": true,
+    "source_hashes_copied_from_existing_receipts": true,
+    "scientific_and_numerical_feasibility_measured": false,
+    "markdown_sections": 12,
+    "document_whitespace_check": "passed"
+  },
+  "protected_existing_files_checked": 483,
+  "protected_inventory_scope": "Existing docs/**/*.md, src/**/*.py, tests/**/*.py, configs/**/*.json, README.md, pyproject.toml",
+  "protected_existing_inventory_sha256": "52a213e108b0bbcd9546d3a00ae71f46077858c2b2e381b65a9666882f83d3f2",
+  "changed_existing_files": [],
+  "new_files": [
+    "docs/b2_grid_translation_contract.md",
+    "provenance/reviews/b2_grid_translation_contract_v1_review.json"
+  ],
+  "model_code_written": false,
+  "experiment_configuration_written": false,
+  "random_offsets_generated": false,
+  "transition_counts_computed": false,
+  "support_statistics_computed": false,
+  "models_or_scores_run": false,
+  "outer_targets_opened": false,
+  "final_test_read": false,
+  "stage_ledger_changed": false,
+  "limitations": [
+    "Support, land-mask conflicts and runtime remain unmeasured until execution approval.",
+    "No trial or formal result is implied by this planning review.",
+    "New wet-domain uniformity, common scoring and support stop rules require approval with the contract."
+  ]
+}

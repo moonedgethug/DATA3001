@@ -1,0 +1,296 @@
+{
+  "aggregation_checks": [
+    {
+      "max_id_mean_difference_km": 0.0,
+      "subset": "fixed128",
+      "unique_ids": 70
+    },
+    {
+      "max_id_mean_difference_km": 0.0,
+      "subset": "retained2176",
+      "unique_ids": 2
+    }
+  ],
+  "final_test_access": false,
+  "fixed_cost": {
+    "batches": 128,
+    "wall_seconds": 30.84476391703356,
+    "worker_seconds": 57.21154316246975
+  },
+  "fixed_queries": 128,
+  "full_experiment_resumed": false,
+  "historical_batch_speedup": 1.125040459473913,
+  "matched_new_worker_seconds": 27.623844447662123,
+  "matched_old_worker_seconds": 29.55317412421573,
+  "max_replicate_difference_km": 0.0,
+  "max_score_difference_km": 0.0,
+  "max_variance_difference": 0.0,
+  "new_profile_128_queries": {
+    "affine_and_buffers": 1.0323012887965888,
+    "distance_and_reduce": 0.5320629571797326,
+    "geography_ecef": 25.535744609194808,
+    "normal_nodes": 0.5118486755527556,
+    "prepare": 0.004519700072705746
+  },
+  "node_count": 65536,
+  "old_profile_16_queries": [
+    {
+      "calls": 1504,
+      "cumulative_seconds": 2.4411164860000003,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pyproj/geod.py",
+      "function": "fwd",
+      "line": 239,
+      "self_seconds": 2.426195213
+    },
+    {
+      "calls": 1551,
+      "cumulative_seconds": 0.413182133,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pyproj/transformer.py",
+      "function": "transform",
+      "line": 712,
+      "self_seconds": 0.39670602200000005
+    },
+    {
+      "calls": 1504,
+      "cumulative_seconds": 2.73914925,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py",
+      "function": "to_geographic",
+      "line": 46,
+      "self_seconds": 0.204976142
+    },
+    {
+      "calls": 10267,
+      "cumulative_seconds": 0.156317805,
+      "file": "~",
+      "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+      "line": 0,
+      "self_seconds": 0.156317805
+    },
+    {
+      "calls": 752,
+      "cumulative_seconds": 2.8632531230000002,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2.py",
+      "function": "draw_components",
+      "line": 187,
+      "self_seconds": 0.122927299
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.175807326,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2.py",
+      "function": "normals",
+      "line": 25,
+      "self_seconds": 0.077859126
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.166752762,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_numerics.py",
+      "function": "mixture_integrands",
+      "line": 10,
+      "self_seconds": 0.049141218
+    },
+    {
+      "calls": 4016,
+      "cumulative_seconds": 0.184017973,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+      "function": "norm",
+      "line": 2615,
+      "self_seconds": 0.030674331000000003
+    },
+    {
+      "calls": 3055,
+      "cumulative_seconds": 0.029577689,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/lib/_shape_base_impl.py",
+      "function": "column_stack",
+      "line": 607,
+      "self_seconds": 0.026915860000000003
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.033729209,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/scipy/stats/_qmc.py",
+      "function": "_scramble",
+      "line": 1813,
+      "self_seconds": 0.022910369
+    },
+    {
+      "calls": 11421,
+      "cumulative_seconds": 0.018196206,
+      "file": "~",
+      "function": "<method 'astype' of 'numpy.ndarray' objects>",
+      "line": 0,
+      "self_seconds": 0.018196206
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.016630136,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/scipy/stats/_qmc.py",
+      "function": "_random",
+      "line": 1830,
+      "self_seconds": 0.016447562000000002
+    },
+    {
+      "calls": 1551,
+      "cumulative_seconds": 0.45054898800000004,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_esopt.py",
+      "function": "xyz",
+      "line": 12,
+      "self_seconds": 0.014388903000000001
+    },
+    {
+      "calls": 16920,
+      "cumulative_seconds": 0.007798679,
+      "file": "~",
+      "function": "<built-in method builtins.id>",
+      "line": 0,
+      "self_seconds": 0.007798679
+    },
+    {
+      "calls": 10528,
+      "cumulative_seconds": 0.030260473000000003,
+      "file": "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "function": "deepcopy",
+      "line": 118,
+      "self_seconds": 0.007724015000000001
+    },
+    {
+      "calls": 10669,
+      "cumulative_seconds": 0.029866161000000002,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/pyproj/utils.py",
+      "function": "_copytobuffer",
+      "line": 89,
+      "self_seconds": 0.0074886760000000005
+    },
+    {
+      "calls": 15061,
+      "cumulative_seconds": 0.007260669000000001,
+      "file": "~",
+      "function": "<built-in method numpy.asarray>",
+      "line": 0,
+      "self_seconds": 0.007260669000000001
+    },
+    {
+      "calls": 752,
+      "cumulative_seconds": 0.006705987,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+      "function": "rng_integers",
+      "line": 701,
+      "self_seconds": 0.0044125020000000004
+    },
+    {
+      "calls": 3008,
+      "cumulative_seconds": 0.0058262800000000005,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+      "function": "full",
+      "line": 323,
+      "self_seconds": 0.004366382
+    },
+    {
+      "calls": 1128,
+      "cumulative_seconds": 0.004376755,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/_core/_ufunc_config.py",
+      "function": "inner",
+      "line": 496,
+      "self_seconds": 0.003703866
+    },
+    {
+      "calls": 1504,
+      "cumulative_seconds": 0.0054339900000000005,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py",
+      "function": "_points",
+      "line": 26,
+      "self_seconds": 0.003667061
+    },
+    {
+      "calls": 36284,
+      "cumulative_seconds": 0.0034469530000000004,
+      "file": "~",
+      "function": "<built-in method builtins.hasattr>",
+      "line": 0,
+      "self_seconds": 0.0034469530000000004
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.007487998,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2.py",
+      "function": "generator",
+      "line": 20,
+      "self_seconds": 0.003004314
+    },
+    {
+      "calls": 2679,
+      "cumulative_seconds": 0.0026380820000000004,
+      "file": "~",
+      "function": "<built-in method numpy.zeros>",
+      "line": 0,
+      "self_seconds": 0.0026380820000000004
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.07217951,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/scipy/stats/_qmc.py",
+      "function": "__init__",
+      "line": 1761,
+      "self_seconds": 0.00246275
+    },
+    {
+      "calls": 47,
+      "cumulative_seconds": 3.6671083340000004,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/local_gmm_s5_e2_numerics.py",
+      "function": "score_es",
+      "line": 19,
+      "self_seconds": 0.002368298
+    },
+    {
+      "calls": 1128,
+      "cumulative_seconds": 0.028091677000000002,
+      "file": "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/copy.py",
+      "function": "_reconstruct",
+      "line": 247,
+      "self_seconds": 0.002180145
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.003778155,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+      "function": "_rng_spawn",
+      "line": 1011,
+      "self_seconds": 0.0021746350000000003
+    },
+    {
+      "calls": 22184,
+      "cumulative_seconds": 0.001745472,
+      "file": "~",
+      "function": "<method 'get' of 'dict' objects>",
+      "line": 0,
+      "self_seconds": 0.001745472
+    },
+    {
+      "calls": 376,
+      "cumulative_seconds": 0.004419079,
+      "file": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/lib/python3.12/site-packages/numpy/random/_pickle.py",
+      "function": "__bit_generator_ctor",
+      "line": 17,
+      "self_seconds": 0.001716917
+    }
+  ],
+  "original_files_verified": 5473,
+  "outer_targets_read": false,
+  "passed": true,
+  "replicates": 8,
+  "retained_cost": {
+    "batches": 68,
+    "wall_seconds": 223.58550079201814,
+    "worker_seconds": 442.57833849370945
+  },
+  "retained_new_worker_seconds": 442.57833849370945,
+  "retained_old_worker_seconds": 497.9185372921638,
+  "retained_queries": 2176,
+  "run": "local_gmm_s5_e2_vector_20261107T133426Z",
+  "same_workload_speedup": 1.0698429098168807,
+  "scientific_models_modified": false,
+  "serial_repeat_seconds": 27.308914582943544,
+  "serial_spawn_bitwise_identical": true,
+  "validation_seconds": 300.719448207994
+}

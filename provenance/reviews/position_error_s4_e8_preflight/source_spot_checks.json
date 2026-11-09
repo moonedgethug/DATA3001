@@ -1,0 +1,59 @@
+{
+  "status": "three_training_endpoints_match_source_objects_exactly",
+  "cases": [
+    {
+      "id": 7647,
+      "source_obs": 5294393,
+      "departure": "2002-03-27T15:00:00+00:00",
+      "endpoint_epoch": 1017846000.0,
+      "err_lon": {
+        "canonical": 1.1070000027757487e-07,
+        "cached_original_source": 1.1070000027757487e-07,
+        "source_chunk": "err_lon/13",
+        "compressed_chunk_sha256": "32b7f2d54fdcb9a34b77efed0ffb481ada61a4d33996bdff3463eabc7498da10"
+      },
+      "err_lat": {
+        "canonical": 6.439999822305253e-08,
+        "cached_original_source": 6.439999822305253e-08,
+        "source_chunk": "err_lat/13",
+        "compressed_chunk_sha256": "ac9f088ac22266911a4ec67811f8fd42744a29c8acc8152ccea50c9c027e7038"
+      }
+    },
+    {
+      "id": 99004,
+      "source_obs": 85825358,
+      "departure": "2011-06-25T03:00:00+00:00",
+      "endpoint_epoch": 1309575600.0,
+      "err_lon": {
+        "canonical": 7.3000001599154984e-09,
+        "cached_original_source": 7.3000001599154984e-09,
+        "source_chunk": "err_lon/222",
+        "compressed_chunk_sha256": "bd1de57e3dae76ce93e90c5131cfc6f363fc1715bc08a7e7e1b3a6c4913ca9ff"
+      },
+      "err_lat": {
+        "canonical": 5.000000413701855e-09,
+        "cached_original_source": 5.000000413701855e-09,
+        "source_chunk": "err_lat/222",
+        "compressed_chunk_sha256": "1e3334265803b606d551b7cb32035413fd0fbfaae9777f05ed1745c2b1c71d98"
+      }
+    },
+    {
+      "id": 300234066710170,
+      "source_obs": 167620111,
+      "departure": "2019-03-04T18:00:00+00:00",
+      "endpoint_epoch": 1552327200.0,
+      "err_lon": {
+        "canonical": 5.800000035804942e-09,
+        "cached_original_source": 5.800000035804942e-09,
+        "source_chunk": "err_lon/435",
+        "compressed_chunk_sha256": "553d023a7f88412d82da98be980b3469f1a81000e9fce5228c7ab464f11bd903"
+      },
+      "err_lat": {
+        "canonical": 5.000000413701855e-09,
+        "cached_original_source": 5.000000413701855e-09,
+        "source_chunk": "err_lat/435",
+        "compressed_chunk_sha256": "3f4f89bdf650b4a8287370b89bf00519af677665acb7198565962c33862b1ab7"
+      }
+    }
+  ]
+}

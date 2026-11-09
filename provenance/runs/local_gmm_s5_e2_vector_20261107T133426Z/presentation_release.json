@@ -1,0 +1,13 @@
+{
+  "base_html_sha256": "646a3bea159a2a08b31581a8c6723710aa6a7bbd4def6e3ba94dac86bd6e2962",
+  "complete": true,
+  "delivery_release_sha256": "41d5e8041d0ed223c4cee216a52222282812d6df8de71cb90af56168cb280a6f",
+  "layout_only": true,
+  "model_or_scores_changed": false,
+  "result_sha256": {
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/final.html": "0a1cb17547de068b7ae9c23258b1431de26648c4bd10105cf427c7981de69fdb",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/leave_one_id_out_readable.png": "40e182010fc1e7b807ca6affc30907e31fd46dcb531b2b04e5eebb7534e83696",
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/paired_effects_readable.png": "b880b20caf92e0aedd64b535161f411cc87b60193b461e4299294b9ed74210c6"
+  },
+  "source_sha256": "2af3777636da4f463f0beaae93f18ae4729b2312c39038d049408356f0f29d2a"
+}

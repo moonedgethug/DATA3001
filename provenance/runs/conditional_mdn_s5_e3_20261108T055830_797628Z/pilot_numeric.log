@@ -1,0 +1,16 @@
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 9, "total": 128, "seconds": 7.471558041055687}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 17, "total": 128, "seconds": 11.996284416061826}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 25, "total": 128, "seconds": 17.20334958296735}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 33, "total": 128, "seconds": 21.704613207955845}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 41, "total": 128, "seconds": 26.345940041006543}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 49, "total": 128, "seconds": 31.445017291000113}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 57, "total": 128, "seconds": 36.070938750053756}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 65, "total": 128, "seconds": 41.314959957962856}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 73, "total": 128, "seconds": 45.85713849996682}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 81, "total": 128, "seconds": 50.43935562495608}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 89, "total": 128, "seconds": 54.983871540986}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 97, "total": 128, "seconds": 59.50756670802366}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 105, "total": 128, "seconds": 64.04354741598945}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 113, "total": 128, "seconds": 69.30450991599355}
+{"pilot_N": 65536, "pilot_M": 65536, "queries_complete": 121, "total": 128, "seconds": 74.53108274994884}
+{"pilot_N": 65536, "pilot_M": 65536, "numerical": false, "resource": false, "projected_hours": {"inner_scoring": 9.02184675654588, "outer_scoring": 6.810577560237699, "audit": 6.810188186804551}}

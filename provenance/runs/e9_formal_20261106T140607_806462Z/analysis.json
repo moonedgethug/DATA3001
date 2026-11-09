@@ -1,0 +1,12 @@
+{
+  "IDs": 45,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261106,
+  "complete_cases": true,
+  "evaluation": "Equal times within ID, then equal IDs; original weights renormalized in subgroups",
+  "final_test_access": false,
+  "independent_audit_pending": true,
+  "nominal_family_alpha": 0.05,
+  "per_case_records": 135884,
+  "season_claims": 2
+}

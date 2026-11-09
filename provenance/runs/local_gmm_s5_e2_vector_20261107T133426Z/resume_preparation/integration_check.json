@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    1,
+    2,
+    3
+  ],
+  "complete_ES_replicates_and_variance_verified": true,
+  "elapsed_seconds": 16.107875125017017,
+  "final_test_access": false,
+  "formal_outputs_modified": false,
+  "metadata_verified": true,
+  "outer_targets_read": false,
+  "passed": true,
+  "queries": 64
+}

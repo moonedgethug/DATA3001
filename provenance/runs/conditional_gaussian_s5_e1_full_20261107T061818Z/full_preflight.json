@@ -1,0 +1,15 @@
+{
+  "all128_control_scores_match": true,
+  "audit_seconds": 1878.1801156074494,
+  "energy_count": 8192,
+  "final_test_access": false,
+  "formal_seconds": 7169.546631418332,
+  "formal_with_reserve_seconds": 14339.093262836665,
+  "numerical_pilot": "conditional_gaussian_s5_e1_20261107T054457_277726Z",
+  "outer_targets_read": false,
+  "passed": true,
+  "private_process_parity": true,
+  "process_tree_rss_bytes": 2384265216,
+  "region_count": 32768,
+  "storage_bytes": 5454729578.5
+}

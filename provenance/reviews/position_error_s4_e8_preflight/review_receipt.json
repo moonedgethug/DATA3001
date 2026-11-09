@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "status": "REVIEW_REQUIRED",
+  "scientific_scale_gate": "UNRESOLVED",
+  "model_development_started": false,
+  "prediction_experiment_run": false,
+  "ledger_edited": false,
+  "final_test_read": false,
+  "checks": {
+    "training_files_verified": 338,
+    "training_pairs_joined": 265393,
+    "live_official_spot_check_matches": true,
+    "local_document_links": "PASS",
+    "mathematical_delimiters": "PASS"
+  },
+  "files": {
+    "docs/position_error_s4_e8_contract.md": "04caf82920c0fb2282bce1b58685892d8125fa469b5f6103fbb27b09db631256",
+    "docs/position_error_s4_e8_data_audit.md": "465eed3a0ae1e573ae0208716f8390b211ead99926fa782b2770eb3c2798e0c2",
+    "provenance/reviews/position_error_s4_e8_preflight/audit_training_errors.py": "28f642f356e05b60d6e00ee7db694d44769b0622e3cc500b643bcf2b663e4b20",
+    "provenance/reviews/position_error_s4_e8_preflight/training_error_scale_audit.json": "65af64ed9da29b637169bb26bb31fc52cbb9289f5dedddc314527a1613c0ae89",
+    "provenance/reviews/position_error_s4_e8_preflight/source_spot_checks.json": "f1952306f3156fb80be7021ea750ef3b34b010baa0c0601b449ba975883ecf10",
+    "provenance/reviews/position_error_s4_e8_preflight/official_spot_check.json": "3ef9bdbd29ba4d6b91cb562cca7cd1ad62f6425aa7c0e81cccccf4076a41e302",
+    "provenance/reviews/position_error_s4_e8_preflight/author_source_receipts.json": "3073ff05c95308d68e0be82c9457c068ecf145b48928dcd222854cc2e32de26c"
+  }
+}

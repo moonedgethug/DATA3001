@@ -1,0 +1,57 @@
+{
+  "id": 99004,
+  "url": "https://erddap.aoml.noaa.gov/gdp/erddap/files/drifter_hourly_qc/drifter_hourly_99004.nc",
+  "status": 200,
+  "bytes": 552221,
+  "sha256": "7b14b2bcf3c5e3d1e959e6cad4443ff7ae91e3eb218ed08f3bb74139326ffcc1",
+  "location_type": "Argos",
+  "history": "Version v2.01.  Metadata from dirall.dat and deplog.dat",
+  "variables": {
+    "err_lon": {
+      "attrs": {
+        "_FillValue": "-999999.0",
+        "long_name": "95% confidence interval in longitude",
+        "units": "degrees_east",
+        "missing_value": "-999999.0"
+      },
+      "raw_first5": [
+        1.8499999754340024e-08,
+        1.3399999332364132e-08,
+        1.0499999980595476e-08,
+        8.099999782018585e-09,
+        7.799999757196474e-09
+      ],
+      "decoded_first5": [
+        1.8499999754340024e-08,
+        1.3399999332364132e-08,
+        1.0499999980595476e-08,
+        8.099999782018585e-09,
+        7.799999757196474e-09
+      ],
+      "same_raw_and_decoded": true
+    },
+    "err_lat": {
+      "attrs": {
+        "_FillValue": "-999999.0",
+        "long_name": "95% confidence interval in latitude",
+        "units": "degrees_north",
+        "missing_value": "-999999.0"
+      },
+      "raw_first5": [
+        4.2599999972026126e-08,
+        3.070000076377255e-08,
+        2.249999830894467e-08,
+        1.4299999406830466e-08,
+        8.199999790292622e-09
+      ],
+      "decoded_first5": [
+        4.2599999972026126e-08,
+        3.070000076377255e-08,
+        2.249999830894467e-08,
+        1.4299999406830466e-08,
+        8.199999790292622e-09
+      ],
+      "same_raw_and_decoded": true
+    }
+  }
+}

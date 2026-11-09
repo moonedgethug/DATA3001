@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "denied_access": [],
+  "elapsed_seconds": 0.4218511669896543,
+  "final_test_access": false,
+  "outer_endpoint_errors_read": false,
+  "outer_targets_read": false,
+  "peak_rss_bytes": 201048064,
+  "phase": "pilot",
+  "retained_bytes": 142046,
+  "total_execution_seconds": 241.00854283280205
+}

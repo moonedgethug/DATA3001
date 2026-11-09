@@ -1,0 +1,256 @@
+optimized ladder 4096 32 /128 5.97 s
+optimized ladder 4096 64 /128 6.46 s
+optimized ladder 4096 96 /128 6.93 s
+optimized ladder 4096 128 /128 7.35 s
+{"energy_count": 4096, "region_count": 16384, "projection": {"SeasonalExactPoint": {"replicates": [{"three_se_km": 0.023414152305810208, "threshold_km": 0.015055678760185084}, {"three_se_km": 0.023431030019776925, "threshold_km": 0.015057939367235804}], "three_se_km": 0.023431030019776925, "threshold_km": 0.015055678760185084, "seed_difference_km": 0.17816600779821634, "seed_limit_km": 0.32208413753951626, "seed_passed": true, "precision_passed": false}, "SeasonalEndpointCI": {"replicates": [{"three_se_km": 0.023415799003155456, "threshold_km": 0.015055671843581574}, {"three_se_km": 0.023431717361724582, "threshold_km": 0.015057917550860316}], "three_se_km": 0.023431717361724582, "threshold_km": 0.015055671843581574, "seed_difference_km": 0.17938639992571126, "seed_limit_km": 0.32209484077933037, "seed_passed": true, "precision_passed": false}}, "region_checks": [{"model": "AnnualEndpointCI", "max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, {"model": "AnnualExactPoint", "max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, {"model": "SeasonalEndpointCI", "max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, {"model": "SeasonalExactPoint", "max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}], "numerical_passed": false, "region_passed": true, "resource_precheck_passed": false, "p95_case_seconds": 0.09328727528918512, "component_p95_sum_seconds": 0.10165170047548576, "max_case_seconds": 0.12044666579458838, "formal_projected_seconds": 3864.5309085379995, "formal_projection_2x_seconds": 7729.061817075999}
+optimized ladder 8192 32 /128 8.11 s
+optimized ladder 8192 64 /128 8.85 s
+optimized ladder 8192 96 /128 9.59 s
+optimized ladder 8192 128 /128 10.32 s
+{"energy_count": 8192, "region_count": 16384, "projection": {"SeasonalExactPoint": {"replicates": [{"three_se_km": 0.0166098470942138, "threshold_km": 0.015064425721920828}, {"three_se_km": 0.016673358583511023, "threshold_km": 0.015062717331891901}], "three_se_km": 0.016673358583511023, "threshold_km": 0.015062717331891901, "seed_difference_km": 0.0012540939444969368, "seed_limit_km": 0.22820962158266167, "seed_passed": true, "precision_passed": false}, "SeasonalEndpointCI": {"replicates": [{"three_se_km": 0.016609783139788566, "threshold_km": 0.015064377255910904}, {"three_se_km": 0.016674855153992987, "threshold_km": 0.015062757871477449}], "three_se_km": 0.016674855153992987, "threshold_km": 0.015062757871477449, "seed_difference_km": 0.0024803257596204276, "seed_limit_km": 0.22821469918938303, "seed_passed": true, "precision_passed": false}}, "region_checks": [{"model": "AnnualEndpointCI", "max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, {"model": "AnnualExactPoint", "max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, {"model": "SeasonalEndpointCI", "max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, {"model": "SeasonalExactPoint", "max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}], "numerical_passed": false, "region_passed": true, "resource_precheck_passed": false, "p95_case_seconds": 0.09753332232939986, "component_p95_sum_seconds": 0.10581058769603237, "max_case_seconds": 0.12483595672529166, "formal_projected_seconds": 4019.9406220841074, "formal_projection_2x_seconds": 8039.881244168215}
+optimized ladder 16384 32 /128 11.73 s
+optimized ladder 16384 64 /128 13.12 s
+optimized ladder 16384 96 /128 14.52 s
+optimized ladder 16384 128 /128 15.91 s
+{"energy_count": 16384, "region_count": 16384, "projection": {"SeasonalExactPoint": {"replicates": [{"three_se_km": 0.01175631896081773, "threshold_km": 0.01505976511485775}, {"three_se_km": 0.011739386980439928, "threshold_km": 0.015059603419681912}], "three_se_km": 0.01175631896081773, "threshold_km": 0.015059603419681912, "seed_difference_km": 0.014260073113753435, "seed_limit_km": 0.16119267902403817, "seed_passed": true, "precision_passed": true}, "SeasonalEndpointCI": {"replicates": [{"three_se_km": 0.01175661828205627, "threshold_km": 0.015059724486024596}, {"three_se_km": 0.011739650773651376, "threshold_km": 0.015059604322784623}], "three_se_km": 0.01175661828205627, "threshold_km": 0.015059604322784623, "seed_difference_km": 0.015436114582282556, "seed_limit_km": 0.1611981034048562, "seed_passed": true, "precision_passed": true}}, "region_checks": [{"model": "AnnualEndpointCI", "max_mass_error": 0.000349308369426371, "weighted_hit_change": 0.0, "weighted_area_change": 0.0004693078366704229}, {"model": "AnnualExactPoint", "max_mass_error": 2.55351295663786e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}, {"model": "SeasonalEndpointCI", "max_mass_error": 0.0005835156819870013, "weighted_hit_change": 0.0, "weighted_area_change": 0.00047302116683542455}, {"model": "SeasonalExactPoint", "max_mass_error": 1.9984014443252818e-15, "weighted_hit_change": 0.0, "weighted_area_change": 0.0}], "numerical_passed": true, "region_passed": true, "resource_precheck_passed": false, "p95_case_seconds": 0.10768179557635424, "component_p95_sum_seconds": 0.11609539862838551, "max_case_seconds": 0.13428945769555842, "formal_projected_seconds": 4404.264465485373, "formal_projection_2x_seconds": 8808.528930970746}
+{
+  "levels": [
+    {
+      "energy_count": 4096,
+      "region_count": 16384,
+      "projection": {
+        "SeasonalExactPoint": {
+          "replicates": [
+            {
+              "three_se_km": 0.023414152305810208,
+              "threshold_km": 0.015055678760185084
+            },
+            {
+              "three_se_km": 0.023431030019776925,
+              "threshold_km": 0.015057939367235804
+            }
+          ],
+          "three_se_km": 0.023431030019776925,
+          "threshold_km": 0.015055678760185084,
+          "seed_difference_km": 0.17816600779821634,
+          "seed_limit_km": 0.32208413753951626,
+          "seed_passed": true,
+          "precision_passed": false
+        },
+        "SeasonalEndpointCI": {
+          "replicates": [
+            {
+              "three_se_km": 0.023415799003155456,
+              "threshold_km": 0.015055671843581574
+            },
+            {
+              "three_se_km": 0.023431717361724582,
+              "threshold_km": 0.015057917550860316
+            }
+          ],
+          "three_se_km": 0.023431717361724582,
+          "threshold_km": 0.015055671843581574,
+          "seed_difference_km": 0.17938639992571126,
+          "seed_limit_km": 0.32209484077933037,
+          "seed_passed": true,
+          "precision_passed": false
+        }
+      },
+      "region_checks": [
+        {
+          "model": "AnnualEndpointCI",
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        {
+          "model": "AnnualExactPoint",
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        {
+          "model": "SeasonalEndpointCI",
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        {
+          "model": "SeasonalExactPoint",
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      ],
+      "numerical_passed": false,
+      "region_passed": true,
+      "resource_precheck_passed": false,
+      "p95_case_seconds": 0.09328727528918512,
+      "component_p95_sum_seconds": 0.10165170047548576,
+      "max_case_seconds": 0.12044666579458838,
+      "formal_projected_seconds": 3864.5309085379995,
+      "formal_projection_2x_seconds": 7729.061817075999
+    },
+    {
+      "energy_count": 8192,
+      "region_count": 16384,
+      "projection": {
+        "SeasonalExactPoint": {
+          "replicates": [
+            {
+              "three_se_km": 0.0166098470942138,
+              "threshold_km": 0.015064425721920828
+            },
+            {
+              "three_se_km": 0.016673358583511023,
+              "threshold_km": 0.015062717331891901
+            }
+          ],
+          "three_se_km": 0.016673358583511023,
+          "threshold_km": 0.015062717331891901,
+          "seed_difference_km": 0.0012540939444969368,
+          "seed_limit_km": 0.22820962158266167,
+          "seed_passed": true,
+          "precision_passed": false
+        },
+        "SeasonalEndpointCI": {
+          "replicates": [
+            {
+              "three_se_km": 0.016609783139788566,
+              "threshold_km": 0.015064377255910904
+            },
+            {
+              "three_se_km": 0.016674855153992987,
+              "threshold_km": 0.015062757871477449
+            }
+          ],
+          "three_se_km": 0.016674855153992987,
+          "threshold_km": 0.015062757871477449,
+          "seed_difference_km": 0.0024803257596204276,
+          "seed_limit_km": 0.22821469918938303,
+          "seed_passed": true,
+          "precision_passed": false
+        }
+      },
+      "region_checks": [
+        {
+          "model": "AnnualEndpointCI",
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        {
+          "model": "AnnualExactPoint",
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        {
+          "model": "SeasonalEndpointCI",
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        {
+          "model": "SeasonalExactPoint",
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      ],
+      "numerical_passed": false,
+      "region_passed": true,
+      "resource_precheck_passed": false,
+      "p95_case_seconds": 0.09753332232939986,
+      "component_p95_sum_seconds": 0.10581058769603237,
+      "max_case_seconds": 0.12483595672529166,
+      "formal_projected_seconds": 4019.9406220841074,
+      "formal_projection_2x_seconds": 8039.881244168215
+    },
+    {
+      "energy_count": 16384,
+      "region_count": 16384,
+      "projection": {
+        "SeasonalExactPoint": {
+          "replicates": [
+            {
+              "three_se_km": 0.01175631896081773,
+              "threshold_km": 0.01505976511485775
+            },
+            {
+              "three_se_km": 0.011739386980439928,
+              "threshold_km": 0.015059603419681912
+            }
+          ],
+          "three_se_km": 0.01175631896081773,
+          "threshold_km": 0.015059603419681912,
+          "seed_difference_km": 0.014260073113753435,
+          "seed_limit_km": 0.16119267902403817,
+          "seed_passed": true,
+          "precision_passed": true
+        },
+        "SeasonalEndpointCI": {
+          "replicates": [
+            {
+              "three_se_km": 0.01175661828205627,
+              "threshold_km": 0.015059724486024596
+            },
+            {
+              "three_se_km": 0.011739650773651376,
+              "threshold_km": 0.015059604322784623
+            }
+          ],
+          "three_se_km": 0.01175661828205627,
+          "threshold_km": 0.015059604322784623,
+          "seed_difference_km": 0.015436114582282556,
+          "seed_limit_km": 0.1611981034048562,
+          "seed_passed": true,
+          "precision_passed": true
+        }
+      },
+      "region_checks": [
+        {
+          "model": "AnnualEndpointCI",
+          "max_mass_error": 0.000349308369426371,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0004693078366704229
+        },
+        {
+          "model": "AnnualExactPoint",
+          "max_mass_error": 2.55351295663786e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        },
+        {
+          "model": "SeasonalEndpointCI",
+          "max_mass_error": 0.0005835156819870013,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.00047302116683542455
+        },
+        {
+          "model": "SeasonalExactPoint",
+          "max_mass_error": 1.9984014443252818e-15,
+          "weighted_hit_change": 0.0,
+          "weighted_area_change": 0.0
+        }
+      ],
+      "numerical_passed": true,
+      "region_passed": true,
+      "resource_precheck_passed": false,
+      "p95_case_seconds": 0.10768179557635424,
+      "component_p95_sum_seconds": 0.11609539862838551,
+      "max_case_seconds": 0.13428945769555842,
+      "formal_projected_seconds": 4404.264465485373,
+      "formal_projection_2x_seconds": 8808.528930970746
+    }
+  ],
+  "selected_count": 16384,
+  "numerical_passed": true,
+  "pilot_precheck_passed": false,
+  "formal_authorized": false,
+  "formal_started": false,
+  "outer_targets_read": false,
+  "full_roster_preflight_completed": false,
+  "reason": "Await independent review and user decision; full-roster support/storage/audit gate still required",
+  "cache_bytes": 122944500
+}

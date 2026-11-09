@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "prior_compute_seconds": 515.8821546636755,
+  "entries": [
+    {
+      "label": "formal_training_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_formal_training.py"
+      ],
+      "started_utc": "2026-11-08T08:47:39.005290+00:00",
+      "elapsed_seconds": 2.53627087501809,
+      "peak_process_tree_rss_bytes": 5193728,
+      "peak_storage_bytes": 20362106,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 91868,
+      "free_disk_bytes": 27607150592
+    },
+    {
+      "label": "formal_scoring_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_formal_scoring.py"
+      ],
+      "started_utc": "2026-11-08T08:48:14.116486+00:00",
+      "elapsed_seconds": 2.045602665981278,
+      "peak_process_tree_rss_bytes": 3702784,
+      "peak_storage_bytes": 20362775,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 92005,
+      "free_disk_bytes": 27610705920
+    },
+    {
+      "label": "formal_selection_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_selection.py"
+      ],
+      "started_utc": "2026-11-08T08:48:41.745475+00:00",
+      "elapsed_seconds": 2.5535041670082137,
+      "peak_process_tree_rss_bytes": 3358720,
+      "peak_storage_bytes": 20363457,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 92151,
+      "free_disk_bytes": 27618742272
+    },
+    {
+      "label": "scoring_gap_red",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_formal_scoring.py"
+      ],
+      "started_utc": "2026-11-08T08:49:33.912103+00:00",
+      "elapsed_seconds": 2.5592607089783996,
+      "peak_process_tree_rss_bytes": 5423104,
+      "peak_storage_bytes": 20365741,
+      "returncode": 1,
+      "stop_reason": null,
+      "pid": 92463,
+      "free_disk_bytes": 27617304576
+    },
+    {
+      "label": "formal_gates_green",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_modelling_conditional_mdn_s5_e3_formal*.py"
+      ],
+      "started_utc": "2026-11-08T08:50:22.860823+00:00",
+      "elapsed_seconds": 2.051944624981843,
+      "peak_process_tree_rss_bytes": 3670016,
+      "peak_storage_bytes": 20369774,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 92601,
+      "free_disk_bytes": 27615444992
+    },
+    {
+      "label": "train_C_T0",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_training",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z",
+        "C_T0"
+      ],
+      "started_utc": "2026-11-08T08:50:56.991112+00:00",
+      "elapsed_seconds": 585.067911167047,
+      "peak_process_tree_rss_bytes": 779026432,
+      "peak_storage_bytes": 157181427,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 92661,
+      "free_disk_bytes": 27439157248
+    },
+    {
+      "label": "train_C_T1",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_training",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z",
+        "C_T1"
+      ],
+      "started_utc": "2026-11-08T09:01:03.939141+00:00",
+      "elapsed_seconds": 771.4420942500001,
+      "peak_process_tree_rss_bytes": 770064384,
+      "peak_storage_bytes": 303663409,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 94236,
+      "free_disk_bytes": 27278331904
+    },
+    {
+      "label": "full_pipeline",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_pipeline",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z"
+      ],
+      "started_utc": "2026-11-08T09:14:39.226958+00:00",
+      "elapsed_seconds": 49830.68256737501,
+      "peak_process_tree_rss_bytes": 2257092608,
+      "peak_storage_bytes": 1701373048,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 95554,
+      "free_disk_bytes": 22946185216
+    },
+    {
+      "label": "independent_audit",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_audit",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z"
+      ],
+      "started_utc": "2026-11-08T23:32:32.679936+00:00",
+      "elapsed_seconds": 38.48021037504077,
+      "peak_process_tree_rss_bytes": 2258157568,
+      "peak_storage_bytes": 1702279879,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 23662,
+      "free_disk_bytes": 22857707520
+    },
+    {
+      "label": "report",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_report",
+        "conditional_mdn_s5_e3_20261108T055830_797628Z"
+      ],
+      "started_utc": "2026-11-08T23:33:24.010674+00:00",
+      "elapsed_seconds": 335.3451154580107,
+      "peak_process_tree_rss_bytes": 1440088064,
+      "peak_storage_bytes": 1702280776,
+      "returncode": 0,
+      "stop_reason": null,
+      "pid": 23727,
+      "free_disk_bytes": 23913013248
+    }
+  ],
+  "active": null,
+  "resource_limit_seconds": null
+}

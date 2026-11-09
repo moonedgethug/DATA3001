@@ -1,0 +1,7 @@
+{
+  "status": "BOUNDED_VALIDATION_COMPLETE_FORMAL_STOPPED",
+  "effective_next_stage": null,
+  "resume_formal_authorized": false,
+  "old_gate_and_contract_unchanged": true,
+  "source_manifest": "validated_sources.json"
+}

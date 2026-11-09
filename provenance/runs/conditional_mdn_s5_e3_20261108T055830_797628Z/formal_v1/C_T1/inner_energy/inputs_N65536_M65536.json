@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_name": "conditional_mdn_s5_e3_20261108T055830_797628Z",
+  "role": "C_T1",
+  "mode": "inner_energy",
+  "k_values": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "count": 65536,
+  "region_count": 65536,
+  "query_count": 44612,
+  "query_id_count": 58,
+  "query_key_sha256": "1f68e087dbdc22624bc5391266906cf59d5bf16290cd9bf4979445453f45cc9c",
+  "parameter_hashes": {
+    "1": "d89b62cba98fc0c02259057896241082518d11d803c2f1072b4d69e96c0f7ecf",
+    "2": "25f3bda2c0c6682704ffbc7967add40a3459d707e1001553cff9bb9dc4eb3b29",
+    "4": "ae9e67e5830e14e33ae00ec2d5d551a6b02fa60b9293d0bba922522f265f1d98",
+    "8": "20f2c2337cac922f7df3bb8ce6b6fe765bf45431673e48a1dc9f098a8bb85a50",
+    "16": "22eb5da52e765d3e66361406e3b672a11c8470f2f85cac9d1739171f351bfc68",
+    "32": "012c080b80c257b1e6f2062dbc24294237709eef44e72118ef292126352368ce"
+  },
+  "parameter_manifest_hashes": {
+    "1": "7812d7f07b393eaa00f05e0bff117c9396d414734ec0f4748d67bf43696931b1",
+    "2": "f28c26572fe40c5276cfc84648007fcaae49ba29a1e36d27b09d8792c6426e20",
+    "4": "e095f75c541450a35f668981f8730c5143709bd02812667c842aaa63e0b19e0d",
+    "8": "322e6e49e7c4626b57dd8574efe7a70f9ea6d7d77a00420a46bb60610659088e",
+    "16": "0a84c2878739f8a1da438264feee92ce6ef295794aaaa8d6c71987a8b538c879",
+    "32": "b09bed1649760620a26369a8d34ccaa4ce89f45789e6655ebeb84a6c3db1e631"
+  },
+  "parameter_paths": {
+    "1": "C_T1/K1/parameters.npz",
+    "2": "C_T1/K2/parameters.npz",
+    "4": "C_T1/K4/parameters.npz",
+    "8": "C_T1/K8/parameters.npz",
+    "16": "C_T1/K16/parameters.npz",
+    "32": "C_T1/K32/parameters.npz"
+  },
+  "source_hashes": {
+    "configs/assets.json": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb",
+    "configs/conditional_mdn_s5_e3.json": "dbea6723e5ddc44ad56929c3485198569a4578e16f11bf5ab0f66610408d51a3",
+    "docs/conditional_mdn_s5_e3_contract.md": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+    "src/data3001/modelling/baselines/position_error_s4_e8.py": "0bf190afee883be8fdaf0dd13a44241c9f8a2c073fa1f3397ed1f98b44ff6c5a",
+    "src/data3001/modelling/baselines/position_error_s4_e8_geometry.py": "6dbaa21950c5827046e4b8735b0454dff15cfe2837a2e0219c50203c03fa25a5",
+    "src/data3001/modelling/common/runtime.py": "fb77896b7159fde319ad8908ea2b2535e1f9405b47e7126c2502f88fdc39fa90",
+    "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py": "76305a23e0f8ef7fa9f0ee3c5a405843194691f7a88ab310a6899ce9b68bf981",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3.py": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_context.py": "06b2b62019e65de7a7d67b18189bb335e2a717ab0e8fa9147c3ace14ed63c352",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_pipeline.py": "4933b9cca70695a87373bc3cd6b013cac5daf3c5df6fbda3c6c6e9bdc15b5f7b",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_scoring.py": "196c39faf31b9d450a52520109723cc96ff9fc516021f2fec80aabe53d81ebfc",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_training.py": "9f74231ca9dcb3d9c1807e73094efcdc9d180e17166227872e89c9bd4422450e",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inputs.py": "ccfba2c412b335903f3138b79f30220f94c7b5978949180c722847d4cb8ea79c",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_numerics.py": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_optimized.py": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py": "2cf2ca2355adbaf0f9fe45b894993f77a2d3dad4b799515bfdbd5bd3bfe441c9",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_selection.py": "98df0b714d502722d8da8f90e63b361c2ba933a7245c1db6117acfff5d39f888",
+    "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+    "src/data3001/paths.py": "c0454db46f96faf07f2fe3d59ea4faaba57e7c0dded37895bce24668fb888585"
+  },
+  "forecast_freeze_sha256": "0b97b29dd06b658d6e6a9d00402f2f616aa1e4f74222668f2f224a4fab436e41",
+  "node_key_sha256": "6370886d1e0e4021a14bc1bc6735b411c5a4d85360aa593e98d984aa6e6a8d42",
+  "streams": {
+    "seed_scheme": "mdn_s5_e3_v1",
+    "base_seed": 20261121,
+    "candidate_seed_field": null,
+    "role": "C_T1",
+    "mode": "inner_energy",
+    "count": 65536,
+    "region_count": 65536,
+    "streams": [
+      {
+        "purpose": "ES",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      }
+    ],
+    "all_streams": [
+      {
+        "purpose": "ES",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "ES",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 0,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 1,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 2,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 3,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 4,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 5,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 6,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "audit",
+        "replicate": 7,
+        "nodes": 8192,
+        "dimensions": 6
+      },
+      {
+        "purpose": "region",
+        "replicate": 0,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "region",
+        "replicate": 1,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "IID",
+        "replicate": 0,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "audit",
+        "replicate": 100,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "audit",
+        "replicate": 101,
+        "nodes": 65536,
+        "dimensions": 3
+      },
+      {
+        "purpose": "IID",
+        "replicate": 1,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "IID",
+        "replicate": 10,
+        "nodes": 65536,
+        "dimensions": 2
+      },
+      {
+        "purpose": "IID",
+        "replicate": 11,
+        "nodes": 65536,
+        "dimensions": 2
+      }
+    ],
+    "all_iid_positions": [],
+    "iid_count": 65536,
+    "iid_positions": [],
+    "iid_checker_replicates": [],
+    "iid_checker_path": "eigen_root_standard_normal_independent_ecef_scipy_density",
+    "common_random_numbers": "same query and purpose across K only",
+    "node_key_sha256": "6370886d1e0e4021a14bc1bc6735b411c5a4d85360aa593e98d984aa6e6a8d42",
+    "all_node_key_sha256": "9636976192b0a3dfa2d54853bdc20055ae34361d601853644655ec2067ff457f"
+  },
+  "precision_upgrade_sha256": null,
+  "excluded_queries": 0,
+  "target_values_accessed": false,
+  "final_test_access": false,
+  "identity_sha256": "b3cacbb2801665479520d314aaf292fd6c9236dcd3beab3b5514fcd743ebabb1"
+}

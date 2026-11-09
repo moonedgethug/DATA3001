@@ -1,0 +1,9 @@
+{
+  "docs/local_gmm_s5_e2_score_optimization_plan.md": "19e8595046e4500ade5dfe27e69bce97bff4cd8cef5ba728f0e961ea815b692d",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt.py": "076bd1560be521aec5b224acf43c4e93dc5ad607e777adc5d15ed7b05dec70cd",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_score_kernel.cpp": "c6bfc2d883160f2380e10e6e222dae303d8066f1938fd595c0cd2f04ac78f38c",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_validation.py": "5497c7a866dd9d54b8faa8041d51181ef8b8c55d605add2358796dc8d5f4a12f",
+  "tests/test_modelling_local_gmm_s5_e2_scoreopt.py": "5acd8fb3129f268d000b1198c45546a24e024dc77b6467ccb49682289106512f",
+  "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/score_optimization/bounded_command.py": "12768631a8610719cc4a31c8e3e84884d3d69e5cbd39a97f77b7a756198cca46",
+  "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_processes.py": "f3af245e89fe383ff6a218226f8b356e956bf57742e1fcf77c9b199dde3f91a1"
+}

@@ -1,0 +1,112 @@
+{
+  "status": "STOPPED_PREFLIGHT",
+  "effective_next_stage": null,
+  "formal_training_started": false,
+  "selected_K": null,
+  "formal_predictive_comparison_available": false,
+  "verification_scope": "saved_outputs_only_no_training_or_integration_rerun",
+  "independent_reviewer": "/root/mdn_spec_review",
+  "root_rechecked_unique_rows": 768,
+  "reference_checks": 48,
+  "reference_passed": 44,
+  "iid_passed": 48,
+  "failed_checks": [
+    {
+      "K": 1,
+      "role": "C_T0",
+      "position": 41760,
+      "method": "reference",
+      "difference_km": 0.37301711375431523,
+      "three_se_km": 0.3131356387816925,
+      "passed": false
+    },
+    {
+      "K": 2,
+      "role": "C_T0",
+      "position": 41760,
+      "method": "reference",
+      "difference_km": 0.32262679006532835,
+      "three_se_km": 0.24019782373003562,
+      "passed": false
+    },
+    {
+      "K": 4,
+      "role": "C_T0",
+      "position": 41760,
+      "method": "reference",
+      "difference_km": 0.23870925961759326,
+      "three_se_km": 0.2358138970809912,
+      "passed": false
+    },
+    {
+      "K": 16,
+      "role": "C_T0",
+      "position": 41760,
+      "method": "reference",
+      "difference_km": 0.2770888673835543,
+      "three_se_km": 0.25461984530969495,
+      "passed": false
+    }
+  ],
+  "protected_hashes": {
+    "docs/research_stage_ledger.md": {
+      "expected": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d",
+      "actual": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d"
+    },
+    "docs/local_gmm_s5_e2_contract.md": {
+      "expected": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+      "actual": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3"
+    },
+    "docs/conditional_gaussian_s5_e1_contract.md": {
+      "expected": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4",
+      "actual": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4"
+    },
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet": {
+      "expected": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+      "actual": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d"
+    },
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/query_coordinates.parquet": {
+      "expected": "0b480d728e008444c493a228ebecb2505da21185aa70d0f07e8513fd6107fea5",
+      "actual": "0b480d728e008444c493a228ebecb2505da21185aa70d0f07e8513fd6107fea5"
+    },
+    "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/roles.parquet": {
+      "expected": "78da3c85f77e29b303d7137320c33a94580f4822712faace9a7f0a03ffc7fdac",
+      "actual": "78da3c85f77e29b303d7137320c33a94580f4822712faace9a7f0a03ffc7fdac"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/model_manifest.json": {
+      "expected": "6aab4bcdf4f35e8334cc79f445ceb6cb8cc19f5a30ed48769bfafafa2a657b94",
+      "actual": "6aab4bcdf4f35e8334cc79f445ceb6cb8cc19f5a30ed48769bfafafa2a657b94"
+    },
+    "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/summary.csv": {
+      "expected": "b45d456014f7fc493c8bbd510d0accab7a6a4f0dc15dd58e3a3f55e1d5133bc7",
+      "actual": "b45d456014f7fc493c8bbd510d0accab7a6a4f0dc15dd58e3a3f55e1d5133bc7"
+    },
+    "provenance/reviews/official_time_boundary_cohort_20261108/REPORT.md": {
+      "expected": "1a9e4eaedd91fe9c60856747d02478793ea8ccbd0a6d7d7680a4da2537747794",
+      "actual": "1a9e4eaedd91fe9c60856747d02478793ea8ccbd0a6d7d7680a4da2537747794"
+    },
+    "provenance/migrations/position_error_repair_20261106T073218_242005Z/full/error_overlay.parquet": {
+      "expected": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3",
+      "actual": "cf77af02d7af69b255d84b40f49bd5d7c4ad41f35816e00a58926ad6f47dd8f3"
+    },
+    "docs/conditional_mdn_s5_e3_contract.md": {
+      "expected": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+      "actual": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4"
+    }
+  },
+  "checkpoint_hashes_match": true,
+  "projected_phase_hours": {
+    "inner_scoring": 9.02184675654588,
+    "outer_scoring": 6.810577560237699,
+    "audit": 6.810188186804551
+  },
+  "compute_seconds_before_report": 149.3079905397026,
+  "report": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/results/deliverables/conditional_mdn_s5_e3_pilot/REPORT.md",
+  "limitations": [
+    "No selected K or formal MDN predictive performance exists.",
+    "Coarse-reference fluctuation is plausible but unproven.",
+    "IID checks cannot resolve the small reference discrepancies.",
+    "No reliable complete training-time estimate yet.",
+    "Raw pilot allowed_next_stage is conditional on passed=true; effective next stage is none."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3.py": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inputs.py": "ccfba2c412b335903f3138b79f30220f94c7b5978949180c722847d4cb8ea79c",
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_numerics.py": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py": "2cf2ca2355adbaf0f9fe45b894993f77a2d3dad4b799515bfdbd5bd3bfe441c9",
+  "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_training.py": "9f74231ca9dcb3d9c1807e73094efcdc9d180e17166227872e89c9bd4422450e",
+  "src/data3001/modelling/common/runtime.py": "fb77896b7159fde319ad8908ea2b2535e1f9405b47e7126c2502f88fdc39fa90",
+  "src/data3001/paths.py": "c0454db46f96faf07f2fe3d59ea4faaba57e7c0dded37895bce24668fb888585",
+  "configs/conditional_mdn_s5_e3.json": "dbea6723e5ddc44ad56929c3485198569a4578e16f11bf5ab0f66610408d51a3"
+}

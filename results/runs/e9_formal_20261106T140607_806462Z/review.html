@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>E9 seasonal research evidence</title><style>body{font-family:system-ui,sans-serif;max-width:1200px;margin:40px auto;padding:0 22px;color:#1d2d3b;line-height:1.6;background:#f6f7f8}h1{font-size:30px}section{background:white;padding:24px;margin:20px 0;border-radius:12px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:10px;border-bottom:1px solid #ddd;text-align:right}th:first-child,td:first-child{text-align:left}img{width:100%;height:auto}code{overflow-wrap:anywhere}.scroll{overflow:auto}</style><body><h1>Step 4 E9 · Seasonal closure</h1><p>Exact release positions · seven-day forecasts · all 33,971 cases / 45 drifters</p><section><h2>Research decision</h2><p>SeasonalEndpointCI versus AnnualEndpointCI: DOES_NOT_MEET_REGISTERED_CRITERIA. ES changes by +13.665237 km (+10.181%), H90 by +0.3521 percentage points, and mean area by +11.4857%.</p><p>SeasonalExactPoint versus AnnualExactPoint: DOES_NOT_MEET_REGISTERED_CRITERIA. ES changes by +13.665290 km (+10.181%), H90 by +0.3605 percentage points, and mean area by +11.4998%.</p><p>No seasonal candidate meets all registered acceptance criteria. This closes the specified seasonal comparison; it does not establish that ocean dynamics have no seasonality. No model replacement or additional tuning is performed.</p><p>The CI seasonal model has higher mean ES in 4 of four season subgroups and 3 of three calendar-year subgroups. Leaving out each validation ID in turn gives an SC-minus-AC ES difference from 11.932 to 15.048 km. The evaluation-weighted mean number of selected training IDs changes from 114.4 to 48.1; the corresponding mean of each query&#x27;s farthest selected-start distance changes from 60.0 to 97.9 km. These are registered descriptive diagnostics, not additional significance tests. Season filtering changes both sample support and selected-neighbour distances; this experiment does not isolate their causal contributions.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>ES (km)</th>
+      <th>Actual H90</th>
+      <th>Mean area (km²)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AnnualExactPoint</td>
+      <td>134.225735</td>
+      <td>91.3921%</td>
+      <td>215,666.89</td>
+    </tr>
+    <tr>
+      <td>AnnualEndpointCI</td>
+      <td>134.225740</td>
+      <td>91.3973%</td>
+      <td>215,706.73</td>
+    </tr>
+    <tr>
+      <td>SeasonalExactPoint</td>
+      <td>147.891025</td>
+      <td>91.7526%</td>
+      <td>240,468.13</td>
+    </tr>
+    <tr>
+      <td>SeasonalEndpointCI</td>
+      <td>147.890977</td>
+      <td>91.7494%</td>
+      <td>240,482.18</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Matched comparisons</h2><div class="scroll"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Comparison</th>
+      <th>ES difference (km)</th>
+      <th>ES 95% interval</th>
+      <th>H90 change (pp)</th>
+      <th>Area change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SeasonalEndpointCI − AnnualEndpointCI</td>
+      <td>+13.665237</td>
+      <td>[+6.574529, +21.259693]</td>
+      <td>+0.3521</td>
+      <td>+11.4857%</td>
+    </tr>
+    <tr>
+      <td>SeasonalExactPoint − AnnualExactPoint</td>
+      <td>+13.665290</td>
+      <td>[+6.574584, +21.259741]</td>
+      <td>+0.3605</td>
+      <td>+11.4998%</td>
+    </tr>
+    <tr>
+      <td>SeasonalEndpointCI − SeasonalExactPoint</td>
+      <td>-0.000048</td>
+      <td>[-0.000085, -0.000011]</td>
+      <td>-0.0032</td>
+      <td>+0.0058%</td>
+    </tr>
+    <tr>
+      <td>AnnualEndpointCI − AnnualExactPoint</td>
+      <td>+0.000005</td>
+      <td>[-0.000033, +0.000046]</td>
+      <td>+0.0051</td>
+      <td>+0.0185%</td>
+    </tr>
+    <tr>
+      <td>SeasonalEndpointCI − AnnualExactPoint</td>
+      <td>+13.665242</td>
+      <td>[+6.574537, +21.259704]</td>
+      <td>+0.3573</td>
+      <td>+11.5063%</td>
+    </tr>
+  </tbody>
+</table></div><img src="figures/overview.png"><img src="figures/paired_effects.png"></section><section><h2>Support and fallbacks</h2><p>Empty-season fallback: 0 / 33,971 queries (0.0000% of queries; 0.0000% of evaluation weight; 0 IDs). Error fallback is separate: Annual: 6.2127% mean probability retained at the original endpoint; Seasonal: 6.3045% mean probability retained at the original endpoint. These percentages are not added.</p><img src="figures/support.png"></section><section><h2>Frozen experiment and verification</h2><p>Training: 265,393 pairs from 338 IDs, 2001–2019. Development validation: all 33,971 pairs from 45 non-overlapping IDs, 2020–2022. Seven days exactly; elapsed-duration majority UTC season, exact half-and-half ties assigned to departure season. Same-season filtering precedes the 100 km, nearest-8,000-with-ties search. Every selected pair retains one equal vote. No annual/seasonal blending, trajectory translation, new predictors, probability clipping or sample removal. EndpointCI uses the accepted repaired marginal location errors with the inherited E8 construction; unavailable errors retain the original point. CI denotes measurement uncertainty, not a fitted Gaussian transport law.</p><p>Energy Score uses exponent-one ECEF chord distances in km. H90 and area use the corrected distribution-quantile LAEA ellipse; 0.5° cells are display only. Times are averaged within each drifter, then the 45 drifters are equally weighted. The 10,000 whole-ID paired bootstrap draws use the frozen seed 20261106. The two season claims share a nominal Bonferroni family level of 0.05. Subgroup tables retain and renormalize the original evaluation weights.</p><p>Numerical gates passed: True. All 135,884 primary region hit/area records were independently replayed; all 33,971 queries received a second numerical stream. Full-distance neighbours were independently reconstructed for 128 frozen outer queries, in addition to the previously verified 128 pilot queries. Separate 65,536-pair ES calculations checked 128 frozen outer queries. Maximum same-stream ES reconstruction error: 5.68e-14 km. Complete donor lineage, all region definitions, streams, per-case scores and bootstrap outputs are retained.</p><p>This is reused development evidence. The forecasts are held fixed in the bootstrap; its intervals do not include training-set uncertainty, shared ocean forcing or all effects of repeated analysis of this validation period. The ellipse can bridge low-density gaps and is not a minimum-area region. Available 2022 observations do not cover a complete year. No final-test IDs or validation-endpoint errors were accessed.</p></section><section><h2>Six prespecified comparisons</h2><p>Example positions were frozen before scoring: [26952, 6475, 24032, 23714, 11213, 28115]. Represented season indices: [0, 3] (0 DJF, 1 MAM, 2 JJA, 3 SON); cross-season examples: 0. Missing categories are not replaced by outcome-selected examples.</p><img loading="lazy" src="figures/example_26952.png" alt="Four-model forecast comparison at frozen query 26952"><img loading="lazy" src="figures/example_6475.png" alt="Four-model forecast comparison at frozen query 6475"><img loading="lazy" src="figures/example_24032.png" alt="Four-model forecast comparison at frozen query 24032"><img loading="lazy" src="figures/example_23714.png" alt="Four-model forecast comparison at frozen query 23714"><img loading="lazy" src="figures/example_11213.png" alt="Four-model forecast comparison at frozen query 11213"><img loading="lazy" src="figures/example_28115.png" alt="Four-model forecast comparison at frozen query 28115"></section><section><h2>Download evidence</h2><p><a href="REPORT.md">Research report</a> · <a href="summary.csv">Four-model table</a> · <a href="contrasts.csv">Paired effects</a> · <a href="numerical_stability.csv">Numerical checks</a></p><p><code>e9_formal_20261106T140607_806462Z</code></p></section></body></html>

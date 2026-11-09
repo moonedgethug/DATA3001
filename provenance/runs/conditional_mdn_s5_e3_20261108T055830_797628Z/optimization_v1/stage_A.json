@@ -1,0 +1,770 @@
+{
+  "matched_node_checks": [
+    {
+      "K": 1,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        187.7289497335837,
+        187.72894973358368
+      ],
+      "self_distance_terms_km": [
+        86.5180222981684,
+        86.5180222981684
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.9558577807620168e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        193.34014101952286,
+        193.34014101952286
+      ],
+      "self_distance_terms_km": [
+        96.692711796082,
+        96.69271179608198
+      ],
+      "max_term_difference_km": 1.4210854715202004e-14,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        203.47331713434994,
+        203.47331713434994
+      ],
+      "self_distance_terms_km": [
+        97.16738218046272,
+        97.16738218046272
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        208.581211242236,
+        208.581211242236
+      ],
+      "self_distance_terms_km": [
+        97.18961942965961,
+        97.1896194296596
+      ],
+      "max_term_difference_km": 1.4210854715202004e-14,
+      "max_point_difference_km": 2.9558577807620168e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        211.0321221656721,
+        211.0321221656721
+      ],
+      "self_distance_terms_km": [
+        97.17039235791913,
+        97.17039235791913
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T0",
+      "position": 0,
+      "first_terms_km": [
+        192.23140534383734,
+        192.23140534383734
+      ],
+      "self_distance_terms_km": [
+        83.4987664591529,
+        83.4987664591529
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        263.412202462565,
+        263.412202462565
+      ],
+      "self_distance_terms_km": [
+        90.06941215983484,
+        90.06941215983484
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        250.56768766524107,
+        250.56768766524107
+      ],
+      "self_distance_terms_km": [
+        100.81505872724102,
+        100.81505872724102
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        245.29391425115838,
+        245.29391425115838
+      ],
+      "self_distance_terms_km": [
+        100.8380871298188,
+        100.8380871298188
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        246.2672992973499,
+        246.26729929734987
+      ],
+      "self_distance_terms_km": [
+        100.21428843663529,
+        100.21428843663529
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        247.6660266839656,
+        247.6660266839656
+      ],
+      "self_distance_terms_km": [
+        100.04638221872861,
+        100.04638221872861
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T0",
+      "position": 13920,
+      "first_terms_km": [
+        257.6932255461753,
+        257.6932255461753
+      ],
+      "self_distance_terms_km": [
+        93.5236784828744,
+        93.52367848287443
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        520.7497465320375,
+        520.7497465320376
+      ],
+      "self_distance_terms_km": [
+        221.76253913907453,
+        221.76253913907453
+      ],
+      "max_term_difference_km": 1.1368683772161603e-13,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        490.8538486212474,
+        490.8538486212474
+      ],
+      "self_distance_terms_km": [
+        270.07910039093446,
+        270.07910039093446
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        492.33927616927053,
+        492.33927616927053
+      ],
+      "self_distance_terms_km": [
+        243.45609322840644,
+        243.45609322840642
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        510.7898127353559,
+        510.7898127353559
+      ],
+      "self_distance_terms_km": [
+        247.2473384136846,
+        247.2473384136846
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        522.1380983276307,
+        522.1380983276307
+      ],
+      "self_distance_terms_km": [
+        248.67454221848234,
+        248.67454221848234
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T0",
+      "position": 27840,
+      "first_terms_km": [
+        251.18258474035423,
+        251.18258474035423
+      ],
+      "self_distance_terms_km": [
+        152.1448462658086,
+        152.1448462658086
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        325.9263917557378,
+        325.9263917557378
+      ],
+      "self_distance_terms_km": [
+        187.1472782584425,
+        187.1472782584425
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        406.07200446632606,
+        406.07200446632606
+      ],
+      "self_distance_terms_km": [
+        223.17863687176802,
+        223.17863687176802
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        376.40210472638466,
+        376.40210472638466
+      ],
+      "self_distance_terms_km": [
+        206.00422160669746,
+        206.00422160669746
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        371.9567227994751,
+        371.9567227994751
+      ],
+      "self_distance_terms_km": [
+        208.1331399894577,
+        208.13313998945773
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        368.96311050212984,
+        368.96311050212984
+      ],
+      "self_distance_terms_km": [
+        209.07901061663063,
+        209.07901061663063
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T0",
+      "position": 41760,
+      "first_terms_km": [
+        280.92874978784766,
+        280.92874978784766
+      ],
+      "self_distance_terms_km": [
+        159.72648044833164,
+        159.72648044833164
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        162.94771865546204,
+        162.94771865546204
+      ],
+      "self_distance_terms_km": [
+        104.75359319920418,
+        104.75359319920418
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        168.81525202549994,
+        168.81525202549994
+      ],
+      "self_distance_terms_km": [
+        114.63665036977193,
+        114.63665036977193
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        178.80304081312408,
+        178.80304081312408
+      ],
+      "self_distance_terms_km": [
+        117.79029149561458,
+        117.79029149561458
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        180.5726409180578,
+        180.5726409180578
+      ],
+      "self_distance_terms_km": [
+        117.04158809461835,
+        117.04158809461835
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        181.70980696391965,
+        181.70980696391965
+      ],
+      "self_distance_terms_km": [
+        116.78902406258862,
+        116.78902406258862
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T1",
+      "position": 0,
+      "first_terms_km": [
+        146.1040140517363,
+        146.1040140517363
+      ],
+      "self_distance_terms_km": [
+        94.81154894179282,
+        94.81154894179284
+      ],
+      "max_term_difference_km": 1.4210854715202004e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        217.89811939953887,
+        217.89811939953887
+      ],
+      "self_distance_terms_km": [
+        150.55330790054012,
+        150.55330790054012
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.9558577807620168e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        257.7461011424836,
+        257.74610114248367
+      ],
+      "self_distance_terms_km": [
+        179.306908465861,
+        179.306908465861
+      ],
+      "max_term_difference_km": 5.684341886080802e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        238.34117796721924,
+        238.34117796721924
+      ],
+      "self_distance_terms_km": [
+        165.8444601784379,
+        165.8444601784379
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        240.70405288070094,
+        240.70405288070094
+      ],
+      "self_distance_terms_km": [
+        166.8841880113178,
+        166.8841880113178
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        242.31845884636988,
+        242.31845884636988
+      ],
+      "self_distance_terms_km": [
+        167.54054162434704,
+        167.54054162434704
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T1",
+      "position": 14870,
+      "first_terms_km": [
+        262.86037331967884,
+        262.86037331967884
+      ],
+      "self_distance_terms_km": [
+        177.87187406124008,
+        177.87187406124008
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        168.87314742787166,
+        168.87314742787163
+      ],
+      "self_distance_terms_km": [
+        109.81616849834285,
+        109.81616849834286
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        196.66615226934422,
+        196.66615226934422
+      ],
+      "self_distance_terms_km": [
+        126.96369051740484,
+        126.96369051740484
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        192.13792636387674,
+        192.13792636387674
+      ],
+      "self_distance_terms_km": [
+        121.96090262981198,
+        121.96090262981195
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        192.49458379360664,
+        192.49458379360664
+      ],
+      "self_distance_terms_km": [
+        121.74856347349944,
+        121.74856347349944
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        192.90859707970282,
+        192.90859707970282
+      ],
+      "self_distance_terms_km": [
+        122.0319738258336,
+        122.0319738258336
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T1",
+      "position": 29740,
+      "first_terms_km": [
+        160.12725194431886,
+        160.12725194431886
+      ],
+      "self_distance_terms_km": [
+        91.17961621764559,
+        91.17961621764559
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.5011104298755527e-12
+    },
+    {
+      "K": 1,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        198.4362126480211,
+        198.4362126480211
+      ],
+      "self_distance_terms_km": [
+        87.82716526021161,
+        87.82716526021161
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 2,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        205.4320121953092,
+        205.4320121953092
+      ],
+      "self_distance_terms_km": [
+        98.77821156737,
+        98.77821156737
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 4,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        193.7990938388815,
+        193.7990938388815
+      ],
+      "self_distance_terms_km": [
+        98.5121055126352,
+        98.51210551263522
+      ],
+      "max_term_difference_km": 1.4210854715202004e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 8,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        192.44851056536285,
+        192.44851056536285
+      ],
+      "self_distance_terms_km": [
+        98.4924298043912,
+        98.49242980439121
+      ],
+      "max_term_difference_km": 1.4210854715202004e-14,
+      "max_point_difference_km": 2.9558577807620168e-12
+    },
+    {
+      "K": 16,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        192.18780607211252,
+        192.18780607211255
+      ],
+      "self_distance_terms_km": [
+        98.40946752390414,
+        98.40946752390414
+      ],
+      "max_term_difference_km": 2.842170943040401e-14,
+      "max_point_difference_km": 2.7284841053187847e-12
+    },
+    {
+      "K": 32,
+      "role": "C_T1",
+      "position": 44611,
+      "first_terms_km": [
+        184.75356920216046,
+        184.75356920216046
+      ],
+      "self_distance_terms_km": [
+        85.40595850871917,
+        85.40595850871917
+      ],
+      "max_term_difference_km": 0.0,
+      "max_point_difference_km": 2.9558577807620168e-12
+    }
+  ],
+  "profile": {
+    "function_timings": {
+      "xyz": {
+        "seconds": 0.7317279416602105,
+        "calls": 1728
+      },
+      "uniforms": {
+        "seconds": 0.04723184963222593,
+        "calls": 864
+      },
+      "arrays": {
+        "seconds": 0.04705680615734309,
+        "calls": 1680
+      },
+      "normals": {
+        "seconds": 0.24410749645903707,
+        "calls": 1632
+      },
+      "to_geographic": {
+        "seconds": 5.1725674162153155,
+        "calls": 1680
+      },
+      "xy": {
+        "seconds": 0.6093114210525528,
+        "calls": 144
+      },
+      "fit_region": {
+        "seconds": 0.6078072511591017,
+        "calls": 96
+      },
+      "geography_masses": {
+        "seconds": 1.3002549652010202,
+        "calls": 48
+      }
+    },
+    "operation_totals": {
+      "energy": 2.154254544759169,
+      "region": 5.428241459885612,
+      "audit_energy": 2.1873672063229606
+    },
+    "timing_note": "Instrumented single-worker profile; nested function times are not additive. Not a speed benchmark."
+  },
+  "all_matched_node_passed": true,
+  "training_started": false,
+  "outer_targets_read": false,
+  "full_sample_definition_unchanged": true
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-06",
+  "scope": "read-only source audit, frozen training endpoints only",
+  "model_runs": 0,
+  "canonical_modified": false,
+  "outer_validation_labels_read": false,
+  "locked_final_test_read": false,
+  "native_comparisons": [
+    {
+      "id": 7647,
+      "frozen_training_endpoints": 160,
+      "axes": {
+        "err_lon": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 160,
+          "factor_100000_count": 160,
+          "other_positive_count": 0,
+          "ratio_min": 99999.99486278696,
+          "ratio_max": 100000.00506580295,
+          "old_name": "95% confidence interval in longitude",
+          "new_name": "95% confidence interval in longitude",
+          "old_units": "degrees_east",
+          "new_units": "degrees_east",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        },
+        "err_lat": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 160,
+          "factor_100000_count": 160,
+          "other_positive_count": 0,
+          "ratio_min": 99999.99458667642,
+          "ratio_max": 100000.0055080555,
+          "old_name": "95% confidence interval in latitude",
+          "new_name": "95% confidence interval in latitude",
+          "old_units": "degrees_north",
+          "new_units": "degrees_north",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        }
+      },
+      "location_type": "Argos",
+      "timestamps_all_match": true,
+      "coordinates_match_at_canonical_float32_precision": {
+        "lon": true,
+        "lat": true
+      }
+    },
+    {
+      "id": 99004,
+      "frozen_training_endpoints": 1064,
+      "axes": {
+        "err_lon": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 1064,
+          "factor_100000_count": 1064,
+          "other_positive_count": 0,
+          "ratio_min": 99999.99458667642,
+          "ratio_max": 100000.00558200547,
+          "old_name": "95% confidence interval in longitude",
+          "new_name": "95% confidence interval in longitude",
+          "old_units": "degrees_east",
+          "new_units": "degrees_east",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        },
+        "err_lat": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 1064,
+          "factor_100000_count": 1064,
+          "other_positive_count": 0,
+          "ratio_min": 99999.99429098515,
+          "ratio_max": 100000.00558200547,
+          "old_name": "95% confidence interval in latitude",
+          "new_name": "95% confidence interval in latitude",
+          "old_units": "degrees_north",
+          "new_units": "degrees_north",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        }
+      },
+      "location_type": "Argos",
+      "timestamps_all_match": true,
+      "coordinates_match_at_canonical_float32_precision": {
+        "lon": true,
+        "lat": true
+      }
+    },
+    {
+      "id": 300234066710170,
+      "frozen_training_endpoints": 380,
+      "axes": {
+        "err_lon": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 380,
+          "factor_100000_count": 380,
+          "other_positive_count": 0,
+          "ratio_min": 99999.99607622511,
+          "ratio_max": 100000.00446775419,
+          "old_name": "95% confidence interval in longitude",
+          "new_name": "95% confidence interval in longitude",
+          "old_units": "degrees_east",
+          "new_units": "degrees_east",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        },
+        "err_lat": {
+          "native_current_matches_canonical_float32": true,
+          "positive_comparable_count": 380,
+          "factor_100000_count": 380,
+          "other_positive_count": 0,
+          "ratio_min": 99999.9949439279,
+          "ratio_max": 100000.00446775419,
+          "old_name": "95% confidence interval in latitude",
+          "new_name": "95% confidence interval in latitude",
+          "old_units": "degrees_north",
+          "new_units": "degrees_north",
+          "packing_attributes_old": [],
+          "packing_attributes_new": []
+        }
+      },
+      "location_type": "GPS",
+      "timestamps_all_match": true,
+      "coordinates_match_at_canonical_float32_precision": {
+        "lon": true,
+        "lat": true
+      }
+    }
+  ],
+  "exception_probe": {
+    "IDs": 19,
+    "observations": 65,
+    "axis_value_classification": {
+      "scaled_positive": 90,
+      "unchanged_positive": 4,
+      "negative_lat_from_old_zero": 10,
+      "missing_lon_from_old_zero": 4,
+      "missing_from_old_fill": 22
+    },
+    "latest_archive_values_and_coordinates_match_canonical": true
+  },
+  "current_delivery_route_probe": [
+    {
+      "id": 7647,
+      "current_directory": "v2.01.1",
+      "internal_history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+      "same_as_legacy_v2_00": {
+        "time": true,
+        "err_lon": true,
+        "err_lat": true
+      }
+    },
+    {
+      "id": 36606,
+      "current_directory": "v2.01.1",
+      "internal_history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+      "same_as_legacy_v2_00": {
+        "time": true,
+        "err_lon": true,
+        "err_lat": true
+      }
+    }
+  ],
+  "interpretation": {
+    "confirmed": "Upstream version and delivery-route scale discrepancy, mixed with missing-value anomalies. Not a local cleaning or CF decoding change.",
+    "strong_hypothesis": "An extra 1e-5 legacy-unit conversion, with conditional missing-value handling.",
+    "not_confirmed": "Exact v2.01 production code line, universal correction rule, and empirical CI calibration."
+  }
+}

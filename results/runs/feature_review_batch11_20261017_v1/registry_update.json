@@ -1,0 +1,49 @@
+{
+  "group10_current_core_exclusions": [
+    "DeployingCountry",
+    "DeployingCountry_text",
+    "DeployingShip",
+    "DeployingShip_text",
+    "DeploymentStatus",
+    "DeploymentStatus_text",
+    "PurchaserFunding",
+    "PurchaserFunding_text",
+    "SensorUpgrade",
+    "SensorUpgrade_text",
+    "Transmissions",
+    "Transmissions_text",
+    "DeploymentComments",
+    "ManufactureMonth",
+    "ManufactureVoltage"
+  ],
+  "group11_audited_pending_decision": [
+    "deploy_date",
+    "deploy_lat",
+    "deploy_lon",
+    "start_date",
+    "start_lat",
+    "start_lon",
+    "end_date",
+    "end_lat",
+    "end_lon",
+    "typedeath"
+  ],
+  "core_drop_count_before": 57,
+  "core_drop_count_after": 72,
+  "other_registry_rows_unchanged": true,
+  "no_active_data_writes": true,
+  "new_data_feature_columns": [],
+  "registry_before_sha256": "e6213bb72b0a604c17501d4592783461239929865a2da2e950141828eeb19d2f",
+  "registry_after_sha256": "e4af70b1f5eae8106897f6a0b7e416592ca1838038046d2edc306748f6b1a6d5",
+  "final_verification": {
+    "registry_schema_and_unrelated_entries_unchanged": true,
+    "group10_agreed_excluded": 15,
+    "group11_pending": 10,
+    "all_data_sizes_and_mtimes_unchanged": true,
+    "manifest_schema_contract_hashes_unchanged": true,
+    "recovery_tail_hours_remaining": 0,
+    "grounding_related_excluded_sst_hours": 16059,
+    "forecast_accuracy_evaluated": false,
+    "report_sha256": "e7f45b9dc056e7fa9b36e5e20f0348715fef61969365be4d46dd92fc82c4b429"
+  }
+}

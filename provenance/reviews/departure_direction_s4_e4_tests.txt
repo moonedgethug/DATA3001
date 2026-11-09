@@ -1,0 +1,10 @@
+test_decile_is_fitting_only_deduplicated_and_ties_excluded (test_modelling_departure_direction_s4_e4.HeadingTests.test_decile_is_fitting_only_deduplicated_and_ties_excluded) ... ok
+test_inner_grid_outer_perturbation_and_regions (test_modelling_departure_direction_s4_e4.HeadingTests.test_inner_grid_outer_perturbation_and_regions) ... ok
+test_preceding_interval_crosses_cell_year_and_dateline (test_modelling_departure_direction_s4_e4.HeadingTests.test_preceding_interval_crosses_cell_year_and_dateline) ... ok
+test_time_boundary_and_held_id_across_horizons (test_modelling_departure_direction_s4_e4.HeadingTests.test_time_boundary_and_held_id_across_horizons) ... ok
+test_vote_ratio_missing_donor_neutral_and_fallback (test_modelling_departure_direction_s4_e4.HeadingTests.test_vote_ratio_missing_donor_neutral_and_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.133s
+
+OK

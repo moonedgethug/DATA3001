@@ -1,0 +1,221 @@
+FFFFFFFFFFFFF
+======================================================================
+FAIL: test_active_lock (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_active_lock)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 11, in runtime
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 70, in test_active_lock
+    test_existing_active_receipt_prevents_parallel_budget_reset(Path(d))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 50, in test_existing_active_receipt_prevents_parallel_budget_reset
+    r=runtime()
+      ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 13, in runtime
+    raise AssertionError('MDN cumulative resource supervisor has not been implemented')
+AssertionError: MDN cumulative resource supervisor has not been implemented
+
+======================================================================
+FAIL: test_deadline (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_deadline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 11, in runtime
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 67, in test_deadline
+    test_supervisor_terminates_at_deadline(Path(d))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 39, in test_supervisor_terminates_at_deadline
+    r=runtime()
+      ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 13, in runtime
+    raise AssertionError('MDN cumulative resource supervisor has not been implemented')
+AssertionError: MDN cumulative resource supervisor has not been implemented
+
+======================================================================
+FAIL: test_failure (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 11, in runtime
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 64, in test_failure
+    test_supervisor_records_failure_and_preserves_cumulative_time(Path(d))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 26, in test_supervisor_records_failure_and_preserves_cumulative_time
+    r=runtime()
+      ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 13, in runtime
+    raise AssertionError('MDN cumulative resource supervisor has not been implemented')
+AssertionError: MDN cumulative resource supervisor has not been implemented
+
+======================================================================
+FAIL: test_remaining (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_remaining)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 11, in runtime
+    return importlib.import_module('data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_runtime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 61, in test_remaining
+    test_remaining_counts_all_failed_and_completed_attempts()
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 17, in test_remaining_counts_all_failed_and_completed_attempts
+    r=runtime()
+      ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 13, in runtime
+    raise AssertionError('MDN cumulative resource supervisor has not been implemented')
+AssertionError: MDN cumulative resource supervisor has not been implemented
+
+======================================================================
+FAIL: test_checkpoint_rejects_changed_source_and_retains_full_fit_scaler (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_checkpoint_rejects_changed_source_and_retains_full_fit_scaler)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 148, in test_checkpoint_rejects_changed_source_and_retains_full_fit_scaler
+    _, training = modules()
+                  ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_early_stop_scaler_excludes_stop_ids_and_nonfinite_input_fails (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_early_stop_scaler_excludes_stop_ids_and_nonfinite_input_fails)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 160, in test_early_stop_scaler_excludes_stop_ids_and_nonfinite_input_fails
+    _, training = modules()
+                  ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_model_initial_distribution_and_determinism (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_model_initial_distribution_and_determinism)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 38, in test_model_initial_distribution_and_determinism
+    model, _ = modules()
+               ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_nll_matches_independent_full_covariance_density_and_tail (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_nll_matches_independent_full_covariance_density_and_tail)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 51, in test_nll_matches_independent_full_covariance_density_and_tail
+    model, _ = modules()
+               ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_raw_best_epoch_and_patience_anchor_are_separate (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_raw_best_epoch_and_patience_anchor_are_separate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 97, in test_raw_best_epoch_and_patience_anchor_are_separate
+    _, training = modules()
+                  ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_scaling_physical_packet_and_rejects_zero_scale (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_scaling_physical_packet_and_rejects_zero_scale)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 64, in test_scaling_physical_packet_and_rejects_zero_scale
+    model, _ = modules()
+               ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_stable_stream_exact_contract_bytes_and_canonical_query (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_stable_stream_exact_contract_bytes_and_canonical_query)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 78, in test_stable_stream_exact_contract_bytes_and_canonical_query
+    model, _ = modules()
+               ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_tail_batch_exact_weight_and_resume_preserve_optimizer (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_tail_batch_exact_weight_and_resume_preserve_optimizer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 108, in test_tail_batch_exact_weight_and_resume_preserve_optimizer
+    model, training = modules()
+                      ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+======================================================================
+FAIL: test_whole_id_stop_partition_and_drifter_equal_score (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_whole_id_stop_partition_and_drifter_equal_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 88, in test_whole_id_stop_partition_and_drifter_equal_score
+    _, training = modules()
+                  ^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py", line 23, in modules
+    assert importlib.util.find_spec(MODEL), "The contracted MDN model is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: The contracted MDN model is not implemented
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.004s
+
+FAILED (failures=13)

@@ -11,6 +11,7 @@ dependencies = ["numpy", "pandas", "pyarrow", "scipy", "zarr<3", "shapely", "pyp
 
 [project.optional-dependencies]
 continuous = ["torch==2.14.1", "matplotlib"]
+data-repair = ["netCDF4==1.7.4", "h5py==3.16.0"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,6 @@
+{
+  "cases": 33971,
+  "mode": "audit",
+  "outer_targets_read": true,
+  "worker_pid": 41441
+}

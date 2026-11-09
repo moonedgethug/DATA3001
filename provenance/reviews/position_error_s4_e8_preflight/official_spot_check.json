@@ -1,0 +1,5 @@
+{
+  "url": "https://erddap.aoml.noaa.gov/gdp/erddap/tabledap/drifter_hourly_qc.csv?ID,time,err_lon,err_lat&ID=%227647%22&time=1017846000",
+  "status": 200,
+  "body": "ID,time,err_lon,err_lat\n,UTC,degrees_east,degrees_north\n7647,2002-04-03T15:00:00Z,1.107E-7,6.44E-8\n"
+}

@@ -1,0 +1,7 @@
+{"formal_training_role": "C_T1", "K": 1, "status": "complete", "selected_seed": 20261123, "selected_epoch": 83}
+{"formal_training_role": "C_T1", "K": 2, "status": "complete", "selected_seed": 20261123, "selected_epoch": 17}
+{"formal_training_role": "C_T1", "K": 4, "status": "complete", "selected_seed": 20261121, "selected_epoch": 28}
+{"formal_training_role": "C_T1", "K": 8, "status": "complete", "selected_seed": 20261122, "selected_epoch": 15}
+{"formal_training_role": "C_T1", "K": 16, "status": "complete", "selected_seed": 20261123, "selected_epoch": 12}
+{"formal_training_role": "C_T1", "K": 32, "status": "complete", "selected_seed": 20261121, "selected_epoch": 9}
+{"status": "complete", "role": "C_T1", "models": ["1", "2", "4", "8", "16", "32"]}

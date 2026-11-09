@@ -1,0 +1,23 @@
+{
+  "action": "Reuse completed donor inventory and continue the outstanding preflight, forecasts, scoring and audit; no inventory rerun.",
+  "hard_storage_gib": 5,
+  "prior_work_charged_to_existing_budget": true,
+  "resume_source_sha256": {
+    "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py": "f87030dea1c45e7acb0daff0905082c3517eb4df4fc1abbb1b85b33f34accf09"
+  },
+  "reused_inventory_sha256": {
+    "results/runs/e9_formal_20261106T140607_806462Z/STORAGE_CHECKPOINT.md": "a125f31a78d6e62a813ed59a68184f3e8fe35aed3434c4cd44a8290a51005c9c",
+    "results/runs/e9_formal_20261106T140607_806462Z/audit_roster.parquet": "2d392865071cf380156b5b37748c854d7a8cd17ac0780ce75fe7cb9d0142fc80",
+    "results/runs/e9_formal_20261106T140607_806462Z/donor_lineage.zst": "1910ed779b55df57ba37b283b6231435d613fe0030e59e0de9fc2fefbc954adb",
+    "results/runs/e9_formal_20261106T140607_806462Z/example_roster.parquet": "2cde5aa0eafccfbfe42515544513c19b2a6f497b9cd0aab0f9c669ce7d8c2426",
+    "results/runs/e9_formal_20261106T140607_806462Z/fit_keys_seasons.parquet": "a6925a547a9820ab2548d482e9b3710de4484ed989562c5573113360c1082958",
+    "results/runs/e9_formal_20261106T140607_806462Z/inventory_timings.csv": "689b1db3127314045ecea63e68992a20e353bf9282a4a28630a2e45d3c44410b",
+    "results/runs/e9_formal_20261106T140607_806462Z/lineage_offsets.parquet": "d7a7081bb17963c110887974b701c76bff5fcaea43f9ff6d2cbce388d20815e6",
+    "results/runs/e9_formal_20261106T140607_806462Z/roster.parquet": "ccb38b251e6cb551ee465b7befb9743f5a166323ccb2e2b17b9874db5ffc4fa1",
+    "results/runs/e9_formal_20261106T140607_806462Z/season_support.csv": "04b9d0ffe612ff81c17a339b647b952319d06dea304534ad9f0d385c8f8ea20c",
+    "results/runs/e9_formal_20261106T140607_806462Z/support.parquet": "b09fb970a2fe1770a50c92c08e1b707aa9af3186b56d34246870f54a2fb77287"
+  },
+  "scientific_definitions_unchanged": true,
+  "storage_precheck_2_5_gib_waived": true,
+  "user_reply": "\u6279\u51c6\u7ee7\u7eed\uff0c\u4fdd\u7559 5 GiB \u786c\u4e0a\u9650"
+}

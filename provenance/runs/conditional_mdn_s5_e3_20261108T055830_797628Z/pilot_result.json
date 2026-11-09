@@ -1,0 +1,1073 @@
+{
+  "basic_numerical_pass": false,
+  "resource_pass": false,
+  "energy_pass": false,
+  "region_pass": true,
+  "selected_common_energy_count": 65536,
+  "selected_common_region_count": 65536,
+  "numerical_checks": {
+    "1": {
+      "projected_three_se_km": 0.0,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": 0.0014192030009949844,
+        "three_se_km": 0.013238314141937943
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.003262019856700472,
+      "max_mass_radius": 0.0023510347360012895,
+      "area_relative_change": 8.68533051303292e-07,
+      "land_three_se": 0.00011193317990154645,
+      "outside_three_se": 8.62508649487329e-05,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.004495047507668713,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.004495176843909465,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.0017132831970267852,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.06582631841621378,
+          "three_se_km": 0.1713212787935629,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.4723692503861088,
+          "three_se_km": 1.0336806718554818,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": -0.05036463078957354,
+          "three_se_km": 0.08455134569148968,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": 0.4443285484764772,
+          "three_se_km": 1.4805713336711677,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": 0.22486587047876583,
+          "three_se_km": 0.6852742666396117,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": 0.45085987126714144,
+          "three_se_km": 3.976369843023727,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": 0.37301711375431523,
+          "three_se_km": 0.3131356387816925,
+          "passed": false
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": -0.35076778660385344,
+          "three_se_km": 2.349590461172662,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.03860683137730092,
+          "three_se_km": 0.16533967365200586,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": 0.26661766382589036,
+          "three_se_km": 0.9381782953447745,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.03899200083752419,
+          "three_se_km": 0.5584878227312082,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": -0.48361985061234236,
+          "three_se_km": 1.5848362818948785,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.11618544164799971,
+          "three_se_km": 0.25452205156975827,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": -0.27094462927416174,
+          "three_se_km": 1.0693322864028199,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": 0.002976046326978121,
+          "three_se_km": 0.14346850083725182,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": 0.12106744984930629,
+          "three_se_km": 1.0358253462018214,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": false,
+      "energy_pass": false,
+      "region_pass": true,
+      "passed": false
+    },
+    "2": {
+      "projected_three_se_km": 0.003711816423351157,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": 0.007737142348208211,
+        "three_se_km": 0.03432771906187911
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.003303464353825109,
+      "max_mass_radius": 0.0023522470822632258,
+      "area_relative_change": 7.8576451152505e-05,
+      "land_three_se": 0.00016797492585766456,
+      "outside_three_se": 0.00015363497358482857,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.0059577868832562265,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.005957884465825189,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.004269087931082652,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.0656767746794884,
+          "three_se_km": 0.1673214784286675,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.6281828808988621,
+          "three_se_km": 1.047104973329935,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": -0.02674347359402418,
+          "three_se_km": 0.07536241310541826,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": 0.563390641684606,
+          "three_se_km": 1.5326623544125972,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": 0.09001518310122947,
+          "three_se_km": 0.6780098495897983,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": 2.71684453731001,
+          "three_se_km": 4.178299342693204,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": 0.32262679006532835,
+          "three_se_km": 0.24019782373003562,
+          "passed": false
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": -0.3248901381032283,
+          "three_se_km": 2.98752368408152,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.04534758254497717,
+          "three_se_km": 0.1803364301453042,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.1568052206832462,
+          "three_se_km": 0.9863574792670682,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.03690088693531379,
+          "three_se_km": 0.43460442417169926,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": -0.08412255646332767,
+          "three_se_km": 1.8938366549897394,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.08975016202711572,
+          "three_se_km": 0.2636534098579392,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": -0.19949811435064646,
+          "three_se_km": 1.3179479190044168,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": 0.032349623250482296,
+          "three_se_km": 0.1452889719063546,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": 0.1452452382690126,
+          "three_se_km": 1.055458405311223,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": false,
+      "energy_pass": false,
+      "region_pass": true,
+      "passed": false
+    },
+    "4": {
+      "projected_three_se_km": 0.0035543464813311727,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": -0.011551961042226673,
+        "three_se_km": 0.029811263001883505
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.003300971610370046,
+      "max_mass_radius": 0.0023558780493280196,
+      "area_relative_change": 0.00028622841444458496,
+      "land_three_se": 0.00014380903763494218,
+      "outside_three_se": 0.0001233709527913144,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.006014270481379919,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.006014367147507624,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.004347566749368371,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.03114490902349587,
+          "three_se_km": 0.15590709018579954,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.40453509992332215,
+          "three_se_km": 1.153116838949981,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": -0.02561492965423895,
+          "three_se_km": 0.07980292787375298,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": 0.5243162767304455,
+          "three_se_km": 1.531651151008809,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": 0.110747105073699,
+          "three_se_km": 0.7823731938652049,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": 1.0757003981763091,
+          "three_se_km": 3.990046024217631,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": 0.23870925961759326,
+          "three_se_km": 0.2358138970809912,
+          "passed": false
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": -0.5958010112708791,
+          "three_se_km": 2.6891816840586316,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.02959012977331099,
+          "three_se_km": 0.20059307074136243,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.003909873465275382,
+          "three_se_km": 1.0475361039164677,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.04305632426041939,
+          "three_se_km": 0.5149951427764593,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": 0.1536247086715008,
+          "three_se_km": 1.709026881728626,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.058373515157839506,
+          "three_se_km": 0.2662660729145019,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": -0.2988152431888409,
+          "three_se_km": 1.245585715106369,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": 0.014894541291894825,
+          "three_se_km": 0.1330160290310204,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": 0.370499503346025,
+          "three_se_km": 1.092724844035352,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": false,
+      "energy_pass": false,
+      "region_pass": true,
+      "passed": false
+    },
+    "8": {
+      "projected_three_se_km": 0.0036256787796224137,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": 0.0012435513473332271,
+        "three_se_km": 0.02965699380878771
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.0034043834256701536,
+      "max_mass_radius": 0.0023522470822632258,
+      "area_relative_change": 7.448375779633492e-05,
+      "land_three_se": 0.00013856534245843802,
+      "outside_three_se": 0.00011859553280071842,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.005808953389911433,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.005809053472639471,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.0040587962135563245,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.02471721807830818,
+          "three_se_km": 0.16472976440036355,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.4022680207259839,
+          "three_se_km": 1.1664697057509352,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": -0.013142946652635601,
+          "three_se_km": 0.07684861090681092,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": 0.677952700646216,
+          "three_se_km": 1.5264959955690265,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": -0.09433648407383544,
+          "three_se_km": 0.6819457712169184,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": 0.08900771376966077,
+          "three_se_km": 4.106119046647742,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": 0.16139147371356444,
+          "three_se_km": 0.2836661070160367,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": -0.2761059553189398,
+          "three_se_km": 2.635824283975524,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.014030909075614773,
+          "three_se_km": 0.18513556216408295,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": 0.25072924214082093,
+          "three_se_km": 1.0437151608726727,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.08572716000610114,
+          "three_se_km": 0.44321335239476645,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": 0.2717279518720943,
+          "three_se_km": 1.7073326590549325,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.0705107908527225,
+          "three_se_km": 0.2507993892461019,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": -0.08744072235094791,
+          "three_se_km": 1.2234458504898744,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": 0.00899670917222295,
+          "three_se_km": 0.11417434804278749,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": 0.24040157103269166,
+          "three_se_km": 1.0741327071505011,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": true,
+      "energy_pass": true,
+      "region_pass": true,
+      "passed": true
+    },
+    "16": {
+      "projected_three_se_km": 0.003193943951288342,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": 0.01168161906071162,
+        "three_se_km": 0.025794116866511917
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.0033291684650565826,
+      "max_mass_radius": 0.002347695547417872,
+      "area_relative_change": 0.00027898349560209214,
+      "land_three_se": 0.0001350659172668595,
+      "outside_three_se": 0.00011600764515054368,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.005636358441317574,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.005636461588694898,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.0038076795684547143,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.03997264188822669,
+          "three_se_km": 0.16664061517640924,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.4360383073478431,
+          "three_se_km": 1.1693961843649232,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": -0.021135489513312677,
+          "three_se_km": 0.06381330237005291,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": 0.5718607555560595,
+          "three_se_km": 1.530693041491859,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": -0.03579118222364741,
+          "three_se_km": 0.5994637526491571,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": -0.35078865358451594,
+          "three_se_km": 4.165205267994062,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": 0.2770888673835543,
+          "three_se_km": 0.25461984530969495,
+          "passed": false
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": 0.3455172134822817,
+          "three_se_km": 2.601559111773706,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.013626389586136156,
+          "three_se_km": 0.17101849156520577,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": 0.39122131557257944,
+          "three_se_km": 1.042997187976231,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.07278900680928757,
+          "three_se_km": 0.4327165301227841,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": 0.26589917509173233,
+          "three_se_km": 1.7204169925211812,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.08753277826534145,
+          "three_se_km": 0.2547687261968502,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": 0.004536586829487987,
+          "three_se_km": 1.2174088422920115,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": -0.010413216627696897,
+          "three_se_km": 0.12038037661419301,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": 0.11821015663731771,
+          "three_se_km": 1.0707876808463317,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": false,
+      "energy_pass": false,
+      "region_pass": true,
+      "passed": false
+    },
+    "32": {
+      "projected_three_se_km": 0.005025737475934989,
+      "threshold_km": 0.0158407899405188,
+      "pilot_replica_drift": {
+        "delta_km": -0.005998410116871274,
+        "three_se_km": 0.049309980255733216
+      },
+      "hit_disagreement": 0.0,
+      "mass_diagnostic": 0.003238597514922982,
+      "max_mass_radius": 0.0023489106876897203,
+      "area_relative_change": 0.00011466491808627421,
+      "land_three_se": 2.883553609104332e-05,
+      "outside_three_se": 1.7810277647865843e-05,
+      "independent_control_precision": {
+        "ExactPoint": {
+          "three_se_km": 0.00661501545555802,
+          "threshold_km": 0.013422356289227185,
+          "passed": true
+        },
+        "EndpointCI": {
+          "three_se_km": 0.00661510334303952,
+          "threshold_km": 0.013422351740200799,
+          "passed": true
+        },
+        "LocalGaussian": {
+          "three_se_km": 0.005146680162423841,
+          "threshold_km": 0.013477713493141582,
+          "passed": true
+        }
+      },
+      "reference_checks": [
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "reference",
+          "difference_km": 0.12525447215966778,
+          "three_se_km": 0.18343616653294184,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 0,
+          "method": "iid",
+          "difference_km": -0.4881508078669725,
+          "three_se_km": 0.9948461451271022,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "reference",
+          "difference_km": 0.05902570468214208,
+          "three_se_km": 0.20043513946113595,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 13920,
+          "method": "iid",
+          "difference_km": -0.08375436222192434,
+          "three_se_km": 1.5248018559608183,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "reference",
+          "difference_km": 0.0549366983155295,
+          "three_se_km": 0.37220050868177856,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 27840,
+          "method": "iid",
+          "difference_km": 0.009787254225074093,
+          "three_se_km": 2.800567993259291,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "reference",
+          "difference_km": -0.012412714979902262,
+          "three_se_km": 0.1987890235933451,
+          "passed": true
+        },
+        {
+          "role": "C_T0",
+          "position": 41760,
+          "method": "iid",
+          "difference_km": 0.42353324531431724,
+          "three_se_km": 1.9699932823669697,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "reference",
+          "difference_km": -0.061067339199041726,
+          "three_se_km": 0.26831603212545174,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 0,
+          "method": "iid",
+          "difference_km": 0.043050334042824545,
+          "three_se_km": 0.9428953876228059,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "reference",
+          "difference_km": 0.07470960193307974,
+          "three_se_km": 0.5072364151983815,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 14870,
+          "method": "iid",
+          "difference_km": -0.20350013546634216,
+          "three_se_km": 2.0209402854754224,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "reference",
+          "difference_km": 0.19552938369244544,
+          "three_se_km": 0.35524654996829913,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 29740,
+          "method": "iid",
+          "difference_km": 0.04817049097648862,
+          "three_se_km": 1.0781461516116286,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "reference",
+          "difference_km": 0.033474251065257477,
+          "three_se_km": 0.15316351254786115,
+          "passed": true
+        },
+        {
+          "role": "C_T1",
+          "position": 44611,
+          "method": "iid",
+          "difference_km": -0.0646560543112571,
+          "three_se_km": 1.0135784771266612,
+          "passed": true
+        }
+      ],
+      "component_reference_pass": true,
+      "energy_pass": true,
+      "region_pass": true,
+      "passed": true
+    }
+  },
+  "p95_worker_timing_seconds": {
+    "1": {
+      "energy": 0.04544949142727999,
+      "region": 0.11159706034231927,
+      "audit": 0.04341389427427202,
+      "reference": 0.04661027670954354
+    },
+    "2": {
+      "energy": 0.043601902236696334,
+      "region": 0.11260777267161756,
+      "audit": 0.04303863975801505,
+      "reference": 0.05415543069830164
+    },
+    "4": {
+      "energy": 0.04328036027727648,
+      "region": 0.11298962942091748,
+      "audit": 0.043852156383218245,
+      "reference": 0.06888240008847787
+    },
+    "8": {
+      "energy": 0.04423664594069123,
+      "region": 0.11378412775229663,
+      "audit": 0.043650456704199314,
+      "reference": 0.09627789386431686
+    },
+    "16": {
+      "energy": 0.04415072943083942,
+      "region": 0.11458758123335429,
+      "audit": 0.0441808459116146,
+      "reference": 0.13990261423168704
+    },
+    "32": {
+      "energy": 0.044436216971371324,
+      "region": 0.11369333290494979,
+      "audit": 0.04440715791424736,
+      "reference": 0.2728424419707153
+    }
+  },
+  "projected_phase_seconds": {
+    "inner_scoring": 32478.64832356517,
+    "outer_scoring": 24518.079216855716,
+    "audit": 24516.677472496383
+  },
+  "resource_checks": {
+    "inner_scoring": true,
+    "outer_scoring": false,
+    "audit": false,
+    "inner_prefix": true,
+    "memory_preflight": true,
+    "storage_preflight": true,
+    "cumulative_prefix_and_scoring": true
+  },
+  "projected_storage_bytes": 4032656626,
+  "pilot_peak_rss_bytes": 2023686144,
+  "training_500_epoch_upper_sensitivity_seconds": {
+    "inner_training": 42567.77641948713,
+    "outer_training": 29658.26723048092
+  },
+  "training_typical_completion_estimate": null,
+  "bounded_inner_prefix_seconds": 106.41944104871783,
+  "allowed_next_stage": "inner_training_prefix_only",
+  "training_projection": "500epochK32bound is sensitivity, not expected completion; measure allK5epoch resumable prefixes before a full-training gate",
+  "projection_limit": "Pilot maximum observed variance is not a strict bound for unseen queries; full actual precision must pass.",
+  "is_model_selection": false,
+  "is_full_experiment": false,
+  "full_queries_preserved": true,
+  "final_test_access": false,
+  "level_timing": {
+    "level_wall_seconds": 79.29254566598684,
+    "cold_to_first_result_seconds": 4.027699540951289
+  },
+  "passed": false,
+  "stop_reason": "resource_projection_exceeds_contract"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-11-05T08:40:52.094876+00:00",
+  "report_id": "report:b66817cf-5b66-45ae-bd9f-c0ccccd06a97",
+  "sealed_run": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
+  "new_model_fit": false,
+  "final_test_access": false,
+  "sealed_outputs_verified": 67,
+  "snapshot_fields_verified": 2596,
+  "map_distributions_verified": 24,
+  "map_rows": 1878,
+  "tolerance": 1e-12,
+  "browser_checks": [
+    "1 degree and 0.5 degree overall values match frozen sources",
+    "case selection and map resolution controls",
+    "90 percent region filter preserves underlying forecast and metrics",
+    "keyboard cell tooltip shows probability and region membership",
+    "origin metric switch uses percentage points for hit-rate differences",
+    "method disclosure opens",
+    "no browser error logs"
+  ],
+  "viewport": "normal browser viewport; no override",
+  "build": {
+    "version": 1,
+    "kind": "separate-data-v1",
+    "html": {
+      "path": "index.html",
+      "sha256": "9218d8ce0f57c5467c573df81cdba4b6719cdcb3b17ddb826313a1f567bd7339",
+      "bytes": 3103469
+    },
+    "snapshot": {
+      "path": "snapshot.0a1ab78b0abe92141b5afd5524b3dce0b2a7a45108ae20ceca5171ca174e59a2.json",
+      "sha256": "0a1ab78b0abe92141b5afd5524b3dce0b2a7a45108ae20ceca5171ca174e59a2",
+      "bytes": 597625
+    },
+    "runtimeSha256": "9e3ede84b28aded3c7379b6e6a5611f0d95b9977eb0f781e279ceefabfcbd27e",
+    "sourceSnapshotSha256": "0a1ab78b0abe92141b5afd5524b3dce0b2a7a45108ae20ceca5171ca174e59a2"
+  },
+  "saved_artifacts": {
+    "report-preview.jpg": {
+      "bytes": 81118,
+      "sha256": "5e7a4d75ea968cbc479077d224bebc01caff1a31e3eb8f48e1972959e3b7b68e"
+    },
+    ".data-app-offline/exports/report.html": {
+      "bytes": 3701348,
+      "sha256": "55715ca2608308f3b77745002732142a5abeccdb1507780d5bf7e40b5bc908a3"
+    }
+  }
+}

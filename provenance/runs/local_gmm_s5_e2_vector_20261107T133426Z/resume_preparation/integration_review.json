@@ -1,0 +1,12 @@
+{
+  "reviewer": "score_optimization_review",
+  "read_only": true,
+  "blockers": [],
+  "checked": [
+    "STATE dependencies",
+    "energy/region_scores lineage avoidance",
+    "outer score/audit retain pools",
+    "K=[1],[1,2],[1,3]",
+    "fallback metadata and checkpoint compatibility"
+  ]
+}

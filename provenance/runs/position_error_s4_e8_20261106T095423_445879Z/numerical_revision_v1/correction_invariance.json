@@ -1,0 +1,15 @@
+{
+  "ES_bit_identical": true,
+  "auxiliary_bit_identical": true,
+  "cases": 33971,
+  "cutoffs_changed": {
+    "B2Point": 0,
+    "EndpointCI": 31993,
+    "ExactPoint": 29,
+    "MatchedSpread": 32046
+  },
+  "donor_arrays_identical": true,
+  "fixed_example_quadrature_clouds_bit_identical": true,
+  "models": 4,
+  "scores_or_regions_recomputed_during_export_recovery": false
+}

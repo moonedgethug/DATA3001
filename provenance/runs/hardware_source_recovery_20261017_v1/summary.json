@@ -1,0 +1,81 @@
+{
+  "complete": true,
+  "release_unchanged": "per-drifter-cleaned-20261017-v6",
+  "IDs_audited": 210,
+  "ID_field_missing_cases": 481,
+  "exact_ID_specification_matches": 191,
+  "exact_ID_matches_with_a_disagreement": 13,
+  "nonexact_ID_candidates_not_accepted": 19,
+  "accepted_restoration_IDs": 0,
+  "accepted_restoration_fields": 0,
+  "all_missing_cases_remain_NA": true,
+  "new_feature_columns": [],
+  "all_3741_current_file_hashes_unchanged": true,
+  "active_rows": 39099193,
+  "active_columns": 129,
+  "field_dispositions": {
+    "official_per_ID_value_also_empty": 444,
+    "unverified_cross_identifier_candidate": 37
+  },
+  "source_CSV_HTML_checks": {
+    "drifter": true,
+    "drogue": true
+  },
+  "source_receipts": {
+    "directory": {
+      "url": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+      "retrieved_UTC": "2026-10-17T09:41:35.978778+00:00",
+      "status": 200,
+      "bytes": 3658686,
+      "sha256": "4bd4cfe83a260f68152f5f179604164c6c0709e81921dcffcfffd80dc71f2d2b",
+      "headers": {
+        "Date": "Sat, 17 Oct 2026 09:41:36 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "drifter_specifications": {
+      "url": "https://www.aoml.noaa.gov/phod/dac/Drifter_Specifications.html",
+      "retrieved_UTC": "2026-10-17T09:41:35.978399+00:00",
+      "status": 200,
+      "bytes": 14030939,
+      "sha256": "124a18ce501049cd284e9bacf27a2dd5e534f2b1faf4480f6018b659cfe2a420",
+      "headers": {
+        "Date": "Sat, 17 Oct 2026 09:41:36 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "drifter_specifications_csv_retry": {
+      "url": "https://www.aoml.noaa.gov/ftp/pub/phod/pazos/deplog/Drifter_Specifications.csv",
+      "status": 200,
+      "retrieved_UTC": "2026-10-17T09:45:55.416999+00:00",
+      "bytes": 1738582,
+      "sha256": "dde7a8214259893f067a5d5b7a808433cb7994e107d042882a59dfd10fd296ff"
+    },
+    "drogue_specifications": {
+      "url": "https://www.aoml.noaa.gov/phod/dac/Drogue_Specifications.html",
+      "retrieved_UTC": "2026-10-17T09:41:35.978702+00:00",
+      "status": 200,
+      "bytes": 23179867,
+      "sha256": "5d3cf74f2d0d522c48d07cc23ecbe3be392beb602ad28065f961a77cabc8d090",
+      "headers": {
+        "Date": "Sat, 17 Oct 2026 09:41:36 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "drogue_specifications_csv": {
+      "url": "https://www.aoml.noaa.gov/ftp/pub/phod/pazos/deplog/Drogue_Specifications.csv",
+      "retrieved_UTC": "2026-10-17T09:43:04.327843+00:00",
+      "status": 200,
+      "bytes": 2512599,
+      "sha256": "e680577eb2d1137b4c794d9eddb0bdea311ca968b1855207d91d117741a21b17",
+      "headers": {
+        "Date": "Sat, 17 Oct 2026 09:43:05 GMT",
+        "Last-Modified": "Mon, 29 Jun 2026 16:08:05 GMT",
+        "Content-Type": "text/csv"
+      }
+    }
+  },
+  "contract_sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+  "forecast_accuracy_evaluated": false,
+  "no_universal_absence_claim": "No accepted values in inspected sources; this does not prove no records exist elsewhere."
+}

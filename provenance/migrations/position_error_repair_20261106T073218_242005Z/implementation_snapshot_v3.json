@@ -1,0 +1,20 @@
+{
+  "captured_utc": "2026-11-06T07:57:36.333766+00:00",
+  "purpose": "Production source remains unchanged; independent verification adds storage-profile assertions; report adds strata and extreme-value tables.",
+  "files": {
+    "src/data3001/preprocessing/position_error_repair.py": "cadf4cfd6da4b1b3aa74644f8ddc6acb2f952cd58b7930ee61462a5dbc3cef71",
+    "src/data3001/preprocessing/replay_position_error_repair.py": "e9000a769472dcbbc0ec224ef1ebd57ad2d7d36704d0e95f0049bebab7f997b4",
+    "src/data3001/preprocessing/report_position_error_repair.py": "c126741d05ca530db6dcb312e9ab88f4aa70e9d911a4e5576ac83d4855a58707",
+    "src/data3001/preprocessing/run_position_error_repair.py": "631b8b472801ca99beea3deaaf806ca28fff6f30e946966b352a06016410c01b",
+    "src/data3001/preprocessing/verify_position_error_repair.py": "67bb12bd72bdd8cc19b2f0c0bceab94848deb6b313e1ceedd69d9a3b1db4d5e7",
+    "tests/test_position_error_repair.py": "5272e1a9f8ed1439d5a59291de631e768ae17ba5a63575715e1125e25050e7ce",
+    "pyproject.toml": "565ed755be931306516160cbe671ed29492a38bd4073edb01b44569c0dfc87bc"
+  },
+  "unit_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -p test_position_error_repair.py -v",
+    "tests_run": 20,
+    "passed": 20,
+    "failed": 0,
+    "duration_seconds": 0.063
+  }
+}

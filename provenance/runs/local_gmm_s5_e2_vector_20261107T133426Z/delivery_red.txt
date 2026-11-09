@@ -1,0 +1,26 @@
+======================================================================
+FAIL: test_descriptive_groups_keep_equal_drifter_votes (test_modelling_local_gmm_s5_e2_delivery.DeliveryTests.test_descriptive_groups_keep_equal_drifter_votes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_delivery.py", line 19, in test_descriptive_groups_keep_equal_drifter_votes
+    result=self.module().descriptive_summary(table,['year']).iloc[0]
+           ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_delivery.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(name))
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_leave_one_id_out_uses_paired_id_means (test_modelling_local_gmm_s5_e2_delivery.DeliveryTests.test_leave_one_id_out_uses_paired_id_means)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_delivery.py", line 31, in test_leave_one_id_out_uses_paired_id_means
+    result=self.module().leave_one_id_out(pd.DataFrame(rows))
+           ^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_local_gmm_s5_e2_delivery.py", line 13, in module
+    self.assertIsNotNone(importlib.util.find_spec(name))
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+FAILED (failures=2)

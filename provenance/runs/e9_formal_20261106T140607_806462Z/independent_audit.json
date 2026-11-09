@@ -1,0 +1,24 @@
+{
+  "all_donor_seasons_radius_votes_checked": true,
+  "final_test_access": false,
+  "full_second_seed_queries": 33971,
+  "independent_energy_records": 512,
+  "independent_statistics": {
+    "IDs": 45,
+    "bootstrap_draws": 10000,
+    "max_interval_abs_difference": 8.313349195241543e-14,
+    "models": 4
+  },
+  "max_independent_seed_standardized_difference": 2.7833589047857243,
+  "max_region_area_replay_difference_km2": 1.280568540096283e-09,
+  "max_same_seed_energy_difference_km": 5.684341886080802e-14,
+  "numerical_gates_passed": true,
+  "outer_endpoint_errors_read": false,
+  "outer_full_distance_queries": 128,
+  "pilot_audit_reference": "provenance/runs/e9_esopt_20261106T133844_947508Z/independent_review.json",
+  "pilot_full_distance_queries": 128,
+  "protected_files_unchanged": true,
+  "region_replays": 135884,
+  "selected_donor_occurrences": 479973804,
+  "structural_checks_passed": true
+}

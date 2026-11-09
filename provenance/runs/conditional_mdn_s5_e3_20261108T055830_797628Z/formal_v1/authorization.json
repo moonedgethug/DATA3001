@@ -1,0 +1,26 @@
+{
+  "status": "approved",
+  "approved_utc": "2026-11-08T08:46:59.256403+00:00",
+  "full_experiment_authorized": true,
+  "resource_time_limit_seconds": null,
+  "compute_ceiling_waived": true,
+  "scientific_definition_unchanged": true,
+  "final_test_access": false,
+  "contract_sha256": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+  "user_instruction": "严格按照我们的要求完成完善的MDN训练，不要在乎算力上限，也不要在乎时间，完整地跑一次。",
+  "preserved": [
+    "all six K candidates",
+    "full samples and all seeds",
+    "pair-equal training",
+    "drifter-equal evaluation",
+    "500 epoch cap and late-cap scientific pause",
+    "registered precision levels and unchanged gates",
+    "original protected inputs and historical results"
+  ],
+  "optimized_scoring_source_sha256": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+  "reference_check_count": 65536,
+  "prior_failed_pilot_preserved": true,
+  "validated_equivalence_evidence": "optimization_v1",
+  "deferred_target_path": "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/outer_targets.parquet",
+  "deferred_target_sha256": "ac4d6dde254a4b785862e8d1de168e9c06690f1798e3463e14c956731627d342"
+}

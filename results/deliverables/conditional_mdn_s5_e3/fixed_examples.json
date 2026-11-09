@@ -1,0 +1,126 @@
+{
+  "examples": [
+    {
+      "number": 1,
+      "position": 0,
+      "key": [
+        300234063731750,
+        139319181,
+        7
+      ]
+    },
+    {
+      "number": 2,
+      "position": 3088,
+      "key": [
+        300234063949920,
+        185724322,
+        7
+      ]
+    },
+    {
+      "number": 3,
+      "position": 6176,
+      "key": [
+        300234064761620,
+        156626786,
+        7
+      ]
+    },
+    {
+      "number": 4,
+      "position": 9264,
+      "key": [
+        300234065382690,
+        158747016,
+        7
+      ]
+    },
+    {
+      "number": 5,
+      "position": 12352,
+      "key": [
+        300234065705120,
+        174704840,
+        7
+      ]
+    },
+    {
+      "number": 6,
+      "position": 15440,
+      "key": [
+        300234065749570,
+        155026308,
+        7
+      ]
+    },
+    {
+      "number": 7,
+      "position": 18529,
+      "key": [
+        300234066530040,
+        172467174,
+        7
+      ]
+    },
+    {
+      "number": 8,
+      "position": 21617,
+      "key": [
+        300234067115250,
+        168927811,
+        7
+      ]
+    },
+    {
+      "number": 9,
+      "position": 24705,
+      "key": [
+        300234067201530,
+        167604439,
+        7
+      ]
+    },
+    {
+      "number": 10,
+      "position": 27793,
+      "key": [
+        300234067548160,
+        189614100,
+        7
+      ]
+    },
+    {
+      "number": 11,
+      "position": 30881,
+      "key": [
+        300534060381970,
+        195688010,
+        7
+      ]
+    },
+    {
+      "number": 12,
+      "position": 33970,
+      "key": [
+        300534063515100,
+        196966595,
+        7
+      ]
+    }
+  ],
+  "selection": "floor(j * (33971-1) / 11), j=0,...,11; source-key order",
+  "common_extent": [
+    -87.0,
+    23.5,
+    -58.5,
+    43.0
+  ],
+  "common_vmax": 0.26824951171875,
+  "display_cell_degrees": 0.5,
+  "display_samples": 32768,
+  "display_seed": 20261126,
+  "samples_used_for_metrics": false,
+  "region_source": "results/runs/conditional_mdn_s5_e3_20261108T055830_797628Z/formal_v1/C_outer/outer_score/N65536_M65536/scores.parquet",
+  "complete_display_cloud_mass_preserved": true
+}

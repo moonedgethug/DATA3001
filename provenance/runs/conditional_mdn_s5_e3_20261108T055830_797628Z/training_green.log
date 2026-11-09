@@ -1,0 +1,18 @@
+test_checkpoint_rejects_changed_source_and_retains_full_fit_scaler (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_checkpoint_rejects_changed_source_and_retains_full_fit_scaler) ... ok
+test_early_stop_scaler_excludes_stop_ids_and_nonfinite_input_fails (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_early_stop_scaler_excludes_stop_ids_and_nonfinite_input_fails) ... ok
+test_model_initial_distribution_and_determinism (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_model_initial_distribution_and_determinism) ... /Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_training.py:47: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  self.assertGreater(float(torch.ptp(mu.detach())) if hasattr(torch, "ptp") else float(mu.max()-mu.min()), 0)
+ok
+test_nll_matches_independent_full_covariance_density_and_tail (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_nll_matches_independent_full_covariance_density_and_tail) ... ok
+test_raw_best_epoch_and_patience_anchor_are_separate (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_raw_best_epoch_and_patience_anchor_are_separate) ... ok
+test_scaling_physical_packet_and_rejects_zero_scale (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_scaling_physical_packet_and_rejects_zero_scale) ... ok
+test_seed_tie_break_cap_gate_and_resumable_prefix (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_seed_tie_break_cap_gate_and_resumable_prefix) ... ok
+test_stable_stream_exact_contract_bytes_and_canonical_query (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_stable_stream_exact_contract_bytes_and_canonical_query) ... ok
+test_tail_batch_exact_weight_and_resume_preserve_optimizer (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_tail_batch_exact_weight_and_resume_preserve_optimizer) ... ok
+test_whole_id_stop_partition_and_drifter_equal_score (test_modelling_conditional_mdn_s5_e3_training.MDNTrainingTests.test_whole_id_stop_partition_and_drifter_equal_score) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.747s
+
+OK

@@ -1,0 +1,210 @@
+[
+  {
+    "id": 7647,
+    "url": "ftp://ftp.aoml.noaa.gov/phod/pub/lumpkin/hourly/v1.04/netcdf_v1.04c/argos_block1/drifter_7647.nc",
+    "sha256": "4b705b297bc14974cc2dba4c9038aa25792208eb370ac7fdd389922811cdc22b",
+    "global_attributes": {
+      "title": "Global Drifter Program hourly drifting buoy collection",
+      "id": "Global Drifter Program ID 7647",
+      "interpolation_method": "Weighted Maximum Likelihood Estimator",
+      "location_type": "Argos",
+      "wmo_platform_code": "4200533",
+      "ncei_template_version": "NCEI_NetCDF_Trajectory_Template_v2",
+      "cdm_data_type": "Trajectory",
+      "history": "Version 1.04c.  Metadata from dirall.dat and deplog.dat",
+      "featureType": "trajectory",
+      "Conventions": "CF-1.6, ACDD-1.3",
+      "time_coverage_start": "2001-08-02T01:08:00Z",
+      "time_coverage_end": "2002-07-09T10:07:00Z",
+      "geospatial_lat_min": "20.466f",
+      "geospatial_lat_max": "41.743f",
+      "geospatial_lat_units": "degrees_north",
+      "geospatial_lat_resolution": "tbd",
+      "geospatial_lon_min": "-96.864f",
+      "geospatial_lon_max": "-46.617f",
+      "geospatial_lon_units": "degrees_east",
+      "geospatial_lon_resolution": "tbd",
+      "geospatial_bounds": "polygon (  180.000  20.466,  313.383  20.466,  313.383  41.743, 180.000  41.743, 180.000  20.466",
+      "date_created": "2021-01-21T15:01:51Z",
+      "date_modified": "2021-01-21T15:01:51Z",
+      "date_issued": "2021-01-21T15:01:51Z",
+      "publisher_name": "GDP Drifter DAC",
+      "publisher_email": "aoml.dftr@noaa.gov",
+      "publisher_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "licence": "freely available",
+      "processing_level": "Level 2 QC by GDP drifter DAC",
+      "metadata_link": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+      "source": "source description",
+      "uuid": "n/a",
+      "naming_authority": "n/a",
+      "contributor_name": "NOAA Global Drifter Program",
+      "contributor_role": "Data Acquisition Center",
+      "institution": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "creator_name": "GDP drifter DAC",
+      "creator_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "creator_email": "aoml.dftr@noaa.gov",
+      "acknowledgement": "Elipot et al. (2016). Global Drifter Program quality-controlled hourly interpolated data from ocean surface drifting buoys, version 1.04c. NOAA National Centers for Environmental Information. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JC011716TBA. Accessed [date].",
+      "doi": "10.1002/2016JC011716TBA",
+      "summary": "Global Drifter Program hourly data",
+      "comment": "Global Drifter Program hourly data",
+      "standard_name_vocabulary": "CF Standard Name Table v30",
+      "instrument_vocabulary": "n/a",
+      "keywords_vocabulary": "n/a",
+      "keywords": "drifter, surface current, interpolated",
+      "DeployingShip": "Navy Air",
+      "DeploymentStatus": "good",
+      "BuoyTypeManufacturer": "Metocean",
+      "BuoyTypeSensorArray": "SVPBWD",
+      "CurrentProgram": "9600",
+      "PurchaserFunding": "United States",
+      "SensorUpgrade": "United States",
+      "Transmissions": "United States",
+      "DeployingCountry": "United States",
+      "DeploymentComments": "",
+      "ManufactureYear": "NaN",
+      "ManufactureMonth": "NaN",
+      "ManufactureSensorType": "SVPBWD",
+      "ManufactureVoltage": "84 volts",
+      "FloatDiameter": "41 cm",
+      "SubsfcFloatPresence": "NaN",
+      "DrogueType": "HOLY113",
+      "DrogueLength": "6.4 m",
+      "DrogueBallast": "3.5 kg",
+      "DragAreaAboveDrogue": "35.75 m^2",
+      "DragAreaOfDrogue": "840 m^2",
+      "DragAreaRatio": "23.4965",
+      "DrogueCenterDepth": "15 m",
+      "DrogueDetectSensor": "submergence"
+    },
+    "variables": {
+      "longitude": {
+        "attrs": {
+          "long_name": "Longitude",
+          "units": "degrees_east",
+          "axis": "X",
+          "valid_min": "-180.f",
+          "valid_max": "180.f",
+          "standard_name": "longitude",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          -94.03942108154297,
+          -94.0384521484375,
+          -94.03981018066406
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "latitude": {
+        "attrs": {
+          "long_name": "Latitude",
+          "units": "degrees_north",
+          "axis": "Y",
+          "valid_min": "-90.f",
+          "valid_max": "90.f",
+          "standard_name": "latitude",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          21.485729217529297,
+          21.485750198364258,
+          21.48259925842285
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "time": {
+        "attrs": {
+          "long_name": "Time",
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "axis": "T",
+          "valid_min": "-90.f",
+          "valid_max": "90.f",
+          "standard_name": "time",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          996714000.0,
+          996717600.0,
+          996721200.0
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_lat": {
+        "attrs": {
+          "long_name": "95% confidence interval in latitude",
+          "units": "degrees_north",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.005009999964386225,
+          0.003909999970346689,
+          0.0037299999967217445
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_lon": {
+        "attrs": {
+          "long_name": "95% confidence interval in longitude",
+          "units": "degrees_east",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.004350000061094761,
+          0.0035000001080334187,
+          0.0034600000362843275
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_ve": {
+        "attrs": {
+          "long_name": "95% confidence interval in eastward velocity",
+          "units": "m/s",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.04399999976158142,
+          0.037300001829862595,
+          0.024700000882148743
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_vn": {
+        "attrs": {
+          "long_name": "95% confidence interval in northward velocity",
+          "units": "m/s",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.06080000102519989,
+          0.05620000138878822,
+          0.014600000344216824
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      }
+    }
+  },
+  {
+    "id": 300234066710170,
+    "error": "550 /phod/pub/lumpkin/hourly/v1.04/netcdf_v1.04c/gps/drifter_300234066710170.nc: No such file or directory"
+  }
+]

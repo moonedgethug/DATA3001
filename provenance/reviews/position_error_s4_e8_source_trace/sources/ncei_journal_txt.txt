@@ -1,0 +1,102 @@
+*****************************************************************
+Journal for accession number:  0248584
+Created on:                    2024-03-27 13:00:45 UTC
+By:                            National Centers for Environmental Information
+
+Source: The NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML)
+submitted these data to NCEI as part of the NOAA Global Drifter Program.
+
+Version:                       2.2
+Updates received on:           2024-03-08
+
+Actions: Updates were received for this dataset. These updates were copied
+into the data/0-data/ directory of this accession. These updates may provide
+additional files or replace obsolete files. This version contains the most
+complete and up-to-date representation of this archival information package.
+All of the files received prior to this update are available in the preceding
+version of this accession.
+
+Data files were downloaded from AOML. An automated process copied the data
+files to the data/0-data/ directory, extracted information from the data
+file for documentation, and copied an image file provided by AOML to be used
+as a browse graphic for the dataset.
+
+Files:
+about/
+This directory contains files created by NCEI staff, email correspondence,
+and other 'negotiable' information between NCEI staff and the data provider.
+
+0248584_preview.png - 
+  AOML drifter type map for use as a browse graphic.
+
+data/0-data/
+This directory contains files in their original format as submitted to NCEI,
+ with the following naming conventions:
+gdp_hourly.nc
+ gdp - Global Drifter Program
+ hourly - 1-hour interpolated data
+ .nc - NetCDF file extension
+
+The following is a summary of the differences between the data files in the
+previous version of this accession and this version:
+
+Total number of files:              1
+Number of new files:                1
+Number of changed files:            0
+Number of files removed:            3
+Number of files moved or renamed:   0
+
+New files:
+
+gdp_hourly.nc
+
+Removed files:
+
+GDP_array.jpg
+J7WEJ6-ISO-19115-2.xml
+gdp_v2.00.nc
+
+*****************************************************************
+Journal for accession number:  0248584
+Created on:                    2022-02-20 17:17:01 UTC
+By:                            National Centers for Environmental Information
+
+Source: Dr. Rick Lumpkin, NOAA/AOML, submitted data and metadata to NCEI in
+submission package J7WEJ6 via Send2NCEI (S2N).
+
+Actions: Files were received via ftp from the submitter and copied into this accession. An 
+ additional file showing a map preview was provided via email. A metadata record in 
+ ISO 19115-2 XML format was also generated from the information provided by the submitter and was copied into
+ this accession.
+
+Files:
+
+about/ 
+  This directory contains files created by NCEI staff and processing, including
+  'negotiable' information between NCEI staff and the data provider.
+
+0248584_lonlat.txt
+  Contains sample collection area bounding coordinates for these data. 
+  Each row contains the geographical position (longitude in the left column
+  and latitude in the right column, both in degrees).
+
+0248584_preview.jpg
+  Copy of the data producer's map file also available as 
+  data/0-data/GDP_array.jpg, created by NCEI to support NCEI browse
+  graphic management.
+
+J7WEJ6-confirmation_email.txt
+  Email from the Send2NCEI web application to Dr. Rick Lumpkin, NOAA/AOML,
+  confirming that NCEI has received the submission information package.
+
+0-email.txt
+  Email conversation with submitter answering basic questions and submission of preview 
+  graphic
+
+1-email.txt
+  Email conversation with submitter answering questions about which files should be 
+  pulled from ftp and approving collection metadata
+
+data/0-data/
+  This directory contains files in their original format as downloaded to NCEI.
+

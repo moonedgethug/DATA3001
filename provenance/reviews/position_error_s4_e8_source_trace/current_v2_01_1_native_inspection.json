@@ -1,0 +1,266 @@
+[
+  {
+    "id": 7647,
+    "url": "ftp://ftp.aoml.noaa.gov/phod/pub/buoydata/hourly_product/v2.01.1/drifter_hourly_7647.nc",
+    "sha256": "98f55b957b0c8799f4fbce054d63ccb9e7df6821f91c9e94b25e75b29f697dfe",
+    "global_attributes": {
+      "title": "Global Drifter Program hourly drifting buoy collection",
+      "id": "Global Drifter Program ID 7647",
+      "location_type": "Argos",
+      "wmo_platform_code": "4200533",
+      "ncei_template_version": "NCEI_NetCDF_Trajectory_Template_v2",
+      "cdm_data_type": "Trajectory",
+      "featureType": "trajectory",
+      "Conventions": "CF-1.6, ACDD-1.3",
+      "time_coverage_start": "2001-08-02T01:08:00Z",
+      "time_coverage_end": "2002-07-09T10:07:00Z",
+      "geospatial_lat_min": "20.466f",
+      "geospatial_lat_max": "41.743f",
+      "geospatial_lat_units": "degrees_north",
+      "geospatial_lat_resolution": "tbd",
+      "geospatial_lon_min": "-96.864f",
+      "geospatial_lon_max": "-46.617f",
+      "geospatial_lon_units": "degrees_east",
+      "geospatial_lon_resolution": "tbd",
+      "geospatial_bounds": "polygon (  180.000  20.466,  313.383  20.466,  313.383  41.743, 180.000  41.743, 180.000  20.466",
+      "date_created": "2021-12-17T13:12:48Z",
+      "date_modified": "2021-12-17T13:12:48Z",
+      "date_issued": "2021-12-17T13:12:48Z",
+      "publisher_name": "GDP Drifter DAC",
+      "publisher_email": "aoml.dftr@noaa.gov",
+      "publisher_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "licence": "freely available",
+      "processing_level": "Level 2 QC by GDP drifter DAC",
+      "metadata_link": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+      "source": "source description",
+      "uuid": "n/a",
+      "naming_authority": "n/a",
+      "contributor_name": "NOAA Global Drifter Program",
+      "contributor_role": "Data Acquisition Center",
+      "institution": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "creator_name": "GDP drifter DAC",
+      "creator_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "creator_email": "aoml.dftr@noaa.gov",
+      "doi": "10.1002/2016JC011716TBA",
+      "summary": "Global Drifter Program hourly data",
+      "comment": "Global Drifter Program hourly data",
+      "standard_name_vocabulary": "CF Standard Name Table v30",
+      "instrument_vocabulary": "n/a",
+      "keywords_vocabulary": "n/a",
+      "keywords": "drifter, surface current, interpolated",
+      "DeployingShip": "Navy Air",
+      "DeploymentStatus": "good",
+      "BuoyTypeManufacturer": "Metocean",
+      "BuoyTypeSensorArray": "SVPBWD",
+      "CurrentProgram": "9600",
+      "PurchaserFunding": "United States",
+      "SensorUpgrade": "United States",
+      "Transmissions": "United States",
+      "DeployingCountry": "United States",
+      "DeploymentComments": "",
+      "ManufactureYear": "NaN",
+      "ManufactureMonth": "NaN",
+      "ManufactureSensorType": "SVPBWD",
+      "ManufactureVoltage": "84 volts",
+      "FloatDiameter": "41 cm",
+      "SubsfcFloatPresence": "NaN",
+      "DrogueType": "HOLY113",
+      "DrogueLength": "6.4 m",
+      "DrogueBallast": "3.5 kg",
+      "DragAreaAboveDrogue": "35.75 m^2",
+      "DragAreaOfDrogue": "840 m^2",
+      "DragAreaRatio": "23.4965",
+      "DrogueCenterDepth": "15 m",
+      "DrogueDetectSensor": "submergence",
+      "acknowledgement": "Elipot et al. (2016), Elipot et al. (2021) to be submitted. Global Drifter Program quality-controlled hourly interpolated data from ocean surface drifting buoys, version 2.00. NOAA National Centers for Environmental Information. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JC011716TBA.",
+      "history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+      "interpolation_method": ""
+    },
+    "variables": {
+      "time": {
+        "attrs": {
+          "long_name": "Time",
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "axis": "T",
+          "valid_min": "-90.f",
+          "valid_max": "90.f",
+          "standard_name": "time",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          996714000.0,
+          996717600.0,
+          996721200.0
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_lon": {
+        "attrs": {
+          "long_name": "95% confidence interval in longitude",
+          "units": "degrees_east",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.004350000061094761,
+          0.0035000001080334187,
+          0.0034600000362843275
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      },
+      "err_lat": {
+        "attrs": {
+          "long_name": "95% confidence interval in latitude",
+          "units": "degrees_north",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.005009999964386225,
+          0.003909999970346689,
+          0.0037299999967217445
+        ],
+        "shape": [
+          1,
+          8159
+        ]
+      }
+    }
+  },
+  {
+    "id": 36606,
+    "url": "ftp://ftp.aoml.noaa.gov/phod/pub/buoydata/hourly_product/v2.01.1/drifter_hourly_36606.nc",
+    "sha256": "0289f0f055c399234f934c9101dbef026b104f0daa7797958c19d816ff53fd4e",
+    "global_attributes": {
+      "title": "Global Drifter Program hourly drifting buoy collection",
+      "id": "Global Drifter Program ID 36606",
+      "location_type": "Argos",
+      "wmo_platform_code": "4100733",
+      "ncei_template_version": "NCEI_NetCDF_Trajectory_Template_v2",
+      "cdm_data_type": "Trajectory",
+      "featureType": "trajectory",
+      "Conventions": "CF-1.6, ACDD-1.3",
+      "time_coverage_start": "2011-10-19T22:10:00Z",
+      "time_coverage_end": "2013-12-13T05:12:00Z",
+      "geospatial_lat_min": "18.693f",
+      "geospatial_lat_max": "32.577f",
+      "geospatial_lat_units": "degrees_north",
+      "geospatial_lat_resolution": "tbd",
+      "geospatial_lon_min": "-78.540f",
+      "geospatial_lon_max": "-35.871f",
+      "geospatial_lon_units": "degrees_east",
+      "geospatial_lon_resolution": "tbd",
+      "geospatial_bounds": "polygon (  180.000  18.693,  324.129  18.693,  324.129  32.577, 180.000  32.577, 180.000  18.693",
+      "date_created": "2021-12-17T17:12:08Z",
+      "date_modified": "2021-12-17T17:12:08Z",
+      "date_issued": "2021-12-17T17:12:08Z",
+      "publisher_name": "GDP Drifter DAC",
+      "publisher_email": "aoml.dftr@noaa.gov",
+      "publisher_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "licence": "freely available",
+      "processing_level": "Level 2 QC by GDP drifter DAC",
+      "metadata_link": "https://www.aoml.noaa.gov/phod/dac/dirall.html",
+      "source": "source description",
+      "uuid": "n/a",
+      "naming_authority": "n/a",
+      "contributor_name": "NOAA Global Drifter Program",
+      "contributor_role": "Data Acquisition Center",
+      "institution": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "creator_name": "GDP drifter DAC",
+      "creator_url": "https://www.aoml.noaa.gov/phod/gdp",
+      "creator_email": "aoml.dftr@noaa.gov",
+      "doi": "10.1002/2016JC011716TBA",
+      "summary": "Global Drifter Program hourly data",
+      "comment": "Global Drifter Program hourly data",
+      "standard_name_vocabulary": "CF Standard Name Table v30",
+      "instrument_vocabulary": "n/a",
+      "keywords_vocabulary": "n/a",
+      "keywords": "drifter, surface current, interpolated",
+      "DeployingShip": "UNKNOWN",
+      "DeploymentStatus": "good",
+      "BuoyTypeManufacturer": "Pacific Gyre",
+      "BuoyTypeSensorArray": "SVPBS",
+      "CurrentProgram": "1665",
+      "PurchaserFunding": "France",
+      "SensorUpgrade": "France",
+      "Transmissions": "France",
+      "DeployingCountry": "",
+      "DeploymentComments": "",
+      "ManufactureYear": "NaN",
+      "ManufactureMonth": "NaN",
+      "ManufactureSensorType": "SVPBS",
+      "ManufactureVoltage": "NaN volts",
+      "FloatDiameter": "40.6 cm",
+      "SubsfcFloatPresence": "0",
+      "DrogueType": "HOLY212",
+      "DrogueLength": "6.4 m",
+      "DrogueBallast": "NaN kg",
+      "DragAreaAboveDrogue": "12.09 m^2",
+      "DragAreaOfDrogue": "819.84 m^2",
+      "DragAreaRatio": "67.8114",
+      "DrogueCenterDepth": "15 m",
+      "DrogueDetectSensor": "tether strain",
+      "acknowledgement": "Elipot et al. (2016), Elipot et al. (2021) to be submitted. Global Drifter Program quality-controlled hourly interpolated data from ocean surface drifting buoys, version 2.00. NOAA National Centers for Environmental Information. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JC011716TBA.",
+      "history": "Version 2.00.  Metadata from dirall.dat and deplog.dat",
+      "interpolation_method": ""
+    },
+    "variables": {
+      "time": {
+        "attrs": {
+          "long_name": "Time",
+          "units": "seconds since 1970-01-01 00:00:00 UTC",
+          "axis": "T",
+          "valid_min": "-90.f",
+          "valid_max": "90.f",
+          "standard_name": "time",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          1319061600.0,
+          1319065200.0,
+          1319068800.0
+        ],
+        "shape": [
+          1,
+          18831
+        ]
+      },
+      "err_lon": {
+        "attrs": {
+          "long_name": "95% confidence interval in longitude",
+          "units": "degrees_east",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.023159999400377274,
+          0.019169999286532402,
+          0.01348000019788742
+        ],
+        "shape": [
+          1,
+          18831
+        ]
+      },
+      "err_lat": {
+        "attrs": {
+          "long_name": "95% confidence interval in latitude",
+          "units": "degrees_north",
+          "missing_value": "-1.e+34f"
+        },
+        "first3_raw": [
+          0.003019999945536256,
+          0.0022899999748915434,
+          0.0036100000143051147
+        ],
+        "shape": [
+          1,
+          18831
+        ]
+      }
+    }
+  }
+]

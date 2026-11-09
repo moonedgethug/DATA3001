@@ -1,0 +1,56 @@
+exact-CDF region correction 2048 /33971 40.2 s
+exact-CDF region correction 4096 /33971 86.0 s
+exact-CDF region correction 6144 /33971 129.2 s
+exact-CDF region correction 8192 /33971 169.9 s
+exact-CDF region correction 10240 /33971 220.5 s
+exact-CDF region correction 12288 /33971 260.8 s
+exact-CDF region correction 14336 /33971 305.8 s
+exact-CDF region correction 16384 /33971 355.2 s
+exact-CDF region correction 18432 /33971 396.6 s
+exact-CDF region correction 20480 /33971 441.2 s
+exact-CDF region correction 22528 /33971 485.3 s
+exact-CDF region correction 24576 /33971 526.9 s
+exact-CDF region correction 26624 /33971 564.3 s
+exact-CDF region correction 28672 /33971 602.6 s
+exact-CDF region correction 30720 /33971 656.7 s
+exact-CDF region correction 32768 /33971 708.3 s
+{
+  "elapsed_seconds": 3406.6747217080556,
+  "peak_rss_bytes": 940146688,
+  "retained_bytes": 2491940044,
+  "completed": false,
+  "this_revision_seconds": 754.0229411250912,
+  "prior_formal_seconds": 2652.6517805829644,
+  "outer_targets_read": false,
+  "outer_endpoint_errors_read": false,
+  "final_test_access": false,
+  "denied_access": []
+}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/position_error_s4_e8_numeric_revision.py", line 135, in <module>
+    revise(*inputs.context(a.run))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/baselines/position_error_s4_e8_numeric_revision.py", line 117, in revise
+    save_json(paths,folder/f'example_{j}_observation.json',dict(truth=truth.tolist(),scores=scores))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/common/runtime.py", line 44, in save_json
+    payload = (json.dumps(value, indent=2, sort_keys=True, allow_nan=False) + "\n").encode("utf-8")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 398, in _iterencode_dict
+    yield _floatstr(value)
+          ^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/json/encoder.py", line 240, in floatstr
+    raise ValueError(
+ValueError: Out of range float values are not JSON compliant: nan

@@ -1,0 +1,29 @@
+.E..
+======================================================================
+ERROR: test_deadline (test_modelling_conditional_mdn_s5_e3_runtime.RuntimeTests.test_deadline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 107, in supervise
+    stop_group(child.pid)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 44, in stop_group
+    os.killpg(pid, signal.SIGKILL)
+PermissionError: [Errno 1] Operation not permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 67, in test_deadline
+    test_supervisor_terminates_at_deadline(Path(d))
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_runtime.py", line 43, in test_supervisor_terminates_at_deadline
+    assert r.supervise(run,cfg,'pilot','timeout',[sys.executable,'-c','import time; time.sleep(5)'])!=0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 120, in supervise
+    stop_group(child.pid)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py", line 39, in stop_group
+    os.killpg(pid, signal.SIGTERM)
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.698s
+
+FAILED (errors=1)

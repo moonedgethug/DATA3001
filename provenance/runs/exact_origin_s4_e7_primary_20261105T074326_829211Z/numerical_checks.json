@@ -1,0 +1,10 @@
+{
+  "baseline_reconciled": true,
+  "exhaustive_origin_queries_per_role": {
+    "C_T0": 36,
+    "C_T1": 37,
+    "C_outer": 36
+  },
+  "io_seconds": 5.551670415967237,
+  "nested_grids_reconciled": true
+}

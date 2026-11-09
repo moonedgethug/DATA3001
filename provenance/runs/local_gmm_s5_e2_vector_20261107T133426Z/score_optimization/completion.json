@@ -1,0 +1,25 @@
+{
+  "status": "OPTIMIZATION_VERIFIED_FULL_EXPERIMENT_PAUSED",
+  "completed_at": "2026-11-07T17:11:11.225133+00:00",
+  "optimization_active_seconds": 430.04272149992175,
+  "original_checks_phase_used_seconds": 781.7884324160405,
+  "limit_seconds": 600,
+  "full_experiment_resumed": false,
+  "resume_authorized": false,
+  "scientific_definition_changed": false,
+  "fixed_validation_queries": 128,
+  "retained_ES_queries": 2176,
+  "project_tests_passed": 758,
+  "max_ES_or_replicate_or_variance_difference": 0.0,
+  "same_workload_speedup": 1.0698429098168807,
+  "observed_peak_memory_gib": 1.1438140869140625,
+  "files": {
+    "report.md": "405cda324e0af7eb747b86610278536220ded320c28292ad55de56dbcdd1ce4a",
+    "validation.json": "8144691f6483d87e353a6f29c567290b74f8d30daf2c4718cbf1a5642f86320b",
+    "runtime_projection.json": "db2176a44dca3811afc37a41a33cfaa88028afd648900f008297d85f826cb672",
+    "source_hashes.json": "e21d0d579e2d156435565f1d5377b6c0f372f002753f3809945722b521c6746a",
+    "preserved_outputs.json": "676f1ed7b7c95a22d190b330df7f71e8be6ccce5d47c3979bcf566d044b2b916",
+    "libe2_score.dylib": "70191c518457b66d2d85d491d87309a5d2a034081c2ddc058569958876993dc7",
+    "build_report.py": "a4946e5c09c35c5379ce229f40b2ae7abae21c7f11f618235e7ee7021d7a75e7"
+  }
+}

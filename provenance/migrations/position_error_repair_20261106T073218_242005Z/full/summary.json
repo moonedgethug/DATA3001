@@ -1,0 +1,148 @@
+{
+  "status": "VERIFIED_PARTIAL",
+  "scope_IDs": 338,
+  "observations": 355247,
+  "ci_2d_usable": 332770,
+  "ci_2d_usable_percent": 93.67285297272039,
+  "not_2d_usable": 22477,
+  "lon_accepted": 332782,
+  "lat_accepted": 332776,
+  "matched_observations": 334186,
+  "axis_status_counts": [
+    {
+      "axis": "lon",
+      "status": "restored_scale",
+      "observations": 332782,
+      "percent": 93.67623
+    },
+    {
+      "axis": "lon",
+      "status": "estimation_version_unresolved",
+      "observations": 15295,
+      "percent": 4.30546
+    },
+    {
+      "axis": "lon",
+      "status": "coordinate_changed",
+      "observations": 5512,
+      "percent": 1.5516
+    },
+    {
+      "axis": "lon",
+      "status": "unexplained_difference",
+      "observations": 1398,
+      "percent": 0.39353
+    },
+    {
+      "axis": "lon",
+      "status": "source_missing",
+      "observations": 254,
+      "percent": 0.0715
+    },
+    {
+      "axis": "lon",
+      "status": "zero_unresolved",
+      "observations": 6,
+      "percent": 0.00169
+    },
+    {
+      "axis": "lat",
+      "status": "restored_scale",
+      "observations": 332770,
+      "percent": 93.67285
+    },
+    {
+      "axis": "lat",
+      "status": "estimation_version_unresolved",
+      "observations": 15295,
+      "percent": 4.30546
+    },
+    {
+      "axis": "lat",
+      "status": "coordinate_changed",
+      "observations": 5512,
+      "percent": 1.5516
+    },
+    {
+      "axis": "lat",
+      "status": "unexplained_difference",
+      "observations": 1398,
+      "percent": 0.39353
+    },
+    {
+      "axis": "lat",
+      "status": "source_missing",
+      "observations": 254,
+      "percent": 0.0715
+    },
+    {
+      "axis": "lat",
+      "status": "zero_unresolved",
+      "observations": 12,
+      "percent": 0.00338
+    },
+    {
+      "axis": "lat",
+      "status": "verified_unchanged",
+      "observations": 6,
+      "percent": 0.00169
+    }
+  ],
+  "pair_counts": {
+    "all_pairs": 265393,
+    "usable_origin_error": 249576,
+    "usable_endpoint_error": 249577,
+    "both_origin_and_endpoint_usable": 249562
+  },
+  "available_sources": 674,
+  "requested_sources": 676,
+  "IDs_with_any_download": 337,
+  "IDs_with_any_usable_record": 313,
+  "original_endpoint_observations_retained": true,
+  "base_modified": false,
+  "model_experiments_run": false,
+  "final_test_accessed": false,
+  "outer_endpoint_error_accessed": false,
+  "scale_summary": [
+    {
+      "axis": "lon",
+      "value": "original",
+      "positive_observations": 332782,
+      "median_degrees": 2.4100000217686102e-08,
+      "p99_degrees": 2.198999879965413e-07,
+      "median_amplitude_m": 0.0022656313846426057,
+      "p99_amplitude_m": 0.020499669189942275,
+      "max_amplitude_m": 0.1120584085106475
+    },
+    {
+      "axis": "lon",
+      "value": "repaired",
+      "positive_observations": 332782,
+      "median_degrees": 0.002409999957308173,
+      "p99_degrees": 0.02198999933898449,
+      "median_amplitude_m": 226.56317176911517,
+      "p99_amplitude_m": 2049.966945607109,
+      "max_amplitude_m": 11205.84067149429
+    },
+    {
+      "axis": "lat",
+      "value": "original",
+      "positive_observations": 332776,
+      "median_degrees": 1.5699999522666985e-08,
+      "p99_degrees": 1.3999999737279722e-07,
+      "median_amplitude_m": 0.0017405857260042374,
+      "p99_amplitude_m": 0.015531460196848982,
+      "max_amplitude_m": 1324.231856614239
+    },
+    {
+      "axis": "lat",
+      "value": "repaired",
+      "positive_observations": 332776,
+      "median_degrees": 0.0015699999639764428,
+      "p99_degrees": 0.013992500025779009,
+      "median_amplitude_m": 174.05811040324653,
+      "p99_amplitude_m": 1552.2639381416207,
+      "max_amplitude_m": 9883.363909557713
+    }
+  ]
+}

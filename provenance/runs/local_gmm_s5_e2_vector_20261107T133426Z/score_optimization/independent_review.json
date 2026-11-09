@@ -1,0 +1,15 @@
+{
+  "reviewer": "score_optimization_review",
+  "read_only": true,
+  "numerical_findings": [],
+  "important_findings": [
+    {
+      "finding": "Leader-only timeout cleanup could leave descendants running",
+      "resolution": "Always terminate private process group, verify no running members, reserve three seconds within allowed time for cleanup",
+      "test": "ProcessBudgetTests.test_cleanup_kills_descendant_after_leader_has_exited",
+      "red": "process_red.log",
+      "green": "process_green.log"
+    }
+  ],
+  "changes_to_scientific_definitions": false
+}

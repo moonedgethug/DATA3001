@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://erddap.aoml.noaa.gov/gdp/erddap/files/drifter_hourly_qc/drifter_hourly_7647.nc",
+    "status": 200,
+    "bytes": 1462170,
+    "type": "application/x-netcdf",
+    "text": null,
+    "sha256": "9c62b73668d5af87e683ca1203a1bee710f9c318269d51b83ecdec33d862948d",
+    "variables": {
+      "err_lon": {
+        "attrs": {
+          "_FillValue": "-999999.0",
+          "long_name": "95% confidence interval in longitude",
+          "units": "degrees_east",
+          "missing_value": "-999999.0"
+        },
+        "raw": [
+          4.35000018228493e-08,
+          3.4999999343199306e-08,
+          3.459999931010316e-08,
+          3.10000025649515e-08,
+          3.010000071412833e-08
+        ],
+        "decoded": [
+          4.35000018228493e-08,
+          3.4999999343199306e-08,
+          3.459999931010316e-08,
+          3.10000025649515e-08,
+          3.010000071412833e-08
+        ]
+      },
+      "err_lat": {
+        "attrs": {
+          "_FillValue": "-999999.0",
+          "long_name": "95% confidence interval in latitude",
+          "units": "degrees_north",
+          "missing_value": "-999999.0"
+        },
+        "raw": [
+          5.009999881622207e-08,
+          3.9100001458791667e-08,
+          3.7300001309859e-08,
+          2.970000068103218e-08,
+          2.279999833376678e-08
+        ],
+        "decoded": [
+          5.009999881622207e-08,
+          3.9100001458791667e-08,
+          3.7300001309859e-08,
+          2.970000068103218e-08,
+          2.279999833376678e-08
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://www.ncei.noaa.gov/data/oceans/ncei/ocads/data/0248584/",
+    "status": 404,
+    "bytes": 196,
+    "type": "text/html; charset=iso-8859-1",
+    "text": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+  },
+  {
+    "url": "https://www.ncei.noaa.gov/archive/accession/download/0248584",
+    "status": 200,
+    "bytes": 21180,
+    "type": "text/html; charset=UTF-8",
+    "text": null
+  }
+]

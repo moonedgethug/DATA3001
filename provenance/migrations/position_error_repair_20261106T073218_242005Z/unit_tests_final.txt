@@ -1,0 +1,27 @@
+test_coordinates_periodic_and_precision_only (test_position_error_repair.ErrorRules.test_coordinates_periodic_and_precision_only) ... ok
+test_explicit_imei_mapping_only (test_position_error_repair.ErrorRules.test_explicit_imei_mapping_only) ... ok
+test_geometry_not_clipped (test_position_error_repair.ErrorRules.test_geometry_not_clipped) ... ok
+test_missing_mask_precedes_scaling (test_position_error_repair.ErrorRules.test_missing_mask_precedes_scaling) ... ok
+test_negative_zero_and_partial_axis (test_position_error_repair.ErrorRules.test_negative_zero_and_partial_axis) ... ok
+test_no_attribute_execution (test_position_error_repair.ErrorRules.test_no_attribute_execution) ... ok
+test_no_undeclared_scaling (test_position_error_repair.ErrorRules.test_no_undeclared_scaling) ... ok
+test_reference_recovery_and_unchanged (test_position_error_repair.ErrorRules.test_reference_recovery_and_unchanged) ... ok
+test_string_missing_marker_uses_storage_dtype (test_position_error_repair.ErrorRules.test_string_missing_marker_uses_storage_dtype) ... ok
+test_time_conversion_and_calendar (test_position_error_repair.ErrorRules.test_time_conversion_and_calendar) ... ok
+test_unknown_positive_change_not_accepted (test_position_error_repair.ErrorRules.test_unknown_positive_change_not_accepted) ... ok
+test_active_old_version_rejected (test_position_error_repair.NativeFileRules.test_active_old_version_rejected) ... ok
+test_conflicting_references_not_selected (test_position_error_repair.NativeFileRules.test_conflicting_references_not_selected) ... ok
+test_duplicate_conflict_and_exact_duplicate (test_position_error_repair.NativeFileRules.test_duplicate_conflict_and_exact_duplicate) ... ok
+test_independent_reader_masks_before_unpacking (test_position_error_repair.NativeFileRules.test_independent_reader_masks_before_unpacking) ... ok
+test_independent_reference_reader (test_position_error_repair.NativeFileRules.test_independent_reference_reader) ... ok
+test_native_and_overlay (test_position_error_repair.NativeFileRules.test_native_and_overlay) ... ok
+test_post_cutoff_source_rejected_before_missing_end_date (test_position_error_repair.NativeFileRules.test_post_cutoff_source_rejected_before_missing_end_date) ... ok
+test_unaudited_version_with_matching_positions_rejected (test_position_error_repair.NativeFileRules.test_unaudited_version_with_matching_positions_rejected) ... ok
+test_unknown_units_and_version_rejected (test_position_error_repair.NativeFileRules.test_unknown_units_and_version_rejected) ... ok
+test_wrong_id_rejected (test_position_error_repair.NativeFileRules.test_wrong_id_rejected) ... ok
+test_wrong_time_and_coordinate_not_repaired (test_position_error_repair.NativeFileRules.test_wrong_time_and_coordinate_not_repaired) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.070s
+
+OK

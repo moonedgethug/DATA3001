@@ -1,0 +1,37 @@
+{
+  "run": "local_gmm_s5_e2_vector_20261107T133426Z",
+  "status": "COMPLETE_AUDITED_DELIVERED",
+  "completed_at": "2026-11-08T03:03:34.615705+00:00",
+  "implementation_revision": 5,
+  "contract_sha256": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+  "selected_k": 1,
+  "full_audit_passed": true,
+  "final_verification_passed": true,
+  "tests_passed": 763,
+  "inner_queries": 86373,
+  "outer_queries": 33971,
+  "outer_ids": 45,
+  "quality_non_degrading_improvement": false,
+  "scientific_definition_changed": false,
+  "total_elapsed_seconds_including_prior_attempts": 45502.26632079226,
+  "phase_seconds": {
+    "checks": 946.754231166211,
+    "inner": 35093.11588195898,
+    "outer": 6042.964321707957,
+    "audit": 3280.1849212091183,
+    "report": 139.24696474999655
+  },
+  "approved_total_seconds": 90000,
+  "peak_recorded_process_tree_rss_gib": 2.1953125,
+  "retained_e2_gib": 3.503982935100794,
+  "family_gib": 5.8664555652067065,
+  "final_test_access": false,
+  "report": "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/final.html",
+  "model_manifest": "results/runs/local_gmm_s5_e2_vector_20261107T133426Z/model_manifest.json",
+  "resource_approval": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/resource_amendment_approved/approval.json",
+  "recovery_records": [
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/audit_recovery/verification.json",
+    "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/report_recovery/recovery.json"
+  ],
+  "prior_status_record": "provenance/runs/local_gmm_s5_e2_vector_20261107T133426Z/execution_before_completion.json"
+}

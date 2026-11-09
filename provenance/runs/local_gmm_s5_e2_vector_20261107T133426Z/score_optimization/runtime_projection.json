@@ -1,0 +1,31 @@
+{
+  "remaining_inner_ES_hours": [
+    2.4031388391270365,
+    2.747492734274407
+  ],
+  "matched_128_compute_only_hours": 2.523703158593541,
+  "retained_2176_batch_wall_projection_hours": 2.4031388391270365,
+  "old_p95_divided_by_matched_speedup_hours": 2.747492734274407,
+  "cumulative_inner_without_optional_regions_hours": [
+    6.03279709214633,
+    6.3771509872937004
+  ],
+  "cumulative_inner_with_K2_regions_hours": [
+    9.514796968801216,
+    10.334867268789422
+  ],
+  "whole_experiment_cumulative_planning_hours": [
+    9,
+    16
+  ],
+  "remaining_whole_experiment_rough_hours": [
+    6,
+    13
+  ],
+  "limitations": [
+    "Timing is not a full-cohort guarantee",
+    "Retained 2176 cases contain only two IDs; fixed128 spans both windows and 70 distinct IDs",
+    "Region and independent-audit costs are previous proxies, not newly measured",
+    "No formal runner activation or resource amendment"
+  ]
+}

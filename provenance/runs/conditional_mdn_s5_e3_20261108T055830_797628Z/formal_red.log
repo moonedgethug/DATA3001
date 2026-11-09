@@ -1,0 +1,279 @@
+FFFFFFFFFFFFFF.................................E.............
+======================================================================
+ERROR: test_modelling_conditional_mdn_s5_e3_selection (unittest.loader._FailedTest.test_modelling_conditional_mdn_s5_e3_selection)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_modelling_conditional_mdn_s5_e3_selection
+Traceback (most recent call last):
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_selection.py", line 4, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+
+======================================================================
+FAIL: test_completed_shard_needs_matching_identity_bytes_and_exact_rows (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_completed_shard_needs_matching_identity_bytes_and_exact_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 88, in test_completed_shard_needs_matching_identity_bytes_and_exact_rows
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_full_energy_and_outer_modes_reject_candidate_or_role_thinning (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_full_energy_and_outer_modes_reject_candidate_or_role_thinning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 39, in test_full_energy_and_outer_modes_reject_candidate_or_role_thinning
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_independent_ecef_and_density_have_analytic_reference_values (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_independent_ecef_and_density_have_analytic_reference_values)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 137, in test_independent_ecef_and_density_have_analytic_reference_values
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_parameter_roster_origin_and_covariance_floor_are_enforced (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_parameter_roster_origin_and_covariance_floor_are_enforced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 53, in test_parameter_roster_origin_and_covariance_floor_are_enforced
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_query_energy_keeps_optimized_streams_and_independent_audit_replicates (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_query_energy_keeps_optimized_streams_and_independent_audit_replicates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 119, in test_query_energy_keeps_optimized_streams_and_independent_audit_replicates
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_stream_freeze_changes_with_keys_role_level_and_main_audit_scope (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_stream_freeze_changes_with_keys_role_level_and_main_audit_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 70, in test_stream_freeze_changes_with_keys_role_level_and_main_audit_scope
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_uncommitted_shard_is_recomputed_and_duplicate_rows_are_rejected (test_modelling_conditional_mdn_s5_e3_formal_scoring.FormalScoringTests.test_uncommitted_shard_is_recomputed_and_duplicate_rows_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 14, in module
+    return importlib.import_module(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/moonedgethug/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'data3001.modelling.continuous_models.conditional_mdn_s5_e3_formal_scoring'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 107, in test_uncommitted_shard_is_recomputed_and_duplicate_rows_are_rejected
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py", line 18, in module
+    raise AssertionError('Formal MDN scorer is not implemented') from exc
+AssertionError: Formal MDN scorer is not implemented
+
+======================================================================
+FAIL: test_completed_role_reuses_frozen_files_without_endpoint_reads_or_fits (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_completed_role_reuses_frozen_files_without_endpoint_reads_or_fits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 133, in test_completed_role_reuses_frozen_files_without_endpoint_reads_or_fits
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_core_source_identity_excludes_evolving_scoring_and_report_files (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_core_source_identity_excludes_evolving_scoring_and_report_files)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 199, in test_core_source_identity_excludes_evolving_scoring_and_report_files
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_nonfinite_predictions_fail_without_freezing_or_fallback (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_nonfinite_predictions_fail_without_freezing_or_fallback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 189, in test_nonfinite_predictions_fail_without_freezing_or_fallback
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_outer_requires_completed_selection_before_any_fit_endpoint_access (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_outer_requires_completed_selection_before_any_fit_endpoint_access)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 146, in test_outer_requires_completed_selection_before_any_fit_endpoint_access
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_selected_late_epoch_cap_preserves_curves_and_stops_before_export (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_selected_late_epoch_cap_preserves_curves_and_stops_before_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 163, in test_selected_late_epoch_cap_preserves_curves_and_stops_before_export
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_sequential_full_pool_fits_export_all_query_parameters (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_sequential_full_pool_fits_export_all_query_parameters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 106, in test_sequential_full_pool_fits_export_all_query_parameters
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+======================================================================
+FAIL: test_tampered_parameter_archive_is_rejected_without_refitting (test_modelling_conditional_mdn_s5_e3_formal_training.FormalTrainingTests.test_tampered_parameter_archive_is_rejected_without_refitting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 176, in test_tampered_parameter_archive_is_rejected_without_refitting
+    m = module()
+        ^^^^^^^^
+  File "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/tests/test_modelling_conditional_mdn_s5_e3_formal_training.py", line 21, in module
+    assert importlib.util.find_spec(MODULE), "Formal MDN fit orchestration is not implemented"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Formal MDN fit orchestration is not implemented
+
+----------------------------------------------------------------------
+Ran 61 tests in 3.597s
+
+FAILED (failures=14, errors=1)

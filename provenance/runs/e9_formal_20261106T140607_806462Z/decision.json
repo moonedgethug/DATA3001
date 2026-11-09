@@ -1,0 +1,30 @@
+{
+  "decisions": [
+    {
+      "accepted": false,
+      "candidate": "SeasonalEndpointCI",
+      "es_effect_seed_resolved": true,
+      "es_independent_seed_change_km": 0.0004140558863525712,
+      "quality_direction_resolved": false,
+      "reference": "AnnualEndpointCI",
+      "region_degeneracy_under_one_percent": true,
+      "statistical_quality_criteria": false,
+      "status": "DOES_NOT_MEET_REGISTERED_CRITERIA"
+    },
+    {
+      "accepted": false,
+      "candidate": "SeasonalExactPoint",
+      "es_effect_seed_resolved": true,
+      "es_independent_seed_change_km": 0.00038068848505190545,
+      "quality_direction_resolved": false,
+      "reference": "AnnualExactPoint",
+      "region_degeneracy_under_one_percent": true,
+      "statistical_quality_criteria": false,
+      "status": "DOES_NOT_MEET_REGISTERED_CRITERIA"
+    }
+  ],
+  "global_numerical_gates_passed": true,
+  "interpretation_scope": "Repeatedly inspected development data, not an independent final test",
+  "no_further_tuning": true,
+  "no_model_replacement": true
+}

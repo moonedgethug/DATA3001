@@ -1,0 +1,12 @@
+test_acceptance_separates_point_and_supported_gain (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_acceptance_separates_point_and_supported_gain) ... ok
+test_guard_and_atomic_publication (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_guard_and_atomic_publication) ... ok
+test_label_cutoff_and_union_ids (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_label_cutoff_and_union_ids) ... ok
+test_pair_training_fallback_weights_and_audit (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_pair_training_fallback_weights_and_audit) ... ok
+test_report_and_repeatable_figures (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_report_and_repeatable_figures) ... ok
+test_utc_season_boundaries (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_utc_season_boundaries) ... ok
+test_zero_truth_and_region_ties_exit (test_modelling_seasonal_conditioning_s4_e1.SeasonalContract.test_zero_truth_and_region_ties_exit) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.692s
+
+OK

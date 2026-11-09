@@ -1,0 +1,99 @@
+independent region audit 1024 /33971 16.9 s
+independent region audit 2048 /33971 32.9 s
+independent region audit 3072 /33971 48.7 s
+independent region audit 4096 /33971 63.2 s
+independent region audit 5120 /33971 80.3 s
+independent region audit 6144 /33971 97.5 s
+independent region audit 7168 /33971 115.2 s
+independent region audit 8192 /33971 133.2 s
+independent region audit 9216 /33971 149.9 s
+independent region audit 10240 /33971 167.5 s
+independent region audit 11264 /33971 185.3 s
+independent region audit 12288 /33971 202.8 s
+independent region audit 13312 /33971 219.8 s
+independent region audit 14336 /33971 237.3 s
+independent region audit 15360 /33971 254.6 s
+independent region audit 16384 /33971 271.9 s
+independent region audit 17408 /33971 289.5 s
+independent region audit 18432 /33971 307.0 s
+independent region audit 19456 /33971 324.6 s
+independent region audit 20480 /33971 341.8 s
+independent region audit 21504 /33971 359.1 s
+independent region audit 22528 /33971 376.7 s
+independent region audit 23552 /33971 394.5 s
+independent region audit 24576 /33971 412.4 s
+independent region audit 25600 /33971 430.0 s
+independent region audit 26624 /33971 447.5 s
+independent region audit 27648 /33971 464.8 s
+independent region audit 28672 /33971 482.8 s
+independent region audit 29696 /33971 500.6 s
+independent region audit 30720 /33971 518.3 s
+independent region audit 31744 /33971 535.8 s
+independent region audit 32768 /33971 553.3 s
+independent region audit 33792 /33971 570.9 s
+{
+  "passed": true,
+  "engineering_passed": true,
+  "numerical_passed": true,
+  "conclusion": "practically tiny effect; no useful improvement demonstrated",
+  "cases": 33971,
+  "IDs": 45,
+  "independent_region_cases": 33971,
+  "independent_energy_cases": 128,
+  "local_metric_relative_error_max": 7.088109360997568e-06,
+  "region_replication": {
+    "EndpointCI": {
+      "area_relative_difference": 2.7791586164129525e-06,
+      "H90_difference": 1.2742099898063201e-05,
+      "absolute_H90_boundary_change": 1.2742099898063201e-05,
+      "max_mass_difference": 0.0006875000000003961,
+      "mean_mass_difference": -2.8780878407309044e-05
+    },
+    "MatchedSpread": {
+      "area_relative_difference": 1.069616777509994e-05,
+      "H90_difference": -1.7415534656913965e-05,
+      "absolute_H90_boundary_change": 1.7415534656913965e-05,
+      "max_mass_difference": 0.0008124999999996607,
+      "mean_mass_difference": -2.9215764283781903e-05
+    }
+  },
+  "energy_reference_delta_change": {
+    "EndpointCI": -0.0002355588606272178,
+    "EndpointCI_minus_MatchedSpread": -0.00021949916807519412,
+    "MatchedSpread": -1.6059692547416058e-05
+  },
+  "delta_ES_resolution_threshold_km": 0.013421921152788284,
+  "numerical_summary": {
+    "CI_models_SE_measures_paired_difference_to_ExactPoint": true,
+    "absolute_point_ES_is_MC_estimate": true,
+    "primary_delta_ES_mc_se_km": 3.609023785045856e-05,
+    "three_se_km": 0.00010827071355137569,
+    "threshold_km": 0.013421921152788284
+  },
+  "protected_files_verified": 358,
+  "source_freeze_verified": true,
+  "all_donor_digests_verified": true,
+  "all_E7_outer_lineages_identical": true,
+  "immutable_source_snapshots_verified": true,
+  "reporting_and_audit_orchestration_changes": {
+    "src/data3001/modelling/baselines/position_error_s4_e8_audit.py": {
+      "frozen": "04fbf17b0d900adfe2e4300abd08fd7dd17971e3ae313a2bda6f80fdad3d48b3",
+      "current": "a385e13593d2017b07fb3695b444c99d0fdf4087571550a49f7ba9e610bc02e2"
+    },
+    "src/data3001/modelling/baselines/position_error_s4_e8_numeric_revision.py": {
+      "frozen": "2bb2ff01248a4dc948b74602995d810ad189aa9d2aa01426cefd799612d9a182",
+      "current": "4926301218d10178072ddba52cc89e63aa18253a1127d48bf77f0c151b3eeb97"
+    },
+    "src/data3001/modelling/baselines/position_error_s4_e8_report.py": {
+      "frozen": "76c0fdfa7ca9700247e1249c10ed9e5ae8c137a7f01b70a8e3c37af29597f183",
+      "current": "56e1275b1ffab5effa11c6cbbf95a929e87c292bf6d7be2bc1dff3868b7fe91c"
+    }
+  },
+  "all_ExactPoint_half_degree_probabilities_reconciled": true,
+  "bootstrap_IDs": 45,
+  "bootstrap_draws": 10000,
+  "final_test_access": false,
+  "outer_endpoint_errors_read": false,
+  "denied_access": [],
+  "interpretation": "Same frozen development sample; no new physical or real-time calibration claim"
+}

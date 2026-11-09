@@ -1,0 +1,14 @@
+{
+  "final_test_access": false,
+  "formal_completed": false,
+  "outer_targets_read": false,
+  "output_sha256": {
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report/REPORT.md": "65aed57c3c56a823b98d2d497818193688cb6fd8b5d7a7212e6955b99fb5edae",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report/pilot_gates.png": "ff97c2052b33984ee81590a6d62ebfdc6729bbeeaaccca82fbf9759bd5d5e988",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report/pilot_gates.svg": "d159b6208ed6a008e5eda4a32bc39e1cdd2fcd1950581a9c4706e0e1f09987bc",
+    "results/runs/seasonal_exact_position_s4_e9_20261106T124835_392309Z/report/review.html": "dc9d6b6dbfa75d7393bf96d064ecf78d086b2d366bbd0acdae42b5289f8f3fbe"
+  },
+  "report_source_sha256": "d30b87f669d6e9217d524a016f45d476bfb1fd98e49da68e2b4aa1a384bcd881",
+  "review_passed": true,
+  "status": "STOPPED_AT_PILOT_GATE"
+}

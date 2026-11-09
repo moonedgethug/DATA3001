@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "query": "SELECT count(*) AS n_rows, count(DISTINCT id) AS IDs,\ncount(*) FILTER (WHERE time IS NULL OR lat IS NULL OR lon IS NULL OR ve IS NULL OR vn IS NULL) AS core_null_rows,\ncount(*) FILTER (WHERE sst IS NULL OR isnan(sst)) AS sst_missing,\ncount(*) FILTER (WHERE NOT sst_ok) AS sst_unusable,\ncount(*) FILTER (WHERE NOT sst2_ok) AS sst2_unusable,\ncount(*) FILTER (WHERE (sst IS NULL) != (sst1 IS NULL) OR (sst IS NULL) != (sst2 IS NULL)) AS sst_missing_mask_disagreement,\ncount(*) FILTER (WHERE err_lat<0) AS negative_lat_uncertainty,\nsum(greatest(absent_hours_before,0)) AS absent_grid_hours,\ncount(*) FILTER (WHERE in_R) AS R_rows,\ncount(*) FILTER (WHERE in_R AND NOT sst_ok) AS R_sst_unusable,\ncount(*) FILTER (WHERE in_R AND NOT sst2_ok) AS R_sst2_unusable\nFROM read_parquet('data/train/*.parquet')",
+  "result": {
+    "n_rows": 33943292.0,
+    "IDs": 3224.0,
+    "core_null_rows": 0.0,
+    "sst_missing": 1194141.0,
+    "sst_unusable": 1205537.0,
+    "sst2_unusable": 8361043.0,
+    "sst_missing_mask_disagreement": 0.0,
+    "negative_lat_uncertainty": 1342.0,
+    "absent_grid_hours": 620388.0,
+    "R_rows": 318108.0,
+    "R_sst_unusable": 15485.0,
+    "R_sst2_unusable": 92183.0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "approval": "provenance/reviews/departure_direction_s4_e4_approval.json",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261105,
+  "direction_kernel_coefficient": 0.5,
+  "experiment": "departure_direction_s4_e4",
+  "final_test_access": false,
+  "integrity_config": "configs/seasonal_conditioning_s4_e1.json",
+  "low_speed_quantile": 0.1,
+  "plan": "docs/departure_direction_s4_e4_plan.md",
+  "reference": "temporal_validation_s4_e2_primary_20261103T004920_642021Z",
+  "reference_e3": "seasonal_information_s4_e3_primary_20261104T142729_626118Z",
+  "rss_gib": 8,
+  "seconds": {
+    "pilot": 600,
+    "primary": 1200,
+    "replay": 1200,
+    "total": 3000
+  },
+  "storage_gib": 5
+}

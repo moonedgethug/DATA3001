@@ -1,0 +1,4 @@
+preflight parity 32 /128 6.97 s
+preflight parity 64 /128 11.38 s
+preflight parity 96 /128 15.17 s
+preflight parity 128 /128 20.09 s

@@ -1,0 +1,16 @@
+test_complete_freeze_rejects_missing_duplicate_or_reordered_keys (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_complete_freeze_rejects_missing_duplicate_or_reordered_keys) ... ok
+test_equal_id_summary_is_not_pair_weighted (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_equal_id_summary_is_not_pair_weighted) ... ok
+test_failed_executor_terminates_its_running_child (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_executor_terminates_its_running_child) ... ok
+test_failed_scoring_never_claims_outer_targets_were_unread (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_failed_scoring_never_claims_outer_targets_were_unread) ... ok
+test_full_precision_rejects_model_specific_roster (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_full_precision_rejects_model_specific_roster) ... ok
+test_full_precision_rejects_unresolved_es_variance (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_full_precision_rejects_unresolved_es_variance) ... ok
+test_independent_gaussian_covariance_uses_n_and_full_correlation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_gaussian_covariance_uses_n_and_full_correlation) ... ok
+test_independent_region_integer_quantile_and_exact_membership (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_independent_region_integer_quantile_and_exact_membership) ... ok
+test_lineage_roundtrip_preserves_order_ties_and_empty_lists (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_lineage_roundtrip_preserves_order_ties_and_empty_lists) ... ok
+test_quality_rule_does_not_hide_observed_hit_degradation (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_quality_rule_does_not_hide_observed_hit_degradation) ... ok
+test_unbiased_auxiliary_uses_independent_mean_cross_product (test_modelling_conditional_gaussian_s5_e1_full.FullRunTests.test_unbiased_auxiliary_uses_independent_mean_cross_product) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.632s
+
+OK
