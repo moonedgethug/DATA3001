@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-21",
+  "model": "Mixture Density Network, 22 Components",
+  "selection": "Original fixed example 1, westernmost and northernmost origins among the original 12 fixed examples; plus the saved southwest development origin closest to (-79,31.375). Both rules fixed before reading corresponding scores/shapes.",
+  "southwest_selection": {
+    "anchor": [
+      -79,
+      31.375
+    ],
+    "quadrant": "longitude < -77, latitude < 32.75, inside R",
+    "candidate_queries": 5437,
+    "distance_m": 2980.892573410826,
+    "original_twelve_case": false
+  },
+  "operation": "Read saved forecast parameters and saved scores; evaluate mixture formula for visualisation only. No inference, sampling, scoring, fitting or final-test access.",
+  "density_units": "km^-2 in each origin-centred east/north geodesic displacement plane; not geographic area density or per-cell probability.",
+  "display_extent": [
+    -81.5,
+    28,
+    -68.5,
+    39
+  ],
+  "normalisation": "Original 22 weights retained, no land masking or viewport renormalisation.",
+  "sources": {
+    "sites/ocean-drifter-prototype/dist/assets/pt3/data.json": "58b9c27b192a626c5a7ade7fac9bcbf51cc692b513f061fed03a74ac6a2e0923",
+    "work_place/results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/parameters.npz": "f95d84c8aec9f564148f89e422806f825237910659a73eadc742edcbd9f1d829",
+    "work_place/results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/outer_score/N65536_M65536/scores.parquet": "16786551321246048f97a71fd763b072aebeb859b268fd75405f9db9eb5e3a2c",
+    "work_place/results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/outer_targets.parquet": "ac4d6dde254a4b785862e8d1de168e9c06690f1798e3463e14c956731627d342",
+    "work_place/results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/manifest.json": "ac44d3d2f7f0cf9f97d1d76c69f7447cc3b5621afb0a9d1f14bc292c7fcae5e9",
+    "work_place/results/deliverables/conditional_mdn_s5_e3/fixed_examples.json": "078cc5ad62e7caed40b891883abf4e294944619f34134980cab4997db9f49c33",
+    "work_place/configs/assets.json": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb",
+    "work_place/archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+    "work_place/archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+    "work_place/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73"
+  },
+  "cases": [
+    {
+      "source_case": 1,
+      "position": 0,
+      "key": [
+        300234063731750,
+        139319181,
+        7
+      ],
+      "origin": [
+        -73.52486325538786,
+        30.987775606803066
+      ],
+      "origin_time_UTC": "2020-02-14 01:00:00+00:00",
+      "truth": [
+        -73.15921123964222,
+        31.614359311945034
+      ],
+      "weights_sum": 0.9999999999999998,
+      "display_grid_peak_density": 2.2968826341923362e-05,
+      "energy_km": 61.43288424236306,
+      "observed_inside_region90": true,
+      "area90_km2": 172453.4213357931,
+      "land_mass": 0.0,
+      "outside_D_mass": 0.0,
+      "model_mass90": 0.9033050537109375,
+      "saved_ellipse": {
+        "centre": [
+          125.46797473308543,
+          -449.1487820991267
+        ],
+        "covariance": [
+          [
+            12784.91967821645,
+            1115.6834209089857
+          ],
+          [
+            1115.6834209089857,
+            9808.040915121526
+          ]
+        ],
+        "inverse": [
+          [
+            7.900136863615536e-05,
+            -8.986556844454758e-06
+          ],
+          [
+            -8.986556844454758e-06,
+            0.00010297939835520149
+          ]
+        ],
+        "eigenvalues": [
+          9436.318667069945,
+          13156.641926268032
+        ],
+        "eigenvectors": [
+          [
+            0.31609595533161533,
+            -0.9487272247716905
+          ],
+          [
+            -0.9487272247716905,
+            -0.31609595533161533
+          ]
+        ],
+        "rank": 2,
+        "cutoff": 4.9266092200555445,
+        "area_km2": 172453.4213357931,
+        "attained_mass": 0.9000091552734375,
+        "null_tolerance_km": 6.627148580583805e-12
+      }
+    },
+    {
+      "source_case": 2,
+      "position": 3088,
+      "key": [
+        300234063949920,
+        185724322,
+        7
+      ],
+      "origin": [
+        -77.81614299263003,
+        33.93564135781957
+      ],
+      "origin_time_UTC": "2020-08-26 04:00:00+00:00",
+      "truth": [
+        -77.82064378023,
+        33.98968514560953
+      ],
+      "weights_sum": 0.9999999999999998,
+      "display_grid_peak_density": 0.0003130698667259731,
+      "energy_km": 14.470259209170349,
+      "observed_inside_region90": true,
+      "area90_km2": 10583.45714987527,
+      "land_mass": 0.0403900146484375,
+      "outside_D_mass": 0.0,
+      "model_mass90": 0.901336669921875,
+      "saved_ellipse": {
+        "centre": [
+          -246.397036042416,
+          -108.09063838827063
+        ],
+        "covariance": [
+          [
+            4408.2220158290775,
+            3350.890593221842
+          ],
+          [
+            3350.890593221842,
+            3020.8114733589823
+          ]
+        ],
+        "inverse": [
+          [
+            0.0014467904511217837,
+            -0.0016048788730388432
+          ],
+          [
+            -0.0016048788730388432,
+            0.002111278236054428
+          ]
+        ],
+        "eigenvalues": [
+          292.57361662098896,
+          7136.45987256707
+        ],
+        "eigenvectors": [
+          [
+            0.6313784053590678,
+            -0.775474892724607
+          ],
+          [
+            -0.775474892724607,
+            -0.6313784053590678
+          ]
+        ],
+        "rank": 2,
+        "cutoff": 2.3314101822881805,
+        "area_km2": 10583.45714987527,
+        "attained_mass": 0.9000091552734375,
+        "null_tolerance_km": 3.82362015397031e-12
+      }
+    },
+    {
+      "source_case": 9,
+      "position": 24705,
+      "key": [
+        300234067201530,
+        167604439,
+        7
+      ],
+      "origin": [
+        -73.24281413654239,
+        34.70972694628504
+      ],
+      "origin_time_UTC": "2021-01-20 13:00:00+00:00",
+      "truth": [
+        -72.11584188888514,
+        33.40448440518603
+      ],
+      "weights_sum": 0.9999999999999999,
+      "display_grid_peak_density": 2.3964415075138034e-05,
+      "energy_km": 96.43430503688793,
+      "observed_inside_region90": true,
+      "area90_km2": 155724.9599193232,
+      "land_mass": 3.0517578125e-05,
+      "outside_D_mass": 0.0,
+      "model_mass90": 0.9008026123046875,
+      "saved_ellipse": {
+        "centre": [
+          208.95089564884847,
+          -48.45417375848026
+        ],
+        "covariance": [
+          [
+            10326.21836221139,
+            4900.894785783303
+          ],
+          [
+            4900.894785783303,
+            14163.725572133726
+          ]
+        ],
+        "inverse": [
+          [
+            0.00011586916592964043,
+            -4.009274171866691e-05
+          ],
+          [
+            -4.009274171866691e-05,
+            8.447567716157912e-05
+          ]
+        ],
+        "eigenvalues": [
+          6981.85643567703,
+          17508.087498668086
+        ],
+        "eigenvectors": [
+          [
+            -0.8260042733972672,
+            0.5636638540206854
+          ],
+          [
+            0.5636638540206854,
+            0.8260042733972672
+          ]
+        ],
+        "rank": 2,
+        "cutoff": 4.4833592867432595,
+        "area_km2": 155724.9599193232,
+        "attained_mass": 0.9000091552734375,
+        "null_tolerance_km": 3.048163202533875e-12
+      }
+    },
+    {
+      "source_case": null,
+      "position": 12820,
+      "key": [
+        300234065705950,
+        174774570,
+        7
+      ],
+      "origin": [
+        -78.97819789306897,
+        31.35569119875387
+      ],
+      "origin_time_UTC": "2020-09-05 04:00:00+00:00",
+      "truth": [
+        -74.59086759763261,
+        35.23277069315456
+      ],
+      "weights_sum": 0.9999999999999998,
+      "display_grid_peak_density": 1.6792538363176743e-05,
+      "energy_km": 83.94710208070123,
+      "observed_inside_region90": true,
+      "area90_km2": 237029.5093477155,
+      "land_mass": 0.000885009765625,
+      "outside_D_mass": 0.00042724609375,
+      "model_mass90": 0.900970458984375,
+      "saved_ellipse": {
+        "centre": [
+          7.508060067702974,
+          -71.32009901549377
+        ],
+        "covariance": [
+          [
+            33558.65834939868,
+            35291.922219772394
+          ],
+          [
+            35291.922219772394,
+            44738.184862625654
+          ]
+        ],
+        "inverse": [
+          [
+            0.00017487214207551508,
+            -0.00013794869093336433
+          ],
+          [
+            -0.00013794869093336433,
+            0.0001311737275162061
+          ]
+        ],
+        "eigenvalues": [
+          3416.569887532047,
+          74880.2733244923
+        ],
+        "eigenvectors": [
+          [
+            -0.7604066110386131,
+            0.6494472926179394
+          ],
+          [
+            0.6494472926179394,
+            0.7604066110386131
+          ]
+        ],
+        "rank": 2,
+        "cutoff": 4.717084758771171,
+        "area_km2": 237029.5093477155,
+        "attained_mass": 0.9000091552734375,
+        "null_tolerance_km": 3.8886952529963926e-12
+      }
+    }
+  ]
+}

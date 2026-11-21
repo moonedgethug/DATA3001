@@ -1,1 +1,1 @@
-""" compat modules; import explicit submodules."""
+../../../../code/shared/legacy_entries/__init__.py

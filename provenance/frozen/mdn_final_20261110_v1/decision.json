@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "freeze_id": "mdn_final_20261110_v1",
+  "status": "FROZEN",
+  "decision_date": "2026-11-10",
+  "timezone": "Australia/Sydney",
+  "created_at": "2026-11-10T14:50:21.461548+11:00",
+  "authorization": {
+    "source": "explicit_user_instruction_in_current_conversation",
+    "text": "我认可，就采用 MDN22 作为最终主推模型，保留 MDN1 作为对照，停止继续搜索 K。请更新研究记录，冻结全部候选模型的参数与结果，明确最终选型与原合同验收结论的区别，暂不开始可视化。"
+  },
+  "decision_type": "user_approved_final_choice_after_development_validation_review",
+  "recommended_model": {
+    "model": "MDN22",
+    "K": 22,
+    "source": "new_E4_full_fit",
+    "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/manifest.json",
+    "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/full_refit/checkpoint.pt",
+    "checkpoint_sha256": "216f92b678e25b1c804a7f0a1928779b9233ff22f7140536e825969df6d176b0",
+    "seed": 20261123,
+    "epochs": 15,
+    "outer_development_metrics": {
+      "energy_km": 128.2450362435552,
+      "h90": 0.9017691231102706,
+      "area90_km2": 184803.36855984305,
+      "land_mass": 0.001021569312484,
+      "outside_D_mass": 7.084007483270284e-05,
+      "auxiliary_loss": 6.593475113019472,
+      "model_mass90": 0.8999903417027869
+    }
+  },
+  "comparator": {
+    "model": "MDN1",
+    "K": 1,
+    "source": "verified_parent_E3_full_fit",
+    "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K1/manifest.json",
+    "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K1/full_refit/checkpoint.pt",
+    "checkpoint_sha256": "1268fc22a9ca8d7cf7c77713038d943ee6ff6e0f9701043192f6fd9bf6045c15",
+    "seed": 20261121,
+    "epochs": 50,
+    "outer_development_metrics": {
+      "energy_km": 128.70171575803738,
+      "h90": 0.8763010678923122,
+      "area90_km2": 175929.08654304448,
+      "land_mass": 0.0033258537058428,
+      "outside_D_mass": 0.000623321464484,
+      "auxiliary_loss": 6.570402494045778,
+      "model_mass90": 0.8999907650193497
+    }
+  },
+  "all_candidate_K": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    18,
+    20,
+    22,
+    32
+  ],
+  "all_candidates": [
+    {
+      "K": 1,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K1/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K1/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "1268fc22a9ca8d7cf7c77713038d943ee6ff6e0f9701043192f6fd9bf6045c15",
+      "seed": 20261121,
+      "epochs": 50,
+      "outer_development_metrics": {
+        "energy_km": 128.70171575803738,
+        "h90": 0.8763010678923122,
+        "area90_km2": 175929.08654304448,
+        "land_mass": 0.0033258537058428,
+        "outside_D_mass": 0.000623321464484,
+        "auxiliary_loss": 6.570402494045778,
+        "model_mass90": 0.8999907650193497
+      }
+    },
+    {
+      "K": 2,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K2/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K2/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "7dbf5a7a4475a6f57f72d4ccb2e957c2da36ada81fe4eea73b0ad2f4e3d1c212",
+      "seed": 20261122,
+      "epochs": 79,
+      "outer_development_metrics": {
+        "energy_km": 128.8122854590313,
+        "h90": 0.8851440395513508,
+        "area90_km2": 180504.57156751637,
+        "land_mass": 0.0022942941618196,
+        "outside_D_mass": 0.0003009413533739,
+        "auxiliary_loss": 6.563967997540832,
+        "model_mass90": 0.9000005956323013
+      }
+    },
+    {
+      "K": 3,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K3/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K3/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "3440dfd0c30c8a8e76ffbe8627ef688ae25a567bd571c8467dc10bc44ad9649f",
+      "seed": 20261122,
+      "epochs": 33,
+      "outer_development_metrics": {
+        "energy_km": 128.71474543431594,
+        "h90": 0.8900120308235284,
+        "area90_km2": 181496.6461199789,
+        "land_mass": 0.001051302571057,
+        "outside_D_mass": 4.899361745777008e-05,
+        "auxiliary_loss": 6.566515576452204,
+        "model_mass90": 0.8999920007517218
+      }
+    },
+    {
+      "K": 4,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K4/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K4/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "8ae98ce56e8207b3d9dbd919648423a32e212edc2905742af4f574ba3c04da2b",
+      "seed": 20261122,
+      "epochs": 55,
+      "outer_development_metrics": {
+        "energy_km": 128.8850607693991,
+        "h90": 0.8837653730462637,
+        "area90_km2": 180606.59177936727,
+        "land_mass": 0.0011535129490411,
+        "outside_D_mass": 7.541709867932562e-05,
+        "auxiliary_loss": 6.602713514582116,
+        "model_mass90": 0.8999842157159021
+      }
+    },
+    {
+      "K": 6,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K6/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K6/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "2b34f3958613c7f6db9d53955cdac5b4c3512fe67dd45635f35ceeca85c78f86",
+      "seed": 20261123,
+      "epochs": 9,
+      "outer_development_metrics": {
+        "energy_km": 129.49610940262946,
+        "h90": 0.90145190027885,
+        "area90_km2": 189567.4085460675,
+        "land_mass": 0.0017610981626818,
+        "outside_D_mass": 0.0001791122581016,
+        "auxiliary_loss": 6.701350552810562,
+        "model_mass90": 0.8999938373091627
+      }
+    },
+    {
+      "K": 8,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K8/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K8/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "497b9f2866703eb2f158c81997bf22ad63a065d32d8047028e19264d30d20d29",
+      "seed": 20261122,
+      "epochs": 10,
+      "outer_development_metrics": {
+        "energy_km": 130.3305376855341,
+        "h90": 0.8953754148980229,
+        "area90_km2": 183201.87044440853,
+        "land_mass": 0.0010701856514518,
+        "outside_D_mass": 5.13661947518201e-05,
+        "auxiliary_loss": 6.770533946591886,
+        "model_mass90": 0.8999979786382658
+      }
+    },
+    {
+      "K": 12,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K12/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K12/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "50b1a2eb80a9f2dfd36e9bcf8750adaae9cd5cec16d690086b79b5920c02757e",
+      "seed": 20261121,
+      "epochs": 5,
+      "outer_development_metrics": {
+        "energy_km": 131.6486111064916,
+        "h90": 0.9090585107424604,
+        "area90_km2": 196116.6318219643,
+        "land_mass": 0.0012131606785913,
+        "outside_D_mass": 0.0002661635687391,
+        "auxiliary_loss": 6.9581803399564945,
+        "model_mass90": 0.8999981170108686
+      }
+    },
+    {
+      "K": 16,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K16/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K16/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "4c37ccdb05156c8f29dd2aa9b94f9ad07bcc3a8e2ee338517930467df8bce898",
+      "seed": 20261122,
+      "epochs": 13,
+      "outer_development_metrics": {
+        "energy_km": 128.783605136151,
+        "h90": 0.8962141728625724,
+        "area90_km2": 181776.20741782605,
+        "land_mass": 0.0010262900011945,
+        "outside_D_mass": 6.540595932559096e-05,
+        "auxiliary_loss": 6.601397770250819,
+        "model_mass90": 0.8999989813533682
+      }
+    },
+    {
+      "K": 18,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K18/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K18/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "3bd82eabc0ca10d9417ec14679d5bf894d4dd1d8823a9dcc4ab1790700fb903e",
+      "seed": 20261123,
+      "epochs": 9,
+      "outer_development_metrics": {
+        "energy_km": 129.3267591110024,
+        "h90": 0.90377896472095,
+        "area90_km2": 187999.73263047604,
+        "land_mass": 0.0008102863411743,
+        "outside_D_mass": 7.242561061507798e-05,
+        "auxiliary_loss": 6.684700212593374,
+        "model_mass90": 0.9000162866977364
+      }
+    },
+    {
+      "K": 20,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K20/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K20/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "bffbc5a9ae3a64f42a7a9770a8fec8af5897d78e7079dbf48c67e415f069eb98",
+      "seed": 20261121,
+      "epochs": 6,
+      "outer_development_metrics": {
+        "energy_km": 130.7268252004068,
+        "h90": 0.9071729267509412,
+        "area90_km2": 192781.7364278604,
+        "land_mass": 0.0008842360037817,
+        "outside_D_mass": 0.0001237883114475,
+        "auxiliary_loss": 6.841612959853748,
+        "model_mass90": 0.8999972823354069
+      }
+    },
+    {
+      "K": 22,
+      "source": "new_E4_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "216f92b678e25b1c804a7f0a1928779b9233ff22f7140536e825969df6d176b0",
+      "seed": 20261123,
+      "epochs": 15,
+      "outer_development_metrics": {
+        "energy_km": 128.2450362435552,
+        "h90": 0.9017691231102706,
+        "area90_km2": 184803.36855984305,
+        "land_mass": 0.001021569312484,
+        "outside_D_mass": 7.084007483270284e-05,
+        "auxiliary_loss": 6.593475113019472,
+        "model_mass90": 0.8999903417027869
+      }
+    },
+    {
+      "K": 32,
+      "source": "verified_parent_E3_full_fit",
+      "manifest": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K32/manifest.json",
+      "checkpoint": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K32/full_refit/checkpoint.pt",
+      "checkpoint_sha256": "526da1c8b0fe2a04f2bcd4030bcf587b139ccda82b8ab2064974dffa56215f5e",
+      "seed": 20261123,
+      "epochs": 10,
+      "outer_development_metrics": {
+        "energy_km": 130.11528076468028,
+        "h90": 0.8995402402385354,
+        "area90_km2": 192974.26255297769,
+        "land_mass": 0.0032138034386008,
+        "outside_D_mass": 0.0001299674880917,
+        "auxiliary_loss": 6.734133919473248,
+        "model_mass90": 0.899988503409261
+      }
+    }
+  ],
+  "original_experiment": {
+    "run": "conditional_mdn_s5_e4_20261109T082930_653149Z",
+    "contract_es_provisional_K": 3,
+    "contract_selected_K": 1,
+    "primary_model": "MDN1",
+    "overall_retention": false,
+    "supports_added_components": false,
+    "selection": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/selection.json",
+    "selection_sha256": "ecac75b09571ca9be01373c3b6a739e2eb18dd673eecc2d7b74e35ac5d944d09",
+    "acceptance": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/acceptance.json",
+    "acceptance_sha256": "56a39dd32c154af5d5c39ce4f8351cef8b3e79f93a50f5899070ccfefd93b733",
+    "experiment_registry": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/model_registry.json",
+    "experiment_registry_sha256": "e8bce14455f4bea933e2a56262ade031bfd493050369bfb4209a9692840b2ce9",
+    "audit": "provenance/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/final_audit.json",
+    "audit_sha256": "dd209455c82fd5507f4f82e6284ea6752af6f92a9a46e5d0ea8f4f5b48e91be0",
+    "historical_findings_rewritten": false
+  },
+  "scientific_definition": {
+    "horizon_days": 7,
+    "training_years": [
+      2001,
+      2019
+    ],
+    "development_validation_years": [
+      2020,
+      2022
+    ],
+    "train_pairs": 265393,
+    "train_drifters": 338,
+    "validation_pairs": 33971,
+    "validation_drifters": 45,
+    "training_weights": "pair_equal",
+    "training_loss": "NLL",
+    "evaluation_weights": "drifter_equal",
+    "primary_score": "Energy Score",
+    "region": "original single LAEA distribution-quantile 90% ellipse",
+    "model_or_weight_changes": false
+  },
+  "search_state": {
+    "K_search": "CLOSED_BY_USER",
+    "additional_training_authorized": false,
+    "additional_scoring_authorized": false,
+    "visualization_authorized": false,
+    "publication_performed": false,
+    "all_other_research_declared_complete": false
+  },
+  "interpretation": {
+    "uses_repeated_development_validation": true,
+    "independent_final_test_claim": false,
+    "final_test_access": false,
+    "statistical_significance_of_MDN22_advantage_established": false,
+    "global_optimality_claim": false,
+    "strict_acceptance_retrospectively_passed": false
+  },
+  "loading": {
+    "explicit_checkpoint_API": "data3001.modelling.continuous_models.conditional_mdn_s5_e4_inference.from_checkpoint",
+    "sha256_verification_required": true,
+    "historical_load_selected_model_returns_K": 1,
+    "historical_loader_semantics_unchanged": true
+  },
+  "documentation_amendments": [
+    {
+      "path": "docs/research_stage_ledger.md",
+      "before_snapshot": "provenance/frozen/mdn_final_20261110_v1/records_before/docs/research_stage_ledger.md",
+      "before_sha256": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d",
+      "after_snapshot": "provenance/frozen/mdn_final_20261110_v1/records_after/docs/research_stage_ledger.md",
+      "after_sha256": "19a19c5f236323f162045aae3caaba580af91d3147a0ab806f032dbeec0a88c9",
+      "live_matches_snapshot_at_freeze": true
+    },
+    {
+      "path": "docs/modelling_results.md",
+      "before_snapshot": "provenance/frozen/mdn_final_20261110_v1/records_before/docs/modelling_results.md",
+      "before_sha256": "954c25dc14b94e66d9ac6075a76d3bcd3c8d919fbcc435e5cbc58a73e827f125",
+      "after_snapshot": "provenance/frozen/mdn_final_20261110_v1/records_after/docs/modelling_results.md",
+      "after_sha256": "03f591a0783e7e37df8673a4bf578c8c6ae7f274f7cdc1c33a6c99010fb8aaa9",
+      "live_matches_snapshot_at_freeze": true
+    },
+    {
+      "path": "docs/final_mdn_model.md",
+      "before_snapshot": null,
+      "before_sha256": null,
+      "after_snapshot": "provenance/frozen/mdn_final_20261110_v1/records_after/docs/final_mdn_model.md",
+      "after_sha256": "f531cdc0eecc006b8f2ecf809b020e5480348ce6e5029ca66c26dd18a2839665",
+      "live_matches_snapshot_at_freeze": true
+    }
+  ],
+  "freeze_scope": "All E4 result/provenance files, including all 12 candidates in three roles, 144 checkpoints, forecasts, per-query/per-ID scores, controls, original selections and audits. Canonical datasets and external parent runs are not copied or permission-modified."
+}

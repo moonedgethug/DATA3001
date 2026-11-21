@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "horizon_days": 7,
+  "recommended_after_development_review": 22,
+  "original_contract_selected": 1,
+  "final_test_evaluated": false,
+  "final_mdn22": {
+    "path": "saved_models/final_mdn22/checkpoint.pt",
+    "sha256": "216f92b678e25b1c804a7f0a1928779b9233ff22f7140536e825969df6d176b0",
+    "original_path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/full_refit/checkpoint.pt",
+    "components": 22,
+    "input": [
+      "longitude_degrees",
+      "latitude_degrees"
+    ],
+    "output": "full seven-day conditional displacement distribution"
+  },
+  "comparison_mdn1": {
+    "path": "saved_models/comparison_models/mdn1/checkpoint.pt",
+    "sha256": "1268fc22a9ca8d7cf7c77713038d943ee6ff6e0f9701043192f6fd9bf6045c15",
+    "original_path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K1/full_refit/checkpoint.pt",
+    "components": 1,
+    "input": [
+      "longitude_degrees",
+      "latitude_degrees"
+    ],
+    "output": "full seven-day conditional displacement distribution"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-21T13:51:15.774402+00:00",
+  "files": [
+    {
+      "path": "ne_50m_land.geojson",
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+      "bytes": 1636166,
+      "upstream_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/693f11422f4e08d2da4566b854dda53eb7c39fb3/geojson/ne_50m_land.geojson",
+      "upstream_commit": "693f11422f4e08d2da4566b854dda53eb7c39fb3",
+      "historical_raw_file_sha256": null,
+      "identity_boundary": "Recovered upstream geometry exactly reproduces published Part2 land coordinates; original temporary file identity is unknown.",
+      "published_geometry_exact_equal": true
+    },
+    {
+      "path": "grounding_scope_conclusion_20261110.md",
+      "sha256": "b52941b9f1f2b0aac8cfd873cffa9b857bd58ab19424143b5832a02db700cf8d",
+      "bytes": 2392,
+      "original_relative_path": "../additional_research/grounding_scope_conclusion_20261110.md",
+      "historical_source_sha256_verified": true
+    }
+  ]
+}

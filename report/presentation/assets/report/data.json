@@ -1,0 +1,201 @@
+{
+  "models": [
+    {
+      "model": "MDN1",
+      "energy_km": 128.70171575803738,
+      "h90": 0.8763010678923122,
+      "area90_km2": 175929.08654304448,
+      "land_mass": 0.0033258537058428665,
+      "outside_D_mass": 0.0006233214644840379,
+      "auxiliary_loss": 6.570402494045778,
+      "model_mass90": 0.8999907650193497
+    },
+    {
+      "model": "MDN2",
+      "energy_km": 128.8122854590313,
+      "h90": 0.8851440395513508,
+      "area90_km2": 180504.57156751637,
+      "land_mass": 0.0022942941618196194,
+      "outside_D_mass": 0.00030094135337392413,
+      "auxiliary_loss": 6.563967997540832,
+      "model_mass90": 0.9000005956323013
+    },
+    {
+      "model": "MDN3",
+      "energy_km": 128.71474543431594,
+      "h90": 0.8900120308235284,
+      "area90_km2": 181496.64611997886,
+      "land_mass": 0.0010513025710570051,
+      "outside_D_mass": 4.8993617457770084e-05,
+      "auxiliary_loss": 6.566515576452204,
+      "model_mass90": 0.8999920007517218
+    },
+    {
+      "model": "MDN4",
+      "energy_km": 128.8850607693991,
+      "h90": 0.8837653730462637,
+      "area90_km2": 180606.59177936727,
+      "land_mass": 0.0011535129490411427,
+      "outside_D_mass": 7.541709867932562e-05,
+      "auxiliary_loss": 6.602713514582116,
+      "model_mass90": 0.8999842157159021
+    },
+    {
+      "model": "MDN6",
+      "energy_km": 129.49610940262946,
+      "h90": 0.90145190027885,
+      "area90_km2": 189567.4085460675,
+      "land_mass": 0.0017610981626818255,
+      "outside_D_mass": 0.00017911225810167967,
+      "auxiliary_loss": 6.701350552810562,
+      "model_mass90": 0.8999938373091627
+    },
+    {
+      "model": "MDN8",
+      "energy_km": 130.3305376855341,
+      "h90": 0.8953754148980229,
+      "area90_km2": 183201.87044440853,
+      "land_mass": 0.0010701856514518343,
+      "outside_D_mass": 5.13661947518201e-05,
+      "auxiliary_loss": 6.770533946591886,
+      "model_mass90": 0.8999979786382658
+    },
+    {
+      "model": "MDN12",
+      "energy_km": 131.64861110649161,
+      "h90": 0.9090585107424605,
+      "area90_km2": 196116.6318219643,
+      "land_mass": 0.0012131606785913346,
+      "outside_D_mass": 0.00026616356873911926,
+      "auxiliary_loss": 6.9581803399564945,
+      "model_mass90": 0.8999981170108686
+    },
+    {
+      "model": "MDN16",
+      "energy_km": 128.783605136151,
+      "h90": 0.8962141728625724,
+      "area90_km2": 181776.20741782605,
+      "land_mass": 0.0010262900011945466,
+      "outside_D_mass": 6.540595932559096e-05,
+      "auxiliary_loss": 6.601397770250819,
+      "model_mass90": 0.8999989813533682
+    },
+    {
+      "model": "MDN18",
+      "energy_km": 129.3267591110024,
+      "h90": 0.9037789647209501,
+      "area90_km2": 187999.73263047604,
+      "land_mass": 0.0008102863411743419,
+      "outside_D_mass": 7.242561061507798e-05,
+      "auxiliary_loss": 6.684700212593374,
+      "model_mass90": 0.9000162866977364
+    },
+    {
+      "model": "MDN20",
+      "energy_km": 130.7268252004068,
+      "h90": 0.9071729267509413,
+      "area90_km2": 192781.73642786042,
+      "land_mass": 0.000884236003781767,
+      "outside_D_mass": 0.00012378831144756102,
+      "auxiliary_loss": 6.841612959853748,
+      "model_mass90": 0.8999972823354069
+    },
+    {
+      "model": "MDN22",
+      "energy_km": 128.2450362435552,
+      "h90": 0.9017691231102706,
+      "area90_km2": 184803.36855984302,
+      "land_mass": 0.001021569312484072,
+      "outside_D_mass": 7.084007483270284e-05,
+      "auxiliary_loss": 6.593475113019472,
+      "model_mass90": 0.8999903417027869
+    },
+    {
+      "model": "MDN32",
+      "energy_km": 130.11528076468028,
+      "h90": 0.8995402402385354,
+      "area90_km2": 192974.26255297766,
+      "land_mass": 0.003213803438600887,
+      "outside_D_mass": 0.00012996748809171566,
+      "auxiliary_loss": 6.734133919473248,
+      "model_mass90": 0.899988503409261
+    },
+    {
+      "model": "LocalGaussian",
+      "energy_km": 134.77713493141582,
+      "h90": 0.915438158032233,
+      "area90_km2": 216097.00986990923,
+      "land_mass": 0.005988467794845874,
+      "outside_D_mass": 0.0029685085219103833,
+      "auxiliary_loss": 7.227975748546314,
+      "model_mass90": 0.9000038710991937
+    },
+    {
+      "model": "ExactPoint",
+      "energy_km": 134.2235628922719,
+      "h90": 0.9139213279308652,
+      "area90_km2": 215666.88935491562,
+      "land_mass": 0.0,
+      "outside_D_mass": 0.0,
+      "auxiliary_loss": 7.222669384877331,
+      "model_mass90": 0.9000013013654556
+    },
+    {
+      "model": "EndpointCI",
+      "energy_km": 134.2235174020079,
+      "h90": 0.9139387434655221,
+      "area90_km2": 215732.07819412934,
+      "land_mass": 6.162293584165717e-07,
+      "outside_D_mass": 0.0,
+      "auxiliary_loss": 7.222668929403485,
+      "model_mass90": 0.8999947913706019
+    }
+  ],
+  "regions": [
+    {
+      "segment": "Southern Coastal Segment",
+      "entering_trajectories": "621",
+      "valid_7d_trajectories": "605",
+      "valid_7d_pct": "0.9742351046698873",
+      "valid_30d_trajectories": "561",
+      "valid_30d_pct": "0.9033816425120773",
+      "drogued_valid_30d_trajectories": "338",
+      "drogued_share_of_valid30_pct": "0.6024955436720143",
+      "effective_destination_cells_30d": "142.40762984093598",
+      "direction_concentration_30d": "0.5824782640135168",
+      "outside_segment_share_30d": "0.7023172905525846",
+      "top_year_share_valid30": "0.09803921568627451",
+      "top_experiment_share_valid30": "0.15508021390374332"
+    },
+    {
+      "segment": "Cape Hatteras Separation",
+      "entering_trajectories": "784",
+      "valid_7d_trajectories": "766",
+      "valid_7d_pct": "0.9770408163265306",
+      "valid_30d_trajectories": "734",
+      "valid_30d_pct": "0.9362244897959183",
+      "drogued_valid_30d_trajectories": "464",
+      "drogued_share_of_valid30_pct": "0.6321525885558583",
+      "effective_destination_cells_30d": "155.6349427385441",
+      "direction_concentration_30d": "0.6911995659003611",
+      "outside_segment_share_30d": "0.779291553133515",
+      "top_year_share_valid30": "0.05994550408719346",
+      "top_experiment_share_valid30": "0.1553133514986376"
+    },
+    {
+      "segment": "Northern Offshore Extension",
+      "entering_trajectories": "688",
+      "valid_7d_trajectories": "678",
+      "valid_7d_pct": "0.9854651162790697",
+      "valid_30d_trajectories": "649",
+      "valid_30d_pct": "0.9433139534883721",
+      "drogued_valid_30d_trajectories": "443",
+      "drogued_share_of_valid30_pct": "0.6825885978428351",
+      "effective_destination_cells_30d": "141.45480735026095",
+      "direction_concentration_30d": "0.47365133603357873",
+      "outside_segment_share_30d": "0.5993836671802774",
+      "top_year_share_valid30": "0.07395993836671803",
+      "top_experiment_share_valid30": "0.23266563944530047"
+    }
+  ]
+}

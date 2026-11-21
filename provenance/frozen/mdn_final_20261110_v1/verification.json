@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "passed": true,
+  "freeze_id": "mdn_final_20261110_v1",
+  "verified_at": "2026-11-10T14:52:17.922900+11:00",
+  "verification_method": "Independent full re-read of every payload file with SHA256, sizes, mode and exact inventory checks; roster/contract-invariant checks; explicit saved-checkpoint inference.",
+  "manifest_sha256": "e7c6c62817f09c5711a35fdc158e6a16a50090ddfac94c6a2e2ffd0fef1d7e05",
+  "payload_files_verified": 15593,
+  "payload_bytes_verified": 4255513873,
+  "read_only_directories_verified": 231,
+  "candidate_K": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    18,
+    20,
+    22,
+    32
+  ],
+  "roles": {
+    "C_T0": {
+      "candidates": 12,
+      "checkpoints": 48
+    },
+    "C_T1": {
+      "candidates": 12,
+      "checkpoints": 48
+    },
+    "C_outer": {
+      "candidates": 12,
+      "checkpoints": 48
+    }
+  },
+  "checkpoints_verified": 144,
+  "original_selection_preserved": true,
+  "original_acceptance_preserved": true,
+  "original_audit_preserved": true,
+  "recommended_K": 22,
+  "comparator_K": 1,
+  "contract_selected_K": 1,
+  "original_overall_retention": false,
+  "historic_selected_loader_K": 1,
+  "inference": {
+    "recommended_model": {
+      "K": 22,
+      "finite": true,
+      "weight_sum": 1.0,
+      "positive_definite_covariance": true,
+      "checkpoint_sha256_verified": true
+    },
+    "comparator": {
+      "K": 1,
+      "finite": true,
+      "weight_sum": 1.0,
+      "positive_definite_covariance": true,
+      "checkpoint_sha256_verified": true
+    }
+  },
+  "audit_era_ledger_preserved": true,
+  "approved_documentation_snapshots_verified": true,
+  "documentation_links_checked": 112,
+  "K_search_closed": true,
+  "active_computation": false,
+  "training_or_rescoring_performed": false,
+  "final_test_access": false,
+  "visualization_performed": false,
+  "publication_performed": false
+}

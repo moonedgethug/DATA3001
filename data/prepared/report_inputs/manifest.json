@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "purpose": "Minimal portable external inputs and exact frozen project inputs for report figure reproduction",
+  "source_policy": "Original plotting and scientific source bytes preserved; original external data remain untouched. Regional table replay and recomputed frozen-model integration are separately recorded.",
+  "files": [
+    {
+      "path": "regional_distribution/summary.json",
+      "execution_path": "Final Report/figures/W12_regional_distribution/summary.json",
+      "original_source": "../Final Report/figures/W12_regional_distribution/summary.json",
+      "sha256": "4b37533b2bb860a6763a4258b01820304f5096b7339caa353bc384e05c7ade46",
+      "bytes": 14989,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/release_cells.csv",
+      "execution_path": "Final Report/figures/W12_regional_distribution/release_cells.csv",
+      "original_source": "../Final Report/figures/W12_regional_distribution/release_cells.csv",
+      "sha256": "818a75e960d57c439ed7f74811ea16e0284caad59ac9ee94a12dd4c078cfb776",
+      "bytes": 9082,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/release_origins.parquet",
+      "execution_path": "Final Report/figures/W12_regional_distribution/release_origins.parquet",
+      "original_source": "../Final Report/figures/W12_regional_distribution/release_origins.parquet",
+      "sha256": "1aa6c2c80ec1a18dec11c73efa4f8deb5d30e9da6e9c27f49fb6eb05300c9765",
+      "bytes": 5757048,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/display_grid.parquet",
+      "execution_path": "Final Report/figures/W12_regional_distribution/display_grid.parquet",
+      "original_source": "../Final Report/figures/W12_regional_distribution/display_grid.parquet",
+      "sha256": "321d5abae7a0866e63090e7aa106991b75b0d1ed22704d14e8e330cc21656564",
+      "bytes": 122618,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/integration_by_cell.npz",
+      "execution_path": "Final Report/figures/W12_regional_distribution/integration_by_cell.npz",
+      "original_source": "../Final Report/figures/W12_regional_distribution/integration_by_cell.npz",
+      "sha256": "2de90de8ea3b22391361c19d9e42eac7661c5c37c24915922504182d58ea3680",
+      "bytes": 499674,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/region_probabilities.csv",
+      "execution_path": "Final Report/figures/W12_regional_distribution/region_probabilities.csv",
+      "original_source": "../Final Report/figures/W12_regional_distribution/region_probabilities.csv",
+      "sha256": "b318c34369a02fec6aad91306ab275ba6fba78b97ac736557db7d6987433139d",
+      "bytes": 1343,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/outside_R_water_subregions.csv",
+      "execution_path": "Final Report/figures/W12_regional_distribution/outside_R_water_subregions.csv",
+      "original_source": "../Final Report/figures/W12_regional_distribution/outside_R_water_subregions.csv",
+      "sha256": "619b8f2c58ca2b084f6aeeb2574f6803d49520f0af89f48306edf054b605786a",
+      "bytes": 1323,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/numerical_replicates.csv",
+      "execution_path": "Final Report/figures/W12_regional_distribution/numerical_replicates.csv",
+      "original_source": "../Final Report/figures/W12_regional_distribution/numerical_replicates.csv",
+      "sha256": "62154843b4147a8dbdf20c8750bf7e48d839041c1bc4821294e4b725b98f6cea",
+      "bytes": 7917,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "replay"
+    },
+    {
+      "path": "regional_distribution/provenance.json",
+      "execution_path": "reference/regional_distribution/provenance.json",
+      "original_source": "../Final Report/figures/W12_regional_distribution/provenance.json",
+      "sha256": "c0ebca3343cbd5500674ff6524a7861035bca31c849b8a307be80ca86a02a065",
+      "bytes": 8889,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "reference"
+    },
+    {
+      "path": "regional_distribution/verification.json",
+      "execution_path": "reference/regional_distribution/verification.json",
+      "original_source": "../Final Report/figures/W12_regional_distribution/verification.json",
+      "sha256": "13164e4dc3d76b77388132f9bb5a7b79cbca9515ad70fb9649dc166f12c56186",
+      "bytes": 1957,
+      "figures": [
+        "regional_distribution"
+      ],
+      "mode": "reference"
+    },
+    {
+      "path": "presentation_pt3.json",
+      "execution_path": "sites/ocean-drifter-prototype/dist/assets/pt3/data.json",
+      "original_source": "../sites/ocean-drifter-prototype/dist/assets/pt3/data.json",
+      "sha256": "58b9c27b192a626c5a7ade7fac9bcbf51cc692b513f061fed03a74ac6a2e0923",
+      "bytes": 112916,
+      "figures": [
+        "prediction_cases"
+      ],
+      "mode": "always"
+    }
+  ],
+  "repository_inputs": [
+    {
+      "path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/parameters.npz",
+      "sha256": "f95d84c8aec9f564148f89e422806f825237910659a73eadc742edcbd9f1d829",
+      "bytes": 35695484,
+      "figures": [
+        "prediction_cases",
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/manifest.json",
+      "sha256": "ac44d3d2f7f0cf9f97d1d76c69f7447cc3b5621afb0a9d1f14bc292c7fcae5e9",
+      "bytes": 280931,
+      "figures": [
+        "prediction_cases",
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/K22/full_refit/checkpoint.pt",
+      "sha256": "216f92b678e25b1c804a7f0a1928779b9233ff22f7140536e825969df6d176b0",
+      "bytes": 353253,
+      "figures": [
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/C_outer/outer_score/N65536_M65536/scores.parquet",
+      "sha256": "16786551321246048f97a71fd763b072aebeb859b268fd75405f9db9eb5e3a2c",
+      "bytes": 383295323,
+      "figures": [
+        "prediction_cases"
+      ]
+    },
+    {
+      "path": "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/outer_targets.parquet",
+      "sha256": "ac4d6dde254a4b785862e8d1de168e9c06690f1798e3463e14c956731627d342",
+      "bytes": 1224086,
+      "figures": [
+        "prediction_cases"
+      ]
+    },
+    {
+      "path": "results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet",
+      "sha256": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+      "bytes": 8975110,
+      "figures": [
+        "regional_distribution",
+        "training_support"
+      ]
+    },
+    {
+      "path": "results/deliverables/conditional_mdn_s5_e3/fixed_examples.json",
+      "sha256": "078cc5ad62e7caed40b891883abf4e294944619f34134980cab4997db9f49c33",
+      "bytes": 2116,
+      "figures": [
+        "prediction_cases"
+      ]
+    },
+    {
+      "path": "results/runs/continuous_diagnostic_report_20261029T055315_213458Z/trace_summary.csv",
+      "sha256": "5a4ad0fcaa0985711fef0b3894fa304773c89eaff8f2c2afe8f4050df38a2b52",
+      "bytes": 6328,
+      "figures": [
+        "model_comparison"
+      ]
+    },
+    {
+      "path": "results/runs/continuous_diagnostics_20261029T054731_635202Z/one_step_summary.csv",
+      "sha256": "33126e10198818c8e908c0e767f1131b61302298b2842f47c834c3c530b72b88",
+      "bytes": 7960,
+      "figures": [
+        "model_comparison"
+      ]
+    },
+    {
+      "path": "results/deliverables/spatial_borrowing_s3_e1/summary.csv",
+      "sha256": "a68b90050b004bb6a62e040af5bc70a26006544cdc08fdd3d39a6d741c1bea57",
+      "bytes": 11347,
+      "figures": [
+        "model_comparison"
+      ]
+    },
+    {
+      "path": "results/deliverables/exact_origin_s4_e7/summary.csv",
+      "sha256": "69e41dc91c88c408a5eacdf7b309372f69094f1e781bf5e207a7a0620571358f",
+      "bytes": 809,
+      "figures": [
+        "model_comparison"
+      ]
+    },
+    {
+      "path": "archive/region_screening_6h/region_data_audit.py",
+      "sha256": "0b7f175d233f5f038e82c6a9e0a2c18652145e55f5ad3d54f180f898952f38e7",
+      "bytes": 46763,
+      "figures": [
+        "region_domain"
+      ]
+    },
+    {
+      "path": "archive/region_screening_6h/gulf_stream_segment_audit.py",
+      "sha256": "d424ca9baff00343a89e241eb75a70952bca104269694a5eee0c475bc4df20b3",
+      "bytes": 12777,
+      "figures": [
+        "region_domain"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson",
+      "sha256": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a",
+      "bytes": 1147,
+      "figures": [
+        "prediction_cases",
+        "region_domain",
+        "regional_distribution",
+        "study_region"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb",
+      "sha256": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73",
+      "bytes": 5872656,
+      "figures": [
+        "prediction_cases",
+        "region_domain",
+        "study_region"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson",
+      "sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8",
+      "bytes": 908,
+      "figures": [
+        "prediction_cases",
+        "region_domain",
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/acquisition/geometry/acquisition_envelope.geojson",
+      "sha256": "1fe9e2546fba57a37366f1c595df429f9577e83a0d425d0112330c4dabc88cbe",
+      "bytes": 1157,
+      "figures": [
+        "region_domain"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb",
+      "sha256": "4f62ccdb9084d7f6e7f5ddc92b92c7da96f07665f77db0500f364a1678fe63e0",
+      "bytes": 27905322,
+      "figures": [
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "archive/data_before_release_20261016/reference/handover_20261013/geometry/state_index.parquet",
+      "sha256": "5d7934a19221618b4102e8be40cb294774506d60856f85f606ad2178495ac24f",
+      "bytes": 75481,
+      "figures": [
+        "regional_distribution"
+      ]
+    },
+    {
+      "path": "docs/contract/data_contract_v1.0.xlsx",
+      "sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+      "bytes": 20397,
+      "figures": [
+        "regional_distribution"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "code/reporting/figures/W01_study_region/figure_w01_region.py",
+      "execution_path": "Final Report/figures/W01_study_region/figure_w01_region.py",
+      "sha256": "7c492203353d35eb42aba46ba9604c1d7eadfb1524f89ddb5aa556ba38aaa89a"
+    },
+    {
+      "path": "code/reporting/figures/W03_region_and_domain/figure_w03_region_and_domain.py",
+      "execution_path": "Final Report/figures/W03_region_and_domain/figure_w03_region_and_domain.py",
+      "sha256": "290a51386b4502b2cccc2ad66f5d869fba68892c30d209e1a855c77fb4db7819"
+    },
+    {
+      "path": "code/reporting/figures/W05_W11_models/render_figures.py",
+      "execution_path": "Final Report/figures/W05_W11_models/render_figures.py",
+      "sha256": "a94962b30ba2833bc3d07bd0f774cf0027556886beb70553e9ae50378754d3f1"
+    },
+    {
+      "path": "code/reporting/figures/W12_prediction_cases/render_cases.py",
+      "execution_path": "Final Report/figures/W12_prediction_cases/render_cases.py",
+      "sha256": "d6014e7c48fe9e49c3661393fe116c123c6e09bc4e0b23eae90e572d468ea249"
+    },
+    {
+      "path": "code/reporting/figures/W12_regional_distribution/render_figures.py",
+      "execution_path": "Final Report/figures/W12_regional_distribution/render_figures.py",
+      "sha256": "0253ee4f5f1edde257ad5ec176a4375aaab3ebf4e6d4f7b77facc4be15d78be4"
+    },
+    {
+      "path": "code/reporting/figures/W12_regional_distribution/run_analysis.py",
+      "execution_path": "Final Report/figures/W12_regional_distribution/run_analysis.py",
+      "sha256": "6f33f7905f06fe9ecafe5a663c82825dcfd1ef2beb606ab72fbb5db23122b7cb"
+    },
+    {
+      "path": "code/reporting/figures/W12_regional_distribution/verify_analysis.py",
+      "execution_path": "Final Report/figures/W12_regional_distribution/verify_analysis.py",
+      "sha256": "502f0cb99a9be8401681e241886c4af0e622ca4b5ae4ce0407a6c465196de908"
+    },
+    {
+      "path": "code/reporting/figures/W13_training_support/render_training_support.py",
+      "execution_path": "Final Report/figures/W13_training_support/render_training_support.py",
+      "sha256": "f11b4d3e98a389aea55852ae0a63fe7490fb79a58a223519c9ebfc14c571dd52"
+    }
+  ],
+  "final_model": {
+    "K": 22,
+    "horizon_days": 7,
+    "sha256": "216f92b678e25b1c804a7f0a1928779b9233ff22f7140536e825969df6d176b0"
+  },
+  "regional_unresolved_weight": 0.008605277291120008,
+  "regional_unresolved_semantics": "Fraction of whole-R wet-area release prior in cells without eligible training origins; retained as separate unallocated release mass, not a grounding probability and not renormalized away."
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0b2d3d" />
+    <title>Where Things End Up · DATA3001 presentation</title>
+    <meta
+      name="description"
+      content="A continuous four-part research presentation: seven-day drifter destination distributions in the Southern Gulf Stream Corridor."
+    />
+    <link rel="stylesheet" href="./flow/style.css?v=flow1" />
+  </head>
+  <body>
+    <main
+      id="presentation"
+      aria-label="Complete DATA3001 presentation"
+      data-phase="loading"
+    ></main>
+    <div id="loading" role="status">
+      <span>≈</span>
+      <p>Preparing the ocean</p>
+      <small>Four parts · one research story</small>
+    </div>
+    <div id="preparing" hidden role="status">Preparing the next scene…</div>
+    <div id="failure" hidden role="alert">
+      <h2>This chapter could not be prepared.</h2>
+      <p>Your current scene is still available.</p>
+      <button id="retry">Try again</button
+      ><button id="dismiss">Stay here</button>
+    </div>
+    <dialog id="contents" aria-labelledby="contents-title">
+      <div class="contents-heading">
+        <div>
+          <p class="eyebrow">UNSW · DATA3001 · S01-G04</p>
+          <h1 id="contents-title">One question. Four parts.</h1>
+        </div>
+        <button id="close-contents" aria-label="Close contents">×</button>
+      </div>
+      <p class="intro">
+        Where will a drifter starting in R be seven days later?
+      </p>
+      <div id="chapter-list"></div>
+      <footer>
+        <span
+          >← / → or Page Up / Down to present · M for contents · Space to
+          pause</span
+        ><a href="./index.html#/01" target="_blank">Original outline ↗</a>
+      </footer>
+    </dialog>
+    <script type="module" src="./flow/host.js?v=flow1"></script>
+  </body>
+</html>

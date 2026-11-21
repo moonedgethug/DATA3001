@@ -1,0 +1,47 @@
+/* Incoming copy remains gated until the host's camera-like handoff has ended. */
+.flow-embedded .masthead,
+.flow-embedded .frame-nav,
+.flow-embedded #stage > footer {
+  transition: opacity 0.3s ease;
+}
+.flow-hold #copy,
+.flow-hold #map-labels,
+.flow-hold #gallery,
+.flow-hold #detail,
+.flow-hold #content,
+.flow-hold .masthead,
+.flow-hold .frame-nav,
+.flow-hold #stage > footer {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+.flow-inactive * {
+  animation-play-state: paused !important;
+}
+#contents-open {
+  font: inherit;
+  font-size: 19px;
+  padding: 10px 16px;
+  border: 1px solid currentColor;
+  border-radius: 24px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.story-controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.story-controls button {
+  font-size: 19px;
+}
+/* Essential controls must not catch stale clicks while their content moves. */
+#stage:not([data-phase="reading"]) #copy,
+#stage:not([data-phase="reading"]) #map-labels {
+  pointer-events: none;
+}
+.flow-embedded .mast-right > span {
+  display: none;
+}

@@ -1,0 +1,9 @@
+{
+  "source_entries": 352,
+  "wheel": "data3001_transport-0.2.0-py3-none-any.whl",
+  "excluded_repository_documents": [
+    "data3001/modelling/README.md"
+  ],
+  "scientific_runtime_files": 351,
+  "scientific_runtime_hash_mismatches": []
+}

@@ -1,0 +1,31 @@
+{
+  "updated": "2026-11-15",
+  "evaluation": "Frozen development evaluation, 45 IDs, 33971 pairs, equal drifter weight; not final test",
+  "assets": [
+    {
+      "asset": "region-audit.png",
+      "source": "archive/region_screening_6h/outputs/region-audit-map.png",
+      "sha256": "511cf1b2e598c452c3f8e1e6dadc69f5dca8a93bef7df8be6c50e8deacd95b9b"
+    },
+    {
+      "asset": "pilot-support.png",
+      "source": "archive/region_screening_6h/outputs/southern-gulf-stream-pilot-support.png",
+      "sha256": "035931668d9fbae7c856f97308398a441e5179664353de1dc512e1a92c13d0df"
+    },
+    {
+      "asset": "path-transfer.png",
+      "source": "results/runs/spatial_borrowing_s3_e1_20261030T114538_900248Z/path_transfer_examples.png",
+      "sha256": "e2d88174c68c57dd0aeaed7b339188596d423af51c8f52a98123ed7be8a79624"
+    },
+    {
+      "asset": "model-summary.csv",
+      "source": "results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/summary.csv",
+      "sha256": "5c2bffb47b55968b510466b10fb6058699a47c55b2a5af8f8e1c5dc9c173670c"
+    },
+    {
+      "asset": "region-summary.csv",
+      "source": "archive/region_screening_6h/outputs/gulf-stream-segment-summary.csv",
+      "sha256": "f2711baae2e2f4d8f1e753a78dee47edbeddb481a363f99117a86c7d9ea80c01"
+    }
+  ]
+}

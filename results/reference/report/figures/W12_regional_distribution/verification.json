@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "recomputed_max_wet_area_error_km2": 1.8189894035458565e-12,
+  "recomputed_max_release_weight_error": 8.326672684688674e-17,
+  "max_aggregation_reconstruction_error": 3.3306690738754696e-16,
+  "independent_sampler": {
+    "method": "Existing Predictor.sample, independent random origin selection, existing geographic transform; covers predicates",
+    "samples_per_supported_cell": 8192,
+    "total_samples": 303104,
+    "probabilities": {
+      "R_water": 0.6746377496262597,
+      "D_water_outside_R": 0.3138536795952659,
+      "D_land": 0.002613762791932595,
+      "outside_D": 0.0002895306954200976
+    },
+    "difference_from_primary": {
+      "R_water": 0.0005575241642481465,
+      "D_water_outside_R": -0.0005431609882198263,
+      "D_land": -2.056294504660522e-05,
+      "outside_D": 6.199769016797642e-06
+    },
+    "numerical_standard_error": {
+      "R_water": 0.0007767608299534391,
+      "D_water_outside_R": 0.000774504367093423,
+      "D_land": 7.494101150451412e-05,
+      "outside_D": 2.8895821351473722e-05
+    },
+    "check_tolerance": {
+      "R_water": 0.004671467448772441,
+      "D_water_outside_R": 0.004657875449352288,
+      "D_land": 0.0004598702396944231,
+      "outside_D": 0.0001836200310621711
+    }
+  },
+  "source_and_draft_hashes_unchanged": true,
+  "no_training": true,
+  "final_test_access": false,
+  "scripts_sha256": {
+    "run_analysis.py": "6f33f7905f06fe9ecafe5a663c82825dcfd1ef2beb606ab72fbb5db23122b7cb",
+    "render_figures.py": "0253ee4f5f1edde257ad5ec176a4375aaab3ebf4e6d4f7b77facc4be15d78be4",
+    "verify_analysis.py": "502f0cb99a9be8401681e241886c4af0e622ca4b5ae4ce0407a6c465196de908"
+  },
+  "software_versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.16.3",
+    "shapely": "2.2.0",
+    "pyproj": "3.7.2",
+    "torch": "2.14.1",
+    "matplotlib": "3.10.8",
+    "pyarrow": "26.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "execution_path": "docs/markov_results.md",
+      "sha256": "a0f1a3e8ff6e7cdc50e10546af0a57db4407ff0b7973730ed81e96308ca7e923",
+      "bundle_file": "a0f1a3e8ff6e7cdc50e10546af0a57db4407ff0b7973730ed81e96308ca7e923",
+      "source": "git:dfa45de536d72363f1406dcaf78f6b761f41b8fe:docs/markov_results.md"
+    },
+    {
+      "execution_path": "docs/research_stage_ledger.md",
+      "sha256": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d",
+      "bundle_file": "a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d",
+      "source": "provenance/frozen/mdn_final_20261110_v1/records_before/docs/research_stage_ledger.md"
+    },
+    {
+      "execution_path": "docs/research_stage_ledger.md",
+      "sha256": "fd181177d81365d02ba60e1fbbb740af12a0b087993b9aeda9f004dbdcf4c3f0",
+      "bundle_file": "fd181177d81365d02ba60e1fbbb740af12a0b087993b9aeda9f004dbdcf4c3f0",
+      "source": "Reconstructed from exact a9922c6176078f32431484b4ceefdaa7842a0193b94c25ee64db3cc9b17b0b3d ledger by removing appended 7 November Step5 section and restoring the pre-Step5 status row; exact original approval SHA256 independently verified."
+    }
+  ]
+}

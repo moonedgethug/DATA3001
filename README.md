@@ -1,52 +1,217 @@
-# DATA3001 — Where Things End Up
+# Historical Drifter Destination Prediction — DATA3001
 
-**Latest modelling handoff: 9 November 2026.** Empirical Markov, regularisation, spatial borrowing, exact-position/error/seasonal, LocalGaussian, local GMM and conditional MDN experiments are available for the team report and presentation. Completed experiments are evidence, not a claim that every method improved prediction.
+This project studies whether historical drifter trajectories help predict future destinations. It preserves both research rounds: seven-/thirty-day transition models and iterative propagation, followed by five modelling steps focused on seven-day predictions in the southern Gulf Stream corridor.
 
-## Start here / 组员阅读入口
+**Two ways to start:** double-click [START_HERE.command](START_HERE.command) for automatic Python setup and a browser notebook, or open [code/run_experiments.ipynb](code/run_experiments.ipynb) in VS Code with an existing Python 3.12 environment. Both routes use the same notebook, experiment settings, and results folder.
 
-- **[All modelling results / 全部建模成果总目录](docs/modelling_results.md)** — methods, original results and comparison limits.
-- **[Team review package / 组员审阅包](results/deliverables/team_review_20261109/README.md)** — portable Chinese/English interactive snapshots and final MDN evidence.
-- **[Completed MDN report](results/deliverables/conditional_mdn_s5_e3/REPORT.md)** · [visual report](results/deliverables/conditional_mdn_s5_e3/review.html) · [nine-model results](results/deliverables/conditional_mdn_s5_e3/summary.csv) · [saved-model usage](results/deliverables/conditional_mdn_s5_e3/inference_usage.md).
+## Start the notebook
 
-GitHub renders Markdown and images but shows HTML source. Download/clone this repository before opening the HTML reports. The interactive snapshots predate MDN completion; the separate completed MDN report supplies the final results.
+Use the **complete project folder**, including its code, data, configuration, and saved models. Both routes currently support **Apple Silicon Macs running macOS 14 or later**. The scientific calculations use Apple's Command Line Tools. Windows, Intel Mac, and Linux/Colab have not been adapted and validated.
 
-## Five-stage research programme
+### Option 1 — Automatic setup and browser notebook
 
-| Stage | Research question | Completed evidence / boundary |
+Choose this route if Python and Jupyter are not already installed.
+
+1. In Finder, open the project folder and double-click **START_HERE.command**.
+2. Wait while it prepares Python **3.12.14**, installs the locked packages, and registers the project notebook kernel. If Apple's Command Line Tools are missing, follow the system installation prompt, then press Return in the startup window as instructed.
+3. The browser opens **JupyterLab** with `code/run_experiments.ipynb`. This notebook runs locally on your Mac. Keep the startup Terminal window open while using it.
+4. Run **Environment and configuration** at the top of the notebook. It checks the packages and initializes the experiment controls. When it prints **Ready**, run **Complete workflow** or any named data/model cell.
+
+This route requires no manually entered setup commands. It keeps the project environment in `.venv/` and the downloaded Python under `.tools/python/`. Setup opens the notebook without starting experiments. To reopen it later, double-click **START_HERE.command** again.
+
+### Option 2 — Use an existing Python environment in VS Code
+
+Choose this route if you already have a working Python **3.12** notebook environment.
+
+1. Open the complete project folder in VS Code, then open **code/run_experiments.ipynb** with your existing Python 3.12 kernel. Microsoft Python and Jupyter extensions provide notebook support.
+2. Run **Environment and configuration**. It installs missing or mismatched project packages into the Python running this notebook and checks the numerical libraries and compiler.
+3. When it prints **Ready**, run **Complete workflow** or any named data/model cell.
+
+This configuration cell manages packages and notebook controls; Python and the working kernel are supplied by your existing environment. If a package update affects a library already loaded in memory, follow the cell's instruction to restart the current kernel and rerun the configuration cell.
+
+## Environment and package versions
+
+Both routes use `pyproject.toml` for dependency definitions and `uv.lock` for their direct and indirect versions. Internet access is needed when Python, the installer, or packages must be downloaded.
+
+The automatic route calls `code/environment/setup.sh --launch`, prepares the project `.venv/`, and uses the Python **3.12.14** pin in `.python-version`. The notebook configuration cell calls `code/environment/configure.py`; it accepts an existing Python **3.12**, records its actual version, and brings project packages to their locked versions while preserving unrelated packages. Neither route rewrites the dependency lock or changes the experimental settings.
+
+The package installer is kept under `.tools/`. Its use of the current interpreter and locked requirements follows uv's [environment targeting](https://docs.astral.sh/uv/pip/environments/) and [lock export](https://docs.astral.sh/uv/concepts/projects/export/) documentation.
+
+## Run from the notebook
+
+The notebook has the following sections, in this order. After environment configuration, run the cell for the work you need.
+
+| Section | Cells | What it does |
 |---|---|---|
-| 1 — Empirical transition matrices | Where did drifters from this 1° origin cell end up? | Frozen B2 at 7/30 days; Brier, support and 90% regions. |
-| 2 — Regularisation | Can broader evidence and adjusted contributions stabilise estimates? | Fixed/Adaptive B2–B1, information allocation, equal/partial ID weighting. |
-| 3 — Spatial information | What can neighbouring origins contribute? | Endpoint/displacement benchmark and endpoint refinements. Exact-origin whole-path E5 remains incomplete/deferred. |
-| 4 — Conditioning and precise position | Do season, direction, exact coordinates or position errors help? | Temporal, seasonal/direction, exact-origin, repaired endpoint-error and seasonal closing comparisons. Wind/speed proposals are not completed experiments. |
-| 5 — Parametric continuous transition distributions | Can Gaussian, GMM or neural conditional estimation improve the location distribution? | Complete LocalGaussian, local GMM and MDN1/2/4/8/16/32 seven-day comparisons. |
+| Environment and configuration | One configuration cell | Installs/checks locked packages in the current Python and loads the notebook controls |
+| Complete workflow | One execution cell | Replays development-data cleaning → report-covered Stage 1 → report-covered Stage 2 → report figures and presentation data |
+| Data preprocessing only | Data inspection, cleaning, Markov input preparation | Runs the named preparation without fitting models |
+| Stage 1 only | Whole-stage cell, then individual model cells | Reproduces the first-round models, comparisons, and diagnostics covered in W06, or one experiment |
+| Stage 2 only | Whole-stage cell, then individual model cells under five steps | Reproduces the second-round experiments covered in W07–W11, or one experiment |
+| Final model and report | Frozen prediction, figures, presentation data, final-model comparison summaries | Uses the final model or published results without refitting |
 
-Step 5 retains a position-conditioned Markov transition-kernel interpretation in continuous space. Step numbers are research stages, not forecast horizons. Long-horizon recursive accuracy, physical grounding, oil weathering and object-specific operational performance remain unvalidated.
+**Run All starts the complete report workflow.** The notebook's group buttons select the experiments covered by the report and preserve all data entries. After a complete workflow or whole stage succeeds, its individual model cells show the existing output instead of repeating those fits in the same kernel. To refit a model already completed by a group, restart the kernel, rerun the configuration cell, and run that model's cell. Every task prints its status and output folder.
 
-## Latest MDN finding
+The complete-workflow cell includes raw cleaning. Each model then uses its original fixed input snapshot; freshly cleaned files do not automatically replace those inputs. Figure generation uses the published predictions and frozen final model. The last Gaussian timing check exceeded its original computing-time limit; that fit currently stops at its budget check, and a complete end-to-end run remains unverified. Details are in [docs/reproduction_audit.md](docs/reproduction_audit.md).
 
-Inner selection chose **K=1 among eligible candidates**. Larger mixtures did not satisfy the two-window rules; K=4/32 had slightly lower pooled inner ES but worsened in the later window. All six complexities were nevertheless trained and evaluated. The experiment contains 72 fits; final training uses 265,393 pairs / 338 drifters (2001–2019), and development validation uses 33,971 pairs / 45 drifters (2020–2022).
+The B0/B1/B2 baselines share their original fitting cell; the regularized-model comparison also recomputes the five-fold baseline scores in report Table 6. The twelve-count network comparison includes all six initial candidate component counts, so a whole-stage run fits those models once. The recorded-summary cell retrieves the final-model comparison reported in Table 11.
 
-Against LocalGaussian, MDN1 reduces mean ES from **134.777 to 128.702 km** and mean 90% ellipse area from **216,097 to 175,929 km²**, but observed coverage falls from **91.54% to 87.63%**. The paired ES interval crosses zero. **Quality-preserving improvement was not established.** Negative results, numerical checks and uncertainties are retained.
+### Optional command-line use
 
-These are development results. The 517-ID final-test set remains locked. Different cohorts, evaluation weights, Brier grid resolutions and ES are not one leaderboard. See the [historical Markov publication](docs/markov_results.md) for earlier methods and evidence.
+Individual operations are also available through `code/workflow.py`. The command-line group aliases `stage1.all`, `stage2.all`, and `full.refit` retain the broader historical task lists; they do not apply the notebook's report-only selection. Use the notebook for the report workflow, or specify command-line tasks explicitly, for example `full.refit --tasks stage2.step1 stage2.step2.adaptive`.
 
-## Data and implementation
+For late model initialization without training, use `--prepare-only`, for example `python code/workflow.py run stage2.step5.gaussian --prepare-only`. A prepared run has verified setup and input contracts; it is not a completed fit.
 
-The canonical release remains `per-drifter-cleaned-20261017-v7`: 3,741 IDs, 39,099,193 hourly records and 62 columns. The [Data Contract](docs/contract/data_contract_v1.0.xlsx), [data dictionary](docs/data_dictionary.md), [preprocessing guide](docs/preprocessing.md) and [data layout](docs/data_layout.md) preserve definitions and limitations. Position-error repair is an additive supplement; original data are retained.
+List or inspect tasks before a long run:
 
-The release polygon R has bounds `[-81, 30, -73, 35.5]`; domain D spans `81–8°W, 20–55°N`. Polygon membership defines eligible starts. Older stopped-domain and newer direct endpoint targets must be distinguished.
-
-Source is organised into shared `common/`, empirical `baselines/`, iterative `markov_models/` and Gaussian/GMM/MDN `continuous_models/` under `src/data3001/modelling/`. See the [code guide](docs/code_guide.md). Contracts, configurations and tests accompany the results. The protected stage ledger remains the historical approval record; this publication index does not rewrite approved hypotheses.
-
-## Read, reuse and reproduce
-
-Reading reports requires no training. For Python, follow [getting started](docs/getting_started.md), use Python 3.12 and an isolated environment:
-
-```sh
-python -m pip install -e '.[continuous,data-repair]'
-python -m unittest discover -s tests -v
+```bash
+python code/workflow.py list
+python code/workflow.py inspect stage2.step1
 ```
 
-The publication check passed **902 tests**. Six final MDN checkpoints and manifests are published at their original run paths; the [inference guide](results/deliverables/conditional_mdn_s5_e3/inference_usage.md) loads the selected model without training data or validation outcomes. Saved local Gaussian/GMM query parameters and scored summaries are also available.
+Equivalent command-line examples:
 
-The [publication inventory](provenance/reviews/modelling_publication_20261109.json) records included artifacts and omitted caches. Full experimental replay requires the matching omitted input/lineage caches or an approved rebuild. Large donor lineages, per-node scoring caches, local app runtimes and duplicate interrupted outputs remain local. No fitting, original-data change or final-test evaluation was performed for this publication.
+```bash
+python code/workflow.py run predict.final_mdn22 --longitude -78 --latitude 33
+python code/workflow.py run stage2.step1
+python code/workflow.py run report.rebuild
+```
+
+The notebook uses full method names above the execution cells. The command-line registry also records each task's scope, execution status, and last-successful receipt.
+
+## Directory guide
+
+Start with the notebook in `code/`. The main folders below separate data, programs, experimental settings, saved models, and results. The tree shows the project layout; local data and generated outputs have the delivery requirements described under **Transfer to another machine**.
+
+```text
+work_place/
+├── README.md                             # Start here: setup and reproduction guide
+├── START_HERE.command                    # Automatic setup and browser notebook
+├── pyproject.toml                        # Python dependency definitions
+├── uv.lock                               # Locked package versions
+├── .python-version                       # Reference Python version
+│
+├── code/                                 # All executable research code
+│   ├── run_experiments.ipynb              # Configuration and runnable report experiments
+│   ├── environment/                      # Python/package setup and environment checks
+│   ├── data_preprocessing/
+│   │   ├── region_selection/             # Choose the study region
+│   │   ├── download/                     # Acquire source data
+│   │   ├── cleaning/                     # Clean records and apply approved repairs
+│   │   └── pair_generation/              # Build qualified prediction pairs
+│   ├── modelling/
+│   │   ├── stage1/                       # First research round
+│   │   │   ├── empirical_baselines/      # Fit and evaluate B0, B1, and B2
+│   │   │   ├── regularization/           # Blend local and pooled information
+│   │   │   ├── spatial_information/      # Share neighbouring endpoints/displacements
+│   │   │   ├── drogue_comparison/        # Compare drogue states
+│   │   │   ├── markov_iteration/         # Iterate transitions and diagnose propagation
+│   │   │   └── hourly_continuous_models/ # Hourly Gaussian and mixture-density models
+│   │   └── stage2/                       # Second research round: five steps
+│   │       ├── step1_empirical_matrix/
+│   │       ├── step2_regularized_matrix/
+│   │       ├── step3_spatial_information/
+│   │       ├── step4_conditioned_transitions/
+│   │       └── step5_continuous_distributions/
+│   ├── shared/                           # Common data access, geometry, and scoring
+│   ├── reproduction/                     # Run tasks and record inputs/outputs
+│   ├── reporting/                        # Generate analyses, figures, and presentation data
+│   └── tests/                            # Scientific and delivery checks
+│
+├── data/                                 # Data and metadata; no executable code
+│   ├── raw/                              # Original source data
+│   ├── train/                            # Development trajectories, one file per drifter
+│   ├── test/                             # Sealed final-test trajectories
+│   ├── reference/                        # Region boundaries, land masks, and auxiliary data
+│   ├── metadata/                         # Sources, schemas, splits, and qualification records
+│   └── prepared/                         # Fixed model inputs and report analysis tables
+├── configs/                              # Experimental parameters and settings
+│   ├── data_preprocessing/
+│   ├── stage1/
+│   ├── stage2/
+│   └── reporting/
+├── saved_models/
+│   ├── final_mdn22/                      # Frozen final 22-component model
+│   ├── comparison_models/                # Saved comparison models
+│   └── registry.json                     # Model identities and checksums
+├── results/
+│   ├── reference/                        # Recorded experiment results for comparison
+│   └── reproduced/                       # New outputs from each notebook run
+├── report/
+│   ├── DATA3001_Final_Report_CN.docx      # Current Chinese report
+│   ├── figures/                          # Report figures
+│   └── presentation/                     # Website presentation
+├── docs/                                 # Contracts, research records, and reproduction audit
+├── provenance/                           # Source identities, migration maps, and check records
+└── archive/                              # Preserved history and original inputs
+```
+
+`data/` contains data and explanatory metadata, not executable programs. First-round work is an active part of the research deliverable. Old source, configuration, and run locations retain compatibility links; the readable implementations are under `code/`.
+
+## Data and experimental definitions
+
+The current release is `per-drifter-cleaned-20261017-v7`: **3,741 drifters, 39,099,193 hourly records, 62 fields**. The 3,224 development drifters include the historical training and development-validation roles. These roles are distinct from the 517 sealed final-test drifters.
+
+The final seven-day study uses 265,393 training pairs from 338 drifters in 2001–2019, and 33,971 development-validation pairs from 45 drifters in 2020–2022. The original contracts define pair qualification, exact-time matching, exit and unresolved states, weighting, and scores. They remain unchanged during migration.
+
+- **First round:** B0 persistence, pooled-origin B1, origin-cell B2; regularization, spatial borrowing, drogue comparisons, and short-step iteration. The hourly continuous models belong to this round.
+- **Step1 — Empirical transition matrix:** empirical B2 reference.
+- **Step2 — Regularized / Bayesian matrix:** B1/B2 blending and drifter contribution weights.
+- **Step3 — Spatially structured matrix:** neighbouring endpoint and displacement information.
+- **Step4 — Time- and environment-dependent transitions:** seasonal comparisons, departure direction, exact origin, and position uncertainty.
+- **Step5 — Memory-aware / latent-state models:** implemented here as Gaussian, Gaussian mixture, and conditional mixture-density distributions. Explicit latent-state sequence models were not implemented.
+
+The final recommended network has 22 components after development review. The original contract selection returned one component; both identities are recorded in `saved_models/registry.json`. No final-test performance is claimed. Stopped exploratory branches remain stopped.
+
+## Reproduction order and records
+
+The scientific dependency order is:
+
+1. Fixed raw source and auxiliary records → approved cleaning and repairs → current development trajectories and qualification.
+2. Qualified pairs and development folds → first-round empirical and iterative models.
+3. Empirical matrix → regularization → spatial sharing → time/position conditions.
+4. Exact-origin coordinates and temporal roles → Gaussian → Gaussian mixture → initial six network component counts → twelve-count comparison.
+5. Frozen final model and recorded comparisons → case figures, whole-region analysis, and report figures.
+
+Individual model tasks may reuse a published upstream input snapshot; their scope and input manifest state that reuse. Reusing inputs is distinct from reusing a fitted model. Original source hashes and fixed input identities are enforced by the scientific programs.
+
+Each task creates `results/reproduced/<run_id>/` with `run.json`, `input_manifest.json`, command logs, and outputs. Original programs run in an isolated reconstruction of their historical directory layout, preserving their relative paths and source checks. The migration does not change the model algorithms.
+
+Read [docs/reproduction_audit.md](docs/reproduction_audit.md) for completed checks. The final idle Gaussian preflight passed all 128 numerical controls but projected 16,566.78 seconds including the original reserve, above its unchanged 14,400-second cap. The original gate therefore stops that full fit. Other long-duration model fits and the complete suite have not been rerun during this migration; their initialization checks are recorded separately. The full historical network fits took many hours; current runtime is recorded per execution. A successful frozen prediction or figure redraw is not labelled a full refit.
+
+## Report figures and regional analysis
+
+The report-figure cell uses the saved regional tables. To recompute the whole-region integration with the frozen model, replace that cell's call with:
+
+```python
+result = notebook.run("report.rebuild", recompute_region=True)
+```
+
+This uses the same frozen 22-component model and original integration rules. It does not retrain. The **0.8605277% unresolved whole-region release weight** represents wet-area release locations without eligible training-origin support and remains part of the total probability. It is not a grounding probability.
+
+Presentation data can be regenerated with `python code/workflow.py run presentation.export`. Fixed geographic inputs and their source identities are in `data/reference/presentation_inputs/`.
+
+The current Word report has not been rewritten by the migration. The website can be served locally from the project root:
+
+```bash
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/report/presentation/`. Chinese figures use an available CJK font such as PingFang HK, Arial Unicode MS, or Noto Sans CJK SC.
+
+## Verify implementation and inputs
+
+```bash
+python code/environment/configure.py
+python code/environment/verify.py
+```
+
+Use the same Python as the notebook. The first command is the notebook's package configuration entry; the second reconstructs the original scientific test environment and runs the unchanged test suite. It does not supply the sealed drifter used by one historical SST regression case; that case remains skipped. Development-only regression fixtures and synthetic access-protection tests are included.
+
+[docs/migration_manifest.json](docs/migration_manifest.json) maps original files to their new locations and records hashes. Migration backups and checks are under `provenance/migrations/code_delivery_20261122/`. `archive/` is retained unchanged.
+
+## Transfer to another machine
+
+The frozen final model is self-contained under `saved_models/`. Its inference path has passed in a separate directory with reads of the original workspace data and code blocked; the installed Python environment was shared. Full fitting and raw replay additionally need the registered trajectory, qualification, prepared-input, and historical evidence files. Large local run directories are not automatically published by moving them.
+
+Use the data and migration manifests to transfer the required inputs with their relative locations and verify their hashes. This migration does not upload a data bundle or change the remote repository. Before distributing a GitHub-only submission, the release must include the necessary input package or a verified retrieval location; a code-only checkout must not be described as a complete research-data delivery.

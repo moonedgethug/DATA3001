@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#082b3d" />
+    <title>Part 4 · Results & next steps | Where Things End Up</title>
+    <meta
+      name="description"
+      content="Source-backed model comparisons, limits of seven-day endpoint prediction, and the next research questions."
+    />
+    <link rel="stylesheet" href="./pt4/style.css?v=p4v1" />
+    <link rel="stylesheet" href="./flow/chapter.css?v=flow1" />
+    <script src="./flow/entry.js?v=flow1"></script>
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+  </head>
+  <body>
+    <main
+      id="stage"
+      data-phase="loading"
+      aria-label="Part 4 results and next steps"
+    >
+      <div id="world" aria-hidden="true"></div>
+      <div class="veil" aria-hidden="true"></div>
+      <header class="masthead">
+        <a class="brand" href="./pt1.html#01"
+          ><b>≈</b><span>WHERE THINGS<br />END UP</span></a
+        ><span class="course">UNSW · DATA3001</span
+        ><a href="./pt3.html#model/mdn22">← Model collection</a
+        ><button id="evidence">Evidence & definitions</button>
+      </header>
+      <section id="content" aria-live="polite"></section>
+      <footer>
+        <div class="live">
+          <span class="status-dot"></span
+          ><span id="motion-status">LIVE OCEAN</span
+          ><button id="motion">Ⅱ Pause</button>
+        </div>
+        <nav id="scene-nav" aria-label="Results chapters"></nav>
+        <div class="arrows">
+          <button id="prev" aria-label="Previous scene">←</button
+          ><span id="count">01 / 04</span
+          ><button id="next" aria-label="Next scene">→</button>
+        </div>
+      </footer>
+      <div id="loading">Bringing the results into view…</div>
+      <div id="error" hidden>
+        Results could not be loaded. Please reload this page.
+      </div>
+      <dialog id="notes" aria-labelledby="notes-title">
+        <button class="close" aria-label="Close evidence">×</button>
+        <div id="notes-body"></div>
+      </dialog>
+    </main>
+    <script type="module" src="./pt4/app.js?v=flow1-p4v1"></script>
+  </body>
+</html>

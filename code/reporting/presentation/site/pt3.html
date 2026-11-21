@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#052d40" />
+    <title>Part 3 · The model collection | Where Things End Up</title>
+    <meta
+      name="description"
+      content="Explore five stages of seven-day drifter probability modelling: empirical transitions, borrowing, exact origins and conditional densities."
+    />
+    <link rel="stylesheet" href="./pt3/style.css?v=p3v3" />
+    <link rel="stylesheet" href="./flow/chapter.css?v=flow1" />
+    <script src="./flow/entry.js?v=flow1"></script>
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+  </head>
+  <body>
+    <main
+      id="stage"
+      data-phase="loading"
+      data-view="gallery"
+      aria-label="Part 3 modelling presentation"
+    >
+      <div id="world" aria-hidden="true"></div>
+      <div id="vignette" aria-hidden="true"></div>
+      <header class="masthead">
+        <a class="brand" href="./pt1.html#01"
+          ><b>≈</b><span>WHERE THINGS<br />END UP</span></a
+        >
+        <div class="mast-right">
+          <span>UNSW · DATA3001</span><a href="./pt2.html#05">← Data & design</a
+          ><button id="evidence">Evidence & scoring</button>
+        </div>
+      </header>
+      <section id="gallery" aria-label="Model collection">
+        <div class="gallery-heading">
+          <p class="eyebrow">PART 03 / MODELLING</p>
+          <h1>A deeper look<br />at where things end up.</h1>
+          <p>Five stages. One seven-day question.</p>
+        </div>
+        <div id="shelf" aria-label="Choose a model"><div id="cards"></div></div>
+        <div id="caption">
+          <p class="eyebrow" id="card-step"></p>
+          <div class="caption-row">
+            <button id="rotate-prev" aria-label="Previous model">←</button
+            ><button id="open-model" aria-label="Open selected model">
+              <span id="card-title"></span
+              ><small>EXPLORE MODEL <span>↗</span></small></button
+            ><button id="rotate-next" aria-label="Next model">→</button>
+          </div>
+          <p id="card-description"></p>
+        </div>
+        <nav id="steps" aria-label="Five research stages"></nav>
+        <p class="gallery-hint">
+          Drag or click to explore · Enter / → to present · Esc to return
+        </p>
+      </section>
+      <section
+        id="detail"
+        aria-label="Model results"
+        aria-live="polite"
+        hidden
+      ></section>
+      <footer class="frame-nav">
+        <div>
+          <span id="motion-status">LIVE OCEAN</span
+          ><button id="motion">Ⅱ Pause</button>
+        </div>
+        <div class="story-controls">
+          <button id="story-prev" aria-label="Previous scene">← Previous</button
+          ><button id="story-next" aria-label="Next scene">Continue →</button>
+        </div>
+        <a id="results-link" href="./pt4.html#01"
+          >Part 4 · Results & interpretation →</a
+        >
+      </footer>
+      <div id="loading" role="status">
+        <span>≈</span>
+        <h2>Opening the model collection</h2>
+        <p>Ocean · observations · probability</p>
+      </div>
+      <div id="error" hidden>
+        <h2>The model collection could not load</h2>
+        <p>Please refresh, or continue with the existing presentation.</p>
+        <a href="./index.html#/09">Open modelling outline →</a>
+      </div>
+    </main>
+    <dialog id="notes">
+      <button class="dialog-close" aria-label="Close evidence and scoring">
+        ×
+      </button>
+      <div id="notes-body"></div>
+    </dialog>
+    <script type="module" src="./pt3/app.js?v=flow1-p3v3"></script>
+  </body>
+</html>

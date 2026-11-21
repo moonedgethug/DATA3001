@@ -1,0 +1,16 @@
+{
+  "source": "work_place/results/runs/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet",
+  "source_sha256": "8638434fb651d10737a2827350d5ff98a3a76a5f3427778748c17a3ddb68715d",
+  "source_columns": [
+    "id",
+    "origin_time_UTC"
+  ],
+  "grouping": "UTC origin year",
+  "pairs": 265393,
+  "unique_drifters": 338,
+  "year_id_counts_overlap": true,
+  "pair_counts_sum_to_total": true,
+  "new_training": false,
+  "final_test_access": false,
+  "script_sha256": "f11b4d3e98a389aea55852ae0a63fe7490fb79a58a223519c9ebfc14c571dd52"
+}

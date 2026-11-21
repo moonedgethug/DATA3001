@@ -1,0 +1,22 @@
+{
+  "purpose": "Report labels and layout; existing plot values and aggregation retained",
+  "sources": {
+    "trace": {
+      "path": "work_place/results/runs/continuous_diagnostic_report_20261029T055315_213458Z/trace_summary.csv",
+      "sha256": "5a4ad0fcaa0985711fef0b3894fa304773c89eaff8f2c2afe8f4050df38a2b52"
+    },
+    "one_step": {
+      "path": "work_place/results/runs/continuous_diagnostics_20261029T054731_635202Z/one_step_summary.csv",
+      "sha256": "33126e10198818c8e908c0e767f1131b61302298b2842f47c834c3c530b72b88"
+    },
+    "spatial": {
+      "path": "work_place/results/deliverables/spatial_borrowing_s3_e1/summary.csv",
+      "sha256": "a68b90050b004bb6a62e040af5bc70a26006544cdc08fdd3d39a6d741c1bea57"
+    },
+    "exact": {
+      "path": "work_place/results/deliverables/exact_origin_s4_e7/summary.csv",
+      "sha256": "69e41dc91c88c408a5eacdf7b309372f69094f1e781bf5e207a7a0620571358f"
+    }
+  },
+  "new_fitting_or_scoring": false
+}

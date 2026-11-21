@@ -1,0 +1,1 @@
+../../../../../modelling/stage2/step3_spatial_information/run_local_endpoint_adaptive_s3_e2.py

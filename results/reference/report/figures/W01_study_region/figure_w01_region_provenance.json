@@ -1,0 +1,75 @@
+{
+  "figure": "W01-F1",
+  "purpose": "Geographic locator and release-region definition",
+  "date_sydney": "2026-11-19",
+  "sources": {
+    "release_R": {
+      "path": "work_place/archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson",
+      "sha256": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a"
+    },
+    "land": {
+      "path": "work_place/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb",
+      "sha256": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73"
+    }
+  },
+  "region_bounds_lonlat": [
+    -81.0,
+    30.0,
+    -73.0,
+    35.5
+  ],
+  "region_vertices_lonlat": [
+    [
+      -80.0,
+      32.0
+    ],
+    [
+      -77.375,
+      35.5
+    ],
+    [
+      -73.0,
+      35.5
+    ],
+    [
+      -73.0,
+      31.333333333333332
+    ],
+    [
+      -75.0,
+      30.0
+    ],
+    [
+      -81.0,
+      30.0
+    ],
+    [
+      -80.0,
+      32.0
+    ]
+  ],
+  "region_definition": "Original Gulf Stream Corridor intersected with [-82,30,-73,35.5]",
+  "coordinate_system": "WGS84 lon/lat; aspect corrected at each panel's mid-latitude",
+  "coastline": "GSHHG 2.3.7, intermediate-resolution level-1 land",
+  "font": "Arial Unicode MS",
+  "data_use": "Registered geometry only; no drifter records or predictions read",
+  "versions": {
+    "matplotlib": "3.10.8",
+    "shapely": "2.2.0"
+  },
+  "script_sha256": "7c492203353d35eb42aba46ba9604c1d7eadfb1524f89ddb5aa556ba38aaa89a",
+  "outputs": {
+    "figure_w01_region_zh.png": {
+      "sha256": "107df72ddc0e4e72e28533d34dbd6e052756a724173a9fc030aa8e62100e3269",
+      "bytes": 403611
+    },
+    "figure_w01_region_zh.svg": {
+      "sha256": "ce550386bfb88ed2f3331c9fb09e2c75222f63a54a43fcc991e0961e3db124cd",
+      "bytes": 924090
+    },
+    "figure_w01_region_zh.pdf": {
+      "sha256": "6932ae64a874a2fe135b016c4c114f3a0ee37ca64035e6dfbc837e79f318f0da",
+      "bytes": 225679
+    }
+  }
+}

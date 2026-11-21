@@ -1,0 +1,33 @@
+{
+  "asset": "Coast Sand 01",
+  "author": "Rob Tuytel",
+  "license": "CC0",
+  "source": "https://polyhaven.com/a/coast_sand_01",
+  "files": [
+    {
+      "path": "dist/assets/pt1/sand/color.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/coast_sand_01/coast_sand_01_diff_2k.jpg",
+      "md5": "bde59bb3bcdd8d4e9d6fcadc19f038fa"
+    },
+    {
+      "path": "dist/assets/pt1/sand/normal.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/coast_sand_01/coast_sand_01_nor_gl_2k.jpg",
+      "md5": "2a9d793676562b38b5760b9147aa40ea"
+    },
+    {
+      "path": "dist/assets/pt1/sand/roughness.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_rough_1k.jpg",
+      "md5": "978aca9e374cf988095392a91d3a4f71"
+    },
+    {
+      "path": "dist/assets/pt1/sand/ao.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_ao_1k.jpg",
+      "md5": "2c8b0a9e304e316e2b2b31c0d88bff41"
+    },
+    {
+      "path": "dist/assets/pt1/sand/height.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_disp_1k.jpg",
+      "md5": "45b7e36dd5eda2159d5512758ea3dc3f"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Australia/Sydney",
+  "scope": "Notebook direct execution cells and duplicate-fit prevention; original scientific implementations unchanged.",
+  "notebook_schema_valid": true,
+  "code_cells_compile": 44,
+  "registered_tasks": 41,
+  "each_registered_task_has_one_cell": true,
+  "section_order": [
+    "Environment and configuration",
+    "Complete workflow",
+    "Data preprocessing only",
+    "Stage 1 only",
+    "Stage 2 only",
+    "Final model and report",
+    "Source and evidence navigation"
+  ],
+  "full_workflow_includes_raw_replay": true,
+  "task_selector_removed": true,
+  "optional_installation_commented": true,
+  "all_outputs_empty_and_execution_counts_null": true,
+  "mocked_controller_tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": ".venv/bin/python -B -m unittest discover -s code/tests -p test_delivery_notebook_entry.py -q",
+    "includes_actual_notebook_call_order": true
+  },
+  "research_tasks_executed": false,
+  "environment_installation_executed": false,
+  "new_notebook_executed_end_to_end": false,
+  "files": {
+    "code/run_experiments.ipynb": "2e8802af7ebf3003b1ea6e43c27fb02a597c25b67919f62e2e384ef0261f5b74",
+    "code/notebook_entry.py": "dc59f13f087c83800f7475c72fcfcb3d6afb24bfb4247f486ab0d6327b1d4f3f",
+    "code/tests/test_delivery_notebook_entry.py": "d0d117dca8e168db8b8f79cb6c470cd7997a893bcd88e13bf8acb397215f32fe",
+    "README.md": "e24d1bcdc2672bc7127bc943806dfa3e87802fcacbf49513215763f695f2c82b",
+    "code/README.md": "9bff86af912dbed53ce7e47abfb98b1c78db312763ec202d6b4ccd4fff978723",
+    "docs/code_delivery_plan.md": "67e538e0b6af44ad02e1dcc593859da9c63a8bab61e69129ba55e91fecbe4a88"
+  }
+}

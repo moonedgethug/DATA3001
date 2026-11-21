@@ -1,0 +1,11 @@
+# MDN final choice and freeze — approved execution plan
+
+Date: 2026-11-10, Australia/Sydney. Authority: the user explicitly selected MDN22 as the final recommended model, retained MDN1 as the comparator, closed further K search, and requested research-record updates and freezing of all candidate parameters/results. Visualization remains deferred.
+
+1. Verify the completed E4 audit and inactive resource ledger. Preserve byte-exact snapshots of the audit-era research ledger, contracts and source records before changing documentation.
+2. Append the approved decision to the research ledger, update its S5 status and the modelling index, and create a separate final-choice record. Keep the historical experiment's selection, acceptance, registry and audit bytes unchanged. Describe MDN22 as a user-approved choice after development-validation review; the original contract-selected K=1 and failed strict acceptance remain historical findings.
+3. Seal all files in the E4 result and provenance runs, covering all 12 K values, all three fitting/evaluation roles, checkpoints, forecasts, per-query/per-ID scores, controls and audit records. Reuse the existing complete run in place; do not duplicate large model/data files. Record SHA256/size for every sealed file, make payload files/directories read-only, and retain a detached manifest digest. Shared canonical datasets are not copied or permission-modified.
+4. Provide explicit checksum-bound pointers to the final MDN22 and comparator MDN1 full refits. Preserve the historical `load_selected_model` semantics (contract-selected MDN1); document loading the final recommendation through the existing explicit-checkpoint API. No modelling code change is needed.
+5. Independently re-read every frozen file, verify digests and read-only modes, check the complete candidate/role roster and original acceptance invariants, confirm saved MDN22/MDN1 inference is finite and normalized, and record the completed verification. Do not train, rescore, access final-test data, create visualizations, or publish to GitHub.
+
+The freeze closes the MDN K search only. It does not assert global optimality, statistical significance of MDN22's small ES advantage, independent final-test validation, or completion of every unrelated research/report task.

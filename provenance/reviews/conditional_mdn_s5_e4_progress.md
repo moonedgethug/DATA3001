@@ -1,0 +1,19 @@
+# MDN K refinement execution ledger
+
+2026-11-09: User authorized six additional K values (3,6,12,18,20,22), full samples and unchanged MDN definitions. Visualization is explicitly deferred. Existing time/compute waiver remains applicable. E4 contract and plan record this authorization, without a new approval gate.
+
+Workspace: local branch `experiment/mdn-k-refinement-20261109`, based on published `5cd2c9d`. Used the existing checkout because input guards and archived artifact paths resolve against its root; a separate checkout would require changing those scientific provenance paths. No historical sources/data/results edited; no publication requested.
+
+Implementation: isolated E4 derivative, preserved mathematical kernels and RNG namespaces, twelve-candidate registry, explicit hash-bound parent model and score reuse. New candidates receive all three early-stop seeds and a fresh complete-pool refit for each of three roles. No visualization implementation.
+
+Verification so far: initial missing-module RED recorded; eight invariant tests subsequently passed. Expanded integration suite (12 tests) passed, including exact optimizer updates across E3/E4, public inference on parent/new checkpoints, real audited parent import/resume/tamper rejection and full-precision scoring equivalence for K=3. Full regression suite and fresh code review pending. Scientific training has not started.
+
+Full regression: 928 tests passed in 71.767 seconds. Fresh review completed; one interrupted-copy finding reproduced and repaired with atomic verified imports. All 18 parent model chains and four score-stream declarations revalidated. Full calculation started as conditional_mdn_s5_e4_20261109T082930_653149Z; no scientific definition changed.
+
+2026-11-10 completion: full calculation and independent final audit both exited successfully. The final audit passed and bound 5,873 evidence files. All three roles contain all 12 K values: 72 new fits and 72 byte-preserved parent fits, with 144 distinct checkpoints. Public checkpoint inference reproduced every frozen forecast. The outer comparison includes all 33,971 pairs from 45 drifters, with zero excluded queries. No final-test data were accessed. ES and region counts remained 65,536; no precision escalation was needed.
+
+Internal selection: K=3 improved pooled ES from 155.505814 to 152.354916, but failed the unchanged quality gate. In C_T1 its hit rate increased by 2.486 percentage points while area increased by 4.780%; C_T0 hit non-regression was unresolved numerically. The predeclared fallback therefore selected K=1. All six new outer models were nevertheless fully fitted and scored, as authorized.
+
+Outer descriptive result: K=22 had the lowest average ES among the 12 MDNs (128.245036 km), H90=90.176912%, and mean area=184,803.369 km². Relative to K=16, ES decreased 0.4182%, H90 increased 0.5555 percentage points, and area increased 1.6653%. This is a tradeoff, not quality non-regression under the fixed area rule. It does not replace the training-selected K. The primary model's overall retention criterion was not met; engineering completion is distinct from scientific acceptance. These are repeated development-validation results, not independent final-test evidence.
+
+Final outputs: `results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/summary.csv`, `comparisons.csv`, `selection.json`, `acceptance.json`, `model_registry.json`, and the corresponding `provenance/.../formal_v1/final_audit.json`. The registry indexes all 12 full-refit checkpoints with verified checksums. The audited selected-model loader was exercised at (-75.5, 30.0); probabilities summed to 1 and covariances were finite and positive definite. Formal calculation plus audit took 19.0106 hours. All computation is stopped. No visualization or publication was performed in this task.

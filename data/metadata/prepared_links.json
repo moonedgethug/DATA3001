@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/prepared/seven_day_training_coordinates.parquet",
+    "source": "results/reference/stage2/exact_origin_s4_e7_primary_20261105T074326_829211Z/training_coordinates.parquet",
+    "role": "frozen prepared development input"
+  },
+  {
+    "path": "data/prepared/seven_day_development_queries.parquet",
+    "source": "results/reference/stage2/exact_origin_s4_e7_primary_20261105T074326_829211Z/query_coordinates.parquet",
+    "role": "frozen prepared development input"
+  },
+  {
+    "path": "data/prepared/seven_day_development_targets.parquet",
+    "source": "results/reference/stage2/exact_origin_s4_e7_primary_20261105T074326_829211Z/outer_targets.parquet",
+    "role": "frozen prepared development input"
+  },
+  {
+    "path": "data/prepared/seven_day_temporal_roles.parquet",
+    "source": "results/reference/stage2/exact_origin_s4_e7_primary_20261105T074326_829211Z/roles.parquet",
+    "role": "frozen prepared development input"
+  },
+  {
+    "path": "data/prepared/markov_transition_counts.parquet",
+    "source": "results/reference/stage1/markov_input_20261025T095949_830292Z/transition_counts_by_id.parquet",
+    "role": "frozen prepared development input"
+  },
+  {
+    "path": "data/prepared/markov_release_counts.parquet",
+    "source": "results/reference/stage1/markov_input_20261025T095949_830292Z/release_counts_by_id.parquet",
+    "role": "frozen prepared development input"
+  }
+]

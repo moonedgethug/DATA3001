@@ -1,0 +1,475 @@
+{
+  "status": "complete",
+  "model": "frozen 22-component mixture density network",
+  "horizon_days": 7,
+  "training": {
+    "origins": 265393,
+    "independent_drifters": 338,
+    "start": "2001-09-11 11:00:00+00:00",
+    "end": "2019-11-23 11:00:00+00:00"
+  },
+  "release": {
+    "wet_cells": 39,
+    "supported_cells": 37,
+    "wet_area_km2": 334501.7732867661,
+    "unresolved_weight": 0.008605277291120008,
+    "resolved_weight": 0.99139472270888,
+    "all_origins_in_R_water": true,
+    "cell_membership_verified": true,
+    "weights": "whole_R_release_weight / eligible training origin count in each 1-degree cell",
+    "unsupported_cells": [
+      {
+        "cell": 44380,
+        "lon_min": -80.0,
+        "lat_min": 33.0,
+        "wet_area_in_R": 431.8619392398224,
+        "whole_R_release_weight": 0.0012910602386241767
+      },
+      {
+        "cell": 45103,
+        "lon_min": -77.0,
+        "lat_min": 35.0,
+        "wet_area_in_R": 2446.6185742641587,
+        "whole_R_release_weight": 0.007314217052495832
+      }
+    ],
+    "independent_drifters_min": 6,
+    "independent_drifters_max": 222,
+    "independent_drifters_median": 82.0,
+    "under_20_drifters_area_weight": 0.044464037529714846
+  },
+  "probabilities": [
+    {
+      "scenario": "area_release",
+      "category": "R_water",
+      "probability": 0.6740802254620115,
+      "numerical_standard_error": 1.5286927754938838e-05,
+      "fine_minus_coarse": 5.290722248940671e-05
+    },
+    {
+      "scenario": "area_release",
+      "category": "D_water_outside_R",
+      "probability": 0.31439684058348577,
+      "numerical_standard_error": 1.4807717026674906e-05,
+      "fine_minus_coarse": -4.753982071226126e-05
+    },
+    {
+      "scenario": "area_release",
+      "category": "D_land",
+      "probability": 0.002634325736979268,
+      "numerical_standard_error": 2.366697013936082e-06,
+      "fine_minus_coarse": -7.271608330872755e-06
+    },
+    {
+      "scenario": "area_release",
+      "category": "outside_D",
+      "probability": 0.00028333092640333137,
+      "numerical_standard_error": 1.5370379999911846e-06,
+      "fine_minus_coarse": 1.9042065535710144e-06
+    },
+    {
+      "scenario": "area_release",
+      "category": "unresolved",
+      "probability": 0.008605277291120008,
+      "numerical_standard_error": 0.0,
+      "fine_minus_coarse": 0.0
+    },
+    {
+      "scenario": "historical_origins",
+      "category": "R_water",
+      "probability": 0.6904392869595048,
+      "numerical_standard_error": 1.3159809546461844e-05,
+      "fine_minus_coarse": 4.211489787631084e-05
+    },
+    {
+      "scenario": "historical_origins",
+      "category": "D_water_outside_R",
+      "probability": 0.3082274609302936,
+      "numerical_standard_error": 1.2577490138994528e-05,
+      "fine_minus_coarse": -4.099123579259789e-05
+    },
+    {
+      "scenario": "historical_origins",
+      "category": "D_land",
+      "probability": 0.0011801453157911559,
+      "numerical_standard_error": 1.9243780951463364e-06,
+      "fine_minus_coarse": -2.8524849313513873e-06
+    },
+    {
+      "scenario": "historical_origins",
+      "category": "outside_D",
+      "probability": 0.000153106794410375,
+      "numerical_standard_error": 1.6031109345522134e-06,
+      "fine_minus_coarse": 1.7288228476057478e-06
+    },
+    {
+      "scenario": "historical_origins",
+      "category": "unresolved",
+      "probability": 0.0,
+      "numerical_standard_error": 0.0,
+      "fine_minus_coarse": 0.0
+    },
+    {
+      "scenario": "area_supported_only",
+      "category": "R_water",
+      "probability": 0.6799312221676543,
+      "numerical_standard_error": 1.5419617842227628e-05,
+      "fine_minus_coarse": 5.336645563824849e-05
+    },
+    {
+      "scenario": "area_supported_only",
+      "category": "D_water_outside_R",
+      "probability": 0.31712579599418284,
+      "numerical_standard_error": 1.4936247578780616e-05,
+      "fine_minus_coarse": -4.795246497013572e-05
+    },
+    {
+      "scenario": "area_supported_only",
+      "category": "D_land",
+      "probability": 0.002657191607578115,
+      "numerical_standard_error": 2.3872398750210777e-06,
+      "fine_minus_coarse": -7.334725679196321e-06
+    },
+    {
+      "scenario": "area_supported_only",
+      "category": "outside_D",
+      "probability": 0.0002857902305846051,
+      "numerical_standard_error": 1.5503794450220617e-06,
+      "fine_minus_coarse": 1.9207350109430414e-06
+    },
+    {
+      "scenario": "area_supported_only",
+      "category": "unresolved",
+      "probability": 0.0,
+      "numerical_standard_error": 0.0,
+      "fine_minus_coarse": 0.0
+    }
+  ],
+  "numerical": {
+    "method": "8 independently scrambled Sobol sequences per supported source cell; 4 dimensions: empirical origin, component, Box-Muller pair",
+    "base_seed": 20261121,
+    "points_per_cell_coarse": 65536,
+    "points_per_cell_fine": 262144,
+    "replicates": 8,
+    "total_fine_endpoints": 77594624,
+    "max_category_fine_minus_coarse": 5.336645563824849e-05,
+    "max_category_numerical_standard_error": 1.5419617842227628e-05,
+    "max_grid_fine_minus_coarse": 4.736514641881344e-05,
+    "max_grid_numerical_standard_error": 1.5386391618474474e-05,
+    "max_probability_total_error": 3.3306690738754696e-16,
+    "interpretation": "numerical integration uncertainty conditional on frozen model and fixed empirical release prior; not model-estimation uncertainty"
+  },
+  "outside_R_water_subregions": [
+    {
+      "scenario": "area_release",
+      "subregion": "north_of_R",
+      "probability": 0.17945504861235592,
+      "numerical_standard_error": 1.665112703372507e-05,
+      "fine_minus_coarse": -2.189269646132863e-05
+    },
+    {
+      "scenario": "area_release",
+      "subregion": "east_of_R_below_north_edge",
+      "probability": 0.05920041965293829,
+      "numerical_standard_error": 7.18813250986108e-06,
+      "fine_minus_coarse": -3.920201795223899e-06
+    },
+    {
+      "scenario": "area_release",
+      "subregion": "south_of_R_west_of_east_edge",
+      "probability": 0.06040852438007298,
+      "numerical_standard_error": 1.0579685877715266e-05,
+      "fine_minus_coarse": -5.34392412072926e-06
+    },
+    {
+      "scenario": "area_release",
+      "subregion": "other_R_edge_water",
+      "probability": 0.015332847938118564,
+      "numerical_standard_error": 8.424421348153804e-06,
+      "fine_minus_coarse": -1.6382998334998553e-05
+    },
+    {
+      "scenario": "historical_origins",
+      "subregion": "north_of_R",
+      "probability": 0.140914441225875,
+      "numerical_standard_error": 1.5661880268114973e-05,
+      "fine_minus_coarse": -1.8667982584319454e-05
+    },
+    {
+      "scenario": "historical_origins",
+      "subregion": "east_of_R_below_north_edge",
+      "probability": 0.0700107844391463,
+      "numerical_standard_error": 7.879462424972366e-06,
+      "fine_minus_coarse": -2.7984054280505433e-06
+    },
+    {
+      "scenario": "historical_origins",
+      "subregion": "south_of_R_west_of_east_edge",
+      "probability": 0.0817446873725984,
+      "numerical_standard_error": 1.4098308829214727e-05,
+      "fine_minus_coarse": -1.998153111956724e-06
+    },
+    {
+      "scenario": "historical_origins",
+      "subregion": "other_R_edge_water",
+      "probability": 0.01555754789267389,
+      "numerical_standard_error": 9.00134365734763e-06,
+      "fine_minus_coarse": -1.752669466826423e-05
+    },
+    {
+      "scenario": "area_supported_only",
+      "subregion": "north_of_R",
+      "probability": 0.181012713202683,
+      "numerical_standard_error": 1.679565833094479e-05,
+      "fine_minus_coarse": -2.2082724428357237e-05
+    },
+    {
+      "scenario": "area_supported_only",
+      "subregion": "east_of_R_below_north_edge",
+      "probability": 0.059714277569664166,
+      "numerical_standard_error": 7.250525290491223e-06,
+      "fine_minus_coarse": -3.954229032515633e-06
+    },
+    {
+      "scenario": "area_supported_only",
+      "subregion": "south_of_R_west_of_east_edge",
+      "probability": 0.06093286861061066,
+      "numerical_standard_error": 1.0671517242707209e-05,
+      "fine_minus_coarse": -5.390309226319112e-06
+    },
+    {
+      "scenario": "area_supported_only",
+      "subregion": "other_R_edge_water",
+      "probability": 0.015465936611225039,
+      "numerical_standard_error": 8.497545079860261e-06,
+      "fine_minus_coarse": -1.6525202282933332e-05
+    }
+  ],
+  "subregion_definitions": {
+    "north_of_R": "D water outside R with latitude >= 35.5N, including northeast",
+    "east_of_R_below_north_edge": "D water outside R with longitude >= 73W and latitude < 35.5N",
+    "south_of_R_west_of_east_edge": "D water outside R with latitude < 30N and longitude < 73W",
+    "other_R_edge_water": "remaining D water outside the actual R polygon"
+  },
+  "saved_case_parameter_max_absolute_differences": {
+    "weights": 3.885780586188048e-16,
+    "means_km": 4.547473508864641e-13,
+    "covariances_km2": 8.731149137020111e-11
+  },
+  "parameter_checks": [
+    {
+      "cell": 43299,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 214.8571369649252
+    },
+    {
+      "cell": 43300,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 214.91526571419865
+    },
+    {
+      "cell": 43301,
+      "max_weight_sum_error": 4.440892098500626e-16,
+      "min_covariance_eigenvalue": 108.06446728732627
+    },
+    {
+      "cell": 43302,
+      "max_weight_sum_error": 4.440892098500626e-16,
+      "min_covariance_eigenvalue": 94.94302190221262
+    },
+    {
+      "cell": 43303,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 64.02525600818673
+    },
+    {
+      "cell": 43304,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 54.4995113089535
+    },
+    {
+      "cell": 43305,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 54.294514713723714
+    },
+    {
+      "cell": 43306,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 56.98272921824406
+    },
+    {
+      "cell": 43659,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 126.71639662074645
+    },
+    {
+      "cell": 43660,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 127.24474420904265
+    },
+    {
+      "cell": 43661,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 207.40771811058931
+    },
+    {
+      "cell": 43662,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 114.23656843954895
+    },
+    {
+      "cell": 43663,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 93.3477850031309
+    },
+    {
+      "cell": 43664,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 59.73388192142551
+    },
+    {
+      "cell": 43665,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 59.02291504009462
+    },
+    {
+      "cell": 43666,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 55.677036748350574
+    },
+    {
+      "cell": 44020,
+      "max_weight_sum_error": 7.771561172376096e-16,
+      "min_covariance_eigenvalue": 104.01170453514288
+    },
+    {
+      "cell": 44021,
+      "max_weight_sum_error": 8.881784197001252e-16,
+      "min_covariance_eigenvalue": 111.42579875952066
+    },
+    {
+      "cell": 44022,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 150.23175608911055
+    },
+    {
+      "cell": 44023,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 83.04225687176739
+    },
+    {
+      "cell": 44024,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 84.35858288572841
+    },
+    {
+      "cell": 44025,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 61.63711459745745
+    },
+    {
+      "cell": 44026,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 57.206321796444335
+    },
+    {
+      "cell": 44381,
+      "max_weight_sum_error": 7.771561172376096e-16,
+      "min_covariance_eigenvalue": 99.54171584135025
+    },
+    {
+      "cell": 44382,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 81.51831577503246
+    },
+    {
+      "cell": 44383,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 97.46341108134173
+    },
+    {
+      "cell": 44384,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 94.05963008471912
+    },
+    {
+      "cell": 44385,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 69.30019629776109
+    },
+    {
+      "cell": 44386,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 57.97275548110016
+    },
+    {
+      "cell": 44742,
+      "max_weight_sum_error": 8.881784197001252e-16,
+      "min_covariance_eigenvalue": 64.8670362745907
+    },
+    {
+      "cell": 44743,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 70.73339868621773
+    },
+    {
+      "cell": 44744,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 171.85205859406767
+    },
+    {
+      "cell": 44745,
+      "max_weight_sum_error": 5.551115123125783e-16,
+      "min_covariance_eigenvalue": 309.08750792839334
+    },
+    {
+      "cell": 44746,
+      "max_weight_sum_error": 6.661338147750939e-16,
+      "min_covariance_eigenvalue": 109.48625135416852
+    },
+    {
+      "cell": 45104,
+      "max_weight_sum_error": 4.440892098500626e-16,
+      "min_covariance_eigenvalue": 166.27938801947877
+    },
+    {
+      "cell": 45105,
+      "max_weight_sum_error": 4.440892098500626e-16,
+      "min_covariance_eigenvalue": 381.8361881547324
+    },
+    {
+      "cell": 45106,
+      "max_weight_sum_error": 4.440892098500626e-16,
+      "min_covariance_eigenvalue": 448.7722902798453
+    }
+  ],
+  "main_view": [
+    -82.0,
+    27.0,
+    -63.0,
+    43.0
+  ],
+  "display_grid_bounds": [
+    -85.0,
+    20.0,
+    -55.0,
+    45.0
+  ],
+  "outside_main_view": {
+    "area_release": 0.000436560506935311,
+    "historical_origins": 0.00027860954101747407,
+    "area_supported_only": 0.0004403498394085215
+  },
+  "outside_display_grid": {
+    "area_release": 1.1484812694040798e-06,
+    "historical_origins": 7.14088767059606e-07,
+    "area_supported_only": 1.158450053340992e-06
+  },
+  "map_units": "probability per 0.5-degree display cell; land probability retained",
+  "land_policy": "registered high-resolution coastline, matching regional wet-area release policy; outside D classified first",
+  "new_training": false,
+  "model_selection": false,
+  "final_test_access": false,
+  "w12_body_modified": false,
+  "elapsed_seconds": 124.98376425000606
+}

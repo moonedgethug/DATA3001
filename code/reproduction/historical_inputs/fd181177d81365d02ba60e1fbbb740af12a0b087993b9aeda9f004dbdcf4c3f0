@@ -1,0 +1,175 @@
+# Research Stage Ledger
+
+**Authority:** user-approved research decisions only. The Data Contract and approved amendments govern scientific definitions. Detailed historical evidence remains in `modelling_round1_plan.md` and immutable runs.
+
+**Workflow:** understand → plan → user lock → implement → audit → user closure.
+
+**Completed S1 record:** [method, assumptions, Brier evaluation and results](empirical_b2_results.md).
+
+**S2 completed engineering evidence:** [independent E4 v1 results and audit](partial_weighting_e4_results.md); [E3 v2 results](drifter_shrinkage_e3_results.md); [E2 results](b2_b1_e2_results.md) and [earlier E1 results](adaptive_b2_b1_results.md) remain available under their original targets. The publication milestone below records progress through Step 3 without asserting universal model superiority.
+
+**Change rule:** add or revise entries only after user confirmation. Preserve approved decisions; record later amendments explicitly. Engineering logs belong in run artifacts. No stage requires a favourable result or a more complex model; a proposed deferral still requires user-approved closure.
+
+| Stage | Research task | Approved status |
+|---|---|---|
+| S1 | B2 empirical transition matrices | Completed; user-approved closure and frozen baseline |
+| S2 | Regularisation / Bayesian estimation | E1–E4 executed and audited; Fixed and Adaptive retained as research outcomes |
+| S3 | Spatial information | E1–E4 executed, audited and replayed; E5 exact-coordinate extension deferred |
+| S4 | Time / environmental conditioning | Seasonal review concluded. E4 heading comparison complete. E5 speed-only design under review. |
+| S5 | Memory / latent states | Not started |
+
+## S1 — Research plan v1 approved, 29 October 2026
+
+- **Question:** what reproducible 7/30-day destination distributions can cell-only empirical frequencies provide, and what are their measured limitations?
+- **Scope:** B2 only; final cleaned v7 data; 1-degree cells; annual-pooled; independent 7/30-day estimates. Retain existing qualification, stopped target, equal-pair weights and development/test boundaries. No new predictors, smoothing or iterative propagation.
+- **Plan:** reuse qualified counts and five whole-ID folds; reconstruct ten evaluation matrices and two all-development candidates; inspect support, reproduce held-out scores and prepare the independent B2 account. No inner search.
+- **Deliverables:** indexed matrices, row-support tables, held-out metrics, 200 whole-ID bootstrap uncertainty, English report/maps, configuration and provenance.
+- **Acceptance:** conserved mass, valid states/counts, no ID leakage, reproducible reference results, disclosed limitations and reusable artifacts. Predictive improvement is not an acceptance requirement.
+- **Budget:** estimated 0.5–1 engineering day; 30-minute complete-run compute cap before investigation.
+- **Execution / result / closure:** not started / pending / pending user review.
+- **Next gate:** explain unresolved mass U and review the detailed engineering specification. New implementation details remain proposals until approved.
+
+## S1 — Approved amendment, 29 October 2026
+
+- **Evaluation:** standard multiclass Brier only. Spatial scores, Energy Score and combined linear/quadratic loss are deferred and are not S1 completion requirements. Brier's lack of geographic-distance sensitivity must be disclosed.
+- **Experiment identity:** run a separate standard B2 experiment with its own configuration, predictions, scores and immutable run ID. Verified data/qualification assets and whole-ID folds may be reused; historical model outputs or scores are not inputs or acceptance targets. This supersedes v1's reference-result reproduction requirement.
+- **Next gate:** review [the consolidated engineering plan](empirical_b2_plan.md), including its explicit proposal for unsupported rows and score denominators. No model development or experiment execution before the user's final confirmation.
+- **Execution / result / closure:** not started / pending / pending user review. The amendment records approved scope; it does not approve all implementation details in the linked plan.
+
+## S1 — Engineering E2 approved, 29 October 2026
+
+- **Authorisation:** the user confirmed the complete [E2 engineering plan](empirical_b2_plan.md) and authorised independent standard B2 development, execution and result audit.
+- **Unsupported rows:** no standard Brier is calculated without training support; report missing scores with an explicit reason and the affected counts/proportions alongside the evaluable-case mean.
+- **Closure:** implementation and audit are authorised; the research conclusion and progression beyond S1 still require user review. Results belong in the new immutable run and report until a conclusion is approved for this ledger.
+
+## S1 — Closure approved, 29 October 2026
+
+- **Conclusion:** standard B2 empirical matrices are complete for annual-pooled, 1-degree states at 7/30 days. Count estimation, whole-ID development evaluation and reproducibility checks passed; support and empirical-zero limitations are documented.
+- **Frozen baseline:** empirical_b2_20261029T121555_976173Z; standard Brier 0.929001 / 0.994751 for 7/30 days. This is development evidence; final-test validation remains pending.
+- **Record:** [S1 scientific closing record](empirical_b2_results.md) contains assumptions, core formulas, evaluation, visualisations and limitations. Original run artifacts remain unchanged.
+- **Next stage:** the user approved entering S2 planning. Its method, engineering plan and execution require separate confirmation.
+
+## S2 — Comparison direction approved, 30 October 2026
+
+- **Direction:** the user explicitly chose to reintroduce B1 as the common reference and compare fixed B2/B1 weights with weights varying by origin-cell support. B2 remains the baseline; prior rejection of B1 is superseded for this comparison.
+- **Scope:** retain the existing data, pooled 1-degree 7/30-day stopped-target experiment and standard Brier. Neighbour/spatial borrowing remains outside S2; this choice does not select probability sharpening or drifter reweighting.
+- **Objective:** investigate whether adaptive borrowing can reduce the prediction-region cell count while improving predictive performance; favourable results are not assumed.
+- **Next gate:** review [the E1 engineering proposal](adaptive_b2_b1_plan.md). The support measure/formula, parameter search and region/evaluation details are proposed, not yet locked. No new model development or experiment execution has started.
+
+## S2 — Engineering E1 approved, 30 October 2026
+
+- **Authorisation:** the user confirmed the complete [E1 engineering plan](adaptive_b2_b1_plan.md) and authorised development, independent execution and result audit for B2, Fixed-B2/B1 and Adaptive-B2/B1.
+- **Locked design:** pair-count support schedule, 21-value inner searches, whole-ID outer validation, shared unsupported-row mask and standard Brier; report 90% region cell count and actual hits together, with matched-budget diagnostics.
+- **Next gate:** submit audited results for user review. S2 scientific closure and subsequent stages are not yet authorised.
+
+## S2 — Engineering E2 approved, 30 October 2026
+
+- **Authorisation:** the user confirmed the complete [E2 engineering plan](b2_b1_e2_plan.md) and authorised independent development, execution and audit.
+- **Locked design:** Info reallocates B1's D probability with E preserved; Weight independently varies the support exponent. Retain 90% regions and the Fixed quality reference, two 105-candidate grids, nested whole-ID validation, constrained selection with exact Fixed fallback, and the specified uncertainty screen.
+- **Next gate:** review audited Brier, 90% cell count and actual hits for Info/Weight versus Fixed. No S2 closure, combined model, final-test access or next-stage execution is authorised.
+
+## S2 — E3 prediction target clarified, 30 October 2026
+
+- **Purpose:** Where Things End Up — predict the 7/30-day destination distribution for an object already located in the specified origin cell at a chosen prediction time; first entry is not required. The current 1-degree, pooled drifter transport model remains the application proxy.
+- **Confirmed contribution rule:** within each origin/horizon, each historical drifter has one total contribution while retaining its internal distribution over qualified start times and destinations. This amends the original equal-pair target for the proposed E3 experiment; historical S1/E1/E2 definitions and results remain unchanged.
+- **Requested comparison:** revise E3 so training and evaluation reflect the same target, and compare against B2 and Fixed B2/B1 using a common evaluation population and weighting rule.
+- **Next gate:** review [E3 v2](drifter_shrinkage_e3_plan.md). Cross-cell aggregation, control retuning, uncertainty and acceptance details remain proposed. The user explicitly requested planning only; no E3 development, execution, stage closure or final-test access is authorised.
+
+## S2 — Engineering E3 v2 approved, 30 October 2026
+
+- **Authorisation:** the user confirmed [E3 v2](drifter_shrinkage_e3_plan.md), including within-cell equal-drifter contributions, equal-cell aggregation and unified evaluation, and authorised independent development, execution and audit.
+- **Locked comparison:** EqualID (full balancing, no gamma search), original B2 and Fixed B2/B1 retuned on the common new Brier objective; retain 90% regions, whole-ID nested validation and the specified paired ID uncertainty.
+- **Next gate:** review audited 7/30-day Brier, 90% geographic cell count and actual hits under the new target. Historical pair-weighted results retain their original interpretation; no Step 2 closure or final-test access is authorised.
+
+## S2 — Engineering E4 v1 approved, 30 October 2026
+
+- **Authorisation:** the user confirmed [E4 v1](partial_weighting_e4_plan.md) and authorised independent development, execution, audit and visual comparison.
+- **Locked comparison:** fixed beta = 0, 0.5 and 1 local power-weighted estimates (B2, PartialID, EqualID), plus raw Fixed B2/B1 retuned by inner Brier. Retain every hourly pair and E3's equal-cell/equal-ID evaluation target; no beta search or combined PartialID/B1 model.
+- **Next gate:** review 7/30-day Brier, 90% geographic cell count, actual hits and paired uncertainty. No scientific retention, Step 2 closure, Step 3 execution or final-test access is authorised.
+
+## S3 — Engineering E1 v1 approved, 30 October 2026
+
+- **Authorisation:** the user confirmed [S3 E1 v1](spatial_borrowing_s3_e1_plan.md), explicitly including whole-path grid translation and invalid-transfer B2 fallback, and authorised independent development, execution, audit and visual comparison.
+- **Benchmark:** compare LocalDisplacement and LocalEndpoint with B2, Fixed and Adaptive under the E3/E4 evaluation target. Preserve fixed 90% regions and standard Brier. Historical benefit is a motivation, not a required or already-proven result under the new definitions.
+- **Engineering evidence:** [S3 E1 results and audit status](spatial_borrowing_s3_e1_results.md), [sealed benchmark report](../results/runs/spatial_borrowing_s3_e1_20261030T114538_900248Z/REPORT.md) and [visual comparison](../results/runs/spatial_borrowing_s3_e1_20261030T114538_900248Z/review.html). These links record the authorised execution; scientific retention and closure remain pending review.
+- **Step 2 retention direction:** retain Fixed and Adaptive as research outcomes with their original limitations; this does not rewrite historical scores or assert superiority.
+- **Next gate:** review complete, independently verified 7/30-day results. No final-test access, old stopped-run restart, commit/push or scientific closure is included.
+
+## S3 — Engineering E2 v1 approved, 31 October 2026
+
+- **Authorisation:** the user confirmed the [E2 v1 plan](local_endpoint_adaptive_s3_e2_plan.md) and authorised independent development, execution, audit and visual comparison.
+- **Locked comparison:** LocalEndpointAdaptive varies the weight of the unchanged eight-neighbour endpoint reference using distinct fitting-ID support ratios. Retain LocalEndpoint, B2, Fixed and global Adaptive; preserve raw-pair training, equal-ID/equal-cell evaluation, fixed 90% regions and the approved finite grid.
+- **Engineering evidence:** [E2 results and audit](local_endpoint_adaptive_s3_e2_results.md) and [visual comparison](../results/deliverables/local_endpoint_adaptive_s3_e2/review.html). These record execution under the approval, not scientific acceptance.
+- **Next gate:** user review of Brier, K90, H90 and uncertainty against LocalEndpoint and Fixed. No automatic model replacement, Step 3 closure, additional search, final-test access or commit/push is included.
+
+## S3 — Engineering E3 v1 approved, 31 October 2026
+
+- **Scope:** [LocalEndpoint information quality](local_endpoint_quality_s3_e3_plan.md): overlap-weighted neighbours and a 1%/three-ID weak-unseen endpoint rule; nine eta/rho settings after selecting the existing adaptive anchor. Reduced D mass returns to local B2; E is preserved.
+- **Frozen evaluation:** raw-pair training; equal drifters within origin and equal origins; 7/30 days; standard Brier and fixed 90% regions. Retain all five S3 E2 controls, whole-ID nested validation, independent audit and fresh replay.
+- **Next gate:** user review against LocalEndpointAdaptive, LocalEndpoint and Fixed. No automatic model replacement, stage closure, expanded search, final-test access or commit/push.
+
+## S3 — Engineering E4 v1 approved, 31 October 2026
+
+- **Authorisation:** the user confirmed the [E4 plan](local_endpoint_joint_s3_e4_plan.md) and authorised independent execution and audit.
+- **Locked comparison:** 252 joint a/gamma/eta settings with rho=1; simultaneous inner H90/K90 constraints against LocalEndpointAdaptive and Fixed, strict Brier adoption and explicit local-anchor fallback. Retain the unconstrained Joint diagnostic and six existing controls.
+- **Evaluation:** unchanged raw-pair fitting, equal-ID/equal-origin scores, fixed 90% regions, nested whole-ID validation and two-reference acceptance. Next gate: user review of audited results, with no automatic replacement, closure or final-test access.
+
+## S4 — Research direction and planning approved, 2 November 2026
+
+- **Priority:** the user approved moving to time/environmental conditioning: departure season first; origin SST prioritised if seasonal information is supported; initial direction/speed next; wind/current fields last.
+- **Purpose:** identify information that improves 7/30-day destination distributions, with standard Brier and the retained hit-rate/region-size assessment. Existing Step 2/3 evidence remains available; E5 displacement is deferred, not declared predictively unsuccessful.
+- **Planning record:** [Step 4 architecture and decision log](time_environment_s4_architecture.md) records module/data ownership, feature availability, phased gates and validation boundaries. [E1 seasonal engineering proposal](seasonal_conditioning_s4_e1_plan.md) contains the proposed formulas, finite search, evaluation, resources and acceptance.
+- **Authority boundary:** research direction and documentation are approved. New mathematical/engineering details remain proposals; no Step 4 implementation, data extraction, fitting, execution, final-test access or Git publication is authorised by this entry. Review E1 before development; later rounds require their own plans.
+
+## S4 — Seasonal engineering contract requested, 2 November 2026
+
+- **Requested work:** the user instructed contract design for the first seasonal round. [S4-E1-SEA-001](seasonal_conditioning_s4_e1_contract.md) is the resulting engineering review draft, consolidating input/model/evaluation interfaces, finite search, conformance checks, resources and deliverables.
+- **Status:** contract drafting completed; technical terms await review. This entry records the design task, not approval of the draft or authorisation to implement/run it. The previous proposal, datasets, models and experiments remain unchanged.
+
+## Publication milestone approved, 2 November 2026
+
+- **Authorisation:** the user requested publishing the latest workspace to GitHub with commit message `Markov Step 1 - 3done` and an explanation of all five steps.
+- **Meaning:** the bounded S1, S2 E1–E4 and S3 E1–E4 research sequence is published. Step 3 means spatial information sharing between adjacent origin cells, including endpoint/displacement comparisons and adaptive/quality/joint weighting.
+- **Limits retained:** the E5 exact-coordinate extension is deferred and has no full-CV result; the older iterative-neighbour run remains stopped. No universal best-model declaration, retrospective change to reported acceptance screens, Step 4 execution or final-test access is implied.
+- **Next stage:** review the Step 4 seasonal engineering contract. Historical entries above preserve the decisions and gates that applied at the time.
+
+## S4 — Simplified E1 direction confirmed; contract revision requested, 2 November 2026
+
+- **Confirmed scope:** train on 2012–2019, validate on available 2020–2022 data, exclude cross-boundary training labels and all validation IDs from training at both horizons. Compare only annual B2 and c=1 seasonal B2; missing seasonal support returns to annual B2 and is reported separately.
+- **Evaluation:** retain raw-pair fitting, equal times within drifter/origin, equal drifters within origin and equal origins, standard Brier and fixed 90% regions. Assess Brier improvement together with actual hits and region size at 7 and 30 days separately.
+- **Next gate:** [contract v2](seasonal_conditioning_s4_e1_contract.md) is revised for review using the [support audit](../provenance/reviews/seasonal_temporal_support_20261102/README.md). Detailed acceptance/engineering terms await confirmation; this records direction and drafting authority, not development, training or execution approval.
+
+## S4 — E1 v2 engineering execution approved, 2 November 2026
+
+- **Authorisation:** the user confirmed contract v2 and authorised independent development, a complete-roster resource pilot, then primary execution and fresh replay within the approved budget if the pilot passes. The [approval receipt](../provenance/reviews/seasonal_conditioning_s4_e1_v2_approval.json) binds the exact contract hash.
+- **Locked comparison:** annual B2 versus c=1 seasonal B2; fixed chronological and whole-ID separation; explicit annual fallback; unchanged drifter/origin evaluation, Brier and nominal 90% regions.
+- **Engineering evidence:** [E1 v2 results and audit](seasonal_conditioning_s4_e1_results.md) and [visual comparison](../results/deliverables/seasonal_conditioning_s4_e1/review.html). These record completed execution under the approval, not scientific retention or closure.
+- **Next gate:** review audited 7/30-day results, actual hits, region size and fallback evidence. No automatic model replacement, feature expansion, stage closure or final-test access.
+
+## S4 — E2 existing-model validation executed, 3 November 2026
+
+- **Authorisation:** the user approved the [temporal-validation plan](temporal_validation_s4_e2_plan.md), explicitly limiting this work to validation of established Step 1–3 models. The [approval receipt](../provenance/reviews/temporal_validation_s4_e2_approval.json) binds the original plan hash.
+- **Locked scope:** 2001–2022 qualified development records; B2, Fixed, Adaptive, LocalEndpoint and LocalEndpointAdaptive; calendar-mixed whole-ID versus forward whole-ID internal selection, with identical final training and later validation within each of three outer periods. No new model or feature family.
+- **Engineering evidence:** [results and interpretation](temporal_validation_s4_e2_results.md), [visual comparison](../results/deliverables/temporal_validation_s4_e2/review.html), and [independent audit](../provenance/reviews/temporal_validation_s4_e2_audit.json). Primary and fresh replay agree on 115 scientific artifacts, including ten identical figures. Cumulative charged execution was 415.22 seconds within the approved budget.
+- **Observed outcome:** policy effects vary by period; only C/30 supports equivalence because forecasts are identical. No T-versus-G contrast achieves the strict joint improvement criterion. This does not prove physical temporal drift or general equivalence of validation policies.
+- **Next gate:** user review of the validation standard and subsequent research direction. No automatic model replacement, new feature experiment, scientific closure, Git publication or final-test access.
+
+## S4 | E3 seasonal information test, 5 November 2026
+
+The user approved the [E3 study](seasonal_information_s4_e3_plan.md). Forward selection within 2001–2019 assigned seasonal weights 0.098574 and 0.114911 for 7 and 30 days. On 2020–2022 validation, adjusted-minus-annual Brier was −0.000465 and +0.000034. Both corrected one-sided upper bounds were positive. The 7-day point estimates improved on all three metrics. The 30-day hit rate fell by 1.64 percentage points. Informative matched controls covered 39.58% / 38.22% of evaluation weight, below the prespecified 80% threshold for a population-wide seasonal explanation. The independent replay reproduced all five figures. The seasonal comparison is ready for scientific review. [Results](seasonal_information_s4_e3_results.md) · [Visual comparison](../results/deliverables/seasonal_information_s4_e3/review.html)
+
+## S4 | Departure-season decision, 5 November 2026
+
+The user accepted the seasonal review as complete for now. Keep annual pooling for the main forecast and retain departure season for descriptive error analysis. Use forward chronological validation for future-period prediction. The 7-day point improvement remains uncertain and the 30-day comparison showed no predictive gain. Step 4 now moves to selection of the next predictor. [E3 evidence](seasonal_information_s4_e3_results.md) · [Next candidate for discussion](time_environment_s4_architecture.md#12-departure-season-decision-and-next-predictor)
+
+## S4 | E4 direction rules confirmed, 5 November 2026
+
+The user confirmed a maximum 3:1 vote ratio for aligned versus opposite headings and a direction-availability cutoff at the fitting role's 10th percentile of positive valid speeds. The requested [engineering plan](departure_direction_s4_e4_plan.md) is ready for review. Development and execution await the user's engineering decision.
+
+## S4 | E4 engineering execution, 5 November 2026
+
+The user approved the [departure-heading engineering plan](departure_direction_s4_e4_plan.md) for independent development, pilot, primary and replay. Both training-selected weights reached 1. On held-out drifters in the 2020–2022 development period, 7-day Brier improved by 0.002705, with 1.463 percentage points more hits and 0.110 fewer cells. The corrected upper Brier bound was −0.001733. At 30 days, the 0.000504 Brier improvement had a positive corrected upper bound. Fallback accounted for 8.45% / 5.50% of evaluation weight. Engineering and independent checks are complete for user review. [Results](departure_direction_s4_e4_results.md) · [Visual review](../results/deliverables/departure_direction_s4_e4/review.html)
+
+## S4 | E5 speed-only design requested, 5 November 2026
+
+The user accepted keeping E4 fixed and designing a speed-only comparison against annual B2. A later joint model would need to demonstrate additional value over heading alone. The [E5 engineering design](departure_speed_s4_e5_plan.md) is ready for review. The proposed kernel, scales, acceptance procedure and budget await execution approval.

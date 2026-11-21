@@ -1,0 +1,1 @@
+../../../../legacy_entries/continuous_diagnostic_report.py

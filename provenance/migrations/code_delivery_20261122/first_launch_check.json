@@ -1,0 +1,23 @@
+{
+  "environment_ready": true,
+  "executable": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place/.venv/bin/python",
+  "project_root": "/Users/moonedgethug/Documents/UNSW/DATA3001/work_place",
+  "python": "3.12.14",
+  "controls_ready": true,
+  "date": "2026-11-22",
+  "timezone": "Australia/Sydney",
+  "server_url": "http://127.0.0.1:8888/",
+  "only_project_kernel_available": true,
+  "browser_notebook_opened": true,
+  "environment_tests_passed": 29,
+  "startup_tests_passed": 4,
+  "research_tasks_executed": false,
+  "fresh_unconfigured_mac_tested": false,
+  "entry_test_path_contains_python": false,
+  "file_sha256": {
+    "START_HERE.command": "e1091679777206f2c72114f1e5a760d2f4fc700fac6f2c07febbb7132447789f",
+    "code/environment/setup.sh": "3a70bd8860df83146a04fc22d238c15e6428e619457138cc0c092c89ceaa6659",
+    "code/environment/launch.py": "980079116e83fea26609477ffdd70b89fe8d8e930c18296d8b3e526c82f4265f",
+    "code/tests/test_delivery_startup.py": "cdbe02d16d46368c6c3d56f05c106878b2e6a41c4949f4028b5b86ad174dbfc8"
+  }
+}

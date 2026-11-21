@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "migrated_files": 684,
+  "migrated_directories": 161,
+  "source_mismatches": [],
+  "archive_entries_checked": 79758,
+  "archive_current_entries": 79758,
+  "archive_changed_entries": [],
+  "archive_check_scope": "file inventory, size, modification time and file-symlink target, matching the pre-migration inventory; no archived data content read"
+}

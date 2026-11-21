@@ -1,6 +1,6 @@
-# Modelling results — team handoff, 9 November 2026
+# Modelling results — research index, updated 10 November 2026
 
-本页是 report / presentation 的统一入口。按相同实验中的样本、评分和权重比较；保留负结果及未完成研究的边界。最新 MDN 已完成，早些时候的交互展示和汇报稿保留当时的进度快照。
+本页是 report / presentation 的统一入口。按相同实验中的样本、评分和权重比较；保留负结果及未完成研究的边界。用户已确认 **MDN22 为最终主推模型、MDN1 为对照**，停止 K 搜索并冻结全部 12 个候选。见[最终选型与冻结记录](final_mdn_model.md)。本次仅更新研究记录；可视化暂缓，早些时候的展示保留当时的进度快照。
 
 ## Five-stage evidence index
 
@@ -25,10 +25,17 @@
 | S5 E1 LocalGaussian | [Report](../results/runs/conditional_gaussian_s5_e1_full_20261107T061818Z/technical_report.md) | [Comparison](../results/runs/conditional_gaussian_s5_e1_full_20261107T061818Z/review.html) |
 | S5 E2 local GMM | [Report](../results/runs/local_gmm_s5_e2_vector_20261107T133426Z/technical_report.md) | [Comparison](../results/runs/local_gmm_s5_e2_vector_20261107T133426Z/review/final.html) |
 | S5 E3 conditional MDN | [Report](../results/deliverables/conditional_mdn_s5_e3/REPORT.md) | [Comparison](../results/deliverables/conditional_mdn_s5_e3/review.html) |
+| S5 E4 MDN K refinement and final choice | [Final choice / freeze](final_mdn_model.md) · [All scores](../results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/summary.csv) | Deferred by user |
 
 S3 E5 exact-origin whole-path borrowing remains [incomplete/deferred](actual_origin_displacement_s3_e5_o1_results.md). The [speed proposal](departure_speed_s4_e5_plan.md), [wind proposal](alongshore_wind_s4_e6_plan.md) and [grid-translation contract](b2_grid_translation_contract.md) are not completed full predictive experiments. [Earlier M1 / M1vcat / iterative studies](markov_results.md) remain available separately.
 
 ## Latest conclusion
+
+The user approved **MDN22 as the final recommended model**, retained **MDN1 as the comparator**, and closed further K search on 10 November 2026. All twelve candidates (1/2/3/4/6/8/12/16/18/20/22/32) completed and passed the independent engineering audit. On the shared 45-drifter / 33,971-pair cohort, MDN22 has **128.245 km ES / 90.18% actual coverage / 184,803 km² mean 90% area**. Relative to MDN16, ES is 0.42% lower and coverage is 0.56 percentage points higher, with 1.67% larger area.
+
+This is an explicitly approved final choice after development-validation review. The original E4 procedure provisionally favoured K=3, failed its quality gate and selected K=1; the original primary model's strict acceptance remains failed. The new choice does not retrospectively change those results, demonstrate statistical significance, or establish independent final-test performance. [Final decision and frozen checkpoints](../provenance/frozen/mdn_final_20261110_v1/decision.json) · [Original E4 acceptance](../results/runs/conditional_mdn_s5_e4_20261109T082930_653149Z/formal_v1/acceptance.json)
+
+### Historical E3 conclusion, retained unchanged
 
 MDN1/2/4/8/16/32 all completed. Inner selection chose K=1 under the two-window eligibility rules; K=4/32 had slightly lower pooled inner ES but worsened in the later window. K=1 does not establish physical unimodality.
 
@@ -44,6 +51,7 @@ On the shared 45-drifter / 33,971-pair seven-day development cohort, selected MD
 
 ## Team files and reproducibility
 
+- [Final MDN22 / MDN1 model record](final_mdn_model.md): frozen twelve-candidate results and explicit checkpoint pointers. The historical selected-model loader still means contract-selected MDN1; load the final recommendation through its recorded MDN22 checkpoint.
 - [Portable team package](../results/deliverables/team_review_20261109/README.md): Chinese/English interactive snapshots, historical handoff and final MDN links.
 - [MDN inference](../results/deliverables/conditional_mdn_s5_e3/inference_usage.md): selected network and all six final full-refit checkpoints are included; no retraining is required for new coordinates.
 - Contracts, source, tests, compact scores, figures, saved parameters and audit receipts are published. [Publication inventory](../provenance/reviews/modelling_publication_20261109.json) records included artifacts and omitted caches.

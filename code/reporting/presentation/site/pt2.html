@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#123d50" />
+    <title>Part 2 · Data & Research Design | Where Things End Up</title>
+    <meta
+      name="description"
+      content="Five scenes explore region selection, drifter data preprocessing and usable seven-day observation support."
+    />
+    <link rel="stylesheet" href="./pt2/style.css?v=p2v1" />
+    <link rel="stylesheet" href="./flow/chapter.css?v=flow1" />
+    <script src="./flow/entry.js?v=flow1"></script>
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+  </head>
+  <body>
+    <main id="stage" aria-label="Part 2 research presentation">
+      <div id="scene" aria-hidden="true"></div>
+      <div id="shade" aria-hidden="true"></div>
+      <div id="chart-veil" aria-hidden="true"></div>
+      <header class="masthead">
+        <a class="brand" href="./pt1.html#01"
+          ><span class="wave-mark">≈</span
+          ><span>WHERE THINGS<br />END UP</span></a
+        >
+        <div class="mast-right">
+          <span>UNSW · DATA3001</span><a href="./pt1.html#05">← Part 1</a
+          ><button id="notes-open">Evidence & notes</button>
+        </div>
+      </header>
+      <div id="copy" aria-live="polite"></div>
+      <div id="map-labels"></div>
+      <footer class="frame-nav">
+        <div class="edition">
+          <span id="motion-status">LIVE OCEAN</span
+          ><button id="motion">Ⅱ Pause</button>
+        </div>
+        <nav id="scene-nav" aria-label="Part 2 scenes"></nav>
+        <div class="arrows">
+          <button id="prev" aria-label="Previous scene">←</button
+          ><span id="count">01 / 05</span
+          ><button id="next" aria-label="Next scene">→</button>
+        </div>
+      </footer>
+      <div id="loading" role="status">
+        <span>≈</span>
+        <p>Preparing the research journey</p>
+        <small>Geography · ocean · instrument · observations</small>
+      </div>
+      <div id="error" hidden>
+        <h2>The scene could not load</h2>
+        <p id="error-text"></p>
+        <a href="./index.html#/05">Open the existing presentation</a>
+      </div>
+    </main>
+    <dialog id="notes">
+      <button id="notes-close" aria-label="Close evidence notes">×</button>
+      <p class="eyebrow">PART 02 / EVIDENCE & NOTES</p>
+      <h2>From geographic scope to usable samples</h2>
+      <p>
+        Navigate with the scene links or ← / →. In Preprocessing, the arrow keys
+        first step through Drogue, SST, Motion and Lifecycle. Space pauses ocean
+        and object motion. Text appears only after the camera arrives.
+      </p>
+      <h3>Historical region screening</h3>
+      <p>
+        May 2025 six-hour GDP source. Counts are distinct entering trajectories
+        and trajectories with at least one valid seven-day pair. Regions can
+        share trajectories. Different areas and sampling composition prevent a
+        simple quality ranking.
+      </p>
+      <p>
+        <a href="./assets/pt2/region-audit-summary.csv" download
+          >Three-region audit CSV ↓</a
+        >
+        ·
+        <a href="./assets/pt2/gulf-stream-segment-summary.csv" download
+          >Gulf Stream window audit CSV ↓</a
+        >
+      </p>
+      <h3>Candidate evidence gap</h3>
+      <p>
+        Kuroshio, Central North Atlantic, Western Sargasso and California
+        Current were considered according to the project history. Comparable
+        quantitative audits have not been located. Their map pins are schematic
+        locations, not audited polygons.
+      </p>
+      <h3>Preprocessing distinctions</h3>
+      <ul>
+        <li>
+          Drogue: cleaned status is 1=attached, 0=lost, −1=unknown. Source
+          loss-date zero means unknown, not cleaned status zero.
+        </li>
+        <li>
+          SST: mostly same-date NOAA OISST background. Four valid nodes support
+          bilinear reconstruction; sparse-node cases use the approved
+          alternatives. These are background estimates, not recovered hourly
+          measurements. The SST product grid is separate from the modelling
+          grid.
+        </li>
+        <li>
+          Motion: retain native ve/vn and derive interval motion from actual
+          timestamps; no invented missing positions.
+        </li>
+        <li>
+          Recovery: remove rows strictly after valid official last-good cutoffs.
+          Eventual grounding: set later SST to NA while preserving position/time
+          records for audit. Uncertain events remain uncertain.
+        </li>
+        <li>
+          Hardware illustration is not to scale and does not imply all
+          observations share a fixed drogue depth. Final MDN input is longitude
+          and latitude only.
+        </li>
+      </ul>
+      <h3>R, D and the endpoint</h3>
+      <p>
+        R is the frozen Southern Corridor departure polygon. D is the early
+        grid-model domain: 81°W–8°W, 20°N–55°N. In the stopped grid task,
+        observed first exit is an E outcome, not simply deleted data. Continuous
+        endpoint probability is not clipped to D.
+      </p>
+      <h3>Annual support and final roles</h3>
+      <p>
+        Bars reproduce the sealed historical development-label audit dated 2
+        November: 1° stopped labels, reason_code=0, seven-day horizon, grouped
+        by origin year before final chronological and whole-ID exclusions. This
+        inventory contains 303,288 pairs from 385 IDs. 1998 has 1 ID/231 pairs;
+        2000 has 1 ID/116 pairs. Zero bars mean no qualified labels in this
+        inventory, not no global GDP data. An ID may occur in several years.
+        2022 is incomplete.
+      </p>
+      <p>
+        Final continuous model: fit 2001–2019, 338 IDs/265,393 pairs;
+        development validation 2020–2022, 45 IDs/33,971 pairs. Whole-ID
+        separation and boundary purges apply. The 517 final-test IDs remain
+        sealed. The bars are not a reaggregation of the final 338/45 rosters.
+      </p>
+      <p>
+        <a href="./assets/pt2/annual_support.csv" download
+          >Historical annual support CSV ↓</a
+        >
+        · <a href="./assets/pt2/SOURCES.md">Source record ↗</a>
+      </p>
+      <p>
+        Natural Earth geography; existing Poly Haven daylight environment and
+        Three.js assets. Ocean motion, the cutaway and corridor line are
+        illustrations, not measured events or predicted paths.
+      </p>
+    </dialog>
+    <script type="module" src="./pt2/app.js?v=flow1-p2p3"></script>
+  </body>
+</html>

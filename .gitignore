@@ -1,5 +1,9 @@
 # Local environments, caches and interrupted outputs
 /.venv/
+/.tools/
+/results/reproduced/
+/provenance/migrations/code_delivery_20261122/before/
+/provenance/migrations/code_delivery_20261122/legacy_environment/
 /.superpowers/
 __pycache__/
 *.py[cod]
@@ -72,3 +76,9 @@ node_modules/
 
 # Frozen high-resolution mask required by the published neighbourhood experiments.
 !/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb
+
+# Preserve previously tracked results at their migrated paths; large local-only runs remain local.
+/results/reference/**
+!/results/reference/**/
+!/results/reference/.gitignore
+/build/

@@ -1,0 +1,37 @@
+{
+  "mathematical_equivalence": {
+    "conditional_mdn_s5_e4.py": {
+      "parent_sha256": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+      "current_sha256": "14f33c61a34cabc3c29a1d20b07245453af09e52ef65bd509b6aee6fbd4712e8",
+      "ast_equal_after_declared_substitutions": true
+    },
+    "conditional_mdn_s5_e4_training.py": {
+      "parent_sha256": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+      "current_sha256": "7febba7cdcfd41207bb7f59a5236d29c8627d6454049f7005768ca0b03b144ee",
+      "ast_equal_after_declared_substitutions": true
+    },
+    "conditional_mdn_s5_e4_numerics.py": {
+      "parent_sha256": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+      "current_sha256": "f49fb2f01b023a50a137b7eb85c6f1db6f2178218ae3877c7d38203cbc59acbe",
+      "ast_equal_after_declared_substitutions": true
+    },
+    "conditional_mdn_s5_e4_optimized.py": {
+      "parent_sha256": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+      "current_sha256": "4cbc6464e6452d3083e8721144b20cd4b8ebeb3beaf5577c65cdefe4e944a005",
+      "ast_equal_after_declared_substitutions": true
+    },
+    "conditional_mdn_s5_e4_selection.py": {
+      "parent_sha256": "98df0b714d502722d8da8f90e63b361c2ba933a7245c1db6117acfff5d39f888",
+      "current_sha256": "f05622ba12fbb628961c38f04b563a2d85a9d080655b32a08cf2675c7b6a6cf7",
+      "ast_equal_after_declared_substitutions": true
+    }
+  },
+  "fresh_review": {
+    "agent": "mdn_e4_final_review",
+    "remaining_findings": [],
+    "fixed_finding": "Interrupted parent copy left partial public file; failure injection confirmed atomic copy resumes.",
+    "verified_parent_model_chains": 18,
+    "verified_parent_stream_declarations": 4
+  },
+  "final_test_access": false
+}

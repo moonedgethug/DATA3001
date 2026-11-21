@@ -1,0 +1,39 @@
+{
+  "date_sydney": "2026-11-22",
+  "architecture_status": "implemented",
+  "task_count": 41,
+  "original_scientific_source_changed": false,
+  "archive_deleted": false,
+  "scientific_tests": {
+    "discovered": 928,
+    "passed": 927,
+    "skipped": 1,
+    "skip_reason": "Sealed final-test ID60350 not supplied"
+  },
+  "delivery_tests": {
+    "passed": 68,
+    "failed": 0
+  },
+  "notebook_run_all": "passed",
+  "portable_inference_with_original_workspace_reads_blocked": "passed",
+  "raw_cleaning_verified_development_ids": 5,
+  "raw_cleaning_v7_files_byte_identical": true,
+  "report_figures_byte_identical_png": 10,
+  "regional_recomputation": "passed_exact_probability_match",
+  "presentation_json_byte_identical": 3,
+  "tracked_moved_result_files_preserved": 8231,
+  "full_retraining_validated": false,
+  "blockers": [
+    {
+      "task": "stage2.step5.gaussian",
+      "kind": "original_resource_gate",
+      "projected_seconds_including_reserve": 16566.778420569728,
+      "original_cap_seconds": 14400,
+      "numerical_pilot_passed": true,
+      "cap_changed": false,
+      "receipt": "results/reproduced/delivery_gaussian_preflight_idle_repeat/run.json"
+    }
+  ],
+  "published_remote": false,
+  "data_package_uploaded": false
+}

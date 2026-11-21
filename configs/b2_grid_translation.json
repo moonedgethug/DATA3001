@@ -1,17 +1,1 @@
-{
-  "experiment": "b2_grid_translation_g1",
-  "contract": "docs/b2_grid_translation_contract.md",
-  "contract_sha256": "c4c64782ed7ad7a33dc366fe6a971defb0b68c2b7b2f79534f58fd598a941fd7",
-  "source_run": "exact_origin_s4_e7_primary_20261105T074326_829211Z",
-  "grid_degrees": 1,
-  "translations": 100,
-  "translation_seed": 20261107,
-  "bootstrap_seed": 20261108,
-  "bootstrap_draws": 10000,
-  "seconds": {"pilot": 600, "formal": 3600, "audit": 1200, "report": 600, "total": 6000},
-  "rss_gib": 8,
-  "storage_gib": 5,
-  "processes": 1,
-  "unsupported_policy": "stop_before_formal_no_fallback",
-  "final_test_access": false
-}
+stage2/b2_grid_translation.json

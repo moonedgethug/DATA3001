@@ -1,0 +1,3022 @@
+[
+  {
+    "path": "src/data3001/data_release.py",
+    "sha256": "89b618aa5a5265d90eff0e339782122654e5725cb6d47ca5ec010e8bc8e85694",
+    "bytes": 2893
+  },
+  {
+    "path": "src/data3001/sst_coastal_run.py",
+    "sha256": "7f3cb423d4de2064a2b3ee131453739afe1435961f3d9d93a2736e1ee79ac9a1",
+    "bytes": 26313
+  },
+  {
+    "path": "src/data3001/sst_pilot_run.py",
+    "sha256": "caa27562674598e13d832e8f6351b57e69faa1b22dc418b53cbc050dd87058bf",
+    "bytes": 23838
+  },
+  {
+    "path": "src/data3001/sst_total_status.py",
+    "sha256": "bd91308e6a5fe6ee3cb8b1c5bdb5757f4149aa1b22a88375a01a8835c4d4ea70",
+    "bytes": 732
+  },
+  {
+    "path": "src/data3001/release_verification.py",
+    "sha256": "55e0b2d20db43aaaac58fccde50d8af37869082135955d45e58f7dc96cd9cdc2",
+    "bytes": 8131
+  },
+  {
+    "path": "src/data3001/sst_pilot_retry.py",
+    "sha256": "bdb2a324acc780bfa889564179cf6c9df5787b5ebd71a4e321e186cff1c3fda9",
+    "bytes": 24092
+  },
+  {
+    "path": "src/data3001/paths.py",
+    "sha256": "c0454db46f96faf07f2fe3d59ea4faaba57e7c0dded37895bce24668fb888585",
+    "bytes": 8357
+  },
+  {
+    "path": "src/data3001/sst_anomaly_review.py",
+    "sha256": "515d7f9faf47450f6ed3d11137570f5e9a9ebfdb74ef332d4e1b2f15c78ba453",
+    "bytes": 2541
+  },
+  {
+    "path": "src/data3001/sst_sparse_run.py",
+    "sha256": "40147e114901034e3adbf11fe96b2e115c01f80f9e8c841f9213c9125d714925",
+    "bytes": 20555
+  },
+  {
+    "path": "src/data3001/sst_storage.py",
+    "sha256": "db4c03b422ad02189f0e489c9277d9681d44068f47eaf344531b19829d513910",
+    "bytes": 8654
+  },
+  {
+    "path": "src/data3001/__init__.py",
+    "sha256": "43ec0c940bb96691b674348fe8537086877f47bc8108304f5ef39d70bab0594c",
+    "bytes": 80
+  },
+  {
+    "path": "src/data3001/drogue_storage.py",
+    "sha256": "008d892d9e680ebf5e392d4e75f3ccc011fcdd33ff2ce5950c1c4d29ab154a0a",
+    "bytes": 7173
+  },
+  {
+    "path": "src/data3001/dataset.py",
+    "sha256": "22976bba8ceddf9127b9702022464dc637b8f935e793b306ae12b762a4ece117",
+    "bytes": 8573
+  },
+  {
+    "path": "src/data3001/sst_reconstruction.py",
+    "sha256": "b42084724bd0f87b34c183e6bc283b26e778e96bda91367b93e7c366ae258d7e",
+    "bytes": 6140
+  },
+  {
+    "path": "src/data3001/model_input_cleaning.py",
+    "sha256": "43ca870a2edf32b740f9f1dbc21066eb2506c6238ffa39276dffb11154700fe8",
+    "bytes": 1827
+  },
+  {
+    "path": "src/data3001/sst_source_grid.py",
+    "sha256": "8fa94286d91066f96e5461ce64c87fc1f3e343ee81e813f24c6b47e82c9f71a3",
+    "bytes": 1373
+  },
+  {
+    "path": "src/data3001/sst_anomaly_review_run.py",
+    "sha256": "a5bdc7a04c265ac9fde7119a423532154f0a46a21f13ffebbfd5775aa99d81b2",
+    "bytes": 6213
+  },
+  {
+    "path": "src/data3001/feature_pruning.py",
+    "sha256": "b7a5908e1cffc6e0e79de02e406bcf71c5be16efd131e575d9d253816f3dd174",
+    "bytes": 9884
+  },
+  {
+    "path": "src/data3001/sst_completion.py",
+    "sha256": "e5c528193ad108fc0d3a83d18dd99112ac84a00ab4b7f06c965fafc52a5a7271",
+    "bytes": 6170
+  },
+  {
+    "path": "src/data3001/sst_sparse_retry.py",
+    "sha256": "afaf3b8260ffa79b62747b071058bc054764c060ff1fa5407a016e6ee723f4bc",
+    "bytes": 22685
+  },
+  {
+    "path": "src/data3001/sst_sparse.py",
+    "sha256": "53cd60e592dc7232239831f94c8e61b357befcf41ce0df8b75e38a064a4aa71f",
+    "bytes": 6189
+  },
+  {
+    "path": "src/data3001/hardware_missing.py",
+    "sha256": "ee3ad25b255e990c2cf7985c88c98bf1b062739c0248d0f6c4c363273a734f66",
+    "bytes": 6934
+  },
+  {
+    "path": "src/data3001/recovery_storage.py",
+    "sha256": "8fce4de02eaff430c845373d9a46725a1ef2916b474a6b5a229116f28574e2c5",
+    "bytes": 3518
+  },
+  {
+    "path": "src/data3001/sst_coastal.py",
+    "sha256": "7e3a33ee6e9a98cff4b7bbc5f73028a973ffdb9d78dab71cfebb270a609ab3cb",
+    "bytes": 7026
+  },
+  {
+    "path": "src/data3001/migration.py",
+    "sha256": "70a3edf8df586122667209bd83e3ab375b642b8dcc60329c091318d2c4dd5bad",
+    "bytes": 7861
+  },
+  {
+    "path": "src/data3001/grounding_sst.py",
+    "sha256": "97185ebbb8789fd878fe3b9b1e3eb3bc2bf501081ce958accda67180c970be91",
+    "bytes": 6007
+  },
+  {
+    "path": "src/data3001/__main__.py",
+    "sha256": "3531bf6f3c3fb7e60773d4ec441a0345e15f33820fea75839edb845f3ac3ead4",
+    "bytes": 6536
+  },
+  {
+    "path": "src/data3001/sst_sparse_current.py",
+    "sha256": "69b23298429923803c0631c1736b549cb7cde8dd1ae3e59dbc1c406780f657b0",
+    "bytes": 825
+  },
+  {
+    "path": "src/data3001/sst_anomaly_run.py",
+    "sha256": "b3390368f4ce1b772a94053dad402a4be8c48d5dcbf1e08ef6f17ed6126ee167",
+    "bytes": 16645
+  },
+  {
+    "path": "src/data3001/modelling/__init__.py",
+    "sha256": "d8e7d19da90b60d05900ce5117f25aa24cf65c8ff0609f03ba080929a569f4b0",
+    "bytes": 381
+  },
+  {
+    "path": "src/data3001/modelling/README.md",
+    "sha256": "89dab19389fb7bb66723c22599c640b5817ab1565351ca3369d82dbe03a25188",
+    "bytes": 353
+  },
+  {
+    "path": "src/data3001/acquisition/pilot_audit.py",
+    "sha256": "8d39dec4aef70b515267ef2cb720492824f8aa90b4a048e949a8ce6d24c0510a",
+    "bytes": 6172
+  },
+  {
+    "path": "src/data3001/acquisition/downstream_acquisition.py",
+    "sha256": "e778731f843fb9cffe734c1bece83cd987128996acf3a06f40ef964de0651fb6",
+    "bytes": 6182
+  },
+  {
+    "path": "src/data3001/acquisition/verify_acquisition.py",
+    "sha256": "077dbb47e749d9bcfd6b6807b3c64ad8887dc6d8bd7570cdf191234df53a563a",
+    "bytes": 8447
+  },
+  {
+    "path": "src/data3001/acquisition/__init__.py",
+    "sha256": "1afb8a92622de9aeaa680846bf424c42b49c16d764dac6da9e3217d304ea8037",
+    "bytes": 74
+  },
+  {
+    "path": "src/data3001/acquisition/rules.py",
+    "sha256": "8d4b4152d70247819df5e388f40fcc3c3d15cfcb266c06566b14f4f008a221b5",
+    "bytes": 3057
+  },
+  {
+    "path": "src/data3001/acquisition/acquire_hourly.py",
+    "sha256": "238a9a29b3e06eb82b77f406f5d5f9b775e58378db96048bd178d6af5b661975",
+    "bytes": 15574
+  },
+  {
+    "path": "src/data3001/acquisition/export_subset.py",
+    "sha256": "fd8f97a5a26e527315f3261d2a48f06ce3cd5b11e4eeebca43dcc60a8dd5583f",
+    "bytes": 5744
+  },
+  {
+    "path": "src/data3001/preprocessing/position_error_repair.py",
+    "sha256": "cadf4cfd6da4b1b3aa74644f8ddc6acb2f952cd58b7930ee61462a5dbc3cef71",
+    "bytes": 14121
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_support.py",
+    "sha256": "2b10072614efe2dc1cddcfb8a663e3a7bc069043ffaaee111619d0a73c2bab05",
+    "bytes": 13147
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_core.py",
+    "sha256": "d8424765f3da4e25d1a98755adf0249e187e57383e4875193136155952940f05",
+    "bytes": 10534
+  },
+  {
+    "path": "src/data3001/preprocessing/drogue_boundary.py",
+    "sha256": "d05f61570251d1eb6d2bc14d3663ca4d6904e8dba11947167389c18e46be2c60",
+    "bytes": 4772
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_run.py",
+    "sha256": "ef4b9195661e1a76ccf311aa8dfce3a40407540ea25c51108ac5b9d171741f2b",
+    "bytes": 9329
+  },
+  {
+    "path": "src/data3001/preprocessing/replay_position_error_repair.py",
+    "sha256": "f7c9ed5084d71001290dc1785d5fff817f6c77512daace8f64369086103b5d96",
+    "bytes": 3362
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_geometry.py",
+    "sha256": "d900459e1fd17739787fe9b9e735c8e2826313539ee1a4652bf792fcd6e3bc88",
+    "bytes": 8965
+  },
+  {
+    "path": "src/data3001/preprocessing/__init__.py",
+    "sha256": "1afb8a92622de9aeaa680846bf424c42b49c16d764dac6da9e3217d304ea8037",
+    "bytes": 74
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_report.py",
+    "sha256": "b3d3aceb4ff8b08b1b15c945e2b165bbd58ea082beb3eaa99370daf504d0966c",
+    "bytes": 17610
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_boundary_diagnostics.py",
+    "sha256": "e676dc1575e9e6e23884dbb77c582f20b0ed8f931b85fe149a4852ae3cf914dc",
+    "bytes": 2426
+  },
+  {
+    "path": "src/data3001/preprocessing/report_position_error_repair.py",
+    "sha256": "75104c9fce0d1c205e0a9b1577e511b63f33998fde19ae0f3f6eb7906f9092c8",
+    "bytes": 19776
+  },
+  {
+    "path": "src/data3001/preprocessing/verify_handover.py",
+    "sha256": "f542db393a6825140de1eeaa90a7647e85805916c6ebffeba2106648ca93f1aa",
+    "bytes": 10337
+  },
+  {
+    "path": "src/data3001/preprocessing/run_position_error_repair.py",
+    "sha256": "631b8b472801ca99beea3deaaf806ca28fff6f30e946966b352a06016410c01b",
+    "bytes": 15104
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_verify.py",
+    "sha256": "bc8e582b4d3b669055584f241d1a0ab1265f4010ba3f7b6f86ae480103b3ad3f",
+    "bytes": 6980
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_handover.py",
+    "sha256": "21b6c856ffa73a4767971e29f35725a9d25a4f10d2e990c98755c5e12c36d811",
+    "bytes": 22784
+  },
+  {
+    "path": "src/data3001/preprocessing/drogue_correction.py",
+    "sha256": "f8e4180a52fdd79fc4b9b6f2426fe5ec7a3708deb446cd81def411ebaba8663b",
+    "bytes": 3277
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_io.py",
+    "sha256": "b8b6181c4896cd2b3091101f908978ba9484343cf48bd9977249b0488601ef39",
+    "bytes": 4467
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_pairs.py",
+    "sha256": "f02e2cf68e9a255e10960eac3edb9e225706c5f07b1736b105f765a7f4441927",
+    "bytes": 7816
+  },
+  {
+    "path": "src/data3001/preprocessing/prep_peers.py",
+    "sha256": "35ced28647bffdc68aacfde57e5e87dbf617d294a68a7ac1eb8e597488528496",
+    "bytes": 10934
+  },
+  {
+    "path": "src/data3001/preprocessing/verify_position_error_repair.py",
+    "sha256": "cee57e8b521f1861d81dfd5c2aadfdb5fdba7c0ad5c84ca8c885e3c81791e25c",
+    "bytes": 16494
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_report.py",
+    "sha256": "f9ed4d5c9fe8d819e60383bdd74b4086d17d976f9313b2092f3136418b72edbc",
+    "bytes": 40971
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_scoring.py",
+    "sha256": "19f7c581110f9e6ace8129f9ab524b413e2dde0655625191f0468ea24409b945",
+    "bytes": 34071
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_processes.py",
+    "sha256": "f3af245e89fe383ff6a218226f8b356e956bf57742e1fcf77c9b199dde3f91a1",
+    "bytes": 924
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_numerics.py",
+    "sha256": "3514832154e8b930e12a95fdd31b48cae074c3d1a10d94be043013aead359caf",
+    "bytes": 4831
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/continuous_inputs.py",
+    "sha256": "b2f4ad4603614ea6b5b04938dcfdd609227c1057a25b7ff984443f490d01cd36",
+    "bytes": 5473
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_numerics.py",
+    "sha256": "9e5c65032398b450caed41cc99506acc75c1b68400c29f85b1fed95242345285",
+    "bytes": 7712
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_inputs.py",
+    "sha256": "99cc7f430032c871d8345979bd3c9a72fcfe20cf8b1267ee40e5b797bcbc86fa",
+    "bytes": 7287
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_full_report.py",
+    "sha256": "4b2f8c432c71f4b094bf0e144eee80a3eeece537c65731b61fddc5ca3fc35c42",
+    "bytes": 24985
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1.py",
+    "sha256": "76305a23e0f8ef7fa9f0ee3c5a405843194691f7a88ab310a6899ce9b68bf981",
+    "bytes": 6452
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py",
+    "sha256": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+    "bytes": 22358
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_inputs.py",
+    "sha256": "978835c8ba9b54f85482a6285ea68a430c0933db860841a82f210ddeb857c725",
+    "bytes": 7040
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/continuous_diagnostics.py",
+    "sha256": "730ca559e60ff735742bb27b407513dbac9bd2445e05149fc37efdc4c2e97c21",
+    "bytes": 19933
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_training.py",
+    "sha256": "ab3408395a800206453a920a67eed25401d5dfb8d71dba9b46e90613c13b56fc",
+    "bytes": 22103
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_numerics.py",
+    "sha256": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+    "bytes": 7489
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_selection.py",
+    "sha256": "d7e7f791d92058759274d310f8e7b6255e0f0795bd95dcaac6829f2c50250abc",
+    "bytes": 6204
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_reference.py",
+    "sha256": "bf07be9b8a3e1daabd94b83b5338df2ebf5cbf7784848fe392ef34feb2f8c07a",
+    "bytes": 7243
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_scoring.py",
+    "sha256": "196c39faf31b9d450a52520109723cc96ff9fc516021f2fec80aabe53d81ebfc",
+    "bytes": 33464
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_pilot.py",
+    "sha256": "77f269ab008bc1fee6e43a4f436f8937e5e9e192757d7aad2b86db1391d8c135",
+    "bytes": 14314
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_setup.py",
+    "sha256": "f93e67626e6afd28b4409d00b8bc45c7b431454f2b3491e99935ef64c65cdc09",
+    "bytes": 3940
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_full_runtime.py",
+    "sha256": "4beb1d812b9a33ac8179fbbb253bc65cc16dd3a89d75fb5937c6151d99a0687a",
+    "bytes": 5254
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_pipeline.py",
+    "sha256": "2224222c662bca6148a4e84b36a3aa3765f57694fd74f94e4ee21a5fa4513961",
+    "bytes": 22816
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_report.py",
+    "sha256": "88beb1883f36e2662a31e7eb9608755d8fed729284b728793555c3eda1eec404",
+    "bytes": 18227
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4.py",
+    "sha256": "14f33c61a34cabc3c29a1d20b07245453af09e52ef65bd509b6aee6fbd4712e8",
+    "bytes": 7830
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_report.py",
+    "sha256": "0bf678173d4a9482df8e82b061bfbb88f0f08f9747da4b418cf131e96fb14f57",
+    "bytes": 18084
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/__init__.py",
+    "sha256": "aa09f55f7f8a1cb8c37922ec1fdec51cd513eaab0ffd3ff69506e7cd09f8e075",
+    "bytes": 61
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_full_runtime.py",
+    "sha256": "a82f7cb8f7967e69fdee9ddef4c2b62894792a01cca3774c37a0beb0d0684af3",
+    "bytes": 5254
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2.py",
+    "sha256": "886a58dcb1fb47ec1674efcdbf5827d5bf40ed7456e3c6a3ebc021261d64a782",
+    "bytes": 10410
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_pipeline.py",
+    "sha256": "a06e0c197887af8ae2f1976d574e62879e27b1e1fd054363c854939ff4703fc6",
+    "bytes": 1880
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_reuse.py",
+    "sha256": "e48c3d396d199918f131f967d815d7cb99771c428879808787fb4b16dd147844",
+    "bytes": 9473
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_audit.py",
+    "sha256": "3de8b22a2a1569865e7a5dcdfccf429ee8bd05cb24bfb47e2e2dd92d0be4bebe",
+    "bytes": 11288
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_pipeline.py",
+    "sha256": "583feb66a1a6ccaf4489946ddaf0decf4fc141add59f5604e381e214fc982e9d",
+    "bytes": 15175
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/continuous_report.py",
+    "sha256": "de7e69749deaf19703a7799d9a33dbadcb0d3bc8e22bdf75118f3ef59ed6cc69",
+    "bytes": 31546
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inputs.py",
+    "sha256": "ccfba2c412b335903f3138b79f30220f94c7b5978949180c722847d4cb8ea79c",
+    "bytes": 7287
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_verify.py",
+    "sha256": "15ccc776a0e2d99fca5079a7ea778dda85266366d4c66f9c195f7066ef077781",
+    "bytes": 14460
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_selection.py",
+    "sha256": "f05622ba12fbb628961c38f04b563a2d85a9d080655b32a08cf2675c7b6a6cf7",
+    "bytes": 24448
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_selection.py",
+    "sha256": "98df0b714d502722d8da8f90e63b361c2ba933a7245c1db6117acfff5d39f888",
+    "bytes": 24426
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_context.py",
+    "sha256": "06b2b62019e65de7a7d67b18189bb335e2a717ab0e8fa9147c3ace14ed63c352",
+    "bytes": 8286
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_audit.py",
+    "sha256": "c03f227124ab197e1e3a54c6fb92134d84a85210c43f4a606413f6889fb1ce9d",
+    "bytes": 61125
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/run_continuous.py",
+    "sha256": "4c25d1388826981f0245c56487b3676bb7354969118e47b5a6b579c5d1e155e9",
+    "bytes": 17401
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_audit.py",
+    "sha256": "45b572fd6703474676d12bdc8b2d5f8d8034be8c6c89cc4a70dbbfd719ff53a3",
+    "bytes": 57304
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_score_kernel.cpp",
+    "sha256": "c6bfc2d883160f2380e10e6e222dae303d8066f1938fd595c0cd2f04ac78f38c",
+    "bytes": 1006
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_training.py",
+    "sha256": "9f74231ca9dcb3d9c1807e73094efcdc9d180e17166227872e89c9bd4422450e",
+    "bytes": 21712
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3.py",
+    "sha256": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+    "bytes": 7808
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_pilot.py",
+    "sha256": "51cf1173193f3d14e7c8f97fadf9de2bb5a5ec2caec0cb36d2770e490d16d55d",
+    "bytes": 20044
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_optimized.py",
+    "sha256": "4cbc6464e6452d3083e8721144b20cd4b8ebeb3beaf5577c65cdefe4e944a005",
+    "bytes": 11809
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_optimized.py",
+    "sha256": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+    "bytes": 11809
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_runtime.py",
+    "sha256": "7ecc16a3bfb4bfaf0471613481a36819931be2bc0a9d1db96d86e224edb47898",
+    "bytes": 7839
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py",
+    "sha256": "2cf2ca2355adbaf0f9fe45b894993f77a2d3dad4b799515bfdbd5bd3bfe441c9",
+    "bytes": 7839
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/continuous.py",
+    "sha256": "faede5dd73de867f1b91eb3f95216163c6ebf6385edda225000793deb4898b72",
+    "bytes": 6273
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_context.py",
+    "sha256": "acb3fafdaed83fd9a1b24a4c02e338ff2761834344983b2afa3dd2a1d2e8be63",
+    "bytes": 8315
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_numerics.py",
+    "sha256": "f49fb2f01b023a50a137b7eb85c6f1db6f2178218ae3877c7d38203cbc59acbe",
+    "bytes": 7489
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt.py",
+    "sha256": "076bd1560be521aec5b224acf43c4e93dc5ad607e777adc5d15ed7b05dec70cd",
+    "bytes": 4691
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_analysis.py",
+    "sha256": "82023e647717561e390157ecc02ca24064322cffd51809d0651845e3bf86bf51",
+    "bytes": 3088
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_training.py",
+    "sha256": "7febba7cdcfd41207bb7f59a5236d29c8627d6454049f7005768ca0b03b144ee",
+    "bytes": 22358
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_scoreopt_validation.py",
+    "sha256": "5497c7a866dd9d54b8faa8041d51181ef8b8c55d605add2358796dc8d5f4a12f",
+    "bytes": 11725
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_native.py",
+    "sha256": "72dd7d13792c1fe0c163ea0abd5f64c66a43072776ca847215d7fe4aace2d3c5",
+    "bytes": 1506
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_pipeline.py",
+    "sha256": "4933b9cca70695a87373bc3cd6b013cac5daf3c5df6fbda3c6c6e9bdc15b5f7b",
+    "bytes": 15112
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/continuous_diagnostic_report.py",
+    "sha256": "c9cb2fc2769482441233d12421c18f50b524e45b8df3bd88bb35627e1e858034",
+    "bytes": 18699
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inference.py",
+    "sha256": "5a280f38e9f2350911ab275bc9e844af9f6a885f25c62fb1d7284ba2175a8787",
+    "bytes": 7011
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_inference.py",
+    "sha256": "ee974b11404c55c2f71974059ad7ac8313a46b1c0caeea453aa9d6acb4f20e49",
+    "bytes": 7376
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_delivery.py",
+    "sha256": "572d4df3f3d2245c6198ce9c913093e1293dc9ad82fa364c53e198fb471c3b46",
+    "bytes": 19045
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_kernel.cpp",
+    "sha256": "72cf405d8f7b2a57e14e8f62dae4d1b212a041f4a4290b856e5369c44bd9f5cd",
+    "bytes": 4054
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/local_gmm_s5_e2_audit.py",
+    "sha256": "b5c687708dd2bb2563150c5ce782e0da1d150c04989afe2133c31ecbd94a67ee",
+    "bytes": 25922
+  },
+  {
+    "path": "src/data3001/modelling/continuous_models/conditional_gaussian_s5_e1_full.py",
+    "sha256": "1c53b4ab96ac45e1873e9ae99addfb4f698d70507984885813cc447c35727abe",
+    "bytes": 21726
+  },
+  {
+    "path": "src/data3001/modelling/common/plotting.py",
+    "sha256": "f597f1578ad08bfcc577140b39d66724ab0d8fc96201b78304b093c631b55911",
+    "bytes": 4057
+  },
+  {
+    "path": "src/data3001/modelling/common/__init__.py",
+    "sha256": "8498d955e8b1247d9e0604902695ffb1a63b64844b2ff9583573990a7d1e2758",
+    "bytes": 50
+  },
+  {
+    "path": "src/data3001/modelling/common/runtime.py",
+    "sha256": "fb77896b7159fde319ad8908ea2b2535e1f9405b47e7126c2502f88fdc39fa90",
+    "bytes": 3935
+  },
+  {
+    "path": "src/data3001/modelling/common/experiment.py",
+    "sha256": "0c3f88fc6d78ce3caf6591ce9be35a9920dfa992b072397019a6026938d06b4f",
+    "bytes": 6108
+  },
+  {
+    "path": "src/data3001/modelling/common/qualified_count_inputs.py",
+    "sha256": "d51a540168b250a0e566841cb98147c58ba2b91781c196e6db49fe1fb932de30",
+    "bytes": 9952
+  },
+  {
+    "path": "src/data3001/modelling/common/geometry.py",
+    "sha256": "acec1a66c0ee993e5441383f83ccf55da27d640bc795550ec4cc3a2fc63330e2",
+    "bytes": 3655
+  },
+  {
+    "path": "src/data3001/modelling/common/markov_position_scores.py",
+    "sha256": "02f598709ee190062aba4f8533f066a7360942a598f919d47834a8f2a9ad279a",
+    "bytes": 5903
+  },
+  {
+    "path": "src/data3001/modelling/common/probability.py",
+    "sha256": "9b0a381ebab42b4fa375e285019d9dd73debf752d842092939b4980ee18f8b86",
+    "bytes": 1966
+  },
+  {
+    "path": "src/data3001/modelling/common/prediction_regions.py",
+    "sha256": "05a672051952ef0aa591229c7db51d4e1e63e961def69b25b610e8e343482d94",
+    "bytes": 2757
+  },
+  {
+    "path": "src/data3001/modelling/common/markov_scoring.py",
+    "sha256": "67ff43e03cceff2e73aea5316500195f1f54711d842a3aa98f9497b2fb85311c",
+    "bytes": 3458
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_diagnostic_report.py",
+    "sha256": "84914363f54de8ca5c9d615099b54c7a9215ead35b4a9447344936242efa49e6",
+    "bytes": 423
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_strata.py",
+    "sha256": "c8ba8f052becf48c17da2bb60bc635f365ce6b5e517c56eca3a530997d57cbc2",
+    "bytes": 420
+  },
+  {
+    "path": "src/data3001/modelling/_compat/continuous_inputs.py",
+    "sha256": "5b5b67f00bf3dedf21e761a32f2161d16c26881e78e1831b784bdfac343f7e4b",
+    "bytes": 414
+  },
+  {
+    "path": "src/data3001/modelling/_compat/blend.py",
+    "sha256": "557bddff8c04d0614e9eac9e17e1646432c5bada0be09ab8341698364d356cfe",
+    "bytes": 354
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov_position.py",
+    "sha256": "13daaf50ee283362536558b9b231033e1136f5a5f112f0b19353e74bd643e6c7",
+    "bytes": 408
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_outer.py",
+    "sha256": "4f45fd3c12059c38ae3b121a23453761201037fcbba617c73c15cd813aabb858",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/_compat/continuous_diagnostics.py",
+    "sha256": "718c961393df3f95a21878623a43c681cd85c31f9248ea8146f7f5cee1662430",
+    "bytes": 429
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_report.py",
+    "sha256": "306316b91c4b8a828368c3911f9b4f6fc85e15c7fd04fd3556899338085f1786",
+    "bytes": 390
+  },
+  {
+    "path": "src/data3001/modelling/_compat/neighbourhood.py",
+    "sha256": "f2c1af902f6f6155883ed96a43c3ee397db4ebd1f3514a32b0669f6555797529",
+    "bytes": 378
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov.py",
+    "sha256": "522ea4597dad82625355432c6948e4158d20d3412c06111ca22aa7fa197a855c",
+    "bytes": 369
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_neighbour_integration.py",
+    "sha256": "31605586968c8eea236e2279501db69fae76667d48a590136c02b4ed055cd1d0",
+    "bytes": 435
+  },
+  {
+    "path": "src/data3001/modelling/_compat/neighbourhood_cv.py",
+    "sha256": "a5d0ec20c365c70d56161dda4e6e7a1a4169296451ef90ac6bf5f5d77aa8d641",
+    "bytes": 387
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_inputs.py",
+    "sha256": "8fea392ec13dd8cc580a582394d1c448fa140670562bb5ac717fdad87d36b4c7",
+    "bytes": 390
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_neighbour_report.py",
+    "sha256": "0f75ae7bba07b13f995778db3113a4b53b721bbcad03eb2dcce0559fcbd4f8bd",
+    "bytes": 420
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_round1.py",
+    "sha256": "8eefd1b4b402213cc0e7bd60b0a206231e866e8ceb4f117e555c3c51cd0900e0",
+    "bytes": 369
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_regimes.py",
+    "sha256": "927466c3fccda18e1edf786290f014c8249b79bc100af849b716c2ce37b7812f",
+    "bytes": 372
+  },
+  {
+    "path": "src/data3001/modelling/_compat/regimes.py",
+    "sha256": "84ef0821ee4632830207f14ddb55d6e12eb8d37e27e8673fd4451241a8bf0c92",
+    "bytes": 360
+  },
+  {
+    "path": "src/data3001/modelling/_compat/__init__.py",
+    "sha256": "ae49ec3c2409b10556247f65519fa93c2b9437e981a57cc50f84fcb69c40fd82",
+    "bytes": 51
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov_velocity.py",
+    "sha256": "628d38c5a179a248ac1cf96fbe7ae1b9695bd3cc6a6923aeda062301da75dbd0",
+    "bytes": 408
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_diagnostic_inputs.py",
+    "sha256": "234dc5b20ae70d95fefa713e4c60aa5fd1477be214ca60a33916aee1851d5177",
+    "bytes": 423
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_cv.py",
+    "sha256": "89e611d979f0e111ef6c2883d74038d891d4d46f7a995ecc10f407d1b1e9a0a9",
+    "bytes": 408
+  },
+  {
+    "path": "src/data3001/modelling/_compat/continuous_report.py",
+    "sha256": "486ac2650b228ad50c71073a98a3ce6c093f22d9251c44f5e8e5d7132d9a02ec",
+    "bytes": 414
+  },
+  {
+    "path": "src/data3001/modelling/_compat/experiment.py",
+    "sha256": "9cf671bfba31c1fee5623d230f9e48759398389200a4eea938a13d36d2fbef15",
+    "bytes": 360
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_position_report.py",
+    "sha256": "ec3e6a6b757f37da4fc63ac5ce28968ba3cd25e4d7c4749d1cc8c428a946ec70",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/_compat/showcase.py",
+    "sha256": "153a66fb0e4eb757f0f6a98dd8132d8f72153ff8fbf90229156cd45ba6808b4f",
+    "bytes": 363
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_velocity_report.py",
+    "sha256": "c3364379942548d8af24f6570b68d6357a94e09f4dd4ed7b7126d4aa0111a356",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_report.py",
+    "sha256": "3f264d0ece256c8c95a485606ddb2b08882c56fc8c4e3daf953a267f2cf41723",
+    "bytes": 420
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_neighbour.py",
+    "sha256": "88f62b34163dcc0dc5447a9cbb3cf34c35149f26bd9965062cd6745e89bde5d2",
+    "bytes": 399
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_continuous.py",
+    "sha256": "8432c170c1a76b28aa30f2744ba9bef74fd4a9698fa678758b6b36cda6c8291a",
+    "bytes": 405
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_position_scores.py",
+    "sha256": "305f71b9119cfbea0416a1bf7810af5a9472ecf5bd75e1b9513960b773d4830a",
+    "bytes": 396
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_velocity.py",
+    "sha256": "5b14bd5fdada5fde245283a8f67716b3f6bbfe17285c6476bfa61a4a75e25ed3",
+    "bytes": 396
+  },
+  {
+    "path": "src/data3001/modelling/_compat/cv.py",
+    "sha256": "0bdb52f27ef6a755e2c8e856730a5b053b32dd9c90c20ed0015c523ece726b09",
+    "bytes": 345
+  },
+  {
+    "path": "src/data3001/modelling/_compat/neighbourhood_report.py",
+    "sha256": "a69334b6c4e4869f7ed74fdd657c1ab7bd910ddb7bb45306de46830a3c49eaa0",
+    "bytes": 399
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_blend_cv.py",
+    "sha256": "38d4c34847f41289592d49d3661bb61d07555fb279ce4a3e6e5ed5a8705c495a",
+    "bytes": 375
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov.py",
+    "sha256": "0db5bed373fd4f0c3feac87774567acaf17cde282977375a6f3c34303a28728e",
+    "bytes": 381
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov_neighbour.py",
+    "sha256": "a73d82f0f13d75dd20a6790711395bf77f75a8a694998affda11d82ff0abcb65",
+    "bytes": 411
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_neighbour_cv.py",
+    "sha256": "3f2c5630aae9729423a750e7bd90e00ae509460c8f08398224c0ddeea488dfa2",
+    "bytes": 408
+  },
+  {
+    "path": "src/data3001/modelling/_compat/evaluate.py",
+    "sha256": "a4ea115efe9efadd6381da0b559c8e1972490d8d718e1a39141ecfffd839a64a",
+    "bytes": 363
+  },
+  {
+    "path": "src/data3001/modelling/_compat/continuous.py",
+    "sha256": "5a5dd598f570ecf1aa1038b5738133493ef49f6c3930182cda57ce6809953a26",
+    "bytes": 393
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_diagnostics.py",
+    "sha256": "87a5fbda0dc4a2b25a02556182f183476a4f8c53d85a72f26e1dad76d2c6b4dd",
+    "bytes": 405
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_neighbourhood.py",
+    "sha256": "4c01e068b8ee49ede661e44c879a279bff9e69677442037ef791b65cc0be035e",
+    "bytes": 390
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_neighbour_native.py",
+    "sha256": "59be37cd2a48c1f04cc3e28c83bc4b4758185c36e9e12440ea2d1d5cd98626c5",
+    "bytes": 420
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration.py",
+    "sha256": "3256bd79874b37180d21cb2e7b282d1de5d89b65794db977a5379b431617f962",
+    "bytes": 399
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_velocity_cv.py",
+    "sha256": "d6684b196e9e8467d7abc74cb022b110cda4a49c810baea43b17227c5297d6cf",
+    "bytes": 405
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_velocity_inputs.py",
+    "sha256": "3f38a4d31fecbb4899096c6f8af69b8a5970ab32b994539a50c5c0cde075ce4b",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/_compat/continuous_diagnostic_report.py",
+    "sha256": "7e455aef2af3fa6343300a847578a96c88bd0644a7d259a7dfe426e3ae744b0a",
+    "bytes": 447
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_geometry.py",
+    "sha256": "371dd681ada1079c143b742e6577b653b65d33a6640b4be2ef33a311417f5c98",
+    "bytes": 426
+  },
+  {
+    "path": "src/data3001/modelling/_compat/report.py",
+    "sha256": "15b51e74d4b21b77e6da76ee5bb09df42746d76746e6f0ecca893d3fb0619e96",
+    "bytes": 357
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_position.py",
+    "sha256": "5c47ad322881b8bbf81b02f3774ad9976d12eb4914c6e69aa15c98b1802b3ff7",
+    "bytes": 396
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov_iteration.py",
+    "sha256": "4e5722eec523dff714c93576a70cb05ec9eb3bca58d9a977c5e0714713d96f21",
+    "bytes": 411
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_position_inputs.py",
+    "sha256": "99147c7a7d00478e5e10cb61e9241d92c42975178fe3a14acaa25e14bb859f3e",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_iteration_coarse.py",
+    "sha256": "b6bc812d3ad10ebbfcca86771c1d5474a930f7567cb84803756196e2b0907c5b",
+    "bytes": 420
+  },
+  {
+    "path": "src/data3001/modelling/_compat/markov_scoring.py",
+    "sha256": "3e055c0c07cac4e9456c39f38af70bd474434cb556cf7c1399df66c6c741f9e9",
+    "bytes": 372
+  },
+  {
+    "path": "src/data3001/modelling/_compat/run_markov_diagnostics.py",
+    "sha256": "82bed79089da5f737aa2f6bfa19cd963bceaea6a2e6f1387c9c1484e06b7faf4",
+    "bytes": 417
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_report.py",
+    "sha256": "b045dc2fa7502bee451f1797a9e20c3509719869cc341da809a3890131b01776",
+    "bytes": 15009
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_selection.py",
+    "sha256": "f0dadbd8d925a9d74a8a049108e3082fe269e673da575dca10d6e11bfb5683f9",
+    "bytes": 11534
+  },
+  {
+    "path": "src/data3001/modelling/baselines/spatial_borrowing_s3_e1.py",
+    "sha256": "9582bb0e0ffc0b5f2d870bc36edced7a5bcd8d7fd48025cc5720d4a9bbebb9cc",
+    "bytes": 10710
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_pipeline.py",
+    "sha256": "2ce5f9298c36b2d7935d317535f5697746a51804e3714be68fe85c6005381d1a",
+    "bytes": 11728
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_report.py",
+    "sha256": "1d1422208392b3a0086748138fa2b24ca22a048f3a5e590992c96d2615e1d441",
+    "bytes": 10829
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_information_s4_e3_inference.py",
+    "sha256": "044c24b208c4c022dbfcb74e5cf2b7b5570453f37d49ae0ce35c21c0059d48d6",
+    "bytes": 6918
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_empirical_b2.py",
+    "sha256": "6b70cd1b18ab93c81d5911c1ee858415cd8ee79b8e5912e93a6179973cfd08be",
+    "bytes": 15250
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_grid_translation_audit.py",
+    "sha256": "52dc7a2aedc964d1d9e975e0f03db01de3e8c758a3d971238544fd418492fb40",
+    "bytes": 7045
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_capacity.py",
+    "sha256": "293b4de634c5e9d32e04ac0829fc21ca311a97ff46aa1317091e768a9688e57b",
+    "bytes": 10225
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_actual_origin_displacement_s3_e5.py",
+    "sha256": "6e889255e6e5e74087e48eb0395061a6cb3df14ec2beca780b3c4bf0a973235d",
+    "bytes": 20045
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_conditioning_s4_e1_audit.py",
+    "sha256": "ddca2d83e2a12b4d23603939c2838de48d9b73b40ac84f905c775a1667041990",
+    "bytes": 9493
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_trial.py",
+    "sha256": "b143aa87a6994ccb98dda7f6301fd916be3427f2f8a4fb5221e50b4c87e3e143",
+    "bytes": 4827
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9.py",
+    "sha256": "25ca667582310ace98962597dc5b7e82deefefad529a759b0c27739116b7e9ad",
+    "bytes": 7053
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_joint_s3_e4_report.py",
+    "sha256": "4b0198672d46d6658b4794ca8a333a19051b57db0e662a7537772f8704474bbc",
+    "bytes": 20769
+  },
+  {
+    "path": "src/data3001/modelling/baselines/blend.py",
+    "sha256": "6b0ae2a22e246a9bababd36713624811bbabdf3b42c46649b5234a14d6662a0d",
+    "bytes": 3648
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_aggregate_resume.py",
+    "sha256": "a47d29cb19e1509456c48581b5f4191221cc5ede1ec95ef869fd420e20094067",
+    "bytes": 3675
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_profile_g1.py",
+    "sha256": "5153b29c49ad1d234957ee8ab4f930afa4d85082bd2b8e23f8932ad634a5296f",
+    "bytes": 10083
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_pipeline.py",
+    "sha256": "da18673b987534aa05b5520d8bcb34845064407ae5afdf6ef0366e8d1bae2410",
+    "bytes": 14242
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume.py",
+    "sha256": "f87030dea1c45e7acb0daff0905082c3517eb4df4fc1abbb1b85b33f34accf09",
+    "bytes": 6594
+  },
+  {
+    "path": "src/data3001/modelling/baselines/exact_origin_s4_e7_pipeline.py",
+    "sha256": "9fe49ed7ab23cd96a39ff6606680e8e6e947e78a531a4538d79eae1908948d03",
+    "bytes": 22425
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_formal.py",
+    "sha256": "cf15bc515b4e38365516604931809429f3e66e76e646a2385d326db844ec8aef",
+    "bytes": 11130
+  },
+  {
+    "path": "src/data3001/modelling/baselines/empirical_b2.py",
+    "sha256": "a53de5d27488cebfd18c7f439359f7b6b0c3ff4bdadb0bfdef482b62f2c14510",
+    "bytes": 8870
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_local_endpoint_quality_s3_e3.py",
+    "sha256": "ca61a18feab9e253a0b366ac7adbb0b0f21b99da7e4678dec1f47ae421714b07",
+    "bytes": 18659
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_b1_e2_audit.py",
+    "sha256": "2b4e66ea6a84a4653f2c05c7afe2df1ffd11c3767f1fc03574bf38ec7f0cfbca",
+    "bytes": 17537
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_geometry.py",
+    "sha256": "6dbaa21950c5827046e4b8735b0454dff15cfe2837a2e0219c50203c03fa25a5",
+    "bytes": 3609
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_esopt_review.py",
+    "sha256": "73877bd05f3057754a5f4e9bd4a4e06f5b5776d196a6182e83ee2ff9bd9a4857",
+    "bytes": 20771
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_departure_direction_s4_e4.py",
+    "sha256": "a0209c3e63c5205f56b6979259b8592581299410d1bac9e79dad3a3046d9b399",
+    "bytes": 9997
+  },
+  {
+    "path": "src/data3001/modelling/baselines/neighbourhood.py",
+    "sha256": "dec816fdfb841c0cbd5f428903120b793b6bf55bba23cfe61303fdd2b69adf05",
+    "bytes": 9389
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_information_s4_e3.py",
+    "sha256": "e2d54cc1664e1a0bb5de74a8df2dd808ff4a00d4d0f7b7ecbf03964b47c9fc08",
+    "bytes": 7732
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_joint_s3_e4_audit.py",
+    "sha256": "6b2e1de9235f12d108f15fb3a4f71425d6446b31ee2cc21ba811ad813b78d144",
+    "bytes": 24596
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_io.py",
+    "sha256": "bae63e02761498ef12393d9ef3fb40a100784ca9ce7ba32805e1fe87e64007ce",
+    "bytes": 9211
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_checkpoint.py",
+    "sha256": "d0c08b289858b55271f682ee483895daba2ccfe8286f8041279ea524995a852d",
+    "bytes": 1304
+  },
+  {
+    "path": "src/data3001/modelling/baselines/neighbourhood_cv.py",
+    "sha256": "b5a2165303871c5b5b3d422d4a8ce9da21055c2eb2d7628f3807cabc135ea10b",
+    "bytes": 13384
+  },
+  {
+    "path": "src/data3001/modelling/baselines/partial_weighting_e4_report.py",
+    "sha256": "ecb040f62b62c90c5e55375f3321a726079031e2aa6a0df03bb2a96a0c5cc12a",
+    "bytes": 17372
+  },
+  {
+    "path": "src/data3001/modelling/baselines/departure_direction_s4_e4.py",
+    "sha256": "5b20632ea15f36f27d534fead88b2d98bda62ee0730bcee41d59e25e650e5afb",
+    "bytes": 8359
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_exact_origin_s4_e7.py",
+    "sha256": "55fd1737169c315707bc79553cf511ac2847c46642cede0e5bb72b0fd26b1639",
+    "bytes": 14960
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_b1_e2.py",
+    "sha256": "6b0a5bbe06145f1919d0496e92020389cac73fe02a9b21d2756eff4affa059f6",
+    "bytes": 17734
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_round1.py",
+    "sha256": "22171caaedbb63f811e2bb17a7f8ecfaf018b9a716de95c08b08470a578aacbc",
+    "bytes": 7631
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_esopt.py",
+    "sha256": "12ceac70a96e8d8e51c48582c910f68595f9b011b92b78501dd700016baa5919",
+    "bytes": 6991
+  },
+  {
+    "path": "src/data3001/modelling/baselines/drifter_shrinkage_e3.py",
+    "sha256": "b6276e20c84ae7a32768446c8a6b583d1e7880922f6529e7537c6e44ef423823",
+    "bytes": 17676
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_esopt_runner.py",
+    "sha256": "5165ca0f4c8cac3e291196c62c01c86e57b352274aede23053c963c725f5be3a",
+    "bytes": 23257
+  },
+  {
+    "path": "src/data3001/modelling/baselines/departure_direction_s4_e4_pipeline.py",
+    "sha256": "180e37c964710bf13141b53073fdf7b7e37c3ab31127bdb3c6dfaf02d5524e07",
+    "bytes": 9146
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_regimes.py",
+    "sha256": "c1ee0c9980845a2436c99aa3154078358a95a5a3e3087b6d373b57794006d393",
+    "bytes": 17904
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_position_error_s4_e8.py",
+    "sha256": "ddbcd0598065e951086b3d96f28ca32e6b8212d894da6a3db76c0099d7de3eaa",
+    "bytes": 885
+  },
+  {
+    "path": "src/data3001/modelling/baselines/regimes.py",
+    "sha256": "1f575d23c40cdfbf56c2e9358c207f98f1d773d42f41155a27f0194dc3a60651",
+    "bytes": 5091
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_local_endpoint_joint_s3_e4.py",
+    "sha256": "cea7402d68be81b79a8577fde403092f99703d6a2980336c161add0123e098ed",
+    "bytes": 20121
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5.py",
+    "sha256": "c027992469a78a44905bad1f665557d941f1aec8bada0faf0d6137d18c1bd7e8",
+    "bytes": 2743
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_seasonal_conditioning_s4_e1.py",
+    "sha256": "44498ccfb8668ce4f91f80de1c4dadc5ff6c4acb5f214b6d331f335ebe0c6ad1",
+    "bytes": 16647
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_quality_s3_e3.py",
+    "sha256": "d468464c94e8461ab5123d98b1d5888cf33d1110071ff8c604ce11382dacf797",
+    "bytes": 17107
+  },
+  {
+    "path": "src/data3001/modelling/baselines/exact_origin_s4_e7.py",
+    "sha256": "ed1caa314dbf9b2578b8b2f67ea00b75f7335819550337ac71524f96a9e095bd",
+    "bytes": 12114
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_b2_b1_e2.py",
+    "sha256": "fad985c7d4a7e173c56d24d452d334aa3a8694c8bc4b6199d0a8742efba576c3",
+    "bytes": 17708
+  },
+  {
+    "path": "src/data3001/modelling/baselines/__init__.py",
+    "sha256": "76822eabdab48e2fa578b3fd4f5cf158aaa875b4868a1d41bf8e72d3c73e9713",
+    "bytes": 53
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_numeric_revision.py",
+    "sha256": "4926301218d10178072ddba52cc89e63aa18253a1127d48bf77f0c151b3eeb97",
+    "bytes": 10093
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_finish_revision.py",
+    "sha256": "9426406a8e88f133502e094c47a41d85c463852dca568c2fd316ff765e1bc480",
+    "bytes": 3712
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_inputs.py",
+    "sha256": "93439f20b076f2e76cd1c0ecaea2e188b2fa035b94b627085d561ad33b5eb09d",
+    "bytes": 13596
+  },
+  {
+    "path": "src/data3001/modelling/baselines/adaptive_b2_b1.py",
+    "sha256": "c49a869898918f33c6ca906022d73cca7dfa4e63ace415d12dc9dc5e8d98fd62",
+    "bytes": 12034
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_partial_weighting_e4.py",
+    "sha256": "f3207b0243ab1165dd377d7948254f6f7ec1b01b1fc42992fb52871dfdc3879a",
+    "bytes": 22637
+  },
+  {
+    "path": "src/data3001/modelling/baselines/adaptive_b2_b1_audit.py",
+    "sha256": "f2ed02b024edfb3be9d028dceac8c864828deebe5307c26e0ec5c4b05d4fcfc9",
+    "bytes": 8660
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_inputs.py",
+    "sha256": "c1f4b71601197951b7850e39db2f76db32fd603fa20b87f6b54ced03d57e0c6c",
+    "bytes": 7841
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_adaptive_s3_e2.py",
+    "sha256": "3ab0e8f0d834f80ce89838ffb547ee9fee54e716bf6a67983952642ded5aca60",
+    "bytes": 13886
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_scoring.py",
+    "sha256": "7da3f4ea904cbee73eb15ecd0e8ba8e7a4bd1421be59f72845352b042173bb7a",
+    "bytes": 1366
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_profile.py",
+    "sha256": "dec9508f622c9f598324b0b07778380773f36151f6db561c66bd58af383f896a",
+    "bytes": 9749
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_grid_translation_inputs.py",
+    "sha256": "ac8ddc7064d9996c2c6880294c517a6ea1525b05604ad873b302e01158ba705e",
+    "bytes": 8716
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_information_s4_e3_report.py",
+    "sha256": "4e40ed97a134ef6f487a3f47db901c5327a8a0aec3f583416b0f9b1d636641df",
+    "bytes": 5740
+  },
+  {
+    "path": "src/data3001/modelling/baselines/exact_origin_s4_e7_report.py",
+    "sha256": "bdf2678cb6e717d61f52c3dfd915f88e996a9e8b02375d3464ee161e4f486b5d",
+    "bytes": 20922
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_audit.py",
+    "sha256": "38c9117391446b6d40b0c3dec919ac55af04c1e614664be1754be308e3e73d6e",
+    "bytes": 4329
+  },
+  {
+    "path": "src/data3001/modelling/baselines/temporal_validation_s4_e2_inputs.py",
+    "sha256": "1e832c9048c0299ee2cb60ee3e9f545a10ee627177331d2110b5f93482ba2676",
+    "bytes": 5933
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal.py",
+    "sha256": "d8028001616e66a980b304537b3eaa18a17ffd9cfc75dc67338360e207239afe",
+    "bytes": 16285
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_local_endpoint_adaptive_s3_e2.py",
+    "sha256": "6bea38844c35e515f065bb91914ee3250fa0f2f974330e2773e1dca89c570c6d",
+    "bytes": 17640
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_audit.py",
+    "sha256": "ca76d2e4b42e51e8826169040ec88eb8b8decd9508c1da640a15786df02cd910",
+    "bytes": 10607
+  },
+  {
+    "path": "src/data3001/modelling/baselines/adaptive_b2_b1_report.py",
+    "sha256": "e0846ecc95efbedca4aca5439e6f8ad7a06f12fc9f59c43e1731d5e72ae34db3",
+    "bytes": 13248
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_audit.py",
+    "sha256": "a385e13593d2017b07fb3695b444c99d0fdf4087571550a49f7ba9e610bc02e2",
+    "bytes": 20007
+  },
+  {
+    "path": "src/data3001/modelling/baselines/showcase.py",
+    "sha256": "5a66f2fd7feb30a8d53b4d5d0e4660a6c7d1d230feaf3e1e1833b5beaef5d68c",
+    "bytes": 10652
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_actual_origin_displacement_s3_e5_o1.py",
+    "sha256": "2b6a6f1c1cb07bf34990ea29b23b80bfce81b6a2d21c83ea7aab2880a227935f",
+    "bytes": 13246
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_analysis_v2.py",
+    "sha256": "f77bf69e8f3f2ab54a6795b360c675646ad3163cd31097f6fe9a2b1f06b0a604",
+    "bytes": 7298
+  },
+  {
+    "path": "src/data3001/modelling/baselines/spatial_borrowing_s3_e1_audit.py",
+    "sha256": "b043057f8a9cb30e3313e7ab756d81393feb7673a2c5ce14a7c6f9a6caca2100",
+    "bytes": 15145
+  },
+  {
+    "path": "src/data3001/modelling/baselines/departure_direction_s4_e4_inputs.py",
+    "sha256": "47c193d1bb2ec656592f99c1287245a01d584f527ea7afde684b286f358f4d5e",
+    "bytes": 4295
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_adaptive_b2_b1.py",
+    "sha256": "71eab7b4acfd69ae8240ed1ac59c441e26528aeab33cb8c801b18d7efb8779b8",
+    "bytes": 16777
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_validation.py",
+    "sha256": "38f407043cebd0f404d0e3d304b234f9e4513561824817e38d1d8d4c28c8f7f8",
+    "bytes": 9033
+  },
+  {
+    "path": "src/data3001/modelling/baselines/partial_weighting_e4_audit.py",
+    "sha256": "b9e070078e0afb8eabadc9c61efd0fd482f4c9406f902b5fe3d7548bc53b1e45",
+    "bytes": 24618
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_b1_e2_report.py",
+    "sha256": "c40b506c48e79f7a34ab9e75f68dda4057ece757a712280a0632739f3e465399",
+    "bytes": 13715
+  },
+  {
+    "path": "src/data3001/modelling/baselines/drifter_shrinkage_e3_report.py",
+    "sha256": "3cb815861e5e1dbe27ca7d75d2623f77738573658326ba778f899e85a1259235",
+    "bytes": 14217
+  },
+  {
+    "path": "src/data3001/modelling/baselines/drifter_shrinkage_e3_audit.py",
+    "sha256": "5e8acb7200dd9716dacd5ab4d8fc634ae92dd31b0fd545658009e62533f1890b",
+    "bytes": 23648
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_report.py",
+    "sha256": "3d484e08ac260d3d2d38fab17310e4f1f3831a6ba88017f52941797bacda5ef2",
+    "bytes": 27028
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_conditioning_s4_e1_inputs.py",
+    "sha256": "fa41c99645acc88a9b8c278b6dc191681678250cd4b28b0b03f9284b43436f4c",
+    "bytes": 9488
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1.py",
+    "sha256": "e87646c3cb4829df07165cf811c586147bbbffa245dcb1d41208774abd9e7a67",
+    "bytes": 9161
+  },
+  {
+    "path": "src/data3001/modelling/baselines/spatial_borrowing_s3_e1_report.py",
+    "sha256": "46d4e9ec005ae87d707ac07b37b93089f96cd38be2124204650b1849e733bca5",
+    "bytes": 22603
+  },
+  {
+    "path": "src/data3001/modelling/baselines/cv.py",
+    "sha256": "768a348282bd0fa4952ab67b4116b05a9cd484be02cce7a85ab445edfc53e8a9",
+    "bytes": 12763
+  },
+  {
+    "path": "src/data3001/modelling/baselines/neighbourhood_report.py",
+    "sha256": "5f0453e5c53fa282ddd566d3cd91f6b6d88046ec11435fab73b808e14e0a4f6a",
+    "bytes": 30463
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_blend_cv.py",
+    "sha256": "a1dbcd18d7c8ec6c3929b92dce0b6c7b76fd1b37fcf14b9a08120b97e68bcfd6",
+    "bytes": 13278
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_adaptive_s3_e2_audit.py",
+    "sha256": "c724cd74d506473825ec4b586f6fa91dc828d4a8df7314bee851050c4b41cf39",
+    "bytes": 14137
+  },
+  {
+    "path": "src/data3001/modelling/baselines/exact_origin_s4_e7_audit.py",
+    "sha256": "3f478e96e4692d4d1932c5df1974adbdf6e0226595e885265e9a7bf8638d01a2",
+    "bytes": 17064
+  },
+  {
+    "path": "src/data3001/modelling/baselines/temporal_validation_s4_e2.py",
+    "sha256": "0457d2a9ed30463db6ac39e31cd778e0a19be9fa6086a586c1b20d8505a281b5",
+    "bytes": 11882
+  },
+  {
+    "path": "src/data3001/modelling/baselines/evaluate.py",
+    "sha256": "99f79c0ad8c2eccca869bf439bedc6bc96c5c8af28ddfcf708727397b0ace59f",
+    "bytes": 12169
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_audit.py",
+    "sha256": "8e33839fbba0c6226d0ad32106af261f1289b1a36c5aa21467ed65ec1c7cb027",
+    "bytes": 15331
+  },
+  {
+    "path": "src/data3001/modelling/baselines/spatial_borrowing_s3_e1_inputs.py",
+    "sha256": "59c05ffcd34534eb68c74df2e33dbec080baab48b947c920c24f60a42130fa48",
+    "bytes": 21934
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8.py",
+    "sha256": "0bf190afee883be8fdaf0dd13a44241c9f8a2c073fa1f3397ed1f98b44ff6c5a",
+    "bytes": 12597
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_g2.py",
+    "sha256": "5321f3383ad2e0fb47679228505bc4fb34ce8a776943c92773be2ac2368588d3",
+    "bytes": 8182
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_adaptive_s3_e2_report.py",
+    "sha256": "97dbdb90bb8e0e0d771aba9b942a30fd101c0f9d0b167f5a90bfd0312f0fdd9d",
+    "bytes": 18983
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_conditioning_s4_e1_report.py",
+    "sha256": "f67f231c45a12815ae16d5a48f872593d0bfcf41e08c0b568938c62147b03e6b",
+    "bytes": 14575
+  },
+  {
+    "path": "src/data3001/modelling/baselines/temporal_validation_s4_e2_audit.py",
+    "sha256": "7018ab8c0d32ed263e7f0969c9ba0e518126880f5a5278792d1908fd862767b1",
+    "bytes": 12467
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_sensitivity.py",
+    "sha256": "5e0f4eac35002d6bf24b0696431b91771772235c02ef2fe91991716efa05ab05",
+    "bytes": 3455
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_joint_s3_e4.py",
+    "sha256": "b6c8284be24520e2e388fc17dfe6a2adaea8e8b51f9ae4f8bdc90fe0a61193e2",
+    "bytes": 11249
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_drifter_shrinkage_e3.py",
+    "sha256": "25801a34a745f5283dddec3db1a8f9d393bcf3b1b5065ebbd1caf542eab0c020",
+    "bytes": 21531
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_neighbourhood.py",
+    "sha256": "dfb48a8f37ae483b283963a21b715c9269c35dd93a2960f3752cc6fa233d13ad",
+    "bytes": 19373
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_quality_s3_e3_report.py",
+    "sha256": "103dcce56ec947d4aca39a6cedefd057307deea500d959249ef1e6330d69912b",
+    "bytes": 25843
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_grid_translation_pipeline.py",
+    "sha256": "ce749497cc2e67d5a076a512606cd86196389fd8401f565788c2d9344e2c40df",
+    "bytes": 5013
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_seasonal_information_s4_e3.py",
+    "sha256": "3b9bb0444a94598c191f8ac293c3afe369b3643d08915cd072d2659b51ea7dc2",
+    "bytes": 9980
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_temporal_validation_s4_e2.py",
+    "sha256": "76c4ec7e7e732477232bfc0aaf74e8621b2d3ebb225de084d1e2f167a5da366d",
+    "bytes": 17043
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_information_s4_e3_matching.py",
+    "sha256": "1bdac83491c7d33e92c6b595d20fc29ac3285d1259995a39ab18c085464c843f",
+    "bytes": 7362
+  },
+  {
+    "path": "src/data3001/modelling/baselines/position_error_s4_e8_inputs.py",
+    "sha256": "88d357b312ccc37cad6cb47d81f9e634058d62a7e5f6c8e051f6b7f3f06984e0",
+    "bytes": 7272
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_conditioning_s4_e1.py",
+    "sha256": "55c7db6985e927f86370a32382bc775ca70bba0f546dfb7171f890cbbd5bcc03",
+    "bytes": 9401
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_report.py",
+    "sha256": "348f3cea6c5a1b9a415d4b8bb73d249d17f2f6452fd8cac801d9afdcfc45f57c",
+    "bytes": 17206
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_resume_v2.py",
+    "sha256": "e72e40222658325750e9a8a05e4534951b0494a18b0675d93d6265585798b68a",
+    "bytes": 6564
+  },
+  {
+    "path": "src/data3001/modelling/baselines/departure_direction_s4_e4_report.py",
+    "sha256": "ddd28340c126ef263a52f6da397999529df7212762ebf39c461b03f381265474",
+    "bytes": 9004
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_grid_translation.py",
+    "sha256": "6da2c95bf80151b4fe4c6c969367a71e8e0dd8177dfc0db9178e8071c9dd6e78",
+    "bytes": 4041
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_report.py",
+    "sha256": "26f6a004cf4ccce9da66ff6ef0af77f1624e56e7b85a37d3bacf9d5bb9cfc09d",
+    "bytes": 12410
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_analysis.py",
+    "sha256": "ea232165ace9b72ae0d22306de050c5c76bb4feac2a81cbb025a2cbbce512e1f",
+    "bytes": 7286
+  },
+  {
+    "path": "src/data3001/modelling/baselines/partial_weighting_e4.py",
+    "sha256": "465df876de511cf6b07810d5a0960f57af076de234b5c8dafc12c8994195338a",
+    "bytes": 11145
+  },
+  {
+    "path": "src/data3001/modelling/baselines/report.py",
+    "sha256": "92bf983e5d4e0a0939f98abfa3235074890a29201ce7be77bbd87d4e29c37c15",
+    "bytes": 51069
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_spatial_borrowing_s3_e1.py",
+    "sha256": "118bb46e6ae54fef209309d7c5fe8dbf5d01d720129754c735f7320a7ed854ce",
+    "bytes": 15262
+  },
+  {
+    "path": "src/data3001/modelling/baselines/b2_grid_translation_report.py",
+    "sha256": "063d6c4294332fe7879953f7a7adc8981b6ba5348c64674d8cf38824abde2be9",
+    "bytes": 12407
+  },
+  {
+    "path": "src/data3001/modelling/baselines/local_endpoint_quality_s3_e3_audit.py",
+    "sha256": "9a75742452bfe5da3fb5e3ed1594a2096e4f4a350090697514a171e4442e2577",
+    "bytes": 18085
+  },
+  {
+    "path": "src/data3001/modelling/baselines/exact_origin_s4_e7_inputs.py",
+    "sha256": "d289031d0602546e0a8aedc09d65bf12c56f43359d5847ab8c53356ffe7c0d29",
+    "bytes": 7268
+  },
+  {
+    "path": "src/data3001/modelling/baselines/actual_origin_displacement_s3_e5_o1_g3.py",
+    "sha256": "97cd66dd369bddb3c1104bb75f7c3389c9ab1a075bd82ebbef369aca2dafad6f",
+    "bytes": 7012
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_exact_position_s4_e9_formal_report_v2.py",
+    "sha256": "9e327a92e870bd5f6ddb3fc1d16c5ad1a8fea92952fdbfe8e1d00261002d5466",
+    "bytes": 20246
+  },
+  {
+    "path": "src/data3001/modelling/baselines/run_seasonal_exact_position_s4_e9.py",
+    "sha256": "459934d2c7a4aacb6666bf6eff377b757e1ebf000ac72a748346fe6ea1010b80",
+    "bytes": 558
+  },
+  {
+    "path": "src/data3001/modelling/baselines/seasonal_information_s4_e3_pipeline.py",
+    "sha256": "bd2c3c43e908b67444eb13c54c2647c33d9e412a31e73ef825c0a9e3ff1d260e",
+    "bytes": 10574
+  },
+  {
+    "path": "src/data3001/modelling/baselines/empirical_b2_report.py",
+    "sha256": "edab998079178dbcd956c66264fd2cc268c9aed08998178e5608d87fdfcc1ac8",
+    "bytes": 13828
+  },
+  {
+    "path": "src/data3001/modelling/baselines/temporal_validation_s4_e2_report.py",
+    "sha256": "0f9f6a7897863f0e256815b21075ac26b6ff9924609bdae65e87c30d8bd534da",
+    "bytes": 10087
+  },
+  {
+    "path": "src/data3001/modelling/assets/d3-7.9.0.min.js",
+    "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+    "bytes": 279706
+  },
+  {
+    "path": "src/data3001/modelling/assets/D3-LICENSE.txt",
+    "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+    "bytes": 731
+  },
+  {
+    "path": "src/data3001/modelling/assets/d3-source.json",
+    "sha256": "e4c802aae9370a4a55673b3357ad90439213c609cb6fd748df0c938429ff2e24",
+    "bytes": 371
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_diagnostic_report.py",
+    "sha256": "af796892b7e58ebe7494d1237f17ef5e4abe6360cd53d1af40f7f92d5ea85b05",
+    "bytes": 14157
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_strata.py",
+    "sha256": "6c84e5ab2187c4b0add9bfa0dc84d4832d3883485e0f8b839b62c7b3627bc52d",
+    "bytes": 5119
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov_position.py",
+    "sha256": "f4d631de17b9ec0ef2dc91fe9d4ff4cbd4b110e38c5602250849feb29ebc0a81",
+    "bytes": 20439
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_outer.py",
+    "sha256": "5ee06648cb51cc4df3dc5b1362b4902aefb327dadae72d59377dd2645ed550f5",
+    "bytes": 8034
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_report.py",
+    "sha256": "b802957c89213f247cbf1592f97153d4c45fef7d26f597df7a4e6e09f3cbfb57",
+    "bytes": 10468
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov.py",
+    "sha256": "e1486779c96a5674594e7620cae447461b7c4fcf1207a2c16adfe9d59858a462",
+    "bytes": 4281
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_neighbour_integration.py",
+    "sha256": "953912cb7a9eefcc1f09e6b05bec92ad776c97a0fd89e5c35cbd97e561c83163",
+    "bytes": 6391
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_inputs.py",
+    "sha256": "1e42628c44d397fd5a92a0c1f8d3bff9673437cc1b46b0be14f23d68f34fded2",
+    "bytes": 8270
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_neighbour_report.py",
+    "sha256": "afc2e3e059b7cbceab3b35b5c73a1b6b7ec5227cd2aff0eb503f5326b7e00dd9",
+    "bytes": 13009
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/__init__.py",
+    "sha256": "b192116dd64de748cd50e1dee0c0079eb7c0ada464fe54bbefce59b01fe88568",
+    "bytes": 57
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov_velocity.py",
+    "sha256": "2b9eec7e57630e8e0f06cc840c80b16e6291bbf4ce4f15481b1c83002659c59c",
+    "bytes": 21363
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_diagnostic_inputs.py",
+    "sha256": "256084493b0b8c28d5537d3ec3043ad0a2883469cb0c0b9e7cee54cdbe7f7838",
+    "bytes": 9065
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_cv.py",
+    "sha256": "51523cb2f9ccb74189cd67792d78a8783875abf82bdefea8fd7114868cf35f3e",
+    "bytes": 12439
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_position_report.py",
+    "sha256": "f3623f99ab90c9c40ce5b2440e636c4140e3226daf1218fdb836becb9ed7ebdd",
+    "bytes": 10848
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/_neighbour_scoring.cpp",
+    "sha256": "54177bef529234cd8d56b9add5f9c52021526c33356f139627b804496ea970e6",
+    "bytes": 2632
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_velocity_report.py",
+    "sha256": "8cc0303274c3bb9f88d5bd49029a4f8bfc9e781e01b1ee86260d7889fba7c925",
+    "bytes": 8316
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_report.py",
+    "sha256": "16aeb43c0649e8a1adadb35ef7f6d25945eb93717398bff4efa7a642d6ad6281",
+    "bytes": 10545
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_neighbour.py",
+    "sha256": "0187b90b1ca74a9dbad9d6f73a9a1908515c6b9a6411aad660948a2f92b34b7e",
+    "bytes": 6636
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_velocity.py",
+    "sha256": "1f871db3758613f5b245e17ca8fc54dbe55ae4626e6735fed3218c9f647f403b",
+    "bytes": 9298
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov.py",
+    "sha256": "458f1cf11830124d4ad9b901cec21ce31dba3d6c4e5dc4ffa1cb793d4b535bf5",
+    "bytes": 19145
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov_neighbour.py",
+    "sha256": "028ac88975cc5130baf0d7766f456a7a92fb2d42aae5967cf68f74eab6a0db7c",
+    "bytes": 22284
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_neighbour_cv.py",
+    "sha256": "4ed0872029044b172719c80fe49b918c18c5e9bb0cff28520528ad22fa541754",
+    "bytes": 6081
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_diagnostics.py",
+    "sha256": "84db4027d2ed79d482c171a283a81c1adf714a1c558486fa634e6c08bdc65aaa",
+    "bytes": 11089
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_neighbour_native.py",
+    "sha256": "d20a5a456905296d68733565166585f3f975e5b81e22b839153040ce55369709",
+    "bytes": 1901
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration.py",
+    "sha256": "87b049cc5c9c977f8ecf2c3e7018358cd85c71f97d6a236a0a5310f5e23a7021",
+    "bytes": 5099
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_velocity_cv.py",
+    "sha256": "03bc23d2db53767e7e80abaaf440cb03e384e934eeb1de6e2b442be14c566695",
+    "bytes": 6445
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_velocity_inputs.py",
+    "sha256": "a86bba94032c7a65b5f8596f3d2b83d603437d017ad5db729d759cabe465f764",
+    "bytes": 10702
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_geometry.py",
+    "sha256": "9e58f219ebfb684d2f7bc97b90fe2538802156fdb31c51896ac018082c0ca794",
+    "bytes": 3967
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_position.py",
+    "sha256": "3a45595ca5f3869f54d5e0fdcc243a21ba33af59df36f68fcd1f5d3d52b4fe2f",
+    "bytes": 11335
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov_iteration.py",
+    "sha256": "f58efef7317ae84a32add9f8f7c605aac50502ae19ce10badae29c0984db160e",
+    "bytes": 29128
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_position_inputs.py",
+    "sha256": "490292b9492e8ad0edcbaeb48467588fca2fcb5bc088c38c67de8419223d947d",
+    "bytes": 9271
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/markov_iteration_coarse.py",
+    "sha256": "e8f2b59b127ea9fa71ee6c53c366a112016af7e0dd01706a18b9123166ae3492",
+    "bytes": 5238
+  },
+  {
+    "path": "src/data3001/modelling/markov_models/run_markov_diagnostics.py",
+    "sha256": "c76a3917c9c44dc84a5025b66e5d8930a54128ee2d117f6b8cad3b4fccbe9b45",
+    "bytes": 16034
+  },
+  {
+    "path": "tests/test_recovery_storage.py",
+    "sha256": "4065264aa63eb1dbbeb9ebdec26677a392ea045684ac7c7e6f4c4ec32370ebf8",
+    "bytes": 2868
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_runtime.py",
+    "sha256": "8dde071777fa6cafc1519fda5896a40f067cf12b1395e016d64effaf4acdada9",
+    "bytes": 6651
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_report.py",
+    "sha256": "d75983f153edc8d7c4768fd63a6cc9725503b316a5b500ded60e06727c1e6e83",
+    "bytes": 668
+  },
+  {
+    "path": "tests/test_modelling_blend.py",
+    "sha256": "cfd25895517759ae6f2f209738fc3e8a622158000b9e1c8cc997e3c2e5a59fda",
+    "bytes": 3362
+  },
+  {
+    "path": "tests/test_write_boundaries.py",
+    "sha256": "b3441ec2c6787840308a4e48d327428b9b329cca88225a3caaa3a9d5c32b7ede",
+    "bytes": 4056
+  },
+  {
+    "path": "tests/test_hardware_missing.py",
+    "sha256": "99e0acaeb233cdcf7cb79cd5a54c9038e3fff97e270a44e5df67f67af6b95eec",
+    "bytes": 2835
+  },
+  {
+    "path": "tests/test_handover.py",
+    "sha256": "d8f3ca8232450997a95d0255bbd05970bcdde609f9cac9b3a879cff910389db6",
+    "bytes": 4843
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_training.py",
+    "sha256": "1f0fa0b2b654536f92f1de0b3c0f910f8c212835479d3d1c0c9a10f75865a712",
+    "bytes": 13507
+  },
+  {
+    "path": "tests/test_sst_storage.py",
+    "sha256": "a264aeb2f6743f1b4a0cac0b8555adf9cb2f03ab87c316c2c2a1e5c3ba6bcd6e",
+    "bytes": 3096
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_numerics.py",
+    "sha256": "47c8d9cb56505468791d74a4846e30ff2b94be5347293863ea4b9220c40e099a",
+    "bytes": 5830
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_scoring.py",
+    "sha256": "27959d8db8ab32fc9a2fba415b14ccb3221bf9a41eaa65abc26543559526aff1",
+    "bytes": 11002
+  },
+  {
+    "path": "tests/test_total_sst_current.py",
+    "sha256": "5a9ea194c6eed3c1301f6879986735970b5e57dac8b28283bc8c956992bb2dc1",
+    "bytes": 1024
+  },
+  {
+    "path": "tests/test_modelling_markov_neighbour_cv.py",
+    "sha256": "930b6a822364eb8cf5547d1d7334eeeca40cb7dc5e96b30a1f7a771f6988f935",
+    "bytes": 4102
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2_scoreopt.py",
+    "sha256": "5acd8fb3129f268d000b1198c45546a24e024dc77b6467ccb49682289106512f",
+    "bytes": 5917
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_pipeline.py",
+    "sha256": "5d4b3f4cf9726ab88b32bb9aca0e5d7b545cc16bcd04c9addd0e6fe8d87eb35a",
+    "bytes": 1675
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2_delivery.py",
+    "sha256": "4310262662f78f2168e0680f6828e5e086b526c673e4811cc6439361fefc9582",
+    "bytes": 1630
+  },
+  {
+    "path": "tests/test_modelling_conditional_gaussian_s5_e1.py",
+    "sha256": "6c1304ce0d414455e5ba19f4066443eb6e6432d3d29b7f9d2a785b4cab6cb234",
+    "bytes": 8967
+  },
+  {
+    "path": "tests/test_modelling_neighbourhood_cv.py",
+    "sha256": "6651469b5946ae60013e95f5151a7c9b9237270ca49c40dd51b512ffdbf77479",
+    "bytes": 5869
+  },
+  {
+    "path": "tests/test_modelling_markov_velocity_inputs.py",
+    "sha256": "20abba8701593c8f4e562def3c44f7de0dc14b4048db61282db9d0a701468cc2",
+    "bytes": 6569
+  },
+  {
+    "path": "tests/test_model_input_cleaning.py",
+    "sha256": "4121954f53dd4a69c3bdc3bb2b2cddf15e9a0284df511dda9b55cee474aa452c",
+    "bytes": 3967
+  },
+  {
+    "path": "tests/test_modelling_cv.py",
+    "sha256": "1eeeac37fab80ff1a5c916a8c673083837f399157acb4ba65285e9ec5a830020",
+    "bytes": 7063
+  },
+  {
+    "path": "tests/test_sst_source_grid.py",
+    "sha256": "33062117c3cc5cbaa6485bc981309e630fc5ea7873c97e5565232483b9960d42",
+    "bytes": 1641
+  },
+  {
+    "path": "tests/test_drogue_correction.py",
+    "sha256": "7afee11444d7982f272f2471c72923fbf860bd42363a4afab5401535ef736b27",
+    "bytes": 3435
+  },
+  {
+    "path": "tests/test_modelling_markov_position_inputs.py",
+    "sha256": "3a896682f7aeac3ae19192f385e51f7ca6f5269ba887b1d618a4435bb349fddc",
+    "bytes": 5461
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_audit.py",
+    "sha256": "983d6ab2328ee014ef9c5c41f359626e3306d4e2c6d26963a730586a3840142c",
+    "bytes": 19693
+  },
+  {
+    "path": "tests/test_sst_sparse_current.py",
+    "sha256": "eff10d5e4acc4dbfd6f14db42aab064643d3bd73c8f134588af3778e8ba7d330",
+    "bytes": 919
+  },
+  {
+    "path": "tests/test_modelling_seasonal_exact_position_s4_e9_esopt.py",
+    "sha256": "f7e72519ee2c202077a43ff6284928c7aec13b68b930e20daaec3988239ac02e",
+    "bytes": 4611
+  },
+  {
+    "path": "tests/test_modelling_markov_velocity.py",
+    "sha256": "b11d512a236edcc94ceaf5bbca1115dbf9b8a2c17a35fe65ba6e1cdf0131bc1b",
+    "bytes": 5523
+  },
+  {
+    "path": "tests/test_feature_pruning.py",
+    "sha256": "3de5295c4dfcf18ca13e414729c10a49d4dddf24eea4bd6f3df9bd84ed087cc9",
+    "bytes": 3661
+  },
+  {
+    "path": "tests/test_modelling_continuous.py",
+    "sha256": "eeb6ef0f8ff99a450662d5b502e411280189ec429a32af7be8f7e98f1732e87c",
+    "bytes": 4608
+  },
+  {
+    "path": "tests/test_modelling_b2_grid_translation.py",
+    "sha256": "21200b5f0dd0005fab856984c26725fd97b0c3fc4fd952731ebde4047e12ac63",
+    "bytes": 4361
+  },
+  {
+    "path": "tests/test_modelling_markov_position_report.py",
+    "sha256": "34acc8c43ccf22cfcf8ff6f36071aa96a27c49ca2f51bc00a7628aea7d7caf5a",
+    "bytes": 963
+  },
+  {
+    "path": "tests/test_modelling_actual_origin_displacement_s3_e5.py",
+    "sha256": "d80699c04d286b10e8962ffa8c803244d4b26eced17337f42b7e89a545037f37",
+    "bytes": 9212
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_pipeline.py",
+    "sha256": "2eeef000858d2b01be0c7187b70f087da4eecffc7bb3a695686330135842d399",
+    "bytes": 3818
+  },
+  {
+    "path": "tests/test_modelling_markov_diagnostics.py",
+    "sha256": "1511182e05ab9c545fc521eb1d43645410d3352c04bc6cd265d001d4ab38e00b",
+    "bytes": 9593
+  },
+  {
+    "path": "tests/test_modelling_drifter_shrinkage_e3.py",
+    "sha256": "00491e95c2d796cb842dc7bccdd1c1467ba4799757b52652341ed4fc40c56ed6",
+    "bytes": 13600
+  },
+  {
+    "path": "tests/test_modelling_markov_neighbour_native.py",
+    "sha256": "e6270427221bc0a630f607cbe336b5ff753b0699ecdec761f4e93e40ff036124",
+    "bytes": 1710
+  },
+  {
+    "path": "tests/test_sst_reconstruction.py",
+    "sha256": "da1d920b69b01adff5f53d4dd682fd5ec844cf008631d8a979fdbcab1c35a648",
+    "bytes": 5788
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e4_scoring.py",
+    "sha256": "4a558961c4d9c96b97acde47129b7408fc7f7c5b4bef95e81bc640470fc7784a",
+    "bytes": 11024
+  },
+  {
+    "path": "tests/test_modelling_prediction_regions.py",
+    "sha256": "0af312e455f9852323b912061c5194358d8731141b4f1cf8980b61fdb73dd091",
+    "bytes": 2063
+  },
+  {
+    "path": "tests/test_modelling_markov_position_run.py",
+    "sha256": "b0a1c175d7c7a4100ce7a8268bd21553f437b36a78352cb2495330975931711b",
+    "bytes": 2052
+  },
+  {
+    "path": "tests/test_modelling_local_endpoint_quality_s3_e3.py",
+    "sha256": "b9cbf2a2e7888dc23840ca59653259e1df4c7599888fe0436746aecc7db71d8c",
+    "bytes": 10065
+  },
+  {
+    "path": "tests/test_modelling_markov_position_scores.py",
+    "sha256": "0ab548657cb23da284f652922f6e6a34921fd014be9f5689fb3520e35f1b4192",
+    "bytes": 2457
+  },
+  {
+    "path": "tests/test_modelling_seasonal_conditioning_s4_e1.py",
+    "sha256": "3b6a54135dd682370fc40b4fe31fb43a9a4ddaa5523e4544b46b11800fdd5be8",
+    "bytes": 8571
+  },
+  {
+    "path": "tests/test_sst_sparse.py",
+    "sha256": "d728eb8ce5162fd5ed4473c86f7b630c2df66f283cdce62e2f01a9c251404380",
+    "bytes": 4210
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_coarse.py",
+    "sha256": "ea3a032cd6e91627dff94374f45521dd42b5d865d7da163196efd2ce6797ef67",
+    "bytes": 2360
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e4.py",
+    "sha256": "f06f241dca603d70a63ea8e06f1720e9aebcf48ec460ae79e6a36c2488308ed8",
+    "bytes": 11768
+  },
+  {
+    "path": "tests/test_modelling_markov_velocity_cv.py",
+    "sha256": "d9181c020d43414c3d138a772c582ca841ea854dd820d4ef0851a3d6683d2573",
+    "bytes": 3259
+  },
+  {
+    "path": "tests/test_migration.py",
+    "sha256": "f27954c7dc29d93c511a5ed3a16b7867f55b047086dc17692445678d0e46d321",
+    "bytes": 2059
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2_resume.py",
+    "sha256": "0e0569d6114cdeaef3754e02da1c70e06473576334f9a53c73476bb416aa7da5",
+    "bytes": 2926
+  },
+  {
+    "path": "tests/test_architecture.py",
+    "sha256": "08048b75134382fe702ed6fe1982a531f42fe213e50b33f57ae680712abe0445",
+    "bytes": 3892
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_run.py",
+    "sha256": "01e5a47fd0a9cf69177e846fb77fa99ae5e155fe8c81723fc60345837906d615",
+    "bytes": 3020
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_report.py",
+    "sha256": "6b5637709bc6317025dc89310f214d962917a6580b00ee70720390b0427fc75f",
+    "bytes": 9058
+  },
+  {
+    "path": "tests/test_modelling_markov_run.py",
+    "sha256": "685ce64753f001de25a761a92dda6b77349eccc2e8363608887a3dbbee029462",
+    "bytes": 3269
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_training.py",
+    "sha256": "19631c4060cfe6fb4d93f9985002ebe70f347fa68f4e11446ff156f1305bd1c5",
+    "bytes": 12946
+  },
+  {
+    "path": "tests/test_modelling_b2_b1_e2.py",
+    "sha256": "43e013a69ba25dafe248554d13a4f11a8bfd7423eec262b8d57345d2eceea644",
+    "bytes": 11287
+  },
+  {
+    "path": "tests/test_modelling_markov_neighbour_integration.py",
+    "sha256": "2b69b614d8b0f594de6baa2e0304d4561f127c063bbb86844a3b1f0c67469e46",
+    "bytes": 5682
+  },
+  {
+    "path": "tests/test_sst_completion.py",
+    "sha256": "b9684b9d817d3da6539316c0f1b5d6cf030767bcae427098b70b594e301df9e2",
+    "bytes": 2963
+  },
+  {
+    "path": "tests/test_modelling_seasonal_information_s4_e3.py",
+    "sha256": "183e14ca19d8063d53e62dc262462b74328b394c8d4797fc43cbafb5f789c274",
+    "bytes": 4925
+  },
+  {
+    "path": "tests/test_portable_dataset.py",
+    "sha256": "2d044ace265ebaec9604e0ded1e1caa8549ee9ea4bf9c1681b230f4b85cd56a9",
+    "bytes": 6393
+  },
+  {
+    "path": "tests/test_modelling_adaptive_b2_b1.py",
+    "sha256": "3ab0fa2db3f08d9f41ff7eb67c7d5c48a9fe36b71eceb348aeb210d2b355d52f",
+    "bytes": 6035
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2_audit_dtype.py",
+    "sha256": "c6933864bc6ad8e0ac67a99101e010208026d2e31899fe9b142b80e4cac88d72",
+    "bytes": 1377
+  },
+  {
+    "path": "tests/test_modelling_report.py",
+    "sha256": "a839599053f1b303a874deddffbcb378117c075651a175894d7c916ca7684285",
+    "bytes": 4335
+  },
+  {
+    "path": "tests/test_modelling_experiment.py",
+    "sha256": "ac3cb3c275f7a8b73652592b19b43b8ab5e2136219d624f7c60a3f21402b96ce",
+    "bytes": 1945
+  },
+  {
+    "path": "tests/test_modelling_departure_direction_s4_e4.py",
+    "sha256": "155353a6b515a7ed5af61b869b5682804331ba3a174b9e880e8fb49a61f0e7e8",
+    "bytes": 5606
+  },
+  {
+    "path": "tests/test_modelling_markov_position.py",
+    "sha256": "6948e15c647589d587ecff14281315fcd0bbab7957c7bc1d3bfe2026b9cb804a",
+    "bytes": 9189
+  },
+  {
+    "path": "tests/test_continuous_diagnostics.py",
+    "sha256": "fa7556bb9d928adf3e2431c7783cf8e60ba8624ab051829b40f2d2d78c4f8938",
+    "bytes": 2861
+  },
+  {
+    "path": "tests/test_modelling_markov_velocity_run.py",
+    "sha256": "cf50cf0546329d4a8b41a816c80cf16de15610de38189123af6b70e0518970d7",
+    "bytes": 1316
+  },
+  {
+    "path": "tests/test_sst_coastal.py",
+    "sha256": "9971a5c8314badc78d6876f6274499f442fb513e474e268c742f2ccf6905fa5d",
+    "bytes": 5043
+  },
+  {
+    "path": "tests/test_total_sst_status.py",
+    "sha256": "4104cd1cd0a3015f047236e9983e3529089b0fb796dbce090c100a9d80e22028",
+    "bytes": 1905
+  },
+  {
+    "path": "tests/test_drogue_boundary.py",
+    "sha256": "b333f81dce5c2e6acd6bcabf01f7d7cf27b4b02685ff873948f52b9ef56b77de",
+    "bytes": 3432
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2_pipeline.py",
+    "sha256": "b054d11df0c7fdac4bab800176e866b85cb9fd692c57a02d9b0424802ecb8b17",
+    "bytes": 13843
+  },
+  {
+    "path": "tests/test_modelling_temporal_validation_s4_e2.py",
+    "sha256": "52dac0745cfd718c530c30c80d8fb0bc6caa10fe6ad0539a9865972f04ebff1a",
+    "bytes": 8428
+  },
+  {
+    "path": "tests/test_modelling_spatial_borrowing_s3_e1.py",
+    "sha256": "62cc5d3a0d093f186112e17807889fab21d8ef4d4dd1c0d71b0f94ec87fe36a1",
+    "bytes": 3659
+  },
+  {
+    "path": "tests/test_modelling_empirical_b2.py",
+    "sha256": "339ed2f8495d79cb96a30ddd69f81cb0bcf5846ad52648ec423848c24e9a8eb1",
+    "bytes": 8692
+  },
+  {
+    "path": "tests/test_modelling_conditional_gaussian_s5_e1_full.py",
+    "sha256": "9f2f2abc5a2bf26fc12b05065a5079bbc4ae846ba957e0d8929caf056905f162",
+    "bytes": 9550
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_strata.py",
+    "sha256": "f539558135fc24d581e6a35af31fcb6c226590c4d34e4fd4aeed836d65c2229c",
+    "bytes": 2632
+  },
+  {
+    "path": "tests/test_modelling_neighbourhood_report.py",
+    "sha256": "bf7d17b1b63dedfb020b6e4f3b818a04ba0d3ff16ba02f5db6c43ec6176dd856",
+    "bytes": 4896
+  },
+  {
+    "path": "tests/test_modelling_regimes.py",
+    "sha256": "23302ed55853123e80ef6bfe633330ec39e061a1e0d150524a415e75274436b2",
+    "bytes": 6873
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_cv.py",
+    "sha256": "4e5b16234a1f359d7373a0b2a94fe53590a521afbf009c613363b48f1fbf4d24",
+    "bytes": 4094
+  },
+  {
+    "path": "tests/test_modelling_exact_origin_s4_e7_report.py",
+    "sha256": "c983b8c961e9a875406e40052fa705ac4af315a0f26868e94b5d071e98579791",
+    "bytes": 4763
+  },
+  {
+    "path": "tests/test_modelling_showcase.py",
+    "sha256": "d905708fd45440dfd4bcc5f57c5ff1203c2e4d1ea8320f17cd0bb0f3b3413ee6",
+    "bytes": 4408
+  },
+  {
+    "path": "tests/test_modelling_neighbourhood_run.py",
+    "sha256": "5974983a71b520c5acf431ba432bcf811458a590e381086d66cf4826762fa507",
+    "bytes": 2608
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_spawn.py",
+    "sha256": "e3838111d1f9215c6d183b0a4172b07e304858911037ec81f901429dd5096c8e",
+    "bytes": 1710
+  },
+  {
+    "path": "tests/test_preparation.py",
+    "sha256": "6688e15af8a0f887ba518781c8bfd60cae2111a773387d05d24f506848d8fd78",
+    "bytes": 10729
+  },
+  {
+    "path": "tests/test_model_sst_view.py",
+    "sha256": "28354756d8ba9c0689c68d159eac726f59bbcee109b1744c848a96820edb52d3",
+    "bytes": 1223
+  },
+  {
+    "path": "tests/test_drogue_storage.py",
+    "sha256": "bd449d396d653f412842c1c8d9fa7721683633ccf02584cbc5cc1887a095b170",
+    "bytes": 2908
+  },
+  {
+    "path": "tests/test_modelling_local_endpoint_adaptive_s3_e2.py",
+    "sha256": "20202dd4afcbab115826d3a474719990b31213c70643e1a1892044bcb331b47c",
+    "bytes": 7935
+  },
+  {
+    "path": "tests/test_modelling_neighbourhood.py",
+    "sha256": "f8e6223473a906cde5ed95c97627fc4cd5d507fcdea1fe9d574f0907f0071c86",
+    "bytes": 8733
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration.py",
+    "sha256": "0475b56fe8a143a6f12f0b207fec075a54494e1feb3d2e32c204970cca0d9aab",
+    "bytes": 3074
+  },
+  {
+    "path": "tests/test_modelling_markov_report.py",
+    "sha256": "5861c539a0b64955de006c2b92e5771859d8c2f4a703a0ccd1b7c8137531aeba",
+    "bytes": 1047
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_geometry.py",
+    "sha256": "ed5cdd75fdb5611d86d7b973a59b79034ae4210e0b1acf389acb6a6ee7e6673f",
+    "bytes": 3194
+  },
+  {
+    "path": "tests/test_modelling_markov_inputs.py",
+    "sha256": "900dd4b7b830ac1ce84f14d1a8e87cb56b50397b940dadaf3b0ed964d351b25f",
+    "bytes": 4215
+  },
+  {
+    "path": "tests/test_modelling_seasonal_exact_position_s4_e9.py",
+    "sha256": "27c6241444b9605b8f137c620df560745c9d1e5bc99230ec0e75af93df49b0d2",
+    "bytes": 5231
+  },
+  {
+    "path": "tests/test_modelling_seasonal_exact_position_s4_e9_formal.py",
+    "sha256": "54153bab69d236208b301c71df06470f1fbc080cbe791e45919a621eb4795b9a",
+    "bytes": 2364
+  },
+  {
+    "path": "tests/test_current_dataset.py",
+    "sha256": "e27195ff20373c95d3b5df210071dc9b7b47d895a56f504cecb3b8aeab91b684",
+    "bytes": 4136
+  },
+  {
+    "path": "tests/test_modelling_markov_neighbour_report.py",
+    "sha256": "92ceec9925654d51425b9a955381cb39de454b1724543221773fc04974d2ef6b",
+    "bytes": 2025
+  },
+  {
+    "path": "tests/test_modelling_layout.py",
+    "sha256": "0e3b6ac1e9366d825c82ca7a7a8a466ff97199215f23a31708b3d56cef15ac7e",
+    "bytes": 3383
+  },
+  {
+    "path": "tests/test_grounding_sst.py",
+    "sha256": "504ec3599ba4bfa4cb9afe492a5582818743d596cd21af902ed33f1151ff9e72",
+    "bytes": 1924
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_optimized.py",
+    "sha256": "515ad0ee70642cfb79e64b0ed144c07367ea4a9b633d8b7cc9185367c89ee65e",
+    "bytes": 9905
+  },
+  {
+    "path": "tests/test_modelling_actual_origin_displacement_s3_e5_o1.py",
+    "sha256": "a3b781fa67805af40cf204629db98f59d0b0cb1f3284a722e03e81dbb21fcdaa",
+    "bytes": 9465
+  },
+  {
+    "path": "tests/test_data_release.py",
+    "sha256": "a171c9f4f49993a24356e8e9b15a8e2aaf04399520b27f0f67974d6e30c55600",
+    "bytes": 2665
+  },
+  {
+    "path": "tests/test_modelling_exact_origin_s4_e7_inputs.py",
+    "sha256": "1b34f7e4f8d3a8fbc1cd4d362683135803e03175d771791032f1bea6726084a0",
+    "bytes": 2250
+  },
+  {
+    "path": "tests/test_modelling_position_error_s4_e8.py",
+    "sha256": "455896b8a4522f793c0d7e04c7720b404b923345b6b162b0eab7783960b223f3",
+    "bytes": 5387
+  },
+  {
+    "path": "tests/test_position_error_repair.py",
+    "sha256": "ab772b03cdcb93171779dfd8363756fcbd88bd22e45ca53d6dc8207ba74e5479",
+    "bytes": 9063
+  },
+  {
+    "path": "tests/test_cli.py",
+    "sha256": "ccbbc763d1c9c338000ca7c340a506216f3e59de05c52fa621b10f52c197a921",
+    "bytes": 1269
+  },
+  {
+    "path": "tests/test_modelling_markov.py",
+    "sha256": "51aba4f693901299b249ac0b448864b1602c2744f89bb4ffb9699f00e64298c5",
+    "bytes": 6885
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_formal_context.py",
+    "sha256": "a9fd99f5e37dcad2edaf3f029cf9ed282e79a3a85ff691359d2e7ffafa580412",
+    "bytes": 13026
+  },
+  {
+    "path": "tests/test_rules.py",
+    "sha256": "c0f615e0c8b32d46dbf2208ba8f86917f83a0a7aed8451d14101b8ab380f4e82",
+    "bytes": 2854
+  },
+  {
+    "path": "tests/test_sst_anomaly_review.py",
+    "sha256": "c3fecfcb47838291172e2540e1e053a51f3d50843b1e1910d309890f5f35eff7",
+    "bytes": 2675
+  },
+  {
+    "path": "tests/test_modelling_local_gmm_s5_e2.py",
+    "sha256": "6caabcade78d4d01eed53463cc9231c8a36d2609dd48a642977eadfe64d8c02d",
+    "bytes": 5154
+  },
+  {
+    "path": "tests/test_modelling_markov_iteration_outer.py",
+    "sha256": "960f79002fe9bd1d95223031720365cf836526e6a059e115bdae5434957cd45e",
+    "bytes": 2392
+  },
+  {
+    "path": "tests/test_modelling_spatial_borrowing_s3_e1_inputs.py",
+    "sha256": "72293044e6e8aca2495c7d2114d677aeef4f4801a6700fb36fed60f8ae521016",
+    "bytes": 5039
+  },
+  {
+    "path": "tests/test_modelling_exact_origin_s4_e7.py",
+    "sha256": "86cd518a1fde63c219932784ee2a74ca884dc769152bc73735f99e3d3f07822c",
+    "bytes": 7571
+  },
+  {
+    "path": "tests/test_modelling_markov_neighbour.py",
+    "sha256": "2e73317a044118b549532f6366e73480a36ee65c1efd34c668934a3b7a3dd3d5",
+    "bytes": 5529
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_selection.py",
+    "sha256": "71f06d11febded76f358d630683cbeca27eae9db91b716cbe0090cd67689c22b",
+    "bytes": 15518
+  },
+  {
+    "path": "tests/test_modelling_partial_weighting_e4.py",
+    "sha256": "f79df76b1b3f354805a88145322664ab97810ff51eb9520f6be7f48ffb1aaa63",
+    "bytes": 20387
+  },
+  {
+    "path": "tests/test_modelling_local_endpoint_joint_s3_e4.py",
+    "sha256": "64cf91fea9573699dfae670215b44a3ceb704b4f4209b75cbf2307635b6828de",
+    "bytes": 8999
+  },
+  {
+    "path": "tests/test_modelling_conditional_mdn_s5_e3_full_runtime.py",
+    "sha256": "1720b4f1b0fb9781088701349df5f75b2e153b90b7c1939a3a50905d3a622166",
+    "bytes": 2150
+  },
+  {
+    "path": "configs/legacy_paths.json",
+    "sha256": "005e3dbe4d4e564259b714348078d2913196f268e92df5b297fe6cdd13e14426",
+    "bytes": 9345
+  },
+  {
+    "path": "configs/markov_m1.json",
+    "sha256": "113ae472e4a416dedc851dc5507de018d1b6d0f261f25db26d5b9ccbd511b1d1",
+    "bytes": 1459
+  },
+  {
+    "path": "configs/markov_m1_diagnostics.json",
+    "sha256": "d8f092200d00634bd7e005e695adf4fad8401317f397be20b59b653b58844cc0",
+    "bytes": 663
+  },
+  {
+    "path": "configs/b2_grid_translation.json",
+    "sha256": "7efa9ef166feb4131df74b9bb0dc62b69a95aa258ab04a2133726f11392fd11f",
+    "bytes": 624
+  },
+  {
+    "path": "configs/position_error_s4_e8.json",
+    "sha256": "deef5cda0bd64a3df9df0e3474daaea9e45dce16985d1d3d13211579a24ee844",
+    "bytes": 991
+  },
+  {
+    "path": "configs/conditional_mdn_s5_e4.json",
+    "sha256": "9befea646eecf7d126a4c76095c217d76bb2b9715f0f401692c55ddb45778880",
+    "bytes": 1635
+  },
+  {
+    "path": "configs/partial_weighting_e4.json",
+    "sha256": "77af48a6569c1abc1a87f64ec9ab91ec8ec95b937175abb4e18215992591312c",
+    "bytes": 2610
+  },
+  {
+    "path": "configs/local_endpoint_joint_s3_e4.json",
+    "sha256": "57364f817fc1e27a4c7d7f19737fb9db5a021400ae7d8abfa2d6a192dd894e2a",
+    "bytes": 3037
+  },
+  {
+    "path": "configs/adaptive_b2_b1.json",
+    "sha256": "4e340e00b2258e43282c313f26ed070fd9bf8073b008efbc8203dbbc228d825d",
+    "bytes": 1629
+  },
+  {
+    "path": "configs/seasonal_exact_position_s4_e9.json",
+    "sha256": "ffa426d5979d601a883053f0fd155a2b958191cb67b5b6f410c76188c271a875",
+    "bytes": 1100
+  },
+  {
+    "path": "configs/conditional_mdn_s5_e3.json",
+    "sha256": "dbea6723e5ddc44ad56929c3485198569a4578e16f11bf5ab0f66610408d51a3",
+    "bytes": 1325
+  },
+  {
+    "path": "configs/markov_m1_iteration.json",
+    "sha256": "2f742ce86c15825094a80d2eea4afb7e8ec3c9870ed988f2256212e401897d6b",
+    "bytes": 1304
+  },
+  {
+    "path": "configs/markov_m1_neighbour.json",
+    "sha256": "a08b2e4fc5ce5e98a8d0af9664a1f82dd4c6535975f46fdaba5ddb7404d61103",
+    "bytes": 1243
+  },
+  {
+    "path": "configs/b2_b1_e2.json",
+    "sha256": "5bf82337a6df89befdb76c1568d26eae3d27298a9468d07f68940c5890fafa9d",
+    "bytes": 2096
+  },
+  {
+    "path": "configs/feature_review.csv",
+    "sha256": "6ca25584e082297e7a648af7a9a49fdf0ae501d7b420f9cc18baa41edfa37a03",
+    "bytes": 154692
+  },
+  {
+    "path": "configs/local_gmm_s5_e2.json",
+    "sha256": "6bb6a49e9684ec93f59a25b3dc07c7e78be28fd3242e65c05e9e8c11f1e0b754",
+    "bytes": 2054
+  },
+  {
+    "path": "configs/seasonal_information_s4_e3.json",
+    "sha256": "008e20911cc314e8e544bc87a3c407324247fe2f39a8d3ed1db4c6c9174197f6",
+    "bytes": 592
+  },
+  {
+    "path": "configs/spatial_borrowing_s3_e1.json",
+    "sha256": "eec62157814de3163cd9d6ef10361ba6d5940bd9f9709aec9794eefbd2c7c9d6",
+    "bytes": 2687
+  },
+  {
+    "path": "configs/markov_m1_vcat.json",
+    "sha256": "f66ed970002e7e69dfd458cb742360f9d39f5a9ef58427291316fb90c573d69c",
+    "bytes": 1163
+  },
+  {
+    "path": "configs/continuous_hourly.json",
+    "sha256": "00f5665ec5296b970eb5d2f767cc8a3e6d7b204cfe73d23ca02b4ff884233903",
+    "bytes": 1496
+  },
+  {
+    "path": "configs/drifter_shrinkage_e3.json",
+    "sha256": "9e5059ade1770402b8bb22ab7e150e2680031ae55569e6ff381640f7aad57557",
+    "bytes": 2300
+  },
+  {
+    "path": "configs/qualification_manifest.json",
+    "sha256": "5acc4f6ad27b220aaeb4d1c373f98e1ad35280f6aa4c962194dad6ad1b3100bb",
+    "bytes": 1194790
+  },
+  {
+    "path": "configs/local_endpoint_quality_s3_e3.json",
+    "sha256": "20ae171683a46f6dc1c26dd6ed724fb77017ea0e7b730a1528d8e064f40ccbe9",
+    "bytes": 2949
+  },
+  {
+    "path": "configs/exact_origin_s4_e7.json",
+    "sha256": "4e4022c059082e5d6ca105416c3b4838805624829270045451650297e8653ad5",
+    "bytes": 697
+  },
+  {
+    "path": "configs/departure_direction_s4_e4.json",
+    "sha256": "b80f7cdc716d08ad7becdc5432740d98c1002fa55a23ed07c3f3a4bd601df0b0",
+    "bytes": 687
+  },
+  {
+    "path": "configs/local_endpoint_adaptive_s3_e2.json",
+    "sha256": "8529fe7384481ae355f9a326e32bc16104b6d928835664419fc6b1a89b5db436",
+    "bytes": 2632
+  },
+  {
+    "path": "configs/markov_m1_position.json",
+    "sha256": "34066fe7be36ef7a3e4f2b02cfef154c913125393696ec928643d0f93f74eba0",
+    "bytes": 1148
+  },
+  {
+    "path": "configs/requirements.lock.txt",
+    "sha256": "7b065b3ecedd910c4fa6edd6ca857d2b5f245dd6efef7d876c8994ef21a9a1aa",
+    "bytes": 820
+  },
+  {
+    "path": "configs/conditional_gaussian_s5_e1.json",
+    "sha256": "51f0033634bdab9182b86d321304bd9ab1559626ff4fa9701025bcd03f137871",
+    "bytes": 1081
+  },
+  {
+    "path": "configs/dataset_index.csv",
+    "sha256": "9a2e465dcf836ebd0825907b1e89310a1ace8f4a6e87a470d203acedab0e657f",
+    "bytes": 601259
+  },
+  {
+    "path": "configs/empirical_b2.json",
+    "sha256": "ae6c6a6a5e5ffd6ddf064e3a9e5b156894199bf55b729bf1d1896ff0e3e3cddf",
+    "bytes": 1224
+  },
+  {
+    "path": "configs/temporal_validation_s4_e2.json",
+    "sha256": "db1668d2514f37c910ca71240370685bc924850b0821e99b8da7b9f1630cfb9f",
+    "bytes": 2123
+  },
+  {
+    "path": "configs/assets.json",
+    "sha256": "c46f2acacbe3dac27cf38601d1bdd23d895639c561b8bf651dd9ecc67a0a13cb",
+    "bytes": 32942
+  },
+  {
+    "path": "configs/python-version.txt",
+    "sha256": "f50159fad3f4319868eb38717b91d55843c41e9803014c8de05e116a6d0bcfdc",
+    "bytes": 8
+  },
+  {
+    "path": "configs/dataset_schema.json",
+    "sha256": "1a42a6f09e905c546bec1e0740ec0dfc11914d0fb9d310eec884ef2bfe79dcd7",
+    "bytes": 19992
+  },
+  {
+    "path": "configs/actual_origin_displacement_s3_e5.json",
+    "sha256": "e6c6731bab544b8b9064a4c268728416af96a5443c7b30d46b56884c02717e79",
+    "bytes": 2737
+  },
+  {
+    "path": "configs/dataset_manifest.json",
+    "sha256": "c71a7ac3d0230b7489bcfc417d4caceb26ffc1230644a11300a642d7812e041e",
+    "bytes": 2350900
+  },
+  {
+    "path": "configs/actual_origin_displacement_s3_e5_o1.json",
+    "sha256": "df8ba748a7d9c1108cdffc679cc0e9844ddea12e96e6ca23278d6be1482b67ea",
+    "bytes": 3163
+  },
+  {
+    "path": "configs/seasonal_conditioning_s4_e1.json",
+    "sha256": "7ca90799ef470b6cdd35d6a69844beab4d4685b4eca5d1294e327269c4272eb1",
+    "bytes": 1599
+  },
+  {
+    "path": "docs/local_gmm_s5_e2_score_optimization_plan.md",
+    "sha256": "19e8595046e4500ade5dfe27e69bce97bff4cd8cef5ba728f0e961ea815b692d",
+    "bytes": 3671
+  },
+  {
+    "path": "docs/drifter_shrinkage_e3_results.md",
+    "sha256": "b1ec2b77f303bab206ea974e9498eb9fa8825d2567cfb25cf6268858d27e3b68",
+    "bytes": 13335
+  },
+  {
+    "path": "docs/b2_grid_translation_contract.md",
+    "sha256": "c4c64782ed7ad7a33dc366fe6a971defb0b68c2b7b2f79534f58fd598a941fd7",
+    "bytes": 34520
+  },
+  {
+    "path": "docs/data_dictionary.md",
+    "sha256": "9ba9816177b664aa235256fb6fadd66c294f986c5e1a7ba83b104674fb43121a",
+    "bytes": 11148
+  },
+  {
+    "path": "docs/code_delivery_plan.md",
+    "sha256": "18d85dfe3324d52e8abdddfd9663cd6208dbabe00637c8e237e5b9c0767ac39c",
+    "bytes": 32498
+  },
+  {
+    "path": "docs/presentation_week10_plan.md",
+    "sha256": "7bbd1e52b7490a1bd592ae0720bc05203cd871d8217eb8dd4679b28db3ccfea0",
+    "bytes": 40855
+  },
+  {
+    "path": "docs/temporal_validation_evidence_review.md",
+    "sha256": "6809bba43d68abdd1a881edc006f62d49dd664cf225586bff6244fcb04abb391",
+    "bytes": 13549
+  },
+  {
+    "path": "docs/preprocessing.md",
+    "sha256": "b9430a00979a2fb3ca55b5c935caae93b266a7ef0952ce64207209ae6b934ce4",
+    "bytes": 14306
+  },
+  {
+    "path": "docs/local_endpoint_joint_s3_e4_plan.md",
+    "sha256": "cd3ab09fd39c74e807c2d20d9bbdc682f4e29f788628e7e84583be937aa94e26",
+    "bytes": 29341
+  },
+  {
+    "path": "docs/data_layout.md",
+    "sha256": "2e5b743a26de37e1612bf8f6d75d56539926cec554f8255ffb53aad55cf31ee6",
+    "bytes": 12777
+  },
+  {
+    "path": "docs/position_error_s4_e8_source_trace.md",
+    "sha256": "66590b304540c88ecaf7273561705e38e2c990bf9ed53397af054b12a6bb08bf",
+    "bytes": 11135
+  },
+  {
+    "path": "docs/sst_coastal_extension_plan.md",
+    "sha256": "128eab1425a194735a3c68d6cf520031c8cf468da03fda56fa4eb8db2b6ce7f7",
+    "bytes": 5915
+  },
+  {
+    "path": "docs/departure_direction_s4_e4_method.md",
+    "sha256": "21ced5c6c5af2ee765d7fccb92cadecc95e246231e800c5475f9b1bbe0feffe1",
+    "bytes": 8326
+  },
+  {
+    "path": "docs/seasonal_conditioning_s4_e1_contract_v1.md",
+    "sha256": "2cbff4361e95e4320c67c4a63a957078285b5aefa1c8ae26526771f12a714a77",
+    "bytes": 28341
+  },
+  {
+    "path": "docs/architecture.md",
+    "sha256": "b5b23d0a5f6df4695b886723f3cf4f33d306c90f70903d6b130394b4bb5748e8",
+    "bytes": 14158
+  },
+  {
+    "path": "docs/actual_origin_displacement_s3_e5_optimization_plan.md",
+    "sha256": "ebc4efbcb369c947e31a23e5544348762c3b2a9cf3a3e9f3c56c3af0c74c3f4c",
+    "bytes": 31746
+  },
+  {
+    "path": "docs/research_stage_ledger.md",
+    "sha256": "19a19c5f236323f162045aae3caaba580af91d3147a0ab806f032dbeec0a88c9",
+    "bytes": 27074
+  },
+  {
+    "path": "docs/sst_reconstruction_method_draft.md",
+    "sha256": "3d089815ab17d7b9c93a0a8d815b26320d3ae557c03229af3c7d6d7a00af5652",
+    "bytes": 12684
+  },
+  {
+    "path": "docs/adaptive_b2_b1_plan.md",
+    "sha256": "d20ca8eb0b3cc8173396814a85cde9b314e4be33758c6e58c353ea172c18db36",
+    "bytes": 16385
+  },
+  {
+    "path": "docs/sst_pilot_completion_plan.md",
+    "sha256": "d19dd7450133ecabbb88fefbc7503ce19d96b30c3e7c88c1d9fbb2eff391dd06",
+    "bytes": 4494
+  },
+  {
+    "path": "docs/modelling_round1_plan.md",
+    "sha256": "0b020881b1d7d85305b38afa5b51cb0aefc3c7fd89b1490c4765e437313d8058",
+    "bytes": 179202
+  },
+  {
+    "path": "docs/position_error_s4_e8_repair_plan.md",
+    "sha256": "7507b533679849f411cdab88b37e3ad72ed8a6b7c5d2492cac74139f6bf7230a",
+    "bytes": 16939
+  },
+  {
+    "path": "docs/markov_results.md",
+    "sha256": "4eca0e697e61de82f7625fecba4d21a7e1b4247c351fa387a8bd3a6d538bd98f",
+    "bytes": 13440
+  },
+  {
+    "path": "docs/local_endpoint_quality_s3_e3_plan.md",
+    "sha256": "d335a01107a43147994edbf33a1acb1a85b37fb46e82b5512d303d3c4ec7b515",
+    "bytes": 33120
+  },
+  {
+    "path": "docs/adaptive_b2_b1_results.md",
+    "sha256": "ec51b5be7d15d5ced55e84c89e59b9a8c38e80b8f2209089ddb0a2b37d8ba1c8",
+    "bytes": 10583
+  },
+  {
+    "path": "docs/exact_origin_s4_e7_plan_v1_superseded.md",
+    "sha256": "3cd4fda127a592333158b39ee18007352de9e0be5b4185dd5337029ac982d6af",
+    "bytes": 21350
+  },
+  {
+    "path": "docs/drogue_status_audit.md",
+    "sha256": "7d08069d796b766639b5a71f0d64f2bb4cf3c2c9f529941f43fe2795427fcd67",
+    "bytes": 10069
+  },
+  {
+    "path": "docs/b2_b1_e2_results.md",
+    "sha256": "3d97fd083e2c0c9bf2ae0cd6fd031b7a41fdb1858255d47d82874f182028dbc8",
+    "bytes": 9672
+  },
+  {
+    "path": "docs/seasonal_conditioning_s4_e1_contract.md",
+    "sha256": "de652a290b454eb2073e4ac1d2ca4ed35ebb59729443c74f445507989f558aaf",
+    "bytes": 26619
+  },
+  {
+    "path": "docs/position_error_s4_e8_contract_v1_superseded.md",
+    "sha256": "04caf82920c0fb2282bce1b58685892d8125fa469b5f6103fbb27b09db631256",
+    "bytes": 19696
+  },
+  {
+    "path": "docs/brolly_miron_transport_methods_review.md",
+    "sha256": "acfa7953f576486a249bb6b34c7328fa1afb2c5685654c582dd70714ff55a147",
+    "bytes": 12728
+  },
+  {
+    "path": "docs/conditional_mdn_s5_e4_contract.md",
+    "sha256": "1ce5b54029b51d4561676f374b2cdbe3d2f55e1d8de7406803d416f1604522b2",
+    "bytes": 5712
+  },
+  {
+    "path": "docs/hardware_source_recovery.md",
+    "sha256": "8002e79677d1e3c629853601b0d8cdf189d67fbdb45f13a93355d8ac39a74c6c",
+    "bytes": 5599
+  },
+  {
+    "path": "docs/partial_weighting_e4_results.md",
+    "sha256": "90decd75e3a1b4713db900af53d7bd50e2bb8ccbd9b06b175424ba08029e2b74",
+    "bytes": 14486
+  },
+  {
+    "path": "docs/exact_origin_s4_e7_plan.md",
+    "sha256": "c53be74c3dae0960f673ac3a0d79d5776c7f1ce5535587c2ef1edd631a686e75",
+    "bytes": 24615
+  },
+  {
+    "path": "docs/departure_direction_s4_e4_plan.md",
+    "sha256": "9d7ba6c59cdcfb50d5f8262cc102af3995324415c7e478ba8603d4498e86bb1e",
+    "bytes": 15221
+  },
+  {
+    "path": "docs/local_endpoint_joint_s3_e4_results.md",
+    "sha256": "99eca681baf71e1103972362d9326e0788cece6761b0376d6e88694fbe7d977a",
+    "bytes": 16376
+  },
+  {
+    "path": "docs/sst_anomaly_recovery_plan.md",
+    "sha256": "0b883f12094bb46e5778f0b855fa60d5a9d03de1133cd56da29c7072c636cb6f",
+    "bytes": 4155
+  },
+  {
+    "path": "docs/local_endpoint_adaptive_s3_e2_results.md",
+    "sha256": "594862ef34ff298609c879fc565e7b0cf0408bd6dccbd33d5033de0975fb10c1",
+    "bytes": 12601
+  },
+  {
+    "path": "docs/final_mdn_model.md",
+    "sha256": "f531cdc0eecc006b8f2ecf809b020e5480348ce6e5029ca66c26dd18a2839665",
+    "bytes": 5422
+  },
+  {
+    "path": "docs/actual_origin_displacement_s3_e5_plan.md",
+    "sha256": "67afaa77db68bb66e924741cda3c760188be96b4b1843aa78309df11bf4d3fe3",
+    "bytes": 58677
+  },
+  {
+    "path": "docs/departure_speed_s4_e5_plan.md",
+    "sha256": "3fd0f7a6680f1d0a8d19320be27e5eb9ebb2a78c611ba0be019582ae086c5f93",
+    "bytes": 14124
+  },
+  {
+    "path": "docs/seasonal_information_s4_e3_plan.md",
+    "sha256": "e41dcfb3116256ff307fea31df5f15f88349be2fbb7bd1b73cacf6027128e264",
+    "bytes": 15801
+  },
+  {
+    "path": "docs/drifter_shrinkage_e3_plan.md",
+    "sha256": "f7684a0fde10d252ad24057f8d380f55231b7889101784d657ac12584aa223df",
+    "bytes": 30185
+  },
+  {
+    "path": "docs/coastal_grounding_diagnostic_contract.md",
+    "sha256": "ae0c9687135aeacbed5dfa93fe91abf98c6f08a56284158abc73298d1d13680a",
+    "bytes": 25646
+  },
+  {
+    "path": "docs/seasonal_conditioning_s4_e1_plan.md",
+    "sha256": "b291f93f52627d0ae33e54bbd94ad0684e99ed2d181da2ef2b91d8af088c5787",
+    "bytes": 21432
+  },
+  {
+    "path": "docs/feature_review_batches09_10.md",
+    "sha256": "b15bf918a15611d310c9d15c4ddf6e19dcf4e6ab434a85fc4dc1371d012980be",
+    "bytes": 8642
+  },
+  {
+    "path": "docs/exact_origin_s4_e7_results.md",
+    "sha256": "838521588250f9fad9155a3d0a2c48a1c21b4b6fc87ab8f2ecccb69f6b327be7",
+    "bytes": 10303
+  },
+  {
+    "path": "docs/spatial_borrowing_s3_e1_plan.md",
+    "sha256": "6d42a5aff50a88b6e83e2d178f540423a925e163f9212171edeb231bb5563e22",
+    "bytes": 30666
+  },
+  {
+    "path": "docs/position_error_s4_e8_data_audit.md",
+    "sha256": "b7be2b3a999c8fe127e92c91fbbb0bae4658046408f843a0db5c660deef06730",
+    "bytes": 7210
+  },
+  {
+    "path": "docs/getting_started.md",
+    "sha256": "d6a8f3dd7e7ed9a49c83ed7dcf25bc064c683b72091275027e2dca9ed4c72344",
+    "bytes": 3829
+  },
+  {
+    "path": "docs/local_gmm_s5_e2_contract.md",
+    "sha256": "2b43e933c32a334bcd37a0305058c6399b655ec649969a60f1291c9441d9b9e3",
+    "bytes": 38586
+  },
+  {
+    "path": "docs/conditional_gaussian_s5_e1_contract.md",
+    "sha256": "a1e5da5b1dc10202b33ae76584ddd767f87368546b291192d88d7f68537cf5d4",
+    "bytes": 31567
+  },
+  {
+    "path": "docs/spatial_borrowing_s3_e1_results.md",
+    "sha256": "43d060f9caceec9da6e0d24f3d7917cda58399558aaefc49a9cb56f60d14216a",
+    "bytes": 16157
+  },
+  {
+    "path": "docs/feature_quality_audit_20261016.md",
+    "sha256": "1fa93c1b155878ecbc609f110ebc89c00ea267ad50d2c697c40a827fb5f415ce",
+    "bytes": 16771
+  },
+  {
+    "path": "docs/empirical_b2_plan.md",
+    "sha256": "71f83ee7c8abbee3e7a7978d1f160644968b3ba49ae21115a8fb669368bc24d6",
+    "bytes": 14228
+  },
+  {
+    "path": "docs/seasonal_conditioning_s4_e1_results.md",
+    "sha256": "bfe2bafce4f1a4c9224680318e33f3403b2708db30abfe6bc02adb9f85cc3f2a",
+    "bytes": 8416
+  },
+  {
+    "path": "docs/code_guide.md",
+    "sha256": "e74037471935678570a4b9e688115901191d9ee9296008a0569eaa22e921c93b",
+    "bytes": 39567
+  },
+  {
+    "path": "docs/local_endpoint_quality_s3_e3_results.md",
+    "sha256": "ce64eb858f47b5e0ba874a3f184587c86eeb1eac05d7678290b49277aac1aab4",
+    "bytes": 12893
+  },
+  {
+    "path": "docs/b2_b1_e2_plan.md",
+    "sha256": "1f343fe759d744622a4863f792ba593fa68afbed9bbcd43a28ea6c98ae63025d",
+    "bytes": 26572
+  },
+  {
+    "path": "docs/sst_sparse_completion_plan.md",
+    "sha256": "61eafc13335b0eac8bd9f729e7f29aa36139b66f1db58430d4d5f568ad314b6b",
+    "bytes": 5618
+  },
+  {
+    "path": "docs/local_endpoint_adaptive_s3_e2_plan.md",
+    "sha256": "941835a5c8f8391472a5a1f703d5334cf852429ef3585589ba92dbecf8abcf21",
+    "bytes": 26668
+  },
+  {
+    "path": "docs/temporal_validation_s4_e2_plan.md",
+    "sha256": "3adc3f101656712002d4d3f9dbac1aa346c464862852e58c5e84ae993ad896b2",
+    "bytes": 14391
+  },
+  {
+    "path": "docs/feature_review_batches10_11.md",
+    "sha256": "db52c72c72ecb8ec2f93d522f275d6f125aa7df7da19f5f3a8836f21b00102ce",
+    "bytes": 16056
+  },
+  {
+    "path": "docs/conditional_mdn_s5_e3_contract.md",
+    "sha256": "13f9a5f8cd17dc7f5de0fe1ee54cac87a9eeb9d5efdca00aae2bfd8a9521fea4",
+    "bytes": 32672
+  },
+  {
+    "path": "docs/drogue_boundary_audit.md",
+    "sha256": "2a67bd5b2a23f12adc7bbc0aadd97022080cf8b4518ef0369ecb36f8074e9065",
+    "bytes": 10241
+  },
+  {
+    "path": "docs/actual_origin_displacement_s3_e5_o1_results.md",
+    "sha256": "6d90eb75ccda6b0a0b537f51af6a85ce3961c9fc96f65b9de88f390cdfbc76ab",
+    "bytes": 7380
+  },
+  {
+    "path": "docs/seasonal_exact_position_s4_e9_es_optimization_plan.md",
+    "sha256": "8454b9c28cf62ae98ef12265846cc8340c259621ef3561031eeb7117d6613e7d",
+    "bytes": 25480
+  },
+  {
+    "path": "docs/departure_direction_s4_e4_results.md",
+    "sha256": "c8cb6ef02ac5c20300da4e4ab05a4aefba5b5873a64b552d2268d2fe1d4c0663",
+    "bytes": 5985
+  },
+  {
+    "path": "docs/data_migration_plan.md",
+    "sha256": "d291d613e1bf01716c692af30a54844ebea8267f057e175c932fc8285f18ae60",
+    "bytes": 7613
+  },
+  {
+    "path": "docs/seasonal_exact_position_s4_e9_contract.md",
+    "sha256": "dd6ba68f48359440b84fa2d4ba847925891ffed0f1ce96333034de16e9993f69",
+    "bytes": 34650
+  },
+  {
+    "path": "docs/seasonal_information_s4_e3_results.md",
+    "sha256": "609ac4606128df970163245361b24f3d33898f08fd8a292c7a348330022a804d",
+    "bytes": 8237
+  },
+  {
+    "path": "docs/actual_origin_displacement_s3_e5_o2_plan.md",
+    "sha256": "26afa2b4e0431d8ccda401cef832a08e2161fb557b5c894a6aee0770a814c2bb",
+    "bytes": 28703
+  },
+  {
+    "path": "docs/temporal_validation_s4_e2_results.md",
+    "sha256": "2b1be7b57b221f157cf038c4ac960d0875cd7f8e863c48fa66acb9a9340d2868",
+    "bytes": 15390
+  },
+  {
+    "path": "docs/actual_origin_displacement_s3_e5_results.md",
+    "sha256": "32e3e74d13dc9276a759210305d7df9bfd4ee6b9a31f7c387a36f85962ce4c81",
+    "bytes": 5150
+  },
+  {
+    "path": "docs/README_delivery_draft.md",
+    "sha256": "e9166ecb87cb621e43632f18a1db9ed6107dd0c1c5202efa9937d669bee8bb5a",
+    "bytes": 20463
+  },
+  {
+    "path": "docs/modelling_results.md",
+    "sha256": "03f591a0783e7e37df8673a4bf578c8c6ae7f274f7cdc1c33a6c99010fb8aaa9",
+    "bytes": 8300
+  },
+  {
+    "path": "docs/alongshore_wind_s4_e6_plan.md",
+    "sha256": "b91c38c0be696b44f22854709afd32d97e79b08da26661c060ae4c6100746657",
+    "bytes": 13655
+  },
+  {
+    "path": "docs/position_error_s4_e8_contract.md",
+    "sha256": "55c4c96b807421ea0647aa06029db91208901da9d4d1ab5db20ce5a6cd6a3e19",
+    "bytes": 29180
+  },
+  {
+    "path": "docs/time_environment_s4_architecture.md",
+    "sha256": "5ae86e7a9de5cef6c0edc1b47a9b95401f9c2c390d1c8dfdd7f373996cde8983",
+    "bytes": 32491
+  },
+  {
+    "path": "docs/baseline_presentation.md",
+    "sha256": "7e830272f265c60da5ca82dc0f54e880b10aada79721b993162cb9c8a44dc43d",
+    "bytes": 4621
+  },
+  {
+    "path": "docs/partial_weighting_e4_plan.md",
+    "sha256": "1f7ad37a16a335defa31c275688a4f019175859a3b125701cb8ea62ed937ae32",
+    "bytes": 25902
+  },
+  {
+    "path": "docs/empirical_b2_results.md",
+    "sha256": "c868087a29b69d1247565e2b075acfebc71853bd153eef3e2cba838bd4c0c6de",
+    "bytes": 16898
+  },
+  {
+    "path": "docs/transport_experiment_design_audit.md",
+    "sha256": "12bdeab2d8e5d66157e0b1715f28f9e16a9a1c4f54aa98b4cdfebfb38cdf5c8d",
+    "bytes": 12678
+  },
+  {
+    "path": "docs/contract/data_contract_v1.0_zh.xlsx",
+    "sha256": "80c0c27702b5265b2c4904e625e93fb338a071a684c0fcaff36a99004dd91b34",
+    "bytes": 21183
+  },
+  {
+    "path": "docs/contract/data_contract_v1.0.xlsx",
+    "sha256": "6cfa91471a1399a9c3a1a8edfeb2e18cea17e0f4031ef0f8ca604ca4565a2446",
+    "bytes": 20397
+  },
+  {
+    "path": "docs/plans/2026-11-09-mdn-k-refinement.md",
+    "sha256": "10718fced3549c1b8e2efd0efc3a376944bb18a9682ae89037f138bef0a2d04f",
+    "bytes": 1604
+  },
+  {
+    "path": "docs/images/where-things-end-up-likelihood.png",
+    "sha256": "4b020986865bcbaa5c59a6b5d99b29309102c6ce88d124d320c618e411006349",
+    "bytes": 1272937
+  },
+  {
+    "path": "docs/images/ocean-current-pathways.png",
+    "sha256": "9061bf4d271bcefa82a45310b2427c98c9d082f9ee32d3e3e143d8b752ef32ff",
+    "bytes": 812300
+  },
+  {
+    "path": "docs/images/preliminary-study-area.png",
+    "sha256": "b5e0051676299c8886342582c0bf5e7bedbf22a66a1df1232e45d96c1e5b7e29",
+    "bytes": 1675081
+  },
+  {
+    "path": "README.md",
+    "sha256": "3a88f3a98bbb8057b6fb9e87aa892267a569eb87037ba75357f0c91025e4c7d3",
+    "bytes": 5901
+  },
+  {
+    "path": "pyproject.toml",
+    "sha256": "565ed755be931306516160cbe671ed29492a38bd4073edb01b44569c0dfc87bc",
+    "bytes": 737
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "eb6e1c976c35e34e026b78b33f909fad09f8287763cdc82aaf1588d2b4d5554f",
+    "bytes": 2917
+  },
+  {
+    "path": ".gitattributes",
+    "sha256": "e034ccb5870298d3dc66bb218946f57488fd29c731f7319d860d8dd7e2500f13",
+    "bytes": 423
+  }
+]

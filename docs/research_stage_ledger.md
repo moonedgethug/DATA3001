@@ -16,7 +16,7 @@
 | S2 | Regularisation / Bayesian estimation | E1–E4 executed and audited; Fixed and Adaptive retained as research outcomes |
 | S3 | Spatial information | E1–E4 executed, audited and replayed; E5 exact-coordinate extension deferred |
 | S4 | Time / environmental conditioning | Seasonal review concluded. E4 heading comparison complete. E5 speed-only design under review. |
-| S5 | Continuous-space parametric estimation of transition distributions | Stage definition approved; first conditional Gaussian comparison under engineering review; not implemented |
+| S5 | Continuous-space parametric estimation of transition distributions | MDN22 final recommendation and MDN1 comparator approved on 10 November 2026; MDN K search closed and all 12 candidates frozen. Original contract findings retained. |
 
 ## S1 — Research plan v1 approved, 29 October 2026
 
@@ -180,3 +180,11 @@ The user accepted keeping E4 fixed and designing a speed-only comparison against
 - **First comparison requested:** conditional Gaussian with ExactPoint and EndpointCI controls; retain seven-day prediction, the existing 2001–2019 / 2020–2022 whole-ID temporal split and drifter-equal evaluation. The [E1 engineering proposal](conditional_gaussian_s5_e1_contract.md) states the recommended local Gaussian formulas, training, scoring, validation and acceptance terms for review.
 - **Boundary:** updating this stage and preparing the proposal are authorised. The detailed estimator, numerical/resource rules and implementation remain unapproved; no new model training or experiment has begun. Historical results and paused continuous-model work remain separate.
 - **Grid experiment disposition:** the user stopped the B2 grid-translation direction before formal scoring. Retain its [support diagnosis](../results/runs/b2_grid_translation_20261106T224126_700036Z/SUPPORT_REPORT.md) as incomplete feasibility evidence, not a negative forecast-quality result; no display-only grid experiment is substituted.
+
+## S5 | Final MDN choice and candidate freeze approved, 10 November 2026
+
+- **User decision:** adopt **MDN22 as the final recommended model**, retain **MDN1 as the comparator**, and stop further K search. This is a user-approved choice after reviewing development-validation tradeoffs.
+- **Evidence:** completed and independently audited E4 run `conditional_mdn_s5_e4_20261109T082930_653149Z`. MDN22: ES **128.245 km**, actual H90 **90.18%**, mean 90% area **184,803 km²**; compared with MDN16, ES is 0.42% lower, H90 is 0.56 percentage points higher, and area is 1.67% larger. These point estimates do not establish statistical significance or cross-period superiority.
+- **Original contract retained:** internal ES provisionally favoured K=3, its quality gate failed, and the prescribed fallback selected K=1. The original primary model's overall strict acceptance remained **false**. The final MDN22 recommendation does not rewrite or retrospectively pass that experiment.
+- **Freeze:** retain K = **1, 2, 3, 4, 6, 8, 12, 16, 18, 20, 22, 32**, including all saved parameters, predictions, scores and audits. Keep seven-day prediction, the original split, pair-equal NLL training and drifter-equal evaluation unchanged. The [final model record](final_mdn_model.md) identifies exact checkpoints and the sealed file inventory.
+- **Boundary:** no further K search, retraining, rescoring, final-test access or visualization is authorised by this closure. The 2020–2022 cohort remains repeatedly examined development validation. Other research/report tasks are not declared complete by this entry. The pre-amendment ledger is preserved in the freeze's `records_before` snapshot.

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Australia/Sydney",
+  "formal_entry": "VS Code project folder",
+  "automatic_setup_task_observed": true,
+  "project_interpreter_recommended": true,
+  "initial_kernel_confirmation_performed_by_assistant": true,
+  "vscode_first_cell_executed": true,
+  "vscode_first_cell_result": "Environment: ready; native libraries passed; native compiler passed",
+  "merged_configuration_cell_executed_in_project_python": true,
+  "python_version": "3.12.14",
+  "research_tasks_executed": false,
+  "fresh_machine_zero_confirmation_validated": false,
+  "notebook_configuration_cells": 1,
+  "notebook_code_cells": 42,
+  "controller_tests_passed": 8,
+  "user_settings_repair": {
+    "two_adjacent_json_objects_merged": true,
+    "settings_values_preserved": 28,
+    "original_copy": "/var/folders/74/vn4444390yz228_dvf81xjkh0000gn/T/data3001-vscode-settings-before-d6q9r78_.json"
+  },
+  "files": {
+    "code/run_experiments.ipynb": "81a10a51223af38fed6b10b419a782e934f90c5ef560a27ab9e2b22bf4d116d1",
+    ".vscode/settings.json": "c108a2657757f3532f926a918955800f8c631f4ba0fd040cfe7c1971f5594156",
+    ".vscode/extensions.json": "ae6d56fcebe02d2d807e77eaa1f5728077b2de72f57c4ef0ca06379fb6254aa0",
+    ".vscode/tasks.json": "380bb074c49bd16b03141628fe830c51825b17663b98f1dbeb4620827a8bd401"
+  }
+}

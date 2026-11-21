@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN" data-type="software">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071d2a"><meta name="page-type" content="software"><meta name="site-kind" content="software">
+  <title>Where Things End Up · 海洋视觉原型</title>
+  <meta name="description" content="一枚随波漂浮的浮标，一次从海面到南段湾流研究区域的镜头旅程。DATA3001视觉原型。">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.js"}}</script>
+</head>
+<body>
+  <main id="experience" aria-label="海洋与研究区域交互原型">
+    <div id="ocean" aria-label="三维海面与示意浮标"></div>
+    <div id="map" aria-label="南段湾流研究区域地图"></div>
+    <div class="shade" aria-hidden="true"></div>
+    <header class="masthead">
+      <a class="brand" href="#" aria-label="返回海面"><span class="brand-mark" aria-hidden="true">≈</span><span>WHERE THINGS<br>END UP</span></a>
+      <div class="edition">UNSW · DATA3001<span>OCEAN STUDY / 01</span></div>
+    </header>
+    <section class="story story-ocean" aria-labelledby="ocean-title">
+      <p class="eyebrow">SOUTHERN GULF STREAM</p>
+      <h1 id="ocean-title">一枚浮标，<br>一片海洋。</h1>
+      <p class="intro">从海面的起伏，走近我们的研究区域。</p>
+      <button class="primary" id="ascend">拉升至研究区域 <span aria-hidden="true">↗</span></button>
+    </section>
+    <section class="story story-map" aria-labelledby="map-title" inert>
+      <p class="eyebrow">OUR RESEARCH WINDOW</p>
+      <h2 id="map-title">南段湾流。<br>七天后，在哪里？</h2>
+      <p class="intro">青绿色边界为项目冻结的释放区域 R。<br>从一个起点，研究七天落点的概率分布。</p>
+      <button class="primary" id="descend">回到海面 <span aria-hidden="true">↙</span></button>
+      <div class="map-key"><i></i>研究区域 R <span>·</span> 地理边界来自项目文件</div>
+    </section>
+    <div class="scene-readout"><span class="readout-dot"></span><span id="scene-name">海面视角</span><span class="readout-rule"></span><span id="stage-number">01 / 02</span></div>
+    <footer class="controls">
+      <div class="disclosure" id="disclosure">视觉示意 · 非观测航迹或海况重现</div>
+      <div class="play-controls"><button id="pause" aria-label="暂停动画" title="暂停动画（空格）"><span id="pause-icon">Ⅱ</span><span id="pause-text">暂停</span></button><button id="replay" aria-label="重置回海面" title="重置回海面">↺<span>重置</span></button></div>
+      <div class="progress" aria-hidden="true"><i id="progress-fill"></i></div>
+    </footer>
+    <div id="loading" role="status"><div class="loader-ring"></div><span>正在进入海面</span></div>
+    <div id="error" hidden role="alert"><h2>这个浏览器暂时无法绘制三维海面</h2><p>可以切换到研究区域地图，或使用支持WebGL的浏览器重试。</p><button id="fallback-map">查看研究区域</button></div>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

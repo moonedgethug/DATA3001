@@ -1,0 +1,82 @@
+{
+  "figure": "W03-F2",
+  "date": "2026-11-19",
+  "sources": {
+    "release_R": {
+      "path": "work_place/archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson",
+      "sha256": "2ce35bd03e941e57f1c98130dbf069419503624626c36f4739e9c8dd94d0ad9a"
+    },
+    "transport_D": {
+      "path": "work_place/archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson",
+      "sha256": "57fcad5061e869e47f27b3a6f11041bd3e655ffd9dbab513e30473824b395da8"
+    },
+    "acquisition_envelope": {
+      "path": "work_place/archive/data_before_release_20261016/reference/acquisition/geometry/acquisition_envelope.geojson",
+      "sha256": "1fe9e2546fba57a37366f1c595df429f9577e83a0d425d0112330c4dabc88cbe"
+    },
+    "land_mask_intermediate": {
+      "path": "work_place/archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb",
+      "sha256": "386cf972d1cf2cf4a3645ad8c902a81d0e42d2fd01c47a1f9e292a3424f0bb73"
+    },
+    "region_data_audit.py": {
+      "path": "work_place/archive/region_screening_6h/region_data_audit.py",
+      "sha256": "0b7f175d233f5f038e82c6a9e0a2c18652145e55f5ad3d54f180f898952f38e7"
+    },
+    "gulf_stream_segment_audit.py": {
+      "path": "work_place/archive/region_screening_6h/gulf_stream_segment_audit.py",
+      "sha256": "d424ca9baff00343a89e241eb75a70952bca104269694a5eee0c475bc4df20b3"
+    }
+  },
+  "R_bounds": [
+    -81.0,
+    30.0,
+    -73.0,
+    35.5
+  ],
+  "D_bounds": [
+    -81.0,
+    20.0,
+    -8.0,
+    55.0
+  ],
+  "acquisition_bounds": [
+    -86.0,
+    15.0,
+    -3.0,
+    60.0
+  ],
+  "candidate_windows": {
+    "Southern Coastal Segment": [
+      -81.0,
+      30.0,
+      -73.0,
+      35.5
+    ],
+    "Cape Hatteras Separation": [
+      -77.375,
+      35.5,
+      -66.0,
+      38.5
+    ],
+    "Northern Offshore Extension": [
+      -73.875,
+      38.5,
+      -60.0,
+      42.5
+    ]
+  },
+  "data_use": "Saved geometry definitions only; no drifter trajectories or model predictions read",
+  "font": "Arial Unicode MS",
+  "crs": "WGS84 lon/lat; aspect adjusted to each panel's middle latitude",
+  "script_sha256": "290a51386b4502b2cccc2ad66f5d869fba68892c30d209e1a855c77fb4db7819",
+  "outputs": {
+    "figure_w03_region_and_domain_zh.png": {
+      "sha256": "baecab6ebd653b4e0a1946b10c9709b6c80d0008c73015cffe091aec744e49b4",
+      "bytes": 364436
+    },
+    "figure_w03_region_and_domain_zh.pdf": {
+      "sha256": "e9c563602803c88c1e62e5646c4c93404c6f0e856cc8d99cf37ba17b16cf553f",
+      "bytes": 659233
+    }
+  }
+}

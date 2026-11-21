@@ -1,0 +1,72 @@
+[
+  {
+    "asset": "hourly_subset",
+    "path": "data/raw/hourly_subset",
+    "canonical_source": "archive/data_before_release_20261016/raw/gdp_hourly_v2.01.1/hourly_subset_v2.01.1.zarr"
+  },
+  {
+    "asset": "source_objects",
+    "path": "data/raw/source_objects",
+    "canonical_source": "archive/data_before_release_20261016/raw/gdp_hourly_v2.01.1/source_objects"
+  },
+  {
+    "asset": "release_R",
+    "path": "data/reference/release_R.geojson",
+    "canonical_source": "archive/data_before_release_20261016/reference/acquisition/geometry/release_R.geojson"
+  },
+  {
+    "asset": "transport_D",
+    "path": "data/reference/transport_D.geojson",
+    "canonical_source": "archive/data_before_release_20261016/reference/preparation_v1/geometry/transport_D.geojson"
+  },
+  {
+    "asset": "acquisition_envelope",
+    "path": "data/reference/acquisition_envelope.geojson",
+    "canonical_source": "archive/data_before_release_20261016/reference/acquisition/geometry/acquisition_envelope.geojson"
+  },
+  {
+    "asset": "land_mask_high",
+    "path": "data/reference/land_mask_high.wkb",
+    "canonical_source": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_h_land.wkb"
+  },
+  {
+    "asset": "land_mask_intermediate",
+    "path": "data/reference/land_mask_intermediate.wkb",
+    "canonical_source": "archive/data_before_release_20261016/reference/preparation_v1/geometry/gshhg_i_land.wkb"
+  },
+  {
+    "asset": "state_index",
+    "path": "data/reference/state_index.parquet",
+    "canonical_source": "archive/data_before_release_20261016/reference/handover_20261013/geometry/state_index.parquet"
+  },
+  {
+    "asset": "development_folds",
+    "path": "data/reference/development_folds.csv",
+    "canonical_source": "archive/data_before_release_20261016/splits/preparation_v1/manifests_development_folds.csv"
+  },
+  {
+    "asset": "official_drogue_correction",
+    "path": "data/reference/official_drogue_correction.json",
+    "canonical_source": "archive/data_before_release_20261016/reference/drogue_status_20261016/official_attached_44_manifest.json"
+  },
+  {
+    "asset": "official_drogue_boundary",
+    "path": "data/reference/official_drogue_boundary.json",
+    "canonical_source": "archive/data_before_release_20261016/reference/drogue_boundary_20261016/manifest.json"
+  },
+  {
+    "asset": "drogue_boundary_development",
+    "path": "data/reference/drogue_boundary_development.parquet",
+    "canonical_source": "archive/data_before_release_20261016/processed/drogue_boundary_v1/regime_overlay.parquet"
+  },
+  {
+    "asset": "source_dictionary",
+    "path": "data/reference/source_dictionary.json",
+    "canonical_source": "archive/data_before_release_20261016/reference/acquisition/metadata/variable_dictionary.json"
+  },
+  {
+    "asset": "trajectory_context",
+    "path": "data/reference/trajectory_context.parquet",
+    "canonical_source": "archive/data_before_release_20261016/reference/preparation_v1/metadata/trajectory_context.parquet"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "contract_sha256": "1ce5b54029b51d4561676f374b2cdbe3d2f55e1d8de7406803d416f1604522b2",
+  "parent_engine_files": [
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3.py",
+      "parent_sha256": "da48715728e6cb02649149f70cbcc32445d33a4cef4a80f9754d946b4b612b26",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4.py",
+      "mechanical_sha256": "14f33c61a34cabc3c29a1d20b07245453af09e52ef65bd509b6aee6fbd4712e8"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_training.py",
+      "parent_sha256": "b0de50908e5c3732b17765f03e30be48d070a2beeaa0532c90d71c1bfb7ccf70",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_training.py",
+      "mechanical_sha256": "7febba7cdcfd41207bb7f59a5236d29c8627d6454049f7005768ca0b03b144ee"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inputs.py",
+      "parent_sha256": "ccfba2c412b335903f3138b79f30220f94c7b5978949180c722847d4cb8ea79c",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_inputs.py",
+      "mechanical_sha256": "99cc7f430032c871d8345979bd3c9a72fcfe20cf8b1267ee40e5b797bcbc86fa"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_runtime.py",
+      "parent_sha256": "2cf2ca2355adbaf0f9fe45b894993f77a2d3dad4b799515bfdbd5bd3bfe441c9",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_runtime.py",
+      "mechanical_sha256": "7ecc16a3bfb4bfaf0471613481a36819931be2bc0a9d1db96d86e224edb47898"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_numerics.py",
+      "parent_sha256": "0778e07757794d7ec9eaf6a9a4af28e50e49bc3500912c0327383c2f87a11745",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_numerics.py",
+      "mechanical_sha256": "f49fb2f01b023a50a137b7eb85c6f1db6f2178218ae3877c7d38203cbc59acbe"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_optimized.py",
+      "parent_sha256": "0fb78b3f383c8f30cdcb9a9fb6bcb323c85d3233fcc3373a5f33fe88e0d2e6a6",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_optimized.py",
+      "mechanical_sha256": "4cbc6464e6452d3083e8721144b20cd4b8ebeb3beaf5577c65cdefe4e944a005"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_selection.py",
+      "parent_sha256": "98df0b714d502722d8da8f90e63b361c2ba933a7245c1db6117acfff5d39f888",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_selection.py",
+      "mechanical_sha256": "f05622ba12fbb628961c38f04b563a2d85a9d080655b32a08cf2675c7b6a6cf7"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_training.py",
+      "parent_sha256": "9f74231ca9dcb3d9c1807e73094efcdc9d180e17166227872e89c9bd4422450e",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_training.py",
+      "mechanical_sha256": "ae5671fab907c570989989e22a2aeed2034b6e3ed85ccf2412f41b12d0fee678"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_scoring.py",
+      "parent_sha256": "196c39faf31b9d450a52520109723cc96ff9fc516021f2fec80aabe53d81ebfc",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_scoring.py",
+      "mechanical_sha256": "1bcb96b8d5aa7ec140fcb2db46fc635912ef5a0377f0d0998c9876e0c68352b3"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_context.py",
+      "parent_sha256": "06b2b62019e65de7a7d67b18189bb335e2a717ab0e8fa9147c3ace14ed63c352",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_context.py",
+      "mechanical_sha256": "acb3fafdaed83fd9a1b24a4c02e338ff2761834344983b2afa3dd2a1d2e8be63"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_pipeline.py",
+      "parent_sha256": "4933b9cca70695a87373bc3cd6b013cac5daf3c5df6fbda3c6c6e9bdc15b5f7b",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_pipeline.py",
+      "mechanical_sha256": "794eab826728acd73a1c20e64d676c4a1e47bc61c56b36cbbbe29e528255dc45"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_formal_audit.py",
+      "parent_sha256": "45b572fd6703474676d12bdc8b2d5f8d8034be8c6c89cc4a70dbbfd719ff53a3",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_formal_audit.py",
+      "mechanical_sha256": "0a450e755fa70a6d5922756a7417ec4e4f1f3acde9b2a31d2b875faace86dbb7"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_full_runtime.py",
+      "parent_sha256": "a82f7cb8f7967e69fdee9ddef4c2b62894792a01cca3774c37a0beb0d0684af3",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_full_runtime.py",
+      "mechanical_sha256": "4beb1d812b9a33ac8179fbbb253bc65cc16dd3a89d75fb5937c6151d99a0687a"
+    },
+    {
+      "parent": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e3_inference.py",
+      "parent_sha256": "5a280f38e9f2350911ab275bc9e844af9f6a885f25c62fb1d7284ba2175a8787",
+      "derived": "src/data3001/modelling/continuous_models/conditional_mdn_s5_e4_inference.py",
+      "mechanical_sha256": "3851805218f6a667043ed50a7eb5901c05fe89e558cfe2f743d595f1ff46a2b8"
+    }
+  ],
+  "preserved_rng_namespaces": [
+    "mdn_s5_e3_v1",
+    "mdn_s5_e3_stop_v1"
+  ],
+  "scope": "Mechanical E4 identity/registry derivative, followed by explicit tested reuse handling. Original E3 files remain unchanged."
+}
